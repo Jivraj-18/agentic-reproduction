@@ -1,0 +1,123 @@
+{
+  "paper": "A",
+  "citation": "Murphy AP et al. Natural history of limb girdle muscular dystrophy R9 over 6 years: searching for trial endpoints. Ann Clin Transl Neurol 2019;6(6):1033-1045. doi:10.1002/acn3.774",
+  "research_question": {
+    "id": "RQ",
+    "text": "Which functional assessments and MRI fat-fraction measures change detectably over 6 years in an LGMD R9 cohort, to inform outcome measures for future trials.",
+    "source_sentence": "The purpose of this study was to investigate various outcome measures in the previously recruited LGMD R9 cohort over 6 years.",
+    "gap": false
+  },
+  "setting": {
+    "id": "SET",
+    "population": "Participants with LGMD R9 (homozygous FKRP c.826C>A) from an earlier 1-year natural-history study, re-assessed about 6 years after their original visit.",
+    "period": "Baseline visits 2009-2011; follow-up as close to 6 years later as possible.",
+    "site": "Four centres: Newcastle upon Tyne (UK), London (UK), Copenhagen (Denmark), Paris (France).",
+    "source_sentence": "All available participants from the original study, running from 2009 to 2011,… were approached to undergo further functional assessments and quantitative MRI measurements as close to 6 years after the original measurements as possible.",
+    "gap": false
+  },
+  "data_sources": [
+    {
+      "id": "D1",
+      "name": "Dryad dataset doi:10.5061/dryad.f3r6799",
+      "summary": "Anonymised per-participant MRI measurements, physical function tests and clinical characteristics at baseline and 6-year follow-up.",
+      "source_sentence": "The anonymized MRI measurements, physical function tests and clinical characteristics will be made available via the Dryad data repository",
+      "gap": false
+    }
+  ],
+  "general_manipulations": [
+    {
+      "id": "M1",
+      "description": "Timed functional tests performed: 6-minute walk test, 10-m walk or run, timed up and go, stair ascend, stair descend, chair rise.",
+      "source_sentence": "Participants underwent a series of functional assessments, including: 6-min walk test (6MWT),…10-m walk or run,…timed up and go,…stair ascend, stair descend and chair rise.",
+      "gap": false
+    },
+    {
+      "id": "M2",
+      "description": "Myometry (hand-held, dominant side) for knee flexion, knee extension, hip abduction, hip adduction and ankle dorsiflexion, in kg.",
+      "source_sentence": "Myometry was performed on the dominant side using a hand-held myometer (Citec or Microfet) assessing: knee flexion, knee extension, hip abduction, hip adduction, and ankle dorsiflexion.",
+      "gap": true,
+      "gap_note": "Hip flexion is reported in Table 1 but is not among the myometry movements listed in the Methods."
+    },
+    {
+      "id": "M3",
+      "description": "Forced vital capacity expressed as % of predicted value for height.",
+      "source_sentence": "Forced vital capacity (FVC) was measured and expressed as a percentage of predicted value for height.",
+      "gap": true,
+      "gap_note": "Methods do not mention that FVC was measured both sitting and lying; Table 1 reports both positions."
+    },
+    {
+      "id": "M4",
+      "description": "Timed tests are expressed as velocities so that participants unable to perform can be included: 10-m walk/run = metres / time; stairs = 4 stairs / time; timed up and go = 6 m / time.",
+      "source_sentence": "To incorporate participants unable to perform assessments, results were expressed as a velocity (msec-1 or stairs/sec). For the 10-m walk or run, the number of meters was divided by the time taken, the number of stairs (four) was divided by stair ascend and descend times, and the 6 m were divided by timed up and go test time.",
+      "gap": true,
+      "gap_note": "The velocity assigned to a participant who cannot perform a test is not stated (zero is implied but not written)."
+    },
+    {
+      "id": "M5",
+      "description": "Chair rise is analysed as a time in seconds; participants unable to perform it are given 10,000 s so they rank last in the Wilcoxon test.",
+      "source_sentence": "For nonparametric testing of the chair rise time, where a participant was unable to perform a timed functional assessment, a value greater than the longest possible result (10,000s) was used to provide correct ranking.",
+      "gap": true,
+      "gap_note": "Says the 10,000 s value is used 'for nonparametric testing'. It does not say whether the same value is used when computing the chair-rise medians."
+    },
+    {
+      "id": "M6",
+      "description": "Missing data / analysis set: each Table 1 row reports how many participants had paired (baseline and follow-up) values for some rows.",
+      "source_sentence": "Paired values available in 17 participants.",
+      "gap": true,
+      "gap_note": "No missing-data rule is stated. Footnotes give paired counts for some rows (FVC sitting and chair rise: 17; FVC lying: 16; timed up and go, 10-m walk/run, stair ascent and descent: 22), but it is not said whether the medians use only participants with paired values or every available value at each visit. Rows without a footnote are presumably complete."
+    }
+  ],
+  "tables": [
+    {
+      "id": "T1",
+      "name": "Table 1",
+      "caption": "Table 1. The median change in functional assessments over the follow-up of 6 years.",
+      "row_labels": ["Forced vital capacity sitting (%)", "Forced vital capacity lying (%)", "Hip flexion (kg)", "Hip adduction (kg)", "Hip abduction (kg)", "Knee extension (kg)", "Knee flexion (kg)", "Ankle dorsiflexion (kg)", "Six-minute walk (meters)", "Timed up and go velocity (msec-1)", "Ten-meter walk or run velocity (msec-1)", "Stair ascent velocity (steps/sec)", "Stair descent velocity (steps/sec)", "Chair rise (sec)"],
+      "column_labels": ["Median baseline", "Median 6 years", "P value", "SRM"],
+      "table_specific_filters": [
+        {
+          "id": "F1",
+          "description": "Row footnotes on paired data: FVC sitting and chair rise -> 17 participants with paired values; FVC lying -> 16; timed up and go, 10-m walk/run, stair ascent, stair descent -> 22.",
+          "source_sentence": "Paired values available in 22 participants.",
+          "gap": false
+        },
+        {
+          "id": "F2",
+          "description": "Chair rise: participants unable to perform were given 10,000 s for the Wilcoxon test.",
+          "source_sentence": "Participants unable to perform the chair rise were given a value of 10,000 (effectively infinity) for the purposes of the Wilcoxon nonparametric rank signed test.",
+          "gap": false
+        }
+      ],
+      "specification": [
+        {
+          "id": "S1",
+          "description": "Descriptive statistics: median (and range) at baseline and at 6 years.",
+          "source_sentence": "Statistical analysis was performed using SPSS v24, with data presented as median and range unless otherwise indicated.",
+          "software": "SPSS v24",
+          "gap": false
+        },
+        {
+          "id": "S2",
+          "description": "P value: Wilcoxon signed-rank test comparing baseline and 6-year values.",
+          "source_sentence": "Statistical significance was calculated using the Wilcoxon test for nonparametric data.",
+          "software": "SPSS v24",
+          "gap": true,
+          "gap_note": "The Wilcoxon variant is not stated: exact or normal approximation, continuity correction, and handling of zero differences and ties. SPSS defaults to the asymptotic test."
+        },
+        {
+          "id": "S3",
+          "description": "Significance threshold; significant P values carry the marker 'a'.",
+          "source_sentence": "Statistical significance was taken to be P < 0.05.",
+          "gap": false
+        },
+        {
+          "id": "S4",
+          "description": "SRM = mean of paired differences over 6 years divided by the standard deviation of those differences.",
+          "source_sentence": "Standardized response means (SRM) were calculated for all outcome measures by taking the average of the paired difference over the 6 years divided by the standard deviation of these differences.",
+          "gap": true,
+          "gap_note": "The direction of the difference (follow-up minus baseline, or the reverse) and the SD denominator (n-1 or n) are not stated."
+        }
+      ]
+    }
+  ]
+}

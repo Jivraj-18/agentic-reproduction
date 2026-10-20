@@ -1,0 +1,135 @@
+{
+  "paper": "B",
+  "research_question": {
+    "id": "RQ",
+    "text": "Does co-expression of orexin receptors (OX1, OX2) change CB1/CB2 cannabinoid-receptor signalling (cAMP inhibition and βarrestin2 recruitment) in CHO-K1 cells?",
+    "source_sentence": "In this study, we explored how orexin receptors (OX1, OX2) altered the in vitro signaling of cannabinoid receptors (CB1, CB2) in Chinese hamster ovary (CHO)-K1 cells by quantifying cyclic adenosine monophosphate (cAMP) inhibition and βarrestin2 recruitment.",
+    "gap": false
+  },
+  "setting": {
+    "id": "SET",
+    "population": "CHO-K1 HitHunter (cAMP) and PathHunter (βarrestin2) cells stably expressing human CB1 or CB2, transiently transfected with OX1 or OX2 plasmid at 0.10, 0.25 or 0.50 µg; 0.00 µg = mock-transfected controls.",
+    "period": "Not stated.",
+    "site": "University of Saskatchewan (in vitro).",
+    "source_sentence": "HitHunter CHO-K1 cAMP cells and PathHunter CHO-K1 βarrestin2 cells were transfected with increasing amounts of OX1 or OX2 plasmid (0.10, 0.25, and 0.50µg).",
+    "gap": false
+  },
+  "data_sources": [
+    {
+      "id": "D1",
+      "name": "Dryad dataset doi:10.5061/dryad.0cfxpnwcq",
+      "summary": "Raw data for the cAMP inhibition and βarrestin2 recruitment assays.",
+      "source_sentence": "Raw data used for this study are available at the Dryad repository (DOI: 10.5061/dryad.0cfxpnwcq).",
+      "gap": false
+    }
+  ],
+  "general_manipulations": [
+    {
+      "id": "M1",
+      "description": "Agonist CP55,940 tested from 0.1 nM to 10 µM for 90 min at 37°C (cAMP assay also with 10 µM forskolin).",
+      "source_sentence": "Subsequently, cells were left untreated or treated with 0.1% DMSO in PBS containing 10µM FSK and 0.1nM to 10µM ligands for 90min at 37°C.",
+      "gap": false
+    },
+    {
+      "id": "M2",
+      "description": "Replication: at least n=4 independent experiments, each with 3 technical replicates per treatment.",
+      "source_sentence": "All assays were conducted with a minimum n=4 independent experiments as indicated in figure legends with 3 technical replicates per treatment per experiment.",
+      "gap": false
+    },
+    {
+      "id": "M3",
+      "description": "Exclusion: one experiment's 3 technical replicates were excluded study-wide for noted technical problems.",
+      "source_sentence": "In the whole of the study, 3 technical replicate datapoints from a single experiment were excluded because the experimenter noted technical issues in the execution of that experiment.",
+      "gap": true,
+      "gap_note": "Which experiment, assay and condition was excluded is not stated."
+    },
+    {
+      "id": "M4",
+      "description": "Normalisation: each concentration-response curve's raw data are divided by K, the mean Emin of that curve on that plate (so the curve's minimum response is 1, 'fold').",
+      "source_sentence": "For all concentration-response curves (CRC; Figures 2B,D, 3B,D, 4B,D, and 5B,D), raw data were transformed in GraphPad Prism using the formula \"Y=Y/K\" where 'K' represented the mean Emin observed for the CRC obtained from raw data in a single 96-well plate for that treatment group.",
+      "gap": true,
+      "gap_note": "'Emin' is not defined operationally (which concentration(s) count as the minimum response, and for an inhibition curve whether it is the lowest or the unstimulated end)."
+    }
+  ],
+  "tables": [
+    {
+      "id": "T1",
+      "name": "Table 1",
+      "caption": "TABLE 1 | CB1-dependent inhibition of cAMP and recruitment of βarrestin2 in CB1-OX1 cells.",
+      "row_labels": [
+        "[OX1] 0.00 µg",
+        "[OX1] 0.10 µg",
+        "[OX1] 0.25 µg",
+        "[OX1] 0.50 µg"
+      ],
+      "column_labels": [
+        "cAMP: pEC50 (nM)",
+        "cAMP: Emax (Fold)",
+        "cAMP: Hill slope",
+        "βarrestin2: pEC50 (nM)",
+        "βarrestin2: Emax (Fold)",
+        "βarrestin2: Hill slope"
+      ],
+      "table_specific_filters": [
+        {
+          "id": "F1",
+          "description": "Cells: CHO-K1 cells stably expressing CB1, transiently transfected with OX1 (0.00, 0.10, 0.25, 0.50 µg); agonist CP55,940.",
+          "source_sentence": "CHO cells stably expressing CB1 and transiently expressing OX1 were treated with 10µM FSK and 0.1nM—10µM CP55,940 for 90min to measure cAMP inhibition (A, B) or 0.1nM—10µM CP55,940 for 90min to measure βarrestin2 recruitment (C, D).",
+          "gap": false
+        }
+      ],
+      "specification": [
+        {
+          "id": "S1",
+          "description": "Software: GraphPad Prism 9.0.",
+          "source_sentence": "Statistical analyses were conducted using GraphPad Prism 9.0 (GraphPad Software Inc., San Diego, CA, USA).",
+          "software": "GraphPad Prism 9.0",
+          "gap": false
+        },
+        {
+          "id": "S2",
+          "description": "Curve model: variable-slope (4-parameter) log(agonist)-response regression; Hill slope constrained to 1 where noted.",
+          "source_sentence": "CRCs were fit using variable slope non-linear regression (i.e., 4-parameters) or the Hill slope was constrained to 1, where specifically noted.",
+          "software": "GraphPad Prism 9.0",
+          "gap": true,
+          "gap_note": "Not stated: whether one curve is fit to all experiments pooled or one curve per experiment and then averaged; which points enter the fit (technical replicates or per-experiment means); and the objective rule for deciding when a 4-parameter fit has failed and the slope should be constrained."
+        },
+        {
+          "id": "S3",
+          "description": "Parameters reported: pEC50 (with EC50 in nM in parentheses), Emax (fold), Hill slope.",
+          "source_sentence": "CRCs were used to estimate pEC50 and Emax values.",
+          "gap": true,
+          "gap_note": "Emax is not defined for an inhibition curve (lower plateau, upper plateau, or span). The column header 'pEC50 (nM)' mixes a unitless log value with a nM unit."
+        },
+        {
+          "id": "S4",
+          "description": "Uncertainty: values given as mean ± SEM.",
+          "source_sentence": "All values are expressed as the mean±the standard error of the mean (SEM) or 95% confidence interval (CI), as indicated.",
+          "gap": true,
+          "gap_note": "For fitted parameters it is not stated whether the ± is the SEM across independent experiments or the standard error of the curve-fit parameter."
+        },
+        {
+          "id": "S5",
+          "description": "Rule when potency cannot be estimated: report Emax as the mean of the greatest observed response and EC50 as a bound.",
+          "source_sentence": "If potency could not be estimated (i.e., …), then Emax is reported as the mean of the greatest response observed.",
+          "gap": true,
+          "gap_note": "Stated in the note to Table 2, not Table 1. The criterion for 'could not be estimated' is not operationalised."
+        },
+        {
+          "id": "S6",
+          "description": "Rule when a 4-parameter fit cannot estimate pEC50 and Hill slope: refit with Hill slope constrained to 1 and report that fit.",
+          "source_sentence": "When fit to a 4-parameter model, pEC50 and Hill Slope could not be accurately estimated, data in table are for a Hill Slope constrained to 1.",
+          "gap": true,
+          "gap_note": "'Could not be accurately estimated' is not defined. 'Constrained to 1' is ambiguous in sign for a downward (inhibition) curve."
+        },
+        {
+          "id": "S7",
+          "description": "Significance markers: one-way ANOVA with Tukey's post hoc test, comparing transfection groups to the group without OX1.",
+          "source_sentence": "Statistical analyses were by one-way ANOVA followed by Tukey's post hoc test.",
+          "gap": true,
+          "gap_note": "Not stated which values enter the ANOVA (per-experiment fitted parameters, or summary mean ± SEM and n). The table legend says the comparison is 'relative to CP55,940', which does not name a reference group."
+        }
+      ]
+    }
+  ]
+}

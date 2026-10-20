@@ -1,0 +1,53 @@
+{
+ "r1": {
+  "path_audit": {
+   "tool_calls": 9,
+   "accesses": 14,
+   "counts": {
+    "allowed": 14
+   },
+   "flagged": [],
+   "unreviewed": 0
+  },
+  "hardcoding": {
+   "numeric_literals": 10,
+   "matches": [],
+   "flagged": [],
+   "unreviewed": 0
+  }
+ },
+ "r2": {
+  "path_audit": {
+   "tool_calls": 8,
+   "accesses": 12,
+   "counts": {
+    "allowed": 12
+   },
+   "flagged": [],
+   "unreviewed": 0
+  },
+  "hardcoding": {
+   "numeric_literals": 10,
+   "matches": [],
+   "flagged": [],
+   "unreviewed": 0
+  }
+ },
+ "r3": {
+  "path_audit": {
+   "tool_calls": 8,
+   "accesses": 11,
+   "counts": {
+    "allowed": 11
+   },
+   "flagged": [],
+   "unreviewed": 0
+  },
+  "hardcoding": {
+   "numeric_literals": 19,
+   "matches": [],
+   "flagged": [],
+   "unreviewed": 0
+  }
+ }
+}

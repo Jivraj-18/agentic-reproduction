@@ -1,0 +1,120 @@
+{
+ "A_top_tested_conc": {
+  "log_M": -5.0,
+  "pec50_bound": "<5",
+  "ec50_bound_nM": ">10000"
+ },
+ "A_free4PL_all8": {
+  "bottom": 1.09199,
+  "se_bottom": 1.17038,
+  "top": 20.00754,
+  "se_top": 21.71797,
+  "pec50": 5.59575,
+  "se_pec50": 1.37124,
+  "ec50_nM": 2536.59069,
+  "hill": 1.08952,
+  "se_hill": 2.01059,
+  "n_y": 48,
+  "df": 44
+ },
+ "A_fitted_ec50_as_bound": {
+  "pec50_bound": "<5.5957",
+  "ec50_bound_nM": ">2537"
+ },
+ "A_half_observed_max_crossing": {
+  "log_M": -5.743723019254372,
+  "pec50_bound": "<5.7437",
+  "ec50_bound_nM": ">1804.2"
+ },
+ "A_fit_inside_tested_range": true,
+ "B_3PL_hill+1": {
+  "bottom": 0.97164,
+  "se_bottom": 0.03777,
+  "top": 0.68613,
+  "se_top": 0.02954,
+  "pec50": 7.96701,
+  "se_pec50": 0.33287,
+  "ec50_nM": 10.78917,
+  "hill": 1.0,
+  "se_hill": null,
+  "n_y": 24,
+  "df": 21,
+  "sse": 0.17483,
+  "plateau_at_high_conc": 0.68613,
+  "plateau_at_low_conc": 0.97164
+ },
+ "B_3PL_hill-1": {
+  "bottom": 0.68613,
+  "se_bottom": 0.02954,
+  "top": 0.97164,
+  "se_top": 0.03777,
+  "pec50": 7.96701,
+  "se_pec50": 0.33287,
+  "ec50_nM": 10.78918,
+  "hill": -1.0,
+  "se_hill": null,
+  "n_y": 24,
+  "df": 21,
+  "sse": 0.17483,
+  "plateau_at_high_conc": 0.68613,
+  "plateau_at_low_conc": 0.97164
+ },
+ "B_note": "With Hill=+1 the decreasing curve has Bottom (low-x end) > Top (high-x end), as in the authors' Prism tab (Bottom 0.9716, Top 0.6861, 'log(agonist) vs. response (three parameters)'). With Hill=-1 the same curve is returned with the plateau labels swapped.",
+ "B_free_hill_other_rows": {
+  "0.00": -1.703,
+  "0.10": -1.206,
+  "0.25": -0.773
+ },
+ "C_arr010_ec50_nM": 3077.87,
+ "C_arr010_rounding": {
+  "1sf": 3000.0,
+  "2sf": 3100.0,
+  "3sf": 3080.0,
+  "from_printed_pEC50_5.5": 3162.3,
+  "from_printed_pEC50_5.5_2sf": 3200.0
+ },
+ "C_published_vs_authors_ec50": {
+  "camp 0.00": {
+   "authors_nM": 1.49,
+   "2sf": 1.5,
+   "published": "1.5",
+   "matches_2sf": true
+  },
+  "camp 0.10": {
+   "authors_nM": 7.176,
+   "2sf": 7.2,
+   "published": "7.2",
+   "matches_2sf": true
+  },
+  "camp 0.25": {
+   "authors_nM": 12.44,
+   "2sf": 12.0,
+   "published": "12",
+   "matches_2sf": true
+  },
+  "camp 0.50 (3PL)": {
+   "authors_nM": 10.79,
+   "2sf": 11.0,
+   "published": "11",
+   "matches_2sf": true
+  },
+  "arr 0.10": {
+   "authors_nM": 3078.0,
+   "2sf": 3100.0,
+   "published": "3000",
+   "matches_2sf": false
+  },
+  "arr 0.25": {
+   "authors_nM": 961.4,
+   "2sf": 960.0,
+   "published": "960",
+   "matches_2sf": true
+  },
+  "arr 0.50": {
+   "authors_nM": 398.3,
+   "2sf": 400.0,
+   "published": "400",
+   "matches_2sf": true
+  }
+ }
+}

@@ -1,0 +1,44 @@
+n experiments 0.00 ug: cAMP=8 barr2=8
+n experiments 0.10 ug: cAMP=4 barr2=4
+n experiments 0.25 ug: cAMP=4 barr2=4
+n experiments 0.50 ug: cAMP=4 barr2=4
+cAMP 0.00 ug n=8 4PL p=[ 0.7937  1.0166 -8.827  -1.7023] se=[0.0331 0.0631 0.4543 3.5947] failed=True
+cAMP 0.10 ug n=4 4PL p=[ 0.5722  0.9773 -8.1441 -1.2065] se=[0.033  0.0545 0.2411 0.895 ] failed=False
+cAMP 0.25 ug n=4 4PL p=[ 0.5153  1.0143 -7.905  -0.7727] se=[0.0264 0.0369 0.1641 0.2218] failed=False
+cAMP 0.50 ug n=4 4PL p=[ 0.6933  0.9579 -7.9825 -7.1902] se=[3.13000000e-02 3.51000000e-02 2.33242300e+03 9.61027869e+05] failed=True
+   constrained fit (Hill=1): p=[ 0.9716  0.6861 -7.967 ] se=[0.0378 0.0295 0.3329]
+barr2 0.00 ug n=8 4PL p=[ 1.092  20.0075 -5.5957  1.0895] se=[ 1.1704 21.7171  1.3712  2.0107] failed=True
+   observed Emax=16.5415 +/- 4.6183; fitted pEC50 (not reported)=5.5957
+barr2 0.10 ug n=4 4PL p=[ 0.7295  5.6529 -5.5117  0.4059] se=[0.2628 3.1527 1.3936 0.2265] failed=True
+barr2 0.25 ug n=4 4PL p=[ 0.7273  5.6037 -6.0171  0.4607] se=[0.1025 0.625  0.2637 0.0778] failed=False
+barr2 0.50 ug n=4 4PL p=[ 0.8683  6.3791 -6.3997  0.6979] se=[0.0686 0.2081 0.0681 0.0616] failed=False
+ANOVA camp pec50 groups=['0.00', '0.10', '0.25', '0.50']: F p=0.3119; Tukey vs 0.00: 0.10: p=0.6379, 0.25: p=0.3985, 0.50: p=0.4568
+ANOVA camp emax groups=['0.00', '0.10', '0.25', '0.50']: F p=7.363e-05; Tukey vs 0.00: 0.10: p=0.001159, 0.25: p=0.0001085, 0.50: p=0.1398
+ANOVA camp hill groups=['0.00', '0.10', '0.25']: F p=0.9789; Tukey vs 0.00: 0.10: p=0.9936, 0.25: p=0.9778
+ANOVA arr pec50: reference group not estimable / too few groups; no stars
+ANOVA arr emax groups=['0.00', '0.10', '0.25', '0.50']: F p=0.1262; Tukey vs 0.00: 0.10: p=0.2441, 0.25: p=0.2408, 0.50: p=0.2969
+ANOVA arr hill groups=['0.00', '0.10', '0.25', '0.50']: F p=0.9886; Tukey vs 0.00: 0.10: p=0.9906, 0.25: p=0.9926, 0.50: p=0.9982
+
+Filled table:
+ox_000 {'camp_pec50': (8.827, ''), 'camp_pec50_se': (0.4543, ''), 'camp_ec50': (1.4895, ''), 'camp_emax': (0.7937, ''), 'camp_emax_se': (0.0331, ''), 'camp_hill': (-1.7023, ''), 'camp_hill_se': (3.5947, ''), 'arr_pec50': ('<5', ''), 'arr_pec50_se': ('N/A', ''), 'arr_ec50': ('>10000', ''), 'arr_emax': (16.5415, ''), 'arr_emax_se': (4.6183, ''), 'arr_hill': (1.0895, ''), 'arr_hill_se': (2.0107, '')}
+ox_010 {'camp_pec50': (8.1441, ''), 'camp_pec50_se': (0.2411, ''), 'camp_ec50': (7.1764, ''), 'camp_emax': (0.5722, '**'), 'camp_emax_se': (0.033, ''), 'camp_hill': (-1.2065, ''), 'camp_hill_se': (0.895, ''), 'arr_pec50': (5.5117, ''), 'arr_pec50_se': (1.3936, ''), 'arr_ec50': (3078.0348, ''), 'arr_emax': (5.6529, ''), 'arr_emax_se': (3.1527, ''), 'arr_hill': (0.4059, ''), 'arr_hill_se': (0.2265, '')}
+ox_025 {'camp_pec50': (7.905, ''), 'camp_pec50_se': (0.1641, ''), 'camp_ec50': (12.4451, ''), 'camp_emax': (0.5153, '***'), 'camp_emax_se': (0.0264, ''), 'camp_hill': (-0.7727, ''), 'camp_hill_se': (0.2218, ''), 'arr_pec50': (6.0171, ''), 'arr_pec50_se': (0.2637, ''), 'arr_ec50': (961.3793, ''), 'arr_emax': (5.6037, ''), 'arr_emax_se': (0.625, ''), 'arr_hill': (0.4607, ''), 'arr_hill_se': (0.0778, '')}
+ox_050 {'camp_pec50': (7.967, ''), 'camp_pec50_se': (0.3329, ''), 'camp_ec50': (10.7899, ''), 'camp_emax': (0.6861, ''), 'camp_emax_se': (0.0295, ''), 'camp_hill': (1.0, ''), 'camp_hill_se': ('N/A', ''), 'arr_pec50': (6.3997, ''), 'arr_pec50_se': (0.0681, ''), 'arr_ec50': (398.3392, ''), 'arr_emax': (6.3791, ''), 'arr_emax_se': (0.2081, ''), 'arr_hill': (0.6979, ''), 'arr_hill_se': (0.0616, '')}
+
+[sensitivity] cAMP: per-experiment 4PL fits, mean +/- SEM, ANOVA/Tukey on fitted params
+  0.00: pEC50 15.940+/-7.303  Emax 0.638+/-0.165  Hill -4.229+/-1.573
+  0.10: pEC50 8.334+/-0.132  Emax 0.569+/-0.051  Hill -2.651+/-1.878
+  0.25: pEC50 7.976+/-0.140  Emax 0.511+/-0.022  Hill -0.725+/-0.074
+  0.50: pEC50 8.167+/-0.277  Emax 0.693+/-0.022  Hill -5.633+/-2.757
+  Tukey vs 0.00 pEC50: 0.10: p=0.8004, 0.25: p=0.7779, 0.50: p=0.79
+  Tukey vs 0.00 Emax: 0.10: p=0.9833, 0.25: p=0.9095, 0.50: p=0.9915
+  Tukey vs 0.00 Hill: 0.10: p=0.9225, 0.25: p=0.5243, 0.50: p=0.9435
+
+[sensitivity] barr2: per-experiment 4PL fits, mean +/- SEM, ANOVA/Tukey on fitted params
+  0.00: pEC50 5.998+/-0.085  Emax 17.244+/-4.583  Hill 1.599+/-0.443
+  0.10: pEC50 4.634+/-0.944  Emax 8.463+/-2.242  Hill 0.395+/-0.066
+  0.25: pEC50 6.007+/-0.077  Emax 5.645+/-0.356  Hill 0.463+/-0.020
+  0.50: pEC50 6.397+/-0.032  Emax 6.389+/-0.206  Hill 0.700+/-0.019
+  Tukey vs 0.00 pEC50: 0.10: p=0.07273, 0.25: p=1, 0.50: p=0.8626
+  Tukey vs 0.00 Emax: 0.10: p=0.3907, 0.25: p=0.1789, 0.50: p=0.2236
+  Tukey vs 0.00 Hill: 0.10: p=0.1239, 0.25: p=0.1563, 0.50: p=0.3233

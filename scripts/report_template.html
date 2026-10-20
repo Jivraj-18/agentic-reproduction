@@ -1,0 +1,627 @@
+<title>Reproduction Scorecard</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: a sober journal-proof page. Narrow reading column for prose, full-width bands for tables. */
+:root {
+  --paper: #f7f8f9;
+  --sheet: #ffffff;
+  --ink: #1b2329;
+  --ink-2: #4a5761;
+  --ink-3: #74828c;
+  --rule: #d9dfe3;
+  --rule-2: #eceff1;
+  --accent: #1d5a73;
+  --accent-soft: #e3eef3;
+  --gap: #a35d00;
+  --gap-soft: #fdf3e2;
+  --g-a: #cfe9d4; --g-a-ink: #154d24;
+  --g-b: #e6f3d6; --g-b-ink: #3a5a12;
+  --g-c: #fbe7b5; --g-c-ink: #6b4a00;
+  --g-d: #f9cfa6; --g-d-ink: #7a3700;
+  --g-e: #f4b9b5; --g-e-ink: #7d1610;
+  --g-f: #e2e5e8; --g-f-ink: #4a5761;
+  --ok: #1e6b35; --bad: #a3231b;
+  --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+    --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+    --gap: #f0b45c; --gap-soft: #33280f;
+    --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+    --g-c: #4d3d10; --g-c-ink: #f7dd9a; --g-d: #573113; --g-d-ink: #f8c899;
+    --g-e: #5a1f1b; --g-e-ink: #f6bcb7; --g-f: #2c343a; --g-f-ink: #b2bec6;
+    --ok: #7fd396; --bad: #f2928a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+  --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+  --gap: #f0b45c; --gap-soft: #33280f;
+  --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+  --g-c: #4d3d10; --g-c-ink: #f7dd9a; --g-d: #573113; --g-d-ink: #f8c899;
+  --g-e: #5a1f1b; --g-e-ink: #f6bcb7; --g-f: #2c343a; --g-f-ink: #b2bec6;
+  --ok: #7fd396; --bad: #f2928a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); border-bottom: 1px solid var(--rule); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding-block: 10px; }
+.brand { font: 600 15px/1.2 var(--serif); letter-spacing: .01em; }
+.brand span { color: var(--ink-3); font: 400 13px var(--sans); margin-left: 8px; }
+nav.tabs { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.tabs button { font: 500 14px var(--sans); color: var(--ink-2); background: none; border: 1px solid transparent; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+nav.tabs button:hover { background: var(--rule-2); }
+nav.tabs button[aria-selected="true"] { color: var(--accent); background: var(--accent-soft); border-color: var(--rule); }
+main { padding-block: 28px 64px; }
+section.band { margin-top: 40px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(22px, 2.6vw, 30px); line-height: 1.2; }
+h2 { font-size: 21px; line-height: 1.3; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h2 .sub { font: 400 14px var(--sans); color: var(--ink-3); }
+h3 { font-size: 17px; }
+.eyebrow { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.prose { max-width: 70ch; }
+.prose p { margin: .6em 0; }
+.muted { color: var(--ink-3); }
+.small { font-size: 13px; }
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.grid2 > *, .grid3 > * { min-width: 0; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+/* grade chips */
+.g { border-radius: 4px; padding: 1px 4px; font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gA { background: var(--g-a); color: var(--g-a-ink); } .gB { background: var(--g-b); color: var(--g-b-ink); }
+.gC { background: var(--g-c); color: var(--g-c-ink); } .gD { background: var(--g-d); color: var(--g-d-ink); }
+.gE { background: var(--g-e); color: var(--g-e-ink); } .gF { background: var(--g-f); color: var(--g-f-ink); }
+.gN { color: var(--ink-3); }
+.pill { display: inline-flex; align-items: center; gap: 6px; font: 600 12px var(--sans); padding: 2px 8px; border-radius: 999px; border: 1px solid var(--rule); white-space: nowrap; }
+.pill.ok { color: var(--ok); } .pill.bad { color: var(--bad); }
+.pill.gap { color: var(--gap); background: var(--gap-soft); border-color: transparent; }
+.pill.cat { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
+/* headline */
+.paper-head > *, .stack > *, .sheet, .prose { min-width: 0; }
+.paper-head { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 900px) { .paper-head { grid-template-columns: 1fr; } }
+.meta-dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; margin: 14px 0 0; font-size: 14px; }
+.meta-dl dt { color: var(--ink-3); } .meta-dl dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.score-big { font: 600 28px/1.15 var(--serif); letter-spacing: .01em; }
+.score-big .sep { color: var(--ink-3); font-weight: 400; margin: 0 .2em; }
+.bar { display: flex; height: 14px; border-radius: 4px; overflow: hidden; margin: 12px 0; border: 1px solid var(--rule); }
+.bar span { display: block; height: 100%; }
+.kv { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; font-size: 14px; }
+.kv dt { color: var(--ink-2); } .kv dd { margin: 0; text-align: right; min-width: 0; overflow-wrap: anywhere; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+/* isolation */
+.iso-list { margin: 8px 0 0; padding-left: 18px; } .iso-list li { margin: 3px 0; }
+.audit { display: flex; flex-direction: column; gap: 8px; }
+.audit .head { display: flex; justify-content: space-between; gap: 8px; align-items: center; flex-wrap: wrap; }
+.audit .fig { font: 600 22px var(--serif); }
+/* methods */
+.mitem { display: grid; grid-template-columns: 64px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--rule-2); }
+.mitem:first-child { border-top: 0; }
+@media (max-width: 820px) { .mitem { grid-template-columns: 1fr; gap: 6px; } }
+.mid { font: 600 13px var(--mono); color: var(--ink-2); }
+.mid small { display: block; font: 400 11px var(--sans); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; margin-top: 2px; }
+blockquote.src { margin: 0; padding: 0 0 0 12px; border-left: 2px solid var(--rule); font: italic 14px/1.5 var(--serif); color: var(--ink-2); }
+.mitem.isgap blockquote.src { border-left-color: var(--gap); }
+.gapnote { margin-top: 8px; padding: 8px 10px; background: var(--gap-soft); border-radius: 6px; font-size: 13.5px; }
+.gapnote b { color: var(--gap); }
+details.assume { margin-top: 12px; }
+details.assume summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+details.assume pre { white-space: pre-wrap; font: 12.5px/1.5 var(--mono); background: var(--rule-2); padding: 12px; border-radius: 6px; max-height: 380px; overflow: auto; }
+/* scorecard */
+.sc-controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; margin: 12px 0; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: 500 13px var(--sans); border: 0; background: var(--sheet); color: var(--ink-2); padding: 6px 12px; cursor: pointer; border-left: 1px solid var(--rule); }
+.seg button:first-child { border-left: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--sheet); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12.5px; color: var(--ink-2); }
+.legend span.g { margin-right: 4px; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.pair.wide { grid-template-columns: 1fr; }
+@media (max-width: 1000px) { .pair { grid-template-columns: 1fr; } }
+.tscroll { overflow-x: auto; background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; min-width: 0; }
+.tlabel { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); margin-bottom: 6px; }
+table.pt { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+table.pt th, table.pt td { padding: 5px 8px; text-align: left; vertical-align: baseline; white-space: nowrap; }
+table.pt thead th { font-weight: 600; border-bottom: 1px solid var(--ink-3); color: var(--ink-2); }
+table.pt thead tr.grp th { border-bottom: 1px solid var(--rule); text-align: center; font-family: var(--serif); }
+table.pt tbody tr { border-bottom: 1px solid var(--rule-2); }
+table.pt tbody tr:last-child { border-bottom: 1px solid var(--ink-3); }
+table.pt td.rl { color: var(--ink); white-space: normal; min-width: 150px; }
+table.pt td.v { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.cellnum { cursor: help; }
+.cellnum sup { font-size: 9px; margin-left: 1px; }
+.tip { position: fixed; z-index: 20; max-width: 340px; background: var(--sheet); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.18); padding: 10px 12px; font-size: 13px; pointer-events: none; }
+.tip h4 { margin: 0 0 6px; font: 600 13px var(--sans); }
+.tip table { border-collapse: collapse; width: 100%; }
+.tip td { padding: 2px 6px 2px 0; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.tip td:first-child { font-family: var(--sans); color: var(--ink-3); }
+/* why */
+.rc { border-top: 1px solid var(--rule); padding-top: 18px; margin-top: 18px; }
+.rc:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+.rc-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.wording { margin: 12px 0; padding: 12px 14px; border-radius: 6px; background: var(--accent-soft); font: 15px/1.5 var(--serif); }
+.wording .eyebrow { display: block; margin-bottom: 4px; color: var(--accent); }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; margin-top: 12px; }
+.card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.card .ch { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.card .ch b { font-size: 14px; }
+.card .vals { font-family: var(--mono); font-size: 14px; }
+.card .lbl { font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.card p { margin: 0; font-size: 13.5px; }
+.card code { font: 12px/1.45 var(--mono); background: var(--rule-2); padding: 6px 8px; border-radius: 4px; display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; font-size: 13px; }
+/* overview */
+.flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin-top: 16px; }
+@media (max-width: 820px) { .flow { grid-template-columns: 1fr 1fr; gap: 12px 0; } }
+@media (max-width: 480px) { .flow { grid-template-columns: 1fr; } }
+.step { padding: 14px 16px; border-left: 1px solid var(--rule); }
+.step:first-child { border-left: 0; padding-left: 0; }
+@media (max-width: 820px) { .step { border-left: 0; padding-left: 0; } }
+.step .n { font: 600 12px var(--mono); color: var(--accent); }
+.step h3 { margin: 4px 0 6px; font-size: 16px; }
+.step p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.pcard { cursor: pointer; text-align: left; font: inherit; color: inherit; }
+.pcard:hover { border-color: var(--accent); }
+ul.caveats { padding-left: 18px; margin: 8px 0 0; } ul.caveats li { margin: 4px 0; }
+footer { color: var(--ink-3); font-size: 12.5px; padding-block: 24px 40px; border-top: 1px solid var(--rule); }
+@media (prefers-reduced-motion: no-preference) { .tabpanel { animation: fade .18s ease-out; } @keyframes fade { from { opacity: .4; } to { opacity: 1; } } }
+</style>
+
+<header class="top"><div class="wrap">
+  <div class="brand">Agentic reproduction<span>two Wiley papers, one table each</span></div>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-method" aria-controls="panel-method" aria-selected="true">Method</button>
+    <button role="tab" id="tab-A" aria-controls="panel-A" aria-selected="false">Paper A · Neurology</button>
+    <button role="tab" id="tab-B" aria-controls="panel-B" aria-selected="false">Paper B · Pharmacology</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <div class="tabpanel" id="panel-method" role="tabpanel" aria-labelledby="tab-method"></div>
+  <div class="tabpanel" id="panel-A" role="tabpanel" aria-labelledby="tab-A" hidden></div>
+  <div class="tabpanel" id="panel-B" role="tabpanel" aria-labelledby="tab-B" hidden></div>
+</main>
+<footer><div class="wrap">Cached results from a blind reproduction run. Nothing on this page is computed live. Grades come from a deterministic script, not from a language model. Root-cause attributions are model judgements, checked by re-running the alternative readings described on each card.</div></footer>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const GR = ["A","B","C","D","E","F"];
+const GRADE_TEXT = {A:"≤ 2%", B:"2–20%", C:"20–40%", D:"40–60%", E:"> 60% or sign flipped", F:"no number produced"};
+const RUN_LABEL = {r1:"Run 1", r2:"Run 2", r3:"Run 3", med:"Median of 3 runs"};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const h = (strings, ...vals) => strings.reduce((a, s, i) => a + s + (i < vals.length ? vals[i] : ""), "");
+const fmtDev = d => d == null ? "–" : (d === Infinity ? "∞" : (d < 0.05 ? "0%" : d.toFixed(d < 10 ? 1 : 0) + "%"));
+const sig = u => u == null ? "–" : (Math.abs(u) >= 1000 ? u.toFixed(0) : Number(u.toPrecision(4)).toString());
+
+
+/* Numbers in prose are shown the way a reader would read them: two decimals; two significant figures below 0.1 (P values). */
+function roundText(t) {
+  return String(t ?? "").replace(/(?<![\w.])(-?)(\d+)\.(\d{3,})(?![\d])/g, (m, sgn, ip, fp) => {
+    const x = Number(`${ip}.${fp}`);
+    let r = x >= 100 ? x.toFixed(0) : x >= 0.1 ? x.toFixed(2) : Number(x.toPrecision(2)).toString();
+    return (sgn ? "−" : "") + r;
+  });
+}
+const tx = t => esc(roundText(t));
+function likePub(u, pub) {
+  if (u == null) return "–";
+  const m = String(pub ?? "").match(/\.(\d+)$/);
+  const dec = m ? m[1].length : 0;
+  const x = Math.round(u * 10 ** 9) / 10 ** 9;
+  return x.toFixed(dec).replace(/^-/, "−");
+}
+
+function distText(dist) {
+  return GR.filter(g => dist[g]).map(g => `<span>${dist[g]} ${g}</span>`).join('<span class="sep">·</span>');
+}
+function distBar(dist) {
+  const n = GR.reduce((a, g) => a + (dist[g] || 0), 0);
+  return `<div class="bar" role="img" aria-label="${GR.filter(g=>dist[g]).map(g=>dist[g]+' '+g).join(', ')}">` +
+    GR.filter(g => dist[g]).map(g => `<span class="g${g}" style="width:${100*dist[g]/n}%" title="${dist[g]} ${g}"></span>`).join("") + `</div>`;
+}
+function legend() {
+  return `<div class="legend">` + GR.map(g => `<span><span class="g g${g}">${g}</span>${GRADE_TEXT[g]}</span>`).join("") + `</div>`;
+}
+const frac = (a) => `${a[0]} / ${a[1]}`;
+const pct = (a) => a[1] ? Math.round(100*a[0]/a[1]) + "%" : "–";
+
+/* ---------- Method tab ---------- */
+function renderMethod() {
+  const P = DATA.papers;
+  const card = (pid) => {
+    const p = P[pid], s = p.summary;
+    return `<button class="sheet pcard stack" data-go="${pid}">
+      <div class="eyebrow">Paper ${pid} · ${esc(p.meta.field)}</div>
+      <h3>${esc(p.meta.journal)}</h3>
+      <div class="muted small">${esc(p.meta.table.split(/[.|]/)[0].trim())} · ${s.n_cells_graded} graded cells · 3 independent runs</div>
+      <div class="score-big">${distText(s.median_cell_grades)}</div>
+      ${distBar(s.median_cell_grades)}
+      <dl class="kv">
+        <dt>Sign agrees</dt><dd>${frac(s.sign_match)}</dd>
+        <dt>Within 20% of published</dt><dd>${frac(s.within_20pct_consensus)}</dd>
+        ${s["within_1.96se_consensus"][1] ? `<dt>Inside published ± 1.96 SE</dt><dd>${frac(s["within_1.96se_consensus"])}</dd>` : ""}
+        <dt>Same grade in all 3 runs</dt><dd>${frac(s.runs_same_grade_cells)}</dd>
+      </dl>
+    </button>`;
+  };
+  document.getElementById("panel-method").innerHTML = h`
+  <div class="prose">
+    <div class="eyebrow">The method</div>
+    <h1>Read the Methods, rebuild the table, grade every cell</h1>
+    <p>Coding agents are given only a paper's extracted Methods and its original data, never the code, the results or the paper itself. They rebuild each results table, a script grades every cell against the published value, and a model traces each discrepancy to a root cause. This tests whether the Methods, as written, are enough to reproduce the results.</p>
+    <p>Here the method is applied to two Wiley papers in clinical neurology and pharmacology, one results table each.</p>
+  </div>
+  <div class="flow" aria-label="Pipeline steps">
+    <div class="step"><div class="n">Step 1</div><h3>Extract</h3><p>Methods become a structured spec. Each item quotes its source sentence, and open decisions are flagged as gaps. The target table is blanked into an empty template.</p></div>
+    <div class="step"><div class="n">Step 2</div><h3>Reimplement</h3><p>A Claude Code agent sees only the spec, the template and the Dryad data. It writes one script, records its own choices, and runs three times from a fresh start.</p></div>
+    <div class="step"><div class="n">Step 3</div><h3>Grade</h3><p>A deterministic script compares every cell with the published value and scores it A–F on % deviation and sign.</p></div>
+    <div class="step"><div class="n">Step 4</div><h3>Explain</h3><p>Each miss is traced to code, spec item and source sentence, then tested by re-running an alternative reading of the Methods.</p></div>
+  </div>
+  <section class="band">
+    <h2>Results <span class="sub">grade per cell, median across 3 runs</span></h2>
+    <div class="grid2" style="margin-top:14px">${card("A")}${card("B")}</div>
+    <div style="margin-top:14px">${legend()}</div>
+  </section>
+  <section class="band grid2">
+    <div class="sheet">
+      <h3>How this run was set up</h3>
+      <ul class="caveats small">
+        <li>Four steps, a fixed A–F grading scale, three isolation audits, and three independent reruns of every table.</li>
+        <li><b>No original code.</b> Neither paper deposited analysis code, so a miss cannot be checked against what the authors actually ran. An error counts as <i>underspecified</i> only if the Methods item is a flagged gap <i>and</i> re-running a different reasonable reading moves the cell to the published value.</li>
+        <li><b>Answers stripped from the data.</b> Paper B's Dryad workbook also contains the authors' GraphPad Prism fit outputs, which are the published values. Only the raw concentration–response tabs went into the sandbox.</li>
+        <li>Each item in the spec quotes its sentence from the PDF, a demo addition so every choice is traceable.</li>
+      </ul>
+    </div>
+    <div class="sheet">
+      <h3>Caveats</h3>
+      <ul class="caveats small">
+        <li>Evaluations of this kind are usually run on papers already known to be reproducible, which flatters the headline numbers.</li>
+        <li>Results vary across reruns; this page shows all three runs, not the best one.</li>
+        <li>Root-cause attributions are model judgements, not yet validated against human reviewers.</li>
+        <li>Two papers and two tables. This shows the method; it is not a benchmark.</li>
+      </ul>
+    </div>
+  </section>`;
+  document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => selectTab(b.dataset.go)));
+}
+
+/* ---------- Paper tab ---------- */
+function cellLabel(p, key) {
+  const [rid, cid] = key.split("|");
+  const row = p.rows.find(r => r.id === rid);
+  const col = { med_b:"Median baseline", med_f:"Median 6 years", p:"P value", srm:"SRM",
+    camp_pec50:"cAMP pEC50", camp_pec50_se:"cAMP pEC50 ±", camp_ec50:"cAMP EC50 (nM)", camp_emax:"cAMP Emax", camp_emax_se:"cAMP Emax ±",
+    camp_hill:"cAMP Hill slope", camp_hill_se:"cAMP Hill slope ±", arr_pec50:"βarrestin2 pEC50", arr_pec50_se:"βarrestin2 pEC50 ±",
+    arr_ec50:"βarrestin2 EC50 (nM)", arr_emax:"βarrestin2 Emax", arr_emax_se:"βarrestin2 Emax ±", arr_hill:"βarrestin2 Hill slope", arr_hill_se:"βarrestin2 Hill slope ±" }[cid] || cid;
+  return `${row ? row.label : rid} · ${col}`;
+}
+
+function shownValue(c, view) {
+  if (!c.graded) {
+    const r = view === "med" ? null : c.runs[view];
+    return { text: c.pub == null ? "" : "", grade: null };
+  }
+  const r = view === "med" ? c.med : c.runs[view];
+  const g = view === "med" ? c.mg : r.g;
+  if (!r) return { text: "–", grade: "F" };
+  let text;
+  if (r.v == null) text = (r.raw == null || r.raw === "") ? "—" : roundText(String(r.raw));
+  else if (typeof r.raw === "string" && /^[<>]/.test(r.raw)) text = roundText(r.raw);
+  else if (/^[<>]/.test(String(c.pub)) && r.u != null &&
+           (String(c.pub)[0] === "<" ? r.u < Number(String(c.pub).slice(1)) : r.u > Number(String(c.pub).slice(1))))
+    text = String(c.pub);  // satisfies the published bound: print it the way the paper does
+  else {
+    const dec = (String(c.pub).split(".")[1] || "").length;
+    text = Number(r.v).toFixed(dec);
+  }
+  return { text: text.replace(/^-/, "−"), grade: g };
+}
+
+function renderTable(pid, which, view) {
+  const p = DATA.papers[pid], L = p.meta.layout;
+  const hasGroups = L.some(g => g.group);
+  let head = "";
+  if (hasGroups) head += `<tr class="grp"><th></th>${L.map(g => `<th colspan="${g.cols.length}">${esc(g.group)}</th>`).join("")}</tr>`;
+  head += `<tr><th>${esc(p.meta.row_head)}</th>${L.flatMap(g => g.cols).map(c => `<th>${esc(c.label)}</th>`).join("")}</tr>`;
+  const body = p.rows.map(r => {
+    const tds = L.flatMap(g => g.cols).map(col => {
+      // Drop " ± {x}" or " ({x})" parts whose cell was not printed in the original
+      let fmt = col.fmt;
+      fmt = fmt.replace(/ ± \{(\w+)\}/g, (m, k) => p.cells[`${r.id}|${k}`].pub == null ? "" : m);
+      fmt = fmt.replace(/ \(\{(\w+)\}\)/g, (m, k) => p.cells[`${r.id}|${k}`].pub == null ? "" : m);
+      const html = esc(fmt).replace(/\{(\w+)\}/g, (m, k) => {
+        const key = `${r.id}|${k}`, c = p.cells[key];
+        if (which === "pub") {
+          const t = String(c.pub ?? "").replace(/^-/, "−");
+          const st = c.pstars && c.pstars !== "" ? `<sup>${esc(c.pstars)}</sup>` : "";
+          const mk = c.mark ? `<sup>${esc(c.mark)}</sup>` : "";
+          const cls = c.graded ? `g g${view === "med" ? c.mg : c.runs[view].g}` : "gN";
+          return `<span class="cellnum ${cls}" tabindex="0" data-k="${key}" data-p="${pid}">${esc(t)}${st}${mk}</span>`;
+        }
+        const sv = shownValue(c, view);
+        if (!c.graded) {
+          const rr = view === "med" ? Object.values(c.runs)[0] : c.runs[view];
+          const raw = rr && rr.raw != null ? (typeof rr.raw === "number" ? roundText(sig(rr.raw)) : rr.raw) : "";
+          return `<span class="cellnum gN" tabindex="0" data-k="${key}" data-p="${pid}" title="Not graded: the original prints no number here">${esc(String(raw).replace(/^-/, "−"))}</span>`;
+        }
+        const rs = view === "med" ? c.runs[Object.keys(c.runs)[0]].s : c.runs[view].s;
+        const st = rs && rs !== "" ? `<sup>${esc(rs)}</sup>` : "";
+        return `<span class="cellnum g g${sv.grade}" tabindex="0" data-k="${key}" data-p="${pid}">${esc(sv.text)}${st}</span>`;
+      });
+      return `<td class="v">${html}</td>`;
+    }).join("");
+    return `<tr><td class="rl">${esc(r.label)}</td>${tds}</tr>`;
+  }).join("");
+  return `<table class="pt"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+}
+
+function tipHTML(pid, key) {
+  const p = DATA.papers[pid], c = p.cells[key];
+  let rows = `<tr><td>Published</td><td>${esc(String(c.pub ?? "not printed").replace(/^-/, "−"))}${c.pstars ? " " + esc(c.pstars) : ""}</td><td></td></tr>`;
+  for (const r of p.runs) {
+    const x = c.runs[r];
+    const val = x.u != null ? likePub(x.u, c.pub) : roundText(x.raw ?? "—");
+    rows += `<tr><td>${RUN_LABEL[r]}</td><td>${esc(String(val))}</td><td>${c.graded ? `<span class="g g${x.g}">${x.g}</span> ${fmtDev(x.d)}` : ""}</td></tr>`;
+  }
+  if (c.graded) {
+    rows += `<tr><td>Median</td><td>${c.med.u != null ? esc(likePub(c.med.u, c.pub)) : esc(c.med.raw ?? "—")}</td><td><span class="g g${c.mg}">${c.mg}</span> ${fmtDev(c.med.d)}</td></tr>`;
+    rows += `<tr><td>Run-to-run spread</td><td colspan="2">${c.spread == null ? "–" : fmtDev(c.spread) + " of published value"}</td></tr>`;
+    if (c.err != null && c.med.u != null) {
+      const inside = Math.abs(c.med.u - Number(c.pub)) <= 1.96 * c.err;
+      rows += `<tr><td>Inside ±1.96 SE</td><td colspan="2">${inside ? "yes" : "no"} (published ± ${c.err})</td></tr>`;
+    }
+  } else rows += `<tr><td colspan="3">Not graded: no number in the original.</td></tr>`;
+  return `<h4>${esc(cellLabel(p, key))}</h4><table>${rows}</table>`;
+}
+
+function renderPaper(pid) {
+  const p = DATA.papers[pid], m = p.meta, s = p.summary;
+  const runs = p.runs;
+  const at = p.attribution || {cells: [], root_causes: []};
+  // isolation
+  const totalAcc = runs.reduce((a, r) => a + (p.audits[r]?.accesses || 0), 0);
+  const totalCalls = runs.reduce((a, r) => a + (p.audits[r]?.tool_calls || 0), 0);
+  const pFlags = runs.flatMap(r => p.audits[r]?.flagged || []);
+  const forb = pFlags.filter(f => !f.review || f.review.verdict !== "benign").length;
+  const webHits = pFlags.filter(f => /web|url/.test(f.class)).length;
+  const hFlags = runs.flatMap(r => p.audits[r]?.hc_flagged || []);
+  const hcFlag = hFlags.filter(f => !f.review || f.review.verdict !== "benign").length;
+  const reasons = fl => [...new Map(fl.filter(f => f.review).map(f => [f.review.reason, f])).values()]
+    .map(f => `<li>${fl.filter(x => x.review && x.review.reason === f.review.reason).length} × ${esc(f.review.reason)}</li>`).join("");
+  const hcExpl = runs.flatMap(r => (p.audits[r]?.hc_matches || []).filter(x => x.status !== "FLAG"));
+  const lits = runs.reduce((a, r) => a + (p.audits[r]?.literals || 0), 0);
+  const leakIn = Object.values(p.leak.per_run).reduce((a, v) => a + v.inputs + v.answers, 0);
+  const pass = ok => `<span class="pill ${ok ? "ok" : "bad"}">${ok ? "Pass" : "Fail"}</span>`;
+  const seen = (p.manifest.files || []).filter(f => f.given_to_reproducer).map(f => `<li><span class="num">data/${esc(f.name)}</span> — ${esc(f.role)}</li>`).join("");
+  const withheld = (p.manifest.withheld_from_sandbox || []).map(w => `<li>${esc(w.name)} — ${esc(w.reason)}</li>`).join("");
+  const reqs = (p.manifest.required_inputs || []).map(q => `<li>${esc(q.input)}: <b>${esc(q.availability)}</b>${q.note ? ` <span class="muted">— ${esc(q.note)}</span>` : ""}</li>`).join("");
+
+  // methods
+  const sc = p.source_check;
+  const methods = p.methods.map(it => `
+    <div class="mitem ${it.gap ? "isgap" : ""}">
+      <div class="mid">${esc(it.id)}<small>${esc(it.section)}</small></div>
+      <div>${esc(it.text)}${it.gap ? `<div class="gapnote"><b>Gap.</b> ${tx(it.gap_note)}</div>` : ""}${it.v2_change ? `<div class="small muted" style="margin-top:6px"><span class="pill cat">Changed in v2</span> ${esc(it.v2_change)}</div>` : ""}</div>
+      <blockquote class="src">“${esc(it.source)}”</blockquote>
+    </div>`).join("");
+  const nGap = p.methods.filter(x => x.gap).length;
+  const assume = runs.map(r => p.assumptions[r] ? `<details class="assume"><summary>${RUN_LABEL[r]}: the reproducer's own record of its choices</summary><pre>${tx(p.assumptions[r])}</pre></details>` : "").join("");
+
+  // why it differed
+  const byRc = {};
+  for (const c of at.cells || []) (byRc[c.root_cause] = byRc[c.root_cause] || []).push(c);
+  const rank = g => GR.indexOf(g);
+  const rcs = (at.root_causes || []).map(rc => {
+    const cells = (byRc[rc.id] || []).slice().sort((a, b) => rank(b.median_grade) - rank(a.median_grade));
+    const big = cells.filter(c => rank(c.median_grade) >= 2);
+    const small = cells.filter(c => rank(c.median_grade) < 2);
+    const isBest = at.best_example && at.best_example.root_cause === rc.id;
+    return `<div class="rc" id="${pid}-${esc(rc.id)}">
+      <div class="rc-head"><h3>${esc(rc.title)}</h3><span class="pill cat">${esc(rc.category)}</span>${isBest ? `<span class="pill ok">Best example</span>` : ""}<span class="muted small">${cells.length} cell${cells.length === 1 ? "" : "s"}</span></div>
+      <p class="prose">${tx(rc.summary)}</p>
+      ${rc.operator_note ? `<p class="prose small muted">Operator note: ${tx(rc.operator_note)}</p>` : ""}
+      ${rc.suggested_wording && /^Original/.test(rc.category) ? `<div class="wording prose"><span class="eyebrow">Methods wording that would have prevented it</span>${esc(rc.suggested_wording)}</div>` : ""}
+      ${big.length ? `<div class="cards">${big.map(c => `
+        <div class="card">
+          <div class="ch"><b>${esc(cellLabel(p, c.cell))}</b><span class="g g${c.median_grade}">${c.median_grade}</span></div>
+          <div class="vals">published ${tx(String(c.published).replace(/^-/, "−"))} → reproduced ${tx(String(c.reproduced).replace(/^-/, "−"))}</div>
+          <p>${tx(c.explanation)}</p>
+          ${c.evidence ? `<div><div class="lbl">Evidence from re-run</div><p>${tx(c.evidence)}</p></div>` : ""}
+          <div><div class="lbl">Methods item ${esc(c.methods_item || "")}</div><blockquote class="src small">“${esc(c.source_sentence || "")}”</blockquote></div>
+          ${c.agent_code ? `<div><div class="lbl">Agent code</div><code>${esc(c.agent_code)}</code></div>` : ""}
+          ${c.suggested_wording && /^Original/.test(c.category) && c.suggested_wording !== rc.suggested_wording ? `<div class="wording small"><span class="eyebrow">Suggested wording</span>${esc(c.suggested_wording)}</div>` : ""}
+        </div>`).join("")}</div>` : ""}
+      ${small.length ? `<div class="chips"><span class="muted">Also graded B (within 2–20%):</span>${small.map(c => `<span class="g gB" title="${tx(c.explanation)}">${esc(cellLabel(p, c.cell))}: ${tx(String(c.published).replace(/^-/, "−"))} → ${tx(String(c.reproduced).replace(/^-/, "−"))}</span>`).join("")}</div>` : ""}
+    </div>`;
+  }).join("");
+
+  const wide = pid === "B";
+  document.getElementById("panel-" + pid).innerHTML = h`
+  <div class="paper-head">
+    <div>
+      <div class="eyebrow">Paper ${pid} · ${esc(m.field)} · Wiley</div>
+      <h1 style="margin-top:6px">${esc(m.title)}</h1>
+      <dl class="meta-dl">
+        <dt>Authors</dt><dd>${esc(m.authors)}</dd>
+        <dt>Journal</dt><dd><i>${esc(m.journal)}</i> ${esc(m.year)} (Wiley, open access)</dd>
+        <dt>DOI</dt><dd><a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">${esc(m.doi)}</a></dd>
+        <dt>Data</dt><dd>Dryad <a href="https://doi.org/${esc(m.dryad)}" target="_blank" rel="noopener">${esc(m.dryad)}</a></dd>
+        <dt>Reproduced</dt><dd>${esc(m.table)}</dd>
+        <dt>Why this table</dt><dd>${esc(m.why_table)}</dd>
+      </dl>
+    </div>
+    <div class="sheet">
+      <div class="eyebrow">Headline · ${s.n_cells_graded} graded cells, median of 3 runs</div>
+      <div class="score-big" style="margin-top:8px">${distText(s.median_cell_grades)}</div>
+      ${distBar(s.median_cell_grades)}
+      <dl class="kv">
+        <dt>Sign agrees with published</dt><dd>${frac(s.sign_match)}</dd>
+        <dt>Within 20% of published</dt><dd>${frac(s.within_20pct_consensus)}</dd>
+        ${s["within_1.96se_consensus"][1] ? `<dt>Inside published ± 1.96 SE</dt><dd>${frac(s["within_1.96se_consensus"])}</dd>` : `<dt>Inside published 95% CI</dt><dd>n/a (no SEs)</dd>`}
+        <dt>Table grade, per run</dt><dd>${runs.map(r => s.per_run[r].table_grade.letter + " " + s.per_run[r].table_grade.mean_points.toFixed(2)).join(" · ")}</dd>
+        <dt>Table grade, median of runs</dt><dd>${s.table_grade_median_letter} ${s.table_grade_median_of_runs.toFixed(2)} / 5</dd>
+        <dt>Cells identical in all 3 runs</dt><dd>${frac(s.runs_identical_cells)}</dd>
+        <dt>Significance markers agree</dt><dd>${runs.map(r => frac(s.per_run[r].stars_agree)).join(" · ")}</dd>
+      </dl>
+    </div>
+  </div>
+
+  ${p.v1 ? renderV1(p) : ""}
+
+  <section class="band">
+    <h2>Isolation <span class="sub">what the reproducer saw, and proof it saw nothing else</span></h2>
+    <div class="grid2" style="margin-top:14px">
+      <div class="sheet">
+        <h3>Inside the sandbox</h3>
+        <ul class="iso-list small">
+          <li><span class="num">methods.json</span> — the extracted Methods (${p.methods.length} items, ${nGap} flagged as gaps), without title or DOI</li>
+          <li><span class="num">template.json</span> — the target table with every value and marker blanked</li>
+          ${seen}
+          <li><span class="num">TASK.md</span> — rules: stay in the folder, no web, record every choice</li>
+        </ul>
+        <h3 style="margin-top:16px">Kept out</h3>
+        <ul class="iso-list small">
+          <li>The PDF, its results, figures and supplement</li>
+          <li>The published table values</li>
+          ${withheld}
+        </ul>
+        <h3 style="margin-top:16px">Data availability</h3>
+        <ul class="iso-list small">${reqs}</ul>
+      </div>
+      <div class="stack">
+        <div class="sheet audit">
+          <div class="head"><h3>Path and URL audit</h3>${pass(forb === 0)}</div>
+          <div><span class="fig">${forb}</span> <span class="muted">forbidden accesses of ${totalAcc} paths in ${totalCalls} tool calls, 3 runs · ${webHits} web or URL uses</span></div>
+          <div class="small muted">Every path in every tool call and run log, checked against that run's own folder. The only outside path allowed is the Python interpreter.${pFlags.length ? ` The scan flagged ${pFlags.length}; each was checked by hand:` : " Nothing was flagged."}</div>
+          ${pFlags.length ? `<ul class="iso-list small">${reasons(pFlags)}</ul>` : ""}
+        </div>
+        <div class="sheet audit">
+          <div class="head"><h3>Hard-coding audit</h3>${pass(hcFlag === 0)}</div>
+          <div><span class="fig">${hcFlag}</span> <span class="muted">published values typed into the code, among ${lits} numeric literals in 3 scripts</span></div>
+          <div class="small muted">Every numeric literal in each script compared with every published value. ${hcExpl.length ? `${hcExpl.length} more match${hcExpl.length > 1 ? "" : "es"} a constant the Methods state. ` : ""}Single-digit integers are skipped because they cannot be told apart from ordinary constants.${hFlags.length ? ` The scan flagged ${hFlags.length}; each was checked by hand:` : ""}</div>
+          ${hFlags.length ? `<ul class="iso-list small">${reasons(hFlags)}</ul>` : ""}
+        </div>
+        <div class="sheet audit">
+          <div class="head"><h3>Leak check</h3>${pass(p.leak.pass && leakIn === 0)}</div>
+          <div><span class="fig">${leakIn}</span> <span class="muted">hits for ${p.leak.tokens} published values in the files given to the reproducer${p.leak.answers ? `, and for ${p.leak.answers} withheld Prism fit values` : ""}</span></div>
+          <div class="small muted">Searched as whole numbers in every sandbox file. ${p.leak.unsearchable.length ? `${p.leak.unsearchable.length} published values are a single digit (${p.leak.unsearchable.map(k => esc(String(p.cells[k].pub))).join(", ")}) and appear in any text, so they cannot be searched. ` : ""}The deposited data are reported separately, because short published numbers also occur there as ordinary measurements (${Object.values(p.leak.per_run)[0].data} coincidental matches per sandbox).</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <h2>Methods → spec <span class="sub">${p.methods.length} items · ${nGap} gaps · ${sc ? `${sc.n - sc.n_failed} of ${sc.n} quotes found verbatim in the PDF` : ""}</span></h2>
+    <div class="sheet" style="margin-top:14px">${methods}</div>
+    ${assume}
+  </section>
+
+  <section class="band">
+    <h2>Scorecard <span class="sub">published and reproduced, each number coloured by its grade</span></h2>
+    <div class="sc-controls">
+      <div class="seg" role="group" aria-label="Which run to show" id="seg-${pid}">
+        ${["med", ...runs].map((r, i) => `<button type="button" data-view="${r}" aria-pressed="${i === 0}">${RUN_LABEL[r]}</button>`).join("")}
+      </div>
+      ${legend()}
+    </div>
+    <div class="pair ${wide ? "wide" : ""}" id="pair-${pid}"></div>
+    <p class="small muted">Hover or focus any number for the published value, all three runs, the % deviation and the run-to-run spread. Grey cells print no number in the original (N/A, n.d.) and are not graded.</p>
+  </section>
+
+  <section class="band">
+    <h2>Why it differed <span class="sub">${(at.cells || []).length} cells graded B or worse, grouped by root cause; cards for C or worse</span></h2>
+    <div class="sheet" style="margin-top:14px">${rcs || `<p class="muted">Attribution pending.</p>`}</div>
+  </section>
+
+  <section class="band">
+    <h2>At scale</h2>
+    <div class="grid2" style="margin-top:14px">
+      <div class="sheet prose small">
+        <h3>At submission, in Research Exchange</h3>
+        <p>Run the pipeline when data are deposited with a submission. Editors get a short report: which results the deposited data reproduce, and which Methods sentences left a reproducer guessing, each with suggested wording the authors can adopt before acceptance.</p>
+      </div>
+      <div class="sheet prose small">
+        <h3>Across a journal archive</h3>
+        <p>Run it over every paper with deposited data to get a reproducibility rate and a Methods-completeness signal per journal, and to see which gaps recur, such as unstated test variants or undefined analysis sets.</p>
+      </div>
+    </div>
+    <p class="small muted prose">The output flags issues for editors. It does not judge papers: a mismatch here most often means the Methods left a choice open, not that a result is wrong.</p>
+  </section>`;
+
+  const draw = view => {
+    document.getElementById(`pair-${pid}`).innerHTML =
+      `<div class="tscroll"><div class="tlabel">Published</div>${renderTable(pid, "pub", view)}</div>
+       <div class="tscroll"><div class="tlabel">Reproduced · ${RUN_LABEL[view]}</div>${renderTable(pid, "rep", view)}</div>`;
+  };
+  draw("med");
+  document.querySelectorAll(`#seg-${pid} button`).forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(`#seg-${pid} button`).forEach(x => x.setAttribute("aria-pressed", x === b));
+    draw(b.dataset.view);
+  }));
+}
+
+function renderV1(p) {
+  const v = p.v1, s1 = v.summary, s2 = p.summary;
+  const rcs = (v.attribution.root_causes || []);
+  const cnt = cat => rcs.filter(r => r.category === cat).reduce((a, r) => a + r.cells.length, 0);
+  const nAll = rcs.reduce((a, r) => a + r.cells.length, 0);
+  const row = (label, s) => `<tr><td class="rl">${label}</td><td class="v">${distText(s.median_cell_grades)}</td><td class="v">${frac(s.within_20pct_consensus)}</td><td class="v">${frac(s.sign_match)}</td><td class="v">${frac(s.runs_same_grade_cells)}</td></tr>`;
+  return `<section class="band">
+    <h2>Two extractions <span class="sub">the explainer found our own extraction errors, so we fixed them and re-ran</span></h2>
+    <div class="stack" style="margin-top:14px">
+      <div class="sheet small"><div class="prose">
+        <p>In the first run (v1), the explainer traced <b>${cnt("Extractor error")} of ${nAll}</b> missed cells to our extraction, not to the paper. This is one of the method's own categories, and it fired here:</p>
+        <ul class="iso-list">${rcs.filter(r => r.category === "Extractor error").map(r => `<li><b>${esc(r.title)}</b> (${r.cells.length} cells)</li>`).join("")}</ul>
+        <p>Extraction v2 adds only text the PDF states verbatim: which rows the table footnotes mark, the "n=4–8" statement, and a corrected gap note. Items changed are marked in the spec below. Three fresh agents ran on v2 with the same isolation. The v1 runs and their grades are kept unchanged${v.leak.pass && Object.values(v.audits).every(a => (a.flagged || []).every(f => f.review) && (a.hc_flagged || []).every(f => f.review)) ? ", and they passed the same three audits" : ""}.</p>
+      </div></div>
+      <div class="tscroll">
+        <table class="pt"><thead><tr><th>Extraction</th><th>Cell grades (median of 3 runs)</th><th>Within 20%</th><th>Sign agrees</th><th>Same grade in all 3 runs</th></tr></thead>
+        <tbody>${row("v1 (first run)", s1)}${row("v2 (shown on this page)", s2)}</tbody></table>
+      </div>
+    </div>
+  </section>`;
+}
+
+/* ---------- tooltip ---------- */
+const tip = document.getElementById("tip");
+function showTip(el) {
+  tip.innerHTML = tipHTML(el.dataset.p, el.dataset.k);
+  tip.hidden = false;
+  const r = el.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight;
+  let x = Math.min(Math.max(8, r.left + r.width / 2 - tw / 2), window.innerWidth - tw - 8);
+  let y = r.bottom + 8; if (y + th > window.innerHeight - 8) y = r.top - th - 8;
+  tip.style.left = x + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+document.addEventListener("mouseover", e => { const el = e.target.closest(".cellnum"); if (el) showTip(el); });
+document.addEventListener("mouseout", e => { if (e.target.closest(".cellnum")) tip.hidden = true; });
+document.addEventListener("focusin", e => { const el = e.target.closest(".cellnum"); if (el) showTip(el); });
+document.addEventListener("focusout", e => { if (e.target.closest(".cellnum")) tip.hidden = true; });
+window.addEventListener("scroll", () => { tip.hidden = true; }, { passive: true });
+
+/* ---------- tabs ---------- */
+const tabs = ["method", "A", "B"];
+function selectTab(id) {
+  if (!tabs.includes(id)) id = "method";
+  tabs.forEach(t => {
+    document.getElementById("panel-" + t).hidden = t !== id;
+    document.getElementById("tab-" + t).setAttribute("aria-selected", t === id);
+  });
+  try { history.replaceState(null, "", "#" + id); } catch (e) {}
+  window.scrollTo(0, 0);
+}
+tabs.forEach(t => document.getElementById("tab-" + t).addEventListener("click", () => selectTab(t)));
+
+renderMethod(); renderPaper("A"); renderPaper("B");
+selectTab((location.hash || "").slice(1));
+</script>

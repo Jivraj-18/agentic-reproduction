@@ -1,0 +1,106 @@
+
+=================== camp: block 'CB1R - OX1R', log[CP55,940] = [-10.0, -9.0, -8.0, -7.0, -6.0, -5.0]
+[pooled_group_fit] 0.00 ug  n_exp=8  hill_constrained=True  potency=True
+     bottom=0.78897, top=1.0344, logec50=-8.8572, hill=-1, se_bottom=0.031108, se_top=0.072031, se_logec50=0.55083, se_hill=nan, n_points=48
+[pooled_group_fit] 0.10 ug  n_exp=4  hill_constrained=False  potency=True
+     bottom=0.57222, top=0.9773, logec50=-8.1441, hill=-1.2065, se_bottom=0.033035, se_top=0.054498, se_logec50=0.24114, se_hill=0.89481, n_points=24
+[pooled_group_fit] 0.25 ug  n_exp=4  hill_constrained=False  potency=True
+     bottom=0.51526, top=1.0143, logec50=-7.905, hill=-0.77274, se_bottom=0.026365, se_top=0.036884, se_logec50=0.16408, se_hill=0.22176, n_points=24
+[pooled_group_fit] 0.50 ug  n_exp=4  hill_constrained=True  potency=True
+     bottom=0.68613, top=0.97164, logec50=-7.967, hill=-1, se_bottom=0.029539, se_top=0.03777, se_logec50=0.33287, se_hill=nan, n_points=24
+[tukey_summary] pec50: ANOVA p=0.4207; Tukey p vs 0.00 ug: 0.10=0.7182, 0.25=0.509, 0.50=0.5629
+[tukey_summary] emax: ANOVA p=5.663e-05; Tukey p vs 0.00 ug: 0.10=0.0009655, 0.25=8.33e-05, 0.50=0.1421
+[tukey_summary] hill: ANOVA p=nan; Tukey p vs 0.00 ug: 0.10=NA, 0.25=NA, 0.50=NA
+--- sensitivity: per-experiment fits, mean +- SEM (camp)
+   0.00 ug hill_constrained=True: pEC50=8.6052+-0.4274(n=7)  Emax=0.7575+-0.0591(n=8)  Hill=-1.0000+-0.0000(n=7)
+   0.10 ug hill_constrained=True: pEC50=8.1980+-0.1773(n=4)  Emax=0.5697+-0.0437(n=4)  Hill=-1.0000+-0.0000(n=4)
+   0.25 ug hill_constrained=False: pEC50=7.9758+-0.1400(n=4)  Emax=0.5111+-0.0216(n=4)  Hill=-0.7247+-0.0743(n=4)
+   0.50 ug hill_constrained=True: pEC50=8.1467+-0.3145(n=4)  Emax=0.6857+-0.0184(n=4)  Hill=-1.0000+-0.0000(n=4)
+   ANOVA pEC50: p=0.6029; Tukey vs 0.00: 0.10=0.8453, 0.25=0.5984, 0.50=0.7945
+   ANOVA Emax: p=0.01583; Tukey vs 0.00: 0.10=0.08676, 0.25=0.01841, 0.50=0.7616
+   ANOVA Hill: p=3.058e-05; Tukey vs 0.00: 0.10=1, 0.25=4.443e-05, 0.50=1
+
+=================== arr: block 'CB1R-OX1R', log[CP55,940] = [-10.0, -9.0, -8.0, -7.0, -6.0, -5.0]
+[pooled_group_fit] 0.00 ug  n_exp=8  hill_constrained=True  potency=True
+     bottom=1.0613, top=21.153, logec50=-5.5261, hill=1, se_bottom=0.98411, se_top=4.9142, se_logec50=0.34978, se_hill=nan, n_points=48
+[pooled_group_fit] 0.10 ug  n_exp=4  hill_constrained=True  potency=True
+     bottom=0.99943, top=3.8253, logec50=-6.2637, hill=1, se_bottom=0.11785, se_top=0.25054, se_logec50=0.17878, se_hill=nan, n_points=24
+[pooled_group_fit] 0.25 ug  n_exp=4  hill_constrained=False  potency=True
+     bottom=0.7273, top=5.6037, logec50=-6.0171, hill=0.46065, se_bottom=0.1025, se_top=0.62496, se_logec50=0.26372, se_hill=0.077763, n_points=24
+[pooled_group_fit] 0.50 ug  n_exp=4  hill_constrained=False  potency=True
+     bottom=0.86831, top=6.3791, logec50=-6.3997, hill=0.69789, se_bottom=0.068642, se_top=0.20805, se_logec50=0.068108, se_hill=0.061637, n_points=24
+[tukey_summary] pec50: ANOVA p=0.1982; Tukey p vs 0.00 ug: 0.10=0.3604, 0.25=0.6799, 0.50=0.2281
+[tukey_summary] emax: ANOVA p=0.01423; Tukey p vs 0.00 ug: 0.10=0.03326, 0.25=0.06108, 0.50=0.07897
+[tukey_summary] hill: ANOVA p=nan; Tukey p vs 0.00 ug: 0.10=NA, 0.25=NA, 0.50=NA
+--- sensitivity: per-experiment fits, mean +- SEM (arr)
+   0.00 ug hill_constrained=True: pEC50=5.9276+-0.1973(n=8)  Emax=22.0438+-6.7674(n=8)  Hill=1.0000+-0.0000(n=8)
+   0.10 ug hill_constrained=True: pEC50=6.2387+-0.0877(n=4)  Emax=3.8468+-0.3760(n=4)  Hill=1.0000+-0.0000(n=4)
+   0.25 ug hill_constrained=False: pEC50=6.0074+-0.0770(n=4)  Emax=5.6448+-0.3561(n=4)  Hill=0.4633+-0.0196(n=4)
+   0.50 ug hill_constrained=False: pEC50=6.3974+-0.0322(n=4)  Emax=6.3887+-0.2058(n=4)  Hill=0.6998+-0.0190(n=4)
+   ANOVA pEC50: p=0.2307; Tukey vs 0.00: 0.10=0.5618, 0.25=0.986, 0.50=0.2292
+   ANOVA Emax: p=0.07188; Tukey vs 0.00: 0.10=0.129, 0.25=0.1908, 0.50=0.2226
+   ANOVA Hill: p=1.882e-16; Tukey vs 0.00: 0.10=1, 0.25=0, 0.50=3.114e-12
+
+Filled table (value, stars):
+ox_000
+   camp_pec50         8.8572 
+   camp_pec50_se     0.55083 
+   camp_ec50          1.3894 
+   camp_emax         0.78897 
+   camp_emax_se     0.031108 
+   camp_hill               1 
+   camp_hill_se          N/A 
+   arr_pec50          5.5261 
+   arr_pec50_se      0.34978 
+   arr_ec50           2977.8 
+   arr_emax           21.153 
+   arr_emax_se        4.9142 
+   arr_hill                1 
+   arr_hill_se           N/A 
+ox_010
+   camp_pec50         8.1441 
+   camp_pec50_se     0.24114 
+   camp_ec50          7.1765 
+   camp_emax         0.57222 ***
+   camp_emax_se     0.033035 
+   camp_hill         -1.2065 
+   camp_hill_se      0.89481 
+   arr_pec50          6.2637 
+   arr_pec50_se      0.17878 
+   arr_ec50           544.83 
+   arr_emax           3.8253 *
+   arr_emax_se       0.25054 
+   arr_hill                1 
+   arr_hill_se           N/A 
+ox_025
+   camp_pec50          7.905 
+   camp_pec50_se     0.16408 
+   camp_ec50          12.445 
+   camp_emax         0.51526 ***
+   camp_emax_se     0.026365 
+   camp_hill        -0.77274 
+   camp_hill_se      0.22176 
+   arr_pec50          6.0171 
+   arr_pec50_se      0.26372 
+   arr_ec50           961.38 
+   arr_emax           5.6037 
+   arr_emax_se       0.62496 
+   arr_hill          0.46065 
+   arr_hill_se      0.077763 
+ox_050
+   camp_pec50          7.967 
+   camp_pec50_se     0.33287 
+   camp_ec50          10.789 
+   camp_emax         0.68613 
+   camp_emax_se     0.029539 
+   camp_hill               1 
+   camp_hill_se          N/A 
+   arr_pec50          6.3997 
+   arr_pec50_se     0.068108 
+   arr_ec50           398.34 
+   arr_emax           6.3791 
+   arr_emax_se       0.20805 
+   arr_hill          0.69789 
+   arr_hill_se      0.061637 
+
+wrote out\filled.json

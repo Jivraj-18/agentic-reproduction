@@ -1,0 +1,782 @@
+{
+ "paper": "B",
+ "table_id": "Table 1",
+ "caption": "TABLE 1 | CB1-dependent inhibition of cAMP and recruitment of βarrestin2 in CB1-OX1 cells.",
+ "rows": [
+  {
+   "id": "ox_000",
+   "label": "[OX1] 0.00 µg"
+  },
+  {
+   "id": "ox_010",
+   "label": "[OX1] 0.10 µg"
+  },
+  {
+   "id": "ox_025",
+   "label": "[OX1] 0.25 µg"
+  },
+  {
+   "id": "ox_050",
+   "label": "[OX1] 0.50 µg"
+  }
+ ],
+ "columns": [
+  {
+   "id": "camp_pec50",
+   "label": "cAMP pEC50",
+   "metric_type": "pEC50"
+  },
+  {
+   "id": "camp_pec50_se",
+   "label": "cAMP pEC50 ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "camp_ec50",
+   "label": "cAMP EC50 (nM), in parentheses",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "camp_emax",
+   "label": "cAMP Emax (Fold)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "camp_emax_se",
+   "label": "cAMP Emax ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "camp_hill",
+   "label": "cAMP Hill slope",
+   "metric_type": "Hill"
+  },
+  {
+   "id": "camp_hill_se",
+   "label": "cAMP Hill slope ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "arr_pec50",
+   "label": "βarrestin2 pEC50",
+   "metric_type": "pEC50"
+  },
+  {
+   "id": "arr_pec50_se",
+   "label": "βarrestin2 pEC50 ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "arr_ec50",
+   "label": "βarrestin2 EC50 (nM), in parentheses",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "arr_emax",
+   "label": "βarrestin2 Emax (Fold)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "arr_emax_se",
+   "label": "βarrestin2 Emax ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "arr_hill",
+   "label": "βarrestin2 Hill slope",
+   "metric_type": "Hill"
+  },
+  {
+   "id": "arr_hill_se",
+   "label": "βarrestin2 Hill slope ±",
+   "metric_type": "pm"
+  }
+ ],
+ "printed_header": "[OX1] (µg) | cAMP: pEC50 (nM), Emax (Fold), Hill slope | βarrestin2: pEC50 (nM), Emax (Fold)b, Hill slope",
+ "footnotes": {
+  "note": "Data were fit to a 4-parameter non-linear regression to estimate potency (pEC50) and efficacy (Emax) values. Data are expressed as mean±SEM. n=4-8 independent experiments performed in triplicate. Statistical analyses were by one-way ANOVA followed by Tukey's post hoc test. Data presented in the Table relate to Figure 2.",
+  "n.d.": "not determined",
+  "**": "p < 0.01 relative to CP55,940.",
+  "***": "p < 0.001 relative to CP55,940.",
+  "a": "When fit to a 4-parameter model, pEC50 and Hill Slope could not be accurately estimated, data in table are for a Hill Slope constrained to 1.",
+  "b": "Emax data represent the experimentally observed value because CRC did not reach a clearly defined maximum asymptote; for this reason EC50 is reported as >10000nM."
+ },
+ "star_legend": {
+  "**": "p < 0.01",
+  "***": "p < 0.001"
+ },
+ "cells": {
+  "ox_000|camp_pec50": {
+   "raw": "8.8",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.8,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|camp_pec50_se": {
+   "raw": "0.45",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_000|camp_pec50",
+   "comparator": null,
+   "value": 0.45,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|camp_ec50": {
+   "raw": "1.5",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.5,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|camp_emax": {
+   "raw": "0.79",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.79,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|camp_emax_se": {
+   "raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_000|camp_emax",
+   "comparator": null,
+   "value": 0.03,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|camp_hill": {
+   "raw": "-1.7",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -1.7,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|camp_hill_se": {
+   "raw": "3.6",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_000|camp_hill",
+   "comparator": null,
+   "value": 3.6,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|arr_pec50": {
+   "raw": "<5",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": "<",
+   "value": 5.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|arr_pec50_se": {
+   "raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_000|arr_pec50",
+   "comparator": null,
+   "value": null,
+   "decimals": null,
+   "graded": false,
+   "footnote_mark": null
+  },
+  "ox_000|arr_ec50": {
+   "raw": ">10000",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": ">",
+   "value": 10000.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|arr_emax": {
+   "raw": "17",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 17.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": "b"
+  },
+  "ox_000|arr_emax_se": {
+   "raw": "4.6",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_000|arr_emax",
+   "comparator": null,
+   "value": 4.6,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_000|arr_hill": {
+   "raw": "n.d.",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": null,
+   "decimals": null,
+   "graded": false,
+   "footnote_mark": null
+  },
+  "ox_000|arr_hill_se": {
+   "raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_000|arr_hill",
+   "comparator": null,
+   "value": null,
+   "decimals": null,
+   "graded": false,
+   "footnote_mark": null
+  },
+  "ox_010|camp_pec50": {
+   "raw": "8.1",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.1,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|camp_pec50_se": {
+   "raw": "0.24",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_010|camp_pec50",
+   "comparator": null,
+   "value": 0.24,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|camp_ec50": {
+   "raw": "7.2",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.2,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|camp_emax": {
+   "raw": "0.57",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "**",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.57,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|camp_emax_se": {
+   "raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_010|camp_emax",
+   "comparator": null,
+   "value": 0.03,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|camp_hill": {
+   "raw": "-1.2",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -1.2,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|camp_hill_se": {
+   "raw": "0.90",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_010|camp_hill",
+   "comparator": null,
+   "value": 0.9,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_pec50": {
+   "raw": "5.5",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.5,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_pec50_se": {
+   "raw": "1.4",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_010|arr_pec50",
+   "comparator": null,
+   "value": 1.4,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_ec50": {
+   "raw": "3000",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3000.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_emax": {
+   "raw": "5.7",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 5.7,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_emax_se": {
+   "raw": "3.2",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_010|arr_emax",
+   "comparator": null,
+   "value": 3.2,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_hill": {
+   "raw": "0.41",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.41,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_010|arr_hill_se": {
+   "raw": "0.23",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_010|arr_hill",
+   "comparator": null,
+   "value": 0.23,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_pec50": {
+   "raw": "7.9",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.9,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_pec50_se": {
+   "raw": "0.16",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_025|camp_pec50",
+   "comparator": null,
+   "value": 0.16,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_ec50": {
+   "raw": "12",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 12.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_emax": {
+   "raw": "0.52",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "***",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.52,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_emax_se": {
+   "raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_025|camp_emax",
+   "comparator": null,
+   "value": 0.03,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_hill": {
+   "raw": "-0.77",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.77,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|camp_hill_se": {
+   "raw": "0.22",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_025|camp_hill",
+   "comparator": null,
+   "value": 0.22,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_pec50": {
+   "raw": "6.0",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.0,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_pec50_se": {
+   "raw": "0.26",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_025|arr_pec50",
+   "comparator": null,
+   "value": 0.26,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_ec50": {
+   "raw": "960",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 960.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_emax": {
+   "raw": "5.6",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 5.6,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_emax_se": {
+   "raw": "0.63",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_025|arr_emax",
+   "comparator": null,
+   "value": 0.63,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_hill": {
+   "raw": "0.46",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.46,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_025|arr_hill_se": {
+   "raw": "0.08",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_025|arr_hill",
+   "comparator": null,
+   "value": 0.08,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|camp_pec50": {
+   "raw": "7.9",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.9,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": "a"
+  },
+  "ox_050|camp_pec50_se": {
+   "raw": "0.33",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_050|camp_pec50",
+   "comparator": null,
+   "value": 0.33,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|camp_ec50": {
+   "raw": "11",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 11.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|camp_emax": {
+   "raw": "0.69",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.69,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": "a"
+  },
+  "ox_050|camp_emax_se": {
+   "raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_050|camp_emax",
+   "comparator": null,
+   "value": 0.03,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|camp_hill": {
+   "raw": "-1",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -1.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": "a"
+  },
+  "ox_050|camp_hill_se": {
+   "raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_050|camp_hill",
+   "comparator": null,
+   "value": null,
+   "decimals": null,
+   "graded": false,
+   "footnote_mark": null
+  },
+  "ox_050|arr_pec50": {
+   "raw": "6.4",
+   "metric_type": "pEC50",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.4,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|arr_pec50_se": {
+   "raw": "0.068",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_050|arr_pec50",
+   "comparator": null,
+   "value": 0.068,
+   "decimals": 3,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|arr_ec50": {
+   "raw": "400",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 400.0,
+   "decimals": 0,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|arr_emax": {
+   "raw": "6.4",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 6.4,
+   "decimals": 1,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|arr_emax_se": {
+   "raw": "0.21",
+   "metric_type": "pm",
+   "unit": "fold",
+   "stars": null,
+   "link_to": "ox_050|arr_emax",
+   "comparator": null,
+   "value": 0.21,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|arr_hill": {
+   "raw": "0.70",
+   "metric_type": "Hill",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.7,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  },
+  "ox_050|arr_hill_se": {
+   "raw": "0.06",
+   "metric_type": "pm",
+   "unit": null,
+   "stars": null,
+   "link_to": "ox_050|arr_hill",
+   "comparator": null,
+   "value": 0.06,
+   "decimals": 2,
+   "graded": true,
+   "footnote_mark": null
+  }
+ }
+}

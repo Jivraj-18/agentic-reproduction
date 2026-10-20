@@ -1,0 +1,697 @@
+Pharmacology Research & Perspectives
+
+ORIGINAL ARTICLE OPEN ACCESS
+
+In Vitro Signaling Properties of Cannabinoid and Orexin
+Receptors: How Orexin Receptors Influence Cannabinoid
+Receptor-­Mediated Signaling
+
+Kawthar A. Mohamed1 | Robert B. Laprairie1,2
+
+1College of Pharmacy and Nutrition, University of Saskatchewan, Saskatoon, Saskatchewan, Canada | 2Department of Pharmacology, Faculty of Medicine,
+Dalhousie University, Halifax, Nova Scotia, Canada
+
+Correspondence: Robert B. Laprairie (robert.laprairie@usask.ca)
+
+Received: 7 June 2024 | Revised: 26 January 2025 | Accepted: 4 February 2025
+
+Funding: This work was supported by Natural Sciences and Engineering Research Council of Canada, DGECR-­2019-­00207, NSERC Graduate Award.
+
+Keywords: cAMP | cannabinoid receptors | cell signaling | orexin receptors | arrestin2
+
+  ABSTRACT
+  The co-­expression of different types of G protein-­coupled receptors (GPCRs) in the same cells can have implications for receptor
+  signaling and receptor cross-­talk, potentially altering the apparent potency or efficacy of ligands targeting each receptor. The en-
+  docannabinoid and orexinergic systems, consisting of class A GPCRs and their endogenous ligands, are highly complex and reg-
+  ulate processes such as appetite, sleep, nociception, and energy homeostasis. The shared anatomical distribution of cannabinoid
+  and orexin receptors in various regions of the central nervous system (CNS), coupled with data from previous studies exploring
+  physical and functional interactions between these receptors, suggests that the endocannabinoid and orexinergic systems engage
+  in crosstalk. In this study, we explored how orexin receptors (OX1, OX2) altered the in vitro signaling of cannabinoid receptors
+  (CB1, CB2) in Chinese hamster ovary (CHO)-­K1 cells by quantifying cyclic adenosine monophosphate (cAMP) inhibition and
+  arrestin2 recruitment. Our results suggest that orexin receptors alter agonist-­dependent signaling at the cannabinoid receptors
+  by enhancing cannabinoid receptor-­mediated cAMP inhibition while increasing or decreasing cannabinoid receptor-­mediated
+  arrestin2 recruitment. These initial results are important for understanding the effects associated with cannabinoid ligands and
+  may provide novel insights for therapeutics targeting physiological processes modulated by both systems.
+
+1|Introduction                                                     through receptor dimerization, a process that may involve
+                                                                   two identical receptors (i.e., homodimers) or two distinct re-
+G protein-­coupled receptors (GPCRs) play a critical role in cel-  ceptors (i.e., heterodimers) or indirectly via their convergent
+lular signaling, converting various external stimuli (e.g., pho-   signal transduction pathways [3-5]. Ligand binding, receptor
+tons, ions, odorants, hormones, and neurotransmitters) into        signaling, and receptor trafficking may be altered as a result
+intracellular responses [1, 2]. It has previously been demon-      of these GPCR interactions when receptors are co-­expressed
+strated that GPCRs can interact with each other physically         in the same cells [6, 7].
+
+Abbreviations: 2-­AG, 2-­arachidonoylglycerol; ANOVA, analysis of variance; BRET, bioluminescence resonance energy transfer; CB1, type 1 cannabinoid receptor; CB2, type 2 cannabinoid
+receptor; CHO, Chinese hamster ovary; CI, confidence interval; CNS, central nervous system; CRC, concentration-­response curve; DAG, diacylglycerol; DAGL, diacylglycerol lipase; DMEM,
+Dulbecco's Modified Eagle Medium; DMSO, dimethyl sulfoxide; DORA, dual orexin receptor antagonist; EA, enzyme acceptor; ECS, endocannabinoid system; ED, enzyme donor; EFC, enzyme
+fragment complementation; eGFP, enhanced green fluorescent protein; FBS, fetal bovine serum; FRET, fluorescence resonance energy transfer; FSK, forskolin; GPCR, G protein-­coupled
+receptor; IP3, inositol trisphosphate; MAPK, mitogen-­activated protein kinase; n.c., not converged; OX1, orexin receptor type 1; OX2, orexin receptor type 2; OXA, orexin A; OXB, orexin B; PBS,
+phosphate-­buffered saline; Pen/Strep, penicillin-streptomycin; PLC, phospholipase C.
+
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is
+properly cited.
+
+© 2025 The Author(s). Pharmacology Research & Perspectives published by British Pharmacological Society and American Society for Pharmacology and Experimental Therapeutics and John
+Wiley & Sons Ltd.
+
+Pharmacology Research & Perspectives, 2025; 13:e70078              1 of 14
+https://doi.org/10.1002/prp2.70078
+The endocannabinoid system (ECS) and orexinergic system             exploitation, especially for physiological processes modulated by
+are highly complex biological systems that regulate key physi-      both endocannabinoid and orexinergic systems.
+ological processes. Within the ECS, endogenous cannabinoids
+(endocannabinoids) are synthesized "on demand" from cell            2|Materials and Methods
+membrane lipids and activate a pair of GPCRs, namely the type
+1 and type 2 cannabinoid receptors (CB1 and CB2, respectively)      2.1|Compounds
+[8, 9]. Similarly, the orexinergic system includes orexins A and
+B (OXA and OXB), hypothalamic neuropeptides formed follow-          CP55,940 [(-)-­cis-­3-­[2-­Hydroxy-­4-­(1,1-­dimethylheptyl)phenyl]-­
+ing proteolytic processing of the prepro-­orexin polypeptide [10].  trans-­4-­(3-­hydroxypropyl)cyclohexanol] was purchased from
+These endogenous ligands activate the orexin receptor type 1        Tocris Biosciences (Oakville, ON). Forskolin (FSK) was pur-
+(OX1) and orexin receptor type 2 (OX2), a pair of GPCRs [11].       chased from Sigma-­Aldrich (Mississauga, ON). CP55,940 and
+Cannabinoid and orexin receptors both belong to the rhodopsin-­     FSK were dissolved in dimethyl sulfoxide (DMSO) with a final
+like (class A) family of GPCRs [12]. However, CB1 and CB2 pri-      concentration of 0.1% DMSO in PBS in assay media for all as-
+marily couple to Gi/o G proteins, leading to reduced cAMP           says and added directly to media at the concentrations and times
+production via inhibition of adenylate cyclase, while OX1 and       indicated.
+OX2 primarily couple to Gq G proteins, leading to the produc-
+tion of diacylglycerol (DAG) and inositol trisphosphate (IP3) via   2.2|Cell Culture
+phospholipase C (PLC) activation [13-15].
+                                                                    HitHunter (cAMP) and PathHunter (arrestin2) CHO-­K1
+The endocannabinoid and orexinergic systems are both im-            cells stably expressing human CB1 or CB2 were obtained from
+plicated in the regulation of physiological processes such as       DiscoverX (Eurofins, Fremont, CA, USA) and were maintained
+appetite, sleep, reward, memory, nociception, inflammation,         at 37°C and 5% CO2 in F-­12/Dulbecco's Modified Eagle Medium
+and energy homeostasis [12, 16]. This, coupled with the shared      (DMEM) containing 1mML-­glutamine, 10% fetal bovine serum
+neuroanatomical distribution of CB1, OX1, and OX2 in the hy-        (FBS), and 1% penicillin-streptomycin (Pen/Strep). Cells were
+pothalamus, mesocorticolimbic system, brainstem, and other          supplemented with 800g/mL geneticin (HitHunter) or 800g/
+regions of the central nervous system (CNS) suggests that           mL geneticin and 300g/mL hygromycin B (PathHunter)
+crosstalk may exist between the endocannabinoid and orex-           [25, 26].
+inergic systems [12, 17]. Several studies have explored cellular
+and molecular interactions between CB1 and the orexin recep-        2.3|Plasmids
+tors. In cells expressing both CB1 and OX1, a CB1-­dependent
+mechanism is responsible for the 100-­fold increase in potency      Human OX1-­enhanced green fluorescent protein (eGFP) and
+for OXA in the mitogen-­activated protein kinase (MAPK) sig-        OX2-­eGFP plasmids (henceforth simply described as OX1 and
+naling pathway via OX1 [18]. Furthermore, when CB1 and OX1          OX2) were sourced from Proxima Research & Development
+are co-­expressed, the potency of OXA or the synthetic cannabi-     (Saskatoon, SK, Canada). All plasmids were propagated and se-
+noid WIN55,212-­2 to phosphorylate ERK1/2 is reduced when           quenced by Proxima Research & Development. For all plasmids,
+treated with the CB1 antagonist/inverse agonist SR141716 or         receptor cDNA was inserted into the common pcDNA3.1(+)
+the OX1 antagonist SB674042, respectively [19]. Additionally,       vector. Receptor plasmids used in transfection experiments are
+OX1 activation by OXA has been shown to stimulate the syn-          described further in Supporting Information (Figure S1).
+thesis of the endocannabinoid 2-­arachidonoylglycerol (2-­AG)
+via the Gq G protein-­mediated PLC-­diacylglycerol lipase-­         2.4|Transfections and Microscopy
+(DAGL) pathway both in vitro and in vivo [20, 21]. This 2-­AG
+can subsequently activate CB1 in either an autocrine or para-       Receptor plasmids were introduced into HitHunter CHO-­K1
+crine manner [17, 21, 22]. OXA, which has no affinity for CB1,      cAMP cells and PathHunter CHO-­K1 arrestin2 cells using
+can also promote the internalization of CB1 but only when           Lipofectamine 3000, according to the manufacturer's instruc-
+co-­expressed with OX1. Furthermore, OXA exhibits greater           tions (Invitrogen, ThermoFisher Scientific, Waltham, MA,
+potency in promoting the internalization of CB1-­OX1 heterod-       USA). For experiments where cAMP inhibition or arrestin2
+imers over OX1 homomers [23]. Far less is known about CB2-­         recruitment was measured, cells were grown to ~80% conflu-
+orexin receptor interactions, though CB2 and OX1 may form           ency in 10cm tissue culture plates in F-­12/DMEM containing
+heterotetramers [24].                                               1mML-­glutamine, 10% FBS, 1% Pen/Strep at 37°C and 5% CO2.
+                                                                    Cell media was aspirated and cells were washed with 2mL 1X
+In this study, we investigated how orexin receptors can alter       phosphate-­buffered saline (PBS). Cells were then incubated in
+cannabinoid receptor-­mediated signaling in vitro. Chinese          serum-­free media for 30min at 37°C. Lipofectamine 3000 solu-
+hamster ovary (CHO)-­K1 cells stably expressing CB1 or CB2          tion was prepared by diluting Lipofectamine 3000 reagent in
+were transfected with OX1 or OX2 plasmids and evaluated in          Opti-­MEM. Plasmid solution was prepared by diluting plasmid
+enzyme fragment complementation (EFC) assays quantifying            DNA in Opti-­MEM and P3000 reagent. Diluted Lipofectamine
+cyclic adenosine monophosphate (cAMP) inhibition and ar-            3000 reagent was then added to the diluted plasmid solution
+restin2 recruitment to explore downstream signaling at the          and the resultant solution was incubated for 15min at room
+cannabinoid receptors. Determining how cannabinoid receptor
+signaling is influenced by additional GPCRs, such as the orexin
+receptors, can improve our understanding of the effects of can-
+nabinoid ligands and may uncover novel targets for therapeutic
+
+2 of 14                                                             Pharmacology Research & Perspectives, 2025
+temperature. Following this, the Lipofectamine plasmid solu-         CP55,940--that may alter cAMP levels via GPCR-­dependent
+tion was added to the cells and cells were incubated for 24-48h      signal transduction through Gi/o proteins. After this incubation
+at 37°C and 5% CO2 prior to conducting experiments. HitHunter        period, cells are treated with a cAMP working solution contain-
+CHO-­K1 cAMP cells and PathHunter CHO-­K1 arrestin2 cells            ing enzyme donor (ED)-­conjugated cAMP and an anti-­cAMP
+were transfected with increasing amounts of OX1 or OX2 plas-         antibody solution. The ED-­conjugated cAMP competes with cel-
+mid (0.10, 0.25, and 0.50g). CB1 or CB2 cells described in fig-      lular cAMP for binding to the anti-­cAMP antibodies. The ED-­
+ures as receiving 0.00g OX1 or 0.00g OX2 (i.e., non-­transfected     conjugated cAMP is free to complement the EA to form active
+cells) were used as controls that received a `mock' transfection     -­galactoside by EFC. Last, a modified -­galactoside substrate is
+of only the Lipofectamine 3000 and P3000 reagent but without         added that can be hydrolyzed by the whole enzyme to produce
+plasmid DNA and were otherwise identical to plasmid transfec-        light. In this competition, the antibody-­bound ED-­cAMP cannot
+tions. For microscopy experiments, cells were grown to ~50%          complement the EA, but unbound ED-­cAMP can complement
+confluency in 12-­well tissue culture plates in F-­12/DMEM con-      EA to form active enzyme, consequently producing lumines-
+taining 1mML-­glutamine, 10% FBS, and 1% Pen/Strep at 37°C           cence. The amount of signal produced is directly proportional to
+and 5% CO2. Cell media was aspirated and cells were washed           the amount of cAMP in the cells. In our assays measuring cAMP
+with 250L 1X PBS. Cells were then incubated in serum-­free           changes in response to GPCR signaling via a Gi/o-­coupled re-
+media for 30min at 37°C. Lipofectamine 3000 solution was pre-        ceptor, cAMP levels (and therefore chemiluminescence) decline.
+pared by diluting Lipofectamine 3000 reagent in Opti-­MEM.           From a technical standpoint, the assay proceeded as follows:
+Plasmid solution was prepared by diluting plasmid DNA in             cells were dissociated from 10cm tissue culture plates using
+Opti-­MEM and P3000 reagent. Diluted Lipofectamine 3000 re-          2mL 0.5% trypsin-EDTA and replated into white-­walled, white-­
+agent was then added to the diluted plasmid solution, and the        bottom, flat-­bottom 96-­well tissue culture plates at a density of
+resultant solution was incubated for 15min at room tempera-          20,000 cells/well. Plates were incubated overnight in Opti-­MEM
+ture. Following this, the Lipofectamine plasmid solution was         containing 1% FBS at 37°C and 5% CO2. The next day, Opti-­
+added to the cells, and cells were incubated for 48h at 37°C         MEM media was removed and replaced with cell assay buffer
+and 5% CO2 prior to visualization. HitHunter CHO-­K1 cAMP            (1X PBS). Subsequently, cells were left untreated or treated with
+cells and PathHunter CHO-­K1 arrestin2 cells were transfected        0.1% DMSO in PBS containing 10M FSK and 0.1nM to 10M
+with 0.50g of OX1 or OX2 plasmid. CB1 or CB2 cells described         ligands for 90min at 37°C. cAMP antibody solution and ED-­
+in figures as receiving 0.00g OX1 or 0.00g OX2 (i.e., non-­          conjugated cAMP solution were then added to cells according to
+transfected cells) were used as controls that received a `mock'      the manufacturer's directions (DiscoverX). Cells were incubated
+transfection of only the Lipofectamine 3000 and P3000 reagent        with these solutions for 60min at room temperature protected
+but without plasmid DNA and were otherwise identical to plas-        from light. -­galactoside substrate (i.e., cAMP solution A) was
+mid transfections. Hoechst nuclei stain (100mg, ThermoFisher         added according to the manufacturer's directions (DiscoverX)
+Scientific) was dissolved in 10mL dH2O to create a 10mg/mL           and cells were incubated for an additional 3h at room tempera-
+stock solution. The stock Hoechst stain was further diluted          ture protected from light. Chemiluminescence was measured
+1:5000 in PBS. Forty-­eight hours after transfection, cell media     on a BioTek Synergy HT microplate reader (BioTek Instruments,
+was removed and replaced with 250L of diluted Hoechst stain          Winooski, VT) with the following settings: top read, gain 200,
+in PBS and incubated for 10min at room temperature protected         integration time 1000ms [25, 26]. Raw data for the untreated
+from light. The staining solution was then removed, and cells        and vehicle with FSK-­treated controls is presented in Figure S2.
+were washed three times in 250L PBS. After removing the
+last PBS, cells were provided with 200L FluoroBrite DMEM             2.6|PathHunter arrestin2 Assay
+media (ThermoFisher Scientific). Cells were visualized using a
+ZOE fluorescent cell imaging system with a 20× objective using       arrestin2 recruitment was assessed using the DiscoverX
+brightfield, blue fluorescent, and green fluorescent channels.       PathHunter assay in CHO-­K1 CB1 and CB2 arrestin2 cells.
+Brightfield imaging settings were gain 29, exposure 220, LED         CHO-­K1 cells used in the PathHunter assay stably express
+intensity 26, and contrast 35. Blue (for nuclei) settings were gain  human CB1 or CB2 conjugated to the ED portion of a modified
+41, exposure 250, LED intensity 7, and contrast 38. Green (for       -­galactoside enzyme and arrestin2 conjugated to the EA
+OX receptor eGFP) settings were gain 109, exposure 260, LED          portion of a modified -­galactoside enzyme. Recruitment of
+intensity 56, and contrast 59. Images were exported as .tif files    arrestin2 to a GPCR is quantified through an EFC approach
+for subsequent analysis detailed in Section 2.7.                     that relies on a modified -­galactoside reaction to produce a
+                                                                     chemiluminescent signal. In the PathHunter assay, cells are
+2.5|HitHunter cAMP Assay                                             first incubated with ligand--in our case the cannabinoid re-
+                                                                     ceptor agonist CP55,940--that may result in the recruitment
+Gi/o-­mediated inhibition of cAMP production was assessed            of arrestin2 to the GPCR. After this incubation period, cells
+using the DiscoverX HitHunter assay in CHO-­K1 CB1 and CB2           are treated with a modified -­galactoside substrate that can
+cAMP cells. CHO-­K1 cells used in the HitHunter assay stably         be hydrolyzed by the whole enzyme to produce light. The
+express unmodified human CB1 or CB2 along with an enzyme             amount of signal produced is directly proportional to the
+acceptor (EA) portion of a modified -­galactoside enzyme.            amount of arrestin2 recruitment occurring in the cells. From
+cAMP levels are quantified through an EFC approach that relies       a technical standpoint, the assay proceeded as follows: cells
+on a modified -­galactoside reaction to produce a chemilumi-         were dissociated from 10cm tissue culture plates using 2mL
+nescent signal. In the HitHunter assay, cells are first incubated    0.5% trypsin-EDTA and replated into white-­walled, white-­
+with ligand--in our case the cannabinoid receptor agonist            bottom, flat-­bottom 96-­well tissue culture plates at a density
+
+                                                                     3 of 14
+of 20,000 cells/well. Plates were incubated overnight in Opti-­     DMSO in PBS (arrestin2) alongside the concentration-­response
+MEM containing 1% FBS at 37°C and 5% CO2. Afterwards,               data. CRCs were fit using variable slope non-­linear regression
+cells were left untreated or treated with 0.1% DMSO in PBS or       (i.e., 4-­parameters) or the Hill slope was constrained to 1, where
+0.1nM-10M ligands for 90min at 37°C. Detection solution             specifically noted. CRCs were used to estimate pEC50 and Emax
+(i.e., -­galactoside substrate) was then added to cells according   values. Statistical analyses were conducted by one-­way analysis
+to the manufacturer's directions (DiscoverX) and cells were in-     of variance (ANOVA) or two-­way ANOVA, as indicated in the
+cubated for 60min at room temperature. Chemiluminescence            figure and table descriptions. Post hoc analyses were performed
+was measured on a BioTek Synergy HT microplate reader               using Tukey's test. All values are expressed as the mean±the
+(BioTek Instruments, Winooski, VT) with the following set-          standard error of the mean (SEM) or 95% confidence interval
+tings: top read, gain 200, integration time 1000ms [25, 26].        (CI), as indicated. p values <0.05 were considered significant.
+
+2.7|Image Analysis                                                  2.9|Nomenclature of Targets and Ligands
+
+Image files were imported into Fiji ImageJ v. 1.54i [27] to         Key protein targets and ligands in this article are hyperlinked to
+count the number of OX1 or OX2-­expressing cells based on           corresponding entries in http://www.guidetopharmacology.org,
+their green fluorescence as a percentage of the number of           the common portal for data from the IUPHAR/BPS Guide to
+Hoechst-­stained cells. Imported .tif images were first dupli-      PHARMACOLOGY [28], and are permanently archived in the
+cated and the duplicates converted from RGB to 8-­bit format;       Concise Guide to PHARMACOLOGY 2019/20 [29].
+then, an image threshold adjustment was applied using the
+"Threshold" tool with default settings. Images were then pro-       3|Results
+cessed into Binary images and converted to a Mask, again
+using default settings. The "Watershed" tool was then applied       3.1|Estimation of Transfection Efficiency
+to separate clusters of cells that would otherwise be counted
+as single objects. Cells were then counted using the "Analyze       Because our experimental approach utilized CHO-­K1 cells stably
+Particles" tool with the particle size set to 10--infinity pix-     expressing cannabinoid receptors but transiently transfected with
+els2 and all other settings kept as default. The percentage of      orexin receptors, the transfection efficiency of Lipofectamine
+receptor-­expressing cells was then estimated by dividing the       3000 was estimated by counting the number of eGFP-­expressing
+number of green cells in a given field of view by the number of     cells relative to the number of Hoechst-­stained nuclei in a given
+Hoechst-­stained nuclei in that same field of view, multiplied      field of view 48h after transfection. The lowest transfection ef-
+by 100.                                                             ficiency was observed in CHO-­K1 cAMP CB1 cells transfected
+                                                                    with OX1 (19%) and the highest transfection efficiency was ob-
+2.8|Statistical Analyses                                            served in CHO-­K1 cAMP CB2 cells transfected with OX2 (75%)
+                                                                    (Figure 1A). However, transfection efficiency was not different
+Statistical analyses were conducted using GraphPad Prism 9.0        between CB1-­expressing cells and CB2-­expressing cells. A subset
+(GraphPad Software Inc., San Diego, CA, USA). All assays were       of CHO-K­ 1 cAMP cells was also treated only with Lipofectamine
+conducted with a minimum n=4 independent experiments as             3000 for this experiment (i.e., `Mock' transfected) and some green
+indicated in figure legends with 3 technical replicates per treat-  background fluorescence was observed in these cells using the
+ment per experiment. In the whole of the study, 3 technical repli-  same microscope and ImageJ analysis settings, such that the per-
+cate datapoints from a single experiment were excluded because      centage of eGFP-p­ ositive cells in these experiments was 3.5% and
+the experimenter noted technical issues in the execution of that    2.6% for CB1 and CB2, respectively (Figure 1A). Representative
+experiment. Data for cAMP inhibition and arrestin2 recruit-         micrographs are displayed in Figure 1B, and a full catalogue of
+ment in untreated cells and cells receiving 0.1% DMSO +10M          all images is displayed in Supporting Information (Figure S3).
+FSK in PBS (cAMP) or 0.1% DMSO in PBS (arrestin2) are repre-
+sented as fold compared to non-­transfected untreated cells (i.e.,  3.2|Modulation of cAMP and arrestin2
+1; Figures 2A,C, 3A,C, 4A,C, and 5A,C) For clarity this meant       Recruitment in CB1-­OX1 Transfected Cells
+that in cAMP experiments the vehicle treatment contained 0.1%
+DMSO +10M FSK in PBS; and for arrestin2 experiments the             In untreated cells, increasing the amount of OX1 did not signifi-
+vehicle contained 0.1% DMSO in PBS. For all concentration-­         cantly change the cAMP response (Figure 2A). Cells treated
+response curves (CRC; Figures 2B,D, 3B,D, 4B,D, and 5B,D),          with the compound solvent, which included 0.1% DMSO and
+raw data were transformed in GraphPad Prism using the for-          10M FSK, saw statistically significantly higher levels of cAMP
+mula "Y=Y/K" where `K' represented the mean Emin observed           as expected following FSK treatment; and this effect was greater
+for the CRC obtained from raw data in a single 96-­well plate for   in cells transfected with 0.10 and 0.25g OX1 compared to non-­
+that treatment group. In considering our data, several analyti-     transfected cells or cells transfected with 0.50g OX1 (Figure 2A).
+cal approaches were considered; however, because the level of       Transfected and non-­transfected cells were treated with increas-
+receptor expression was not measured within the cells used for      ing concentrations of CP55,940 (Figure 2B). These data were first
+experiments we did not think it appropriate to normalize to a set   transformed relative to the Emin for each CRC as described in the
+compound-­based parameter such as % FSK response. Therefore,        Methods. Doing so constrained the CRC Emin to 1 so that curves
+we provide the data for cellular responses to no treatment and      for different amounts of transfected plasmid that had variable
+the solutions of 0.1% DMSO +10M FSK in PBS (cAMP) or 0.1%
+
+4 of 14                                                             Pharmacology Research & Perspectives, 2025
+FIGURE 1| Legend on next page.
+
+                                5 of 14
+FIGURE 1|Estimation of transfection efficiency. CHO cells stably expressing CB1 and transiently transfected with either OX1 or OX2-­eGFP plas-
+mids were stained with Hoechst to visualize nuclei and observed to estimate transfection efficiency based on the number of cells expressing eGFP
+(A). Data are mean±SEM from n=3 (Mock) or 9 independent experiments. (B) Representative images for data presented in panel (A). Scale bar
+represents 100m.
+
+FIGURE 2|CB1-­dependent inhibition of cAMP and arrestin2 recruitment in CB1-­OX1 cells. CHO cells stably expressing CB1 and transient-
+ly expressing OX1 were treated with 10M FSK and 0.1nM--10M CP55,940 for 90min to measure cAMP inhibition (A, B) or 0.1nM--10M
+CP55,940 for 90min to measure arrestin2 recruitment (C, D). Data were fit to a 4-­parameter non-­linear regression and are represented as fold
+
+over vehicle. Data are mean±SEM from n=4-8 independent experiments performed in triplicate. *p<0.05, **p<0.01, ****p<0.0001 within
+treatment between groups; #p<0.05, ####p<0.0001 within groups between treatments as determined by two-­way ANOVA followed by Tukey's
+
+post hoc test.
+
+fold responses in Figure 2A were made comparable in Figure 2B.       (Figure 2B and Table 1). Emax was greater in cells transfected with
+By constraining the Emin to 1 in this way, differences in potency    0.10 or 0.25g OX1, but cells transfected with 0.50g OX1 did not
+and efficacy as a function of CP55,940 were compared under each      display greater efficacy compared to cells without OX1 (Figure 2B
+transfection condition that were not overestimated through the       and Table 1). In addition, transfection with 0.50g OX1 resulted
+inclusion of different basal vehicle conditions. In cells that were  in a CRC that could not be fit to a 4-­parameter model (Table 1).
+not transfected with OX1, a concentration-­response for CP55,940
+was observed with a potency of 1.5nM (Figure 2B); however, the       This may indicate that at plasmid levels above 0.25g OX1, there
+goodness of fit was relatively low (R2=0.25) albeit with reasonable  may have been signaling interference as a result of OX1 coupling
+residual standard deviation (Sy.x=0.16) and so conclusions about     to Gi/o or GS because coupling to these G proteins has been
+shifts in potency should be interpreted with caution. Among trans-   detected reviewed in [30]. Alternatively, OX1-­mediated signaling
+fected cells, as the amount of OX1 increased, CP55,940's potency     via Gq interfered with Gi/o signaling [30]. Overall, these data
+decreased; however, this shift was not statistically significant     suggest that the presence of OX1 enhanced CB1-­dependent cAMP
+                                                                     inhibition. In untreated cells, 0.10g OX1 reduced CB1-­dependent
+6 of 14
+                                                                                                                       Pharmacology Research & Perspectives, 2025
+TABLE 1|CB1-­dependent inhibition of cAMP and recruitment of arrestin2 in CB1-­OX1 cells.
+
+                           cAMP                                                            arrestin2
+
+[OX1] (g)  pEC50 (nM)      Emax (Fold)   Hill slope                     pEC50 (nM)         Emax (Fold)b Hill slope
+
+0.00       8.8±0.45 (1.5)  0.79±0.03     -1.7±3.6                       <5 (>10000)        17±4.6     n.d.
+
+0.10       8.1±0.24 (7.2)  0.57±0.03**   -1.2±0.90                      5.5±1.4 (3000)     5.7±3.2    0.41±0.23
+
+0.25       7.9±0.16 (12)   0.52±0.03***  -0.77±0.22                     6.0±0.26 (960)     5.6±0.63   0.46±0.08
+
+0.50       7.9±0.33 (11)a  0.69±0.03a    -1a                            6.4±0.068 (400)    6.4±0.21   0.70±0.06
+
+Note: Data were fit to a 4-­parameter non-­linear regression to estimate potency (pEC50) and efficacy (Emax) values. Data are expressed as mean±SEM. n=4-8
+independent experiments performed in triplicate. Statistical analyses were by one-­way ANOVA followed by Tukey's post hoc test. Data presented in the Table relate to
+Figure 2.
+Abbreviation: n.d., not determined.
+**p < 0.01 relative to CP55,940.
+***p<0.001 relative to CP55,940.
+aWhen fit to a 4-­parameter model, pEC50 and Hill Slope could not be accurately estimated, data in table are for a Hill Slope constrained to 1.
+bEmax data represent the experimentally observed value because CRC did not reach a clearly defined maximum asymptote; for this reason EC50 is reported
+as>10000nM.
+
+arrestin2 recruitment; whereas 0.25g OX1 was not different              in potency should be interpreted with caution. As in Figure 2,
+from cells without OX1, and 0.50g OX1 produced greater ar-              CRC data in Figure 3B,D were constrained such that Emin=1 to
+restin2 recruitment than 0.00, 0.10, or 0.25g OX1 in untreated          allow for comparisons of potency and efficacy following CP55,940
+cells (Figure 2C). Similarly, in cells that received 0.1% DMSO          treatment. Among transfected cells, the presence of OX2 enhanced
+in PBS, arrestin2 recruitment was greater in cells transfected          both the potency and efficacy of CP55,940, although the shift in
+with 0.50g OX1 compared to cells transfected with 0.00, 0.10,           potency was not assessed by ANOVA because the estimated po-
+or 0.25g OX1 (Figure 2C). An effect of vehicle (0.1% DMSO in            tency was outside the range of CP55,940 used in the assay (i.e.,
+PBS) compared to untreated was present for cells transfected with       <0.1nM) (Figure 3B and Table 2). These data suggest that OX2 en-
+0.50g OX1; it is not clear whether this effect was biologically sig-    hanced CP55,940-m­ ediated cAMP inhibition via CB1. In untreated
+nificant, but it is reported to show the vehicle did affect our obser-  cells and cells that received 0.1% DMSO in PBS, transfection with
+vations under some conditions (Figure 2C). As with Figure 2A,B,         0.25 or 0.50g OX2 reduced arrestin2 recruitment compared to
+CRC data in Figure 2D were constrained to an Emin of 1 to allow         cells without OX2 and when 0.10g OX2 was compared to 0.25g
+for comparisons of potency and efficacy following CP55,940 treat-       OX2 (Figure 3C). Cells that received 0.1% DMSO in PBS that were
+ment. The CRC for CP55,940 in CHO-­K1 CB1 arrestin2 cells               transfected with 0.25g OX2 displayed less arrestin2 recruitment
+that were not transfected did not reach a clear asymptote, and          than cells transfected with 0.00, 0.10, or 0.50g OX2 (Figure 3C).
+so the reported Emax is based on the observed result rather than        Treatment with 0.1% DMSO in PBS also appears to have reduced
+the nonlinear regression (Figure 2D). In comparison, the potency        arrestin2 recruitment compared to untreated cells that received
+of CP55,940 among transfected cells appeared to increase as the         0.00 or 0.10g OX2 (Figure 3C); as in Figure 2C. it is unknown
+amount of OX1 increased, although this trend was not statistically      whether this is biologically significant but is reported to show the
+significant (Table 1). The presence of OX1 reduced CP55,940's ef-       vehicle did affect our observations under some conditions. The
+ficacy in the arrestin2 recruitment assay, although this was not        CRC for CP55,940 in CHO-K­ 1 CB1 arrestin2 cells that were not
+statistically significant (Figure 2D and Table 1). These data sug-      transfected (same as in Figure 2D) did not reach a clear asymptote,
+gest that the effect of OX1 on CB1-­dependent arrestin2 recruit-        and so the reported Emax is based on the observed result rather
+ment may depend on the specific treatment the cells are exposed         than the nonlinear regression (Figure 3D). Accordingly, the po-
+to: arrestin2 recruitment increased as a function of transfecting       tency of CP55,940 in these experiments could not be accurately es-
+higher amounts of OX1 into cells while CP55,940-­treated cells ex-      timated (Figure 3D and Table 2). A statistically significant increase
+hibited reduced arrestin2 recruitment.                                  in the observed maximum response of CP55,940 was observed for
+                                                                        all transfection groups (Figure 3D and Table 2). These data suggest
+3.3|Modulation of cAMP and arrestin2                                    that the presence of OX2 can reduce CB1-­mediated arrestin2 re-
+Recruitment in CB1-­OX2 Transfected Cells                               cruitment in the absence of an agonist or facilitate CB1-­mediated
+                                                                        arrestin2 recruitment in the presence of an agonist. arrestin2
+In untreated cells, no significant difference was observed in the       recruitment was reduced as a function of increasing OX2 amounts,
+cAMP response as the amount of OX2 increased (Figure 3A). In            whereas CP55,940 treatment increased arrestin2 recruitment as a
+cells receiving 0.1% DMSO in PBS with 10M FSK, there was a              function of increasing OX2 amounts.
+trend toward increased cAMP levels with FSK, but these differ-
+ences were not significant; similar to untreated cells, OX2 trans-      3.4|Modulation of cAMP and arrestin2
+fection did not yield a significant difference in cAMP response         Recruitment in CB2-­OX1 Transfected Cells
+(Figure 3A). Data for CB1-­expressing cells that were not transfected
+with OX1 are identical in Figures 2B and 3B; therefore, because the     No statistical difference in cAMP levels was detected between
+goodness of fit was relatively low (R2=0.25) albeit with reasonable     untreated cells receiving varying amounts of OX1 (Figure 4A).
+residual standard deviation (Sy.x=0.16) conclusions about shifts        Ten micrometer FSK in 0.1% DMSO with PBS increased the
+
+                                                                                                      7 of 14
+FIGURE 3|CB1-­dependent inhibition of cAMP and arrestin2 recruitment in CB1-­OX2 cells. CHO cells stably expressing CB1 and transiently
+expressing OX2 were treated with 10M FSK and 0.1nM-10M CP55,940 for 90min to measure cAMP inhibition (A, B) or 0.1nM-10M CP55,940
+for 90min to measure arrestin2 recruitment (C, D). Data were fit to a 4-­parameter non-l­inear regression and are represented as fold over vehicle.
+
+Data are mean±SEM from n=4-8 independent experiments performed in triplicate. *p<0.05, ***p<0.001, ****p<0.0001 within treatment between
+groups; ##p<0.01, ####p<0.0001 within groups between treatments as determined by two-­way ANOVA followed by Tukey's post hoc test.
+
+cAMP response as expected compared to untreated cells, and         compared to non-­transfected cells; similarly, arrestin2 recruit-
+this difference was statistically significant in cells receiving   ment was lower in CB2-­expressing cells transfected with 0.10g
+0.25 and 0.50g OX1 compared to untreated cells (Figure 4A).        OX1 compared to non-­transfected cells that received 0.1% DMSO
+Cells transfected with 0.10g OX1 that received 10M FSK             in PBS (Figure 4C). The potency of CP55,940 did not appear to
+in 0.1% DMSO and PBS saw a cAMP response that was lower            follow a specific trend as a function of the amount of OX1 trans-
+compared to cells transfected with 0.50g OX1 (Figure 4A). As       fected (Table 3). However, the efficacy of CP55,940 did increase
+above, CRC data in Figure 4B,D were constrained for Emin=1         as the level of OX1 increased up to 0.25g OX1 (Figure 4D and
+to allow for comparisons of potency and efficacy following         Table 3). At 0.50g OX1, the efficacy of CP55,940 was not sta-
+CP55,940 treatment. In cells that were not transfected with OX2,   tistically different from that of non-­transfected cells (Table 3).
+a concentration-­response for CP55,940 was observed with a po-     Thus, our system may be oversaturated at plasmid levels above
+tency of 10nM if the Hill Slope was constrained to 1 (Figure 4B);  0.25g OX1. These data suggest that OX1 enhances CP55,940-­
+however, the goodness of fit was relatively low (R2=0.21) al-      dependent arrestin2 recruitment while reducing arrestin2 re-
+beit with reasonable residual standard deviation (Sy.x=0.092);     cruitment in the absence of a CB2 agonist.
+therefore, these data should be interpreted with caution. Potency
+could not be determined for cells transfected with 0.10, 0.25, or  3.5|Modulation of cAMP and arrestin2
+0.50g OX1, as no concentration-­response was clearly observed      Recruitment in CB2-­OX2 Transfected Cells
+(Figure 4B and Table 3). The efficacy of CP55,940 decreased as
+the amount of OX1 increased, though this was only statistically    No statistical differences in cAMP response were observed among
+significant for cells transfected with 0.10g OX1 (Figure 4B).      untreated cells (Figure 5A). Ten micrometer FSK (in 0.1% DMSO
+These data suggest that OX1 prevents CB2-­dependent cAMP in-       with PBS) produced an increase in cAMP response that was sig-
+hibition. Basal arrestin2 recruitment was lower in untreated       nificant in cells that were transfected with 0.25 or 0.50g OX2
+CB2-­expressing cells transfected with 0.10, 0.25, or 0.50g OX1
+                                                                                                                     Pharmacology Research & Perspectives, 2025
+8 of 14
+compared to untreated cells (Figure 5A). As elsewhere, CRC data  Data for cells not expressing OX2 (i.e., 0.0g) or transfected with
+                                                                 0.10g OX2 could not be fit to a 4-p­ arameter model as the Hill
+in Figure 5B,D were constrained for Emin=1 to allow for com-     slope was too variable (Figure 5B and Table 4). The CRC for cells
+parisons of potency and efficacy following CP55,940 treatment.
+
+TABLE 2|CB1-­dependent inhibition of cAMP and recruitment of arrestin2 in CB1-­OX2 cells.
+
+                           cAMP                                                            arrestin2
+
+[OX2] (g)  pEC50 (nM)      Emax (Fold)   Hill slope              pEC50 (nM)                Emax (Fold)a  Hill slope
+
+0.00       8.8±0.45 (1.5)  0.79±0.03     -1.7±3.6                <5 (>10000)               17±4.6        n.d.
+
+0.10       9.4±2.5 (1.3)   0.62±0.07     -0.5±0.66               <5 (>10000)               33±0.92*      n.d.
+
+0.25       >10 (<0.1)      0.58±0.06*    -0.39±0.59              <5 (>10000)               41±1.5**      n.d.
+
+0.50       >10 (<0.1)      0.43±0.06***  -0.35±0.45              <5 (>10000)               39±3.8**      n.d.
+
+Note: Data were fit to a 4-­parameter non-­linear regression to estimate potency (pEC50) and efficacy (Emax) values. Data are expressed as mean±SEM. n=4-8
+independent experiments performed in triplicate. If potency could not be estimated (i.e., <0.1nM or >10000nM), then Emax is reported as the mean of the greatest
+response observed. Statistical analyses were by one-­way ANOVA followed by Tukey's post hoc test. Data presented in the Table relate to Figure 3.
+Abbreviation: n.d., not determined.
+*p<0.05.
+**p<0.01.
+***p < 0.001 relative to CP55,940.
+aEmax data represent the experimentally observed value because CRC did not reach a clearly defined maximum asymptote; for this reason EC50 is reported as>10000nM.
+
+FIGURE 4|CB2-­dependent inhibition of cAMP and arrestin2 recruitment in CB2-­OX1 cells. CHO cells stably expressing CB2 and transiently ex-
+pressing OX1 were treated with 10M FSK and 0.1nM-10M CP55,940 for 90min to measure cAMP inhibition (A, B) or 0.1nM-10M CP55,940 for
+90min to measure arrestin2 recruitment (C, D). Data were fit to a 4-­parameter non-l­inear regression and are represented as fold over vehicle. Data
+are mean±SEM from n=4-8 independent experiments performed in triplicate. *p<0.05, **p<0.01, ***p<0.001, ****p<0.0001 within treatment
+between groups; ##p<0.01, ###p<0.001 within groups between treatments as determined by two-­way ANOVA followed by Tukey's post hoc test.
+
+                                                                                                                                                                 9 of 14
+TABLE 3|CB2-­dependent inhibition of cAMP and recruitment of arrestin2 in CB2-­OX1 cells.
+
+[OX1] (g)   pEC50 (nM)      cAMP         Hill slope                      pEC50 (nM)        arrestin2       Hill slope
+0.00       8.0±0.62 (10)a  Emax (Fold)b      -1a                        6.9±0.42 (120)        Emax (Fold)  0.79±0.58
+0.10                        0.87±0.02a       n.c.                       7.3±0.17 (50)           2.3±0.27   0.80±0.22
+                 n.c.                                                                          2.9±0.13*
+                            0.96±0.05*
+
+0.25       n.c             0.94±0.07                              n.c.  6.9±0.10 (130)     3.0±0.11*       1.0±0.25
+
+0.50       n.c             0.92±0.04                              n.c.  7.4±0.29 (38)      2.5±0.18        0.60±0.25
+
+Note: Data were fit to a 4-­parameter non-­linear regression to estimate potency (pEC50) and efficacy (Emax) values. Data are expressed as mean±SEM. n=4-8
+independent experiments performed in triplicate. If potency could not be estimated (i.e., <0.1nM), then Emax is reported as the mean of the greatest response observed.
+Statistical analyses were by one-­way ANOVA followed by Tukey's post hoc test. Data presented in the Table relate to Figure 4.
+
+Abbreviation: n.c--not converged.
+
+*p<0.05 relative to CP55,940.
+aWhen fit to a 4-­parameter model, pEC50 and Hill Slope could not be accurately estimated, data in table are for a Hill Slope constrained to 1.
+bFor data where no clear CRC was observed, Emax represents the lowest value observed.
+
+FIGURE 5|CB2-­dependent inhibition of cAMP and arrestin2 recruitment in CB2-­OX2 cells. CHO cells stably expressing CB2 and transiently
+expressing OX2 were treated with 10M FSK and 0.1nM--10M CP55,940 for 90min to measure cAMP inhibition (A, B) or 0.1nM--10M CP55,940
+for 90min to measure arrestin2 recruitment (C, D). Data were fit to a 4-­parameter non-l­inear regression and are represented as fold over vehicle.
+
+Data are mean±SEM from n=4-8 independent experiments performed in triplicate. *p<0.05, **p<0.01, ***p<0.001 within treatment between
+groups; ##p<0.01, ###p<0.001 within groups between treatments, as determined by two-­way ANOVA followed by Tukey's post hoc test.
+
+that were not transfected with OX2 had a relatively low good-     in all transfection groups in an OX2 amount-­dependent order
+ness of fit (R2=0.21); and these data should be interpreted with  (Figure 5B and Table 4). These data suggest that OX2 facilitates
+that caveat in mind. CP55,940's efficacy significantly increased  CB2-­dependent cAMP inhibition in CP55,940-t­reated cells. In
+
+10 of 14                                                                                                            Pharmacology Research & Perspectives, 2025
+TABLE 4|CB2-­dependent inhibition of cAMP and recruitment of arrestin2 in CB2-­OX2 cells.
+
+                           cAMP                                                              arrestin2
+
+[OX2] (g)   pEC50 (nM)     Emax (Fold)    Hill slope                         pEC50 (nM)      Emax (Fold)  Hill slope
+0.00       8.0±0.62 (10)a  0.87±0.02a         -1a                           6.9±0.42 (120)    2.3±0.27    0.79±0.58
+
+0.10       7.8±0.26 (17)a  0.75±0.02**,a                               -1a  8.3±0.51 (5.0)a  1.3±0.04*,a  1a
+
+0.25       7.8±0.17 (16)   0.76±0.02**    -1.2±0.56                         9.3±3.2 (0.45)*  1.8±0.20     0.36±0.45
+
+0.50       7.9±0.20 (11)   0.68±0.03****  -1.2±0.78                         8.3±0.32 (4.9)   1.4±0.03     1.2±0.86
+
+Note: Data were fit to a 4-­parameter non-­linear regression to estimate potency (pEC50) and efficacy (Emax) values. Data are expressed as mean±SEM. n=4-8
+independent experiments performed in triplicate. Statistical analyses were by one-­way ANOVA followed by Tukey's post hoc test. Data presented in the Table relate to
+Figure 5.
+*p < 0.05.
+**p<0.01.
+***p<0.001.
+****p<0.0001 relative to CP55,940.
+aWhen fit to a 4-­parameter model, pEC50 and Hill Slope could not be accurately estimated, data in table are for a Hill Slope constrained to 1.
+
+untreated cells, the presence of OX2 led to a significant increase in  inhibition and the efficacy of arrestin2 recruitment. For both
+arrestin2 recruitment in cells transfected with 0.10 and 0.25g         CB2-­OX1 and CB2-­OX2 pairings, the presence of OX1 or OX2 ap-
+OX2 but not in cells transfected with 0.50g OX2, which may             peared to decrease the efficacy of CP55,940-­dependent cAMP
+suggest that our system is oversaturated at plasmid levels above       inhibition; whereas for arrestin2 the CB2-­OX1 pairing was as-
+0.25g OX2 (Figure 5C). In cells that received 0.1% DMSO with           sociated with greater arrestin2 recruitment in the presence of
+PBS, a similar effect was seen, in which cells transfected with 0.10   CP55, 940 and the CB2-­OX2 pairing was associated with less
+and 0.25g OX2 exhibited significant increases in arrestin2 re-         arrestin2 recruitment. These data suggest that the form of inter-
+cruitment (Figure 5C). Data for cells transfected with 0.10g OX2       action between CB2-­OX1 or CB2-­OX2 and the Gi/o and arrestin2
+could not be fit to a 4-p­ arameter model as the Hill slope was too    recruitment pathways differs from that of CB1 with OX1 or OX2
+variable (Table 4). CP55,940's potency was improved in the pres-       for that matter. Such differences in receptor interactivity warrant
+ence of 0.25g OX2, although its efficacy decreased in cells trans-     further examination in future studies to determine what effec-
+fected with OX2, with only 0.10g being significant (Figure 5D          tors--whether at the receptor or downstream--differentiate each
+and Table 4). Overall, OX2 enhanced basal CB2-­mediated arres-         pairing and gain mechanistic insight into receptor crosstalk.
+tin2 recruitment, but CP55,940's potency and efficacy at CB2 were
+generally reduced when OX2 was present.                                As with other studies exploring GPCR signaling and cross-t­alk, a
+                                                                       major limitation is that our results were obtained in a heterologous
+4|Discussion                                                           system [19, 42]. Considering that our in vitro model consisted of
+                                                                       CHO-­K1 cells overexpressing human GPCRs, these results may
+CB1 interacts with various serotonin, somatostatin, dopamine,          not be reflective of the activity of these receptors when expressed
+opioid, adenosine, and angiotensin receptors, as well as the or-       in native tissues [43, 44]. In our experimental setup, the chosen
+phan receptor GPR55 [31-36]. Some of these interactions are            vehicles (e.g., 0.1% DMSO in PBS) produced changes in cAMP re-
+known to modulate receptor activity. For example, CB1 preferen-        sponse or arrestin2 recruitment that were sometimes unexpect-
+tially couples to Gs G proteins instead of Gi/o G proteins when        edly statistically significant (e.g., Figures 2C and 3C). Although
+co-­expressed with the dopamine D2 receptor [37]. Much less is         the biological significance of these changes is unclear, we felt it
+known about CB2's interactions with other GPCRs, though pre-           important to include those data to showcase the real potential
+vious studies suggest CB2 interacts with GPR55, serotonin, and         effects vehicle solvents can have on system measurements. Such
+chemokine receptors [38-41].                                           systems are inherently variable, and here we display that variabil-
+                                                                       ity as directly as possible. In addition, our study examined a single
+Data from numerous studies now suggest that crosstalk exists be-       timepoint of receptor signaling, 90min after CP55,940 treatment.
+tween the endocannabinoid and orexinergic systems reviewed in          This timepoint was optimized for the arrestin2 assay and then
+[12]. It is critical to clarify how these complex biological systems   matched in the cAMP inhibition assay. However, it is possible that
+interact with one another, considering their shared anatomical         receptor desensitization occurred during that time or that some
+distribution and what implications these interactions have on          signal was lost in the cAMP assay due to the actions of phospho-
+physiological processes regulated by these systems. Our results        diesterases. Moreover, our study did not account for the potential
+demonstrate that the introduction of OX1 or OX2 can alter the          activity of endogenous cannabinoids such as 2-­AG [20, 21]. Thus,
+pharmacological properties (i.e., efficacy, potency) of the ag-        we do not know if these effects detected in vitro would also be
+onist CP55,940 at CB1 and CB2. For CB1, the presence of OX1            present in vivo. It will be necessary to establish that these recep-
+appeared to increase the efficacy of CP55,940-­dependent cAMP          tor pairings are co-­expressed on the same cells or tissues in vivo
+inhibition and conversely decrease arrestin2 recruitment, with         [18]. Even if these GPCRs are co-­expressed and present in vivo,
+no clear effect on potency; whereas the presence of OX2 aug-           we will need to assess whether these receptors engage in crosstalk
+mented the efficacy and potency of CP55,940-­dependent cAMP            and/or heterodimerization [45]. Previous work from our research
+                                                                       group using C57BL/6 mice found that OX1 antagonism increases
+
+                                                                                                                                               11 of 14
+CB1-­OX1, but not CB1-­OX2, colocalization in the ventral striatum,     Conflicts of Interest
+and that this colocalization is responsible for the observed in-
+crease in catalepsy in mice co-t­reated with CP55,940 and the dual      R.B.L. served on the Scientific Advisory Board for Shackleford Pharma
+orexin receptor antagonist (DORA) TCS-­1102 [46].                       Inc. and has consulted in medico-l­egal cases concerning cannabis and
+                                                                        cannabinoids. None of these entities had any actual or perceived input
+While this study revealed that OX1 and OX2 can alter CB1-­              into the design or output of this study. K.A.M. declares that the research
+mediated and CB2-­mediated signaling, our experiments used              was conducted in the absence of any commercial or financial relation-
+CHO-­K1 cells that were transiently transfected with OX1 or OX2.        ships that could be construed as a potential conflicts of interest.
+Transfection efficiency in these cells ranged from 19% to 75% but
+was higher than cells that were exposed to only Lipofectamine           Data Availability Statement
+3000 and not transfected with plasmid DNA (i.e., `mock' trans-
+fected). Increasing amounts of either receptor did produce a re-        The authors declare that all the data supporting the findings of this
+sponse different from mock-­transfected controls. Additionally,         study are available within the paper and its Supplemental Data. Raw
+we did not establish the physical interaction of these receptors,       data used for this study are available at the Dryad repository (DOI:
+which has been done by other groups in similar model systems            10.5061/dryad.0cfxpnwcq).
+already [12]. We aim to assess changes in receptor trafficking,
+co-­localization, and expression via immunohistochemical mi-            References
+croscopy and western blotting with in vitro and ex vivo model
+systems in future studies. It is possible that the observed effect of   1.J. Petersen, S. C. Wright, D. Rodríguez, et al., "Agonist-­Induced Dimer
+orexin receptors on cannabinoid receptor signaling is a result of       Dissociation as a Macromolecular Step in G Protein-­Coupled Receptor
+a functional interaction and not evidence of receptor dimeriza-         Signaling," Nature Communications 8, no. 1 (2017): 226, https://doi.org/
+tion per se [22]. Bioluminescence resonance energy transfer             10.1038/s41467-­0 17-­0 0253-­9 .
+(BRET) and/or fluorescence resonance energy transfer (FRET)
+techniques could also be used to investigate physical interactions      2.W. M. Oldham and H. E. Hamm, "Heterotrimeric G Protein Activa-
+between these receptors [33]. However, such experiments would           tion by G-­Protein-­Coupled Receptors," Nature Reviews. Molecular Cell
+only establish whether heterodimer formation between canna-             Biology 9, no. 1 (2008): 60-71, https://doi.org/10.1038/nrm2299.
+binoid and orexin receptors is possible and not if such complexes
+alter signal transduction at the plasma membrane [23, 31].              3.T. Ullmann, M. Gienger, J. Budzinski, et al., "Homobivalent Dopa-
+                                                                        mine D2 Receptor Ligands Modulate the Dynamic Equilibrium of
+It is important to determine the specific physiological roles of        D2Monomers and Homo-­And Heterodimers," ACS Chemical Biology
+cannabinoid-­orexin receptor crosstalk and this will require            16, no. 2 (2021): 371-379, https://doi.org/10.1021/acschembio.0c00895.
+tools which probe those interactions (e.g., heterodimer-­specific
+agonists and antagonists) [33]. The development of bitopic or bi-       4.G. Milligan, "G Protein-­Coupled Receptor Hetero-­Dimerization: Con-
+valent ligands targeting cannabinoid-­orexin heterodimers will          tribution to Pharmacology and Function," British Journal of Pharma-
+be of great use to study these interactions in vivo and to deter-       cology 158, no. 1 (2009): 5-14, https://doi.org/10.1111/j.1476-­5 381.2009.
+mine their significance in physiological or pathological condi-         00169.x.
+tions [7, 47]. Such ligands consist of two pharmacophores joined
+together by a linker molecule allowing them to simultaneously           5.X. J. He, J. Patel, C. E. Weiss, X. Ma, B. L. Bloodgood, and M. R. Bang-
+interact with both receptors of the heterodimer [6, 42]. A series       hart, "Convergent, Functionally Independent Signaling by Mu and
+of bivalent ligands targeting CB1 and OX1 has been previously           Delta Opioid Receptors in Hippocampal Parvalbumin Interneurons,"
+developed using SR141716 and ACT-­078573 pharmacophores.                eLife 10 (2021): e69746, https://doi.org/10.7554/eLife.69746.
+However, while all ligands in this series were potent at CB1,
+most had poor activity at OX1, demonstrating the need for biva-         6.H. Hubner, T. Schellhorn, M. Gienger, et al., "Structure-­Guided De-
+lent ligands with improved pharmacological properties at both           velopment of Heterodimer-­Selective GPCR Ligands," Nature Communi-
+receptors of the heterodimer [7].                                       cations 7 (2016): 1-12, https://doi.org/10.1038/ncomms12298.
+
+In conclusion, our study revealed that orexin receptors affect          7.D. A. Perrey, B. P. Gilmour, B. F. Thomas, and Y. Zhang, "Toward the
+agonist-­dependent signaling at the cannabinoid receptors. Orexin       Development of Bivalent Ligand Probes of Cannabinoid CB1 and Orexin
+receptors generally enhanced cannabinoid receptor-­mediated             OX1 Receptor Heterodimers," ACS Medicinal Chemistry Letters 5, no. 6
+cAMP inhibition while they may increase or decrease cannabi-            (2014): 634-638, https://doi.org/10.1021/ml4004759.
+noid receptor-­mediated arrestin2 recruitment. The effects on
+cannabinoid receptor signaling by the presence of orexin receptors      8.R. G. Pertwee, "The Pharmacology of Cannabinoid Receptors and
+observed here require further evaluation regarding receptor local-      Their Ligands: An Overview," International Journal of Obesity 30
+ization and expression both in vitro and in vivo.                       (2006): S13-S18, https://doi.org/10.1038/sj.ijo.0803272.
+
+Author Contributions                                                    9.H. C. Lu and K. Mackie, "An Introduction to the Endogenous Canna-
+                                                                        binoid System," Biological Psychiatry 79, no. 7 (2016): 516-525, https://
+K.A.M. designed and executed experiments, analyzed data, and con-       doi.org/10.1016/j.biopsych.2015.07.028.An.
+tributed to the writing and editing of the manuscript. R.B.L. analyzed
+data and contributed to the writing and editing of the manuscript.      10.T. Sakurai, A. Amemiya, M. Ishii, et al., "Orexins and Orexin Recep-
+                                                                        tors: A Family of Hypothalamic Neuropeptides and G Protein-­Coupled
+                                                                        Receptors That Regulate Feeding Behavior," Cell 92, no. 4 (1998): 573-
+                                                                        585, https://doi.org/10.1016/S0092-­8 674(00)80949-­6 .
+
+                                                                        11.M. Mieda and M. Yanagisawa, "Sleep, Feeding, and Neuropeptides:
+                                                                        Roles of Orexins and Orexin Receptors," Current Opinion in Neurobiology
+                                                                        12, no. 3 (2002): 339-345, https://doi.org/10.1016/S0959-­4 388(02)00331-­8 .
+
+                                                                        12.Á. Flores, R. Maldonado, and F. Berrendero, "Cannabinoid-­
+                                                                        Hypocretin Cross-­Talk in the Central Nervous System: What We Know
+                                                                        So Far," Frontiers in Neuroscience 7 (2013): 256, https://doi.org/10.3389/
+                                                                        fnins.2013.00256.
+
+                                                                        13.R. T. Dorsam and J. S. Gutkind, "G-­Protein-­Coupled Receptors and
+                                                                        Cancer," Nature Reviews. Cancer 7, no. 2 (2007): 79-94, https://doi.org/
+                                                                        10.1038/nrc2069.
+
+12 of 14                                                                Pharmacology Research & Perspectives, 2025
+14.N. Tsujino and T. Sakurai, "Orexin/Hypocretin: A Neuropeptide at              Encompass the New Guide to Immunopharmacology," Nucleic Acids
+the Interface of Sleep, Energy Homeostasis, and Reward System," Phar-            Research 46, no. D1 (2017): D1091-D1106, https://doi.org/10.1093/nar/
+macological Reviews 61, no. 2 (2009): 162-176, https://doi.org/10.1124/          gkx1121.
+pr.109.001321.
+                                                                                 29.S. P. H. Alexander, A. Christopoulos, A. P. Davenport, et al., "The
+15.K. Mackie, "Cannabinoid Receptors: Where They Are and What                    Concise Guide to Pharmacology 2023/24: G Protein-­Coupled Re-
+They Do," Journal of Neuroendocrinology 20 (2008): 10-14, https://doi.           ceptors," British Journal of Pharmacology 180, no. Suppl 2 (2023):
+org/10.1111/j.1365-­2 826.2008.01671.x.                                          S23S144S2, https://doi.org/10.1111/bph.16177.
+
+16.N. Forte, S. Boccella, L. A. Tunisi, et al., "Cristino Orexin-­A and          30.N. C. Dale, D. Hoyer, L. H. Jacobson, K. D. G. Pfleger, and E. K. M.
+Endocannabinoids Are Involved in Obesity-­Associated Alteration of               Johnstone, "Orexin Signaling: A Complex, Multifacted Process," Fron-
+Hippocampal Neurogenesis, Plasticity, and Episodic Memory in Mice,"              tiers in Cellular Neuroscience 16, no. 1 (2022): 812359, https://doi.org/10.
+Nature Communications 12, no. 1 (2021): 1-20, https://doi.org/10.1038/           3389/fncl.2022.812359.
+s41467-­0 21-­2 6388-­4 .
+                                                                                 31.M. D. Thompson, T. Sakurai, I. Rainero, M. C. Maj, and J. P. Kuk-
+17.P. M. Turunen, M. H. Jäntti, and J. P. Kukkonen, "OX 1 Orexin/                konen, "Orexin Receptor Multimerization Versus Functional Interac-
+Hypocretin Receptor Signaling Through Arachidonic Acid and Endo-                 tions: Neuropharmacological Implications for Opioid and Cannabinoid
+cannabinoid Release," Molecular Pharmacology 82, no. 2 (2012): 156-              Signalling and Pharmacogenetics," Pharmaceuticals 10, no. 4 (2017):
+167, https://doi.org/10.1124/mol.112.078063.                                     1-20, https://doi.org/10.3390/ph10040079.
+
+18.S. Hilairet, M. Bouaboula, D. Carrière, G. Le Fur, and P. Casel-              32.P. Carriba, O. Ortiz, K. Patkar, et al., "Striatal Adenosine A2A and
+las, "Hypersensitization of the Orexin 1 Receptor by the CB1 Recep-              Cannabinoid CB1 Receptors Form Functional Heteromeric Complexes
+tor: Evidence for Cross-­Talk Blocked by the Specific CB1 Antagonist,            That Mediate the Motor Effects of Cannabinoids," Neuropsychophar-
+SR141716," Journal of Biological Chemistry 278, no. 26 (2003): 23731-            macology 32, no. 11 (2007): 2249-2259, https://doi.org/10.1038/sj.npp.
+23737, https://doi.org/10.1074/jbc.M212369200.                                   1301375.
+
+19.J. Ellis, J. D. Pediani, M. Canals, S. Milasta, and G. Milligan, "Orexin-­1   33.M. Hojo, Y. Sudo, Y. Ando, et al., "-­Opioid Receptor Forms a Func-
+Receptor-­Cannabinoid CB1 Receptor Heterodimerization Results in Both            tional Heterodimer With Cannabinoid CB1 Receptor: Electrophysiolog-
+Ligand-­Dependent and -­Independent Coordinated Alterations of Recep-            ical and Fret Assay Analysis," Journal of Pharmacological Sciences 108,
+tor Localization and Function," Journal of Biological Chemistry 281, no.         no. 3 (2008): 308-319, https://doi.org/10.1254/jphs.08244FP.
+50 (2006): 38812-38824, https://doi.org/10.1074/jbc.M602494200.
+                                                                                 34.J. Kargl, N. Balenga, G. P. Parzmair, A. J. Brown, A. Heinemann,
+20.Y. C. Ho, H. J. Lee, L. W. Tung, et al., "Activation of Orexin 1 Recep-       and M. Waldhoer, "The Cannabinoid Receptor CB1 Modulates the Sig-
+tors in the Periaqueductal Gray of Male Rats Leads to Antinociception            naling Properties of the Lysophosphatidylinositol Receptor GPR55,"
+via Retrograde Endocannabinoid (2-­Arachidonoylglycerol)-­induced                Journal of Biological Chemistry 287, no. 53 (2012): 44234-44248, https://
+Disinhibition," Journal of Neuroscience 31, no. 41 (2011): 14600-14610,          doi.org/10.1074/jbc.M112.364109.
+https://doi.org/10.1523/JNEUROSCI.2671-­11.2011.
+                                                                                 35.S. Zou, R. K. Somvanshi, and U. Kumar, "Somatostatin Receptor 5 Is
+21.R. Imperatore, L. Palomba, G. Morello, et al., "Formation of OX-­1R/          a Prominent Regulator of Signaling Pathways in Cells With Coexpres-
+CB1R Heteromeric Complexes in Embryonic Mouse Hypothalamic                       sion of Cannabinoid Receptors 1," Neuroscience 340 (2017): 218-231,
+Cells: Effect on Intracellular Calcium, 2-­Arachidonoyl-­Glycerol Bio-           https://doi.org/10.1016/j.neuroscience.2016.10.056.
+synthesis and ERK Phosphorylation," Pharmacological Research 111
+(2016): 600-609, https://doi.org/10.1016/j.phrs.2016.07.009.                     36.X. Viñals, E. Moreno, L. Lanfumey, et al., "Cognitive Impairment
+                                                                                 Induced by delta9-­Tetrahydrocannabinol Occurs Through Heteromers
+22.M. H. Jäntti, J. Putula, P. M. Turunen, et al., "Autocrine Endocan-           Between Cannabinoid CB1 and Serotonin 5-H­ T2A Receptors," PLoS Biol-
+nabinoid Signaling Through CB1 Receptors Potentiates OX1 Orexin                  ogy 13, no. 7 (2015): 1-40, https://doi.org/10.1371/journal.pbio.1002194.
+Receptor Signaling," Molecular Pharmacology 83, no. 3 (2013): 621-632,
+https://doi.org/10.1124/mol.112.080523.                                          37.C. S. Kearn, K. Blake-­Palmer, E. Daniel, K. Mackie, and M. Glass,
+                                                                                 "Concurrent Stimulation of Cannabinoid CB1 and Dopamine D2 Re-
+23.R. J. Ward, J. D. Pediani, and G. Milligan, "Heteromultimerization            ceptors Enhances Heterodimer Formation: A Mechanism for Recep-
+of Cannabinoid CB1 Receptor and Orexin OX1 Receptor Generates a                  tor Cross-­Talk?," Molecular Pharmacology 67, no. 5 (2005): 1697-1704,
+Unique Complex in Which Both Protomers Are Regulated by Orexin                   https://doi.org/10.1124/mol.104.006882.
+A," Journal of Biological Chemistry 286, no. 43 (2011): 37414-37428,
+https://doi.org/10.1074/jbc.M111.287649.                                         38.P. Morales and P. H. Reggio, "An Update on Non-­CB 1, Non-­CB 2
+                                                                                 Cannabinoid Related G-­Protein-­Coupled Receptors," Cannabis and
+24.I. Raïch, J. B. Rebassa, J. Lillo, et al., "Antagonization of OX1 Re-         Cannabinoid Research 2, no. 1 (2017): 265-273, https://doi.org/10.1089/
+ceptor Potentiates CB2 Receptor Function in Microglia From APPSw/                can.2017.0036.
+Ind Mice Model," International Journal of Molecular Sciences 23, no. 21
+(2022): 12801, https://doi.org/10.3390/ijms232112801.                            39.E. Moreno, C. Andradas, M. Medrano, et al., "Targeting CB2-­GPR55
+                                                                                 Receptor Heteromers Modulates Cancer Cell Signaling," Journal of Bi-
+25.A. Zagzoog, A. L. Brandt, T. E. Black, et al., "Laprairie Assessment          ological Chemistry 289, no. 32 (2014): 21960-21972, https://doi.org/10.
+of Select Synthetic Cannabinoid Receptor Agonist Bias and Selectivity            1074/jbc.M114.561761.
+Between the Type 1 and Type 2 Cannabinoid Receptor," Scientific Re-
+ports 11, no. 1 (2021): 1-18, https://doi.org/10.1038/s41598-­0 21-­9 0167-­w .  40.C. J. Coke, K. A. Scarlett, M. A. Chetram, et al., "Simultaneous Ac-
+                                                                                 tivation of Induced Heterodimerization Between CXCR4 Chemokine
+26.A. Zagzoog, K. A. Mohamed, H. J. J. E. Kim, et al., "LaprairieIn              Receptor and Cannabinoid Receptor 2 (CB2) Reveals a Mechanism for
+Vitro and In Vivo Pharmacological Activity of Minor Cannabinoids Iso-            Regulation of Tumor Progression," Journal of Biological Chemistry 291,
+lated From Cannabis sativa," Scientific Reports 10, no. 1 (2020): 1-13,          no. 19 (2016): 9991-10005, https://doi.org/10.1074/jbc.M115.712661.
+https://doi.org/10.1038/s41598-­0 20-­7 7175-­y .
+                                                                                 41.A. Dhopeshwarkar and K. Mackie, "CB2 Cannabinoid Receptors as
+27.J. Schindelin, I. Arganda-­Carreras, E. Frise, et al., "Fiji: An Open-­       a Therapeutic Target--What Does the Future Hold?," Molecular Phar-
+Source Platform for Biological-­Image Analysis," Nature Methods 9, no. 7         macology 86, no. 4 (2014): 430-437.
+(2012): 676-682, https://doi.org/10.1038/nmeth.2019.
+                                                                                 42.S. Ferré, R. Baler, M. Bouvier, et al., "Building a New Conceptual
+28.S. D. Harding, J. L. Sharman, E. Faccenda, et al., "The IUPHAR/               Framework for Receptor Heteromers," Nature Chemical Biology 5, no. 3
+BPS Guide to PHARMACOLOGY in 2019: Updates and Expansion to                      (2009): 131-134, https://doi.org/10.1038/nchembio0309-­1 31.
+
+                                                                                 13 of 14
+43.B. B. Yao, S. Mukherjee, Y. Fan, et al., "In Vitro Pharmacological
+Characterization of AM1241: A Protean Agonist at the Cannabinoid CB
+2 Receptor?," British Journal of Pharmacology 149, no. 2 (2006): 145-
+154, https://doi.org/10.1038/sj.bjp.0706838.
+
+44.A. Li, S. Liu, R. Huang, S. Ahn, and R. J. Lefkowitz, "Loss of Biased
+Signaling at a G Proteincoupled Receptor in Overexpressed Systems,"
+PLoS One 18, no. 3 (2023): e0283477, https://doi.org/10.1371/journal.
+pone.0283477.
+
+45.M. H. Jäntti, I. Mandrika, and J. P. Kukkonen, "Human Orexin/
+Hypocretin Receptors Form Constitutive Homo-­and Heteromeric
+Complexes With Each Other and With Human CB1 Cannabinoid Re-
+ceptors," Biochemical and Biophysical Research Communications 445,
+no. 2 (2014): 486-490, https://doi.org/10.1016/j.bbrc.2014.02.026.
+
+46.H. J. J. Kim, A. Zagzoog, A. M. Smolyakova, et al., "In Vivo Evidence
+for Brain Region-­Specific Molecular Interactions Between Cannabi-
+noid and Orexin Receptors," Frontiers in Neuroscience 15 (2021): 1-16,
+https://doi.org/10.3389/fnins.2021.790546.
+
+47.F. Berrendero, Á. Flores, and P. Robledo, "When Orexins Meet Can-
+nabinoids: Bidirectional Functional Interactions," Biochemical Phar-
+macology 157 (2018): 43-50, https://doi.org/10.1016/j.bcp.2018.08.040.
+
+Supporting Information
+
+Additional supporting information can be found online in the
+Supporting Information section.
+
+14 of 14                                                                  Pharmacology Research & Perspectives, 2025
+

@@ -1,0 +1,731 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. The median change in functional assessments over the follow-up of 6 years.",
+ "rows": [
+  {
+   "id": "fvc_sit",
+   "label": "Forced vital capacity sitting (%)",
+   "footnote_marks": "c"
+  },
+  {
+   "id": "fvc_lie",
+   "label": "Forced vital capacity lying (%)",
+   "footnote_marks": "d"
+  },
+  {
+   "id": "hip_flex",
+   "label": "Hip flexion (kg)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "hip_add",
+   "label": "Hip adduction (kg)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "hip_abd",
+   "label": "Hip abduction (kg)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "knee_ext",
+   "label": "Knee extension (kg)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "knee_flex",
+   "label": "Knee flexion (kg)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "ankle_df",
+   "label": "Ankle dorsiflexion (kg)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "smwt",
+   "label": "Six-minute walk (meters)",
+   "footnote_marks": ""
+  },
+  {
+   "id": "tug",
+   "label": "Timed up and go velocity (msec-1)",
+   "footnote_marks": "e"
+  },
+  {
+   "id": "tmwr",
+   "label": "Ten-meter walk or run velocity (msec-1)",
+   "footnote_marks": "e"
+  },
+  {
+   "id": "stair_up",
+   "label": "Stair ascent velocity (steps/sec)",
+   "footnote_marks": "e"
+  },
+  {
+   "id": "stair_down",
+   "label": "Stair descent velocity (steps/sec)",
+   "footnote_marks": "e"
+  },
+  {
+   "id": "chair",
+   "label": "Chair rise (sec)",
+   "footnote_marks": "bc"
+  }
+ ],
+ "columns": [
+  {
+   "id": "med_b",
+   "label": "Median baseline",
+   "metric_type": "median"
+  },
+  {
+   "id": "med_f",
+   "label": "Median 6 years",
+   "metric_type": "median"
+  },
+  {
+   "id": "p",
+   "label": "P value",
+   "metric_type": "p"
+  },
+  {
+   "id": "srm",
+   "label": "SRM",
+   "metric_type": "SRM"
+  }
+ ],
+ "excluded_columns": [
+  "(range) under each median: not part of the graded grid"
+ ],
+ "footnotes": {
+  "general": "P values calculated using Wilcoxon nonparametric rank signed test. SRM - standardized response mean.",
+  "a": "P value <0.05.",
+  "b": "Participants unable to perform the chair rise were given a value of 10,000 (effectively infinity) for the purposes of the Wilcoxon nonparametric rank signed test.",
+  "c": "Paired values available in 17 participants.",
+  "d": "Paired values available in 16 participants.",
+  "e": "Paired values available in 22 participants."
+ },
+ "star_legend": {
+  "a": "P < 0.05"
+ },
+ "cells": {
+  "fvc_sit|med_b": {
+   "raw": "77",
+   "metric_type": "median",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 77.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "fvc_sit|med_f": {
+   "raw": "64",
+   "metric_type": "median",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 64.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "fvc_sit|p": {
+   "raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "fvc_sit|srm": {
+   "raw": "-1.29",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -1.29,
+   "decimals": 2,
+   "graded": true
+  },
+  "fvc_lie|med_b": {
+   "raw": "70",
+   "metric_type": "median",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 70.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "fvc_lie|med_f": {
+   "raw": "54",
+   "metric_type": "median",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 54.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "fvc_lie|p": {
+   "raw": "0.002",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.002,
+   "decimals": 3,
+   "graded": true
+  },
+  "fvc_lie|srm": {
+   "raw": "-1.06",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -1.06,
+   "decimals": 2,
+   "graded": true
+  },
+  "hip_flex|med_b": {
+   "raw": "7.7",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "hip_flex|med_f": {
+   "raw": "6.4",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "hip_flex|p": {
+   "raw": "0.13",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.13,
+   "decimals": 2,
+   "graded": true
+  },
+  "hip_flex|srm": {
+   "raw": "-0.35",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.35,
+   "decimals": 2,
+   "graded": true
+  },
+  "hip_add|med_b": {
+   "raw": "6.1",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.1,
+   "decimals": 1,
+   "graded": true
+  },
+  "hip_add|med_f": {
+   "raw": "4.2",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "hip_add|p": {
+   "raw": "0.02",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.02,
+   "decimals": 2,
+   "graded": true
+  },
+  "hip_add|srm": {
+   "raw": "-0.59",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.59,
+   "decimals": 2,
+   "graded": true
+  },
+  "hip_abd|med_b": {
+   "raw": "8.3",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.3,
+   "decimals": 1,
+   "graded": true
+  },
+  "hip_abd|med_f": {
+   "raw": "7.2",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "hip_abd|p": {
+   "raw": "0.76",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.76,
+   "decimals": 2,
+   "graded": true
+  },
+  "hip_abd|srm": {
+   "raw": "-0.01",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.01,
+   "decimals": 2,
+   "graded": true
+  },
+  "knee_ext|med_b": {
+   "raw": "11.1",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 11.1,
+   "decimals": 1,
+   "graded": true
+  },
+  "knee_ext|med_f": {
+   "raw": "12.0",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 12.0,
+   "decimals": 1,
+   "graded": true
+  },
+  "knee_ext|p": {
+   "raw": "0.15",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.15,
+   "decimals": 2,
+   "graded": true
+  },
+  "knee_ext|srm": {
+   "raw": "-0.26",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.26,
+   "decimals": 2,
+   "graded": true
+  },
+  "knee_flex|med_b": {
+   "raw": "8.4",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "knee_flex|med_f": {
+   "raw": "4.8",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "knee_flex|p": {
+   "raw": "0.21",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.21,
+   "decimals": 2,
+   "graded": true
+  },
+  "knee_flex|srm": {
+   "raw": "-0.12",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.12,
+   "decimals": 2,
+   "graded": true
+  },
+  "ankle_df|med_b": {
+   "raw": "14.7",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 14.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "ankle_df|med_f": {
+   "raw": "13.9",
+   "metric_type": "median",
+   "unit": "kg",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 13.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "ankle_df|p": {
+   "raw": "0.07",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.07,
+   "decimals": 2,
+   "graded": true
+  },
+  "ankle_df|srm": {
+   "raw": "-0.42",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.42,
+   "decimals": 2,
+   "graded": true
+  },
+  "smwt|med_b": {
+   "raw": "391",
+   "metric_type": "median",
+   "unit": "m",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 391.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "smwt|med_f": {
+   "raw": "286",
+   "metric_type": "median",
+   "unit": "m",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 286.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "smwt|p": {
+   "raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "smwt|srm": {
+   "raw": "-0.85",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.85,
+   "decimals": 2,
+   "graded": true
+  },
+  "tug|med_b": {
+   "raw": "0.5",
+   "metric_type": "median",
+   "unit": "m/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "tug|med_f": {
+   "raw": "0.3",
+   "metric_type": "median",
+   "unit": "m/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.3,
+   "decimals": 1,
+   "graded": true
+  },
+  "tug|p": {
+   "raw": "0.007",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.007,
+   "decimals": 3,
+   "graded": true
+  },
+  "tug|srm": {
+   "raw": "-0.48",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.48,
+   "decimals": 2,
+   "graded": true
+  },
+  "tmwr|med_b": {
+   "raw": "1.2",
+   "metric_type": "median",
+   "unit": "m/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "tmwr|med_f": {
+   "raw": "0.8",
+   "metric_type": "median",
+   "unit": "m/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "tmwr|p": {
+   "raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": "<",
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "tmwr|srm": {
+   "raw": "-1.02",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -1.02,
+   "decimals": 2,
+   "graded": true
+  },
+  "stair_up|med_b": {
+   "raw": "0.7",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "stair_up|med_f": {
+   "raw": "0.4",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "stair_up|p": {
+   "raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "stair_up|srm": {
+   "raw": "-0.46",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.46,
+   "decimals": 2,
+   "graded": true
+  },
+  "stair_down|med_b": {
+   "raw": "1.2",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "stair_down|med_f": {
+   "raw": "0.4",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "stair_down|p": {
+   "raw": "0.008",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.008,
+   "decimals": 3,
+   "graded": true
+  },
+  "stair_down|srm": {
+   "raw": "-0.47",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.47,
+   "decimals": 2,
+   "graded": true
+  },
+  "chair|med_b": {
+   "raw": "2.6",
+   "metric_type": "median",
+   "unit": "s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "chair|med_f": {
+   "raw": "9.8",
+   "metric_type": "median",
+   "unit": "s",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 9.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "chair|p": {
+   "raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": "a",
+   "link_to": null,
+   "comparator": null,
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "chair|srm": {
+   "raw": "N/A",
+   "metric_type": "SRM",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": null,
+   "decimals": null,
+   "graded": false
+  }
+ }
+}

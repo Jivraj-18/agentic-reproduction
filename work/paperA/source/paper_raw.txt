@@ -1,0 +1,798 @@
+RESEARCH ARTICLE
+Natural history of limb girdle muscular dystrophy R9 over 6 years: searching for trial endpoints
+Alexander P. Murphy1 , Jasper Morrow2, Julia R. Dahlqvist3 , Tanya Stojkovic4, Tracey A. Willis5, Christopher D. J. Sinclair2, Stephen Wastling2, Tarek Yousry2 , Michael S. Hanna2 , Meredith K. James1, Anna Mayhew1 , Michelle Eagle1, Laurence E. Lee2, Jean-Yves Hogrel6 , Pierre G. Carlier6, John S. Thornton2, John Vissing3, Kieren G. Hollingsworth7,* & Volker Straub1,*
+1The John Walton Muscular Dystrophy Research Centre, Institute of Genetic Medicine, Newcastle University, Newcastle Hospitals NHS Foundation Trust, Central Parkway, Newcastle Upon Tyne, United Kingdom, NE1 4EP
+2Department of Molecular Neurosciences, MRC Centre for Neuromuscular Diseases, UCL Institute of Neurology, London, United Kingdom 3Department of Neurology, Copenhagen Neuromuscular Center, Rigshospitalet, University of Copenhagen, Blegdamsvej 9, 2100, Copenhagen,
+Denmark 4Institute of Myology, AP6HP, G-H Pitie-Salp^etriere, 47-83 boulevard de l'ho^pital, 75651 Paris Cedex 13, France 5The Robert Jones and Agnes Hunt Orthopaedic Hospital, Oswestry, Shropshire, United Kingdom 6Institute of Myology, Neuromuscular Investigation Center, Pitie-Salp^etriere Hospital, Paris, France 7Newcastle Magnetic Resonance Centre, Institute of Cellular Medicine, Newcastle University, Newcastle upon Tyne, United Kingdom
+
+Correspondence Alexander P. Murphy, The John Walton Muscular Dystrophy Research Centre, Institute of Genetic Medicine, Newcastle University, Newcastle Hospitals NHS Foundation Trust, Central Parkway, Newcastle Upon Tyne, United Kingdom NE1 4EP. Tel: 0191 2438210; Fax: 0191 2418770; E-mail: alexander.murphy@nhs.net
+Funding Information The authors gratefully acknowledge funding from the UK MRC Centre for Neuromuscular Diseases (grant numbers G0601943 2008-2013 and MR/K000608/1 2013-2018), UK MRC funding to KGH (G1100160), the NIHR University College London Hospitals Biomedical Research Centre (2008-2013 and 2013-2018), the Association Franßcaise contre les Myopathies in France and the Sara and Ludvig Elsass Foundation in Denmark.
+Received: 5 March 2019; Accepted: 8 March 2019
+Annals of Clinical and Translational Neurology 2019; 6(6): 1033-1045
+doi: 10.1002/acn3.774
+*Joint senior authors.
+
+Abstract
+Objective: Limb girdle muscular dystrophy type R9 (LGMD R9) is an autosomal recessive muscle disease for which there is currently no causative treatment. The development of putative therapies requires sensitive outcome measures for clinical trials in this slowly progressing condition. This study extends functional assessments and MRI muscle fat fraction measurements in an LGMD R9 cohort across 6 years. Methods: Twenty-three participants with LGMD R9, previously assessed over a 1-year period, were re-enrolled at 6 years. Standardized functional assessments were performed including: myometry, timed tests, and spirometry testing. Quantitative MRI was used to measure fat fraction in lower limb skeletal muscle groups. Results: At 6 years, all 14 muscle groups assessed demonstrated significant increases in fat fraction, compared to eight groups in the 1-year follow-up study. In direct contrast to the 1-year follow-up, the 6min walk test, 10-m walk or run, timed up and go, stair ascend, stair descend and chair rise demonstrated significant decline. Among the functional tests, only FVC significantly declined over both the 1- and 6-year studies. Interpretation: These results further support fat fraction measurements as a primary outcome measure alongside functional assessments. The most appropriate individual muscles are the vastus lateralis, gracilis, sartorius, and gastrocnemii. Using composite groups of lower leg muscles, thigh muscles, or triceps surae, yielded high standardized response means (SRMs). Over 6 years, quantitative fat fraction assessment demonstrated higher SRM values than seen in functional tests suggesting greater responsiveness to disease progression.
+
+Introduction
+Limb girdle muscular dystrophy type R9 (LGMD R9) is an autosomal recessive disease caused by mutations in the Fukutin-related protein gene (FKRP).1 LGMD R9 is one of
+
+the most common limb girdle muscular dystrophies in
+Northern and Central Europe, with a prevalence of 1 in 230,0002 in the UK and 1 in 54,000 in Norway.3 Most
+patients with LGMD R9 share a common homozygous founder mutation (c.826C>A, p.Leu276Ile) and a
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association. This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+
+1033
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+A. P. Murphy et al.
+
+relatively mild phenotype compared to the compound heterozygous form.4,5 LGMD R9 presents with slowly progressive muscular weakness, variably affecting skeletal, respiratory and cardiac muscles.6,7 Onset and severity of symptoms are highly heterogeneous. Putative therapeutic approaches, including gene therapy,8,9 immunomodulation10,11 and targeting glycosylation of a-dystroglycan,12 are currently being evaluated. As therapeutics are developed, it is important to establish sensitive outcome measures for clinical trials. The most commonly used outcome measures in clinical trials of muscular dystrophies are functional assessments.13 Functional tests are clinically relevant and are considered important by regulatory agencies in therapeutic trial design for muscular dystrophies.5 Due to the slow progression of LGMD R9, standard strength and functional measures of skeletal muscle were unable to show a significant difference over 1 year.14 Willis et al. investigated the use of the 3-point Dixon magnetic resonance imaging (MRI) technique, which allows to calculate fat fraction using acquisitions with separated water and fat images.15 The percentage of fat replacement can be used as a biomarker of disease progression within the LGMD R9 cohort. The study found that 9/14 muscles of the legs demonstrated a significant increase in fat replacement over 12 months; the Dixon technique was more sensitive to disease progression than functional assessments.14,16
+The purpose of this study was to investigate various outcome measures in the previously recruited LGMD R9 cohort over 6 years. Fat fraction in skeletal muscle and functional assessments were evaluated to learn more about the natural history of the disease, to assess the progression of selective muscle pathology, to identify useful functional and imaging outcome measures and to inform future trial design.
+Methods
+All available participants from the original study, running from 2009 to 2011,14 were approached to undergo further functional assessments and quantitative MRI measurements as close to 6 years after the original measurements as possible. In the original study, the initial recruitment was from four sites (Newcastle upon Tyne, UK; London, UK; Copenhagen, Denmark; and Paris, France). The inclusion and exclusion criteria of the original study included: homozygous for the c.286C>A, p. L276I mutation, ambulant without support for greater than 50 m, no ventilator requirement, ability to lie supine, and no contraindications to MRI.
+As the study by Willis et al. was limited to a 1-year follow up, new ethical approvals were obtained at the four centers. The study complied with the Declaration of
+
+Helsinki and received ethics and R&D approval at all sites involved.
+Participants underwent a series of functional assessments, including: 6-min walk test (6MWT),13,17 10-m walk or run,18 timed up and go,19 stair ascend, stair descend and chair rise. Myometry was performed on the dominant side using a hand-held myometer (Citec or Microfet) assessing: knee flexion, knee extension, hip abduction, hip adduction, and ankle dorsiflexion. Forced vital capacity (FVC) was measured and expressed as a percentage of predicted value for height. Interobserver consistency was ensured using standardized manuals and equipment, and training via teleconference. To incorporate participants unable to perform assessments, results were expressed as a velocity (msecÀ1 or stairs/sec). For the 10-m walk or run, the number of meters was divided by the time taken, the number of stairs (four) was divided by stair ascend and descend times, and the 6 m were divided by timed up and go test time. Cardiac function was monitored as part of clinical care, but this was not systematically assessed across all centers for the purpose of this study.
+Recruitment
+At baseline assessment, the median age of the participants (n = 23) was 39.1 years (interquartile range (IQR) 27.4- 50.6). Median length of follow-up was 6.1 years (IQR 5.8-6.1). In the original study by Willis et al., participants were required to be ambulant with an ability to walk over 50 m7,14: by 6 years, six participants were nonambulant. At baseline, no participants received noninvasive ventilation (NIV), by 6 years five participants required NIV overnight. Seven participants received cardioactive medication at baseline increasing to thirteen at 6 years.
+MRI acquisition
+All scans were performed on 3T scanners (Philips Achieva, Siemens TIM Trio, and Skyra) using surface coil arrays. Three-point Dixon images were acquired using a spoiled gradient echo sequence, Newcastle and London used 2D TR/TE = 100/3.45,4.6,5.75 msec, flip angle of 10 degrees, 10 slices of 10 mm slice thickness with a 5 mm gap. Paris used a 3D sequence with TR/TE = 10/2.75,3.95,5.15 msec, flip angle of 3 degrees, 64 slices of 5 mm thickness; Copenhagen as per Paris, but with 36 slices per 3D acquisition, and 2-point Dixon with correction for homogeneity of B0.15 The data were processed off-line to produce separate fat and water images.15,20 Quantitative fat fraction maps were produced by expressing the fat signal as a percentage of the total signal per voxel. Phantom measurements and healthy volunteer images were acquired at each site prior to the studies. To ensure consistency of positioning among
+
+1034
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+A. P. Murphy et al.
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+sites, acquisitions in the legs were positioned with the patella anterior and the lower leg images centered by locating the broadest region of the lower leg and recording the distance from the lower border of the patella. Positioning of the thigh images was ensured by locating the superior border of the patella and acquiring one-third between this and the anterior superior iliac spine. A matrix of 160 9 160 interpolated to 256 9 256, field of view (FOV) 200 9 200 mm was used with each leg imaged separately. The Paris site was able to scan both left and right legs at the same resolution using FOV 448 9 244 mm.
+Data analysis
+Both functional assessments and MRI data were anonymized and transferred to Newcastle. Regions of interest (ROIs) were defined using the imaging software `Image J'.21 Two observers drew ROIs independently around the selected muscle groups at a single level. Data from the left and right legs were combined by averaging, as were the results from the two analysts. Interobserver comparison was performed using a Bland Altman analysis.
+The ROIs were used to calculate mean fat fraction and muscle cross sectional area (CSA). Contractile cross-sectional area (c-CSA) was calculated by multiplying the CSA by one minus the fat fraction, representing the remaining muscle content of the ROI.
+To reflect the fact that muscles function as groups, composite group fat fractions were calculated as areaweighted averages. Composite muscle groups included: all muscles of the thighs, all muscles of the lower legs, quadriceps (rectus femoris (RF), vastus lateralis, vastus medialis), hamstrings (semimembranosus, semitendinosus, biceps femoris short head (BFSH), biceps femoris long head), and the triceps surae (lateral gastrocnemius, medial gastrocnemius, soleus).
+Following analysis of the fat fraction results, a post hoc group of potential `target muscles' for use in future clinical trials was identified. The five muscle groups were picked to demonstrate progression over 6 years with the highest standardized response means (SRM 0.91) that had also demonstrated significant change at 1 year in the Willis study14 (soleus was excluded as it had not shown significant change at 1 year), allowing interim analysis. These muscles are reported as an additional composite group using area-weighted fat fraction averaging in Tables 2 and 3 ("averaged target muscles"). The averaged target muscle group consisted of the vastus lateralis, gracilis, sartorius, medial gastrocnemius, and lateral gastrocnemius.
+In order to identify whether there were particular individuals who had very low progression of fat replacement of most muscle groups over the 6 years, we identified for each participant, how many muscle groups they had that
+
+had a fat fraction of less than 20% fat at baseline and progressed by less than 20% fat over 6 years.
+Statistical analysis
+Statistical analysis was performed using SPSS v24, with data presented as median and range unless otherwise indicated. Statistical significance was calculated using the Wilcoxon test for nonparametric data. For nonparametric testing of the chair rise time, where a participant was unable to perform a timed functional assessment, a value greater than the longest possible result (10,000s) was used to provide correct ranking. Statistical significance was taken to be P < 0.05.
+Standardized response means (SRM) were calculated for all outcome measures by taking the average of the paired difference over the 6 years divided by the standard deviation of these differences. A high SRM (>0.8) implied that a test had a high level of responsiveness to changes in value.22
+Data availability statement
+The anonymized MRI measurements, physical function tests and clinical characteristics will be made available via the Dryad data repository (Data available from the Dryad Digital Repository: https://doi.org/10.5061/dryad.f3r6799).
+Results
+Functional assessments
+All of the timed assessments of skeletal muscle demonstrated a significant change over 6 years (Table 1). The 6MWT and 10-m walk or run tests had significant change with P  0.001 and high SRMs over 6 years (À0.85 and À1.02 respectively). Of the myometry assessments, only measurement of hip adduction decreased significantly over the period of follow-up (median baseline 6.1 kg, median 6 years 4.2 kg, P = 0.02). The annual median FVC decline in a sitting position was À2.6% (À5 to 1.8%), with À1.9% (À7.3 to 1.5%) median annual decline when in the supine position. Both measures of FVC also had high SRM (À1.29 and À1.06 respectively).
+Two participants improved their speed for the 10-m walk or run assessment over 6 years, however, both reduced in their 6MWT distance. Over 6 years, the 6MWT distance significantly declined, with six participants becoming nonambulant. Four participants improved their distance (mean increase 68.8 m Æ 50.3). These four subjects showed a fat fraction increase of at least 1% in the majority of the twenty muscle groups and composite groups studied (15/20 groups for one patient,
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+1035
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+A. P. Murphy et al.
+
+Table 1. The median change in functional assessments over the follow-up of 6 years.
+
+Functional assessment
+Forced vital capacity sitting (%)c Forced vital capacity lying (%)d Hip flexion (kg) Hip adduction (kg) Hip abduction (kg) Knee extension (kg) Knee flexion (kg) Ankle dorsiflexion (kg) Six-minute walk (meters) Timed up and go velocity (msecÀ1)e Ten-meter walk or run velocity (msecÀ1)e Stair ascent velocity (steps/sec)e Stair descent velocity (steps/sec)e Chair rise (sec)bc
+
+Median baseline (range)
+77 (55-94) 70 (36-90) 7.7 (0.0-36.8) 6.1 (0.7-26.7) 8.3 (0.6-25.0) 11.1 (2.0-40.3) 8.4 (0.9-30.0) 14.7 (2.5-38.6) 391 (67-625) 0.5 (0.0-1.7) 1.2 (0.5-4.4) 0.7 (0.0-4.4) 1.2 (0.0-4.4) 2.6 (0.3 to )
+
+Median 6 years (range)
+64 (31-86) 54 (21-84) 6.4 (0.0-24.3) 4.2 (0-23.9) 7.2 (2.2-25.3) 12.0 (1.5-39.1) 4.8 (0-37.9) 13.9 (2.4-26.3) 286 (0-750) 0.3 (0.0-1.6) 0.8 (0.0-3.9) 0.4 (0.0-3.0) 0.4 (0.0-3.3) 9.8 (0.5 to )
+
+P value
+0.001a 0.002a 0.13 0.02a 0.76 0.15 0.21 0.07 0.001a 0.007a <0.001a 0.001a 0.008a 0.001a
+
+SRM
+À1.29 À1.06 À0.35 À0.59 À0.01 À0.26 À0.12 À0.42 À0.85 À0.48 À1.02 À0.46 À0.47 N/A
+
+P values calculated using Wilcoxon nonparametric rank signed test. SRM - standardized response mean. aP value <0.05. bParticipants unable to perform the chair rise were given a value of 10,000 (effectively infinity) for the purposes of the Wilcoxon nonparametric
+rank signed test. cPaired values available in 17 participants. dPaired values available in 16 participants. ePaired values available in 22 participants.
+
+19/20 groups for two patients and all groups for one patient). Looking at the increase in fat fraction of the two participants that improved in 10-m walk or run test velocity, one had >1% increase in all muscles, the other had only one muscle with >1% increase.
+Quantitative fat fraction
+Interobserver consistency of ROI analysis was assessed using the Bland-Altman analysis. The observers had a mean difference in fat fraction of 0.05%. The 95% limits of interobserver agreement ranged from the BFSH at 10.46% down to the soleus at 1.12% (Table S1). The wide limits of agreement for BFSH are likely due to the small size of the muscle in the transverse plane. One of the next widest limits of agreement was found in the RF muscle, where difficulties defining the borders were complicated by the high level of fat replacement (Fig. 1). The values of the RF muscle from two participants were excluded from analysis due to the high levels of discrepancy between observers in ROI placement. The interobserver variability in fat fraction demonstrated in the BFLH, semitendinosus and semimembranosus muscles may be caused by high levels of fat replacement at follow-up, making recognition of ROI borders difficult.
+Over the 6 years, all 14 muscle groups demonstrated a significant increase in percentage of fat replacement (Table 2 and Fig. 2). The highest median percentage of
+
+fat replacement at baseline was in the biceps femoris long head muscle (BFLH) at 69.4%, increasing to 78.6% at 6 years. The tibialis anterior muscle (TA) was least affected at baseline, median 5.2%, and at follow-up showed a median of 7.1%. The TA also had the smallest median change over the 6-year period (Fig. 2). LGMD R9 demonstrated phenotypic variability between individuals: changes in selected functional assessments over time are shown for individuals in Figure 3. The source data for these and all other measures are available in the Dryad data repository. When considering the most complete composite muscle groups with the highest SRM, there were small numbers of participants whose fat fraction did not increase over the 6 years (Fig. 4).
+The CSA and c-CSA results are presented in Table 3. The CSA did not significantly decline in any of the muscles over the period of the study. The c-CSA was significantly decreased in 8 of the 14 individual muscles and in all of the averaged muscle groupings (Table 3). The median increase in fat fraction per year from this study and the 12-month Willis study13 is given in Table S2, together with a correlation between the fat fraction change over 12 months and 6 years: correlation indicates where the short-term measurement may be predictive of long-term change. Significant correlation was found for the semitendinosus, medial gastrocnemius, peroneus longus, soleus, vastus medialis, and tibialis anterior.
+
+1036
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+A. P. Murphy et al.
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+Figure 1. Box plot showing the change in fat percentage from baseline to 6 years. The blue bars show the interquartile range and the median. The lines show the range of the data. Outliers one to three times the interquartile range are marked as circles. Outliers greater than three times the interquartile range from the median are shown as individual asterisks. The median change is shown for each muscle group on the left. Note that the median change will not be equal to the difference in the median baseline and 6 year medians given in Table 2. a Due to difficulties in ROI placement in the rectus femoris muscle, the fat fractions for two participants were excluded for this muscle group, and no composite results calculated where appropriate (n=21).
+
+The 10-m walk or run test velocity and the 6MWT had
+several significant negative correlations with the fat frac-
+tion of most muscle groups at baseline and 6 years
+(Tables S3 and S4. These were strongest in the composite muscle groups (such as the thigh (r from À0.83 to À0.91, P < 0.001), hamstrings (r from À0.71 to À0.81, P < 0.001), and quadriceps (r from À0.76 to À0.86, P < 0.001)) (Tables S3 and S4). Changes in fat fraction
+and the 6MWT across 6 years correlated moderately in the soleus (r = À0.6, P < 0.05), RF (r = À0.53, P < 0.05)
+and weakly in some of the composite muscle groups: the thigh (r = À0.47, P < 0.05), quadriceps (r = À0.46, P < 0.05), and triceps surae (r = À0.45, P < 0.05).
+
+Changes in fat fraction and the 10-m walk or run test velocity across 6 years correlated weakly only in the soleus muscle (r = À0.52, P < 0.05).
+Five individuals had less than 20% fat replacement at baseline, and then progressed by less than 20% over 6 years in all muscle groups. For one further individual, this was true for eleven muscle groups (Table 4). This group of six subjects whom we termed "slow progressors", were significantly younger than the other 17 participants (median age at baseline 23.5 vs. 43.0 years, P < 0.001).
+To provide a sense of the heterogeneity in fat fraction changes between individual subjects, we provide Table 4
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+1037
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+A. P. Murphy et al.
+
+Table 2. Median muscle fat fractions at baseline and 6-year follow up.
+
+Muscle group
+
+Median baseline (range), %
+
+Median 6 years (range), %
+
+P value
+
+SRM
+
+Rectus femorisbc
+Vastus medialis Vastus lateralisc Sartoriusc Gracilisc Biceps femoris long headc
+Biceps femoris short head Semitendinosusc Semimembranosusc
+Tibialis anterior
+Peroneus longus
+Soleus Lateral gastrocnemiusc Medial gastrocnemiusc Averaged thighb
+Averaged lower leg Averaged quadricepsb
+Averaged hamstrings
+Averaged triceps surae
+Averaged target muscles
+
+10.8 (0.9-81.9) 21.0 (1.1-86.6) 13.7 (1.5-65.2) 20.9 (1.7-89.8) 18.4 (3.7-81.0) 69.4 (2.2-97.7) 21.3 (3.2-94.5) 35.6 (2.1-100) 25.7 (0.5-95.1)
+5.2 (0.9-25.3) 15.8 (3.0-46.2)
+7.5 (1.8-67.4) 19.4 (0.9-76.1) 19.9 (1.1-91.8) 30.8 (2.1-76.2) 15.4 (1.6-56.1) 23.0 (1.3-67.6) 45.0 (2.8-97.8) 16.7 (1.4-74.2) 21.5 (1.8-70.8)
+
+19.9 (0.4-92.2) 44.4 (2.5-87.9) 36.1 (2.8-81.7) 34.2 (5.4-88.3) 32.4 (4.5-90.2) 78.6 (4.8-100) 32.5 (4.6-84.3) 69.6 (4.1-100) 53.4 (4.6-99.2)
+7.1 (1.1-27.1) 18.0 (4.6-65.2) 16.7 (3.1-70.1) 35.8 (3.1-75.2) 48.0 (2.8-84.2) 47.3 (4.2-82.1) 26.8 (3.4-55.5) 40.4 (2.6-79.8) 60.4 (4.7-98.7) 30.3 (3.3-72.6) 43.8 (3.6-76.9)
+
+<0.001a
+
+0.90
+
+<0.001a
+
+0.83
+
+<0.001a
+
+0.92
+
+<0.001a
+
+0.98
+
+<0.001a
+
+1.04
+
+0.001a
+
+0.81
+
+0.002a
+
+0.53
+
+<0.001a
+
+0.83
+
+<0.001a
+
+0.90
+
+0.002a
+
+0.67
+
+0.001a
+
+0.88
+
+<0.001a
+
+1.17
+
+<0.001a
+
+0.91
+
+<0.001a
+
+0.95
+
+<0.001a
+
+1.20
+
+<0.001a
+
+1.28
+
+<0.001a
+
+1.05
+
+<0.001a
+
+0.93
+
+<0.001a
+
+1.25
+
+<0.001a
+
+1.23
+
+P values calculated using Wilcoxon nonparametric rank signed test. SRM - standardized response mean. aP value<0.05. bDue to difficulties in ROI placement in the rectus femoris muscle the fat fractions for two of the participants were excluded for this muscle group (n = 21). As the rectus femoris measures are excluded from two participants, it is not possible to create composite measures (thigh and quadri-
+ceps) involving this muscle for these participants. The thigh and quadriceps measures are based on 21 participants. cExhibited a significant increase in fat fraction over a 1-year period taken from Willis et al.7
+
+which includes individual details of clinical characteristics, baseline values for the 6MWT and 10-min walk or run, and baseline and 6-year changes in fat fraction for the target and triceps surae muscle groups. These muscle groups were chosen since they are available for all subjects and had high SRMs at 6 years. There is also information on whether these subjects lost ambulation at 6 years and/or were unable to perform the chair rise. The participants are ordered in decreasing order of fat fraction increase in the target muscles across 6 years (changes ranged from 36.2% to 0.0%). Similar individual results for other muscle groups can be obtained within the Dryad data repository.
+Discussion
+As putative therapies for LGMD R9 are evaluated,8,10,12 sensitive longitudinal outcome measures are required.5 This study built upon our previous 1-year study,14 representing the longest and largest multicenter study of LGMD R9 to date. These results provide support for 3-point Dixon technique as an outcome measure over both 1 and 6 years and identified functional assessments significantly declining over a 6-year period, whereas significant decline could not be detected in functional assessments over 1 year.14
+
+Functional assessments
+A recent workshop assessing trial readiness in LGMD R9 highlighted the need for MRI alongside other functional assessments, with emphasis on measuring movements that affected quality of life.5 The results of this study and Willis et al. suggested that the Dixon technique can reliably detect changes in leg muscles over 1 and 6 years in LGMD R9. None of the ambulatory skeletal muscle functional assessments demonstrated a significant difference over 1 year.14 Our study suggests that, over 6 years, all timed muscle function tests demonstrated disease progression, though of the hand-held myometry tests, only hip adduction strength was significantly decreased. The 6MWT and 10-m walk or run tests had high SRMs over 6 years; these assessments are therefore worth measuring over the longer time period, even though insensitive over 12 months. There was a degree of individual variability in functional assessments at 6 years with two participants increasing their velocity on the 10-m walk or run but reducing their 6MWT distance. The differences between the fat fraction increase and the results of the 6MWT and 10-m walk or run test support MRI as a more meaningful outcome measure and highlight the participant-dependent
+
+1038
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+A. P. Murphy et al.
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+Figure 2. Images showing the change in fat replacement over 6 years. Fat fraction maps acquired from the left thigh and lower leg at baseline and 6-year follow-up (0-100% scale). Progression of fat replacement was visible in almost all muscles, with changes most noticeable in the muscles relatively spared at baseline, such as the Sartorius (white arrow A - in this participant fat fraction increased from 21.3% to 34.2%) and the gracilis (white arrow B - increased from 40.3% to 58.7%) muscles. As indicated by the white arrow (C), fat replacement began at the borders of the rectus femoris muscle at both baseline and 6 years, which caused difficulties in ROI placement. In this participant, the fat fraction was 78.9% at baseline increasing to 81.9% at 6 years. The shape and size of the biceps femoris short head muscle also caused difficulties in ROI placement as demonstrated by the white arrow (D).
+
+factors of functional testing (such as effort or fatigue). In contrast to Duchenne muscular dystrophy (DMD) studies,23 there was no clear cut-off in distance walked at baseline which could predict nonambulation in the LGMD R9 cohort at 6 years.
+
+The only myometry measurement which demonstrated a significant decline over 6 years was hip adduction. This suggests limited sensitivity to change in a slowly progressing disease. All timed functional assessments demonstrated a significant decline, with only the 6MWT and the 10-m
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+1039
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+A. P. Murphy et al.
+
+Figure 3. Line graphs demonstrating individual participant progression in functional tests from baseline to 6 years. The functional assessments with the highest SRM values were selected to compare individual progression over time. On the 6-min walk test, there was no clear cut-off for predicting loss of ambulation, 6/9 participants who walked 300 m became nonambulant by 6 years. Two participants improved on both the 10m walk or run test and sitting forced vital capacity.
+
+walk or run velocity having SRM values >0.5 (Table 1).
+In DMD, myometry measurements may be predictive of
+decline, though they are not always significant even over 2 years.23 The timed tests lack the sensitivity to detect
+the slowly progressive weakness of LGMD R9 over 1 year.14
+FVC was the only functional assessment which changed
+significantly in 1 year and over a 6-year period (Table 1).14 The median annual decline is less than
+reported elsewhere, perhaps explained by the wide agerange of our cohort.14,24 Respiratory muscle involvement is only indirectly linked to ambulatory skeletal muscle
+involvement. The rate of annual median FVC decline was
+
+not clinically significant but likely to have a cumulative effect.
+As a potential clinical trial outcome measure, the 6MWT and 10-m walk or run were the only functional timed assessments relating to skeletal muscle demonstrating a significant difference over 6 years with all participants included at baseline. The 6MWT, 10-m walk or run, timed up and go, chair rise, stair ascend, and stair descend tests are important to include as outcome measures in future trials investigating LGMD R9 cohorts. Our study demonstrated that quantitative MRI was more sensitive within this cohort, most likely due to the slow progression of the LGMD R9 phenotype.
+
+1040
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+A. P. Murphy et al.
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+Figure 4. Line graphs demonstrating individual participant progression in fat fraction from baseline to 6 years. The composite muscle measures with the highest SRMs were selected to compare individual progression over time. Quadriceps and thigh measures were excluded as these were not available in all participants due to difficulties in ROI placement in the rectus femoris. The individual lines suggest there is only one participant who does not progress over the 6 years and six participants who have little infiltration at baseline and increase relatively slowly over the 6 years.
+
+Fat replacement as an outcome measure
+The fat fraction has been established as a sensitive measure of disease progression in muscular dystrophies.14,25-33 The fat fraction of all 14 muscles assessed significantly increased over 6 years.
+For every muscle group, the SRM for the c-CSA is of smaller magnitude (and the P value less significant) than for the respective fat fraction alone, indicating that the variability in the cross-sectional areas within the group outweighs the small yet progressive changes in fat fraction. LGMD R9 has been associated with a lower c-CSA compared to controls, but preserving the ratio between the c-CSA and torque34: it is not possible to confirm this relationship in the present data due to different physical
+
+function tests used. c-CSA has been shown to correlate to functional measures of strength in other muscular dystrophies.34,35 In this case, c-CSA is a less sensitive endpoint than fat fraction alone.
+To maximize the discriminant power of quantitative MRI as a biomarker for therapeutic studies, it was useful to select muscle groups for analysis. Variability of muscle involvement and ability to demonstrate a significant change over short intervention periods are important. Willis et al. identified nine muscle groups whose fat fractions increased significantly over a 12-month period.14 In the upper leg, the vastus lateralis, sartorius and gracilis muscles were easily identifiable at baseline and follow-up. In the lower leg, Willis et al. suggested that the medial gastrocnemius muscle should be used for analysis.14 Both
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+1041
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+A. P. Murphy et al.
+
+Table 3. Median cross-sectional area (CSA) and contractile cross-sectional area (c-CSA) at baseline and 6 years.
+
+Muscle group
+
+CSA baseline (mm2) CSA 6 years (mm2) c-CSA baseline (mm2) c-CSA 6 years (mm2)
+
+Rectus femorisb Vastus medialis Vastus lateralis Sartorius Gracilis Biceps femoris long head Biceps femoris short head Semitendinosus Semimembranosus Tibialis anterior Peroneus longus Soleus Lateral gastrocnemius Medial gastrocnemius Averaged thighb Averaged lower leg Averaged quadricepsb Averaged hamstrings Averaged triceps surae Averaged targeted muscles
+
+343 720 1639 402 344 1012 153 687 685 568 578 1803 553 1243 6024 4263 3078 2322 3272 4211
+
+344 932 1517 425 309 911 157 679 671 569 546 1635 523 993 6071 4264 3103 2347 3113 3803
+
+260 428 1195 346 168 316 110 316 410 536 464 1512 435 879 3288 3637 2017 1101 2834 2745
+
+232 389 1025 231 154 145
+81 206 301 537 436 1430 317 516 3087 3365 1577 842 2469 2248
+
+P value
+0.009a
+0.11 0.003a
+0.06 0.003a 0.02a
+0.63 0.002a 0.04a
+0.67
+0.09
+0.09 0.04a 0.02a 0.006a 0.01a 0.01a 0.007a 0.009a 0.005a
+
+c-CSA SRM
+À0.51 À0.15 À0.62 À0.41 À0.64 À0.49 À0.16 À0.71 À0.37 À0.20 À0.29 À0.35 À0.39 À0.53 À0.55 À0.52 À0.44 À0.63 À0.53 À0.67
+
+All P values quoted refer to c-CSA. There are no significant changes in CSA between baseline and 6 years.
+SRM, standardized response mean. aDenotes a P value <0.05. bDue to difficulties in ROI placement in the rectus femoris muscle, the fat fractions for two of the participants were excluded for this muscle group (n = 21).
+
+at baseline and 6 years, the medial and lateral gastrocnemii muscles had similar levels of fat fraction with little difference in variability (Table 2). The results showed several highly significant p values coupled with high SRM values, suggesting that to maximize power in a trial the following muscles should be targeted in the thigh: vastus lateralis, gracilis, and sartorius. In the calves, both of the gastrocnemii muscles should be included for analysis. Other thigh muscles, including the BFLH, semitendinosus and semimembranosus, would not be suitable in spite of high SRM values. These muscles showed high fat fractions at baseline, making it likely that therapeutic response would be small. High levels of fat at baseline also increased the difficulty and reliability of ROI placement. Fat fractions of the vastus medialis, BFSH and remaining calf muscles (peroneus longus, soleus, and TA) were less suitable endpoints due to lack of significant differences at 1 year in the Willis study,14 reducing the usefulness of any interim analysis. Other composite muscle groups such as the averaged thigh, averaged lower leg and averaged triceps surae muscles had high SRM values, similar to the value of the target muscle group. Therefore, these composite measures may have utility as a powerful outcome measure.
+Looking at the characteristics of the individual subjects using the target muscle and triceps surae groups as exemplars
+
+(Table 4), those at the bottom of the table with least change in fat fraction tended to have the lowest baseline fat fractions, though there were exceptions. Likewise, there was no particular value of baseline 6MWT or 10-m walk or run that predicted greater change in this group.
+It is important to acknowledge that these results may underestimate progression of the disease process with most severely affected individuals less likely to return at 6 years due to difficulties in travelling. Other limitations included that only one slice was analyzed in each subject at a predefined level whereas multislice analysis could take account of heterogeneity in disease progression. While there were many possible correlations between fat fraction calculations and functional measures, this work concentrated principally on the sensitivity of outcome measures to detect change over time. For future work, it would be appropriate to accompany MRI and functional testing with self-reported Quality of Life assessment tools as per recent recommendations5: several suitable options exist including the Quality of Life in genetic Neuromuscular Disease questionnaire (QoL-gNMD),36 the Activity Limitation (ACTIVLIM) questionnaire for neuromuscular disorders37 and general tools such as the Fatigue Severity Scale.38
+This study is the longest follow-up of a LGMD R9 cohort and demonstrated that fat fraction measurement was the
+
+1042
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+A. P. Murphy et al.
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+Table 4. Comparison of clinical characteristics of the LGMD2I cohort with individual fat fraction changes over 6 years from baseline.
+
+Part. BL age and
+
+No.a
+
+gender
+
+CM/ BL 6MWT BL 10 m walk
+
+NIV (m)
+
+or run
+
+BL target Muscle FF (%)b
+
+Target muscle FF(%)b
+
+BL Triceps Surae FF(%)
+
+TricepSurae FF(%)
+
+11
+
+58F
+
+12
+
+41F
+
+6
+
+22M
+
+15
+
+31F
+
+21
+
+44F
+
+7
+
+27F
+
+8
+
+33M
+
+23
+
+43F
+
+1
+
+62M
+
+17
+
+27F
+
+20
+
+39F
+
+2
+
+64M
+
+9
+
+38M
+
+5
+
+56F
+
+13
+
+22M
+
+19
+
+42F
+
+16
+
+29F
+
+4
+
+47M
+
+22
+
+27F
+
+3
+
+58F
+
+18
+
+18M
+
+14
+
+51M
+
+10
+
+8M
+
+Y/Y
+
+217d
+
+0.7
+
+Y/N
+
+400d
+
+1.5
+
+Y/N
+
+160cd
+
+0.6
+
+N/N
+
+519
+
+1.7
+
+Y/N
+
+245
+
+0.7
+
+N/N
+
+602
+
+1.7
+
+N/N
+
+625
+
+2.5
+
+N/N
+
+391
+
+1.2
+
+Y/Y
+
+257cd
+
+1.0
+
+Y/N
+
+531
+
+2.1
+
+N/N
+
+174
+
+0.0
+
+Y/N
+
+178cd
+
+0.5
+
+Y/N
+
+300cd
+
+1.1
+
+Y/N
+
+306
+
+0.8
+
+N/Y
+
+312cd
+
+1.1
+
+N/N
+
+547
+
+2.4
+
+N/N
+
+522
+
+3.1
+
+Y/Y
+
+67cd
+
+0.6
+
+Y/Y
+
+595
+
+2.9
+
+Y/N
+
+457
+
+1.2
+
+N/N
+
+625
+
+4.4
+
+Y/N
+
+238
+
+0.8
+
+N/N
+
+565
+
+3.2
+
+29.4e 12.6 48.2 23.3 21.1 31.4 17.1 21.5 29.3
+8.1 42.0 56.6 48.4 34.9
+3.0 6.0 4.3 62.6 2.7 12.6 1.8 70.8 4.5
+
+36.2 32.4 28.7 22.3 22.0 20.8 19.6 19.5 14.5 14.4 13.1 10.5
+9.8 9.3 7.8e 3.8e 3.6e 3.1 2.9e 2.5 1.7e 1.1 0.0e
+
+11.3
+
+14.4
+
+11.0
+
+11.1
+
+40.5
+
+20.5
+
+31.1
+
+26.7
+
+12.8
+
+12.6
+
+25.6
+
+18.5
+
+16.8
+
+18.1
+
+19.1
+
+15.5
+
+16.7
+
+13.6
+
+10.2
+
+17.9
+
+25.6
+
+5.9
+
+47.6
+
+12.1
+
+52.6
+
+11.7
+
+28.2
+
+5.2
+
+5.7
+
+9.3
+
+6.9
+
+4.4
+
+3.9
+
+2.8
+
+36.7
+
+-0.4
+
+2.9
+
+3.5
+
+3.9
+
+0.3
+
+1.4
+
+1.9
+
+74.2
+
+-1.6
+
+4.6
+
+0.2
+
+BL, Baseline; CM, cardiomyopathy; NIV, noninvasive ventilation; SP, slow progressor; LL, lower leg; 6MWT, 6-min walk test; 10MWR, ten-meter
+walk or run. aRefers to participant number in the Dryad repository. b"Target muscles" is a composite group consisting of vastus lateralis, gracilis, sartorius, medial gastrocnemius and lateral gastrocnemius with pro-
+gression at 1 year and high SRM. cSubject has lost ambulation by 6-year follow-up. dParticipant cannot perform chair rise at 6-year follow-up. eSlow progressor, defined as: the majority of muscle groups with <20% FF baseline and <20% increase over 6 years.
+
+most sensitive marker of disease progression over a 6-year period. Long-term natural history data are of value in postmarketing and long-term surveillance in these rare diseases. Use of the Dixon technique can provide useful interim measures of disease progression not currently possible with functional testing, and can be deployed in patients unable to complete all functional tests. Our results support fat fraction measurement in LGMD R9 clinical trials as a primary outcome measure alongside functional assessments: The 6MWT and the 10-m walk or run were the most appropriate, relevant functional measures for a longer therapeutic trial. This study provides direction for clinical trial development and outcome measures for powering future randomized controlled trials into LGMD R9.
+Author Contributions
+APM and KGH were involved in the design and conceptualization of the study; analyzed the data and drafted the
+
+manuscript for intellectual content. JM, JD, TS, TW, MH, MJ, AM, ME, LL, and JYH were involved in data collection, drafting and revision of manuscript. JT, JV, CS, SW, TY PC, and VS conceptualized the study and were involved in the drafting and revision of manuscript.
+Conflict of Interest
+APM, JM, JD, TS, CS, SW, MH, LL, JVH, and PC report no conflict of interest.
+Professor Willis has served on advisory boards for PTC pharmaceuticals, Genzyme Sanofi, Sarepta and Biogen and has received honorariums for lectures and symposium from PTC pharmaceuticals, Genzyme Sanofi and Biogen.
+Yousry has received honoraria and travel expenses for advisory committee work from Bayer Schering, Biogen Idec, and Novartis; and research grants (held by University College London) from Biogen Idec, GlaxoSmithKline,
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+1043
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+A. P. Murphy et al.
+
+Novartis, and Schering AG for analysis of data from MS trials.
+James performs consultancy work (training physiotherapists) for: Roche, Pfizer, PTC, Summit, Sarepta, Santhera, Italfarmaco, Amicus and has participated in advisory boards for PTC Therapeutics.
+Mayhew performs consultancy work (training physiotherapists) for: Roche, Avexis, Biogen, Pfizer, PTC, Summit, Sarepta, Santhera, Italfarmaco, Amicus, Tamoxifen noncommercial study for DMD and has participated in advisory boards for: PTC, AMO Pharma, Roche, Summit, Biogen, Modus, Novartis.
+Eagle performs consultancy work for: Biomarin, GSK, Prosensa, Italfarmaco, Amicus, Capricor, Catabasis, Eli Lilly, Fibrogen, MNK, PTC, Santhera, Solid, Summit, Sarepta, Theracon, Reveragen and Wave.
+Thornton has received research support from GlaxoSmithKline, Medtronic, and Siemens.
+Vissing has received research and travel support, and speaker honoraria from Sanofi Genzyme, Ultragenyx Pharmaceuticals, Santhera Pharmaceuticals and aTyr Pharma, and served as consultant on advisory boards for Sanofi/Genzyme, aTyr pharma, Ultragenyx Pharmaceuticals, Santhera Pharmaceuticals, Sarepta Therapeutics, Audentes Therapeutics and Stealth Biotherapeutics within the last 3 years.
+Hollingsworth reports grants from the United Kingdom Medical Research Council, Diabetes UK, the European Union (H2020, 667078) and the Newcastle Healthcare Charity, consultancy for Summit pharmaceuticals and trial support from ImagingDMD outside the submitted work. All reimbursements were received by Newcastle University, no personal benefits were received.
+Straub has or had been a chief/principal investigator for trials sponsored by Sanofi Genzyme, GSK, Prosensa/Biomarin, Ionis Pharmceuticals, and Sarepta and a subinvestigator for many other commercial studies. He received speaker honoraria from Sanofi Genzyme and is or has been on advisory boards for Audentes Therapeutics, Biogen, Biomarin, Bristol-Myer Squibb, Exonics Therapeutics, Italfarmaco S.p.A., Nicox, Sanofi Genzyme, Santhera Pharmaceuticals, Sarepta Therapeutics, Summit Therapeutics, Tivorsan, TrophyNOD, and Wave Therapeutics. He received funding for research collaboration with Ultragenyx and Sanofi Genzyme.
+References
+1. Straub V, Murphy A, Udd B. 229th ENMC international workshop: limb girdle muscular dystrophies Nomenclature and reformed classification Naarden, the Netherlands, 17-19 March 2017. Neuromuscul Disord 2018;28:702-710.
+
+2. Norwood FLM, Harling C, Chinnery PF, et al. Prevalence of genetic muscle disease in Northern England: in-depth analysis of a muscle clinic population. Brain 2009;132:3175-3186.
+3. Stensland E, Lindal S, Jonsrud C, et al. Prevalence, mutation spectrum and phenotypic variability in Norwegian patients with Limb Girdle Muscular Dystrophy 2I. Neuromuscul Disord 2011;21:41-46.
+4. Walter MC, Petersen JA, Stucka R, et al. FKRP (826C>A) frequently causes limb-girdle muscular dystrophy in German patients. J Med Genet 2004;41:e50.
+5. Richard I, Laurent J-P, Cirak S, et al. 216th ENMC international workshop: clinical readiness in FKRP related myopathies January 15-17, 2016 Naarden, The Netherlands. Neuromuscul Disord 2016;26:717-724.
+6. Hollingsworth KG, Willis TA, Bates MG, et al. Subepicardial dysfunction leads to global left ventricular systolic impairment in patients with limb girdle muscular dystrophy 2I. Eur J Heart Fail 2013;15:986-994.
+7. Willis TA, Hollingsworth KG, Coombs A, et al. Quantitative magnetic resonance imaging in limb-girdle muscular dystrophy 2I: a multinational cross-sectional study. PLoS ONE 2014;9:e90377.
+8. Qiao C, Wang CH, Zhao C, et al. Muscle and heart function restoration in a limb girdle muscular dystrophy 2I (LGMD2I) mouse model by systemic FKRP gene delivery. Mol Ther 2014;22:1890-1899.
+9. Thomas PJ, Xu R, Martin PT. B4GALNT2 (GALGT2) gene therapy reduces skeletal muscle pathology in the FKRP P448L mouse model of limb girdle muscular dystrophy 2I. Am J Pathol 2016;186:2429-2448.
+10. Svahn J, Streichenberger N, Benveniste O, et al. Significant response to immune therapies in a case of subacute necrotizing myopathy and FKRP mutations. Neuromuscul Disord 2015;25:865-868.
+11. Darin N, Kroksmark AK, Ahlander AC, et al. Inflammation and response to steroid treatment in limbgirdle muscular dystrophy 2I. Eur J Paediatr Neurol 2007;11:353-357.
+12. Stevens E, Torelli S, Feng L, et al. Flow cytometry for the analysis of a-dystroglycan glycosylation in fibroblasts from patients with dystroglycanopathies. PLoS ONE 2013;8: e68958.
+13. Florence JM, van der Ploeg A, Clemens PR, et al. T.P.1.01 use of the 6 min walk test as an endpoint in clinical trials for neuromuscular diseases. Neuromuscul Disord 2008;18:738-739.
+14. Willis TA, Hollingsworth KG, Coombs A, et al. Quantitative muscle MRI as an assessment tool for monitoring disease progression in LGMD2I: a multicentre longitudinal study. PLoS ONE 2013;8:e70993.
+15. Glover GH, Schneider E. Three-point Dixon technique for true water/fat decomposition with B0 inhomogeneity correction. Magn Reson Med 1991;18:371-383.
+
+1044
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+A. P. Murphy et al.
+
+Limb Girdle Muscular Dystrophy R9: Trial Endpoints
+
+16. Dixon WT. Simple proton spectroscopic imaging. Radiology 1984;153:189-194.
+17. American Thoracic Society. ATS statement: guidelines for the six-minute walk test. Am J Respir Crit Care Med 2002;166:111-117.
+18. Mazzone ES, Messina S, Vasco G, et al. Reliability of the North Star Ambulatory Assessment in a multicentric setting. Neuromuscul Disord 2009;19:458-461.
+19. Podsiadlo D, Richardson S. The timed "Up & Go": a test of basic functional mobility for frail elderly persons. J Am Geriatr Soc 1991;39:142-148.
+20. Coombs BD, Szumowski J, Coshow W. Two-point Dixon technique for water-fat signal decomposition with B0 inhomogeneity correction. Magn Reson Med 1997;38:884-889.
+21. Abramoff MD, Magalh~aes PJ, Ram SJ. Image processing with ImageJ. Biophotonics Int 2004;11:36-42.
+22. Cohen J. Statistical power analysis for the behavioral sciences. Hillsdale, N.J.: L. Erlbaum Associates, 1988.
+23. McDonald CM, Henricson EK, Abresch RT, et al. The 6minute walk test and other endpoints in duchenne muscular dystrophy: longitudinal natural history observations over 48 weeks from a multicenter study. Muscle Nerve 2013;48:343-356.
+24. Poppe M, Cree L, Bourke J, et al. The phenotype of limbgirdle muscular dystrophy type 2I. Neurology 2003;60:1246-1251.
+25. Fischmann A, Hafner P, Gloor M, et al. Quantitative MRI and loss of free ambulation in Duchenne muscular dystrophy. J Neurol 2013;260:969-974.
+26. Ricotti V, Evans MRB, Sinclair CDJ, et al. Upper limb evaluation in Duchenne muscular dystrophy: fat-water quantification by MRI, muscle force and function define endpoints for clinical trials. PLoS ONE 2016;11:e0162542.
+27. Wren TA, Bluml S, Tseng-Ong L, Gilsanz V. Three-point technique of fat quantification of muscle tissue as a marker of disease progression in Duchenne muscular dystrophy: preliminary study. Am J Roentgenol 2008;190:W8-W12.
+28. Gaur L, Hanna A, Bandettini WP, et al. Upper arm and cardiac magnetic resonance imaging in Duchenne muscular dystrophy. Ann Clin Transl Neurol 2016;3:948-955.
+29. Hollingsworth KG, Garrood P, Eagle M, et al. Magnetic resonance imaging in Duchenne muscular dystrophy: longitudinal assessment of natural history over 18 months. Muscle Nerve 2013;48:586-588.
+30. Willcocks RJ, Rooney WD, Triplett WT, et al. Multicenter prospective longitudinal study of magnetic resonance
+
+biomarkers in a large duchenne muscular dystrophy cohort. Ann Neurol 2016;79:535-547. 31. Fischer D, Hafner P, Rubino D, et al. The 6-minute walk test, motor function measure and quantitative thigh muscle MRI in Becker muscular dystrophy: a cross-sectional study. Neuromuscul Disord 2016;26:414-422. 32. Hogrel JY, Wary C, Moraux A, et al. Longitudinal functional and NMR assessment of upper limbs in Duchenne muscular dystrophy. Neurology 2016;86:1022-1030. 33. Burakiewicz J, Sinclair CDJ, Fischer D, et al. Quantifying fat replacement of muscle by quantitative MRI in muscular dystrophy. J Neurol 2017;264:2053-2067. 34. Lokken N, Hedermann G, Thomsen C, Vissing J. Contractile properties are disrupted in Becker muscular dystrophy, but not in limb girdle type 2I. Ann Neurol 2016;80:466-471. 35. Wokke BH, van den Bergen JC, Versluis MJ, et al. Quantitative MRI and strength measurements in the assessment of muscle quality in Duchenne muscular dystrophy. Neuromuscul Disord 2014;24:409-416. 36. Dany A, Rapin A, Lavrard B, et al. The quality of life in genetic neuromuscular disease questionnaire: Rasch validation of the French version. Muscle Nerve 2017;56:1085-1091. 37. Vandervelde L, Van den Bergh PY, Goemans N, Thonnard JL. ACTIVLIM: a Rasch-built measure of activity limitations in children and adults with neuromuscular disorders. Neuromuscul Dirsord 2007;17:459-469. 38. Krupp LB, LaRocca NG, Muir-Nash RN, Steinberg LC. The Fatigue Severity Scale: application to patients with multiple sclerosis and systemic lupus erythematosus. Arch Neurol 1989;46:1121-1123.
+Supporting Information
+Additional supporting information may be found online in the Supporting Information section at the end of the article.
+Table S1. Interobserver consistency in individual muscles. Table S2. Comparison of the rate of annual median fat fraction increase. Table S3. Correlation of muscle fat fractions with the 6-min walk results. Table S4. Correlation of muscle fat fractions with the 10-m walk or run results.
+
+ª 2019 The Authors. Annals of Clinical and Translational Neurology published by Wiley Periodicals, Inc on behalf of American Neurological Association.
+
+1045
+
+

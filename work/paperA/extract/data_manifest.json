@@ -1,0 +1,39 @@
+{
+ "paper": "A",
+ "files": [
+  {
+   "name": "LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+   "role": "per-participant baseline (B) and 6-year (F) values for every Table 1 row",
+   "given_to_reproducer": true
+  }
+ ],
+ "required_inputs": [
+  {
+   "input": "FVC sitting/lying B and F (%)",
+   "availability": "full"
+  },
+  {
+   "input": "Myometry B and F (kg), incl. hip flexion",
+   "availability": "full"
+  },
+  {
+   "input": "Timed-test velocities B and F (m/s, steps/s)",
+   "availability": "full",
+   "note": "Already converted to velocities by the authors; raw times not deposited, so the conversion step (M4) cannot be re-done."
+  },
+  {
+   "input": "6MWT B and F (m)",
+   "availability": "full"
+  },
+  {
+   "input": "Chair rise B and F (s), 10000 = unable",
+   "availability": "full"
+  },
+  {
+   "input": "Exact ages",
+   "availability": "partial",
+   "note": "Given in whole years in the deposit; not needed for Table 1."
+  }
+ ],
+ "withheld_from_sandbox": []
+}
