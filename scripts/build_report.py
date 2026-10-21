@@ -22,11 +22,11 @@ META = {
         "why_table": "Every input is in the Dryad file, and the table carries several analyst choices that the Methods describe only loosely: who counts as a pair, how 'unable to perform' enters medians, which Wilcoxon variant, and the SRM convention.",
         "layout": [
             {"group": None, "cols": [
-                {"label": "Median baseline", "fmt": "{med_b}"},
-                {"label": "Median 6 years", "fmt": "{med_f}"},
+                {"label": "Middle value at start", "fmt": "{med_b}"},
+                {"label": "Middle value at 6 years", "fmt": "{med_f}"},
                 {"label": "P value", "fmt": "{p}"},
-                {"label": "SRM", "fmt": "{srm}"}]}],
-        "row_head": "Functional assessment",
+                {"label": "Size of change (SRM)", "fmt": "{srm}"}]}],
+        "row_head": "Measure",
     },
     "B": {
         "title": "In Vitro Signaling Properties of Cannabinoid and Orexin Receptors: How Orexin Receptors Influence Cannabinoid Receptor-Mediated Signaling",
@@ -39,15 +39,15 @@ META = {
         "table": "TABLE 1 | CB₁-dependent inhibition of cAMP and recruitment of βarrestin2 in CB₁-OX₁ cells.",
         "why_table": "A table of fitted concentration–response parameters (pEC50, EC50, Emax, Hill slope). Curve fitting involves many choices the Methods leave unstated: pooled or per-experiment fits, what ± means, when to fix the slope, and how Emax is defined for an inhibition curve.",
         "layout": [
-            {"group": "cAMP", "cols": [
-                {"label": "pEC50 (nM)", "fmt": "{camp_pec50} ± {camp_pec50_se} ({camp_ec50})"},
-                {"label": "Emax (Fold)", "fmt": "{camp_emax} ± {camp_emax_se}"},
-                {"label": "Hill slope", "fmt": "{camp_hill} ± {camp_hill_se}"}]},
-            {"group": "βarrestin2", "cols": [
-                {"label": "pEC50 (nM)", "fmt": "{arr_pec50} ± {arr_pec50_se} ({arr_ec50})"},
-                {"label": "Emax (Fold)", "fmt": "{arr_emax} ± {arr_emax_se}"},
-                {"label": "Hill slope", "fmt": "{arr_hill} ± {arr_hill_se}"}]}],
-        "row_head": "[OX₁] (µg)",
+            {"group": "cAMP assay", "cols": [
+                {"label": "Potency: pEC50 (EC50, nM)", "fmt": "{camp_pec50} ± {camp_pec50_se} ({camp_ec50})"},
+                {"label": "Biggest effect: Emax", "fmt": "{camp_emax} ± {camp_emax_se}"},
+                {"label": "Steepness: Hill slope", "fmt": "{camp_hill} ± {camp_hill_se}"}]},
+            {"group": "Arrestin assay", "cols": [
+                {"label": "Potency: pEC50 (EC50, nM)", "fmt": "{arr_pec50} ± {arr_pec50_se} ({arr_ec50})"},
+                {"label": "Biggest effect: Emax", "fmt": "{arr_emax} ± {arr_emax_se}"},
+                {"label": "Steepness: Hill slope", "fmt": "{arr_hill} ± {arr_hill_se}"}]}],
+        "row_head": "Orexin receptor added (µg)",
     },
 }
 
@@ -90,7 +90,7 @@ def slim_cells(grades, full):
         if c["graded"]:
             m = c["median"]
             e["med"] = {"v": m.get("reproduced"), "raw": m.get("reproduced_raw"), "u": m.get("reproduced_unrounded"),
-                        "g": m.get("grade"), "d": m.get("deviation_pct")}
+                        "g": m.get("grade"), "d": m.get("deviation_pct"), "sg": m.get("sign_match")}
             e["spread"] = c.get("run_spread_pct")
             e["mg"] = c["median_grade"]
             e["rg"] = c["run_grades"]
@@ -136,6 +136,20 @@ def paper_payload(work, pid, folder=None):
     }
 
 
+def cost_block(work):
+    c = load(Path(work) / "_cost.json")
+    if not c:
+        return None
+    def rng(*parts):
+        lo = sum(p["low"] for p in parts); hi = sum(p["high"] for p in parts)
+        return {"low": round(lo, 2), "high": round(hi, 2), "mid": round(round((lo + hi) / 2 * 2) / 2, 1)}
+    return {"A": rng(c["A"]["reproducers"], c["A"]["explainers"]),
+            "B_clean": rng(c["B_v2"]["reproducers"], c["B_v2"]["explainers"]),
+            "B_all": rng(c["B_v1"]["reproducers"], c["B_v1"]["explainers"], c["B_v2"]["reproducers"], c["B_v2"]["explainers"]),
+            "project": rng(c["main_session_so_far"], c["A"]["reproducers"], c["A"]["explainers"], c["B_v1"]["reproducers"],
+                           c["B_v1"]["explainers"], c["B_v2"]["reproducers"], c["B_v2"]["explainers"])}
+
+
 def main(work, template, out):
     data = {"papers": {"A": paper_payload(work, "A")}}
     if (Path(work) / "paperB2" / "eval" / "grades.json").exists():
@@ -146,6 +160,8 @@ def main(work, template, out):
         data["papers"]["B"] = b
     else:
         data["papers"]["B"] = paper_payload(work, "B")
+    data["plain"] = load(Path(work) / "plain_language.json")
+    data["cost"] = cost_block(work)
     html = Path(template).read_text(encoding="utf-8")
     blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     page = html.replace("/*__DATA__*/null", blob)

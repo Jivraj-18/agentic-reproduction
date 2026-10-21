@@ -34,14 +34,14 @@
    "r2": {
     "distribution": {
      "A": 34,
-     "B": 4,
-     "C": 2,
+     "B": 3,
+     "C": 3,
      "D": 2,
      "E": 8,
      "F": 2
     },
     "table_grade": {
-     "mean_points": 3.923,
+     "mean_points": 3.904,
      "letter": "B"
     },
     "within_1.96se": [
@@ -56,14 +56,14 @@
    "r3": {
     "distribution": {
      "A": 14,
-     "B": 13,
-     "C": 6,
+     "B": 12,
+     "C": 7,
      "D": 3,
      "E": 16,
      "F": 0
     },
     "table_grade": {
-     "mean_points": 3.115,
+     "mean_points": 3.096,
      "letter": "C"
     },
     "within_1.96se": [
@@ -78,21 +78,21 @@
   },
   "median_cell_grades": {
    "A": 35,
-   "B": 4,
-   "C": 1,
+   "B": 3,
+   "C": 2,
    "D": 2,
    "E": 8,
    "F": 2
   },
   "consensus_cell_grades": {
    "A": 35,
-   "B": 4,
-   "C": 3,
+   "B": 3,
+   "C": 4,
    "D": 1,
    "E": 9,
    "F": 0
   },
-  "table_grade_median_of_runs": 3.923,
+  "table_grade_median_of_runs": 3.904,
   "sign_match": [
    51,
    52
@@ -102,15 +102,15 @@
    21
   ],
   "runs_identical_cells": [
-   13,
+   12,
    52
   ],
   "runs_same_grade_cells": [
-   19,
+   18,
    52
   ],
   "within_20pct_consensus": [
-   39,
+   38,
    52
   ],
   "table_grade_median_letter": "B"
@@ -514,7 +514,7 @@
      "reproduced_unrounded": 5.52611144999095,
      "reproduced": 6.0,
      "grade": "B",
-     "deviation_pct": 20.0,
+     "deviation_pct": 10.522229000000003,
      "sign_match": true,
      "bound_satisfied": false,
      "stars": "",
@@ -524,8 +524,8 @@
      "reproduced_raw": 6.17964,
      "reproduced_unrounded": 6.17964,
      "reproduced": 6.0,
-     "grade": "B",
-     "deviation_pct": 20.0,
+     "grade": "C",
+     "deviation_pct": 23.5928,
      "sign_match": true,
      "bound_satisfied": false,
      "stars": "",
@@ -535,8 +535,8 @@
      "reproduced_raw": 6.174552414869369,
      "reproduced_unrounded": 6.174552414869369,
      "reproduced": 6.0,
-     "grade": "B",
-     "deviation_pct": 20.0,
+     "grade": "C",
+     "deviation_pct": 23.4910483,
      "sign_match": true,
      "bound_satisfied": false,
      "stars": "",
@@ -547,8 +547,8 @@
     "reproduced_raw": 6.174552414869369,
     "reproduced_unrounded": 6.174552414869369,
     "reproduced": 6.0,
-    "grade": "B",
-    "deviation_pct": 20.0,
+    "grade": "C",
+    "deviation_pct": 23.4910483,
     "sign_match": true,
     "bound_satisfied": false
    },
@@ -556,10 +556,10 @@
    "runs_agree": true,
    "run_grades": [
     "B",
-    "B",
-    "B"
+    "C",
+    "C"
    ],
-   "median_grade": "B"
+   "median_grade": "C"
   },
   "ox_000|arr_pec50_se": {
    "published_raw": null,
@@ -595,9 +595,9 @@
     "r1": {
      "reproduced_raw": 2977.7521714134014,
      "reproduced_unrounded": 2977.7521714134014,
-     "reproduced": 0.0,
+     "reproduced": 2978.0,
      "grade": "E",
-     "deviation_pct": 100.0,
+     "deviation_pct": 70.22247828587001,
      "sign_match": true,
      "bound_satisfied": false,
      "stars": "",
@@ -606,9 +606,9 @@
     "r2": {
      "reproduced_raw": 661.237,
      "reproduced_unrounded": 661.237,
-     "reproduced": 0.0,
+     "reproduced": 661.0,
      "grade": "E",
-     "deviation_pct": 100.0,
+     "deviation_pct": 93.38763000000002,
      "sign_match": true,
      "bound_satisfied": false,
      "stars": "",
@@ -617,9 +617,9 @@
     "r3": {
      "reproduced_raw": 669.0330697747132,
      "reproduced_unrounded": 669.0330697747132,
-     "reproduced": 0.0,
+     "reproduced": 669.0,
      "grade": "E",
-     "deviation_pct": 100.0,
+     "deviation_pct": 93.30966930225001,
      "sign_match": true,
      "bound_satisfied": false,
      "stars": "",
@@ -629,14 +629,14 @@
    "median": {
     "reproduced_raw": 669.0330697747132,
     "reproduced_unrounded": 669.0330697747132,
-    "reproduced": 0.0,
+    "reproduced": 669.0,
     "grade": "E",
-    "deviation_pct": 100.0,
+    "deviation_pct": 93.30966930225001,
     "sign_match": true,
     "bound_satisfied": false
    },
    "run_spread_pct": 23.165151714134012,
-   "runs_agree": true,
+   "runs_agree": false,
    "run_grades": [
     "E",
     "E",

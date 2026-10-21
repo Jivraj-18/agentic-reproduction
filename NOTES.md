@@ -1,6 +1,6 @@
 # Notes for Anand: agentic reproduction demo
 
-Open `report/index.html` (single file, works offline, no external calls; the only links are the two papers' DOIs and Dryad DOIs). Three tabs: Method, Paper A, Paper B. Nothing runs live; every number is a cached result.
+Open `report/index.html` (single file, works offline, no external calls; the only links are the two papers' DOIs and Dryad DOIs). Live copy: https://jivraj-18.github.io/agentic-reproduction-wiley/. Three tabs: Overview, Paper A, Paper B. Nothing runs live; every number is a cached result.
 
 The pitch line: *agents are given only a paper's Methods and its original data, never the code or the results. They rebuild a results table, and every cell is graded against the published one. Applied here to two Wiley papers.*
 
@@ -15,15 +15,46 @@ The pitch line: *agents are given only a paper's Methods and its original data, 
 
 Pipeline: extract the Methods and blank the table; three independent blind reproducer runs per paper; deterministic grading (`scripts/grade.py`, A to F by % deviation and sign, units normalised); then an explainer that tests alternative readings of the Methods. The three isolation audits are on each paper tab. Scripts are in `scripts/`; everything per paper is in `work/paper*/`.
 
-Grader conventions: reproduced values are compared at the precision printed in the original (floating-point noise removed first, and a number printed like "3000" is read to 1 significant figure). A reproduced value that satisfies a published bound such as "<0.001" counts as a match.
+Grader conventions: reproduced values are compared at the precision printed in the original (floating-point noise removed first, and a number printed like "3000" is read to 1 significant figure). A reproduced value that satisfies a published limit such as "<0.001" counts as a match, and a limit that is not satisfied is compared as printed.
 
 ## Grade distributions (median of 3 runs, per cell)
 
 - **Paper A: 44 A, 8 B, 2 C, 1 E.** Table grade A in every run (4.71 out of 5 each). Sign agrees 55/55; within 20% on 52/55. All 55 cells came out identical in all three runs.
-- **Paper B, first extraction (v1): 35 A, 4 B, 1 C, 2 D, 8 E, 2 F.** Table grade B, B, C across the runs (4.08, 3.92, 3.12).
+- **Paper B, first extraction (v1): 35 A, 3 B, 2 C, 2 D, 8 E, 2 F.** Table grade B, B, C across the runs (4.08, 3.90, 3.10). 73% of numbers within 20%.
 - **Paper B, corrected extraction (v2, shown on the page): 49 A, 1 B, 2 E.** Table grade A in every run (4.92, 4.90, 4.83). All 21 estimates with a published ± are inside 1.96 SE.
 
 Paper A comes out mostly A. That is the honest result. I did not pick a harder table to make it look worse.
+
+## Changes after the call with Anand
+
+Anand asked for three things, all done in `report/index.html`:
+
+1. **Percentages instead of letter grades.** Each paper tab opens with a one-sentence answer and three percentages: almost exactly right (within 2%), close enough (within 20%) and same direction. The A to F grades are still there, in the detail section.
+2. **Click to see what differed.** Each percentage is a button. Selecting it lists the numbers that missed first, biggest gap first, each with its published value, the AI's value and a link to the reason. The numbers that matched are one click further down.
+3. **Plain English.** Every sentence on the page was rewritten in short, plain wording. Each paper has a one-sentence answer, a one-sentence "what this means", and a card per reason a number differed. Each card says what the paper leaves unsaid, what the AI did, what the authors did, and the one sentence that would have prevented it. The wording lives in `work/plain_language.json`.
+
+Detail that used to be at the top (the full side-by-side table, the Methods checklist, the three isolation checks, run-to-run agreement) is now in collapsed sections under "The evidence". The page also shows what it cost, and that the first Paper B attempt was our own mistake.
+
+## Which model ran what (checked against the agents' own records)
+
+- All 12 AI agents that rebuilt or explained a table (3 runs per attempt, three attempts, plus 3 explainers) ran on **Claude Opus 5.5**. None ran on Sonnet.
+- The session that built the pipeline, graded, and assembled the page started on Opus 5.5 and was switched to **Sonnet 5.5** part-way through (the last part of the work: the final page fixes, the notes, and the GitHub publishing). So the correct line is "Opus 5.5 for the agents that did the reproducing; Sonnet 5.5 only for part of the orchestration". It is not "sub-agents on Sonnet".
+- The agents ran in their own folders with only the Methods and data, checked afterwards by three audits. That is not an operating-system sandbox.
+
+## Cost (estimates from token counts in the agents' records, at published prices)
+
+| | Estimated cost | Range |
+|---|---|---|
+| Paper A: 3 runs + explainer | about $2 | $1.66 to $2.42 |
+| Paper B: one clean pass (3 runs + explainer) | about $2.50 | $2.21 to $2.88 |
+| Paper B: both attempts | about $6 | $5.31 to $7.02 |
+| Orchestrating session so far (built the pipeline, grading, page, notes) | about $15 to $17 | $14.80 to $17.45 |
+
+- The range is the difference between the standard and the one-hour price for writing to the prompt cache. Prices used: Opus 5.5 $4 in and $20 out per million tokens, cache reads $0.20.
+- About 10 minutes of AI time per paper once set up (the three runs go in parallel, then the explainer).
+- Summarising the Methods was done in the orchestrating session, so its cost sits in the last row, not in the per-paper rows. A production service would add roughly one more agent run per paper for that step.
+- Anand's guess was $1 for neurology and $5 for pharmacology. Measured: about $2 and about $2.50 per clean pass. The pharmacology paper is only expensive if the first reading of the Methods is wrong.
+- The per-agent figures are in `work/_cost.json`.
 
 ## Something to know before the call: Paper B was run twice
 
@@ -64,7 +95,7 @@ Other findings the explainer made:
 ## Run-to-run variance
 
 - **Paper A:** all 55 cells identical across the three runs. (An earlier version of my grader split one cell, a chair-rise median of 2.65 s, because two runs stored it with floating-point noise. I fixed the grader to remove that noise before comparing.)
-- **Paper B v1:** large variance. Only 13 of 52 cells identical across runs and 19 of 52 with the same grade. One run (per-experiment fits) scored 3.12, the other two 4.08 and 3.92. The fitting strategy is exactly the unstated choice.
+- **Paper B v1:** large variance. Only 12 of 52 cells identical across runs and 18 of 52 with the same grade. One run (per-experiment fits) scored 3.10, the other two 4.08 and 3.90. The fitting strategy is exactly the unstated choice.
 - **Paper B v2:** 48 of 52 identical, 49 of 52 with the same grade. Variance collapses once the spec says which curve each footnote marks.
 
 The spread across the three runs is shown in the hover for every cell on the scorecard.

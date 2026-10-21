@@ -1,0 +1,98 @@
+{
+ "A": {
+  "reproducers": {
+   "low": 0.94,
+   "high": 1.41,
+   "tokens": {
+    "claude-opus-5-5": {
+     "input_tokens": 50,
+     "output_tokens": 559,
+     "cache_creation_input_tokens": 154065,
+     "cache_read_input_tokens": 814011
+    }
+   }
+  },
+  "explainers": {
+   "low": 0.72,
+   "high": 1.01,
+   "tokens": {
+    "claude-opus-5-5": {
+     "input_tokens": 38,
+     "output_tokens": 185,
+     "cache_creation_input_tokens": 96198,
+     "cache_read_input_tokens": 1194538
+    }
+   }
+  }
+ },
+ "B_v1": {
+  "reproducers": {
+   "low": 2.07,
+   "high": 2.74,
+   "tokens": {
+    "claude-opus-5-5": {
+     "input_tokens": 88,
+     "output_tokens": 25918,
+     "cache_creation_input_tokens": 223314,
+     "cache_read_input_tokens": 2184374
+    }
+   }
+  },
+  "explainers": {
+   "low": 1.03,
+   "high": 1.4,
+   "tokens": {
+    "claude-opus-5-5": {
+     "input_tokens": 46,
+     "output_tokens": 3022,
+     "cache_creation_input_tokens": 122706,
+     "cache_read_input_tokens": 1776800
+    }
+   }
+  }
+ },
+ "B_v2": {
+  "reproducers": {
+   "low": 1.32,
+   "high": 1.71,
+   "tokens": {
+    "claude-opus-5-5": {
+     "input_tokens": 66,
+     "output_tokens": 19525,
+     "cache_creation_input_tokens": 130282,
+     "cache_read_input_tokens": 1395164
+    }
+   }
+  },
+  "explainers": {
+   "low": 0.89,
+   "high": 1.17,
+   "tokens": {
+    "claude-opus-5-5": {
+     "input_tokens": 52,
+     "output_tokens": 3128,
+     "cache_creation_input_tokens": 94302,
+     "cache_read_input_tokens": 1774558
+    }
+   }
+  }
+ },
+ "main_session_so_far": {
+  "low": 14.8,
+  "high": 17.45,
+  "tokens": {
+   "claude-opus-5-5": {
+    "input_tokens": 194,
+    "output_tokens": 129011,
+    "cache_creation_input_tokens": 312045,
+    "cache_read_input_tokens": 19232885
+   },
+   "claude-sonnet-5-5": {
+    "input_tokens": 100,
+    "output_tokens": 68431,
+    "cache_creation_input_tokens": 1146170,
+    "cache_read_input_tokens": 16302110
+   }
+  }
+ }
+}

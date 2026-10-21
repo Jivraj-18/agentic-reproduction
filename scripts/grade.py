@@ -86,11 +86,13 @@ def grade_cell(pub, rep_value, rep_unit):
     out["reproduced_unrounded"] = num
     # Strip floating-point noise (2.6500000000000004 vs 2.65) before rounding to the published digits.
     rounded = round(round(num, 9), d)
-    if d == 0 and p == int(p) and int(abs(p)) % 10 == 0:  # '3000' is printed to 1 s.f., '960' to 2 s.f.
+    if pub["comparator"]:  # a published limit such as "<5" or ">10000" is compared as it is
+        rounded = round(num, 9)
+    elif d == 0 and p == int(p) and int(abs(p)) % 10 == 0:  # '3000' is printed to 1 s.f., '960' to 2 s.f.
         digits = len(str(int(abs(p))))
         sig = len(str(int(abs(p))).rstrip("0"))
         rounded = float(round(rounded, -(digits - sig)))
-    out["reproduced"] = rounded
+    out["reproduced"] = round(round(num, 9), d) if pub["comparator"] else rounded  # shown at the printed precision
     if pub["comparator"]:  # published bound, e.g. '<5'
         satisfied = (num < p) if pub["comparator"] == "<" else (num > p)
         if comp and comp == pub["comparator"]:
