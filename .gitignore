@@ -11,3 +11,7 @@ work/*/sandbox/*/data/
 
 # Agent session transcripts (contain local paths and account details); the audit results derived from them are kept
 work/*/eval/transcripts/
+
+# Explainer intermediates that copy the deposited data
+work/*/eval/explain/*.pkl
+work/*/eval/explain/xlsx_dump.txt
