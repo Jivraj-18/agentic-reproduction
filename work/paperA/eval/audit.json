@@ -19,7 +19,11 @@
      "literal": 0.25,
      "line": 66,
      "code": "res[f\"{g}_q1\"] = float(np.quantile(x, 0.25, method=\"linear\"))",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "spo2|p",
@@ -27,7 +31,11 @@
      "literal": 0.25,
      "line": 66,
      "code": "res[f\"{g}_q1\"] = float(np.quantile(x, 0.25, method=\"linear\"))",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."
+     }
     }
    ],
    "flagged": [
@@ -37,7 +45,11 @@
      "literal": 0.25,
      "line": 66,
      "code": "res[f\"{g}_q1\"] = float(np.quantile(x, 0.25, method=\"linear\"))",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "spo2|p",
@@ -45,10 +57,14 @@
      "literal": 0.25,
      "line": 66,
      "code": "res[f\"{g}_q1\"] = float(np.quantile(x, 0.25, method=\"linear\"))",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."
+     }
     }
    ],
-   "unreviewed": 2
+   "unreviewed": 0
   }
  },
  "r_sonnet": {
@@ -70,7 +86,11 @@
      "literal": 0.25,
      "line": 38,
      "code": "res[f\"{rid}|{k}_med\"] = q[.5]; res[f\"{rid}|{k}_q1\"] = q[.25]; res[f\"{rid}|{k}_q3\"] = q[.75]",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "prh|p",
@@ -78,7 +98,11 @@
      "literal": 0.25,
      "line": 36,
      "code": "q = x[k].quantile([.25, .5, .75])  # type 7",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "spo2|p",
@@ -86,7 +110,11 @@
      "literal": 0.25,
      "line": 38,
      "code": "res[f\"{rid}|{k}_med\"] = q[.5]; res[f\"{rid}|{k}_q1\"] = q[.25]; res[f\"{rid}|{k}_q3\"] = q[.75]",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "spo2|p",
@@ -94,7 +122,11 @@
      "literal": 0.25,
      "line": 36,
      "code": "q = x[k].quantile([.25, .5, .75])  # type 7",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     }
    ],
    "flagged": [
@@ -104,7 +136,11 @@
      "literal": 0.25,
      "line": 38,
      "code": "res[f\"{rid}|{k}_med\"] = q[.5]; res[f\"{rid}|{k}_q1\"] = q[.25]; res[f\"{rid}|{k}_q3\"] = q[.75]",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "prh|p",
@@ -112,7 +148,11 @@
      "literal": 0.25,
      "line": 36,
      "code": "q = x[k].quantile([.25, .5, .75])  # type 7",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "spo2|p",
@@ -120,7 +160,11 @@
      "literal": 0.25,
      "line": 38,
      "code": "res[f\"{rid}|{k}_med\"] = q[.5]; res[f\"{rid}|{k}_q1\"] = q[.25]; res[f\"{rid}|{k}_q3\"] = q[.75]",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     },
     {
      "cell": "spo2|p",
@@ -128,10 +172,14 @@
      "literal": 0.25,
      "line": 36,
      "code": "q = x[k].quantile([.25, .5, .75])  # type 7",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+     }
     }
    ],
-   "unreviewed": 4
+   "unreviewed": 0
   }
  }
 }
