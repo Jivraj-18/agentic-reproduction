@@ -1,0 +1,51 @@
+{
+ "n": 9,
+ "n_failed": 0,
+ "results": [
+  {
+   "item": "RQ",
+   "path": "research_question",
+   "verbatim": true
+  },
+  {
+   "item": "SET",
+   "path": "setting",
+   "verbatim": true
+  },
+  {
+   "item": "D1",
+   "path": "data_sources[0]",
+   "verbatim": true
+  },
+  {
+   "item": "M1",
+   "path": "general_manipulations[0]",
+   "verbatim": true
+  },
+  {
+   "item": "M2",
+   "path": "general_manipulations[1]",
+   "verbatim": true
+  },
+  {
+   "item": "S1",
+   "path": "tables[0].specification[0]",
+   "verbatim": true
+  },
+  {
+   "item": "S2",
+   "path": "tables[0].specification[1]",
+   "verbatim": true
+  },
+  {
+   "item": "S3",
+   "path": "tables[0].specification[2]",
+   "verbatim": true
+  },
+  {
+   "item": "S4",
+   "path": "tables[0].specification[3]",
+   "verbatim": true
+  }
+ ]
+}

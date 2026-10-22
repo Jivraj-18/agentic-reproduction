@@ -1,0 +1,23 @@
+C:\Users\e417152\code\reverify_research\springer-nature\.venv\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+female  {'niv_n': 52, 'niv_pct': 41.2698, 'hfnc_n': 41, 'hfnc_pct': 32.5397, 'p': 0.1917}
+pw      {'niv_n': 39, 'niv_pct': 30.9524, 'hfnc_n': 32, 'hfnc_pct': 25.3968, 'p': 0.4008}
+prh     {'niv_n': 30, 'niv_pct': 23.8095, 'hfnc_n': 22, 'hfnc_pct': 17.4603, 'p': 0.2759}
+dur     {'niv_med': 47.5, 'niv_q1': 24.0, 'niv_q3': 80.0, 'hfnc_med': 77.5, 'hfnc_q1': 46.5, 'hfnc_q3': 107.25, 'p': 0.0003}
+fio2    {'niv_mean': 40.8095, 'niv_sd': 10.892, 'hfnc_mean': 36.2381, 'hfnc_sd': 10.5803, 'p': 0.0002}
+wdf     {'niv_mean': 5.9206, 'niv_sd': 0.9928, 'hfnc_mean': 5.9444, 'hfnc_sd': 0.8791, 'p': 0.9789}
+spo2    {'niv_mean': 97.5952, 'niv_sd': 1.9191, 'hfnc_mean': 97.3651, 'hfnc_sd': 1.9125, 'p': 0.2535}
+sed     {'niv_n': 121, 'niv_pct': 96.0317, 'hfnc_n': 54, 'hfnc_pct': 42.8571, 'p': 0.0}
+sed_d   {'niv_med': 3.0, 'niv_q1': 2.0, 'niv_q3': 4.0, 'hfnc_med': 2.0, 'hfnc_q1': 1.0, 'hfnc_q3': 4.0, 'p': 0.0808}
+ngt_d   {'niv_med': 3.0, 'niv_q1': 2.0, 'niv_q3': 4.0, 'hfnc_med': 4.0, 'hfnc_q1': 2.0, 'hfnc_q3': 5.0, 'p': 0.0113}
+imv_d   {'niv_med': 5.0, 'niv_q1': 3.75, 'niv_q3': 7.0, 'hfnc_med': 4.0, 'hfnc_q1': 2.5, 'hfnc_q3': 5.0, 'p': 0.0224}
+atb     {'niv_n': 62, 'niv_pct': 49.2063, 'hfnc_n': 49, 'hfnc_pct': 38.8889, 'p': 0.1561}
+pim     {'niv_mean': 1.7915, 'niv_sd': 1.7504, 'hfnc_mean': 1.4806, 'hfnc_sd': 1.4416, 'p': 0.4951}
+v_rsv   {'niv_n': 91, 'niv_pct': 72.2222, 'hfnc_n': 90, 'hfnc_pct': 71.4286}
+v_bo    {'niv_n': 10, 'niv_pct': 7.9365, 'hfnc_n': 10, 'hfnc_pct': 7.9365}
+v_ad    {'niv_n': 8, 'niv_pct': 6.3492, 'hfnc_n': 9, 'hfnc_pct': 7.1429}
+v_sc    {'niv_n': 5, 'niv_pct': 3.9683, 'hfnc_n': 8, 'hfnc_pct': 6.3492}
+v_pa    {'niv_n': 9, 'niv_pct': 7.1429, 'hfnc_n': 5, 'hfnc_pct': 3.9683}
+v_me    {'niv_n': 6, 'niv_pct': 4.7619, 'hfnc_n': 4, 'hfnc_pct': 3.1746}
+v_re    {'niv_n': 2, 'niv_pct': 1.5873, 'hfnc_n': 2, 'hfnc_pct': 1.5873}
+cells: 101 unfilled: []

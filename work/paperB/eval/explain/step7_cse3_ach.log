@@ -1,0 +1,54 @@
+Relaxation (%) at 1 nM..10 uM:
+  exp1:  -0.2  -0.2   3.4   3.0   3.9   5.1   7.2  16.4  18.4   authors: Emax 24.8, EC50 2300 nM
+  exp2:  -0.1   1.4   1.6   2.6   3.8   4.5   7.0  12.4  17.6   authors: Emax 22.3, EC50 2400 nM
+  exp3:   0.0   0.4   1.1   2.0   5.3   7.9  22.1  22.6  20.6   authors: Emax 22.1, EC50 380 nM
+  exp4:   0.5   0.5   0.5   3.4   1.1   5.9   9.3   9.8  10.7   authors: Emax 10.1, EC50 300 nM
+  exp5:   0.7   1.0   0.4   0.3   0.7   2.9   3.7   5.5   5.7   authors: Emax 6.0, EC50 540 nM
+
+Per-experiment fits (Emax %, EC50 nM, nH, SSE):
+  4p free (global least squares):
+     exp1: Emax    24.5 EC50       2200 nH 0.79 SSE 18.87
+     exp2: Emax   255.4 EC50   10000000 nH 0.38 SSE 2.88
+     exp3: Emax    22.1 EC50        379 nH 2.97 SSE 18.98
+     exp4: Emax    10.1 EC50        296 nH 2.34 SSE 6.93
+     exp5: Emax     5.9 EC50        538 nH 1.22 SSE 1.22
+     -> table: Emax 63.6 +- 48.08; EC50 4230 (18-1011143)
+  4p, EC50 <= 10 uM (top of tested range):
+     exp1: Emax    24.5 EC50       2202 nH 0.79 SSE 18.87
+     exp2: Emax    34.4 EC50      10000 nH 0.57 SSE 3.39
+     exp3: Emax    22.1 EC50        379 nH 2.97 SSE 18.98
+     exp4: Emax    10.1 EC50        296 nH 2.34 SSE 6.93
+     exp5: Emax     5.9 EC50        538 nH 1.22 SSE 1.22
+     -> table: Emax 19.4 +- 5.13; EC50 1063 (171-6611)
+  4p, EC50 <= 3 uM:
+     exp1: Emax    24.5 EC50       2202 nH 0.79 SSE 18.87
+     exp2: Emax    23.8 EC50       3000 nH 0.75 SSE 4.74
+     exp3: Emax    22.1 EC50        379 nH 2.97 SSE 18.98
+     exp4: Emax    10.1 EC50        296 nH 2.34 SSE 6.93
+     exp5: Emax     5.9 EC50        538 nH 1.22 SSE 1.22
+     -> table: Emax 17.3 +- 3.87; EC50 835 (226-3086)
+  4p, slope fixed 1:
+     exp1: Emax    22.0 EC50       1689 nH 1.00 SSE 19.02
+     exp2: Emax    21.2 EC50       2344 nH 1.00 SSE 6.44
+     exp3: Emax    24.0 EC50        345 nH 1.00 SSE 36.24
+     exp4: Emax    11.2 EC50        346 nH 1.00 SSE 8.23
+     exp5: Emax     6.2 EC50        618 nH 1.00 SSE 1.34
+     -> table: Emax 16.9 +- 3.48; EC50 780 (259-2352)
+  4p, Emax <= observed max + 10:
+     exp1: Emax    24.5 EC50       2202 nH 0.79 SSE 18.87
+     exp2: Emax    27.6 EC50       4901 nH 0.66 SSE 3.93
+     exp3: Emax    22.1 EC50        379 nH 2.97 SSE 18.98
+     exp4: Emax    10.1 EC50        296 nH 2.34 SSE 6.93
+     exp5: Emax     5.9 EC50        538 nH 1.22 SSE 1.22
+     -> table: Emax 18.0 +- 4.24; EC50 921 (204-4151)
+
+SSE at the authors' Emax/EC50 (baseline and slope re-optimised) vs global minimum:
+  exp1: authors' point SSE 18.87 (nH 0.78); global 4p SSE 18.87
+  exp2: authors' point SSE 5.42 (nH 0.80); global 4p SSE 2.88
+  exp3: authors' point SSE 18.98 (nH 2.95); global 4p SSE 18.98
+  exp4: authors' point SSE 6.94 (nH 2.38); global 4p SSE 6.93
+  exp5: authors' point SSE 1.25 (nH 1.17); global 4p SSE 1.22
+
+Published: Emax 17 +- 3.8; EC50 806 (233-2790)
+r_opus: Emax 16.1 +- 3.13; EC50 599 (251-1434)
+r_sonnet: Emax 35.8 +- 17.00; EC50 3003 (57-158052)

@@ -1,0 +1,1438 @@
+{
+ "paper": "B",
+ "table_id": "Table 2",
+ "caption": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO. Data shown are mean values±SEM (Emax) or mean values with 95% confidence interval (EC50) from 5 experiments. *p<0.05 vs. control as determined by ANOVA and Dunnett’s post hoc test.",
+ "rows": [
+  {
+   "id": "cse_ctrl",
+   "label": "CSE series: Control"
+  },
+  {
+   "id": "cse_3",
+   "label": "CSE 1:3"
+  },
+  {
+   "id": "cse_20",
+   "label": "CSE 1:20"
+  },
+  {
+   "id": "cse_200",
+   "label": "CSE 1:200"
+  },
+  {
+   "id": "eve_ctrl",
+   "label": "EVE series: Control"
+  },
+  {
+   "id": "eve_undil",
+   "label": "EVE undiluted"
+  },
+  {
+   "id": "eve_2",
+   "label": "EVE 1:2"
+  },
+  {
+   "id": "eve_20",
+   "label": "EVE 1:20"
+  },
+  {
+   "id": "hte_ctrl",
+   "label": "HTE series: Control"
+  },
+  {
+   "id": "hte_undil",
+   "label": "HTE (THP) undiluted"
+  },
+  {
+   "id": "hte_2",
+   "label": "HTE (THP) 1:2"
+  },
+  {
+   "id": "hte_20",
+   "label": "HTE (THP) 1:20"
+  }
+ ],
+ "columns": [
+  {
+   "id": "ach_emax",
+   "label": "Acetylcholine Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "ach_sem",
+   "label": "Acetylcholine Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "ach_ec50",
+   "label": "Acetylcholine EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "ach_lo",
+   "label": "Acetylcholine EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "ach_hi",
+   "label": "Acetylcholine EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_emax",
+   "label": "DEA/NO Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "dea_sem",
+   "label": "DEA/NO Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "dea_ec50",
+   "label": "DEA/NO EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "dea_lo",
+   "label": "DEA/NO EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_hi",
+   "label": "DEA/NO EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  }
+ ],
+ "excluded_columns": [
+  "Nicotine µg/ml (a property of the extract, not computed from the curves)"
+ ],
+ "footnotes": [
+  "*p<0.05 vs. control as determined by ANOVA and Dunnett’s post hoc test."
+ ],
+ "star_legend": {
+  "*": "p<0.05 vs. control of the same series (ANOVA and Dunnett's post hoc test)"
+ },
+ "cells": {
+  "cse_ctrl|ach_emax": {
+   "raw": "59",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 59.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|ach_sem": {
+   "raw": "3.8",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_ctrl|ach_ec50": {
+   "raw": "170",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 170.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|ach_lo": {
+   "raw": "94",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 94.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|ach_hi": {
+   "raw": "307",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 307.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|dea_emax": {
+   "raw": "96",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 96.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|dea_sem": {
+   "raw": "2.1",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.1,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_ctrl|dea_ec50": {
+   "raw": "60",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 60.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|dea_lo": {
+   "raw": "38",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 38.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_ctrl|dea_hi": {
+   "raw": "94",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 94.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|ach_emax": {
+   "raw": "17",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "*",
+   "link_to": null,
+   "comparator": null,
+   "value": 17.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|ach_sem": {
+   "raw": "3.8",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_3|ach_ec50": {
+   "raw": "806",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 806.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|ach_lo": {
+   "raw": "233",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 233.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|ach_hi": {
+   "raw": "2790",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2790.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|dea_emax": {
+   "raw": "97",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 97.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|dea_sem": {
+   "raw": "1.7",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_3|dea_ec50": {
+   "raw": "95",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 95.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|dea_lo": {
+   "raw": "49",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 49.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_3|dea_hi": {
+   "raw": "187",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 187.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|ach_emax": {
+   "raw": "34",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "*",
+   "link_to": null,
+   "comparator": null,
+   "value": 34.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|ach_sem": {
+   "raw": "3.4",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_20|ach_ec50": {
+   "raw": "190",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 190.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|ach_lo": {
+   "raw": "93",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 93.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|ach_hi": {
+   "raw": "390",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 390.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|dea_emax": {
+   "raw": "98",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 98.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|dea_sem": {
+   "raw": "1.2",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_20|dea_ec50": {
+   "raw": "69",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 69.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|dea_lo": {
+   "raw": "29",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 29.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_20|dea_hi": {
+   "raw": "168",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 168.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|ach_emax": {
+   "raw": "56",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 56.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|ach_sem": {
+   "raw": "2.7",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_200|ach_ec50": {
+   "raw": "335",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 335.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|ach_lo": {
+   "raw": "144",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 144.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|ach_hi": {
+   "raw": "777",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 777.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|dea_emax": {
+   "raw": "97",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 97.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|dea_sem": {
+   "raw": "0.9",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "cse_200|dea_ec50": {
+   "raw": "80",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 80.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|dea_lo": {
+   "raw": "43",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 43.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "cse_200|dea_hi": {
+   "raw": "150",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 150.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|ach_emax": {
+   "raw": "57",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 57.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|ach_sem": {
+   "raw": "5.7",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_ctrl|ach_ec50": {
+   "raw": "150",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 150.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|ach_lo": {
+   "raw": "89",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 89.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|ach_hi": {
+   "raw": "251",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 251.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|dea_emax": {
+   "raw": "96",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 96.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|dea_sem": {
+   "raw": "1.9",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_ctrl|dea_ec50": {
+   "raw": "63",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 63.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|dea_lo": {
+   "raw": "28",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 28.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_ctrl|dea_hi": {
+   "raw": "141",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 141.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|ach_emax": {
+   "raw": "50",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 50.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|ach_sem": {
+   "raw": "4.2",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_undil|ach_ec50": {
+   "raw": "190",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 190.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|ach_lo": {
+   "raw": "67",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 67.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|ach_hi": {
+   "raw": "537",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 537.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|dea_emax": {
+   "raw": "98",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 98.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|dea_sem": {
+   "raw": "0.9",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_undil|dea_ec50": {
+   "raw": "44",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 44.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|dea_lo": {
+   "raw": "26",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 26.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_undil|dea_hi": {
+   "raw": "74",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 74.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|ach_emax": {
+   "raw": "64",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 64.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|ach_sem": {
+   "raw": "8.1",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.1,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_2|ach_ec50": {
+   "raw": "166",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 166.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|ach_lo": {
+   "raw": "131",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 131.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|ach_hi": {
+   "raw": "210",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 210.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|dea_emax": {
+   "raw": "95",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 95.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|dea_sem": {
+   "raw": "3.3",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.3,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_2|dea_ec50": {
+   "raw": "53",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 53.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|dea_lo": {
+   "raw": "21",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 21.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_2|dea_hi": {
+   "raw": "135",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 135.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|ach_emax": {
+   "raw": "60",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 60.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|ach_sem": {
+   "raw": "4.6",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_20|ach_ec50": {
+   "raw": "180",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 180.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|ach_lo": {
+   "raw": "89",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 89.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|ach_hi": {
+   "raw": "365",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 365.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|dea_emax": {
+   "raw": "99",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 99.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|dea_sem": {
+   "raw": "0.5",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "eve_20|dea_ec50": {
+   "raw": "58",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 58.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|dea_lo": {
+   "raw": "34",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 34.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "eve_20|dea_hi": {
+   "raw": "100",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 100.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|ach_emax": {
+   "raw": "63",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 63.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|ach_sem": {
+   "raw": "5.0",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_ctrl|ach_ec50": {
+   "raw": "109",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 109.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|ach_lo": {
+   "raw": "50",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 50.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|ach_hi": {
+   "raw": "238",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 238.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|dea_emax": {
+   "raw": "94",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 94.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|dea_sem": {
+   "raw": "1.6",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_ctrl|dea_ec50": {
+   "raw": "46",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 46.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|dea_lo": {
+   "raw": "19",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 19.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_ctrl|dea_hi": {
+   "raw": "112",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 112.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|ach_emax": {
+   "raw": "37",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "*",
+   "link_to": null,
+   "comparator": null,
+   "value": 37.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|ach_sem": {
+   "raw": "5.5",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_undil|ach_ec50": {
+   "raw": "278",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 278.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|ach_lo": {
+   "raw": "84",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 84.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|ach_hi": {
+   "raw": "925",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 925.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|dea_emax": {
+   "raw": "96",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 96.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|dea_sem": {
+   "raw": "1.4",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_undil|dea_ec50": {
+   "raw": "87",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 87.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|dea_lo": {
+   "raw": "21",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 21.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_undil|dea_hi": {
+   "raw": "362",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 362.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|ach_emax": {
+   "raw": "49",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 49.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|ach_sem": {
+   "raw": "6.2",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_2|ach_ec50": {
+   "raw": "146",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 146.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|ach_lo": {
+   "raw": "62",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 62.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|ach_hi": {
+   "raw": "345",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 345.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|dea_emax": {
+   "raw": "96",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 96.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|dea_sem": {
+   "raw": "1.6",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_2|dea_ec50": {
+   "raw": "90",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 90.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|dea_lo": {
+   "raw": "41",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 41.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_2|dea_hi": {
+   "raw": "201",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 201.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|ach_emax": {
+   "raw": "64",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 64.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|ach_sem": {
+   "raw": "4.7",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_20|ach_ec50": {
+   "raw": "167",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 167.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|ach_lo": {
+   "raw": "54",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 54.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|ach_hi": {
+   "raw": "514",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 514.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|dea_emax": {
+   "raw": "95",
+   "metric_type": "Emax",
+   "unit": "%",
+   "stars": "",
+   "link_to": null,
+   "comparator": null,
+   "value": 95.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|dea_sem": {
+   "raw": "1.9",
+   "metric_type": "SEM",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "hte_20|dea_ec50": {
+   "raw": "76",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 76.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|dea_lo": {
+   "raw": "37",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 37.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "hte_20|dea_hi": {
+   "raw": "159",
+   "metric_type": "CI",
+   "unit": "nM",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 159.0,
+   "decimals": 0,
+   "graded": true
+  }
+ }
+}

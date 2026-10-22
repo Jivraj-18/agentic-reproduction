@@ -1,0 +1,22 @@
+Initial WDF (published mean 5.9/5.9, SD 0.9/1.1, p 0.9):
+  WD_0: n=126/126 mean=5.921/5.944 sd=0.993/0.879  MW cc p=0.9789  MW no-cc p=0.9782  t p=0.8404  Welch p=0.8404
+  WD_2: n=119/123 mean=4.983/5.171 sd=1.179/1.157  MW cc p=0.2731  MW no-cc p=0.2727  t p=0.2130  Welch p=0.2131
+  Swap check: published NIV 0.9 / HFNC 1.1; data 0.99 / 0.88. Swapping gives 0.9 / 1.0, still not 1.1.
+Nasogastric tube days (published p 0.012):
+  ETu, tube users only (both runs): n=114/89 mean=3.070/3.607 sd=1.394/1.497  MW cc p=0.0113  MW no-cc p=0.0113  t p=0.0091  Welch p=0.0098
+  ETu, 'nc' as 0 days: n=126/126 mean=2.778/2.548 sd=1.604/2.073  MW cc p=0.3337  MW no-cc p=0.3333  t p=0.3253  Welch p=0.3254
+IMV days, HFNC (published 4 (2.5-4.5)):
+  all recorded (both runs)   linear                 n=27 Q1/med/Q3 = [2.5, 4.0, 5.0]
+  all recorded (both runs)   weibull                n=27 Q1/med/Q3 = [2.0, 4.0, 5.0]
+  all recorded (both runs)   hazen                  n=27 Q1/med/Q3 = [2.25, 4.0, 5.0]
+  all recorded (both runs)   inverted_cdf           n=27 Q1/med/Q3 = [2.0, 4.0, 5.0]
+  all recorded (both runs)   averaged_inverted_cdf  n=27 Q1/med/Q3 = [2.0, 4.0, 5.0]
+  all recorded (both runs)   median_unbiased        n=27 Q1/med/Q3 = [2.166666666666667, 4.0, 5.0]
+  intubated only (It=y)      linear                 n=26 Q1/med/Q3 = [3.0, 4.0, 5.0]
+  intubated only (It=y)      weibull                n=26 Q1/med/Q3 = [2.75, 4.0, 5.25]
+  intubated only (It=y)      hazen                  n=26 Q1/med/Q3 = [3.0, 4.0, 5.0]
+  intubated only (It=y)      inverted_cdf           n=26 Q1/med/Q3 = [3.0, 4.0, 5.0]
+  intubated only (It=y)      averaged_inverted_cdf  n=26 Q1/med/Q3 = [3.0, 4.0, 5.0]
+  intubated only (It=y)      median_unbiased        n=26 Q1/med/Q3 = [2.916666666666667, 4.0, 5.083333333333332]
+  Sorted HFNC MV: [1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 6, 7, 7, 7, 9, 10]
+  4.5 would need the 75th centile to fall between a 4 and a 5; with 27 values it sits among the 5s.

@@ -1,0 +1,146 @@
+fit cse_20     DEA/NO        exp1: Emax=  98.47  EC50=   109.35 nM  nH= 0.91  obs_max= 96.49
+fit cse_20     DEA/NO        exp2: Emax=  98.50  EC50=    32.56 nM  nH= 1.28  obs_max= 99.35
+fit cse_20     DEA/NO        exp3: Emax=  93.22  EC50=   112.52 nM  nH= 1.64  obs_max= 94.80
+fit cse_20     DEA/NO        exp4: Emax=  98.63  EC50=    32.79 nM  nH= 1.23  obs_max= 98.28
+fit cse_20     DEA/NO        exp5: Emax=  99.94  EC50=   128.74 nM  nH= 1.35  obs_max= 99.89
+fit cse_20     acetylcholine exp1: Emax=  39.29  EC50=   122.27 nM  nH= 0.88  obs_max= 40.17
+fit cse_20     acetylcholine exp2: Emax=  38.99  EC50=   460.36 nM  nH= 0.77  obs_max= 35.17
+fit cse_20     acetylcholine exp3: Emax=  23.12  EC50=   240.98 nM  nH= 0.96  obs_max= 22.79
+fit cse_20     acetylcholine exp4: Emax=  31.14  EC50=   138.48 nM  nH= 0.78  obs_max= 29.93
+fit cse_20     acetylcholine exp5: Emax=  43.47  EC50=   106.35 nM  nH= 0.57  obs_max= 38.44
+fit cse_200    DEA/NO        exp1: Emax=  97.79  EC50=    99.60 nM  nH= 1.06  obs_max= 98.39
+fit cse_200    DEA/NO        exp2: Emax=  93.26  EC50=   132.07 nM  nH= 1.03  obs_max= 92.85
+fit cse_200    DEA/NO        exp3: Emax=  97.45  EC50=   123.64 nM  nH= 1.46  obs_max= 99.70
+fit cse_200    DEA/NO        exp4: Emax=  97.78  EC50=    48.48 nM  nH= 1.24  obs_max= 98.13
+fit cse_200    DEA/NO        exp5: Emax=  97.40  EC50=    44.65 nM  nH= 1.32  obs_max= 98.56
+fit cse_200    acetylcholine exp1: Emax=  54.43  EC50=   136.42 nM  nH= 1.04  obs_max= 53.81
+fit cse_200    acetylcholine exp2: Emax=  49.69  EC50=   201.96 nM  nH= 0.84  obs_max= 47.33
+fit cse_200    acetylcholine exp3: Emax=  62.05  EC50=  1013.70 nM  nH= 0.63  obs_max= 48.62
+fit cse_200    acetylcholine exp4: Emax=  64.87  EC50=   472.13 nM  nH= 0.67  obs_max= 56.38
+fit cse_200    acetylcholine exp5: Emax=  56.60  EC50=   336.04 nM  nH= 1.19  obs_max= 55.00
+   refit with nH=1 (free fit Emax=102.33, EC50=82.3 nM, nH=0.89)
+fit cse_3      DEA/NO        exp1: Emax= 100.24  EC50=    77.53 nM  nH= 1.00  obs_max= 99.81
+   refit with nH=1 (free fit Emax=100.39, EC50=64.0 nM, nH=0.87)
+fit cse_3      DEA/NO        exp2: Emax=  98.12  EC50=    59.56 nM  nH= 1.00  obs_max= 99.14
+fit cse_3      DEA/NO        exp3: Emax=  94.32  EC50=   107.01 nM  nH= 1.50  obs_max= 94.86
+fit cse_3      DEA/NO        exp4: Emax=  96.82  EC50=    66.56 nM  nH= 1.28  obs_max= 98.36
+fit cse_3      DEA/NO        exp5: Emax=  91.56  EC50=   226.43 nM  nH= 0.88  obs_max= 89.72
+   refit with nH=1 (free fit Emax=38.67, EC50=10307.8 nM, nH=0.49)
+fit cse_3      acetylcholine exp1: Emax=  20.85  EC50=  1158.15 nM  nH= 1.00  obs_max= 18.44
+   refit with nH=1 (free fit Emax=124.06, EC50=1000000.0 nM, nH=0.39)
+fit cse_3      acetylcholine exp2: Emax=  19.23  EC50=  1362.57 nM  nH= 1.00  obs_max= 17.61
+fit cse_3      acetylcholine exp3: Emax=  22.64  EC50=   331.50 nM  nH= 1.65  obs_max= 22.57
+fit cse_3      acetylcholine exp4: Emax=  11.36  EC50=   301.04 nM  nH= 0.90  obs_max= 10.72
+fit cse_3      acetylcholine exp5: Emax=   6.19  EC50=   491.59 nM  nH= 0.92  obs_max=  5.68
+fit cse_ctrl   DEA/NO        exp1: Emax=  99.22  EC50=    49.97 nM  nH= 1.21  obs_max= 98.88
+fit cse_ctrl   DEA/NO        exp2: Emax=  87.66  EC50=    68.57 nM  nH= 1.31  obs_max= 87.66
+fit cse_ctrl   DEA/NO        exp3: Emax=  95.71  EC50=   102.07 nM  nH= 2.04  obs_max= 97.02
+fit cse_ctrl   DEA/NO        exp4: Emax=  99.14  EC50=    62.49 nM  nH= 0.98  obs_max= 97.68
+fit cse_ctrl   DEA/NO        exp5: Emax=  95.73  EC50=    38.44 nM  nH= 1.69  obs_max= 96.00
+fit cse_ctrl   acetylcholine exp1: Emax=  69.81  EC50=   194.15 nM  nH= 0.91  obs_max= 68.20
+fit cse_ctrl   acetylcholine exp2: Emax=  51.64  EC50=   101.00 nM  nH= 0.93  obs_max= 50.23
+fit cse_ctrl   acetylcholine exp3: Emax=  52.32  EC50=   362.34 nM  nH= 0.93  obs_max= 50.50
+fit cse_ctrl   acetylcholine exp4: Emax=  56.51  EC50=   137.22 nM  nH= 0.84  obs_max= 54.51
+fit cse_ctrl   acetylcholine exp5: Emax=  65.16  EC50=   134.90 nM  nH= 1.40  obs_max= 66.30
+fit eve_2      DEA/NO        exp1: Emax=  78.74  EC50=    85.54 nM  nH= 0.99  obs_max= 81.88
+fit eve_2      DEA/NO        exp2: Emax=  97.12  EC50=    20.21 nM  nH= 1.18  obs_max= 98.18
+fit eve_2      DEA/NO        exp3: Emax=  97.31  EC50=    36.74 nM  nH= 1.26  obs_max= 96.95
+fit eve_2      DEA/NO        exp4: Emax=  99.06  EC50=    84.20 nM  nH= 1.37  obs_max= 99.57
+fit eve_2      DEA/NO        exp5: Emax=  96.91  EC50=   110.36 nM  nH= 1.20  obs_max= 97.20
+fit eve_2      acetylcholine exp1: Emax=  83.32  EC50=   164.84 nM  nH= 0.61  obs_max= 77.79
+fit eve_2      acetylcholine exp2: Emax=  75.37  EC50=   163.13 nM  nH= 0.96  obs_max= 75.56
+fit eve_2      acetylcholine exp3: Emax=  66.53  EC50=   205.67 nM  nH= 1.22  obs_max= 66.28
+fit eve_2      acetylcholine exp4: Emax=  55.77  EC50=   132.83 nM  nH= 1.34  obs_max= 56.56
+fit eve_2      acetylcholine exp5: Emax=  37.75  EC50=   194.44 nM  nH= 1.05  obs_max= 36.56
+fit eve_20     DEA/NO        exp1: Emax=  94.21  EC50=    47.21 nM  nH= 0.75  obs_max= 93.52
+fit eve_20     DEA/NO        exp2: Emax=  98.35  EC50=    86.97 nM  nH= 0.88  obs_max= 98.12
+fit eve_20     DEA/NO        exp3: Emax=  98.45  EC50=    80.65 nM  nH= 1.05  obs_max= 98.82
+fit eve_20     DEA/NO        exp4: Emax=  99.84  EC50=    86.02 nM  nH= 1.19  obs_max= 99.46
+fit eve_20     DEA/NO        exp5: Emax=  98.62  EC50=    37.99 nM  nH= 1.25  obs_max= 99.27
+fit eve_20     acetylcholine exp1: Emax=  73.55  EC50=   366.10 nM  nH= 0.56  obs_max= 62.31
+fit eve_20     acetylcholine exp2: Emax=  61.70  EC50=   169.50 nM  nH= 1.12  obs_max= 62.80
+fit eve_20     acetylcholine exp3: Emax=  65.48  EC50=   115.44 nM  nH= 1.19  obs_max= 64.79
+fit eve_20     acetylcholine exp4: Emax=  53.44  EC50=    86.75 nM  nH= 0.90  obs_max= 52.42
+fit eve_20     acetylcholine exp5: Emax=  48.33  EC50=   268.49 nM  nH= 1.21  obs_max= 47.41
+fit eve_ctrl   DEA/NO        exp1: Emax=  88.38  EC50=    36.86 nM  nH= 1.08  obs_max= 90.83
+fit eve_ctrl   DEA/NO        exp2: Emax=  98.60  EC50=    35.39 nM  nH= 1.14  obs_max= 98.83
+fit eve_ctrl   DEA/NO        exp3: Emax=  97.49  EC50=    51.03 nM  nH= 1.69  obs_max= 97.93
+fit eve_ctrl   DEA/NO        exp4: Emax=  99.04  EC50=   129.46 nM  nH= 1.13  obs_max= 99.49
+fit eve_ctrl   DEA/NO        exp5: Emax=  95.43  EC50=   121.03 nM  nH= 1.07  obs_max= 93.80
+fit eve_ctrl   acetylcholine exp1: Emax=  71.79  EC50=   194.41 nM  nH= 0.75  obs_max= 68.53
+fit eve_ctrl   acetylcholine exp2: Emax=  43.87  EC50=    77.66 nM  nH= 1.26  obs_max= 46.80
+fit eve_ctrl   acetylcholine exp3: Emax=  69.03  EC50=   132.95 nM  nH= 1.49  obs_max= 69.58
+fit eve_ctrl   acetylcholine exp4: Emax=  54.35  EC50=   186.18 nM  nH= 1.51  obs_max= 54.92
+fit eve_ctrl   acetylcholine exp5: Emax=  45.96  EC50=   202.15 nM  nH= 1.12  obs_max= 44.79
+fit eve_undil  DEA/NO        exp1: Emax=  94.07  EC50=    25.61 nM  nH= 1.44  obs_max= 97.04
+fit eve_undil  DEA/NO        exp2: Emax=  97.83  EC50=    39.96 nM  nH= 1.22  obs_max= 98.36
+fit eve_undil  DEA/NO        exp3: Emax=  96.97  EC50=    43.01 nM  nH= 1.43  obs_max= 99.52
+fit eve_undil  DEA/NO        exp4: Emax=  97.15  EC50=    83.58 nM  nH= 1.30  obs_max= 99.38
+fit eve_undil  DEA/NO        exp5: Emax=  98.86  EC50=    48.00 nM  nH= 1.31  obs_max= 98.94
+fit eve_undil  acetylcholine exp1: Emax=  40.25  EC50=   102.38 nM  nH= 1.58  obs_max= 43.63
+fit eve_undil  acetylcholine exp2: Emax=  60.07  EC50=   124.73 nM  nH= 1.24  obs_max= 60.09
+fit eve_undil  acetylcholine exp3: Emax=  41.75  EC50=   131.96 nM  nH= 1.35  obs_max= 42.14
+fit eve_undil  acetylcholine exp4: Emax=  50.20  EC50=   179.86 nM  nH= 0.99  obs_max= 49.09
+fit eve_undil  acetylcholine exp5: Emax=  58.88  EC50=   829.50 nM  nH= 1.32  obs_max= 54.98
+fit hte_2      DEA/NO        exp1: Emax=  98.11  EC50=    64.03 nM  nH= 1.72  obs_max= 99.81
+fit hte_2      DEA/NO        exp2: Emax=  91.67  EC50=    39.72 nM  nH= 2.07  obs_max= 93.25
+fit hte_2      DEA/NO        exp3: Emax=  92.84  EC50=   107.00 nM  nH= 1.09  obs_max= 93.83
+fit hte_2      DEA/NO        exp4: Emax=  98.78  EC50=   103.86 nM  nH= 1.17  obs_max= 99.15
+   refit with nH=1 (free fit Emax=100.40, EC50=225.7 nM, nH=0.83)
+fit hte_2      DEA/NO        exp5: Emax=  96.24  EC50=   200.97 nM  nH= 1.00  obs_max= 93.28
+fit hte_2      acetylcholine exp1: Emax=  63.63  EC50=    55.31 nM  nH= 1.86  obs_max= 63.61
+fit hte_2      acetylcholine exp2: Emax=  62.52  EC50=   133.78 nM  nH= 1.55  obs_max= 62.50
+fit hte_2      acetylcholine exp3: Emax=  33.10  EC50=   164.83 nM  nH= 1.26  obs_max= 33.26
+fit hte_2      acetylcholine exp4: Emax=  39.31  EC50=   134.48 nM  nH= 0.87  obs_max= 38.47
+fit hte_2      acetylcholine exp5: Emax=  46.42  EC50=   384.56 nM  nH= 0.82  obs_max= 41.62
+   refit with nH=1 (free fit Emax=100.23, EC50=109.3 nM, nH=0.81)
+fit hte_20     DEA/NO        exp1: Emax=  95.78  EC50=    93.96 nM  nH= 1.00  obs_max= 96.49
+fit hte_20     DEA/NO        exp2: Emax=  88.80  EC50=    47.69 nM  nH= 1.62  obs_max= 91.60
+fit hte_20     DEA/NO        exp3: Emax=  92.88  EC50=   117.94 nM  nH= 1.58  obs_max= 96.92
+fit hte_20     DEA/NO        exp4: Emax=  94.37  EC50=    36.23 nM  nH= 1.45  obs_max= 95.90
+fit hte_20     DEA/NO        exp5: Emax=  97.74  EC50=   113.78 nM  nH= 1.58  obs_max= 99.17
+fit hte_20     acetylcholine exp1: Emax=  70.14  EC50=    91.58 nM  nH= 1.25  obs_max= 70.66
+fit hte_20     acetylcholine exp2: Emax=  66.22  EC50=   172.62 nM  nH= 0.90  obs_max= 66.65
+fit hte_20     acetylcholine exp3: Emax=  45.42  EC50=   278.47 nM  nH= 0.98  obs_max= 46.56
+fit hte_20     acetylcholine exp4: Emax=  67.74  EC50=    58.88 nM  nH= 1.01  obs_max= 68.30
+fit hte_20     acetylcholine exp5: Emax=  70.34  EC50=   558.30 nM  nH= 1.22  obs_max= 66.14
+fit hte_ctrl   DEA/NO        exp1: Emax=  98.95  EC50=    41.92 nM  nH= 1.10  obs_max= 99.59
+fit hte_ctrl   DEA/NO        exp2: Emax=  90.93  EC50=    21.61 nM  nH= 1.34  obs_max= 92.97
+fit hte_ctrl   DEA/NO        exp3: Emax=  91.50  EC50=   135.28 nM  nH= 0.89  obs_max= 90.76
+fit hte_ctrl   DEA/NO        exp4: Emax=  90.51  EC50=    30.15 nM  nH= 1.24  obs_max= 91.17
+fit hte_ctrl   DEA/NO        exp5: Emax=  95.34  EC50=    64.13 nM  nH= 1.96  obs_max= 98.44
+fit hte_ctrl   acetylcholine exp1: Emax=  75.79  EC50=   111.23 nM  nH= 1.04  obs_max= 78.10
+fit hte_ctrl   acetylcholine exp2: Emax=  72.48  EC50=   127.11 nM  nH= 0.96  obs_max= 69.92
+fit hte_ctrl   acetylcholine exp3: Emax=  49.05  EC50=   160.05 nM  nH= 0.92  obs_max= 48.39
+fit hte_ctrl   acetylcholine exp4: Emax=  60.76  EC50=    43.45 nM  nH= 1.01  obs_max= 62.60
+fit hte_ctrl   acetylcholine exp5: Emax=  57.44  EC50=   168.77 nM  nH= 1.57  obs_max= 58.95
+fit hte_undil  DEA/NO        exp1: Emax=  92.63  EC50=    34.67 nM  nH= 1.19  obs_max= 94.16
+fit hte_undil  DEA/NO        exp2: Emax=  93.17  EC50=    35.70 nM  nH= 1.47  obs_max= 95.69
+fit hte_undil  DEA/NO        exp3: Emax=  99.57  EC50=   121.80 nM  nH= 1.21  obs_max= 99.28
+fit hte_undil  DEA/NO        exp4: Emax=  98.33  EC50=    53.28 nM  nH= 1.24  obs_max= 99.77
+fit hte_undil  DEA/NO        exp5: Emax=  89.34  EC50=    72.19 nM  nH= 2.06  obs_max= 94.74
+fit hte_undil  acetylcholine exp1: Emax=  40.71  EC50=   174.62 nM  nH= 0.93  obs_max= 40.56
+fit hte_undil  acetylcholine exp2: Emax=  15.48  EC50=   394.58 nM  nH= 1.05  obs_max= 15.22
+fit hte_undil  acetylcholine exp3: Emax=  49.18  EC50=   720.54 nM  nH= 1.02  obs_max= 44.02
+fit hte_undil  acetylcholine exp4: Emax=  39.14  EC50=    74.15 nM  nH= 0.88  obs_max= 39.52
+fit hte_undil  acetylcholine exp5: Emax=  39.35  EC50=   518.88 nM  nH= 1.00  obs_max= 37.44
+CSE ach: Emax ANOVA p=1.466e-07, Dunnett p=[0.000e+00 2.000e-04 9.741e-01]; logEC50 ANOVA p=0.02309, Dunnett p=[0.0184 0.994  0.2451]
+CSE dea: Emax ANOVA p=0.7486, Dunnett p=[0.9726 0.5848 0.8838]; logEC50 ANOVA p=0.6251, Dunnett p=[0.4619 0.956  0.7436]
+EVE ach: Emax ANOVA p=0.4157, Dunnett p=[0.747  0.7482 0.9493]; logEC50 ANOVA p=0.9226, Dunnett p=[0.8379 0.9688 0.9434]
+EVE dea: Emax ANOVA p=0.6101, Dunnett p=[0.9641 0.8677 0.842 ]; logEC50 ANOVA p=0.7122, Dunnett p=[0.6281 0.9767 1.    ]
+HTE ach: Emax ANOVA p=0.007065, Dunnett p=[0.0085 0.1919 0.9989]; logEC50 ANOVA p=0.3012, Dunnett p=[0.1687 0.9056 0.7129]
+HTE dea: Emax ANOVA p=0.8163, Dunnett p=[0.9206 0.695  0.9937]; logEC50 ANOVA p=0.3802, Dunnett p=[0.9348 0.2585 0.525 ]
+
+Table:
+cse_ctrl   59.09  3.604  167.4  91.13  307.6  95.49  2.105  60.94  38.74  95.84
+cse_3      16.05*  3.129  599.5*  250.7  1434  96.21  1.507  94.27  48.39  183.7
+cse_20     35.2*  3.619  182  85.93  385.5  97.75  1.166  70.09  29.41  167
+cse_200    57.53  2.703  338.3  129.1  886.3  96.73  0.8728  81.16  42.59  154.7
+eve_ctrl   57  5.764  149.8  90.81  247.3  95.79  1.954  63.63  28.95  139.8
+eve_undil  50.23  4.143  190.6  66.61  545.3  96.97  0.7983  44.6  26.33  75.56
+eve_2      63.75  7.954  170.2  137.5  210.6  93.83  3.792  56.78  23.49  137.2
+eve_20     60.5  4.441  175.6  84.34  365.5  97.89  0.9585  64.1  39.63  103.7
+hte_ctrl   63.1  4.919  110.7  55.94  218.9  93.44  1.622  47.31  19.54  114.5
+hte_undil  36.77*  5.635  285.9  91.34  894.9  94.61  1.899  56.58  29.48  108.6
+hte_2      49  6.125  144.5  61.3  340.8  95.53  1.413  89.3  41.96  190.1
+hte_20     63.97  4.701  170.7  56.56  514.9  93.92  1.509  73.73  37.75  144

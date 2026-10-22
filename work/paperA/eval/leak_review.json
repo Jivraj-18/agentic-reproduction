@@ -1,0 +1,8 @@
+{
+ "preflight_hits": [
+  {"token": "24", "file": "methods.json", "verdict": "coincidental", "reason": "Measurement time point '24 h' in the Methods' recording schedule; matches the published Q1 of NIV duration (24 h) only by chance."},
+  {"token": "96", "file": "methods.json", "verdict": "coincidental", "reason": "Measurement time point '96 h'; matches the published sedation percentage (96%) only by chance."},
+  {"token": "10", "file": "methods.json", "verdict": "coincidental", "reason": "'10 were excluded from the HFNC group'; matches two ungraded length-of-stay quartiles."}
+ ],
+ "removed_before_runs": "The template's instructions first used '<0.001' as an example of a bound, which matched two published p-values; replaced with '<x' before any run."
+}

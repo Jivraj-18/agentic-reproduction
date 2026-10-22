@@ -1,0 +1,16 @@
+hte_undil dea exp4: authors' tension-Emax 3.2, EC50 6.7e-08
+    identical pair in ('cse_3', 'dea') exp4
+hte_undil dea exp5: authors' tension-Emax 1.7, EC50 5.4e-07
+    same EC50 only in ('cse_3', 'ach') exp5 (Emax 94.0)
+
+Refit of the hte_undil DEA/NO curves (4p free baseline):
+  exp1: Emax 93.0 (tension 7.0)  EC50 33 nM | authors tension 6.9 EC50 33 nM
+  exp2: Emax 93.3 (tension 6.7)  EC50 35 nM | authors tension 6.7 EC50 35 nM
+  exp3: Emax 99.9 (tension 0.1)  EC50 119 nM | authors tension 0.1 EC50 120 nM
+  exp4: Emax 98.3 (tension 1.7)  EC50 54 nM | authors tension 3.2 EC50 67 nM
+  exp5: Emax 89.6 (tension 10.4)  EC50 71 nM | authors tension 1.7 EC50 540 nM
+
+Published: Emax 96 +- 1.4; EC50 87 (21-362)
+authors' rows as deposited                                 Emax 96.3 +- 1.35; EC50 87.1 (20.9-362.4)
+4p refit of all five curves                                Emax 94.8 +- 1.88; EC50 55.6 (28.7-107.8)
+authors' rows with exp4+5 replaced by their refits         Emax 94.8 +- 1.88; EC50 55.6 (28.7-107.8)

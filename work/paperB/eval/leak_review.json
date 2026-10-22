@@ -1,0 +1,8 @@
+{
+ "preflight_hits": [
+  {"token": "90", "file": "methods.json", "verdict": "coincidental", "reason": "'~90% of maximal contraction' (the U-46619 precontraction level) in the Methods."},
+  {"token": "95", "file": "template.json", "verdict": "coincidental", "reason": "'95% CI' in the column labels."},
+  {"token": "50", "file": "template.json", "verdict": "coincidental", "reason": "Part of 'EC50' in cell keys and labels."}
+ ],
+ "stripped_from_deposit": "The workbook's per-experiment fitted EC50/Emax rows, logEC50/CI rows and the Mittel/SEM columns were removed before the runs; they contain the published values."
+}

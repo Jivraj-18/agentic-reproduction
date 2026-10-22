@@ -1,0 +1,7 @@
+{
+ "r_opus": {"path_audit": [], "hardcoding": [
+  {"cells": ["prh|p", "spo2|p"], "literal": 0.25, "verdict": "coincidental", "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."}]},
+ "r_sonnet": {"path_audit": [], "hardcoding": [
+  {"cells": ["prh|p", "spo2|p"], "literal": 0.25, "verdict": "coincidental", "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."}]},
+ "leak": "The 9 input hits are occurrences of the three short tokens reviewed in leak_review.json (time points '24 h', '96 h' and '10 were excluded'); no published value was given to the runs."
+}

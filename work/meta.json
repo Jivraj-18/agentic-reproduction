@@ -1,0 +1,34 @@
+{
+ "client": "Springer Nature",
+ "repo": "agentic-reproduction-springer-nature",
+ "papers": {
+  "A": {
+   "tab": "Paper A · Paediatrics",
+   "title": "Comparison between high-flow nasal cannula (HFNC) therapy and noninvasive ventilation (NIV) in children with acute respiratory failure by bronchiolitis: a randomized controlled trial",
+   "authors": "Santos ACEZ, Caiado CM, Lopes AGD, et al.",
+   "journal": "BMC Pediatrics",
+   "year": "2024; 24: 595",
+   "field": "Paediatric intensive care (randomised trial)",
+   "doi": "10.1186/s12887-024-05058-6",
+   "data_doi": "10.5061/dryad.4xgxd25jh",
+   "data_repo": "Dryad",
+   "licence": "CC BY 4.0",
+   "table": "Table 1. Demographic and clinical characteristics",
+   "why_table": "The trial's main comparison table: counts, means, medians and p-values for two groups of 126 children. Simple statistics, but the Methods leave open how missing values, sedation and percentages are counted, and some rows were shared only as ranges."
+  },
+  "B": {
+   "tab": "Paper B · Vascular pharmacology",
+   "title": "Varied effects of tobacco smoke and e-cigarette vapor suggest that nicotine does not affect endothelium-dependent relaxation",
+   "authors": "Wölkart G, Kollau A, Russwurm M, et al.",
+   "journal": "Scientific Reports",
+   "year": "2023; 13: 15833",
+   "field": "Vascular pharmacology (curve fitting)",
+   "doi": "10.1038/s41598-023-42750-6",
+   "data_doi": "10.5281/zenodo.7963137",
+   "data_repo": "Zenodo",
+   "licence": "CC BY 4.0",
+   "table": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO.",
+   "why_table": "Maximal relaxation and EC50 for 12 treatments, from Hill-curve fits to each experiment, with geometric means and confidence limits. The fitting choices are exactly what Methods sections tend to leave out."
+  }
+ }
+}

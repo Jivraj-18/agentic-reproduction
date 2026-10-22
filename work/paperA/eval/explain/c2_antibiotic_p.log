@@ -1,0 +1,14 @@
+NIV ATB y/n/md: 62 63 1
+HFNC ATB y/n/md: 49 74 3
+complete cases (62/125 vs 49/123)
+  chi2 Yates        p=0.1561
+  chi2 uncorrected  p=0.1221
+  Fisher            p=0.1277
+  one-sided Fisher  p=0.0780
+md counted as no (62/126 vs 49/126)
+  chi2 Yates        p=0.1278
+  chi2 uncorrected  p=0.0990
+  Fisher            p=0.1277
+  one-sided Fisher  p=0.0638
+Published: 62 (49%) vs 49 (38%), p<0.001. No test above gives a p below 0.05, let alone <0.001.
+The Sedation row (121 vs 54) also has p<0.001, which fits that row; the ATB p looks copied or mistyped.

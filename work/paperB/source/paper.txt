@@ -1,0 +1,711 @@
+=== page 1
+1
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports
+Varied effects of tobacco smoke 
+and e‑cigarette vapor suggest 
+that nicotine does not affect 
+endothelium‑dependent relaxation 
+and nitric oxide signaling
+Gerald Wölkart1,3, Alexander Kollau1,3, Michael Russwurm2
+, Doris Koesling2
+, 
+Astrid Schrammel1 & Bernd Mayer1*
+Chronic smoking causes dysfunction of vascular endothelial cells, evident as a reduction of flow￾mediated dilation in smokers, but the role of nicotine is still controversial. Given the increasing use of 
+e-cigarettes and other nicotine products, it appears essential to clarify this issue. We studied extracts 
+from cigarette smoke (CSE) and vapor from e-cigarettes (EVE) and heated tobacco (HTE) for their 
+effects on vascular relaxation, endothelial nitric oxide signaling, and the activity of soluble guanylyl 
+cyclase. The average nicotine concentrations of CSE, EVE, and HTE were 164, 800, and 85 µM, 
+respectively. At a dilution of 1:3, CSE almost entirely inhibited the relaxation of rat aortas and porcine 
+coronary arteries to acetylcholine and bradykinin, respectively, while undiluted EVE, with a 15-fold 
+higher nicotine concentration, had no significant effect. With about 50% inhibition at 1:2 dilution, 
+the effect of HTE was between CSE and EVE. Neither extract affected endothelium-independent 
+relaxation to an NO donor. At the dilutions tested, CSE was not toxic to cultured endothelial cells but, 
+in contrast to EVE, impaired NO signaling and inhibited NO stimulation of soluble guanylyl cyclase. 
+Our results demonstrate that nicotine does not mediate the impaired endothelium-dependent 
+vascular relaxation caused by smoking.
+Cigarette smoking is an established risk factor for developing severe cardiovascular diseases, including athero￾sclerosis, coronary artery disease, and stroke1,2
+. The impaired function of vascular endothelial cells exposed to 
+toxic compounds in tobacco smoke contributes significantly to the cardiovascular harm of smoking3
+. Vascular 
+endothelial cells exert various protective effects, and dysfunction of these cells results in inflammation, activa￾tion of blood platelets, and vasoconstriction. Endogenous receptor agonists, such as acetylcholine, histamine or 
+bradykinin, as well as increased blood flow trigger endothelium-dependent relaxation of blood vessels through 
+stimulation of endothelial nitric oxide (NO) synthase (eNOS), resulting in NO-mediated activation of soluble 
+guanylyl cyclase (sGC) and accumulation of 3′,5′-cyclic GMP (cGMP) in adjacent vascular smooth muscle cells4
+. 
+Endothelium-dependent vasodilation of the brachial artery in response to increased blood flow, provoked by a 
+short period of ischemia, can be measured noninvasively by ultrasound in laboratory animals and humans5
+. Using 
+this flow-mediated dilation (FMD) approach and other techniques, numerous clinical studies provided evidence 
+for pronounced endothelial dysfunction of chronic smokers3
+. It is conceivable that oxidative stress caused by 
+smoking reduces the bioavailability of endothelium-derived NO through increased generation of superoxide 
+and peroxynitrite formation6
+ or oxidation of the eNOS cofactor tetrahydrobiopterin7,8
+.
+In the past decade, new nicotine products have become available, which allow users nicotine consumption 
+without inhaling the smoke of burned tobacco. Electronic cigarettes (e-cigarettes) vaporize nicotine-containing 
+liquids to generate aerosols with liquid droplets (“vapor”) that are inhaled by users9
+. While e-cigarettes do 
+not contain tobacco, tobacco heating systems (THS) generate aerosols by heating tobacco sticks to a maxi￾mum 300 °C, a temperature below the threshold for combustion10. Since these alternative products do not 
+OPEN
+1
+Department of Pharmacology and Toxicology, Institute of Pharmaceutical Sciences, Universität Graz, 
+Humboldtstraße 46, 8010 Graz, Austria. 2
+Department of Pharmacology and Toxicology, Ruhr-Universität 
+Bochum, MA N1‑39, 44780 Bochum, Germany. 3These authors contributed equally: Gerald Wölkart and Alexander 
+Kollau. *email: mayer@uni-graz.at
+=== page 2
+2
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+generate toxic combustion products, users are exposed to lower levels of potentially hazardous substances than 
+smokers11,12. Given the large body of evidence demonstrating reduced risks, these alternative nicotine products 
+are recommended by health organizations as alternatives to smokers who are unable or unwilling to quit13.
+Despite unequivocal evidence for their potential to reduce the harm of smoking, these new products are not 
+entirely risk-free, and there is an ongoing debate about the regulatory measures required to protect adolescents 
+and non-smokers from risks posed by e-cigarettes and THS. Moreover, besides referring to the potentially harm￾ful effects of flavoring compounds, oxidation products of solvents formed in liquid vaporization, or toxicants 
+extracted from heated tobacco, it has been emphasized that most smokers switching to these products will still 
+consume comparable amounts of nicotine as they did before. Thus, sustained nicotine addiction and cardiovas￾cular harm could still be an issue. In addition, although clinical studies showed that nicotine administered via 
+patches or other medicinal products does not significantly increase the risk for severe cardiovascular disease14,15, 
+a residual risk of nicotine inhalation with e-cigarettes or THS cannot be excluded16.
+Considering the consistent results showing endothelial dysfunction of chronic smokers (for review, see Gol￾bidi et al.3
+), clarifying whether nicotine contributes to this harmful effect of tobacco smoke appears essential. 
+Several recent studies have addressed this issue using different experimental approaches, including FMD meas￾urements of humans. Unfortunately, these studies did not provide consistent results. While some studies reported 
+reduced FMD17–20 or impaired microvascular funtion21 by acute inhalation of nicotine-containing e-cigarette 
+vapor, others observed no acute effects of nicotine inhalation22,23. Several studies have recently addressed the 
+mid-term and long-term changes of FMD in smokers who replaced tobacco cigarettes with e-cigarettes with and 
+without nicotine. George et al.24 showed that the endothelial function of smokers was significantly improved one 
+month after replacing tobacco cigarettes by e-cigarettes with or without nicotine. Similar results were reported by 
+Klonizakis et al.
+25, showing that the reduction of FMD persisted for at least six months in smokers who had either 
+received nicotine replacement therapy or switched to e-cigarettes with or without nicotine. These observations 
+were recently confirmed by the VAPing Observational Research Study-Endothelial Function (VAPORS-E) study 
+data. Individuals who had exclusively used e-cigarettes for at least six months, the majority with nicotine accord￾ing to cotinine plasma levels, did not differ significantly from non-users in their mean FMD26. Taken together, 
+these results suggest that the chronic endothelial dysfunction of smokers is not caused by nicotine but by toxic 
+constituents in the smoke of burned tobacco. However, Mohammadi et al. reported that chronic e-cigarette users 
+and smokers had lower FMD than non-users27, indicating that this issue has not yet been fully settled.
+The results reported with laboratory animals, isolated blood vessels, and cultured endothelial cells exposed 
+to smoke or vapor are also controversial. While tobacco smoke extracts were consistently reported to cause 
+vascular and endothelial dysfunction, presumably via increased oxidative stress28–30, the role of nicotine is less 
+clear. Some studies reported impaired endothelial function in mice and rats exposed to nicotine-containing 
+e-cigarette vapor31–33. In contrast to these findings, activating nicotinic receptors appears to cause NO release 
+in the brain34, in renal blood vessels35, and in several types of human vascular endothelial cells36,37. In line with 
+these observations, Zou et al.38 found that activation of nicotinic receptors contributes to acetylcholine-induced 
+relaxation of rat aorta, and Mizrak et al.
+39 reported that the vasorelaxation to acetylcholine was significantly 
+enhanced in rats fed for 12 months with nicotine in drinking water.
+In the present study, we compared the effects of aqueous smoke extracts from Marlboro cigarettes (cigarette 
+smoke extracts, CSE) with extracts of vapor generated by a popular e-cigarette device filled with a nicotine￾containing liquid (20 mg/ml) (e-cigarette vapor extracts, EVE) or the aerosol emitted by a THS (heated tobacco 
+extracts, HTE) on endothelium-dependent and -independent relaxation of rat aorta ex vivo. In addition, we 
+studied NO/cGMP signaling and cytotoxicity in cultured endothelial cells and measured the NO-dependent 
+and -independent activities of purified sGC in the presence of aerosol extracts. The potential scavenging of NO 
+by the extracts was studied with a NO-sensitive electrode. We observed pronounced differences between CSE 
+and EVE or HTE that did not correlate with measured nicotine concentrations, suggesting that nicotine does 
+not significantly impair endothelial function ex vivo and in vitro.
+Methods
+Animals and tissue preparation
+All animal experiments were performed in compliance with the Austrian law on experimentation with laboratory 
+animals (last amendment 2013) based on the European Union guidelines for the Care and the Use of Laboratory 
+Animals (European Union Directive 2010/63/EU) and are reported in accordance with the ARRIVE guidelines 
+for reporting experiments involving animals40. The killing of animals solely for the use of their organs or tissues 
+is explicitly excluded in Article 3 (page L276/39) of EU Directive 2010/63/EU on the protection of animals used 
+for scientific purposes.
+Sprague–Dawley rats (total number 15) of either sex were obtained from Charles River Laboratories (Sulzfeld, 
+Germany) and housed at the local animal facility until they were used for the study at 16–20 weeks of age (body 
+weight: 250–300 g). Rats were kept in approved conventional polycarbonate cages (Ehret, Emmerdingen, Ger￾many), two to three animals per cage with dust-free laboratory bedding and enrichment (nesting material and 
+rodent tunnels; from Abedd GmbH, Vienna, Austria). Animals were maintained at 23 ± 1 °C, with a relative 
+humidity of 50–70% and kept on a regular 12-h dark/light cycle. Housing and care of the animals was according 
+to the guidelines of the Austrian Federal Ministry of Science and Research and is periodically controlled by the 
+authority. Rats were fed standard chow (Altromin 3023; obtained from Königshofer Futtermittel (Ebergassing, 
+Austria)) and received water ad libitum. The animals were euthanized in a box gradually filled with CO2 until no 
+more vital signs (cessation of respiration and circulation) were noticed. Subsequently, the thorax of the animals 
+was opened, the thoracic aorta removed, cleaned from connective tissue, and used for assessment of vessel func￾tion. Aortas were randomly assigned to the different treatment protocols, with none excluded.
+=== page 3
+3
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Porcine hearts were obtained from a local abattoir and immediately transported to the laboratory. The right 
+coronary artery was carefully explanted, cleaned from connective tissue, and used to assess vessel function.
+Preparation of aqueous extracts from tobacco cigarettes, THS and e‑cigarettes
+According to a published protocol41, aqueous extracts were obtained by passing cigarette smoke, e-cigarette vapor, 
+or THS aerosol through 30 ml Dulbecco’s Modified Eagle’s Medium (DMEM) supplemented with amphotericin 
+B (1.25 µg/ml), penicillin (100 U/ml) and streptomycin (0.1 µg/ml) using a glass impinger. A rodent ventilator 
+(Ugo Basile, Italy) connected to the glass impinger acted as a puffing machine to ensure a constant puffing regime 
+(55 ml puff taken over 3 s in 30-s intervals, square wave puffing profile). For adequate comparison of the effects 
+of the extracts, stroke rates, volume, and the length of tubing was kept consistent for all experimental protocols.
+Based on recent sales data, showing that Marlboro is still the most popular cigarette brand42, commercially 
+available Marlboro red cigarettes (0.8 mg nicotine, 10 mg tar, Philip Morris) were used to prepare CSE. Aqueous 
+extracts were generated by passing 800 ml cigarette smoke through 30 ml DMEM.
+The same setup was used to prepare aqueous EVE using an Eleaf iStick 50 W battery with Aspire Nautilus X 
+2 ml tanks and Nautilus X atomizer heads (1.8 Ohm; InnoCigs GmbH & Co KG, Germany) operated at 15.0 W. 
+The battery was fully charged before use, and the tank was filled with pure unflavored e-liquid (i-steam; ROPA, 
+Vienna, Austria) containing nicotine (20 mg/ml) in 50/50 (vol/vol.) glycerol/propylene glycol. E-cigarettes were 
+activated by manually holding a button for 5 s in 5-s intervals. In order to achieve the same conditions as for 
+preparing cigarette extracts, 800 ml of EVE was passed through 30 ml DMEM.
+HTE was prepared with an IQOS 3 DUO (Philip Morris), equipped with commercially available tobacco sticks 
+("Heets", Siena Selection, red label, 0.5 mg nicotine; Philip Morris). To achieve the same vaping time and aerosol 
+volume (800 ml) as for cigarettes and e-cigarettes, two Heets were used to prepare one extract. Passing cigarette 
+smoke, e-cigarette vapor or THS aerosol through DMEM did not significantly affect pH values (pH 7.4±0.2).
+For HPLC analysis, sGC activity assays, and electrochemical NO measurements, the extracts were prepared 
+in 50 mM triethanolamine buffer (TEA/HCl, pH 7.4), as DMEM interfered with these methods. For cell culture 
+experiments, extracts were passed through sterile syringe filters (pore diameter 0.2 µm).
+Determination of nicotine
+The nicotine concentration of the extracts was determined using a 1260 Infinity HPLC System from Agilent 
+equipped with a diode-array detector using a reversed-phase poroshell 120 EC-C18 column (4.6× 50 mm, 
+2.7 µm). Elution was carried out isocratically using 70% of 20 mM phosphate buffer (pH 7.4), and 30% of 
+methanol.
+The extracts were passed through a syringe filter with 0.2 µm pore size, 10 µl aliquots were injected onto the 
+column and separated at a flow rate of 1.0 ml/min at a column temperature of 25 °C. For quantification, calibra￾tion curves with a linear range from 0.003 to 0.3 mg/ml were established with analytical grade nicotine (Sigma, 
+N5511) and analyzed based on the area of the peak detected at 260 nm (retention time 4.0 min).
+Electrochemical determination of NO
+Potential NO scavenging by aqueous extracts was tested with a nitric oxide sensor (ISO-NOP, World Precision 
+Instruments, Berlin, Germany) connected to a TBR 4100 Free Radical Analyzer (World Precision Instruments). 
+The sensor was calibrated daily with acidified nitrite as described previously43. Free NO radical was generated 
+by incubation of 2-(N,N-diethylamino)-diazenolate-2-oxide diethylammonium salt (DEA/NO) at the indicated 
+concentrations in 1 ml of 50 mM TEA/HCl buffer (pH 7.4), or the respective extract at 37 °C and monitored 
+using LabChart 6 Software (ADInstruments, Version 6.1.3).
+Isometric tension vasomotor studies
+Rings with intact endothelium obtained from one vessel were preincubated in DMEM alone or different CSE, 
+EVE, or HTE dilutions for 24 h at 37 °C and 5% CO2. Rings were randomly assigned to the different incubation 
+protocols to avoid any systematic effects due to the repeated use of similar vessel segments. Rings were then 
+suspended in 5-ml organ baths containing oxygenated Krebs–Henseleit buffer (concentrations in mM: NaCl 
+118.4, NaHCO3 25, KCl 4.7, KH2PO4 1.2, CaCl2 2.5, MgCl2 1.2, D-Glucose 11; pH 7.4), as previously described 
+in detail44. After equilibration for 60 min at the optimal resting tension of 20 mN, maximal contractility was 
+determined with a depolarizing solution containing 60 mM KCl. Rings that did not elicit adequate and stable con￾traction to high K+ were considered damaged and omitted from the study. Cumulative concentration–response 
+curves to acetylcholine (1 nM–10 µM) or DEA/NO (1 nM–10 µM) were performed with rings that had been 
+pre-contracted with 9,11-dideoxy-9α,11α-epoxy-methanoprostaglandin F2α (U-46619;~90% of maximal con￾traction). To examine endothelial-dependent relaxation of porcine coronary arteries, concentration–response 
+curves to bradykinin (0.1 nM–1 µM) in high K+ precontracted rings were carried out. Relaxation responses are 
+expressed as percent reversal of U-46619 or K+-induced precontraction. Concentration–response curves of dif￾ferent ring segments from a single animal were averaged and counted as an individual experiment.
+Cell culture
+Porcine aortic endothelial cells (PAECs) were isolated as described45 and cultured at 37 °C, 5% CO2, and 80% 
+humidity in DMEM containing 10% heat-inactivated fetal calf serum (FCS), penicillin (100 U/ml), streptomy￾cin (0.1 mg/ml), and amphotericin (1.25 μg/ml). Cells were subcultured on 24-well plates to determine cGMP 
+formation or on 6-well plates to analyze endothelial L-citrulline formation.
+=== page 4
+4
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Determination of endothelial NOS activity and cGMP accumulation
+NO synthase (NOS) activity was determined in PAECs by monitoring the conversion of L-[3
+H]arginine to 
+L-[3
+H]citrulline as described46. Cells were preincubated with the extracts diluted in DMEM for 24 h at 37 °C and 
+then assayed in 50 mM Tris buffer (pH 7.4) containing 100 mM NaCl, 5 mM KCl, 1 mM MgCl2, and 2.5 mM 
+CaCl2. Preincubations were performed in the absence and presence of the non-selective NO synthase inhibitor 
+NG-nitro-L-arginine (L-NNA; 1 mM). Reactions were started by the addition of L-[2,3,4,5-3
+H]arginine (~ ­106
+dpm) and the Ca2+-ionophore A23187 (1 μM) and terminated after 4 min by washing the cells with chilled incu￾bation buffer. After lysis of the cells with 10 mM HCl (1 ml) for 1 h at ambient temperature, an aliquot (0.1 ml) 
+was removed to determine incorporated radioactivity. The remaining sample was mixed with 200 mM sodium 
+acetate buffer (pH 13.0) containing 10 mM L-citrulline (final pH ~ 5.0), and L-[3
+H]citrulline was separated 
+from L-[3
+H]arginine by cation exchange chromatography, followed by determination of radioactivity by liquid 
+scintillation counting.
+Accumulation of intracellular cGMP was determined as described44. Cells were preincubated for 24 h at 37 
+°C with the extracts diluted in medium and then assayed in 50 mM Tris buffer (pH 7.4), containing 100 mM 
+NaCl, 5 mM KCl, 1 mM MgCl2, 2.5 mM CaCl2, 1 mM 3-isobutyl-1-methylxanthine, and 1 μM indomethacin. 
+Reactions were started by addition of A23187 or the NO donor DEA/NO (1 μM, each) in the absence and pres￾ence of 1 mM L-NNA and terminated after 4 min by removal of incubation medium, followed by cell lysis with 
+10 mM HCl for 1 h at ambient temperature and determination of released cGMP by radioimmunoassay.
+Acute effects of CSE and EVE on eNOS activity were studied by incubating the cells for 15 min in the pres￾ence of the extracts under identical conditions with and without 1 mM L-NNA, followed by determination of 
+L-[3
+H]arginine to L-[3
+H]citrulline conversion.
+Determination of endothelial cell viability
+Cell viability was assessed using the XTT Cell Proliferation Assay Kit (#10,010,200) from Cayman Chemical, 
+purchased through Sanova Pharma GesmbH (Vienna, Austria). PAECs were seeded on 96-well plates and incu￾bated for 24 h with the extracts diluted in DMEM, as indicated in the text and figure. Colorimetric reactions, 
+based on the reduction of 2,3-bis-(2-methoxy-4-nitro-5-sulfophenyl)-2H-tetrazolium-5-carboxanilide (XTT) to 
+a water-soluble formazan derivative by respiring cells, were carried out according to the manufacturer’s instruc￾tions. Absorbance was measured at 450 nm using a SPECTROstar®
+ Nano microplate reader (BMG LABTECH 
+GmbH, Ortenberg, Germany).
+Determination of cGMP formation by purified sGC
+Bovine lung sGC was purified as described47. The enzyme was incubated at 37 °C for 10 min in a final volume 
+of 0.1 ml in the absence or presence of the extracts diluted as indicated in the figures. The final assay mixtures 
+contained the extracts at 88% (vol/vol). The resulting final nicotine concentrations in undiluted EVE and CSE 
+were 23.8 and 114.4 µg/ml, respectively. Assay mixtures contained 50 mM TEA/HCl buffer (pH 7.4), 0.5 mM 
+[α-32P]GTP (∼200,000 cpm), 3 mM MgCl2, and 1 mM cGMP. Reactions were started by adding DEA/NO or 
+cinaciguat at the indicated concentrations and terminated by adding 0.45 ml zinc acetate (120 mM) and 0.45 ml 
+sodium bicarbonate (120 mM). After centrifugation (20,000×g at 4 °C for 10 min), supernatants were applied 
+onto Al2O3 columns (acidified with 0.1 M HClO4). After washing the columns with distilled water, [
+32P]cGMP 
+was eluted with sodium acetate (50 mM) and quantified by liquid scintillation counting. Blank values were 
+measured in the absence of sGC.
+Basal enzyme activity was determined without any stimulating agent (i.e., DEA/NO or cinaciguat). The activ￾ity of the oxidized enzyme was determined in the presence of 10 µM of the heme-oxidizing agent 1H-[1,2,4]
+oxadiazolo-[4,3-a]quinoxalin-1-one (ODQ)48. Heme-depleted sGC was generated by adding 0.5% (vol./vol.) 
+Tween 20 during incubation49. The experiments with the activator cinaciguat were performed in the presence 
+of 0.5% Tween 20.
+To test for reversibility of effects caused by the extracts, sGC (50 ng) was preincubated in the absence or 
+presence of the extracts for 5 min at 37 °C and then diluted 35-fold in the assay mixture. Reactions were started 
+by addition of DEA/NO, and cGMP formation was determined as described above.
+Randomization and blinding
+Laboratory animals were randomly assigned to experiments. Porcine hearts were collected by slaughters of the 
+abattoir, and the researcher had no influence on the selection of hearts. Experiments were not blinded in this 
+study, as investigators were responsible for conducting and analyzing experiments. Blinding is not a usual pro￾cedure for this form of study and cannot be applied retrospectively. To reduce experimental bias, data analysis 
+was not performed until the complete data set had been collected, and no complete recording was excluded.
+Statistical analysis
+Results are presented as mean values±SEM of n experiments. Maximal effects (Emax and vmax) and half-maximal 
+effective concentrations (EC50 values) were obtained by fitting concentration–response curves to a Hill-type 
+model using Kaleidagraph (Synergy Software, version 4.5). EC50 values are reported as geometric means with 
+95% confidence limits. Paired Student’s t-test or analysis of variance (ANOVA) with Dunnett’s post hoc test was 
+used to compare groups using Kaleidagraph software. Significance was assumed at p<0.05.
+=== page 5
+5
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Results
+Nicotine concentration of the aerosol extracts
+The nicotine concentrations measured in the aqueous extracts prepared with the aerosols generated by tobacco 
+cigarettes, e-cigarettes, and THS were 26.7 ± 0.9 µg/ml (164 ± 5.4 µM), 129.7 ± 26 µg/ml (800 ± 16 µM), and 
+13.8 ± 0.4 µg/ml (85 ± 2.3 µM), respectively (Table 1). These values agree well with previously published data 
+obtained with the same protocol41. The vaporized volume of e-cigarette liquid (containing 20 mg of nicotine 
+per ml) was 257 ± 0.18 µl (n = 3), corresponding to a theoretical nicotine concentration of 171 µg/ml in EVE 
+(30 ml). Thus, about 25% of nicotine in the e-cigarette liquid was lost during the procedure, possibly due to 
+partial decomposition or escape from the collecting fluid. Note that the nicotine concentrations of the undiluted 
+extracts used in this study are about 1800- (CSE), 900- (HTE), and 4300-fold (EVE) higher than the average 
+plasma concentration of chronic smokers, which is around 30 ng/ml50.
+Effects of aerosol extracts on vascular relaxation
+Rings with intact endothelium of rat aorta or porcine coronary arteries were preincubated for 24 h with aque￾ous extracts diluted as indicated in the figures, followed by recording concentration–response curves to the 
+endothelium-dependent vasodilator acetylcholine or bradykinin, respectively. Endothelium-independent relaxa￾tion was induced with the NO donor DEA/NO.
+Figure 1a shows that CSE impaired acetylcholine-induced relaxation of rat aorta by about 50% at 1:20 dilu￾tion and almost entirely inhibited vasodilation if the vessels had been preincubated with a 1:3 diluted extract. 
+In contrast, even undiluted EVE had only very minor effects on relaxation to acetylcholine (Fig. 1b). HTE 
+inhibited acetylcholine-induced relaxation but to a significantly lesser extent than CSE (Fig. 1c). The vasodila￾tion caused by the NO donor DEA/NO was not affected by any of the extracts (Fig. 1d–f), suggesting that CSE 
+and HTE specifically impair endothelium-dependent relaxation. The effects of the extracts on Emax and EC50 on 
+relaxation of rat aortas in response to acetylcholine and DEA/NO are summarized in Table 2. While CSE in 1:20 
+dilution containing 1.35 µg/ml nicotine reduced Emax in response to acetylcholine to 58% of controls, undiluted 
+EVE with a 100-fold higher nicotine concentration (130 µg/ml) had no significant effect. The effect of HTE was 
+in between those of CSE and EVE. At 1:20 dilution, corresponding to 0.70 µg/ml nicotine, the extract had no 
+effect but reduced Emax by about 50% at lower dilutions. Endothelium-independent vasodilation induced with 
+the NO donor DEA/NO was not affected under any experimental condition. The lack of significant effects on 
+acetylcholine potency (EC50 values) suggests non-competitive inhibition of endothelium-dependent relaxation 
+by CSE and—to a lesser extent—by HTE.
+Similar results were obtained with porcine coronary arteries. CSE inhibited relaxation induced by bradykinin, 
+whereas EVE had no significant effect (Fig. 2 and Table 3). The relationship between maximal acetylcholine￾induced relaxation and nicotine concentrations of the extracts shown in Fig. 3 demonstrates that the impaired 
+vasodilation observed with CSE and HTE is not caused by nicotine but by other constituents in the aerosols of 
+burned or heated tobacco.
+Endothelial cell viability
+Potential cytotoxic effects of the extracts on endothelial cells were assessed with an established cell proliferation 
+assay. Figure 4 shows the viability of PAECs which had been exposed for 24 h at 37 °C to aerosol extracts diluted 
+as indicated in the figure. While EVE had no effect even if applied undiluted, CSE and HTE caused concentration￾dependent cytotoxicity. Toxicity of undiluted CSE was close to the maximal cytotoxicity observed in the pres￾ence of Triton X-100. Since EVE had no effect despite at least tenfold higher nicotine concentration, the results 
+demonstrate that the cytotoxic effects of extracts from burned or heated tobacco are not caused by nicotine.
+Table 1.  Nicotine concentrations of three separately prepared aqueous extracts were analyzed by HPLC.
+Sample mg/ml mmol/l
+CSE
+ #1 0.027 0.166
+ #2 0.028 0.173
+ #3 0.025 0.154
+ Mean±SEM 0.0267±0.0009 0.164±0.005
+EVE
+ #1 0.125 0.77
+ #2 0.130 0.80
+ #3 0.134 0.83
+ Mean±SEM 0.1297±0.0026 0.799±0.016
+HTE
+ #1 0.015 0.089
+ #2 0.014 0.084
+ #3 0.013 0.081
+ Mean±SEM 0.0138±0.0004 0.085±0.002
+=== page 6
+6
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Figure 1.  Effects of aerosol extracts on relaxation of rat aortic rings to acetylcholine or DEA/NO. CSE (a) and 
+HTE (c), but not EVE (b) impaired endothelial dependent relaxation. In contrast, endothelium-independent 
+relaxation induced with the NO donor DEA/NO was not affected by CSE (d), EVE (e) or HTE (f). Two rings 
+from a single animal were averaged and counted as an individual experiment. Data are expressed as mean 
+values±SEM derived from 5 animals. For Statistics see Table 2.
+Table 2.  Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO. Data 
+shown are mean values±SEM (Emax) or mean values with 95% confidence interval (EC50) from 5 experiments. 
+*p<0.05 vs. control as determined by ANOVA and Dunnett’s post hoc test.
+Treatment
+Nicotine 
+µg/ml
+Acetylcholine DEA/NO
+Emax (%) EC50 (nM) Emax (%) EC50 (nM)
+CSE
+ Control – 59±3.8 170 (94–307) 96±2.1 60 (38–94)
+ CSE 1:3 6.75 17±3.8* 806 (233–2790) 97±1.7 95 (49–187)
+ CSE 1:20 1.35 34±3.4* 190 (93–390) 98±1.2 69 (29–168)
+ CSE 1:200 0.13 56±2.7 335 (144–777) 97±0.9 80 (43–150)
+EVE
+ Control – 57±5.7 150 (89–251) 96±1.9 63 (28–141)
+ EVE undil 130 50±4.2 190 (67–537) 98±0.9 44 (26–74)
+ EVE 1:2 43.3 64±8.1 166 (131–210) 95±3.3 53 (21–135)
+ EVE 1:20 6.50 60±4.6 180 (89–365) 99±0.5 58 (34 -100)
+HTE
+ Control – 63±5.0 109 (50–238) 94±1.6 46 (19–112)
+ THP undil 14 37±5.5* 278 (84–925) 96±1.4 87 (21–362)
+ THP 1:2 4.67 49±6.2 146 (62–345) 96±1.6 90 (41–201)
+ THP 1:20 0.70 64±4.7 167 (54–514) 95±1.9 76 (37–159)
+=== page 7
+7
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Figure 2.  Effects of aerosol extracts on relaxation of porcine coronary arteries to bradykinin. CSE (a) impaired 
+endothelial dependent relaxation, whereas EVE (b) had no effect. Two rings from a single animal were averaged 
+and counted as an individual experiment. Data are expressed as mean values±SEM derived from 3 separate 
+hearts. For statistics see Table 3.
+Table 3.  Effects of CSE and EVE on relaxation of coronary arteries to bradykinin. Data shown are mean 
+values±SEM (Emax) or mean values with 95% confidence interval (EC50) from 3 experiments. *p<0.05 vs. 
+control as determined by ANOVA and Dunnett’s post hoc test.
+Treatment Nicotine (µg/ml) Emax (%) EC50 (nM)
+CSE
+ Control – 35±1.3 3.2 (0.7–14.0)
+ CSE 1:2 8.67 15±6.7* 4.6 (0.1–202.8)
+ CSE 1:20 1.35 28±2.2 4.4 (0.4–52.5)
+ CSE 1:200 0.13 33±3.7 4.8 (0.8–30.0)
+EVE
+ Control – 31±5.6 3.6 (0.4–29.8)
+ EVE undil 130 28±6.4 5.3 (1.7–16.6)
+ EVE 1:2 43.3 25±5.2 4.3 (0.7–26.6)
+ EVE 1:20 6.50 30±4.7 4.5 (0.4–47.6)
+Figure 3.  Lack of correlation between the nicotine concentration of the extracts and inhibition of acetylcholine￾induced maximal relaxation of rat aortic rings. Data taken from Tab. 1 (nicotine concentration) and Tab. 2 (Emax
+values).
+=== page 8
+8
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Endothelial NO/cGMP signaling
+To mimic the experimental conditions of the isometric tension studies with isolated aortas, cultured endothelial 
+cells were incubated for 24 h with the extracts, followed by determination of L-arginine-to-L-citrulline conver￾sion and accumulation of cGMP in response to activation of endothelial NO synthase by the Ca2+ ionophore 
+A23187. The non-selective NOS inhibitor L-NNA was used to control for basal L-citrulline and cGMP formation 
+independent of eNOS activation by A23187. As shown in Fig. 5, EVE had no effect, whereas CSE and HTE caused 
+various degrees of inhibition of NO/cGMP signaling. CSE and HTE inhibited eNOS activity measured as the 
+formation of L-citrulline by about 30 and 50%, respectively (Fig. 5a). To test for direct effects on eNOS activity 
+we measured L-citrulline formation by the cells incubated for 15 min with EVE or CSE. As shown in Fig. 5b, 
+undiluted EVE significantly increased eNOS activity, while CSE caused a slight, non-significant inhibition of 
+L-citrulline formation. Pure nicotine had no effect (0.2–1.6 mM; n=3; data not shown), pointing to a non-specific 
+effect of EVE, which was not further studied. The reduction in cGMP formation shown in Fig. 5c was much more 
+pronounced, suggesting additional effects of the tobacco extracts downstream of NO synthesis. This assumption 
+was tested by directly activating endothelial sGC with the NO donor DEA/NO. Figure 5d shows that 1:2 diluted 
+CSE markedly inhibited cGMP formation in the presence of up to 0.3 µM DEA/NO, while inhibition was much 
+less pronounced at higher concentrations of the NO donor. CSE increased the EC50 value of DEA/NO from 
+52±15 to 447±37 nM (calculated by forcing the curve through the maximum of the control). The observation 
+that the degree of inhibition decreased with increasing NO concentrations most likely reflects the limited NO 
+scavenging capacity of the extract (see Fig. 7a below). The results may partially explain the pronounced inhibi￾tion of A23187-induced cGMP accumulation shown in Fig. 5c.
+Effects of CSE and EVE on the activity of purified sGC
+The effects of CSE and EVE on sGC activity were studied with the purified enzyme. Figure 6a shows that undi￾luted EVE slightly reduced enzymatic cGMP formation in the presence of increasing concentrations of DEA/
+NO, but neither the reduction of vmax (from 11.1±1.1 to 8.5±1.0 µmol× ­min−1× ­mg−1) nor the increase of the 
+EC50 value (from 63.1±2.5 to 107.3±16 nM) were statistically significant (ANOVA with Dunnett’s post hoc test). 
+In contrast, undiluted CSE almost completely inhibited sGC stimulation by DEA/NO, resulting in a reduction 
+of vmax 1.4±0.9 µmol × min−1× ­mg−1 (~12% of control) and an increase of EC50 to 145.5±30.4 nM (2.3-fold vs. 
+control). The effect of CSE was concentration-dependent (Fig. 6b), fully reversible (Fig. 6c), and almost com￾pletely prevented in the presence of 0.5 mg/ml BSA (Fig. 6d).
+Basal sGC activity measured in the absence of DEA/NO was not affected by any of the three extracts. Similarly, 
+the extracts had no effects on the activity of heme-free or oxidized sGC, measured in the presence of Tween 20 
+and ODQ, respectively (Fig. 6e), or the cinaciguat-activated enzyme (Fig. 6f). Taken together, these data suggest 
+that CSE interferes with the NO stimulation of sGC.
+Correlation of sGC activity with NO release from DEA/NO
+Figure 7a shows the peak concentrations of NO released from 1, 3, and 10 µM DEA/NO in the absence and 
+presence of EVE and CSE. The extracts had no detectable effects at high DEA/NO concentrations (3 and 10 µM), 
+but NO released from 1 µM DEA/NO was significantly scavenged by CSE (from 1.36±0.1 to 0.49±0.08 µM, 
+corresponding to 36% of control). Scavenging was reduced but not prevented in the presence of 0.5 mg/ml BSA 
+(63% of control). Limited electrode sensitivity precluded reliable NO release measurements from lower DEA/NO 
+concentrations. The correlation of sGC activity with NO release measured under identical conditions (Fig. 7b) 
+illustrates the pronounced inhibition of NO-stimulated sGC by CSE.
+Figure 4.  Cytotoxic effects of aerosol extracts on cultured porcine aortic endothelial cells measured by XTT 
+test. While EVE did not affect metabolic activity, even if applied undiluted, CSE and HTE reduced metabolic 
+activity in a concentration-dependent manner. Triton X-100 (1%; TX) served as positive control. Data are 
+expressed as percent of untreated controls and represent mean values±SEM of 3–8 independent experiments 
+performed in triplicate. *Indicates p<0.05 (ANOVA with Dunnett’s post hoc test).
+=== page 9
+9
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Figure 5.  Effects of aerosol extracts on NO/cGMP signaling in PAECs. (a) A23187-stimulated eNOS activity 
+(measured as % conversion of L-arginine-to-L-citrulline) was significantly impaired by CSE and HTE after 
+24 h of preincubation, whereas EVE had no effect. L-NNA (1 mM) was used to control for eNOS-independent 
+L-citrulline formation. Data represent mean values±SEM of 6 independent experiments performed in triplicate. 
+(b) Direct effects on A23187-induced eNOS activity were studied by preincubation of the cells for 15 min in the 
+absence and presence of CSE or EVE. Undiluted EVE significantly increased eNOS activity, while CSE had no 
+effect. Data represent mean values±SEM of three independent experiments performed in triplicate. (c) A23187-
+stimulated cGMP formation measured by radioimmunoassay was significantly impaired in the presence of HTE 
+and nearly abolished by CSE. Data represent mean values±SEM of 3–7 independent experiments performed 
+in triplicate. (d) Presence of CSE (1:2) caused a pronounced rightward shift of the DEA/NO concentration–
+response curve. Data represent mean values±SEM of three independent experiments performed in triplicate. 
+*Indicates p<0.05 (ANOVA with Dunnett’s post hoc test).
+Discussion
+The present study unequivocally demonstrates that the inhibition of agonist-induced endothelium-dependent 
+relaxation, which has been consistently observed with inhaled tobacco smoke3
+, is not mediated by nicotine. CSE 
+significantly inhibited the relaxation of aortas and coronary arteries to acetylcholine and bradykinin, respectively, 
+whereas EVE had no effect despite much higher nicotine concentrations. The finding that CSE did not affect 
+relaxation induced by DEA/NO indicates that tobacco smoke constituents specifically impair endothelium￾dependent vasodilation. Furthermore, pronounced inhibition was observed with CSE diluted to a concentration 
+tenfold lower than the threshold of cytotoxicity (1:20 vs. 1:2), suggesting interference with agonist-induced NO/
+cGMP signaling in endothelial cells rather than a non-specific toxic effect.
+The observation that CSE impaired agonist-induced relaxation without affecting the response to DEA/NO 
+is in apparent conflict with the results obtained with cultured endothelial cells and purified sGC. The activity of 
+eNOS, measured as L-arginine-to-L-citrulline conversion in response to stimulation of the cells with A23187, was 
+inhibited by about 50% in the presence of CSE diluted 1:2, while the extract caused virtually complete inhibition 
+of vascular relaxation at 1:3 dilution (cf. Figures 1a and 5a). When we tested the acute effects of the extract on 
+endothelial cells, we observed a similar tendency of inhibition of L-citrulline formation, but the effects were not 
+statistically significant (see Fig. 5b).
+Endothelial cGMP accumulation in response to A23187 or low concentrations of DEA/NO (up to 30 nM) 
+was abolished by CSE at 1:2 dilution (see Fig. 5, panels c and d). Similarly, the activity of DEA/NO-stimulated 
+sGC was inhibited in a concentration-dependent manner by CSE (see Fig. 6b). In comparison, the extract had no 
+significant effect on DEA/NO-induced vasodilation (Fig. 1b). Since basal sGC activity (measured in the absence 
+of added DEA/NO) was not inhibited by CSE and the extract had no effect on the cinaciguat-stimulated or heme￾free enzyme (see Fig. 6, panels e and f), the extract apparently interferes with the stimulation of sGC by NO. The 
+protective effect of BSA (see Fig. 6d) suggests that CSE causes reversible oxidative modification of the enzyme, 
+but NO scavenging (Fig. 7) may additionally contribute to the observed effect. Taken together, these data sug￾gest that inhibition of sGC by constituents of tobacco smoke results in impaired NO stimulation in endothelial 
+=== page 10
+10
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+cells, while the enzyme is protected from this modification in smooth muscle cells by a protein acting like BSA, 
+which was used as an experimental model protein to protect sGC.
+The most relevant information on the effects of e-cigarette vapor on endothelium-dependent vasodila￾tion is provided by in vivo measurements of FMD upon acute inhalation or chronic use of aerosols generated 
+by tobacco cigarettes, e-cigarettes, or THS. There is conclusive evidence that FMD is significantly reduced in 
+chronic smokers7,51,52. Improvement of FMD by supplementation with antioxidants7,53 indicates that the endothe￾lial dysfunction of smokers may be caused by vascular oxidative stress, resulting in reduced bioavailability of 
+endothelium-derived NO. The widespread use of e-cigarettes as alternative nicotine sources has raised the ques￾tion of whether nicotine contributes to this effect. The rapid reversal of impaired FMD in smokers switching to 
+nicotine-containing e-cigarettes24,25 and identical FMD of e-cigarette users and non-users26 appears to exclude 
+nicotine causing chronic damage to the endothelium, but several studies reported an acute reduction of FMD 
+after short-term e-cigarette use17–20. The issue is further complicated by some reports showing that inhaled 
+e-cigarette vapor caused an acute reduction of FMD even in the absence of nicotine20,54,55. These findings may 
+reflect vascular oxidative stress caused by aerosol inhalation. However, while it is conceivable that inhaled pro￾pylene glycol, glycerol, or flavorings affect the function of lung epithelial cells, effects on blood vessels are not 
+particularly plausible. Recently, it was reported that the inhalation of inert carbon nanoparticles impaired FMD 
+to a similar degree as aerosols from cigarettes, e-cigarettes, or HTS56. As bilateral cervical vagotomy blocked this 
+effect in rats, airway irritation appears to trigger vagus nerve signaling, resulting in endothelial dysfunction. The 
+authors conclude that there is no single constituent or class of constituents responsible for acute impairment of 
+endothelial function caused by aerosol inhalation56. These findings may at least partially explain the divergent 
+results on acute vs. long-term effects of aerosol inhalation and agree well with our conclusion that the impaired 
+vasodilation caused by tobacco smoke is not mediated by nicotine.
+Figure 6.  Effects of aerosol extracts on purified sGC. The formation of cGMP was measured in the absence or 
+presence of the extracts. (a) CSE caused almost complete inhibition of DEA/NO-stimulated enzyme activity, 
+whereas the effect of EVE was much less pronounced. (b) The inhibition caused by CSE shown in panel (a) 
+was concentration-dependent. (c) Preincubation experiments revealed that inhibition of sGC by the extracts 
+was fully reversed by dilution of the CSE-exposed enzyme. (d) The presence of BSA (0.5 mg/ml) prevented the 
+inhibition caused by CSE. (e) Basal enzyme activity (measured in the absence of DEA/NO) was not affected 
+by the extracts (control). In addition, the extracts had no significant effects on the activity of the enzyme 
+oxidized with ODQ or heme-depleted with Tween 20. (f) The extracts did not affect cGMP formation by Tween 
+20-treated sGC in the presence of the NO-independent heme-site activator cinaciguat. Data are expressed as 
+mean values±SEM derived from 3 independent experiments. *Indicates p<0.05 in paired Student’s t-test (d), or 
+ANOVA with Dunnett’s post hoc test vs. control (b) or vs. buffer/buffer control (c), respectively.
+=== page 11
+11
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+The effects of HTE were between those of EVE and CSE concerning impaired agonist-induced vasodilation, 
+inhibition of eNOS activity, endothelial cGMP accumulation, and cytotoxicity. Our results agree well with stud￾ies comparing the emissions and health risks of e-cigarettes and THS (for a comprehensive review, see Murkett 
+et al.57), suggesting that heating tobacco results in partial extraction of toxic compounds, which mediate the 
+observed effects on endothelial NO/cGMP signaling. Some studies reported that aerosols from heated tobacco 
+cause endothelial dysfunction, measured as FMD, to a similar degree as tobacco smoke in acutely exposed rats58
+and chronic smokers59,60. We observed a significant inhibition of acetylcholine-induced relaxation of rat aortic 
+rings. However, the effect was less pronounced than that of CSE despite much higher nicotine concentrations 
+(see Table 2). Figure 3 illustrates that the nicotine concentration of the extracts does not correlate with maximal 
+inhibition of vasorelaxation, further confirming that the effect is not caused by nicotine.
+Limitations of the study
+We tested extracts prepared from the different aerosols, but the properties of extracts do not necessarily reflect 
+the properties of the aerosols that users inhale. In addition, it should be considered that we used only one type 
+of vaporizer under defined conditions. Extracts from aerosols generated with other devices operating at different 
+power levels could exert distinct biological effects.
+Another limitation is the focus on endothelium-dependent relaxation and NO/cGMP signaling. Since 
+impaired vasodilation is only one of several hallmarks of endothelial dysfunction, our results do not exclude 
+other detrimental effects of inhaled nicotine on endothelial cell function. Besides its role in vasodilation, the 
+endothelium inhibits platelet adhesion and aggregation, regulates inflammatory processes, is essential for capil￾lary integrity, and promotes angiogenesis through cell migration. There is general agreement that the inhalation 
+of tobacco smoke negatively affects these biological processes3
+, but the role of nicotine is controversial concerning 
+angiogenesis/cell migration61–63, endothelial barrier function64,65, and platelet activation66–68. There is conclu￾sive evidence that inhalation of e-cigarette vapor increases markers of oxidative stress and inflammation19,20, 
+but e-cigarettes induce substantially less pronounced biological responses than tobacco smoke69, and a recent 
+cross-sectional study found no differences in the levels of inflammatory markers between e-cigarette users and 
+non-users26. Nevertheless, we wish to emphasize that e-cigarette vapor contains potentially toxic compounds 
+besides nicotine, which may affect the function of vascular endothelial cells if efficiently resorbed into the sys￾temic circulation. Further work is warranted to clarify this issue.
+Data availability
+The original data generated in this study will be made freely available in the Zenodo repository (https://zenodo.
+org/deposit/7963137).
+Received: 27 June 2023; Accepted: 14 September 2023
+References
+1. Burns, D. M. Epidemiology of smoking-induced cardiovascular disease. Prog. Cardiovasc. Dis. 46, 11–29. https://doi.org/10.1016/
+S0033-0620(03)00079-3 (2003).
+2. Benowitz, N. L. & Liakoni, E. Tobacco use disorder and cardiovascular health. Addiction https://doi.org/10.1111/add.15703 (2021).
+Figure 7.  Effects of aerosol extracts on NO release from DEA/NO. Peak concentrations of released NO were 
+measured with a Clark-type electrode in the absence or presence of EVE and CSE. (a) CSE significantly reduced 
+maximal NO concentration released from 1 µM DEA/NO, whereas EVE had no effect. Neither of the extracts 
+affected NO release from 3 and 10 µM DEA/NO. (b) The correlation of sGC activity with measured NO peak 
+concentrations under identical conditions shows that CSE caused pronounced inhibition of NO-stimulated 
+sGC beyond NO scavenging. Data are expressed as mean values±SEM from three independent experiments. 
+*Indicates p<0.05 in ANOVA with Dunnett’s post hoc test.
+=== page 12
+12
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+3. Golbidi, S., Edvinsson, L. & Laher, I. Smoking and endothelial dysfunction. Curr. Vas. Pharmacol. 18, 1–11. https://doi.org/10.
+2174/1573403X14666180913120015 (2020).
+4. Mayer, B. & Hemmens, B. Biosynthesis and action of nitric oxide in mammalian cells. Trends. Biochem. Sci. 22, 477–481 (1997).
+5. Harris, R. A., Nishiyama, S. K., Wray, D. W. & Richardson, R. S. Ultrasound assessment of flow-mediated dilation. Hypertension
+55, 1075–1085. https://doi.org/10.1161/HYPERTENSIONAHA.110.150821 (2010).
+6. Landmesser, U., Harrison, D. G. & Drexler, H. Oxidant stress—a major cause of reduced endothelial nitric oxide availability in 
+cardiovascular disease. Eur. J. Clin. Pharmacol. 62, 13–19. https://doi.org/10.1007/s00228-005-0012-z (2006).
+7. Heitzer, T. et al. Tetrahydrobiopterin improves endothelium-dependent vasodilation in chronic smokers—evidence for a dysfunc￾tional nitric oxide synthase. Circ. Res. 86, E36–E41. https://doi.org/10.1161/01.res.86.2.e36 (2000).
+8. Taylor, B. A., Zaleski, A. L., Dornelas, E. A. & Thompson, P. D. The impact of tetrahydrobiopterin administration on endothelial 
+function before and after smoking cessation in chronic smokers. Hypertens. Res. 39, 144–150. https://doi.org/10.1038/hr.2015.130
+(2016).
+9. Breland, A. et al. Electronic cigarettes: what are they and what do they do?. Ann. NY Acad. Sci. 1394, 5–30. https://doi.org/10.1111/
+nyas.12977 (2017).
+10. Baker, R. R. Smoke generation inside a burning cigarette: modifying combustion to develop cigarettes that may be less hazardous 
+to health. Prog. Energy Combust. Sci. 32, 373–385. https://doi.org/10.1016/j.pecs.2006.01.001 (2006).
+11. Haziza, C. et al. Reduction in exposure to selected harmful and potentially harmful constituents approaching those observed upon 
+smoking abstinence in smokers switching to the Menthol Tobacco heating system 2.2 for 3 months (Part 1). Nicotine Tob. Res. 22, 
+539–548. https://doi.org/10.1093/ntr/ntz013 (2020).
+12. Haziza, C. et al. Favorable changes in biomarkers of potential harm to reduce the adverse health effects of smoking in smokers 
+switching to the Menthol Tobacco Heating System 2.2 for 3 months (Part 2). Nicotine Tob. Res. 22, 549–559. https://doi.org/10.
+1093/ntr/ntz084 (2020).
+13. Britton, J., Arnott, D., McNeill, A. & Hopkinson, N. Nicotine without smoke—putting electronic cigarettes in context. BMJ 353, 
+i1745. https://doi.org/10.1136/bmj.i1745 (2016).
+14. Benowitz, N. L. et al. Cardiovascular safety of varenicline, bupropion, and nicotine patch in smokers: a randomized clinical trial. 
+JAMA Intern. Med. 178, 622–631. https://doi.org/10.1001/jamainternmed.2018.0397 (2018).
+15. La Rosa, G., Vernooij, R., Qureshi, M., Polosa, R. & O’Leary, R. Clinical testing of the cardiovascular effects of e-cigarette substitu￾tion for smoking: a living systematic review. Intern. Emerg. Med. https://doi.org/10.1007/s11739-022-03161-z (2023).
+16. Price, L. R. & Martinez, J. Cardiovascular, carcinogenic and reproductive effects of nicotine exposure: a narrative review of the 
+scientific literature. F1000Res 8, 1586. https://doi.org/10.12688/f1000research.20062.2 (2020).
+17. Carnevale, R. et al. Acute impact of tobacco vs electronic cigarette smoking on oxidative stress and vascular function. Chest 150, 
+606–612. https://doi.org/10.1016/j.chest.2016.04.012 (2016).
+18. Chaumont, M. et al. Differential effects of e-cigarette on microvascular endothelial function, arterial stiffness and oxidative stress: 
+a randomized crossover trial. Sci. Rep. https://doi.org/10.1038/s41598-018-28723-0 (2018).
+19. Kuntic, M. et al. Short-term e-cigarette vapour exposure causes vascular oxidative stress and dysfunction: evidence for a close 
+connection to brain damage and a key role of the phagocytic NADPH oxidase (NOX-2). Eur. Heart J. 41, 2472-2483A. https://doi.
+org/10.1093/eurheartj/ehz772 (2020).
+20. Chatterjee, S. et al. Acute e-cig inhalation impacts vascular health: a study in smoking naïve subjects. Am. J. Physiol. 320, H144–
+H158. https://doi.org/10.1152/AJPHEART.00628.2020 (2021).
+21. Ben Taleb, Z. et al. Pod-based e-cigarettes versus combustible cigarettes: the impact on peripheral and cerebral vascular function 
+and subjective experiences. Tob Induc Dis 21, 71. https://doi.org/10.18332/tid/162366 (2023).
+22. Cossio, R., Cerra, Z. A. & Tanaka, H. Vascular effects of a single bout of electronic cigarette use. Clin. Exp. Pharmacol. Physiol. 47, 
+3–6. https://doi.org/10.1111/1440-1681.13180 (2020).
+23. Haptonstall, K. P. et al. Differential effects of tobacco cigarettes and electronic cigarettes on endothelial function in healthy young 
+people. Am. J. Physiol. 319, H547–H556. https://doi.org/10.1152/ajpheart.00307.2020 (2020).
+24. George, J. et al. Cardiovascular effects of switching from tobacco cigarettes to electronic cigarettes. J. Am. Coll. Cardiol. 74, 
+3112–3120. https://doi.org/10.1016/j.jacc.2019.09.067 (2019).
+25. Klonizakis, M., Gumber, A., McIntosh, E. & Brose, L. S. Medium- and longer-term cardiovascular effects of e-cigarettes in adults 
+making a stop-smoking attempt: a randomized controlled trial. BMC Med. 20, 276. https://doi.org/10.1186/s12916-022-02451-9
+(2022).
+26. Boakye, E. et al. Examining the association of habitual e-cigarette use with inflammation and endothelial dysfunction in young 
+adults: the VAPORS-Endothelial function study. Tob. Induc. Dis. 21, 75. https://doi.org/10.18332/tid/162327 (2023).
+27. Mohammadi, L. et al. Chronic E-cigarette use impairs endothelial function on the physiological and cellular levels. Arterioscler. 
+Thromb. Vasc. Biol. 42, 1333–1350. https://doi.org/10.1161/Atvbaha.121.317749 (2022).
+28. Shimosato, T., Geddawy, A., Tawa, M., Imamura, T. & Okamura, T. Chronic administration of nicotine-free cigarette smoke extract 
+impaired endothelium-dependent vascular relaxation in rats via increased vascular oxidative stress. J. Pharmacol. Sci. 118, 206–214. 
+https://doi.org/10.1254/jphs.11187fp (2012).
+29. Teasdale, J. E., Newby, A. C., Timpson, N. J., Munafò, M. R. & White, S. J. Cigarette smoke but not electronic cigarette aerosol 
+activates a stress response in human coronary artery endothelial cells in culture. Drug Alcohol Depend. 163, 256–260. https://doi.
+org/10.1016/j.drugalcdep.2016.04.020 (2016).
+30. Horinouchi, T., Mazaki, Y., Terada, K. & Miwa, S. Cigarette smoke extract and its cytotoxic factor acrolein inhibit nitric oxide 
+production in human vascular endothelial cells. Biol. Pharm. Bull. 43, 1804–1809. https://doi.org/10.1248/bpb.b20-00522 (2020).
+31. Rao, P., Liu, J. & Springer, M. L. JUUL and combusted cigarettes comparably impair endothelial function. Tobacco Reg. Sci. 6, 
+30–37. https://doi.org/10.18001/TRS.6.1.4 (2020).
+32. El-Mahdy, M. A. et al. Long-term electronic cigarette exposure induces cardiovascular dysfunction similar to tobacco cigarettes: 
+role of nicotine and exposure duration. Am. J. Physiol. 320, H2112–H2129. https://doi.org/10.1152/ajpheart.00997.2020 (2021).
+33. El-Mahdy, M. A. et al. Electronic cigarette exposure causes vascular endothelial dysfunction due to NADPH oxidase activation 
+and eNOS uncoupling. Am. J. Physiol. 322, H549–H567. https://doi.org/10.1152/ajpheart.00460.2021 (2022).
+34. Di Matteo, V. et al. Critical role of nitric oxide on nicotine-induced hyperactivation of dopaminergic nigrostriatal system: elec￾trophysiological and neurochemical evidence in rats. CNS Neurosci. Ther. 16, 127–136. https://doi.org/10.1111/j.1755-5949.2010.
+00136.x (2010).
+35. El-Mas, M. M., El-Gowilly, S. M., Gohar, E. Y. & Ghazal, A. R. M. Pharmacological characterization of cellular mechanisms of the 
+renal vasodilatory effect of nicotine in rats. Eur. J. Pharmacol. 588, 294–300. https://doi.org/10.1016/j.ejphar.2008.04.048 (2008).
+36. Wu, J. C. et al. Cholinergic modulation of angiogenesis: role of the α7 nicotinic acetylcholine receptor. J. Cell. Biochem. 108, 
+433–446. https://doi.org/10.1002/jcb.22270 (2009).
+37. Park, H. S., Cho, K., Park, Y. J. & Lee, T. Chronic nicotine exposure attenuates proangiogenic activity on human umbilical vein 
+endothelial cells. J. Cardiovasc. Pharmacol. 57, 287–293 (2011).
+38. Zou, Q., Leung, S. W. S. & Vanhoutte, P. M. Activation of nicotinic receptors can contribute to endothelium-dependent relaxations 
+to acetylcholine in the rat aorta. J. Pharmacol. Exp. Ther. 341, 756–763. https://doi.org/10.1124/jpet.112.192229 (2012).
+39. Mizrak, S., Göksel Ülker, S., Ercan, G. & Sönmez, B. The effect of long term nicotine exposure on endothelial function in rats. 
+Drug. Chem. Toxicol. https://doi.org/10.1080/01480545.2020.1845714 (2020).
+=== page 13
+13
+Vol.:(0123456789)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+40. Percie du Sert, N. et al. Reporting animal research: explanation and elaboration for the ARRIVE guidelines 2.0. PLoS Biol. 18, 
+e3000411. https://doi.org/10.1371/journal.pbio.3000411 (2020).
+41. Bozhilova, S. et al. Optimization of aqueous aerosol extract (AqE) generation from e-cigarettes and tobacco heating products for 
+in vitro cytotoxicity testing. Toxicol. Lett. 335, 51–63. https://doi.org/10.1016/j.toxlet.2020.10.005 (2020).
+42. Tobacco Brand Preferences, <https://www.cdc.gov/tobacco/data_statistics/fact_sheets/tobacco_industry/brand_preference/index.
+htm> (2017).
+43. Mayer, B., Klatt, P., Werner, E. R. & Schmidt, K. Kinetics and mechanism of tetrahydrobiopterin-induced oxidation of nitric oxide. 
+J. Biol. Chem. 270, 655–659 (1995).
+44. Wölkart, G. et al. Effects of flavoring compounds used in electronic cigarette refill liquids on endothelial and vascular function. 
+PLoS ONE 14, e0222152. https://doi.org/10.1371/journal.pone.0222152 (2019).
+45. Schmidt, K., Mayer, B. & Kukovetz, W. R. Effect of calcium on endothelium-derived relaxing factor formation and cGMP levels 
+in endothelial cells. Eur. J. Pharmacol. 170, 157–166 (1989).
+46. Schmidt, K., Werner-Felmayer, G., Mayer, B. & Werner, E. R. Preferential inhibition of inducible nitric oxide synthase in intact 
+cells by the 4-amino analogue of tetrahydrobiopterin. Eur. J. Biochem. 259, 25–31 (1999).
+47. Russwurm, M. & Koesling, D. Purification and characterization of NO-sensitive guanylyl cyclase. Methods Enzymol. 396, 492–501 
+(2005).
+48. Schrammel, A., Behrends, S., Schmidt, K., Koesling, D. & Mayer, B. Characterization of 1H-[1,2,4]oxadiazolo[4,3-a]quinoxalin￾1-one as a heme-site inhibitor of nitric oxide-sensitive guanylyl cyclase. Mol. Pharmacol. 50, 1–5 (1996).
+49. Kollau, A. et al. Irreversible activation and stabilization of soluble guanylate cyclase by the protoporphyrin IX mimetic cinaciguat. 
+Mol. Pharmacol. 93, 73–78. https://doi.org/10.1124/mol.117.109918 (2018).
+50. Hukkanen, J., Jacob, P. III. & Benowitz, N. L. Metabolism and disposition kinetics of nicotine. Pharmacol. Rev. 57, 79–115. https://
+doi.org/10.1124/pr.57.1.3 (2005).
+51. Zeiher, A. M., Schachinger, V. & Minners, J. Long-term cigarette smoking impairs endothelium-dependent coronary arterial 
+vasodilator function. Circulation 92, 1094–1100. https://doi.org/10.1161/01.cir.92.5.1094 (1995).
+52. Celermajer, D. S. et al. Cigarette smoking is associated with dose-related and potentially reversible impairment of endothelium￾dependent dilation in healthy young adults. Circulation 88, 2149–2155. https://doi.org/10.1161/01.CIR.88.5.2149 (1993).
+53. Heitzer, T., Just, H. & Münzel, T. Antioxidant vitamin C improves endothelial dysfunction in chronic smokers. Circulation 94, 6–9 
+(1996).
+54. Caporale, A. et al. Acute effects of electronic cigarette aerosol inhalation on vascular function detected at quantitative MRI. Radiol￾ogy 293, 97–106. https://doi.org/10.1148/radiol.2019190562 (2019).
+55. Burrage, E. N. et al. Long-term cerebrovascular dysfunction in the offspring from maternal electronic cigarette use during preg￾nancy. Am. J. Physiol. Heart Circ. Physiol. 321, 339–352. https://doi.org/10.1152/ajpheart.00206.2021 (2021).
+56. Nabavizadeh, P. et al. Impairment of endothelial function by cigarette smoke is not caused by a specific smoke constituent, but 
+by vagal input from the airway. Arterioscler. Thromb. Vasc. Biol. 42, 1324–1332. https://doi.org/10.1161/ATVBAHA.122.318051
+(2022).
+57. Murkett, R., Rugh, M. & Ding, B. Nicotine products relative risk assessment: an updated systematic review and meta-analysis. 
+F1000Res 9, 1225. https://doi.org/10.12688/f1000research.26762.2 (2022).
+58. Nabavizadeh, P. et al. Vascular endothelial function is impaired by aerosol from a single IQOS HeatStick to the same extent as by 
+cigarette smoke. Tob. Control 27, s13–s19. https://doi.org/10.1136/tobaccocontrol-2018-054325 (2018).
+59. Loffredo, L. et al. Impact of chronic use of heat-not-burn cigarettes on oxidative stress, endothelial dysfunction and platelet activa￾tion: the SUR-VAPES chronic study. Thorax 76, 618–620. https://doi.org/10.1136/thoraxjnl-2020-215900 (2021).
+60. Rao, P. et al. Comparable impairment of vascular endothelial function by a wide range of electronic nicotine delivery devices. 
+Nicotine Tob. Res. 24, 1055–1062. https://doi.org/10.1093/ntr/ntac019 (2022).
+61. Liu, Z. Y. et al. Flavored and nicotine-containing e-cigarettes induce impaired angiogenesis and diabetic wound healing via 
+increased endothelial oxidative stress and reduced NO bioavailability. Antioxidants-Basel https://doi.org/10.3390/antiox11050904
+(2022).
+62. Taylor, M. et al. A comparative assessment of e-cigarette aerosols and cigarette smoke on in vitro endothelial cell migration. Toxicol. 
+Lett. 277, 123–128. https://doi.org/10.1016/j.toxlet.2017.06.001 (2017).
+63. Giebe, S. et al. Comparative study of the effects of cigarette smoke versus next generation tobacco and nicotine product extracts 
+on endothelial function. Redox Biol. https://doi.org/10.1016/j.redox.2021.102150 (2021).
+64. Naik, P. et al. Oxidative and pro-inflammatory impact of regular and denicotinized cigarettes on blood brain barrier endothelial 
+cells: Is smoking reduced or nicotine-free products really safe?. BMC Neurosci. 15, 51. https://doi.org/10.1186/1471-2202-15-51
+(2014).
+65. Heldt, N. A., Reichenbach, N., McGary, H. M. & Persidsky, Y. Effects of electronic nicotine delivery systems and cigarettes on 
+systemic circulation and blood-brain barrier. Implications for cognitive decline. Am. J. Pathol. 191, 243–255. https://doi.org/10.
+1016/j.ajpath.2020.11.007 (2021).
+66. Ljungberg, L. U., Persson, K., Eriksson, A. C., Green, H. & Whiss, P. A. Effects of nicotine, its metabolites and tobacco extracts on 
+human platelet function in vitro. Toxicol. in Vitro 27, 932–938. https://doi.org/10.1016/j.tiv.2013.01.004 (2013).
+67. Hom, S. et al. Platelet activation, adhesion, inflammation, and aggregation potential are altered in the presence of electronic ciga￾rette extracts of variable nicotine concentrations. Platelets 27, 694–702. https://doi.org/10.3109/09537104.2016.1158403 (2016).
+68. Mobarrez, F., Antoniewicz, L., Hedman, L., Bosson, J. A. & Lundback, M. Electronic cigarettes containing nicotine increase 
+endothelial and platelet derived extracellular vesicles in healthy volunteers. Atherosclerosis 301, 93–100. https://doi.org/10.1016/j.
+atherosclerosis.2020.02.010 (2020).
+69. Szostak, J. et al. A 6-month systems toxicology inhalation study in ApoE(-/-) mice demonstrates reduced cardiovascular effects of 
+E-vapor aerosols compared with cigarette smoke. Am. J. Physiol. 318, H604–H631. https://doi.org/10.1152/ajpheart.00613.2019
+(2020).
+Acknowledgements
+The authors thank Heike Stessel and Evamaria Imp for helpful technical assistance and the Austrian Science 
+Fund (FWF) for financial support (Grant P32922).
+Author contributions
+A.K. performed experiments, analyzed data, and contributed to preparation of the manuscript; G.W. performed 
+experiments, analyzed data, and contributed to preparation of the manuscript; M.R. provided essential materi￾als and contributed to data analysis; D.K. provided essential materials and contributed to data analysis; A.S. 
+supervised experiments, analyzed data, prepared figures, and contributed to preparation of the manuscript; B.M. 
+supervised the study and wrote the manuscript.
+=== page 14
+14
+Vol:.(1234567890)
+Scientific Reports | (2023) 13:15833 | https://doi.org/10.1038/s41598-023-42750-6
+www.nature.com/scientificreports/
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondence and requests for materials should be addressed to B.M.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2023

@@ -1,0 +1,1073 @@
+{
+ "paper": "B",
+ "table_id": "Table 2",
+ "caption": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO. Data shown are mean values±SEM (Emax) or mean values with 95% confidence interval (EC50) from 5 experiments. *p<0.05 vs. control as determined by ANOVA and Dunnett’s post hoc test.",
+ "rows": [
+  {
+   "id": "cse_ctrl",
+   "label": "CSE series: Control"
+  },
+  {
+   "id": "cse_3",
+   "label": "CSE 1:3"
+  },
+  {
+   "id": "cse_20",
+   "label": "CSE 1:20"
+  },
+  {
+   "id": "cse_200",
+   "label": "CSE 1:200"
+  },
+  {
+   "id": "eve_ctrl",
+   "label": "EVE series: Control"
+  },
+  {
+   "id": "eve_undil",
+   "label": "EVE undiluted"
+  },
+  {
+   "id": "eve_2",
+   "label": "EVE 1:2"
+  },
+  {
+   "id": "eve_20",
+   "label": "EVE 1:20"
+  },
+  {
+   "id": "hte_ctrl",
+   "label": "HTE series: Control"
+  },
+  {
+   "id": "hte_undil",
+   "label": "HTE (THP) undiluted"
+  },
+  {
+   "id": "hte_2",
+   "label": "HTE (THP) 1:2"
+  },
+  {
+   "id": "hte_20",
+   "label": "HTE (THP) 1:20"
+  }
+ ],
+ "columns": [
+  {
+   "id": "ach_emax",
+   "label": "Acetylcholine Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "ach_sem",
+   "label": "Acetylcholine Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "ach_ec50",
+   "label": "Acetylcholine EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "ach_lo",
+   "label": "Acetylcholine EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "ach_hi",
+   "label": "Acetylcholine EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_emax",
+   "label": "DEA/NO Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "dea_sem",
+   "label": "DEA/NO Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "dea_ec50",
+   "label": "DEA/NO EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "dea_lo",
+   "label": "DEA/NO EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_hi",
+   "label": "DEA/NO EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  }
+ ],
+ "star_legend": {
+  "*": "p<0.05 vs. control of the same series (ANOVA and Dunnett's post hoc test)"
+ },
+ "cells": {
+  "cse_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 59.090277,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.603631,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 167.417651,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 91.130268,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 307.567073,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 95.492967,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 2.105282,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 60.935185,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 38.741488,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 95.842907,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_3|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 16.052408,
+   "stars": "*",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_3|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.128641,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_3|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 599.468762,
+   "stars": "*",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_3|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 250.656522,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_3|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 1433.6862,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_3|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.213728,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_3|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.506847,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_3|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 94.274717,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_3|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 48.388115,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_3|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 183.675726,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 35.20278,
+   "stars": "*",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.618723,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 182.014343,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 85.930906,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 385.533244,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 97.751633,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.165738,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 70.087941,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 29.410578,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 167.025605,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_200|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 57.527124,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_200|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 2.703419,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_200|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 338.299499,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_200|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 129.13432,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_200|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 886.259762,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "cse_200|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.733153,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "cse_200|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 0.872792,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "cse_200|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 81.157264,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "cse_200|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 42.589711,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "cse_200|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 154.650066,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 56.998683,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 5.764233,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 149.846474,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 90.808349,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 247.267636,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 95.785708,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.953848,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 63.630281,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 28.951893,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 139.846217,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_undil|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 50.230118,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_undil|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.143218,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_undil|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 190.582252,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_undil|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 66.607435,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_undil|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 545.308419,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_undil|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.974073,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_undil|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 0.798271,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_undil|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 44.604725,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_undil|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 26.329582,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_undil|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 75.564491,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_2|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 63.750855,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_2|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 7.954,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_2|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 170.203919,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_2|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 137.536209,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_2|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 210.63089,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_2|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 93.828638,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_2|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.792473,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_2|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 56.781995,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_2|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 23.491567,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_2|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 137.249037,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 60.502348,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.440975,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 175.574338,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 84.344024,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 365.483489,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "eve_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 97.893754,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "eve_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 0.958479,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "eve_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 64.098291,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "eve_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 39.633495,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "eve_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 103.664612,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 63.101789,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.918556,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 110.661773,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 55.940217,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 218.912773,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 93.444835,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.622498,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 47.307434,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 19.540878,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 114.528799,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_undil|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 36.771254,
+   "stars": "*",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_undil|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 5.634987,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_undil|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 285.898675,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_undil|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 91.342383,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_undil|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 894.853514,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_undil|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 94.610167,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_undil|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.899483,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_undil|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 56.583701,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_undil|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 29.482963,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_undil|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 108.595437,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_2|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 48.995777,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_2|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 6.124665,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_2|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 144.536238,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_2|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 61.303513,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_2|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 340.775315,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_2|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 95.528464,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_2|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.412605,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_2|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 89.302811,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_2|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 41.956848,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_2|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 190.076053,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 63.972761,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.700754,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 170.650274,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 56.555902,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 514.915596,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  },
+  "hte_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 93.915465,
+   "stars": "",
+   "source": "fit_curve + mean (S1,S2); stars: dunnett_p on per-experiment Emax"
+  },
+  "hte_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.509455,
+   "stars": "",
+   "source": "fit_curve + SEM (S2)"
+  },
+  "hte_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 73.727988,
+   "stars": "",
+   "source": "fit_curve + geo_ci geometric mean (S3); stars: dunnett_p on log10 EC50"
+  },
+  "hte_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 37.750324,
+   "stars": "",
+   "source": "geo_ci lower 95% limit (S3)"
+  },
+  "hte_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 143.993898,
+   "stars": "",
+   "source": "geo_ci upper 95% limit (S3)"
+  }
+ },
+ "instructions": "Fill `value` (a number) for every cell. On the two Emax columns set `stars` to '*' where the treatment differs from its series' control at p<0.05 (ANOVA and Dunnett), else ''; elsewhere set `stars` to ''. `unit` gives the unit the table uses (EC50 in nM, Emax as % relaxation)."
+}
