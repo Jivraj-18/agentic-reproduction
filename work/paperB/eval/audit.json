@@ -18,7 +18,11 @@
      "literal": 0.001,
      "line": 40,
      "code": "bounds=([-np.inf, 1e-3, 0.1], [np.inf, 50, 10]),",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "Lower bound for the Hill slope in the curve-fit bounds (1e-3); the r2 SD cells are computed from the 31 fits."
+     }
     },
     {
      "cell": "r2_45|sd",
@@ -26,7 +30,11 @@
      "literal": 0.001,
      "line": 40,
      "code": "bounds=([-np.inf, 1e-3, 0.1], [np.inf, 50, 10]),",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "Lower bound for the Hill slope in the curve-fit bounds (1e-3); the r2 SD cells are computed from the 31 fits."
+     }
     }
    ],
    "flagged": [
@@ -36,7 +44,11 @@
      "literal": 0.001,
      "line": 40,
      "code": "bounds=([-np.inf, 1e-3, 0.1], [np.inf, 50, 10]),",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "Lower bound for the Hill slope in the curve-fit bounds (1e-3); the r2 SD cells are computed from the 31 fits."
+     }
     },
     {
      "cell": "r2_45|sd",
@@ -44,10 +56,14 @@
      "literal": 0.001,
      "line": 40,
      "code": "bounds=([-np.inf, 1e-3, 0.1], [np.inf, 50, 10]),",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "Lower bound for the Hill slope in the curve-fit bounds (1e-3); the r2 SD cells are computed from the 31 fits."
+     }
     }
    ],
-   "unreviewed": 2
+   "unreviewed": 0
   }
  },
  "r_sonnet": {
@@ -93,7 +109,11 @@
      "literal": 0.3,
      "line": 20,
      "code": "for s0 in [0.3, 1, 3]:",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "One of the multi-start initial values for the asymmetry s ([0.3, 1, 3]); the range cell is computed from the fits."
+     }
     }
    ],
    "flagged": [
@@ -103,10 +123,14 @@
      "literal": 0.3,
      "line": 20,
      "code": "for s0 in [0.3, 1, 3]:",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "One of the multi-start initial values for the asymmetry s ([0.3, 1, 3]); the range cell is computed from the fits."
+     }
     }
    ],
-   "unreviewed": 1
+   "unreviewed": 0
   }
  }
 }

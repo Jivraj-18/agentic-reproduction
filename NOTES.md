@@ -1,6 +1,6 @@
 # Notes: agentic reproduction of two Elsevier papers
 
-Same method as the Wiley demo, extended to a second client after the 22 Oct 2026 call with Anand. The publisher's name says whose papers were used; the page is not made for or presented as from Elsevier. Page: `docs/index.html` (GitHub Pages), with a switch between Claude Opus 5.5 and Claude Sonnet 5.5 at the top right.
+Same method as the Wiley demo, extended to a second client after the 22 Oct 2026 call with Anand. The publisher's name says whose papers were used; the page is not made for or presented as from Elsevier. Page: `docs/index.html` (GitHub Pages), in the same layout as the Wiley page, with a switch between Claude Opus 5.5 and Claude Sonnet 5.5 inside each paper tab.
 
 The pitch line is unchanged: *the AI gets only a paper's Methods and its original data, never the code or the results. It rebuilds a results table, and a fixed script grades every cell against the published one.*
 

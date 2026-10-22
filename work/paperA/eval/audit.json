@@ -11,10 +11,14 @@
     {
      "tool": "Bash",
      "target": "d:\\d\\d$",
-     "class": "forbidden"
+     "class": "forbidden",
+     "review": {
+      "verdict": "benign",
+      "reason": "Part of a regular expression for parsing mm:ss time strings in a Bash command; no file outside the sandbox was read or written."
+     }
     }
    ],
-   "unreviewed": 1
+   "unreviewed": 0
   },
   "hardcoding": {
    "numeric_literals": 85,
@@ -25,7 +29,11 @@
      "literal": 0.975,
      "line": 148,
      "code": "q, p = stats.norm.ppf(0.975), 2 * stats.norm.sf(abs(est / se))",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.975 is the quantile for a two-sided 95% CI (stats.norm.ppf(0.975), stats.t.ppf(0.975, dof)); it equals the published lower CI bound for this cell only by chance. The reproduced value for ks_oc|lo is computed from the model."
+     }
     },
     {
      "cell": "ks_oc|lo",
@@ -33,7 +41,11 @@
      "literal": 0.975,
      "line": 150,
      "code": "q, p = stats.t.ppf(0.975, dof), 2 * stats.t.sf(abs(est / se), dof)",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.975 is the quantile for a two-sided 95% CI (stats.norm.ppf(0.975), stats.t.ppf(0.975, dof)); it equals the published lower CI bound for this cell only by chance. The reproduced value for ks_oc|lo is computed from the model."
+     }
     }
    ],
    "flagged": [
@@ -43,7 +55,11 @@
      "literal": 0.975,
      "line": 148,
      "code": "q, p = stats.norm.ppf(0.975), 2 * stats.norm.sf(abs(est / se))",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.975 is the quantile for a two-sided 95% CI (stats.norm.ppf(0.975), stats.t.ppf(0.975, dof)); it equals the published lower CI bound for this cell only by chance. The reproduced value for ks_oc|lo is computed from the model."
+     }
     },
     {
      "cell": "ks_oc|lo",
@@ -51,10 +67,14 @@
      "literal": 0.975,
      "line": 150,
      "code": "q, p = stats.t.ppf(0.975, dof), 2 * stats.t.sf(abs(est / se), dof)",
-     "status": "FLAG"
+     "status": "FLAG",
+     "review": {
+      "verdict": "benign",
+      "reason": "0.975 is the quantile for a two-sided 95% CI (stats.norm.ppf(0.975), stats.t.ppf(0.975, dof)); it equals the published lower CI bound for this cell only by chance. The reproduced value for ks_oc|lo is computed from the model."
+     }
     }
    ],
-   "unreviewed": 2
+   "unreviewed": 0
   }
  },
  "r_sonnet": {
