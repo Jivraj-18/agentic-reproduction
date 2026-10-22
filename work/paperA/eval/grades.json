@@ -1,0 +1,3277 @@
+{
+ "paper": "A",
+ "table": "Table 1",
+ "runs": [
+  "r_opus",
+  "r_sonnet"
+ ],
+ "summary": {
+  "n_cells_graded": 72,
+  "per_run": {
+   "r_opus": {
+    "distribution": {
+     "A": 29,
+     "B": 25,
+     "C": 13,
+     "D": 3,
+     "E": 2,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.056,
+     "letter": "B"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     0,
+     0
+    ]
+   },
+   "r_sonnet": {
+    "distribution": {
+     "A": 51,
+     "B": 17,
+     "C": 1,
+     "D": 1,
+     "E": 2,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.583,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     0,
+     0
+    ]
+   }
+  },
+  "median_cell_grades": {
+   "A": 29,
+   "B": 25,
+   "C": 13,
+   "D": 3,
+   "E": 2,
+   "F": 0
+  },
+  "consensus_cell_grades": {
+   "A": 31,
+   "B": 35,
+   "C": 3,
+   "D": 1,
+   "E": 2,
+   "F": 0
+  },
+  "table_grade_median_of_runs": 4.3195,
+  "sign_match": [
+   72,
+   72
+  ],
+  "within_1.96se_consensus": [
+   0,
+   0
+  ],
+  "runs_identical_cells": [
+   27,
+   72
+  ],
+  "runs_same_grade_cells": [
+   47,
+   72
+  ],
+  "within_20pct_consensus": [
+   66,
+   72
+  ],
+  "table_grade_median_letter": "B"
+ },
+ "cells": {
+  "time_io|eff": {
+   "published_raw": "1.33",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.3265911224251445,
+     "reproduced_unrounded": 1.3265911224251445,
+     "reproduced": 1.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.3265911224251383,
+     "reproduced_unrounded": 1.3265911224251383,
+     "reproduced": 1.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.3265911224251414,
+    "reproduced_unrounded": 1.3265911224251414,
+    "reproduced": 1.33,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.674623261579606e-13,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_io|m1": {
+   "published_raw": "386.6",
+   "metric_type": "mean",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 328.8847855601932,
+     "reproduced_unrounded": 328.8847855601932,
+     "reproduced": 328.9,
+     "grade": "B",
+     "deviation_pct": 14.924987066735653,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 382.3231707317073,
+     "reproduced_unrounded": 382.3231707317073,
+     "reproduced": 382.3,
+     "grade": "A",
+     "deviation_pct": 1.1122607346094182,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 355.60397814595024,
+    "reproduced_unrounded": 355.60397814595024,
+    "reproduced": 355.6,
+    "grade": "B",
+    "deviation_pct": 8.01862390067253,
+    "sign_match": true
+   },
+   "run_spread_pct": 13.82265524353701,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "time_io|m2": {
+   "published_raw": "279.5",
+   "metric_type": "mean",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 247.9172218180972,
+     "reproduced_unrounded": 247.9172218180972,
+     "reproduced": 247.9,
+     "grade": "B",
+     "deviation_pct": 11.305903398926652,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 279.63473053892216,
+     "reproduced_unrounded": 279.63473053892216,
+     "reproduced": 279.6,
+     "grade": "A",
+     "deviation_pct": 0.03577817531306717,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 263.77597617850967,
+    "reproduced_unrounded": 263.77597617850967,
+    "reproduced": 263.8,
+    "grade": "B",
+    "deviation_pct": 5.617173524150265,
+    "sign_match": true
+   },
+   "run_spread_pct": 11.34794587507154,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "time_io|lo": {
+   "published_raw": "1.244",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.2308939621592732,
+     "reproduced_unrounded": 1.2308939621592732,
+     "reproduced": 1.231,
+     "grade": "A",
+     "deviation_pct": 1.04501607717041,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.2311452264579428,
+     "reproduced_unrounded": 1.2311452264579428,
+     "reproduced": 1.231,
+     "grade": "A",
+     "deviation_pct": 1.04501607717041,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.231019594308608,
+    "reproduced_unrounded": 1.231019594308608,
+    "reproduced": 1.231,
+    "grade": "A",
+    "deviation_pct": 1.04501607717041,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.020198094748361563,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_io|hi": {
+   "published_raw": "1.429",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.4297283601993065,
+     "reproduced_unrounded": 1.4297283601993065,
+     "reproduced": 1.43,
+     "grade": "A",
+     "deviation_pct": 0.06997900629810286,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.4294365670899234,
+     "reproduced_unrounded": 1.4294365670899234,
+     "reproduced": 1.429,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.429582463644615,
+    "reproduced_unrounded": 1.429582463644615,
+    "reproduced": 1.43,
+    "grade": "A",
+    "deviation_pct": 0.06997900629810286,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0204193918392651,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_io|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 6.135888344952858e-13,
+     "reproduced_unrounded": 6.135888344952858e-13,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.1848045514193182e-13,
+     "reproduced_unrounded": 1.1848045514193182e-13,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.6603464481860876e-13,
+    "reproduced_unrounded": 3.6603464481860876e-13,
+    "reproduced": 0.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true,
+    "bound_satisfied": true
+   },
+   "run_spread_pct": 4.95108379353354e-08,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_ic|eff": {
+   "published_raw": "1.361",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.350296047202009,
+     "reproduced_unrounded": 1.350296047202009,
+     "reproduced": 1.35,
+     "grade": "A",
+     "deviation_pct": 0.8082292432035194,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.3502960472020031,
+     "reproduced_unrounded": 1.3502960472020031,
+     "reproduced": 1.35,
+     "grade": "A",
+     "deviation_pct": 0.8082292432035194,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.350296047202006,
+    "reproduced_unrounded": 1.350296047202006,
+    "reproduced": 1.35,
+    "grade": "A",
+    "deviation_pct": 0.8082292432035194,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.24185137990508e-13,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_ic|m1": {
+   "published_raw": "386.6",
+   "metric_type": "mean",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 328.8847855601932,
+     "reproduced_unrounded": 328.8847855601932,
+     "reproduced": 328.9,
+     "grade": "B",
+     "deviation_pct": 14.924987066735653,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 382.3231707317073,
+     "reproduced_unrounded": 382.3231707317073,
+     "reproduced": 382.3,
+     "grade": "A",
+     "deviation_pct": 1.1122607346094182,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 355.60397814595024,
+    "reproduced_unrounded": 355.60397814595024,
+    "reproduced": 355.6,
+    "grade": "B",
+    "deviation_pct": 8.01862390067253,
+    "sign_match": true
+   },
+   "run_spread_pct": 13.82265524353701,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "time_ic|m2": {
+   "published_raw": "255.7",
+   "metric_type": "mean",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 243.56494728817867,
+     "reproduced_unrounded": 243.56494728817867,
+     "reproduced": 243.6,
+     "grade": "B",
+     "deviation_pct": 4.732107938991003,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 255.73684210526315,
+     "reproduced_unrounded": 255.73684210526315,
+     "reproduced": 255.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 249.6508946967209,
+    "reproduced_unrounded": 249.6508946967209,
+    "reproduced": 249.7,
+    "grade": "B",
+    "deviation_pct": 2.34649980445835,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.760224801362722,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "time_ic|lo": {
+   "published_raw": "1.27",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.2534650906253062,
+     "reproduced_unrounded": 1.2534650906253062,
+     "reproduced": 1.25,
+     "grade": "A",
+     "deviation_pct": 1.5748031496063006,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.2537193908669995,
+     "reproduced_unrounded": 1.2537193908669995,
+     "reproduced": 1.25,
+     "grade": "A",
+     "deviation_pct": 1.5748031496063006,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.2535922407461528,
+    "reproduced_unrounded": 1.2535922407461528,
+    "reproduced": 1.25,
+    "grade": "A",
+    "deviation_pct": 1.5748031496063006,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.020023641078209573,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_ic|hi": {
+   "published_raw": "1.458",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.454607255300421,
+     "reproduced_unrounded": 1.454607255300421,
+     "reproduced": 1.455,
+     "grade": "A",
+     "deviation_pct": 0.20576131687242055,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.4543122076372021,
+     "reproduced_unrounded": 1.4543122076372021,
+     "reproduced": 1.454,
+     "grade": "A",
+     "deviation_pct": 0.2743484224965709,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.4544597314688117,
+    "reproduced_unrounded": 1.4544597314688117,
+    "reproduced": 1.454,
+    "grade": "A",
+    "deviation_pct": 0.2743484224965709,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.020236465241348523,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_ic|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.7904834067713345e-14,
+     "reproduced_unrounded": 1.7904834067713345e-14,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.1547449066389704e-15,
+     "reproduced_unrounded": 2.1547449066389704e-15,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0029789487176158e-14,
+    "reproduced_unrounded": 1.0029789487176158e-14,
+    "reproduced": 0.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true,
+    "bound_satisfied": true
+   },
+   "run_spread_pct": 1.5750089161074374e-09,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_oc|eff": {
+   "published_raw": "1.02",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.0178690512669264,
+     "reproduced_unrounded": 1.0178690512669264,
+     "reproduced": 1.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.0178690512669268,
+     "reproduced_unrounded": 1.0178690512669268,
+     "reproduced": 1.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0178690512669266,
+    "reproduced_unrounded": 1.0178690512669266,
+    "reproduced": 1.02,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.353815782843751e-14,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_oc|m1": {
+   "published_raw": "279.5",
+   "metric_type": "mean",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 247.9172218180972,
+     "reproduced_unrounded": 247.9172218180972,
+     "reproduced": 247.9,
+     "grade": "B",
+     "deviation_pct": 11.305903398926652,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 279.63473053892216,
+     "reproduced_unrounded": 279.63473053892216,
+     "reproduced": 279.6,
+     "grade": "A",
+     "deviation_pct": 0.03577817531306717,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 263.77597617850967,
+    "reproduced_unrounded": 263.77597617850967,
+    "reproduced": 263.8,
+    "grade": "B",
+    "deviation_pct": 5.617173524150265,
+    "sign_match": true
+   },
+   "run_spread_pct": 11.34794587507154,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "time_oc|m2": {
+   "published_raw": "255.7",
+   "metric_type": "mean",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 243.56494728817867,
+     "reproduced_unrounded": 243.56494728817867,
+     "reproduced": 243.6,
+     "grade": "B",
+     "deviation_pct": 4.732107938991003,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 255.73684210526315,
+     "reproduced_unrounded": 255.73684210526315,
+     "reproduced": 255.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 249.6508946967209,
+    "reproduced_unrounded": 249.6508946967209,
+    "reproduced": 249.7,
+    "grade": "B",
+    "deviation_pct": 2.34649980445835,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.760224801362722,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "time_oc|lo": {
+   "published_raw": "0.953",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.945235031507348,
+     "reproduced_unrounded": 0.945235031507348,
+     "reproduced": 0.945,
+     "grade": "A",
+     "deviation_pct": 0.8394543546694656,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9454258215699645,
+     "reproduced_unrounded": 0.9454258215699645,
+     "reproduced": 0.945,
+     "grade": "A",
+     "deviation_pct": 0.8394543546694656,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9453304265386562,
+    "reproduced_unrounded": 0.9453304265386562,
+    "reproduced": 0.945,
+    "grade": "A",
+    "deviation_pct": 0.8394543546694656,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0200199436113813,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_oc|hi": {
+   "published_raw": "1.093",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.096084435079445,
+     "reproduced_unrounded": 1.096084435079445,
+     "reproduced": 1.096,
+     "grade": "A",
+     "deviation_pct": 0.2744739249771376,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.0958632416095506,
+     "reproduced_unrounded": 1.0958632416095506,
+     "reproduced": 1.096,
+     "grade": "A",
+     "deviation_pct": 0.2744739249771376,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0959738383444977,
+    "reproduced_unrounded": 1.0959738383444977,
+    "reproduced": 1.096,
+    "grade": "A",
+    "deviation_pct": 0.2744739249771376,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.020237279953737794,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "time_oc|p": {
+   "published_raw": "0.563",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6384570752348565,
+     "reproduced_unrounded": 0.6384570752348565,
+     "reproduced": 0.638,
+     "grade": "B",
+     "deviation_pct": 13.32149200710481,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(time, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6382246435713573,
+     "reproduced_unrounded": 0.6382246435713573,
+     "reproduced": 0.638,
+     "grade": "B",
+     "deviation_pct": 13.32149200710481,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6383408594031069,
+    "reproduced_unrounded": 0.6383408594031069,
+    "reproduced": 0.638,
+    "grade": "B",
+    "deviation_pct": 13.32149200710481,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.04128448730003152,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "ks_io|eff": {
+   "published_raw": "0.827",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.8276165754684661,
+     "reproduced_unrounded": 0.8276165754684661,
+     "reproduced": 0.828,
+     "grade": "A",
+     "deviation_pct": 0.12091898428053217,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.8276165754684636,
+     "reproduced_unrounded": 0.8276165754684636,
+     "reproduced": 0.828,
+     "grade": "A",
+     "deviation_pct": 0.12091898428053217,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.8276165754684648,
+    "reproduced_unrounded": 0.8276165754684648,
+    "reproduced": 0.828,
+    "grade": "A",
+    "deviation_pct": 0.12091898428053217,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.087681930638283e-13,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ks_io|m1": {
+   "published_raw": "3.80",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.9875047607165217,
+     "reproduced_unrounded": 2.9875047607165217,
+     "reproduced": 2.99,
+     "grade": "C",
+     "deviation_pct": 21.3157894736842,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.798148148148148,
+     "reproduced_unrounded": 3.798148148148148,
+     "reproduced": 3.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.3928264544323348,
+    "reproduced_unrounded": 3.3928264544323348,
+    "reproduced": 3.39,
+    "grade": "B",
+    "deviation_pct": 10.789473684210519,
+    "sign_match": true
+   },
+   "run_spread_pct": 21.332720721884897,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "ks_io|m2": {
+   "published_raw": "4.92",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.609769124096466,
+     "reproduced_unrounded": 3.609769124096466,
+     "reproduced": 3.61,
+     "grade": "C",
+     "deviation_pct": 26.626016260162604,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.921197604790419,
+     "reproduced_unrounded": 4.921197604790419,
+     "reproduced": 4.92,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.265483364443442,
+    "reproduced_unrounded": 4.265483364443442,
+    "reproduced": 4.27,
+    "grade": "B",
+    "deviation_pct": 13.211382113821147,
+    "sign_match": true
+   },
+   "run_spread_pct": 26.6550504206088,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "ks_io|lo": {
+   "published_raw": "0.688",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6919748642971604,
+     "reproduced_unrounded": 0.6919748642971604,
+     "reproduced": 0.692,
+     "grade": "A",
+     "deviation_pct": 0.5813953488372099,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6923149451582863,
+     "reproduced_unrounded": 0.6923149451582863,
+     "reproduced": 0.692,
+     "grade": "A",
+     "deviation_pct": 0.5813953488372099,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6921449047277233,
+    "reproduced_unrounded": 0.6921449047277233,
+    "reproduced": 0.692,
+    "grade": "A",
+    "deviation_pct": 0.5813953488372099,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.04943035772178971,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ks_io|hi": {
+   "published_raw": "0.994",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9898469313417257,
+     "reproduced_unrounded": 0.9898469313417257,
+     "reproduced": 0.99,
+     "grade": "A",
+     "deviation_pct": 0.40241448692152954,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9893606959958733,
+     "reproduced_unrounded": 0.9893606959958733,
+     "reproduced": 0.989,
+     "grade": "A",
+     "deviation_pct": 0.5030181086519119,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9896038136687995,
+    "reproduced_unrounded": 0.9896038136687995,
+    "reproduced": 0.99,
+    "grade": "A",
+    "deviation_pct": 0.40241448692152954,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.04891703680608243,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ks_io|p": {
+   "published_raw": "0.043",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.03834273906203495,
+     "reproduced_unrounded": 0.03834273906203495,
+     "reproduced": 0.038,
+     "grade": "B",
+     "deviation_pct": 11.627906976744182,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.03776062507444516,
+     "reproduced_unrounded": 0.03776062507444516,
+     "reproduced": 0.038,
+     "grade": "B",
+     "deviation_pct": 11.627906976744182,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.038051682068240056,
+    "reproduced_unrounded": 0.038051682068240056,
+    "reproduced": 0.038,
+    "grade": "B",
+    "deviation_pct": 11.627906976744182,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.3537534595111396,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "ks_ic|eff": {
+   "published_raw": "0.966",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9449397821973823,
+     "reproduced_unrounded": 0.9449397821973823,
+     "reproduced": 0.945,
+     "grade": "B",
+     "deviation_pct": 2.173913043478263,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9449397821973793,
+     "reproduced_unrounded": 0.9449397821973793,
+     "reproduced": 0.945,
+     "grade": "B",
+     "deviation_pct": 2.173913043478263,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9449397821973808,
+    "reproduced_unrounded": 0.9449397821973808,
+    "reproduced": 0.945,
+    "grade": "B",
+    "deviation_pct": 2.173913043478263,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.1031078328032326e-13,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "ks_ic|m1": {
+   "published_raw": "3.80",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.9875047607165217,
+     "reproduced_unrounded": 2.9875047607165217,
+     "reproduced": 2.99,
+     "grade": "C",
+     "deviation_pct": 21.3157894736842,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.798148148148148,
+     "reproduced_unrounded": 3.798148148148148,
+     "reproduced": 3.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.3928264544323348,
+    "reproduced_unrounded": 3.3928264544323348,
+    "reproduced": 3.39,
+    "grade": "B",
+    "deviation_pct": 10.789473684210519,
+    "sign_match": true
+   },
+   "run_spread_pct": 21.332720721884897,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "ks_ic|m2": {
+   "published_raw": "4.96",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.161582163224536,
+     "reproduced_unrounded": 3.161582163224536,
+     "reproduced": 3.16,
+     "grade": "C",
+     "deviation_pct": 36.29032258064516,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.961403508771929,
+     "reproduced_unrounded": 4.961403508771929,
+     "reproduced": 4.96,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.061492835998233,
+    "reproduced_unrounded": 4.061492835998233,
+    "reproduced": 4.06,
+    "grade": "B",
+    "deviation_pct": 18.145161290322587,
+    "sign_match": true
+   },
+   "run_spread_pct": 36.28672067635874,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "ks_ic|lo": {
+   "published_raw": "0.805",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.7907173868860048,
+     "reproduced_unrounded": 0.7907173868860048,
+     "reproduced": 0.791,
+     "grade": "A",
+     "deviation_pct": 1.7391304347826102,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7911042160336832,
+     "reproduced_unrounded": 0.7911042160336832,
+     "reproduced": 0.791,
+     "grade": "A",
+     "deviation_pct": 1.7391304347826102,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.790910801459844,
+    "reproduced_unrounded": 0.790910801459844,
+    "reproduced": 0.791,
+    "grade": "A",
+    "deviation_pct": 1.7391304347826102,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.048053310270609,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ks_ic|hi": {
+   "published_raw": "1.159",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.1292418843800691,
+     "reproduced_unrounded": 1.1292418843800691,
+     "reproduced": 1.129,
+     "grade": "B",
+     "deviation_pct": 2.588438308886974,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.1286897148089687,
+     "reproduced_unrounded": 1.1286897148089687,
+     "reproduced": 1.129,
+     "grade": "B",
+     "deviation_pct": 2.588438308886974,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.128965799594519,
+    "reproduced_unrounded": 1.128965799594519,
+    "reproduced": 1.129,
+    "grade": "B",
+    "deviation_pct": 2.588438308886974,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.047641895694597106,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "ks_ic|p": {
+   "published_raw": "0.709",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.532497258475845,
+     "reproduced_unrounded": 0.532497258475845,
+     "reproduced": 0.532,
+     "grade": "C",
+     "deviation_pct": 24.964739069111417,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.532171984070528,
+     "reproduced_unrounded": 0.532171984070528,
+     "reproduced": 0.532,
+     "grade": "C",
+     "deviation_pct": 24.964739069111417,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5323346212731865,
+    "reproduced_unrounded": 0.5323346212731865,
+    "reproduced": 0.532,
+    "grade": "C",
+    "deviation_pct": 24.964739069111417,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.045877913302811456,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "ks_oc|eff": {
+   "published_raw": "1.168",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.1417603395177365,
+     "reproduced_unrounded": 1.1417603395177365,
+     "reproduced": 1.142,
+     "grade": "B",
+     "deviation_pct": 2.226027397260276,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.1417603395177365,
+     "reproduced_unrounded": 1.1417603395177365,
+     "reproduced": 1.142,
+     "grade": "B",
+     "deviation_pct": 2.226027397260276,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.1417603395177365,
+    "reproduced_unrounded": 1.1417603395177365,
+    "reproduced": 1.142,
+    "grade": "B",
+    "deviation_pct": 2.226027397260276,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "ks_oc|m1": {
+   "published_raw": "4.92",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.609769124096466,
+     "reproduced_unrounded": 3.609769124096466,
+     "reproduced": 3.61,
+     "grade": "C",
+     "deviation_pct": 26.626016260162604,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.921197604790419,
+     "reproduced_unrounded": 4.921197604790419,
+     "reproduced": 4.92,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.265483364443442,
+    "reproduced_unrounded": 4.265483364443442,
+    "reproduced": 4.27,
+    "grade": "B",
+    "deviation_pct": 13.211382113821147,
+    "sign_match": true
+   },
+   "run_spread_pct": 26.6550504206088,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "ks_oc|m2": {
+   "published_raw": "4.96",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.161582163224536,
+     "reproduced_unrounded": 3.161582163224536,
+     "reproduced": 3.16,
+     "grade": "C",
+     "deviation_pct": 36.29032258064516,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.961403508771929,
+     "reproduced_unrounded": 4.961403508771929,
+     "reproduced": 4.96,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.061492835998233,
+    "reproduced_unrounded": 4.061492835998233,
+    "reproduced": 4.06,
+    "grade": "B",
+    "deviation_pct": 18.145161290322587,
+    "sign_match": true
+   },
+   "run_spread_pct": 36.28672067635874,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "ks_oc|lo": {
+   "published_raw": "0.975",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.956933065451144,
+     "reproduced_unrounded": 0.956933065451144,
+     "reproduced": 0.957,
+     "grade": "A",
+     "deviation_pct": 1.8461538461538478,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9573970374502728,
+     "reproduced_unrounded": 0.9573970374502728,
+     "reproduced": 0.957,
+     "grade": "A",
+     "deviation_pct": 1.8461538461538478,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9571650514507084,
+    "reproduced_unrounded": 0.9571650514507084,
+    "reproduced": 0.957,
+    "grade": "A",
+    "deviation_pct": 1.8461538461538478,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.047586871705522324,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ks_oc|hi": {
+   "published_raw": "1.4",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.3622861618655322,
+     "reproduced_unrounded": 1.3622861618655322,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.3616259732403513,
+     "reproduced_unrounded": 1.3616259732403513,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.3619560675529416,
+    "reproduced_unrounded": 1.3619560675529416,
+    "reproduced": 1.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.04715633037006522,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ks_oc|p": {
+   "published_raw": "0.092",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.14080919233901604,
+     "reproduced_unrounded": 0.14080919233901604,
+     "reproduced": 0.141,
+     "grade": "D",
+     "deviation_pct": 53.260869565217384,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(ks, log=True) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.14009071636516016,
+     "reproduced_unrounded": 0.14009071636516016,
+     "reproduced": 0.14,
+     "grade": "D",
+     "deviation_pct": 52.17391304347828,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.1404499543520881,
+    "reproduced_unrounded": 0.1404499543520881,
+    "reproduced": 0.14,
+    "grade": "D",
+    "deviation_pct": 52.17391304347828,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.7809521454955228,
+   "runs_agree": false,
+   "run_grades": [
+    "D",
+    "D"
+   ],
+   "median_grade": "D"
+  },
+  "sp_io|eff": {
+   "published_raw": "1.328",
+   "metric_type": "effect",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.3306852299587588,
+     "reproduced_unrounded": 1.3306852299587588,
+     "reproduced": 1.331,
+     "grade": "A",
+     "deviation_pct": 0.22590361445782317,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.330228455810776,
+     "reproduced_unrounded": 1.330228455810776,
+     "reproduced": 1.33,
+     "grade": "A",
+     "deviation_pct": 0.15060240963855434,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.3304568428847674,
+    "reproduced_unrounded": 1.3304568428847674,
+    "reproduced": 1.33,
+    "grade": "A",
+    "deviation_pct": 0.15060240963855434,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.03439564367340672,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_io|m1": {
+   "published_raw": "11.72",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 11.779443499255967,
+     "reproduced_unrounded": 11.779443499255967,
+     "reproduced": 11.78,
+     "grade": "A",
+     "deviation_pct": 0.5119453924914567,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 11.764197530864198,
+     "reproduced_unrounded": 11.764197530864198,
+     "reproduced": 11.76,
+     "grade": "A",
+     "deviation_pct": 0.34129692832763775,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 11.771820515060082,
+    "reproduced_unrounded": 11.771820515060082,
+    "reproduced": 11.77,
+    "grade": "A",
+    "deviation_pct": 0.42662116040954723,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.1300850545372758,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_io|m2": {
+   "published_raw": "10.46",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.448758269297208,
+     "reproduced_unrounded": 10.448758269297208,
+     "reproduced": 10.45,
+     "grade": "A",
+     "deviation_pct": 0.09560229445508187,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.4562874251497,
+     "reproduced_unrounded": 10.4562874251497,
+     "reproduced": 10.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.452522847223454,
+    "reproduced_unrounded": 10.452522847223454,
+    "reproduced": 10.45,
+    "grade": "A",
+    "deviation_pct": 0.09560229445508187,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.07198045748080016,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_io|lo": {
+   "published_raw": "0.782",
+   "metric_type": "CI",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.7923821240435532,
+     "reproduced_unrounded": 0.7923821240435532,
+     "reproduced": 0.792,
+     "grade": "A",
+     "deviation_pct": 1.278772378516625,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7860920437607958,
+     "reproduced_unrounded": 0.7860920437607958,
+     "reproduced": 0.786,
+     "grade": "A",
+     "deviation_pct": 0.5115089514066501,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.7892370839021745,
+    "reproduced_unrounded": 0.7892370839021745,
+    "reproduced": 0.789,
+    "grade": "A",
+    "deviation_pct": 0.8951406649616377,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.8043580924242276,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_io|hi": {
+   "published_raw": "1.875",
+   "metric_type": "CI",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.8689883358739645,
+     "reproduced_unrounded": 1.8689883358739645,
+     "reproduced": 1.869,
+     "grade": "A",
+     "deviation_pct": 0.3200000000000003,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.874364867860756,
+     "reproduced_unrounded": 1.874364867860756,
+     "reproduced": 1.874,
+     "grade": "A",
+     "deviation_pct": 0.05333333333332746,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.8716766018673603,
+    "reproduced_unrounded": 1.8716766018673603,
+    "reproduced": 1.872,
+    "grade": "A",
+    "deviation_pct": 0.15999999999999423,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.286748372628883,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_io|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.650294617719503e-06,
+     "reproduced_unrounded": 1.650294617719503e-06,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.65511489378842e-06,
+     "reproduced_unrounded": 1.65511489378842e-06,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.6527047557539615e-06,
+    "reproduced_unrounded": 1.6527047557539615e-06,
+    "reproduced": 0.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true,
+    "bound_satisfied": true
+   },
+   "run_spread_pct": 0.0004820276068916938,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_ic|eff": {
+   "published_raw": "1.519",
+   "metric_type": "effect",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.4599611490616187,
+     "reproduced_unrounded": 1.4599611490616187,
+     "reproduced": 1.46,
+     "grade": "B",
+     "deviation_pct": 3.884134298880839,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.517521584317673,
+     "reproduced_unrounded": 1.517521584317673,
+     "reproduced": 1.518,
+     "grade": "A",
+     "deviation_pct": 0.06583278472678669,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.4887413666896459,
+    "reproduced_unrounded": 1.4887413666896459,
+    "reproduced": 1.489,
+    "grade": "A",
+    "deviation_pct": 1.9749835418038055,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.7893637429923874,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "sp_ic|m1": {
+   "published_raw": "11.77",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 11.779443499255967,
+     "reproduced_unrounded": 11.779443499255967,
+     "reproduced": 11.78,
+     "grade": "A",
+     "deviation_pct": 0.08496176720475605,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 11.764197530864198,
+     "reproduced_unrounded": 11.764197530864198,
+     "reproduced": 11.76,
+     "grade": "A",
+     "deviation_pct": 0.08496176720475605,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 11.771820515060082,
+    "reproduced_unrounded": 11.771820515060082,
+    "reproduced": 11.77,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.12953244173125514,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_ic|m2": {
+   "published_raw": "10.26",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.319482350194349,
+     "reproduced_unrounded": 10.319482350194349,
+     "reproduced": 10.32,
+     "grade": "A",
+     "deviation_pct": 0.5847953216374318,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.261988304093569,
+     "reproduced_unrounded": 10.261988304093569,
+     "reproduced": 10.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.29073532714396,
+    "reproduced_unrounded": 10.29073532714396,
+    "reproduced": 10.29,
+    "grade": "A",
+    "deviation_pct": 0.2923976608187072,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.5603708196957139,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_ic|lo": {
+   "published_raw": "0.976",
+   "metric_type": "CI",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9241393457596786,
+     "reproduced_unrounded": 0.9241393457596786,
+     "reproduced": 0.924,
+     "grade": "B",
+     "deviation_pct": 5.32786885245901,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9767405059944372,
+     "reproduced_unrounded": 0.9767405059944372,
+     "reproduced": 0.977,
+     "grade": "A",
+     "deviation_pct": 0.10245901639344271,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.950439925877058,
+    "reproduced_unrounded": 0.950439925877058,
+    "reproduced": 0.95,
+    "grade": "B",
+    "deviation_pct": 2.6639344262295106,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.389463138807232,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "sp_ic|hi": {
+   "published_raw": "2.063",
+   "metric_type": "CI",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.9957829523635588,
+     "reproduced_unrounded": 1.9957829523635588,
+     "reproduced": 1.996,
+     "grade": "B",
+     "deviation_pct": 3.247697527872039,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.0583026626409087,
+     "reproduced_unrounded": 2.0583026626409087,
+     "reproduced": 2.058,
+     "grade": "A",
+     "deviation_pct": 0.2423654871546455,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0270428075022338,
+    "reproduced_unrounded": 2.0270428075022338,
+    "reproduced": 2.027,
+    "grade": "A",
+    "deviation_pct": 1.7450315075133314,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.0305240076272324,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "sp_ic|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.3831665112353032e-07,
+     "reproduced_unrounded": 1.3831665112353032e-07,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.7960658149903347e-08,
+     "reproduced_unrounded": 3.7960658149903347e-08,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.813865463671683e-08,
+    "reproduced_unrounded": 8.813865463671683e-08,
+    "reproduced": 0.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true,
+    "bound_satisfied": true
+   },
+   "run_spread_pct": 0.010035599297362698,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_oc|eff": {
+   "published_raw": "0.191",
+   "metric_type": "effect",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.12927591910285985,
+     "reproduced_unrounded": 0.12927591910285985,
+     "reproduced": 0.129,
+     "grade": "C",
+     "deviation_pct": 32.460732984293195,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.18729312850689706,
+     "reproduced_unrounded": 0.18729312850689706,
+     "reproduced": 0.187,
+     "grade": "B",
+     "deviation_pct": 2.094240837696337,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.15828452380487845,
+    "reproduced_unrounded": 0.15828452380487845,
+    "reproduced": 0.158,
+    "grade": "B",
+    "deviation_pct": 17.277486910994767,
+    "sign_match": true
+   },
+   "run_spread_pct": 30.37550230577864,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "B"
+   ],
+   "median_grade": "C"
+  },
+  "sp_oc|m1": {
+   "published_raw": "10.46",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.448758269297208,
+     "reproduced_unrounded": 10.448758269297208,
+     "reproduced": 10.45,
+     "grade": "A",
+     "deviation_pct": 0.09560229445508187,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.4562874251497,
+     "reproduced_unrounded": 10.4562874251497,
+     "reproduced": 10.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.452522847223454,
+    "reproduced_unrounded": 10.452522847223454,
+    "reproduced": 10.45,
+    "grade": "A",
+    "deviation_pct": 0.09560229445508187,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.07198045748080016,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_oc|m2": {
+   "published_raw": "10.26",
+   "metric_type": "mean",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.319482350194349,
+     "reproduced_unrounded": 10.319482350194349,
+     "reproduced": 10.32,
+     "grade": "A",
+     "deviation_pct": 0.5847953216374318,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.261988304093569,
+     "reproduced_unrounded": 10.261988304093569,
+     "reproduced": 10.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "arithmetic mean over valid runs"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.29073532714396,
+    "reproduced_unrounded": 10.29073532714396,
+    "reproduced": 10.29,
+    "grade": "A",
+    "deviation_pct": 0.2923976608187072,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.5603708196957139,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sp_oc|lo": {
+   "published_raw": "-0.347",
+   "metric_type": "CI",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": -0.40150597874906946,
+     "reproduced_unrounded": -0.40150597874906946,
+     "reproduced": -0.402,
+     "grade": "B",
+     "deviation_pct": 15.850144092219034,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.3483792201704675,
+     "reproduced_unrounded": -0.3483792201704675,
+     "reproduced": -0.348,
+     "grade": "A",
+     "deviation_pct": 0.2881844380403461,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.3749425994597685,
+    "reproduced_unrounded": -0.3749425994597685,
+    "reproduced": -0.375,
+    "grade": "B",
+    "deviation_pct": 8.069164265129691,
+    "sign_match": true
+   },
+   "run_spread_pct": 15.310305065879524,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "sp_oc|hi": {
+   "published_raw": "0.729",
+   "metric_type": "CI",
+   "unit": "mm",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6600578169547892,
+     "reproduced_unrounded": 0.6600578169547892,
+     "reproduced": 0.66,
+     "grade": "B",
+     "deviation_pct": 9.46502057613168,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7229654771842616,
+     "reproduced_unrounded": 0.7229654771842616,
+     "reproduced": 0.723,
+     "grade": "A",
+     "deviation_pct": 0.8230452674897127,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6915116470695254,
+    "reproduced_unrounded": 0.6915116470695254,
+    "reproduced": 0.692,
+    "grade": "B",
+    "deviation_pct": 5.075445816186561,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.629308673453014,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "sp_oc|p": {
+   "published_raw": "0.486",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6324004019055292,
+     "reproduced_unrounded": 0.6324004019055292,
+     "reproduced": 0.632,
+     "grade": "C",
+     "deviation_pct": 30.04115226337449,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_random_intercept(sp, log=False) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.4931566677848964,
+     "reproduced_unrounded": 0.4931566677848964,
+     "reproduced": 0.493,
+     "grade": "A",
+     "deviation_pct": 1.440329218106997,
+     "sign_match": true,
+     "stars": "",
+     "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5627785348452128,
+    "reproduced_unrounded": 0.5627785348452128,
+    "reproduced": 0.563,
+    "grade": "B",
+    "deviation_pct": 15.843621399176946,
+    "sign_match": true
+   },
+   "run_spread_pct": 28.650974098895627,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "mi_io|eff": {
+   "published_raw": "2.294",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.9457650661786072,
+     "reproduced_unrounded": 1.9457650661786072,
+     "reproduced": 1.946,
+     "grade": "B",
+     "deviation_pct": 15.170008718395819,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.9516619654015033,
+     "reproduced_unrounded": 1.9516619654015033,
+     "reproduced": 1.952,
+     "grade": "B",
+     "deviation_pct": 14.908456843940717,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.9487135157900553,
+    "reproduced_unrounded": 1.9487135157900553,
+    "reproduced": 1.949,
+    "grade": "B",
+    "deviation_pct": 15.039232781168263,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.25705750753688084,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_io|m1": {
+   "published_raw": "0.36",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.2638536888403061,
+     "reproduced_unrounded": 0.2638536888403061,
+     "reproduced": 0.26,
+     "grade": "C",
+     "deviation_pct": 27.777777777777775,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.35185185185185186,
+     "reproduced_unrounded": 0.35185185185185186,
+     "reproduced": 0.35,
+     "grade": "B",
+     "deviation_pct": 2.7777777777777803,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean mistake count per run"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.30785277034607894,
+    "reproduced_unrounded": 0.30785277034607894,
+    "reproduced": 0.31,
+    "grade": "B",
+    "deviation_pct": 13.888888888888888,
+    "sign_match": true
+   },
+   "run_spread_pct": 24.44393416987383,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "B"
+   ],
+   "median_grade": "C"
+  },
+  "mi_io|m2": {
+   "published_raw": "0.28",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.15555379667852445,
+     "reproduced_unrounded": 0.15555379667852445,
+     "reproduced": 0.16,
+     "grade": "D",
+     "deviation_pct": 42.85714285714286,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.2754491017964072,
+     "reproduced_unrounded": 0.2754491017964072,
+     "reproduced": 0.28,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean mistake count per run"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.21550144923746584,
+    "reproduced_unrounded": 0.21550144923746584,
+    "reproduced": 0.22,
+    "grade": "C",
+    "deviation_pct": 21.428571428571434,
+    "sign_match": true
+   },
+   "run_spread_pct": 42.81975182781526,
+   "runs_agree": false,
+   "run_grades": [
+    "D",
+    "A"
+   ],
+   "median_grade": "D"
+  },
+  "mi_io|lo": {
+   "published_raw": "1.261",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.1146141323295875,
+     "reproduced_unrounded": 1.1146141323295875,
+     "reproduced": 1.115,
+     "grade": "B",
+     "deviation_pct": 11.578112609040438,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.1168303302050662,
+     "reproduced_unrounded": 1.1168303302050662,
+     "reproduced": 1.117,
+     "grade": "B",
+     "deviation_pct": 11.419508326724817,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.115722231267327,
+    "reproduced_unrounded": 1.115722231267327,
+    "reproduced": 1.116,
+    "grade": "B",
+    "deviation_pct": 11.498810467882617,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.17574923675485052,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_io|hi": {
+   "published_raw": "4.17",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.3966927055268417,
+     "reproduced_unrounded": 3.3966927055268417,
+     "reproduced": 3.4,
+     "grade": "B",
+     "deviation_pct": 18.465227817745806,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.4105309680258,
+     "reproduced_unrounded": 3.4105309680258,
+     "reproduced": 3.41,
+     "grade": "B",
+     "deviation_pct": 18.22541966426858,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.403611836776321,
+    "reproduced_unrounded": 3.403611836776321,
+    "reproduced": 3.4,
+    "grade": "B",
+    "deviation_pct": 18.465227817745806,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.3318528177208241,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_io|p": {
+   "published_raw": "0.007",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.019197130650204383,
+     "reproduced_unrounded": 0.019197130650204383,
+     "reproduced": 0.019,
+     "grade": "E",
+     "deviation_pct": 171.42857142857142,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.018875156621935483,
+     "reproduced_unrounded": 0.018875156621935483,
+     "reproduced": 0.019,
+     "grade": "E",
+     "deviation_pct": 171.42857142857142,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.01903614363606993,
+    "reproduced_unrounded": 0.01903614363606993,
+    "reproduced": 0.019,
+    "grade": "E",
+    "deviation_pct": 171.42857142857142,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.5996289752700035,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "mi_ic|eff": {
+   "published_raw": "2.453",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.1036813736310886,
+     "reproduced_unrounded": 2.1036813736310886,
+     "reproduced": 2.104,
+     "grade": "B",
+     "deviation_pct": 14.227476559315116,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.1108695703362335,
+     "reproduced_unrounded": 2.1108695703362335,
+     "reproduced": 2.111,
+     "grade": "B",
+     "deviation_pct": 13.94211169995922,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.107275471983661,
+    "reproduced_unrounded": 2.107275471983661,
+    "reproduced": 2.107,
+    "grade": "B",
+    "deviation_pct": 14.105177333876872,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.29303696311230376,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_ic|m1": {
+   "published_raw": "0.36",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.2638536888403061,
+     "reproduced_unrounded": 0.2638536888403061,
+     "reproduced": 0.26,
+     "grade": "C",
+     "deviation_pct": 27.777777777777775,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.35185185185185186,
+     "reproduced_unrounded": 0.35185185185185186,
+     "reproduced": 0.35,
+     "grade": "B",
+     "deviation_pct": 2.7777777777777803,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean mistake count per run"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.30785277034607894,
+    "reproduced_unrounded": 0.30785277034607894,
+    "reproduced": 0.31,
+    "grade": "B",
+    "deviation_pct": 13.888888888888888,
+    "sign_match": true
+   },
+   "run_spread_pct": 24.44393416987383,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "B"
+   ],
+   "median_grade": "C"
+  },
+  "mi_ic|m2": {
+   "published_raw": "0.22",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.14557678050123804,
+     "reproduced_unrounded": 0.14557678050123804,
+     "reproduced": 0.15,
+     "grade": "C",
+     "deviation_pct": 31.818181818181824,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.21637426900584794,
+     "reproduced_unrounded": 0.21637426900584794,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean mistake count per run"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.180975524753543,
+    "reproduced_unrounded": 0.180975524753543,
+    "reproduced": 0.18,
+    "grade": "B",
+    "deviation_pct": 18.181818181818183,
+    "sign_match": true
+   },
+   "run_spread_pct": 32.1806765930045,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "mi_ic|lo": {
+   "published_raw": "1.353",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.2016279679795792,
+     "reproduced_unrounded": 1.2016279679795792,
+     "reproduced": 1.202,
+     "grade": "B",
+     "deviation_pct": 11.16038433111604,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.204427168004208,
+     "reproduced_unrounded": 1.204427168004208,
+     "reproduced": 1.204,
+     "grade": "B",
+     "deviation_pct": 11.012564671101257,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.2030275679918936,
+    "reproduced_unrounded": 1.2030275679918936,
+    "reproduced": 1.203,
+    "grade": "B",
+    "deviation_pct": 11.086474501108642,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.20688839797700342,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_ic|hi": {
+   "published_raw": "4.447",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.6828997324383113,
+     "reproduced_unrounded": 3.6828997324383113,
+     "reproduced": 3.683,
+     "grade": "B",
+     "deviation_pct": 17.180121430177653,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.6994933868478697,
+     "reproduced_unrounded": 3.6994933868478697,
+     "reproduced": 3.699,
+     "grade": "B",
+     "deviation_pct": 16.820328311221054,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.6911965596430907,
+    "reproduced_unrounded": 3.6911965596430907,
+    "reproduced": 3.691,
+    "grade": "B",
+    "deviation_pct": 17.000224870699352,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.3731426671814347,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_ic|p": {
+   "published_raw": "0.003",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.009246335203930266,
+     "reproduced_unrounded": 0.009246335203930266,
+     "reproduced": 0.009,
+     "grade": "E",
+     "deviation_pct": 199.99999999999997,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.009061033811221694,
+     "reproduced_unrounded": 0.009061033811221694,
+     "reproduced": 0.009,
+     "grade": "E",
+     "deviation_pct": 199.99999999999997,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.00915368450757598,
+    "reproduced_unrounded": 0.00915368450757598,
+    "reproduced": 0.009,
+    "grade": "E",
+    "deviation_pct": 199.99999999999997,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.1767130902857605,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "mi_oc|eff": {
+   "published_raw": "1.07",
+   "metric_type": "effect",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.081158979672002,
+     "reproduced_unrounded": 1.081158979672002,
+     "reproduced": 1.08,
+     "grade": "A",
+     "deviation_pct": 0.9345794392523372,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.081575399714252,
+     "reproduced_unrounded": 1.081575399714252,
+     "reproduced": 1.08,
+     "grade": "A",
+     "deviation_pct": 0.9345794392523372,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0813671896931272,
+    "reproduced_unrounded": 1.0813671896931272,
+    "reproduced": 1.08,
+    "grade": "A",
+    "deviation_pct": 0.9345794392523372,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.03891776095795002,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "mi_oc|m1": {
+   "published_raw": "0.28",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.15555379667852445,
+     "reproduced_unrounded": 0.15555379667852445,
+     "reproduced": 0.16,
+     "grade": "D",
+     "deviation_pct": 42.85714285714286,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.2754491017964072,
+     "reproduced_unrounded": 0.2754491017964072,
+     "reproduced": 0.28,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean mistake count per run"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.21550144923746584,
+    "reproduced_unrounded": 0.21550144923746584,
+    "reproduced": 0.22,
+    "grade": "C",
+    "deviation_pct": 21.428571428571434,
+    "sign_match": true
+   },
+   "run_spread_pct": 42.81975182781526,
+   "runs_agree": false,
+   "run_grades": [
+    "D",
+    "A"
+   ],
+   "median_grade": "D"
+  },
+  "mi_oc|m2": {
+   "published_raw": "0.22",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.14557678050123804,
+     "reproduced_unrounded": 0.14557678050123804,
+     "reproduced": 0.15,
+     "grade": "C",
+     "deviation_pct": 31.818181818181824,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.21637426900584794,
+     "reproduced_unrounded": 0.21637426900584794,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean mistake count per run"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.180975524753543,
+    "reproduced_unrounded": 0.180975524753543,
+    "reproduced": 0.18,
+    "grade": "B",
+    "deviation_pct": 18.181818181818183,
+    "sign_match": true
+   },
+   "run_spread_pct": 32.1806765930045,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "A"
+   ],
+   "median_grade": "C"
+  },
+  "mi_oc|lo": {
+   "published_raw": "0.578",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6032439503551542,
+     "reproduced_unrounded": 0.6032439503551542,
+     "reproduced": 0.603,
+     "grade": "B",
+     "deviation_pct": 4.325259515570938,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6026469920205163,
+     "reproduced_unrounded": 0.6026469920205163,
+     "reproduced": 0.603,
+     "grade": "B",
+     "deviation_pct": 4.325259515570938,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6029454711878353,
+    "reproduced_unrounded": 0.6029454711878353,
+    "reproduced": 0.603,
+    "grade": "B",
+    "deviation_pct": 4.325259515570938,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.10327998869167981,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_oc|hi": {
+   "published_raw": "1.981",
+   "metric_type": "CI",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.9376982374000151,
+     "reproduced_unrounded": 1.9376982374000151,
+     "reproduced": 1.938,
+     "grade": "B",
+     "deviation_pct": 2.1706208985361,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.9411120618805306,
+     "reproduced_unrounded": 1.9411120618805306,
+     "reproduced": 1.941,
+     "grade": "B",
+     "deviation_pct": 2.019182231196367,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.9394051496402729,
+    "reproduced_unrounded": 1.9394051496402729,
+    "reproduced": 1.939,
+    "grade": "B",
+    "deviation_pct": 2.1201413427561855,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.1723283432870028,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "mi_oc|p": {
+   "published_raw": "0.831",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.7932228314610632,
+     "reproduced_unrounded": 0.7932228314610632,
+     "reproduced": 0.793,
+     "grade": "B",
+     "deviation_pct": 4.572803850782181,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_logit(mi, Laplace) + contrast()"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7926994040228701,
+     "reproduced_unrounded": 0.7926994040228701,
+     "reproduced": 0.793,
+     "grade": "B",
+     "deviation_pct": 4.572803850782181,
+     "sign_match": true,
+     "stars": "",
+     "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.7929611177419666,
+    "reproduced_unrounded": 0.7929611177419666,
+    "reproduced": 0.793,
+    "grade": "B",
+    "deviation_pct": 4.572803850782181,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.06298765802564545,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  }
+ }
+}

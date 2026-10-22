@@ -1,0 +1,874 @@
+{
+ "paper": "B",
+ "table_id": "Table 2",
+ "caption": "Table 2. Summary statistics for methyl-2-chloroacetoacetate (M2CA) tested alone (n = 31).",
+ "rows": [
+  {
+   "id": "ec25_15",
+   "label": "EC25 (µM), 15 min"
+  },
+  {
+   "id": "ec25_30",
+   "label": "EC25 (µM), 30 min"
+  },
+  {
+   "id": "ec25_45",
+   "label": "EC25 (µM), 45 min"
+  },
+  {
+   "id": "ec50_15",
+   "label": "EC50 (µM), 15 min"
+  },
+  {
+   "id": "ec50_30",
+   "label": "EC50 (µM), 30 min"
+  },
+  {
+   "id": "ec50_45",
+   "label": "EC50 (µM), 45 min"
+  },
+  {
+   "id": "ec75_15",
+   "label": "EC75 (µM), 15 min"
+  },
+  {
+   "id": "ec75_30",
+   "label": "EC75 (µM), 30 min"
+  },
+  {
+   "id": "ec75_45",
+   "label": "EC75 (µM), 45 min"
+  },
+  {
+   "id": "slope_15",
+   "label": "Slope, 15 min"
+  },
+  {
+   "id": "slope_30",
+   "label": "Slope, 30 min"
+  },
+  {
+   "id": "slope_45",
+   "label": "Slope, 45 min"
+  },
+  {
+   "id": "s_15",
+   "label": "s (asymmetry), 15 min"
+  },
+  {
+   "id": "s_30",
+   "label": "s (asymmetry), 30 min"
+  },
+  {
+   "id": "s_45",
+   "label": "s (asymmetry), 45 min"
+  },
+  {
+   "id": "r2_15",
+   "label": "r2, 15 min"
+  },
+  {
+   "id": "r2_30",
+   "label": "r2, 30 min"
+  },
+  {
+   "id": "r2_45",
+   "label": "r2, 45 min"
+  },
+  {
+   "id": "tdt_15_45",
+   "label": "TDT (%), 15-45 min"
+  }
+ ],
+ "columns": [
+  {
+   "id": "mean",
+   "label": "Mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "sd",
+   "label": "Std. dev.",
+   "metric_type": "SD"
+  },
+  {
+   "id": "cv",
+   "label": "CV (%)",
+   "metric_type": "CV"
+  },
+  {
+   "id": "range",
+   "label": "Range",
+   "metric_type": "range"
+  },
+  {
+   "id": "sw",
+   "label": "SW-W (Shapiro-Wilk W)",
+   "metric_type": "W"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "ec25_15|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 4.058958877110864,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_15'])['mean']"
+  },
+  "ec25_15|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.8398674489935711,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_15'])['sd']"
+  },
+  "ec25_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 20.691696428109232,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_15'])['cv']"
+  },
+  "ec25_15|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 3.016238881790296,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_15'])['range']"
+  },
+  "ec25_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9425320177883539,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_15'])['sw']"
+  },
+  "ec25_30|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.8300487337149778,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_30'])['mean']"
+  },
+  "ec25_30|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.33585925107740977,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_30'])['sd']"
+  },
+  "ec25_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 18.35247580514533,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_30'])['cv']"
+  },
+  "ec25_30|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.1684464701359292,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_30'])['range']"
+  },
+  "ec25_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9559727702084103,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_30'])['sw']"
+  },
+  "ec25_45|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.0958879100850658,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_45'])['mean']"
+  },
+  "ec25_45|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.17951240173956035,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_45'])['sd']"
+  },
+  "ec25_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 16.380544039912447,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_45'])['cv']"
+  },
+  "ec25_45|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.6465891688997236,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_45'])['range']"
+  },
+  "ec25_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9641981059416632,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec25_45'])['sw']"
+  },
+  "ec50_15|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 9.639464429895028,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_15'])['mean']"
+  },
+  "ec50_15|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.889179134355702,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_15'])['sd']"
+  },
+  "ec50_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 19.5983827534729,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_15'])['cv']"
+  },
+  "ec50_15|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 6.6063826524128,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_15'])['range']"
+  },
+  "ec50_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9368795686894217,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_15'])['sw']"
+  },
+  "ec50_30|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 4.464329330541682,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_30'])['mean']"
+  },
+  "ec50_30|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.7794542390797998,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_30'])['sd']"
+  },
+  "ec50_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 17.459604374331054,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_30'])['cv']"
+  },
+  "ec50_30|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 2.6045117334121635,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_30'])['range']"
+  },
+  "ec50_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9426118444596354,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_30'])['sw']"
+  },
+  "ec50_45|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 2.7261133851264328,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_45'])['mean']"
+  },
+  "ec50_45|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.43727773007563525,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_45'])['sd']"
+  },
+  "ec50_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 16.040335389621184,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_45'])['cv']"
+  },
+  "ec50_45|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.5526806565869076,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_45'])['range']"
+  },
+  "ec50_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9583679105689832,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec50_45'])['sw']"
+  },
+  "ec75_15|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 21.17136807668424,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_15'])['mean']"
+  },
+  "ec75_15|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 4.588671980507197,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_15'])['sd']"
+  },
+  "ec75_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 21.673951177300836,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_15'])['cv']"
+  },
+  "ec75_15|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 16.617260417867666,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_15'])['range']"
+  },
+  "ec75_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9321846117595598,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_15'])['sw']"
+  },
+  "ec75_30|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 9.57134292172894,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_30'])['mean']"
+  },
+  "ec75_30|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.8014469947257368,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_30'])['sd']"
+  },
+  "ec75_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 18.821256426160193,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_30'])['cv']"
+  },
+  "ec75_30|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 5.952042203484238,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_30'])['range']"
+  },
+  "ec75_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9326527733335133,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_30'])['sw']"
+  },
+  "ec75_45|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 5.908113959753791,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_45'])['mean']"
+  },
+  "ec75_45|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.0181754438133326,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_45'])['sd']"
+  },
+  "ec75_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 17.233510571210495,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_45'])['cv']"
+  },
+  "ec75_45|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 3.376946326583105,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_45'])['range']"
+  },
+  "ec75_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9338058444030701,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['ec75_45'])['sw']"
+  },
+  "slope_15|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.5873501550747324,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_15'])['mean']"
+  },
+  "slope_15|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.17185879421817596,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_15'])['sd']"
+  },
+  "slope_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 10.826772761431762,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_15'])['cv']"
+  },
+  "slope_15|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7330271237330073,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_15'])['range']"
+  },
+  "slope_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9835793216155214,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_15'])['sw']"
+  },
+  "slope_30|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.7519961968462103,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_30'])['mean']"
+  },
+  "slope_30|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.14700702439701172,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_30'])['sd']"
+  },
+  "slope_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 8.390830109200056,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_30'])['cv']"
+  },
+  "slope_30|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6142016960417631,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_30'])['range']"
+  },
+  "slope_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9810907387109273,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_30'])['sw']"
+  },
+  "slope_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.7406010264673393,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_45'])['mean']"
+  },
+  "slope_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.15499389635834449,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_45'])['sd']"
+  },
+  "slope_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 8.90461938155434,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_45'])['cv']"
+  },
+  "slope_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7095242380016549,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_45'])['range']"
+  },
+  "slope_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.969815129970543,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['slope_45'])['sw']"
+  },
+  "s_15|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6922237602984679,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_15'])['mean']"
+  },
+  "s_15|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.21043307181113463,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_15'])['sd']"
+  },
+  "s_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 30.39957364659105,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_15'])['cv']"
+  },
+  "s_15|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 1.0291208070193105,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_15'])['range']"
+  },
+  "s_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9063176836543856,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_15'])['sw']"
+  },
+  "s_30|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.5346609955339783,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_30'])['mean']"
+  },
+  "s_30|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.08373395110413373,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_30'])['sd']"
+  },
+  "s_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 15.66112953882239,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_30'])['cv']"
+  },
+  "s_30|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.33452324901131564,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_30'])['range']"
+  },
+  "s_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9534771908225269,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_30'])['sw']"
+  },
+  "s_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.5230619327302632,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_45'])['mean']"
+  },
+  "s_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.07844361528887084,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_45'])['sd']"
+  },
+  "s_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 14.997003295463152,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_45'])['cv']"
+  },
+  "s_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.29896852306726945,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_45'])['range']"
+  },
+  "s_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9459493358892063,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['s_45'])['sw']"
+  },
+  "r2_15|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9976999263638546,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_15'])['mean']"
+  },
+  "r2_15|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0016347106175540467,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_15'])['sd']"
+  },
+  "r2_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 0.16384792404583964,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_15'])['cv']"
+  },
+  "r2_15|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.009161462143081778,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_15'])['range']"
+  },
+  "r2_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.652869929984569,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_15'])['sw']"
+  },
+  "r2_30|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9988005852913856,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_30'])['mean']"
+  },
+  "r2_30|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0007332560079553251,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_30'])['sd']"
+  },
+  "r2_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 0.07341365421220777,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_30'])['cv']"
+  },
+  "r2_30|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0036214970700566562,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_30'])['range']"
+  },
+  "r2_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.8302265647644234,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_30'])['sw']"
+  },
+  "r2_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9991060669174975,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_45'])['mean']"
+  },
+  "r2_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.000544455491995145,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_45'])['sd']"
+  },
+  "r2_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 0.05449426342439618,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_45'])['cv']"
+  },
+  "r2_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.002634795212021035,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_45'])['range']"
+  },
+  "r2_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.8840721954063822,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['r2_45'])['sw']"
+  },
+  "tdt_15_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 107.2144389323988,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['tdt_15_45'])['mean']"
+  },
+  "tdt_15_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 2.465921236456327,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['tdt_15_45'])['sd']"
+  },
+  "tdt_15_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 2.2999898717104212,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['tdt_15_45'])['cv']"
+  },
+  "tdt_15_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 10.506866223736807,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['tdt_15_45'])['range']"
+  },
+  "tdt_15_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9884569937728765,
+   "stars": "",
+   "source": "summary_stats(per_test_fits()['tdt_15_45'])['sw']"
+  }
+ },
+ "instructions": "Fill `value` (a number) for every cell and set `stars` to '' (the table prints none). `unit` gives the unit the table uses for that cell; concentrations are M2CA in µM."
+}

@@ -1,0 +1,10 @@
+- M3: 31 tests = test 1 (A alone) of all 30 combinations (incl. sham M2CA-M2CA) + test 2 (B alone, which is M2CA) of the sham. Rejected: using the sham's mixture test, or dropping to n=30.
+- S1: both duplicate replicates fitted as separate points (not averaged), unweighted ordinary least squares, multi-start least_squares. Rejected: averaging replicates, weighting.
+- S2: used Eq.1/2 as given (EC50-parameterised 5PL, max=100). Free params: EC50, Hill, s. Bounds EC50>1e-9, 0.1<s<10 (strict inequality approximated), Hill in [0.05,50] (my addition, to keep fits stable).
+- S3: max fixed at 100; automatic initial values replaced by a grid of starting values, best SSE kept.
+- S4: "slope" = Hill slope parameter. ECx solved analytically from the fitted curve: xb/((100/p)^(1/s)-1)^(1/Hill). r2 = 1 - SSres/SStot over all points of that time (raw replicates, around the mean of y).
+- S6: SD with n-1 denominator; range = max - min (single number); CV = SD/mean*100; Shapiro-Wilk W from scipy.
+- Data: 12 readings are "--------------" (missing); treated as missing and dropped from fits (affects BGE, DEM tests 1 and DES 2/3; only test 1/2 of M2CA-alone rows matter: BGE, DEM, DES test 2).
+- Controls are not in the deposit; not used (max fixed at 100, no min parameter).
+- TDT uses the formula as printed (0.667 factor), values exceed 100 as a result.
+- stars set to "" (table prints none).

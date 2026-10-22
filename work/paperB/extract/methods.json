@@ -1,0 +1,101 @@
+{
+ "paper": "B",
+ "citation": "Dawson DA, Schultz TW. Equations for estimating binary mixture toxicity: Methyl-2-chloroacetoacetate-containing combinations. Toxicology Reports 2025;14:101939. doi:10.1016/j.toxrep.2025.101939",
+ "research_question": {
+  "id": "RQ",
+  "text": "Characterise the toxicity of binary mixtures containing methyl-2-chloroacetoacetate (M2CA) in the Microtox assay; Table 2 reports how repeatable the 31 tests of M2CA alone were.",
+  "source_sentence": "The repeatability of the M2CA tests was assessed by calculating the mean, standard deviation, coefficient of variation (CV), range, and Shapiro-Wilk W values for each ECx, slope, s, r2, and TDT value.",
+  "gap": false
+ },
+ "setting": {
+  "id": "SET",
+  "population": "Bioluminescence inhibition in the marine bacterium Allovibrio fischeri (Microtox).",
+  "period": "Exposure readings at 15, 30 and 45 minutes.",
+  "site": "Laboratory (Microtox analyzer, 15 °C).",
+  "source_sentence": "The marine bacterium Allovibrio fischeri was the model organism for testing.",
+  "gap": false
+ },
+ "data_sources": [
+  {
+   "id": "D1",
+   "name": "OSF raw data deposited by the authors",
+   "summary": "For each of 30 binary combinations (M2CA = chemical A), three tests: A alone, B alone and the mixture, each with seven duplicated concentrations and % effect at 15, 30 and 45 min.",
+   "source_sentence": "Chemical A was always M2CA, while chemical B was one of the 30 chemicals noted in Table 1.",
+   "gap": false
+  }
+ ],
+ "general_manipulations": [
+  {
+   "id": "M1",
+   "description": "Each test: seven concentrations in duplicate plus a duplicated control; % effect is already computed from the light readings by the instrument software.",
+   "source_sentence": "Each test within a given combination had seven duplicated concentrations and a duplicated control.",
+   "gap": false
+  },
+  {
+   "id": "M2",
+   "description": "Readings after 15, 30 and 45 minutes of exposure.",
+   "source_sentence": "Toxicity assessments were made after 15-, 30-, and 45-minutes of chemical exposure.",
+   "gap": false
+  },
+  {
+   "id": "M3",
+   "description": "The 31 tests of M2CA alone: the A-alone test of each of the 30 combinations, plus the sham combination M2CA-M2CA, where chemical B is also M2CA.",
+   "source_sentence": "One combination was a sham (M2CA-M2CA), giving 31 tests of M2CA alone.",
+   "gap": true,
+   "gap_note": "Which test of the sham combination supplies the 31st M2CA-alone value is not stated (its B-alone test is M2CA tested alone)."
+  }
+ ],
+ "tables": [
+  {
+   "id": "T2",
+   "name": "Table 2",
+   "caption": "Summary statistics for methyl-2-chloroacetoacetate (M2CA) tested alone (n = 31).",
+   "row_labels": [],
+   "column_labels": [],
+   "table_specific_filters": [],
+   "specification": [
+    {
+     "id": "S1",
+     "description": "Each test's concentration-response data (y = % effect vs concentration x, in µM) are fitted separately at each exposure time with the 5PL-1P function: the five-parameter logistic without its minimum-effect parameter. Parameters: maximum effect, EC50, Hill slope, asymmetry s.",
+     "source_sentence": "User-developed program files fitted the raw data to sigmoid curves using the five-parameter logistic function from which the minimum effect parameter had been removed [14].",
+     "software": "SigmaPlot 15",
+     "gap": true,
+     "gap_note": "Whether the duplicate replicates are fitted as separate points or averaged first, and the least-squares weighting, are not stated."
+    },
+    {
+     "id": "S2",
+     "description": "Equation 1: y = max / (1 + (xb/x)^Hillslope)^s. Equation 2: xb = EC50 × 10^((1/Hillslope) × log10(2^(1/s) − 1)), so that y = max/2 at x = EC50.",
+     "source_sentence": "in which y = % effect, max = maximum effect, x = concentration, and s = asymmetry.",
+     "gap": true,
+     "gap_note": "The equations are printed with garbled layout. This reading (the standard 5PL with the minimum removed, parameterised by EC50) is the extractor's reconstruction."
+    },
+    {
+     "id": "S3",
+     "description": "Fitting constraints: EC50 > 0; 0.1 < s < 10; max fixed at 100. Initial values estimated automatically.",
+     "source_sentence": "The constraints used for fitting were: a) EC50 > 0, b) 0.1 < s < 10, c) max = 100.",
+     "gap": false
+    },
+    {
+     "id": "S4",
+     "description": "From each fit: EC25, EC50, EC75 (concentrations giving 25, 50 and 75 % effect on the fitted curve), slope, s, maximum effect and r2 (coefficient of determination).",
+     "source_sentence": "The following values were calculated for A, B and MX at each exposure duration: EC25, EC50, EC75, slope, s, maximum effect, and coefficient of determination (r2).",
+     "gap": true,
+     "gap_note": "'Slope' is not defined further; the Hill slope parameter of Eq. 1 is the natural reading. The r2 definition (1 − SSres/SStot over all points) is not stated."
+    },
+    {
+     "id": "S5",
+     "description": "Time-dependent toxicity per test, from its 15- and 45-min EC50s: TDT = ((EC50_15 − EC50_45) / (EC50_15 × 0.667)) × 100.",
+     "source_sentence": "TDT = ((15minEC50 − 45minEC50)/(15minEC50 × 0.667)) × 100",
+     "gap": false
+    },
+    {
+     "id": "S6",
+     "description": "Across the 31 M2CA-alone tests, for each quantity and time: mean, standard deviation, CV = SD/mean × 100, range, and Shapiro-Wilk W.",
+     "source_sentence": "The repeatability of the M2CA tests was assessed by calculating the mean, standard deviation, coefficient of variation (CV), range, and Shapiro-Wilk W values for each ECx, slope, s, r2, and TDT value.",
+     "gap": true,
+     "gap_note": "The SD denominator (n − 1 or n) is not stated, and neither is whether 'range' is max − min or the min-max interval (the table prints one number)."
+    }
+   ]
+  }
+ ]
+}

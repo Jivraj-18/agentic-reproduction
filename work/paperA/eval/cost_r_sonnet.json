@@ -1,0 +1,28 @@
+{
+ "label": "paperA r_sonnet",
+ "transcript": "r_sonnet.jsonl",
+ "api_requests": 7,
+ "cost_usd": 0.1667,
+ "visible_output_tokens_est": 3388,
+ "cost_at_least_usd": 0.1988,
+ "note": "cost_usd prices the tokens as logged; logged output is undercounted in subagent transcripts. cost_at_least_usd uses the visible output instead; hidden thinking tokens are not included.",
+ "by_model": {
+  "claude-sonnet-5-5": {
+   "input_tokens": 14,
+   "output_tokens": 177,
+   "cache_read_input_tokens": 227590,
+   "cache_write_5m_tokens": 47734,
+   "cache_write_1h_tokens": 0,
+   "cost_usd": 0.1667
+  }
+ },
+ "prices_per_mtok": {
+  "claude-sonnet-5-5": {
+   "input": 2.0,
+   "output": 10.0,
+   "cache_read": 0.2,
+   "cache_write_5m": 2.5,
+   "cache_write_1h": 4.0
+  }
+ }
+}

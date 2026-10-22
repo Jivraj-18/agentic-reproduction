@@ -1,0 +1,25 @@
+combinations in supplement: 30  parts: ['A', 'B(ACTUAL)A', 'B(M2CA)']
+sham B rows:
+     combination        part  time    ec25    ec50     ec75   slope       s      r2       tdt
+255   M2CA-M2CA     B(M2CA)    15  3.6332  8.3584  18.9152  1.3722  0.9119  0.9981       NaN
+256   M2CA-M2CA     B(M2CA)    30  1.7494  4.1237   9.0088  1.5579  0.6705  0.9988       NaN
+257   M2CA-M2CA     B(M2CA)    45  1.1652  2.7020   5.8632  1.5526  0.6976  0.9989       NaN
+258   M2CA-M2CA  B(ACTUAL)A    15  3.6332  8.3584  18.9152  1.3722  0.9119  0.9981       NaN
+259   M2CA-M2CA  B(ACTUAL)A    30  1.7494  4.1237   9.0088  1.5579  0.6705  0.9988       NaN
+260   M2CA-M2CA  B(ACTUAL)A    45  1.1652  2.7020   5.8632  1.5526  0.6976  0.9989  101.5087
+
+Table 2 recomputed from the AUTHORS' per-test values (n=31):
+s_30   mean=0.53465 (pub 0.55)  sd=0.083731 (pub 0.084)  cv=15.661 (pub 15.7)  range=0.3345 (pub 0.34)  sw=0.95346 (pub 0.953)
+r2_15  mean=0.99771 (pub 0.9977)  sd=0.0016371 (pub 0.002)  cv=0.16408 (pub 0.17)  range=0.0092 (pub 0.009)  sw=0.65441 (pub 0.659)
+r2_45  mean=0.99905 (pub 0.9991)  sd=0.0005697 (pub 0.001)  cv=0.057025 (pub 0.06)  range=0.0026 (pub 0.003)  sw=0.88191 (pub 0.875)
+r2_30  mean=0.99879 (pub 0.9988)  sd=0.00072844 (pub 0.001)  cv=0.072932 (pub 0.07)  range=0.0036 (pub 0.004)  sw=0.82942 (pub 0.830)
+s_15   mean=0.69222 (pub 0.69)  sd=0.21043 (pub 0.210)  cv=30.399 (pub 30.3)  range=1.0291 (pub 1.03)  sw=0.9063 (pub 0.906)
+s_45   mean=0.52686 (pub 0.52)  sd=0.078201 (pub 0.079)  cv=14.843 (pub 15.1)  range=0.2989 (pub 0.30)  sw=0.95268 (pub 0.946)
+
+[r_opus] per-test differences vs authors (|diff| in s_30 > 0.01, r2 > 0.0003):
+  M2CA-4NBB t=45: run s=0.4993 auth s=0.5860 | run r2=0.9997 auth r2=0.9982 | run ec50=2.431 auth 2.445
+  M2CA-EUG t=45: run s=0.4413 auth s=0.4632 | run r2=0.9981 auth r2=0.9979 | run ec50=2.742 auth 2.770
+
+[r_sonnet] per-test differences vs authors (|diff| in s_30 > 0.01, r2 > 0.0003):
+  M2CA-4NBB t=45: run s=0.4993 auth s=0.5860 | run r2=0.9997 auth r2=0.9982 | run ec50=2.431 auth 2.445
+  M2CA-EUG t=45: run s=0.4413 auth s=0.4632 | run r2=0.9981 auth r2=0.9979 | run ec50=2.742 auth 2.770

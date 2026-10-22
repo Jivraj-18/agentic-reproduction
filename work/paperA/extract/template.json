@@ -1,0 +1,595 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. Comparison of different knot tying techniques by run time, knot strength and knot-spread ability.",
+ "rows": [
+  {
+   "id": "time_io",
+   "label": "Time (sec): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "time_ic",
+   "label": "Time (sec): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "time_oc",
+   "label": "Time (sec): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "ks_io",
+   "label": "Knot strength (mm): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "ks_ic",
+   "label": "Knot strength (mm): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "ks_oc",
+   "label": "Knot strength (mm): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "sp_io",
+   "label": "Knot-spread ability (mm): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "sp_ic",
+   "label": "Knot-spread ability (mm): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "sp_oc",
+   "label": "Knot-spread ability (mm): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "mi_io",
+   "label": "Mistakes: Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "mi_ic",
+   "label": "Mistakes: Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "mi_oc",
+   "label": "Mistakes: Extracorporeal, open : Extracorporeal, closed"
+  }
+ ],
+ "columns": [
+  {
+   "id": "eff",
+   "label": "Ratio (a): geometric mean ratio, difference of means or odds ratio",
+   "metric_type": "effect"
+  },
+  {
+   "id": "m1",
+   "label": "Mean, first technique of the contrast (in brackets)",
+   "metric_type": "mean"
+  },
+  {
+   "id": "m2",
+   "label": "Mean, second technique of the contrast (in brackets)",
+   "metric_type": "mean"
+  },
+  {
+   "id": "lo",
+   "label": "95% CI lower",
+   "metric_type": "CI"
+  },
+  {
+   "id": "hi",
+   "label": "95% CI upper",
+   "metric_type": "CI"
+  },
+  {
+   "id": "p",
+   "label": "p-value (b)",
+   "metric_type": "p"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "time_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_io|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_io|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_ic|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_ic|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_oc|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_oc|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "time_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_io|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_io|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_ic|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_ic|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_oc|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_oc|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ks_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_io|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_io|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_io|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_io|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_io|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_ic|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_ic|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_ic|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_ic|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_ic|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_oc|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_oc|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_oc|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_oc|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_oc|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sp_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_io|m1": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_io|m2": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_ic|m1": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_ic|m2": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_oc|m1": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_oc|m2": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "mi_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  }
+ },
+ "instructions": "Fill `value` (a number; or a string such as '<x' for a bound) for every cell; set `stars` to '' (this table prints no significance markers). `unit` gives the unit the table uses for that cell."
+}

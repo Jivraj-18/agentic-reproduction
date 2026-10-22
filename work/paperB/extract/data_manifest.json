@@ -1,0 +1,34 @@
+{
+ "paper": "B",
+ "files": [
+  {
+   "name": "raw_crc.csv",
+   "role": "every table of 'M2CA Study - Raw Data.docx' in long form: combination, test (1-3 in the order deposited), concentrations, time, replicate, % effect",
+   "given_to_reproducer": true
+  }
+ ],
+ "required_inputs": [
+  {
+   "input": "M2CA-alone concentration-response, duplicates, 15/30/45 min, 30 combinations",
+   "availability": "full"
+  }
+ ],
+ "withheld_from_sandbox": [
+  {
+   "name": "M2CA Study - Supplemental Table - Endpoint Values.docx",
+   "reason": "authors' fitted ECx, slope, s and r2 per test: the answers"
+  },
+  {
+   "name": "M2CA Study - CA and IA slope and asymmetry values.docx",
+   "reason": "authors' fitted model outputs"
+  },
+  {
+   "name": "Table of TDT Analyses - M2CA-containing Binary Mixtures.docx",
+   "reason": "authors' TDT results"
+  },
+  {
+   "name": "SigmaPlot 15 - Mixture Toxicity Transforms and Procedures.docx",
+   "reason": "the authors' software procedures, beyond the Methods"
+  }
+ ]
+}

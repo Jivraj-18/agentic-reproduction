@@ -1,0 +1,58 @@
+{
+ "published_tokens": 100,
+ "answer_values": 0,
+ "unsearchable_cells": [],
+ "sandboxes": {
+  "r_opus": {
+   "inputs": [],
+   "data": [
+    {
+     "file": "data\\raw_crc.csv",
+     "token": "16",
+     "cells": [
+      "ec50_45|cv"
+     ],
+     "hits": 110
+    },
+    {
+     "file": "data\\raw_crc.csv",
+     "token": "0.61",
+     "cells": [
+      "slope_30|range"
+     ],
+     "hits": 6
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 116
+  },
+  "r_sonnet": {
+   "inputs": [],
+   "data": [
+    {
+     "file": "data\\raw_crc.csv",
+     "token": "16",
+     "cells": [
+      "ec50_45|cv"
+     ],
+     "hits": 110
+    },
+    {
+     "file": "data\\raw_crc.csv",
+     "token": "0.61",
+     "cells": [
+      "slope_30|range"
+     ],
+     "hits": 6
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 116
+  }
+ },
+ "pass": true
+}
