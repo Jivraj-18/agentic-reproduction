@@ -1,0 +1,8 @@
+- M3: Each variable analysed on its own available runs (time: 502 valid, strength 499, spread 500, mistakes 500); subjects with missing runs stay in with the runs they have. Rejected: dropping a run from all variables if any is missing.
+- M4: Time strings 'mm:ss' parsed as minutes:seconds into seconds. Rejected: hh:mm reading.
+- S1: Bracketed means = arithmetic mean over all valid runs per technique (seconds, mm), not geometric, not per-participant first. Mistakes mean = mean count of mistakes per run (not share of runs with >=1). Rejected: proportion with a mistake.
+- S2/S3/S4: Table 1 uses the model without technique x run interaction: outcome ~ technique + run(factor), random intercept per subject (no sequence term). Rejected: interaction model, sequence effect.
+- S5: Natural log; one delta knot strength of exactly 0 excluded from the knot-strength model (log undefined). Back-transformed with exp. Rejected: adding a constant.
+- S6: Logit random-intercept GLMM, own maximum-likelihood implementation with 15-point adaptive Gauss-Hermite quadrature (no lme4 available). Exponentiated to odds ratios.
+- S7: LMM fitted by REML (statsmodels), CIs and p from Wald z (95%, 1.96); GLMM Wald z from numerical Hessian. Rejected: Satterthwaite/Kenward-Roger df, profile likelihood.
+- S8: Contrast 'X : Y' = X relative to Y (e.g. A:B = A minus B on the model scale). Stars set to '' (no markers).

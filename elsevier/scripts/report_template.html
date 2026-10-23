@@ -1,0 +1,714 @@
+<title>Reproducibility Check · {{CLIENT}}</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: a sober journal-proof page. Narrow reading column for prose, full-width bands for tables. */
+:root {
+  --paper: #f7f8f9;
+  --sheet: #ffffff;
+  --ink: #1b2329;
+  --ink-2: #4a5761;
+  --ink-3: #74828c;
+  --rule: #d9dfe3;
+  --rule-2: #eceff1;
+  --accent: #1d5a73;
+  --accent-soft: #e3eef3;
+  --gap: #a35d00;
+  --gap-soft: #fdf3e2;
+  --g-a: #cfe9d4; --g-a-ink: #154d24;
+  --g-b: #e6f3d6; --g-b-ink: #3a5a12;
+  --g-c: #fbe7b5; --g-c-ink: #6b4a00;
+  --g-d: #f9cfa6; --g-d-ink: #7a3700;
+  --g-e: #f4b9b5; --g-e-ink: #7d1610;
+  --g-f: #e2e5e8; --g-f-ink: #4a5761;
+  --ok: #1e6b35; --bad: #a3231b;
+  --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+    --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+    --gap: #f0b45c; --gap-soft: #33280f;
+    --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+    --g-c: #4d3d10; --g-c-ink: #f7dd9a; --g-d: #573113; --g-d-ink: #f8c899;
+    --g-e: #5a1f1b; --g-e-ink: #f6bcb7; --g-f: #2c343a; --g-f-ink: #b2bec6;
+    --ok: #7fd396; --bad: #f2928a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+  --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+  --gap: #f0b45c; --gap-soft: #33280f;
+  --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+  --g-c: #4d3d10; --g-c-ink: #f7dd9a; --g-d: #573113; --g-d-ink: #f8c899;
+  --g-e: #5a1f1b; --g-e-ink: #f6bcb7; --g-f: #2c343a; --g-f-ink: #b2bec6;
+  --ok: #7fd396; --bad: #f2928a; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); border-bottom: 1px solid var(--rule); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet); }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding-block: 10px; }
+.brand { font: 600 15px/1.2 var(--serif); letter-spacing: .01em; }
+.brand span { color: var(--ink-3); font: 400 13px var(--sans); margin-left: 8px; }
+nav.tabs { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.tabs button { font: 500 14px var(--sans); color: var(--ink-2); background: none; border: 1px solid transparent; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+nav.tabs button:hover { background: var(--rule-2); }
+nav.tabs button[aria-selected="true"] { color: var(--accent); background: var(--accent-soft); border-color: var(--rule); }
+main { padding-block: 28px 64px; }
+section.band { margin-top: 40px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(22px, 2.6vw, 30px); line-height: 1.2; }
+h2 { font-size: 21px; line-height: 1.3; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+h2 .sub { font: 400 14px var(--sans); color: var(--ink-3); }
+h3 { font-size: 17px; }
+.eyebrow { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.prose { max-width: 70ch; }
+.prose p { margin: .6em 0; }
+.muted { color: var(--ink-3); }
+.small { font-size: 13px; }
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.grid2 > *, .grid3 > * { min-width: 0; }
+.stack { display: flex; flex-direction: column; gap: 12px; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+/* grade chips */
+.g { border-radius: 4px; padding: 1px 4px; font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.gA { background: var(--g-a); color: var(--g-a-ink); } .gB { background: var(--g-b); color: var(--g-b-ink); }
+.gC { background: var(--g-c); color: var(--g-c-ink); } .gD { background: var(--g-d); color: var(--g-d-ink); }
+.gE { background: var(--g-e); color: var(--g-e-ink); } .gF { background: var(--g-f); color: var(--g-f-ink); }
+.gN { color: var(--ink-3); }
+.pill { display: inline-flex; align-items: center; gap: 6px; font: 600 12px var(--sans); padding: 2px 8px; border-radius: 999px; border: 1px solid var(--rule); white-space: nowrap; }
+.pill.ok { color: var(--ok); } .pill.bad { color: var(--bad); }
+.pill.gap { color: var(--gap); background: var(--gap-soft); border-color: transparent; }
+.pill.cat { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
+/* headline */
+.paper-head > *, .stack > *, .sheet, .prose { min-width: 0; }
+.paper-head { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 900px) { .paper-head { grid-template-columns: 1fr; } }
+.meta-dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; margin: 14px 0 0; font-size: 14px; }
+.meta-dl dt { color: var(--ink-3); } .meta-dl dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.score-big { font: 600 28px/1.15 var(--serif); letter-spacing: .01em; }
+.score-big .sep { color: var(--ink-3); font-weight: 400; margin: 0 .2em; }
+.bar { display: flex; height: 14px; border-radius: 4px; overflow: hidden; margin: 12px 0; border: 1px solid var(--rule); }
+.bar span { display: block; height: 100%; }
+.kv { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; font-size: 14px; }
+.kv dt { color: var(--ink-2); } .kv dd { margin: 0; text-align: right; min-width: 0; overflow-wrap: anywhere; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+/* isolation */
+.iso-list { margin: 8px 0 0; padding-left: 18px; } .iso-list li { margin: 3px 0; }
+.audit { display: flex; flex-direction: column; gap: 8px; }
+.audit .head { display: flex; justify-content: space-between; gap: 8px; align-items: center; flex-wrap: wrap; }
+.audit .fig { font: 600 22px var(--serif); }
+/* methods */
+.mitem { display: grid; grid-template-columns: 64px minmax(0, 1fr) minmax(0, 1fr); gap: 16px; padding: 14px 0; border-top: 1px solid var(--rule-2); }
+.mitem:first-child { border-top: 0; }
+@media (max-width: 820px) { .mitem { grid-template-columns: 1fr; gap: 6px; } }
+.mid { font: 600 13px var(--mono); color: var(--ink-2); }
+.mid small { display: block; font: 400 11px var(--sans); color: var(--ink-3); text-transform: uppercase; letter-spacing: .06em; margin-top: 2px; }
+blockquote.src { margin: 0; padding: 0 0 0 12px; border-left: 2px solid var(--rule); font: italic 14px/1.5 var(--serif); color: var(--ink-2); }
+.mitem.isgap blockquote.src { border-left-color: var(--gap); }
+.gapnote { margin-top: 8px; padding: 8px 10px; background: var(--gap-soft); border-radius: 6px; font-size: 13.5px; }
+.gapnote b { color: var(--gap); }
+details.assume { margin-top: 12px; }
+details.assume summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+details.assume pre { white-space: pre-wrap; font: 12.5px/1.5 var(--mono); background: var(--rule-2); padding: 12px; border-radius: 6px; max-height: 380px; overflow: auto; }
+/* scorecard */
+.sc-controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; margin: 12px 0; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: 500 13px var(--sans); border: 0; background: var(--sheet); color: var(--ink-2); padding: 6px 12px; cursor: pointer; border-left: 1px solid var(--rule); }
+.seg button:first-child { border-left: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--sheet); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12.5px; color: var(--ink-2); }
+.legend span.g { margin-right: 4px; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.pair.wide { grid-template-columns: 1fr; }
+@media (max-width: 1000px) { .pair { grid-template-columns: 1fr; } }
+.tscroll { overflow-x: auto; background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; min-width: 0; }
+.tlabel { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); margin-bottom: 6px; }
+table.pt { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+table.pt th, table.pt td { padding: 5px 8px; text-align: left; vertical-align: baseline; white-space: nowrap; }
+table.pt thead th { font-weight: 600; border-bottom: 1px solid var(--ink-3); color: var(--ink-2); }
+table.pt thead tr.grp th { border-bottom: 1px solid var(--rule); text-align: center; font-family: var(--serif); }
+table.pt tbody tr { border-bottom: 1px solid var(--rule-2); }
+table.pt tbody tr:last-child { border-bottom: 1px solid var(--ink-3); }
+table.pt td.rl { color: var(--ink); white-space: normal; min-width: 150px; }
+table.pt td.v { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.cellnum { cursor: help; }
+.cellnum sup { font-size: 9px; margin-left: 1px; }
+.tip { position: fixed; z-index: 20; max-width: 340px; background: var(--sheet); color: var(--ink); border: 1px solid var(--rule); border-radius: 8px; box-shadow: 0 6px 24px rgba(0,0,0,.18); padding: 10px 12px; font-size: 13px; pointer-events: none; }
+.tip h4 { margin: 0 0 6px; font: 600 13px var(--sans); }
+.tip table { border-collapse: collapse; width: 100%; }
+.tip td { padding: 2px 6px 2px 0; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.tip td:first-child { font-family: var(--sans); color: var(--ink-3); }
+/* why */
+.rc { border-top: 1px solid var(--rule); padding-top: 18px; margin-top: 18px; }
+.rc:first-child { border-top: 0; margin-top: 0; padding-top: 0; }
+.rc-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; }
+.wording { margin: 12px 0; padding: 12px 14px; border-radius: 6px; background: var(--accent-soft); font: 15px/1.5 var(--serif); }
+.wording .eyebrow { display: block; margin-bottom: 4px; color: var(--accent); }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; margin-top: 12px; }
+.card { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.card .ch { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.card .ch b { font-size: 14px; }
+.card .vals { font-family: var(--mono); font-size: 14px; }
+.card .lbl { font: 600 11px var(--sans); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.card p { margin: 0; font-size: 13.5px; }
+.card code { font: 12px/1.45 var(--mono); background: var(--rule-2); padding: 6px 8px; border-radius: 4px; display: block; white-space: pre-wrap; overflow-wrap: anywhere; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; font-size: 13px; }
+/* overview */
+.flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin-top: 16px; }
+@media (max-width: 820px) { .flow { grid-template-columns: 1fr 1fr; gap: 12px 0; } }
+@media (max-width: 480px) { .flow { grid-template-columns: 1fr; } }
+.step { padding: 14px 16px; border-left: 1px solid var(--rule); }
+.step:first-child { border-left: 0; padding-left: 0; }
+@media (max-width: 820px) { .step { border-left: 0; padding-left: 0; } }
+.step .n { font: 600 12px var(--mono); color: var(--accent); }
+.step h3 { margin: 4px 0 6px; font-size: 16px; }
+.step p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.pcard { cursor: pointer; text-align: left; font: inherit; color: inherit; }
+.pcard:hover { border-color: var(--accent); }
+ul.caveats { padding-left: 18px; margin: 8px 0 0; } ul.caveats li { margin: 4px 0; }
+footer { color: var(--ink-3); font-size: 12.5px; padding-block: 24px 40px; border-top: 1px solid var(--rule); }
+@media (prefers-reduced-motion: no-preference) { .tabpanel { animation: fade .18s ease-out; } @keyframes fade { from { opacity: .4; } to { opacity: 1; } } }
+
+/* ---- plain-English layout: answer first, detail on demand ---- */
+.hero h1 { font-size: clamp(26px, 3.4vw, 38px); line-height: 1.15; max-width: 22ch; }
+.hero p.lead { font: 400 18px/1.55 var(--serif); max-width: 62ch; color: var(--ink-2); margin: 14px 0 0; }
+.answer { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 24px; margin-top: 22px; }
+.answer .verdict { font: 600 clamp(21px, 2.4vw, 27px)/1.3 var(--serif); max-width: 40ch; text-wrap: balance; margin: 6px 0 0; }
+.answer .verdict-note { margin: 10px 0 0; color: var(--ink-2); max-width: 64ch; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; margin-top: 20px; }
+.tile { text-align: left; font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; cursor: pointer; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tile:hover { border-color: var(--accent); }
+.tile[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 0 0 1px var(--accent); }
+.tile .pct { font: 600 38px/1.05 var(--serif); font-variant-numeric: tabular-nums; }
+.tile .pct small { font-size: 20px; }
+.tile .lab { font-weight: 600; }
+.tile .sub { font-size: 13px; color: var(--ink-2); }
+.tile .cnt { font: 500 13px var(--mono); color: var(--ink-3); margin-top: 6px; font-variant-numeric: tabular-nums; }
+.tile .go { font-size: 12.5px; color: var(--accent); margin-top: 6px; }
+.drill { margin-top: 16px; border-top: 1px solid var(--rule); padding-top: 16px; }
+.drill h3 { font-size: 18px; }
+.drill .hint { color: var(--ink-3); font-size: 13.5px; margin: 4px 0 10px; }
+.grp-h { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); margin: 16px 0 8px; }
+.items { display: flex; flex-direction: column; gap: 8px; }
+.item { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) auto; gap: 8px 16px; align-items: baseline; background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 14px; }
+@media (max-width: 760px) { .item { grid-template-columns: 1fr; } }
+.item .nm { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+.item .vs { font: 14px var(--mono); font-variant-numeric: tabular-nums; }
+.item .why { font-size: 13px; color: var(--accent); background: none; border: 0; padding: 0; cursor: pointer; text-align: left; text-decoration: underline; text-underline-offset: 2px; font-family: var(--sans); }
+.item .sev { font: 600 12px var(--sans); }
+.sev.off { color: var(--bad); } .sev.near { color: var(--gap); }
+details.matches { margin-top: 14px; }
+details.matches summary, details.more summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.mgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 20px; margin-top: 10px; font-size: 13.5px; }
+.mgrid div { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--rule-2); padding: 3px 0; min-width: 0; }
+.mgrid .v { font-family: var(--mono); color: var(--ink-2); white-space: nowrap; }
+.cause { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 20px; }
+.cause + .cause { margin-top: 14px; }
+.cause .tops { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; }
+.cause dl { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 8px 16px; margin: 14px 0 0; }
+@media (max-width: 640px) { .cause dl { grid-template-columns: 1fr; gap: 2px; } .cause dt { margin-top: 8px; } }
+.cause dt { font-weight: 600; color: var(--ink-2); } .cause dd { margin: 0; min-width: 0; }
+.flash { animation: flash 1.4s ease-out; }
+@keyframes flash { 0% { box-shadow: 0 0 0 3px var(--accent); } 100% { box-shadow: 0 0 0 0 transparent; } }
+.callout { background: var(--accent-soft); border-radius: 10px; padding: 20px 22px; }
+.callout p { margin: 6px 0 0; font: 18px/1.5 var(--serif); max-width: 62ch; }
+.money { display: flex; flex-wrap: wrap; gap: 8px 28px; align-items: baseline; margin-top: 8px; }
+.money .big { font: 600 30px/1 var(--serif); font-variant-numeric: tabular-nums; }
+.money .cap { color: var(--ink-2); font-size: 14px; max-width: 34ch; }
+details.more { background: var(--sheet); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 18px; }
+details.more + details.more { margin-top: 10px; }
+details.more[open] summary { margin-bottom: 12px; }
+details.more summary { font-size: 16px; }
+.glossary { margin: 10px 0 0; padding-left: 18px; font-size: 13.5px; color: var(--ink-2); }
+.minibars { display: grid; gap: 6px; margin: 12px 0 0; }
+.mb { display: grid; grid-template-columns: 9rem minmax(0, 1fr) 3.2rem; gap: 10px; align-items: center; font-size: 13.5px; }
+.mb .track { height: 10px; background: var(--rule-2); border-radius: 5px; overflow: hidden; }
+.mb .fill { height: 100%; background: var(--accent); }
+.mb .p { font: 600 13px var(--mono); text-align: right; }
+.link { color: var(--accent); background: none; border: 0; padding: 0; font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+</style>
+
+<header class="top"><div class="wrap">
+  <div class="brand">Reproducibility check<span>two {{CLIENT}} papers</span></div>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button role="tab" id="tab-method" aria-controls="panel-method" aria-selected="true">Overview</button>
+    <button role="tab" id="tab-A" aria-controls="panel-A" aria-selected="false">Paper A · Neurology</button>
+    <button role="tab" id="tab-B" aria-controls="panel-B" aria-selected="false">Paper B · Pharmacology</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <div class="tabpanel" id="panel-method" role="tabpanel" aria-labelledby="tab-method"></div>
+  <div class="tabpanel" id="panel-A" role="tabpanel" aria-labelledby="tab-A" hidden></div>
+  <div class="tabpanel" id="panel-B" role="tabpanel" aria-labelledby="tab-B" hidden></div>
+</main>
+<footer><div class="wrap">These are saved results from one run. Nothing on this page is calculated live. The publisher's name says whose papers were used; the page is not produced by or for the publisher. The marking is done by a fixed script, not by an AI. The explanations of why numbers differed are AI judgements, each tested by re-running a different reading of the Methods.</div></footer>
+<div class="tip" id="tip" hidden></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const PL = DATA.plain, COST = DATA.cost, MODELS = DATA.models;
+/* Each paper was rebuilt once per model. SEL holds the model shown in each paper tab. */
+const SEL = {};
+Object.keys(DATA.byModel[MODELS[0].id]).forEach(pid => { SEL[pid] = MODELS[0].id; });
+{ const h = (location.hash || "").slice(1).split("/"); const m = MODELS.find(x => x.id === "r_" + h[1]); if (m && h[0] in SEL) SEL[h[0]] = m.id; }
+function use(pid) { DATA.papers[pid] = DATA.byModel[SEL[pid]][pid]; PL.papers[pid] = DATA.plainByModel[SEL[pid]][pid]; }
+Object.keys(SEL).forEach(use);
+const mlabel = id => (MODELS.find(m => m.id === id) || {}).label || id;
+const usd = x => "$" + Number(x).toFixed(2);
+const dataLink = x => /^10\./.test(x) ? `https://doi.org/${x}` : `https://${x}`;
+const paperCost = (pid, model) => (COST[pid][model] ? COST[pid][model].at_least : 0) + (COST[pid].explainer ? COST[pid].explainer.at_least : 0);
+const GR = ["A","B","C","D","E","F"];
+const GRADE_KEY = [["A","within 2% of the published number"],["B","within 20%"],["C","20% to 40% off"],["D","40% to 60% off"],["E","more than 60% off, or pointing the other way"],["F","no number produced"]];
+const RUN_LABEL = {r_opus: "Claude Opus 5.5", r_sonnet: "Claude Sonnet 5.5", med: "Combined"};
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmtDev = d => d == null ? "–" : (d === Infinity || d >= 1000 ? "more than 10 times" : (d < 0.05 ? "0%" : d.toFixed(d < 10 ? 1 : 0) + "%"));
+const sig = u => u == null ? "–" : (Math.abs(u) >= 1000 ? u.toFixed(0) : Number(u.toPrecision(4)).toString());
+const money = x => "$" + (Number.isInteger(x) ? x : x.toFixed(2));
+const range = o => `$${o.low.toFixed(2)} to $${o.high.toFixed(2)}`;
+const fill = (t, v) => String(t).replace(/\{(\w+)\}/g, (m, k) => v[k] ?? m);
+const pc = (a, n) => n ? Math.round(100 * a / n) : 0;
+
+/* Numbers in prose are shown the way a reader would read them: two decimals; two significant figures below 0.1 (P values). */
+function roundText(t) {
+  return String(t ?? "").replace(/(?<![\w.])(-?)(\d+)\.(\d{3,})(?![\d])/g, (m, sgn, ip, fp) => {
+    const x = Number(`${ip}.${fp}`);
+    let r = x >= 100 ? x.toFixed(0) : x >= 0.1 ? x.toFixed(2) : Number(x.toPrecision(2)).toString();
+    return (sgn ? "−" : "") + r;
+  });
+}
+const tx = t => esc(roundText(t));
+function likePub(u, pub) {
+  if (u == null) return "–";
+  const m = String(pub ?? "").match(/\.(\d+)$/);
+  const dec = m ? m[1].length : 0;
+  const x = Math.round(u * 10 ** 9) / 10 ** 9;
+  return x.toFixed(dec).replace(/^-/, "−");
+}
+function legend() {
+  return `<div class="legend">` + GRADE_KEY.map(([g, t]) => `<span><span class="g g${g}">${g}</span>${t}</span>`).join("") + `</div>`;
+}
+
+/* ---------- numbers behind the headline ---------- */
+function stats(p) {
+  const keys = Object.keys(p.cells).filter(k => p.cells[k].graded);
+  return {
+    keys, n: keys.length,
+    exact: keys.filter(k => p.cells[k].mg === "A"),
+    close: keys.filter(k => ["A", "B"].includes(p.cells[k].mg)),
+    sign: keys.filter(k => p.cells[k].med.sg)
+  };
+}
+function vars(pid) {
+  const p = DATA.papers[pid], s = stats(p);
+  const fixable = (p.attribution.cells || []).filter(c => /^Original: underspecified/.test(c.category) && c.median_grade !== "A").length;
+  const v1 = p.v1 ? p.v1.summary.within_20pct_consensus : null;
+  return { n: s.n, p20: pc(s.close.length, s.n), pex: pc(s.exact.length, s.n), fixed_exact: s.exact.length + fixable,
+           v1p20: v1 ? pc(v1[0], v1[1]) : "" };
+}
+
+/* ---------- labels ---------- */
+function cellLabel(p, key) {
+  const [rid, cid] = key.split("|");
+  const row = p.rows.find(r => r.id === rid), col = p.columns.find(c => c.id === cid);
+  return `${row ? row.label : rid}: ${(p.meta.col_labels || {})[cid] || (col ? col.label : cid)}`;
+}
+const pubText = c => String(c.pub ?? "").replace(/^-/, "−");
+
+/* ---------- the numbers tab content shared by both views ---------- */
+function shownValue(c, view) {
+  if (!c.graded) return { text: "", grade: null };
+  const r = view === "med" ? c.med : c.runs[view];
+  const g = view === "med" ? c.mg : r.g;
+  if (!r) return { text: "–", grade: "F" };
+  let text;
+  if (r.v == null) text = (r.raw == null || r.raw === "") ? "—" : roundText(String(r.raw));
+  else if (typeof r.raw === "string" && /^[<>]/.test(r.raw)) text = roundText(r.raw);
+  else if (/^[<>]/.test(String(c.pub)) && r.u != null &&
+           (String(c.pub)[0] === "<" ? r.u < Number(String(c.pub).slice(1)) : r.u > Number(String(c.pub).slice(1))))
+    text = String(c.pub);
+  else {
+    const dec = (String(c.pub).split(".")[1] || "").length;
+    text = Number(r.v).toFixed(dec);
+  }
+  return { text: text.replace(/^-/, "−"), grade: g };
+}
+
+function renderTable(pid, which, view) {
+  const p = DATA.papers[pid], L = p.meta.layout;
+  const hasGroups = L.some(g => g.group);
+  let head = "";
+  if (hasGroups) head += `<tr class="grp"><th></th>${L.map(g => `<th colspan="${g.cols.length}">${esc(g.group)}</th>`).join("")}</tr>`;
+  head += `<tr><th>${esc(p.meta.row_head)}</th>${L.flatMap(g => g.cols).map(c => `<th>${esc(c.label)}</th>`).join("")}</tr>`;
+  const body = p.rows.map(r => {
+    const tds = L.flatMap(g => g.cols).map(col => {
+      if ([...col.fmt.matchAll(/\{(\w+)\}/g)].some(mm => !p.cells[`${r.id}|${mm[1]}`])) return `<td class="v"></td>`;
+      let fmt = col.fmt;
+      fmt = fmt.replace(/ ± \{(\w+)\}/g, (m, k) => p.cells[`${r.id}|${k}`].pub == null ? "" : m);
+      fmt = fmt.replace(/ \(\{(\w+)\}\)/g, (m, k) => p.cells[`${r.id}|${k}`].pub == null ? "" : m);
+      const html = esc(fmt).replace(/\{(\w+)\}/g, (m, k) => {
+        const key = `${r.id}|${k}`, c = p.cells[key];
+        if (which === "pub") {
+          const t = pubText(c);
+          const st = c.pstars && c.pstars !== "" ? `<sup>${esc(c.pstars)}</sup>` : "";
+          const mk = c.mark ? `<sup>${esc(c.mark)}</sup>` : "";
+          const cls = c.graded ? `g g${view === "med" ? c.mg : c.runs[view].g}` : "gN";
+          return `<span class="cellnum ${cls}" tabindex="0" data-k="${key}" data-p="${pid}">${esc(t)}${st}${mk}</span>`;
+        }
+        const sv = shownValue(c, view);
+        if (!c.graded) {
+          const rr = view === "med" ? Object.values(c.runs)[0] : c.runs[view];
+          const raw = rr && rr.raw != null ? (typeof rr.raw === "number" ? roundText(sig(rr.raw)) : rr.raw) : "";
+          return `<span class="cellnum gN" tabindex="0" data-k="${key}" data-p="${pid}" title="Not graded: the paper prints no number here">${esc(String(raw).replace(/^-/, "−"))}</span>`;
+        }
+        const rs = view === "med" ? c.runs[Object.keys(c.runs)[0]].s : c.runs[view].s;
+        const st = rs && rs !== "" ? `<sup>${esc(rs)}</sup>` : "";
+        return `<span class="cellnum g g${sv.grade}" tabindex="0" data-k="${key}" data-p="${pid}">${esc(sv.text)}${st}</span>`;
+      });
+      return `<td class="v">${html}</td>`;
+    }).join("");
+    return `<tr><td class="rl">${esc(r.label)}</td>${tds}</tr>`;
+  }).join("");
+  return `<table class="pt"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+}
+
+function tipHTML(pid, key) {
+  const p = DATA.papers[pid], c = p.cells[key];
+  let rows = `<tr><td>Published</td><td>${esc(pubText(c) || "not printed")}${c.pstars ? " " + esc(c.pstars) : ""}</td><td></td></tr>`;
+  for (const m of MODELS) {
+    const x = c.runs[m.id];
+    const val = x.u != null ? likePub(x.u, c.pub) : roundText(x.raw ?? "—");
+    rows += `<tr><td>${esc(m.short)}</td><td>${esc(String(val))}</td><td>${c.graded && x.g ? `<span class="g g${x.g}">${x.g}</span> ${fmtDev(x.d)}` : ""}</td></tr>`;
+  }
+  if (!c.graded) rows += `<tr><td colspan="3">Not graded: ${esc(c.why_not || "the paper prints no number here")}.</td></tr>`;
+  return `<h4>${esc(cellLabel(p, key))}</h4><table>${rows}</table>`;
+}
+
+/* ---------- home tab ---------- */
+function renderMethod() {
+  const pids = Object.keys(DATA.papers);
+  const card = pid => {
+    const p = DATA.papers[pid], s = stats(p), v = vars(pid);
+    const bar = (lab, n) => `<div class="mb"><span>${lab}</span><span class="track"><span class="fill" style="width:${pc(n, s.n)}%;display:block"></span></span><span class="p">${pc(n, s.n)}%</span></div>`;
+    const other = MODELS.filter(x => x.id !== SEL[pid]).map(x => { const t = stats(DATA.byModel[x.id][pid]); return `${esc(x.short)}: ${pc(t.exact.length, t.n)}% almost exact, ${pc(t.close.length, t.n)}% within 20%`; }).join("; ");
+    return `<button class="sheet pcard stack" data-go="${pid}">
+      <div class="eyebrow">Paper ${pid} · ${esc(p.meta.field)}</div>
+      <h3>${esc(PL.papers[pid].short)}</h3>
+      <div class="muted small"><i>${esc(p.meta.journal)}</i>. ${s.n} numbers checked.</div>
+      <p style="margin:0;font:600 18px/1.4 var(--serif)">${esc(fill(PL.papers[pid].verdict, v))}</p>
+      <div class="small muted">${esc(mlabel(SEL[pid]))}:</div>
+      <div class="minibars" style="margin-top:0">${bar("Almost exactly right", s.exact.length)}${bar("Within 20%", s.close.length)}${bar("Same direction", s.sign.length)}</div>
+      <div class="small muted">${other}</div>
+      <div class="small muted">About ${usd(paperCost(pid, SEL[pid]))} or more to check · see the details</div>
+    </button>`;
+  };
+  const costs = pids.map(pid => `<div><div class="big">${usd(paperCost(pid, MODELS[0].id))}</div><div class="cap">or more to check Paper ${pid} with ${esc(MODELS[0].short)} (the ${esc(MODELS[1].short)} run adds ${usd(COST[pid][MODELS[1].id] ? COST[pid][MODELS[1].id].at_least : 0)})</div></div>`).join("");
+  document.getElementById("panel-method").innerHTML = `
+  <div class="hero">
+    <div class="eyebrow">Reproducibility check</div>
+    <h1>Can a paper's results be rebuilt from its Methods?</h1>
+    <p class="lead">We gave an AI only the written Methods and the data a paper shares. It had to rebuild one results table without seeing the paper, its results or its code. Then we compared every number with the published one. Each paper was rebuilt twice: once by Claude Opus 5.5 and once by Claude Sonnet 5.5.</p>
+  </div>
+  <section class="band">
+    <h2>Two ${esc(DATA.client)} papers <span class="sub">select a paper for the full picture</span></h2>
+    <div class="grid2" style="margin-top:14px">${pids.map(card).join("")}</div>
+  </section>
+  <section class="band">
+    <h2>How it works</h2>
+    <div class="flow" aria-label="Steps">
+      <div class="step"><div class="n">1</div><h3>Summarise</h3><p>We turn the Methods into a checklist, each point with the sentence it came from. We also blank out the results table.</p></div>
+      <div class="step"><div class="n">2</div><h3>Rebuild</h3><p>An AI sees only the checklist, the blank table and the shared data. It writes code to fill the table. Two different AI models each do this once, from scratch.</p></div>
+      <div class="step"><div class="n">3</div><h3>Compare</h3><p>A fixed script compares each number with the published one. No AI is involved in the marking.</p></div>
+      <div class="step"><div class="n">4</div><h3>Explain</h3><p>For each number that differs, an AI finds the reason. It then tests whether a different reading of the Methods fixes it.</p></div>
+    </div>
+  </section>
+  <section class="band grid2">
+    <div class="sheet prose">
+      <h3>What a publisher could do with this</h3>
+      <p>Run the check when an author submits data with a paper. The editor gets a short report. It says which results the data reproduce, and which sentences in the Methods left the AI guessing. Each comes with a suggested fix.</p>
+      <p>Run it over a whole journal archive to see how complete the Methods are, journal by journal.</p>
+      <p>It flags issues for editors. It does not judge papers. A mismatch usually means the Methods left a choice open, not that a result is wrong.</p>
+    </div>
+    <div class="sheet prose">
+      <h3>What it cost</h3>
+      <div class="money">${costs}</div>
+      <p class="small muted">Each figure covers one AI rebuild and the explanation of every difference. A rebuild takes 1 to 4 minutes of AI time. These are lower bounds from each run's own token record at published prices: the hidden reasoning tokens cannot be counted. Building the pipeline and this page was a one-off and is not included.</p>
+      <p class="small muted">The rebuilds were done by Claude Opus 5.5 and Claude Sonnet 5.5; the explanations by Claude Opus 5.5. Each rebuild worked in its own folder with only the Methods and the data. We checked afterwards that none saw the answers.</p>
+    </div>
+  </section>
+  <section class="band">
+    <div class="sheet prose">
+      <h3>Limits</h3>
+      <ul class="caveats small">
+        <li>Two papers and two tables. This shows the method works. It is not a measure of how common the problems are.</li>
+        <li>One run per model. Where Opus and Sonnet differ, it can be chance: the same model can choose differently on another run. The page shows both, not the better one.</li>
+        <li>The explanations of why numbers differ are AI judgements. We tested each by re-running a different reading of the Methods, but no human reviewer has checked them yet.</li>
+        <li>Neither paper shared its analysis code, so we cannot see what the authors actually ran.</li>
+        <li>The publisher's name says whose papers were used. This page is not produced by or for the publisher.</li>
+      </ul>
+    </div>
+  </section>`;
+  document.querySelectorAll("[data-go]").forEach(b => b.addEventListener("click", () => selectTab(b.dataset.go)));
+}
+
+/* ---------- paper tab ---------- */
+function causeOf(p, key) {
+  const c = (p.attribution.cells || []).find(x => x.cell === key);
+  return c ? c.root_cause : null;
+}
+function itemHTML(p, key) {
+  const c = p.cells[key], rc = causeOf(p, key);
+  const pl = rc && PL.papers[p.pid].causes[rc];
+  const wrong = c.med.sg === false;
+  const far = ["C", "D", "E", "F"].includes(c.mg);
+  const sev = wrong ? "points the other way" : `off by ${fmtDev(c.med.d)}`;
+  return `<div class="item">
+    <div class="nm">${esc(cellLabel(p, key))}</div>
+    <div class="vs">Published ${esc(pubText(c))} · AI ${esc(shownValue(c, "med").text)}</div>
+    <div><span class="sev ${far || wrong ? "off" : "near"}">${sev}</span>${pl ? `<br><button class="why" data-cause="${p.pid}-${rc}">${esc(pl.title)}</button>` : ""}</div>
+  </div>`;
+}
+function drillHTML(p, tile) {
+  const s = stats(p);
+  const set = s[tile.id];
+  const miss = s.keys.filter(k => !set.includes(k));
+  const sev = k => GR.indexOf(p.cells[k].mg) * 1000 + (p.cells[k].med.d === Infinity ? 999 : (p.cells[k].med.d || 0));
+  miss.sort((a, b) => sev(b) - sev(a));
+  let body;
+  if (!miss.length) body = `<p class="hint">None. Every one of the ${s.n} numbers ${tile.verb}.</p>`;
+  else if (tile.id === "exact") {
+    const far = miss.filter(k => ["C", "D", "E", "F"].includes(p.cells[k].mg)), near = miss.filter(k => p.cells[k].mg === "B");
+    body = `<p class="hint">${miss.length} of ${s.n} are not an exact match. The biggest differences come first.</p>` +
+      (far.length ? `<div class="grp-h">More than 20% off (${far.length})</div><div class="items">${far.map(k => itemHTML(p, k)).join("")}</div>` : "") +
+      (near.length ? `<div class="grp-h">Between 2% and 20% off (${near.length})</div><div class="items">${near.map(k => itemHTML(p, k)).join("")}</div>` : "");
+  } else body = `<p class="hint">${miss.length} of ${s.n} ${miss.length === 1 ? "does" : "do"} not ${tile.neg}.</p><div class="items">${miss.map(k => itemHTML(p, k)).join("")}</div>`;
+  const rest = set.map(k => `<div><span>${esc(cellLabel(p, k))}</span><span class="v">${esc(pubText(p.cells[k]))}</span></div>`).join("");
+  return `<h3>${esc(tile.title)}</h3>${body}
+    <details class="matches"><summary>Show the ${set.length} that ${tile.verb}</summary><div class="mgrid">${rest}</div></details>`;
+}
+
+function renderPaper(pid) {
+  const p = DATA.papers[pid]; p.pid = pid;
+  const m = p.meta, s = stats(p), v = vars(pid), pl = PL.papers[pid], runs = p.runs;
+  const tiles = [
+    { id: "exact", pct: pc(s.exact.length, s.n), lab: "Almost exactly right", sub: "within 2% of the published number", n: s.exact.length, verb: "match almost exactly", neg: "match exactly", title: "Numbers that are not an exact match" },
+    { id: "close", pct: pc(s.close.length, s.n), lab: "Close enough", sub: "within 20% of the published number", n: s.close.length, verb: "are within 20%", neg: "come within 20%", title: "Numbers more than 20% off" },
+    { id: "sign", pct: pc(s.sign.length, s.n), lab: "Same direction", sub: "up or down, like the published number", n: s.sign.length, verb: "point the same way", neg: "point the same way", title: "Numbers pointing the other way" }
+  ];
+  /* audits in plain words */
+  const pFlags = runs.flatMap(r => p.audits[r]?.flagged || []);
+  const forb = pFlags.filter(f => !f.review || f.review.verdict !== "benign").length;
+  const webHits = pFlags.filter(f => /web|url/.test(f.class)).length;
+  const hFlags = runs.flatMap(r => p.audits[r]?.hc_flagged || []);
+  const hcFlag = hFlags.filter(f => !f.review || f.review.verdict !== "benign").length;
+  const totalAcc = runs.reduce((a, r) => a + (p.audits[r]?.accesses || 0), 0);
+  const totalCalls = runs.reduce((a, r) => a + (p.audits[r]?.tool_calls || 0), 0);
+  const lits = runs.reduce((a, r) => a + (p.audits[r]?.literals || 0), 0);
+  const leakIn = Object.values(p.leak.per_run).reduce((a, x) => a + x.inputs + x.answers, 0);
+  const reasons = fl => [...new Map(fl.filter(f => f.review).map(f => [f.review.reason, f])).values()]
+    .map(f => `<li>${fl.filter(x => x.review && x.review.reason === f.review.reason).length} × ${esc(f.review.reason)}</li>`).join("");
+  const pass = ok => `<span class="pill ${ok ? "ok" : "bad"}">${ok ? "Passed" : "Failed"}</span>`;
+  const seen = (p.manifest.files || []).filter(f => f.given_to_reproducer).map(f => `<li><span class="num">${esc(f.name)}</span>: ${esc(f.role)}</li>`).join("");
+  const withheld = (p.manifest.withheld_from_sandbox || []).map(w => `<li>${esc(w.name)}: ${esc(w.reason)}</li>`).join("");
+  const nGap = p.methods.filter(x => x.gap).length;
+  const sc = p.source_check;
+  const methods = p.methods.map(it => `
+    <div class="mitem ${it.gap ? "isgap" : ""}">
+      <div class="mid">${esc(it.id)}<small>${esc(it.section)}</small></div>
+      <div>${esc(it.text)}${it.gap ? `<div class="gapnote"><b>Left unsaid.</b> ${tx(it.gap_note)}</div>` : ""}${it.v2_change ? `<div class="small muted" style="margin-top:6px"><span class="pill cat">Corrected on the second attempt</span> ${esc(it.v2_change)}</div>` : ""}</div>
+      <blockquote class="src">“${esc(it.source)}”</blockquote>
+    </div>`).join("");
+  const assume = runs.map(r => p.assumptions[r] ? `<details class="assume"><summary>${RUN_LABEL[r]}: the choices the AI recorded</summary><pre>${tx(p.assumptions[r])}</pre></details>` : "").join("");
+  const perRun = MODELS.map(x => {
+    const t = stats(DATA.byModel[x.id][pid]);
+    return `<li>${esc(x.label)}: ${t.exact.length} of ${t.n} almost exact (${pc(t.exact.length, t.n)}%), ${t.close.length} within 20% (${pc(t.close.length, t.n)}%)</li>`;
+  }).join("");
+  const same = s.keys.filter(k => new Set(MODELS.map(x => p.cells[k].runs[x.id].g)).size === 1).length;
+
+  /* why numbers differed */
+  const rcs = (p.attribution.root_causes || []).map(rc => {
+    const cp = pl.causes[rc.id];
+    if (!cp) return "";
+    return `<div class="cause" id="cause-${pid}-${rc.id}">
+      <div class="tops"><h3>${esc(cp.title)}</h3><span class="pill ${cp.fix ? "cat" : ""}">${rc.cells.length} number${rc.cells.length === 1 ? "" : "s"}${cp.fix ? "" : ", not explained"}</span></div>
+      <dl>
+        <dt>What the paper leaves unsaid</dt><dd>${esc(cp.left_unsaid)}</dd>
+        <dt>What the AI did</dt><dd>${esc(cp.ai_did)}</dd>
+        <dt>What the authors did</dt><dd>${esc(cp.authors_did)}</dd>
+      </dl>
+      ${cp.fix ? `<div class="wording prose"><span class="eyebrow">One sentence that would have prevented it</span>${esc(cp.fix)}</div>` : `<p class="small muted" style="margin:14px 0 0">We could not find a reading of the Methods that explains these. We say so rather than guess.</p>`}
+    </div>`;
+  }).join("");
+
+  /* cost */
+  const cst = COST[pid];
+  const cost = `<div class="money">${MODELS.map(x => cst[x.id] ? `<div><div class="big">${usd(cst[x.id].at_least)}</div><div class="cap">or more: the ${esc(x.short)} rebuild run</div></div>` : "").join("")}${cst.explainer ? `<div><div class="big">${usd(cst.explainer.at_least)}</div><div class="cap">or more: explaining every difference (Opus 5.5)</div></div>` : ""}</div>`;
+  const first = p.v1 ? `
+    <details class="more"><summary>Our first attempt, and what went wrong</summary>
+      <div class="prose">
+        <p>On the first attempt, ${pc(p.v1.summary.within_20pct_consensus[0], p.v1.summary.within_20pct_consensus[1])}% of the numbers came within 20%. The AI that explains the differences found that most were our own mistakes in summarising the Methods, not the paper's. That is a real risk with this method: the summary step can lose detail.</p>
+        <ul class="caveats">${(PL.papers.B.v1_mistakes || []).map(t => `<li>${esc(t)}</li>`).join("")}</ul>
+        <p>We fixed the summary using only sentences quoted from the paper and ran three new AI runs. The page shows that second attempt. Both attempts are kept in the project files.</p>
+      </div>
+    </details>` : "";
+
+  document.getElementById("panel-" + pid).innerHTML = `
+  <div class="hero">
+    <div class="eyebrow">Paper ${pid} · ${esc(m.field)} · ${esc(DATA.client)}</div>
+    <h1 style="max-width:30ch">${esc(pl.short)}</h1>
+    <p class="lead">${esc(pl.what)}</p>
+    <p class="small muted" style="margin:10px 0 0"><i>${esc(m.journal)}</i> ${esc(m.year)} · DOI <a href="https://doi.org/${esc(m.doi)}" target="_blank" rel="noopener">${esc(m.doi)}</a> · Data on ${esc(m.data_repo)} <a href="${esc(dataLink(m.data_doi))}" target="_blank" rel="noopener">${esc(m.data_doi)}</a></p>
+  </div>
+
+  <div class="answer">
+    <div class="sc-controls" style="margin:0 0 10px"><span class="small muted">Results from</span><div class="seg" role="group" aria-label="Which AI model" id="mseg-${pid}">${MODELS.map(x => `<button type="button" data-model="${x.id}" aria-pressed="${x.id === SEL[pid]}">${esc(x.short)}</button>`).join("")}</div></div>
+    <div class="eyebrow">The answer · ${esc(mlabel(SEL[pid]))}</div>
+    <p class="verdict">${esc(fill(pl.verdict, v))}</p>
+    <p class="verdict-note">${esc(fill(pl.verdict_note, v))}</p>
+    <div class="tiles" id="tiles-${pid}" role="group" aria-label="Choose a measure to see what differed">
+      ${tiles.map((t, i) => `<button type="button" class="tile" data-tile="${t.id}" aria-pressed="${i === 0}">
+        <span class="pct">${t.pct}<small>%</small></span><span class="lab">${t.lab}</span><span class="sub">${t.sub}</span>
+        <span class="cnt">${t.n} of ${s.n} numbers</span><span class="go">${t.n < s.n ? "See the " + (s.n - t.n) + " that differ" : "See all " + s.n}</span></button>`).join("")}
+    </div>
+    <div class="drill" id="drill-${pid}" aria-live="polite"></div>
+  </div>
+
+  <section class="band">
+    <h2>Why the numbers differed</h2>
+    <div style="margin-top:14px">${rcs || `<div class="sheet"><p class="muted">Nothing to explain.</p></div>`}</div>
+    ${(pl.notes || []).length ? `<p class="small muted prose" style="margin-top:14px">Also noticed: ${esc(pl.notes.join(" "))}</p>` : ""}
+  </section>
+
+  <section class="band">
+    <div class="callout"><div class="eyebrow" style="color:var(--accent)">What this means</div><p>${esc(fill(pl.implication, v))}</p></div>${pl.model_note ? `<div class="callout" style="margin-top:12px"><div class="eyebrow" style="color:var(--accent)">Opus 5.5 and Sonnet 5.5 on this paper</div><p>${esc(pl.model_note)}</p></div>` : ""}
+  </section>
+
+  <section class="band">
+    <h2>What it cost</h2>
+    ${cost}
+    <p class="small muted prose" style="margin-top:12px">From each AI run's own record of tokens used, at published prices. These are lower bounds: the records count input exactly but log most replies with a placeholder output size, so we add the output we can see (code and text); the AI's hidden reasoning cannot be counted. Each rebuild run took 1 to 4 minutes. Summarising the Methods and building this page were done once and are not included.</p>
+  </section>
+
+  <section class="band">
+    <h2>The evidence <span class="sub">open any section for the detail</span></h2>
+    <div style="margin-top:14px">
+      ${first}
+      <details class="more"><summary>The full table, published and rebuilt side by side</summary>
+        <div class="sc-controls">
+          <div class="seg" role="group" aria-label="Which AI model" id="tseg-${pid}">
+            ${MODELS.map(x => `<button type="button" data-model="${x.id}" aria-pressed="${x.id === SEL[pid]}">${esc(x.short)}</button>`).join("")}
+          </div>
+          ${legend()}
+        </div>
+        <div class="pair ${m.layout.flatMap(g => g.cols).length > 4 ? "wide" : ""}" id="pair-${pid}"></div>
+        <p class="small muted">Hover over or select any number to see the published value, both models' values and how far off each was. Grey numbers are not graded: the paper prints no number there, or the shared data cannot give it.</p>
+        ${(m.glossary || []).length ? `<ul class="glossary">${m.glossary.map(([t, d]) => `<li><b>${esc(t)}:</b> ${esc(d)}</li>`).join("")}</ul>` : ""}
+      </details>
+      <details class="more"><summary>The Methods as the AI saw them (${p.methods.length} points, ${nGap} with something left unsaid)</summary>
+        <p class="small muted prose">Each point is next to the exact sentence it came from. ${sc ? `All ${sc.n} sentences were checked word for word against the paper. ` : ""}Points with something left unsaid are marked in amber.</p>
+        <div>${methods}</div>
+        ${assume}
+      </details>
+      <details class="more"><summary>How we know the AI could not see the answers</summary>
+        <div class="grid2">
+          <div class="prose small">
+            <h3>What it was given</h3>
+            <ul class="iso-list"><li>The Methods checklist (${p.methods.length} points), without the paper's title or DOI.</li><li>An empty copy of the results table.</li>${seen}<li>Rules: stay in your folder, do not use the internet, write down every choice.</li></ul>
+            <h3 style="margin-top:14px">What it was not given</h3>
+            <ul class="iso-list"><li>The paper, its results and its figures.</li><li>The published numbers.</li>${withheld}</ul>
+          </div>
+          <div class="stack">
+            <div class="sheet audit"><div class="head"><h3>Did the answers leak?</h3>${pass(p.leak.pass && leakIn === 0)}</div>
+              <div class="small">We searched every file the AI saw for the ${p.leak.tokens} published numbers${p.leak.answers ? ` and for ${p.leak.answers} more from the authors' own fitting output` : ""}. Found: <b>${leakIn}</b>.${(p.leak.reviewed || []).length ? ` Short numbers that also appear in the Methods wording were checked one by one: ${esc(p.leak.reviewed.join("; "))}.` : ""}${p.leak.unsearchable.length ? ` ${p.leak.unsearchable.length} published values are a single digit, so they cannot be searched.` : ""}</div></div>
+            <div class="sheet audit"><div class="head"><h3>Did it look anywhere else?</h3>${pass(forb === 0)}</div>
+              <div class="small">We read all ${totalCalls} commands the run made (${totalAcc} file paths). Opened outside its own folder: <b>${forb}</b>. Internet use: <b>${webHits}</b>.${pFlags.length ? ` The scan flagged ${pFlags.length} for a closer look. We checked each by hand:` : ""}</div>
+              ${pFlags.length ? `<ul class="iso-list small">${reasons(pFlags)}</ul>` : ""}</div>
+            <div class="sheet audit"><div class="head"><h3>Did it type in the answers?</h3>${pass(hcFlag === 0)}</div>
+              <div class="small">We searched the code for published numbers typed in by hand, among ${lits} numbers in the script. Found: <b>${hcFlag}</b>.${hFlags.length ? ` The scan flagged ${hFlags.length} for a closer look. We checked each by hand:` : ""}</div>
+              ${hFlags.length ? `<ul class="iso-list small">${reasons(hFlags)}</ul>` : ""}</div>
+          </div>
+        </div>
+      </details>
+      <details class="more"><summary>How the two models compare</summary>
+        <div class="prose small"><ul class="iso-list">${perRun}</ul>
+        <p>${same} of ${s.n} numbers got the same grade from both models. One run per model, so a difference can be chance.</p>
+        <p>Grading key: ${legend()}</p></div>
+      </details>
+    </div>
+  </section>`;
+
+  /* interactions */
+  const drill = document.getElementById("drill-" + pid);
+  const pick = id => {
+    document.querySelectorAll(`#tiles-${pid} .tile`).forEach(b => b.setAttribute("aria-pressed", b.dataset.tile === id));
+    drill.innerHTML = drillHTML(p, tiles.find(t => t.id === id));
+    drill.querySelectorAll("[data-cause]").forEach(b => b.addEventListener("click", () => {
+      const el = document.getElementById("cause-" + b.dataset.cause);
+      if (el) { el.scrollIntoView({ behavior: "smooth", block: "center" }); el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash"); }
+    }));
+  };
+  document.querySelectorAll(`#tiles-${pid} .tile`).forEach(b => b.addEventListener("click", () => pick(b.dataset.tile)));
+  pick("exact");
+  const draw = view => {
+    document.getElementById(`pair-${pid}`).innerHTML =
+      `<div class="tscroll"><div class="tlabel">Published</div>${renderTable(pid, "pub", view)}</div>
+       <div class="tscroll"><div class="tlabel">Rebuilt by the AI · ${RUN_LABEL[view]}</div>${renderTable(pid, "rep", view)}</div>`;
+  };
+  draw("med");
+  document.querySelectorAll(`#seg-${pid} button`).forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll(`#seg-${pid} button`).forEach(x => x.setAttribute("aria-pressed", x === b));
+    draw(b.dataset.view);
+  }));
+}
+
+/* ---------- tooltip ---------- */
+const tip = document.getElementById("tip");
+function showTip(el) {
+  tip.innerHTML = tipHTML(el.dataset.p, el.dataset.k);
+  tip.hidden = false;
+  const r = el.getBoundingClientRect(), tw = tip.offsetWidth, th = tip.offsetHeight;
+  let x = Math.min(Math.max(8, r.left + r.width / 2 - tw / 2), window.innerWidth - tw - 8);
+  let y = r.bottom + 8; if (y + th > window.innerHeight - 8) y = r.top - th - 8;
+  tip.style.left = x + "px"; tip.style.top = Math.max(8, y) + "px";
+}
+document.addEventListener("mouseover", e => { const el = e.target.closest(".cellnum"); if (el) showTip(el); });
+document.addEventListener("mouseout", e => { if (e.target.closest(".cellnum")) tip.hidden = true; });
+document.addEventListener("focusin", e => { const el = e.target.closest(".cellnum"); if (el) showTip(el); });
+document.addEventListener("focusout", e => { if (e.target.closest(".cellnum")) tip.hidden = true; });
+window.addEventListener("scroll", () => { tip.hidden = true; }, { passive: true });
+
+/* ---------- tabs ---------- */
+const tabs = ["method", "A", "B"];
+function selectTab(id) {
+  if (!tabs.includes(id)) id = "method";
+  tabs.forEach(t => {
+    document.getElementById("panel-" + t).hidden = t !== id;
+    document.getElementById("tab-" + t).setAttribute("aria-selected", t === id);
+  });
+  try { history.replaceState(null, "", "#" + id); } catch (e) {}
+  window.scrollTo(0, 0);
+}
+tabs.forEach(t => document.getElementById("tab-" + t).addEventListener("click", () => selectTab(t)));
+
+renderMethod(); renderPaper("A"); renderPaper("B");
+Object.keys(SEL).forEach(pid => { document.getElementById("tab-" + pid).textContent = DATA.papers[pid].meta.tab; });
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-model]"); if (!b) return;
+  const panel = b.closest(".tabpanel"); if (!panel) return;
+  const pid = panel.id.replace("panel-", "");
+  if (!(pid in SEL) || SEL[pid] === b.dataset.model) return;
+  const open = [...panel.querySelectorAll("details")].map(d => d.open), y = window.scrollY;
+  SEL[pid] = b.dataset.model; use(pid); renderPaper(pid); renderMethod();
+  panel.querySelectorAll("details").forEach((d, i) => { if (open[i]) d.open = true; });
+  window.scrollTo(0, y);
+  try { history.replaceState(null, "", "#" + pid + "/" + SEL[pid].replace(/^r_/, "")); } catch (err) {}
+});
+selectTab((location.hash || "").slice(1).split("/")[0]);
+</script>

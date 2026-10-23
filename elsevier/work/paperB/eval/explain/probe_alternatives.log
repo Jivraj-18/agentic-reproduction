@@ -1,0 +1,24 @@
+=== s_30 (published mean 0.55, SD 0.084, CV 15.7, range 0.34) ===
+run (opus)           mean=0.5347 median=0.5241 sd=0.0837 cv=15.66 range=0.3345
+authors supplement   mean=0.5347 median=0.5241 sd=0.0837 cv=15.66 range=0.3345
+implied mean from printed SD/CV: 0.084/0.157 = 0.535
+printed mean with printed SD gives CV 15.27 (printed 15.7)
+range double-rounded: 0.3345 -> 0.334 -> 0.33
+max/min s_30 authors: 0.7476 0.4131
+drop-one means range: 0.5276..0.5387
+needed sum for mean 0.545 (lowest value rounding to 0.55): 16.895 actual sum 16.574
+  s_15 authors mean 0.6922
+  s_45 authors mean 0.5269
+
+=== r2_15 CV (published 0.17; SD printed 0.002, mean 0.9977) ===
+run (opus)           mean=0.99770 sd=0.001635 cv(n-1)=0.1638 cv(n)=0.1612 sw=0.6529
+authors supplement   mean=0.99771 sd=0.001637 cv(n-1)=0.1641 cv(n)=0.1614 sw=0.6544
+rounded r2 to 3 dp: cv=0.1691 ; CV from printed SD/mean: 0.2005
+drop-one CVs: 0.0845..0.1669
+SD needed for CV to round to 0.17: >= 0.001646
+
+=== r2_45 CV (published 0.06) ===
+run (opus)           mean=0.99911 sd=0.000544 cv=0.0545 -> 0.05 sw=0.8841
+authors supplement   mean=0.99905 sd=0.000570 cv=0.0570 -> 0.06 sw=0.8819
+run values with authors' 4NBB and EUG 45-min r2 swapped in: cv=0.0572 -> 0.06
+only 4NBB swapped: cv=0.0558

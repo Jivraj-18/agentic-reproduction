@@ -1,0 +1,96 @@
+"""Writes eval/story.json and checks every non-A cell of each run sits in exactly one cause."""
+import json, os
+HERE = os.path.dirname(os.path.abspath(__file__)); EVAL = os.path.dirname(HERE)
+g = json.load(open(os.path.join(EVAL, "grades.json"), encoding="utf-8"))
+nonA = {r: sorted(k for k, c in g["cells"].items() if c["runs"][r]["grade"] != "A") for r in ("r_opus", "r_sonnet")}
+
+mi_model = [f"mi_{k}|{f}" for k in ("io", "ic") for f in ("eff", "lo", "hi", "p")] + ["mi_oc|lo", "mi_oc|hi", "mi_oc|p"]
+c1_cells = ["time_oc|p"] + mi_model
+c2_cells = ["ks_io|p", "ks_ic|eff", "ks_ic|hi", "ks_ic|p", "ks_oc|eff", "ks_oc|p"]
+c3_opus = [f"{v}_{k}|{m}" for v in ("time", "ks", "mi") for k in ("io", "ic", "oc") for m in ("m1", "m2")]
+c4_opus = ["sp_ic|eff", "sp_ic|lo", "sp_ic|hi", "sp_oc|eff", "sp_oc|lo", "sp_oc|hi", "sp_oc|p"]
+
+story = {
+ "short": "Laparoscopic knot-tying trial",
+ "what": "The table compares three ways of tying a knot in keyhole-surgery training (one tied inside the body, two tied outside and pushed in with a knot pusher) on time, knot tightness, how far the knot loop can be spread, and mistakes. Each row gives a ratio or difference between two techniques, the two average values, a 95% confidence range and a p-value.",
+ "verdict": "Not fully: both runs got the main time and spread results right, but neither could match the mistake odds ratios, several knot-strength values or some p-values, because the Methods leave out one model term and how a zero measurement was handled.",
+ "verdict_note": "Most misses come from two unstated choices: the authors' models also allowed for whether a technique was done first, second or third, and they set one zero knot-strength value to 0.1 mm instead of dropping it. With those two choices and the right kind of average, 69 of 72 cells match within 2%, and the other three are rounding edge cases.",
+ "implication": "One Methods sentence, 'All mixed models included technique, run and the position of the technique in the participant's sequence as fixed effects, with a random intercept per participant', would have prevented 12 to 13 misses per run. Journals could also ask authors to say how zero values were handled before a log transform and to define the averages printed in brackets.",
+ "model_note": "Both runs used the same model and missed the same 18 model cells. The Opus run also printed model-based (geometric) averages instead of plain averages and dropped a zero spread value, which cost it 25 more cells; the Sonnet run used plain averages and kept the zero, so it scored much better. With one run per model, this difference may be chance.",
+ "headline_cause": "c1",
+ "causes": [
+  {
+   "id": "c1",
+   "title": "Unstated adjustment for the order in which techniques were done",
+   "category": "Original: underspecified",
+   "cells": {"r_opus": c1_cells, "r_sonnet": c1_cells + ["sp_oc|eff"]},
+   "left_unsaid": "The Methods say the predictors were technique and run (first, second or third knot). They do not say the models also included the position of each technique in the participant's random order (done first, second or third). Only the Discussion hints at it: 'No difference was observed in terms of the sequence in which the techniques were implemented'.",
+   "ai_did": {"r_opus": "Fitted technique + run with a random intercept per participant, and no order term, for all four outcomes.",
+              "r_sonnet": "Same model as the Opus run: technique + run, random intercept per participant, no order term."},
+   "authors_did": "Evidently added the technique's position in the sequence (1st, 2nd or 3rd block, read from the 'sequence' column) as an extra factor in every mixed model, with mistakes fitted by the Laplace method (the R glmer default).",
+   "fix": "All mixed models included technique, run and the position of the technique within the participant's sequence (first, second or third block) as fixed effects, with a random intercept per participant.",
+   "evidence": "Adding the position term moves the mistake odds ratios from 1.95 / 2.10 / 1.08 to 2.294 / 2.453 / 1.070, with ranges 1.261-4.171, 1.353-4.447, 0.578-1.981 and p = 0.0065 / 0.0031 / 0.831, all as printed. The time p-value for open vs closed moves from 0.638 to 0.563 and the spread difference from 0.187 to 0.191. Across the 48 model cells, grade A rises from 34 to 47.",
+   "example": {"cell": "mi_io|eff", "published": "2.294", "ai": {"r_opus": "1.946", "r_sonnet": "1.952"}, "alternative": "2.294"},
+   "script": "eval/explain/c_position.py"
+  },
+  {
+   "id": "c2",
+   "title": "One zero knot-strength value set to 0.1 mm",
+   "category": "Original: underspecified",
+   "cells": {"r_opus": c2_cells, "r_sonnet": c2_cells},
+   "left_unsaid": "Knot strength is log-transformed, but one knot (participant 16, closed pusher, first run) has a value of exactly 0, and the log of 0 is undefined. The paper does not say what was done with it.",
+   "ai_did": {"r_opus": "Treated the zero as a failed knot and dropped it from the knot-strength model (and from spread).",
+              "r_sonnet": "Dropped the zero from the knot-strength model only."},
+   "authors_did": "Evidently replaced the 0 with 0.1 mm, the smallest step the data are recorded in, and kept the knot. The paper's own Table 2 confirms it: the closed pusher's first-run mean is printed 5.59, which only the 0.1 reading gives (5.586; dropping the knot gives 5.68).",
+   "fix": "One knot with a length change of 0 mm was set to 0.1 mm (the measuring resolution) before log transformation.",
+   "evidence": "With the zero set to 0.1 mm (and the order term from c1), the knot-strength ratios become 0.827 / 0.966 / 1.168 with p = 0.042 / 0.709 / 0.092, against printed 0.827 / 0.966 / 1.168 and 0.043 / 0.709 / 0.092. Dropping the zero gives 0.945 and 1.142 with p = 0.54 and 0.14. Values of 0.5 or 0.05 fit worse. The last gap (0.042 vs 0.043) closes with a t reference of about 437 degrees of freedom, which gives 0.0426.",
+   "example": {"cell": "ks_oc|p", "published": "0.092", "ai": {"r_opus": "0.141", "r_sonnet": "0.140"}, "alternative": "0.092"},
+   "script": "eval/explain/c_zero_knot.py"
+  },
+  {
+   "id": "c3",
+   "title": "Which average is printed in brackets",
+   "category": "Original: underspecified",
+   "cells": {"r_opus": c3_opus, "r_sonnet": ["mi_io|m1", "mi_ic|m1"]},
+   "left_unsaid": "The bracketed values sit under the heading 'means' but the paper does not say which mean: a plain average of all knots, a model-based (geometric) average, or something else. For mistakes it does not say whether it is the average number of mistakes or the share of knots with a mistake.",
+   "ai_did": {"r_opus": "Printed model-based averages back-transformed from the log scale (geometric means), and for mistakes the model's predicted chance of at least one mistake. These are 5% to 45% below the printed values.",
+              "r_sonnet": "Printed the plain average over all valid knots, and the average mistake count. This matches every value except the intracorporeal mistake average (0.352 vs 0.36)."},
+   "authors_did": "Took the plain average for each run (the values printed in the paper's Table 2) and then averaged the three runs. For mistakes this is the average number of mistakes, not the share of knots with a mistake.",
+   "fix": "Bracketed values are the arithmetic means of the three per-run means for each technique (for mistakes, the mean number of mistakes per knot).",
+   "evidence": "Averaging the three run means gives 386.6 / 279.5 / 255.7 s, 3.80 / 4.92 / 4.96 mm and 0.356 / 0.275 / 0.216 mistakes, the printed values (0.275 is exactly 11/40 and prints as 0.28 in R). The plain average over all knots gives 382.3 s and 0.352 for the intracorporeal technique; the Opus run's model-based values were 328.9 s, 2.99 mm and 0.26.",
+   "example": {"cell": "time_io|m1", "published": "386.6", "ai": {"r_opus": "328.9", "r_sonnet": "382.3"}, "alternative": "386.6"},
+   "script": "eval/explain/c_means.py"
+  },
+  {
+   "id": "c4",
+   "title": "Opus run dropped a recorded zero spread value",
+   "category": "Reproducer choice",
+   "cells": {"r_opus": c4_opus, "r_sonnet": []},
+   "left_unsaid": "Nothing essential: the deposit records this knot's spread as 0 (not N/A, which the data use for runs that could not be measured), and spread is not log-transformed, so nothing forces it out.",
+   "ai_did": {"r_opus": "Judged a 0 mm loop to be a failed knot and set its spread to missing, leaving 499 instead of 500 values.",
+              "r_sonnet": "Kept the zero (500 values); its spread cells were right except one, which c1 explains."},
+   "authors_did": "Kept the zero spread value in the spread model.",
+   "fix": "None needed in the paper; a reproducer should keep values the data record as measured.",
+   "evidence": "Dropping the zero gives closed vs intracorporeal 1.460 (0.926 to 1.994) and open vs closed 0.129 (-0.400 to 0.659, p = 0.632), the Opus values. Keeping it, with the c1 order term, gives 1.519 (0.977 to 2.061) and 0.191 (-0.346 to 0.728, p = 0.485), the printed values.",
+   "example": {"cell": "sp_oc|eff", "published": "0.191", "ai": {"r_opus": "0.129", "r_sonnet": "0.187"}, "alternative": "0.191"},
+   "script": "eval/explain/c_zero_knot.py"
+  }
+ ],
+ "notes": [
+  "With all four corrections (eval/explain/rebuild_all.py) 69 of 72 cells are within 2%; the other three are rounding edges (0.275 printed as 0.28, and p = 0.042 vs 0.043 under the normal-curve test).",
+  "The intracorporeal spread mean is printed 11.72 in one row but 11.77 in the next row and in the text; the data give 11.766, so 11.72 looks like a typo.",
+  "The text gives mistakes as the share of faulty knots (40%, 28%, 20%), while both tables print the average number of mistakes (0.50, 0.37, 0.20) and the model uses 'any mistake vs none'.",
+  "Section 3.4 cites Table 2 for the overall mistake odds ratios, which are in Table 1.",
+  "The Sonnet run fitted mistakes with 15-point quadrature; the authors' numbers match the Laplace method (R glmer default) exactly, and 15 points would give 2.312 instead of 2.294, a small extra difference.",
+  "The Results call the intracorporeal knots 'higher knot strength' although their loops stretched less (3.80 vs 4.92 mm), so 'strength' here means less stretch."
+ ]
+}
+
+for r in ("r_opus", "r_sonnet"):
+    listed = [c for cause in story["causes"] for c in cause["cells"][r]]
+    assert len(listed) == len(set(listed)), (r, "duplicate")
+    assert sorted(listed) == nonA[r], (r, set(listed) ^ set(nonA[r]))
+    print(r, "non-A:", len(nonA[r]), {c["id"]: len(c["cells"][r]) for c in story["causes"]})
+with open(os.path.join(EVAL, "story.json"), "w", encoding="utf-8") as f:
+    json.dump(story, f, indent=1, ensure_ascii=False)
+print("wrote eval/story.json")

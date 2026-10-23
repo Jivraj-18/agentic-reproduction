@@ -1,0 +1,56 @@
+{
+  "short": "Repeatability of M2CA toxicity tests",
+  "what": "The table summarises 31 repeat tests of one chemical (M2CA) on light-emitting bacteria. For each measure of toxicity at 15, 30 and 45 minutes it gives the average, the spread (standard deviation, coefficient of variation, range) and a test of whether the values look normally distributed.",
+  "verdict": "Yes: 91 of 95 cells were rebuilt within 2% by both runs, and the other 4 are within 6% and trace to the published table itself or to rounding, not to the method.",
+  "verdict_note": "Two printed values do not follow from the authors' own deposited per-test results: one mean is very likely a typo, and one CV cannot be obtained from the data. The other two misses sit on a rounding boundary and match once the per-test values are rounded the way the authors report them.",
+  "implication": "The Methods were good enough to rebuild the table from raw data. A check that each printed mean, SD and CV agree with each other (SD / mean x 100 = CV) would have caught the one clear typo before publication.",
+  "model_note": "The two runs made the same choices (same 31 tests, duplicates fitted as separate points, n-1 SD, range as max minus min) and got the same numbers to about six digits, so they missed the same four cells. With one run per model, this says nothing about a difference between the models.",
+  "headline_cause": "c1",
+  "causes": [
+    {
+      "id": "c1",
+      "title": "Printed mean for s at 30 minutes is a likely typo",
+      "category": "Original: inconsistent",
+      "cells": {"r_opus": ["s_30|mean"], "r_sonnet": ["s_30|mean"]},
+      "left_unsaid": "The table prints a mean of 0.55 for the asymmetry value s at 30 minutes, but its own SD (0.084) and CV (15.7%) imply a mean of 0.535, and the authors' own deposited per-test values average 0.535.",
+      "ai_did": {"r_opus": "Fitted all 31 tests and averaged s at 30 min: 0.535 (prints as 0.53).", "r_sonnet": "Same fits and the same average: 0.535."},
+      "authors_did": "Their deposited per-test s values give 0.535; the 0.55 in the table is most likely a typing slip for 0.53 or 0.535.",
+      "fix": "Correct the mean of s at 30 minutes to 0.53 (0.535).",
+      "evidence": "The authors' supplement values give mean 0.5347, SD 0.0837, CV 15.66%, matching the printed SD and CV; 0.084 / 0.157 = 0.535, while 0.084 / 0.55 would give CV 15.3%, not the printed 15.7. No drop-one subset gets above 0.539.",
+      "example": {"cell": "s_30|mean", "published": "0.55", "ai": {"r_opus": "0.535", "r_sonnet": "0.535"}, "alternative": "0.535 (authors' own per-test values; no reading gives 0.55)"},
+      "script": "eval/explain/probe_alternatives.py"
+    },
+    {
+      "id": "c2",
+      "title": "Printed CV of r2 at 15 minutes not supported by the data",
+      "category": "Original: inconsistent",
+      "cells": {"r_opus": ["r2_15|cv"], "r_sonnet": ["r2_15|cv"]},
+      "left_unsaid": "The table prints a CV of 0.17% for the fit quality r2 (how well each curve fits, 1 = perfect) at 15 minutes. The authors' own deposited per-test r2 values give 0.164%, which prints as 0.16.",
+      "ai_did": {"r_opus": "Computed CV from its 31 fitted r2 values: 0.164%.", "r_sonnet": "Same: 0.164%."},
+      "authors_did": "Unknown. Their deposited r2 values reproduce the runs' 0.164, not 0.17.",
+      "fix": "Correct the CV of r2 at 15 minutes to 0.16, or state how it was computed.",
+      "evidence": "Authors' supplement values: mean 0.99771, SD 0.001637, CV 0.164% (same as the runs). Population SD gives 0.161. Rounding each r2 to 3 decimals first gives 0.169 (prints 0.17), but that same rounding breaks the 30-minute row (Shapiro-Wilk W 0.68 instead of the printed 0.830), so it is not a consistent procedure.",
+      "example": {"cell": "r2_15|cv", "published": "0.17", "ai": {"r_opus": "0.164", "r_sonnet": "0.164"}, "alternative": "0.164 (authors' own values); 0.169 only with r2 rounded to 3 decimals, which breaks other rows"},
+      "script": "eval/explain/test_rounding.py"
+    },
+    {
+      "id": "c3",
+      "title": "Small rounding differences at a rounding boundary",
+      "category": "Original: underspecified",
+      "cells": {"r_opus": ["s_30|range", "r2_45|cv"], "r_sonnet": ["s_30|range", "r2_45|cv"]},
+      "left_unsaid": "The Methods do not say that per-test values were rounded (to the precision printed in the supplement) before the summary statistics were taken. Both cells sit just below a rounding boundary, so this tiny step flips the last printed digit.",
+      "ai_did": {"r_opus": "Used unrounded fitted values: range of s at 30 min 0.3345 (prints 0.33); CV of r2 at 45 min 0.0545 (prints 0.05).", "r_sonnet": "Same unrounded values: 0.3345 and 0.0545."},
+      "authors_did": "Evidently worked from rounded per-test values: their largest and smallest s at 30 min are 0.7476 and 0.4131, which as 0.75 and 0.41 give a range of 0.34; their r2 values are reported to 4 decimals.",
+      "fix": "State that summary statistics were computed from per-test values rounded to the decimals shown in the supplementary table.",
+      "evidence": "Taking the range from values rounded to the printed decimals gives 0.34 for s at 30 min and keeps all 18 range cells within 2% for the run values. Rounding the runs' per-test r2 to 4 decimals moves the 45-minute CV from 0.0545 to 0.0551 (prints 0.06, the published value); the authors' own values give 0.057.",
+      "example": {"cell": "s_30|range", "published": "0.34", "ai": {"r_opus": "0.3345", "r_sonnet": "0.3345"}, "alternative": "0.34"},
+      "script": "eval/explain/test_rounding.py"
+    }
+  ],
+  "notes": [
+    "The two runs chose the same 31 tests as the authors: the M2CA-alone test of all 30 combinations plus the second M2CA test of the sham M2CA-M2CA combination. The authors' supplement confirms this.",
+    "The runs' per-test fits match the authors' deposited values to 4 decimals for every test except two 45-minute curves (M2CA-4NBB, M2CA-EUG), where the runs found slightly better-fitting curves.",
+    "For M2CA-4NBB at 45 min the authors list r2 = 0.9982, but their own listed parameters give r2 = 0.9991 on the deposited raw data, so that printed r2 does not follow from their own fit.",
+    "The printed SD values for r2 (0.002, 0.001, 0.001) are rounded too coarsely to recompute the printed CVs from them (0.002 / 0.9977 = 0.20, not 0.17)."
+  ]
+}

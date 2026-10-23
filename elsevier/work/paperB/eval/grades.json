@@ -1,0 +1,4277 @@
+{
+ "paper": "B",
+ "table": "Table 2",
+ "runs": [
+  "r_opus",
+  "r_sonnet"
+ ],
+ "summary": {
+  "n_cells_graded": 95,
+  "per_run": {
+   "r_opus": {
+    "distribution": {
+     "A": 91,
+     "B": 4,
+     "C": 0,
+     "D": 0,
+     "E": 0,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.958,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     0,
+     0
+    ]
+   },
+   "r_sonnet": {
+    "distribution": {
+     "A": 91,
+     "B": 4,
+     "C": 0,
+     "D": 0,
+     "E": 0,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.958,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     0,
+     0
+    ]
+   }
+  },
+  "median_cell_grades": {
+   "A": 91,
+   "B": 4,
+   "C": 0,
+   "D": 0,
+   "E": 0,
+   "F": 0
+  },
+  "consensus_cell_grades": {
+   "A": 91,
+   "B": 4,
+   "C": 0,
+   "D": 0,
+   "E": 0,
+   "F": 0
+  },
+  "table_grade_median_of_runs": 4.958,
+  "sign_match": [
+   95,
+   95
+  ],
+  "within_1.96se_consensus": [
+   0,
+   0
+  ],
+  "runs_identical_cells": [
+   95,
+   95
+  ],
+  "runs_same_grade_cells": [
+   95,
+   95
+  ],
+  "within_20pct_consensus": [
+   95,
+   95
+  ],
+  "table_grade_median_letter": "A"
+ },
+ "cells": {
+  "ec25_15|mean": {
+   "published_raw": "4.07",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.058958877110864,
+     "reproduced_unrounded": 4.058958877110864,
+     "reproduced": 4.06,
+     "grade": "A",
+     "deviation_pct": 0.24570024570026225,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_15'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.058959084959578,
+     "reproduced_unrounded": 4.058959084959578,
+     "reproduced": 4.06,
+     "grade": "A",
+     "deviation_pct": 0.24570024570026225,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_15; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.058958981035221,
+    "reproduced_unrounded": 4.058958981035221,
+    "reproduced": 4.06,
+    "grade": "A",
+    "deviation_pct": 0.24570024570026225,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.106848015720992e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_15|sd": {
+   "published_raw": "0.836",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.8398674489935711,
+     "reproduced_unrounded": 0.8398674489935711,
+     "reproduced": 0.84,
+     "grade": "A",
+     "deviation_pct": 0.4784688995215315,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_15'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.8398677668565975,
+     "reproduced_unrounded": 0.8398677668565975,
+     "reproduced": 0.84,
+     "grade": "A",
+     "deviation_pct": 0.4784688995215315,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_15; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.8398676079250843,
+    "reproduced_unrounded": 0.8398676079250843,
+    "reproduced": 0.84,
+    "grade": "A",
+    "deviation_pct": 0.4784688995215315,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.802189310341047e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_15|cv": {
+   "published_raw": "20.6",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 20.691696428109232,
+     "reproduced_unrounded": 20.691696428109232,
+     "reproduced": 20.7,
+     "grade": "A",
+     "deviation_pct": 0.4854368932038731,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_15'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 20.691703199687748,
+     "reproduced_unrounded": 20.691703199687748,
+     "reproduced": 20.7,
+     "grade": "A",
+     "deviation_pct": 0.4854368932038731,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_15; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 20.691699813898488,
+    "reproduced_unrounded": 20.691699813898488,
+    "reproduced": 20.7,
+    "grade": "A",
+    "deviation_pct": 0.4854368932038731,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.2871740367457856e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_15|range": {
+   "published_raw": "3.0",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.016238881790296,
+     "reproduced_unrounded": 3.016238881790296,
+     "reproduced": 3.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_15'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.0162391884180124,
+     "reproduced_unrounded": 3.0162391884180124,
+     "reproduced": 3.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_15; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.016239035104154,
+    "reproduced_unrounded": 3.016239035104154,
+    "reproduced": 3.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.0220923885029265e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_15|sw": {
+   "published_raw": "0.942",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9425320177883539,
+     "reproduced_unrounded": 0.9425320177883539,
+     "reproduced": 0.943,
+     "grade": "A",
+     "deviation_pct": 0.10615711252653938,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_15'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9425319956197314,
+     "reproduced_unrounded": 0.9425319956197314,
+     "reproduced": 0.943,
+     "grade": "A",
+     "deviation_pct": 0.10615711252653938,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_15; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9425320067040427,
+    "reproduced_unrounded": 0.9425320067040427,
+    "reproduced": 0.943,
+    "grade": "A",
+    "deviation_pct": 0.10615711252653938,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.3533569525762453e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_30|mean": {
+   "published_raw": "1.84",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.8300487337149778,
+     "reproduced_unrounded": 1.8300487337149778,
+     "reproduced": 1.83,
+     "grade": "A",
+     "deviation_pct": 0.5434782608695656,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_30'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.8300487319606495,
+     "reproduced_unrounded": 1.8300487319606495,
+     "reproduced": 1.83,
+     "grade": "A",
+     "deviation_pct": 0.5434782608695656,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_30; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.8300487328378137,
+    "reproduced_unrounded": 1.8300487328378137,
+    "reproduced": 1.83,
+    "grade": "A",
+    "deviation_pct": 0.5434782608695656,
+    "sign_match": true
+   },
+   "run_spread_pct": 9.534392599102434e-08,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_30|sd": {
+   "published_raw": "0.334",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.33585925107740977,
+     "reproduced_unrounded": 0.33585925107740977,
+     "reproduced": 0.336,
+     "grade": "A",
+     "deviation_pct": 0.5988023952095813,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_30'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.3358592504643365,
+     "reproduced_unrounded": 0.3358592504643365,
+     "reproduced": 0.336,
+     "grade": "A",
+     "deviation_pct": 0.5988023952095813,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_30; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.33585925077087314,
+    "reproduced_unrounded": 0.33585925077087314,
+    "reproduced": 0.336,
+    "grade": "A",
+    "deviation_pct": 0.5988023952095813,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.8355486791200336e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_30|cv": {
+   "published_raw": "18.1",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 18.35247580514533,
+     "reproduced_unrounded": 18.35247580514533,
+     "reproduced": 18.4,
+     "grade": "A",
+     "deviation_pct": 1.6574585635358958,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_30'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 18.35247578923807,
+     "reproduced_unrounded": 18.35247578923807,
+     "reproduced": 18.4,
+     "grade": "A",
+     "deviation_pct": 1.6574585635358958,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_30; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 18.3524757971917,
+    "reproduced_unrounded": 18.3524757971917,
+    "reproduced": 18.4,
+    "grade": "A",
+    "deviation_pct": 1.6574585635358958,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.788540184122015e-08,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_30|range": {
+   "published_raw": "1.2",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.1684464701359292,
+     "reproduced_unrounded": 1.1684464701359292,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_30'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.168446475572862,
+     "reproduced_unrounded": 1.168446475572862,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_30; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.1684464728543955,
+    "reproduced_unrounded": 1.1684464728543955,
+    "reproduced": 1.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.530777419908816e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_30|sw": {
+   "published_raw": "0.956",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9559727702084103,
+     "reproduced_unrounded": 0.9559727702084103,
+     "reproduced": 0.956,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_30'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9559727698026669,
+     "reproduced_unrounded": 0.9559727698026669,
+     "reproduced": 0.956,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_30; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9559727700055386,
+    "reproduced_unrounded": 0.9559727700055386,
+    "reproduced": 0.956,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.244178230618612e-08,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_45|mean": {
+   "published_raw": "1.11",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.0958879100850658,
+     "reproduced_unrounded": 1.0958879100850658,
+     "reproduced": 1.1,
+     "grade": "A",
+     "deviation_pct": 0.9009009009009016,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.0958879057845987,
+     "reproduced_unrounded": 1.0958879057845987,
+     "reproduced": 1.1,
+     "grade": "A",
+     "deviation_pct": 0.9009009009009016,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0958879079348323,
+    "reproduced_unrounded": 1.0958879079348323,
+    "reproduced": 1.1,
+    "grade": "A",
+    "deviation_pct": 0.9009009009009016,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.8742946788677e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_45|sd": {
+   "published_raw": "0.179",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.17951240173956035,
+     "reproduced_unrounded": 0.17951240173956035,
+     "reproduced": 0.18,
+     "grade": "A",
+     "deviation_pct": 0.5586592178770955,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.17951240237695915,
+     "reproduced_unrounded": 0.17951240237695915,
+     "reproduced": 0.18,
+     "grade": "A",
+     "deviation_pct": 0.5586592178770955,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.17951240205825975,
+    "reproduced_unrounded": 0.17951240205825975,
+    "reproduced": 0.18,
+    "grade": "A",
+    "deviation_pct": 0.5586592178770955,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.560887153112518e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_45|cv": {
+   "published_raw": "16.1",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 16.380544039912447,
+     "reproduced_unrounded": 16.380544039912447,
+     "reproduced": 16.4,
+     "grade": "A",
+     "deviation_pct": 1.8633540372670632,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 16.380544162355513,
+     "reproduced_unrounded": 16.380544162355513,
+     "reproduced": 16.4,
+     "grade": "A",
+     "deviation_pct": 1.8633540372670632,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 16.380544101133978,
+    "reproduced_unrounded": 16.380544101133978,
+    "reproduced": 16.4,
+    "grade": "A",
+    "deviation_pct": 1.8633540372670632,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.605159345620795e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_45|range": {
+   "published_raw": "0.6",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6465891688997236,
+     "reproduced_unrounded": 0.6465891688997236,
+     "reproduced": 0.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6465891933854934,
+     "reproduced_unrounded": 0.6465891933854934,
+     "reproduced": 0.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6465891811426085,
+    "reproduced_unrounded": 0.6465891811426085,
+    "reproduced": 0.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.080961624186585e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec25_45|sw": {
+   "published_raw": "0.964",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9641981059416632,
+     "reproduced_unrounded": 0.9641981059416632,
+     "reproduced": 0.964,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec25_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9641981102255579,
+     "reproduced_unrounded": 0.9641981102255579,
+     "reproduced": 0.964,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec25_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9641981080836106,
+    "reproduced_unrounded": 0.9641981080836106,
+    "reproduced": 0.964,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.443874152938035e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_15|mean": {
+   "published_raw": "9.64",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 9.639464429895028,
+     "reproduced_unrounded": 9.639464429895028,
+     "reproduced": 9.64,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_15'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 9.639464798011913,
+     "reproduced_unrounded": 9.639464798011913,
+     "reproduced": 9.64,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_15; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 9.639464613953471,
+    "reproduced_unrounded": 9.639464613953471,
+    "reproduced": 9.64,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.818639881020983e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_15|sd": {
+   "published_raw": "1.885",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.889179134355702,
+     "reproduced_unrounded": 1.889179134355702,
+     "reproduced": 1.889,
+     "grade": "A",
+     "deviation_pct": 0.21220159151193654,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_15'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.8891796355497545,
+     "reproduced_unrounded": 1.8891796355497545,
+     "reproduced": 1.889,
+     "grade": "A",
+     "deviation_pct": 0.21220159151193654,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_15; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.8891793849527283,
+    "reproduced_unrounded": 1.8891793849527283,
+    "reproduced": 1.889,
+    "grade": "A",
+    "deviation_pct": 0.21220159151193654,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.6588543898270023e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_15|cv": {
+   "published_raw": "19.5",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 19.5983827534729,
+     "reproduced_unrounded": 19.5983827534729,
+     "reproduced": 19.6,
+     "grade": "A",
+     "deviation_pct": 0.5128205128205201,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_15'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 19.598387204436783,
+     "reproduced_unrounded": 19.598387204436783,
+     "reproduced": 19.6,
+     "grade": "A",
+     "deviation_pct": 0.5128205128205201,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_15; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 19.59838497895484,
+    "reproduced_unrounded": 19.59838497895484,
+    "reproduced": 19.6,
+    "grade": "A",
+    "deviation_pct": 0.5128205128205201,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.2825455804655947e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_15|range": {
+   "published_raw": "6.6",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 6.6063826524128,
+     "reproduced_unrounded": 6.6063826524128,
+     "reproduced": 6.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_15'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.6063831854297135,
+     "reproduced_unrounded": 6.6063831854297135,
+     "reproduced": 6.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_15; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.606382918921257,
+    "reproduced_unrounded": 6.606382918921257,
+    "reproduced": 6.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.076013837474896e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_15|sw": {
+   "published_raw": "0.937",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9368795686894217,
+     "reproduced_unrounded": 0.9368795686894217,
+     "reproduced": 0.937,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_15'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9368795699493816,
+     "reproduced_unrounded": 0.9368795699493816,
+     "reproduced": 0.937,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_15; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9368795693194016,
+    "reproduced_unrounded": 0.9368795693194016,
+    "reproduced": 0.937,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.3446744014721196e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_30|mean": {
+   "published_raw": "4.48",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.464329330541682,
+     "reproduced_unrounded": 4.464329330541682,
+     "reproduced": 4.46,
+     "grade": "A",
+     "deviation_pct": 0.4464285714285817,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_30'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.4643293184109725,
+     "reproduced_unrounded": 4.4643293184109725,
+     "reproduced": 4.46,
+     "grade": "A",
+     "deviation_pct": 0.4464285714285817,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_30; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.464329324476328,
+    "reproduced_unrounded": 4.464329324476328,
+    "reproduced": 4.46,
+    "grade": "A",
+    "deviation_pct": 0.4464285714285817,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.7077477165222366e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_30|sd": {
+   "published_raw": "0.787",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.7794542390797998,
+     "reproduced_unrounded": 0.7794542390797998,
+     "reproduced": 0.779,
+     "grade": "A",
+     "deviation_pct": 1.0165184243964431,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_30'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.779454242239043,
+     "reproduced_unrounded": 0.779454242239043,
+     "reproduced": 0.779,
+     "grade": "A",
+     "deviation_pct": 1.0165184243964431,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_30; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.7794542406594214,
+    "reproduced_unrounded": 0.7794542406594214,
+    "reproduced": 0.779,
+    "grade": "A",
+    "deviation_pct": 1.0165184243964431,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.0142861504181454e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_30|cv": {
+   "published_raw": "17.6",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 17.459604374331054,
+     "reproduced_unrounded": 17.459604374331054,
+     "reproduced": 17.5,
+     "grade": "A",
+     "deviation_pct": 0.5681818181818262,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_30'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 17.45960449253956,
+     "reproduced_unrounded": 17.45960449253956,
+     "reproduced": 17.5,
+     "grade": "A",
+     "deviation_pct": 0.5681818181818262,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_30; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 17.45960443343531,
+    "reproduced_unrounded": 17.45960443343531,
+    "reproduced": 17.5,
+    "grade": "A",
+    "deviation_pct": 0.5681818181818262,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.716392492672246e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_30|range": {
+   "published_raw": "2.6",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.6045117334121635,
+     "reproduced_unrounded": 2.6045117334121635,
+     "reproduced": 2.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_30'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.6045116531341836,
+     "reproduced_unrounded": 2.6045116531341836,
+     "reproduced": 2.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_30; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.6045116932731736,
+    "reproduced_unrounded": 2.6045116932731736,
+    "reproduced": 2.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.087614608432432e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_30|sw": {
+   "published_raw": "0.941",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9426118444596354,
+     "reproduced_unrounded": 0.9426118444596354,
+     "reproduced": 0.943,
+     "grade": "A",
+     "deviation_pct": 0.21253985122210434,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_30'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9426118431816846,
+     "reproduced_unrounded": 0.9426118431816846,
+     "reproduced": 0.943,
+     "grade": "A",
+     "deviation_pct": 0.21253985122210434,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_30; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.94261184382066,
+    "reproduced_unrounded": 0.94261184382066,
+    "reproduced": 0.943,
+    "grade": "A",
+    "deviation_pct": 0.21253985122210434,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.358077424281426e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_45|mean": {
+   "published_raw": "2.74",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.7261133851264328,
+     "reproduced_unrounded": 2.7261133851264328,
+     "reproduced": 2.73,
+     "grade": "A",
+     "deviation_pct": 0.3649635036496434,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.7261134030938687,
+     "reproduced_unrounded": 2.7261134030938687,
+     "reproduced": 2.73,
+     "grade": "A",
+     "deviation_pct": 0.3649635036496434,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.7261133941101505,
+    "reproduced_unrounded": 2.7261133941101505,
+    "reproduced": 2.73,
+    "grade": "A",
+    "deviation_pct": 0.3649635036496434,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.557458388131081e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_45|sd": {
+   "published_raw": "0.439",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.43727773007563525,
+     "reproduced_unrounded": 0.43727773007563525,
+     "reproduced": 0.437,
+     "grade": "A",
+     "deviation_pct": 0.4555808656036451,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.4372777273257522,
+     "reproduced_unrounded": 0.4372777273257522,
+     "reproduced": 0.437,
+     "grade": "A",
+     "deviation_pct": 0.4555808656036451,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.4372777287006937,
+    "reproduced_unrounded": 0.4372777287006937,
+    "reproduced": 0.437,
+    "grade": "A",
+    "deviation_pct": 0.4555808656036451,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.263970486322941e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_45|cv": {
+   "published_raw": "16.0",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 16.040335389621184,
+     "reproduced_unrounded": 16.040335389621184,
+     "reproduced": 16.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 16.04033518302963,
+     "reproduced_unrounded": 16.04033518302963,
+     "reproduced": 16.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 16.04033528632541,
+    "reproduced_unrounded": 16.04033528632541,
+    "reproduced": 16.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.291197215813611e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_45|range": {
+   "published_raw": "1.6",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.5526806565869076,
+     "reproduced_unrounded": 1.5526806565869076,
+     "reproduced": 1.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.5526805684346487,
+     "reproduced_unrounded": 1.5526805684346487,
+     "reproduced": 1.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.5526806125107782,
+    "reproduced_unrounded": 1.5526806125107782,
+    "reproduced": 1.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.509516176616103e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec50_45|sw": {
+   "published_raw": "0.959",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9583679105689832,
+     "reproduced_unrounded": 0.9583679105689832,
+     "reproduced": 0.958,
+     "grade": "A",
+     "deviation_pct": 0.10427528675703868,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec50_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9583679022305853,
+     "reproduced_unrounded": 0.9583679022305853,
+     "reproduced": 0.958,
+     "grade": "A",
+     "deviation_pct": 0.10427528675703868,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec50_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9583679063997843,
+    "reproduced_unrounded": 0.9583679063997843,
+    "reproduced": 0.958,
+    "grade": "A",
+    "deviation_pct": 0.10427528675703868,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.69488828057773e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_15|mean": {
+   "published_raw": "21.16",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 21.17136807668424,
+     "reproduced_unrounded": 21.17136807668424,
+     "reproduced": 21.17,
+     "grade": "A",
+     "deviation_pct": 0.04725897920605653,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_15'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 21.171365900318598,
+     "reproduced_unrounded": 21.171365900318598,
+     "reproduced": 21.17,
+     "grade": "A",
+     "deviation_pct": 0.04725897920605653,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_15; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 21.17136698850142,
+    "reproduced_unrounded": 21.17136698850142,
+    "reproduced": 21.17,
+    "grade": "A",
+    "deviation_pct": 0.04725897920605653,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.0285281855358025e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_15|sd": {
+   "published_raw": "4.573",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.588671980507197,
+     "reproduced_unrounded": 4.588671980507197,
+     "reproduced": 4.589,
+     "grade": "A",
+     "deviation_pct": 0.34987972884321045,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_15'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.588668486593264,
+     "reproduced_unrounded": 4.588668486593264,
+     "reproduced": 4.589,
+     "grade": "A",
+     "deviation_pct": 0.34987972884321045,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_15; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.58867023355023,
+    "reproduced_unrounded": 4.58867023355023,
+    "reproduced": 4.589,
+    "grade": "A",
+    "deviation_pct": 0.34987972884321045,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.64031037236708e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_15|cv": {
+   "published_raw": "21.6",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 21.673951177300836,
+     "reproduced_unrounded": 21.673951177300836,
+     "reproduced": 21.7,
+     "grade": "A",
+     "deviation_pct": 0.46296296296295303,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_15'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 21.67393690231489,
+     "reproduced_unrounded": 21.67393690231489,
+     "reproduced": 21.7,
+     "grade": "A",
+     "deviation_pct": 0.46296296296295303,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_15; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 21.673944039807864,
+    "reproduced_unrounded": 21.673944039807864,
+    "reproduced": 21.7,
+    "grade": "A",
+    "deviation_pct": 0.46296296296295303,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.608789790315991e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_15|range": {
+   "published_raw": "16.6",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 16.617260417867666,
+     "reproduced_unrounded": 16.617260417867666,
+     "reproduced": 16.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_15'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 16.617256360275004,
+     "reproduced_unrounded": 16.617256360275004,
+     "reproduced": 16.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_15; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 16.617258389071335,
+    "reproduced_unrounded": 16.617258389071335,
+    "reproduced": 16.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.4443329288348087e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_15|sw": {
+   "published_raw": "0.932",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9321846117595598,
+     "reproduced_unrounded": 0.9321846117595598,
+     "reproduced": 0.932,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_15'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9321846612984266,
+     "reproduced_unrounded": 0.9321846612984266,
+     "reproduced": 0.932,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_15; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9321846365289932,
+    "reproduced_unrounded": 0.9321846365289932,
+    "reproduced": 0.932,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.315329054344587e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_30|mean": {
+   "published_raw": "9.59",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 9.57134292172894,
+     "reproduced_unrounded": 9.57134292172894,
+     "reproduced": 9.57,
+     "grade": "A",
+     "deviation_pct": 0.2085505735140727,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_30'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 9.571342918625888,
+     "reproduced_unrounded": 9.571342918625888,
+     "reproduced": 9.57,
+     "grade": "A",
+     "deviation_pct": 0.2085505735140727,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_30; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 9.571342920177415,
+    "reproduced_unrounded": 9.571342920177415,
+    "reproduced": 9.57,
+    "grade": "A",
+    "deviation_pct": 0.2085505735140727,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.235716410370427e-08,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_30|sd": {
+   "published_raw": "1.803",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.8014469947257368,
+     "reproduced_unrounded": 1.8014469947257368,
+     "reproduced": 1.801,
+     "grade": "A",
+     "deviation_pct": 0.11092623405435395,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_30'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.801446980591208,
+     "reproduced_unrounded": 1.801446980591208,
+     "reproduced": 1.801,
+     "grade": "A",
+     "deviation_pct": 0.11092623405435395,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_30; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.8014469876584722,
+    "reproduced_unrounded": 1.8014469876584722,
+    "reproduced": 1.801,
+    "grade": "A",
+    "deviation_pct": 0.11092623405435395,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.839450294320837e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_30|cv": {
+   "published_raw": "18.8",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 18.821256426160193,
+     "reproduced_unrounded": 18.821256426160193,
+     "reproduced": 18.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_30'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 18.821256284586585,
+     "reproduced_unrounded": 18.821256284586585,
+     "reproduced": 18.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_30; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 18.82125635537339,
+    "reproduced_unrounded": 18.82125635537339,
+    "reproduced": 18.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.530511061062536e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_30|range": {
+   "published_raw": "6.0",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.952042203484238,
+     "reproduced_unrounded": 5.952042203484238,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_30'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.952042118545694,
+     "reproduced_unrounded": 5.952042118545694,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_30; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.952042161014965,
+    "reproduced_unrounded": 5.952042161014965,
+    "reproduced": 6.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.4156424033018311e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_30|sw": {
+   "published_raw": "0.933",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9326527733335133,
+     "reproduced_unrounded": 0.9326527733335133,
+     "reproduced": 0.933,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_30'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9326527717050229,
+     "reproduced_unrounded": 0.9326527717050229,
+     "reproduced": 0.933,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_30; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9326527725192681,
+    "reproduced_unrounded": 0.9326527725192681,
+    "reproduced": 0.933,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.7454344507777242e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_45|mean": {
+   "published_raw": "5.93",
+   "metric_type": "mean",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.908113959753791,
+     "reproduced_unrounded": 5.908113959753791,
+     "reproduced": 5.91,
+     "grade": "A",
+     "deviation_pct": 0.3372681281618815,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.9081139789148285,
+     "reproduced_unrounded": 5.9081139789148285,
+     "reproduced": 5.91,
+     "grade": "A",
+     "deviation_pct": 0.3372681281618815,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.90811396933431,
+    "reproduced_unrounded": 5.90811396933431,
+    "reproduced": 5.91,
+    "grade": "A",
+    "deviation_pct": 0.3372681281618815,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.231203575268614e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_45|sd": {
+   "published_raw": "1.022",
+   "metric_type": "SD",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.0181754438133326,
+     "reproduced_unrounded": 1.0181754438133326,
+     "reproduced": 1.018,
+     "grade": "A",
+     "deviation_pct": 0.3913894324853232,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.01817544552979,
+     "reproduced_unrounded": 1.01817544552979,
+     "reproduced": 1.018,
+     "grade": "A",
+     "deviation_pct": 0.3913894324853232,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0181754446715612,
+    "reproduced_unrounded": 1.0181754446715612,
+    "reproduced": 1.018,
+    "grade": "A",
+    "deviation_pct": 0.3913894324853232,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.679508239375596e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_45|cv": {
+   "published_raw": "17.2",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 17.233510571210495,
+     "reproduced_unrounded": 17.233510571210495,
+     "reproduced": 17.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 17.23351054437178,
+     "reproduced_unrounded": 17.23351054437178,
+     "reproduced": 17.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 17.233510557791135,
+    "reproduced_unrounded": 17.233510557791135,
+    "reproduced": 17.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.560390473162781e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_45|range": {
+   "published_raw": "3.4",
+   "metric_type": "range",
+   "unit": "µM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.376946326583105,
+     "reproduced_unrounded": 3.376946326583105,
+     "reproduced": 3.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.376946402558369,
+     "reproduced_unrounded": 3.376946402558369,
+     "reproduced": 3.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.376946364570737,
+    "reproduced_unrounded": 3.376946364570737,
+    "reproduced": 3.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.2345665971185474e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ec75_45|sw": {
+   "published_raw": "0.934",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9338058444030701,
+     "reproduced_unrounded": 0.9338058444030701,
+     "reproduced": 0.934,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['ec75_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9338058445413295,
+     "reproduced_unrounded": 0.9338058445413295,
+     "reproduced": 0.934,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column ec75_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9338058444721998,
+    "reproduced_unrounded": 0.9338058444721998,
+    "reproduced": 0.934,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.4802934039148244e-08,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_15|mean": {
+   "published_raw": "1.59",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.5873501550747324,
+     "reproduced_unrounded": 1.5873501550747324,
+     "reproduced": 1.59,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_15'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.5873505568520063,
+     "reproduced_unrounded": 1.5873505568520063,
+     "reproduced": 1.59,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_15; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.5873503559633693,
+    "reproduced_unrounded": 1.5873503559633693,
+    "reproduced": 1.59,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.5269010936800054e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_15|sd": {
+   "published_raw": "0.172",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.17185879421817596,
+     "reproduced_unrounded": 0.17185879421817596,
+     "reproduced": 0.172,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_15'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.17185852266054402,
+     "reproduced_unrounded": 0.17185852266054402,
+     "reproduced": 0.172,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_15; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.17185865843936,
+    "reproduced_unrounded": 0.17185865843936,
+    "reproduced": 0.172,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00015788234414927823,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_15|cv": {
+   "published_raw": "10.8",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.826772761431762,
+     "reproduced_unrounded": 10.826772761431762,
+     "reproduced": 10.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_15'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.826752913443991,
+     "reproduced_unrounded": 10.826752913443991,
+     "reproduced": 10.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_15; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.826762837437876,
+    "reproduced_unrounded": 10.826762837437876,
+    "reproduced": 10.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00018377766454315115,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_15|range": {
+   "published_raw": "0.73",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.7330271237330073,
+     "reproduced_unrounded": 0.7330271237330073,
+     "reproduced": 0.73,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_15'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7330270727829755,
+     "reproduced_unrounded": 0.7330270727829755,
+     "reproduced": 0.73,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_15; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.7330270982579914,
+    "reproduced_unrounded": 0.7330270982579914,
+    "reproduced": 0.73,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.97945640399355e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_15|sw": {
+   "published_raw": "0.984",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9835793216155214,
+     "reproduced_unrounded": 0.9835793216155214,
+     "reproduced": 0.984,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_15'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9835798235351313,
+     "reproduced_unrounded": 0.9835798235351313,
+     "reproduced": 0.984,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_15; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9835795725753264,
+    "reproduced_unrounded": 0.9835795725753264,
+    "reproduced": 0.984,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.1008090434383645e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_30|mean": {
+   "published_raw": "1.75",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.7519961968462103,
+     "reproduced_unrounded": 1.7519961968462103,
+     "reproduced": 1.75,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_30'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.7519961725998843,
+     "reproduced_unrounded": 1.7519961725998843,
+     "reproduced": 1.75,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_30; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.7519961847230472,
+    "reproduced_unrounded": 1.7519961847230472,
+    "reproduced": 1.75,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.3855043461725408e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_30|sd": {
+   "published_raw": "0.147",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.14700702439701172,
+     "reproduced_unrounded": 0.14700702439701172,
+     "reproduced": 0.147,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_30'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.14700700267524217,
+     "reproduced_unrounded": 0.14700700267524217,
+     "reproduced": 0.147,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_30; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.14700701353612694,
+    "reproduced_unrounded": 0.14700701353612694,
+    "reproduced": 0.147,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.47767139794094e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_30|cv": {
+   "published_raw": "8.4",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 8.390830109200056,
+     "reproduced_unrounded": 8.390830109200056,
+     "reproduced": 8.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_30'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8.390828985493178,
+     "reproduced_unrounded": 8.390828985493178,
+     "reproduced": 8.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_30; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.390829547346616,
+    "reproduced_unrounded": 8.390829547346616,
+    "reproduced": 8.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.3377462841172397e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_30|range": {
+   "published_raw": "0.61",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6142016960417631,
+     "reproduced_unrounded": 0.6142016960417631,
+     "reproduced": 0.61,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_30'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6142014631375912,
+     "reproduced_unrounded": 0.6142014631375912,
+     "reproduced": 0.61,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_30; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6142015795896771,
+    "reproduced_unrounded": 0.6142015795896771,
+    "reproduced": 0.61,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.81810117948252e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_30|sw": {
+   "published_raw": "0.981",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9810907387109273,
+     "reproduced_unrounded": 0.9810907387109273,
+     "reproduced": 0.981,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_30'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9810906984958078,
+     "reproduced_unrounded": 0.9810906984958078,
+     "reproduced": 0.981,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_30; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9810907186033675,
+    "reproduced_unrounded": 0.9810907186033675,
+    "reproduced": 0.981,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.099400567559093e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_45|mean": {
+   "published_raw": "1.74",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.7406010264673393,
+     "reproduced_unrounded": 1.7406010264673393,
+     "reproduced": 1.74,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.740601071190572,
+     "reproduced_unrounded": 1.740601071190572,
+     "reproduced": 1.74,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.7406010488289556,
+    "reproduced_unrounded": 1.7406010488289556,
+    "reproduced": 1.74,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.5703007283215065e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_45|sd": {
+   "published_raw": "0.155",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.15499389635834449,
+     "reproduced_unrounded": 0.15499389635834449,
+     "reproduced": 0.155,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.15499388649231777,
+     "reproduced_unrounded": 0.15499388649231777,
+     "reproduced": 0.155,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.15499389142533113,
+    "reproduced_unrounded": 0.15499389142533113,
+    "reproduced": 0.155,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.36517852762559e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_45|cv": {
+   "published_raw": "8.8",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 8.90461938155434,
+     "reproduced_unrounded": 8.90461938155434,
+     "reproduced": 8.9,
+     "grade": "A",
+     "deviation_pct": 1.1363636363636322,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8.904618585940653,
+     "reproduced_unrounded": 8.904618585940653,
+     "reproduced": 8.9,
+     "grade": "A",
+     "deviation_pct": 1.1363636363636322,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.904618983747497,
+    "reproduced_unrounded": 8.904618983747497,
+    "reproduced": 8.9,
+    "grade": "A",
+    "deviation_pct": 1.1363636363636322,
+    "sign_match": true
+   },
+   "run_spread_pct": 9.041064624232769e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_45|range": {
+   "published_raw": "0.71",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.7095242380016549,
+     "reproduced_unrounded": 0.7095242380016549,
+     "reproduced": 0.71,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7095239291237407,
+     "reproduced_unrounded": 0.7095239291237407,
+     "reproduced": 0.71,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.7095240835626978,
+    "reproduced_unrounded": 0.7095240835626978,
+    "reproduced": 0.71,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.350393156826726e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "slope_45|sw": {
+   "published_raw": "0.970",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.969815129970543,
+     "reproduced_unrounded": 0.969815129970543,
+     "reproduced": 0.97,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['slope_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9698150717702028,
+     "reproduced_unrounded": 0.9698150717702028,
+     "reproduced": 0.97,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column slope_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9698151008703728,
+    "reproduced_unrounded": 0.9698151008703728,
+    "reproduced": 0.97,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.0000350735943645e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_15|mean": {
+   "published_raw": "0.69",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.6922237602984679,
+     "reproduced_unrounded": 0.6922237602984679,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_15'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6922233797198847,
+     "reproduced_unrounded": 0.6922233797198847,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_15; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6922235700091763,
+    "reproduced_unrounded": 0.6922235700091763,
+    "reproduced": 0.69,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.5156316406289094e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_15|sd": {
+   "published_raw": "0.210",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.21043307181113463,
+     "reproduced_unrounded": 0.21043307181113463,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_15'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.2104329379298098,
+     "reproduced_unrounded": 0.2104329379298098,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_15; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.21043300487047223,
+    "reproduced_unrounded": 0.21043300487047223,
+    "reproduced": 0.21,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.375301182473405e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_15|cv": {
+   "published_raw": "30.3",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 30.39957364659105,
+     "reproduced_unrounded": 30.39957364659105,
+     "reproduced": 30.4,
+     "grade": "A",
+     "deviation_pct": 0.33003300330032304,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_15'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 30.39957101925157,
+     "reproduced_unrounded": 30.39957101925157,
+     "reproduced": 30.4,
+     "grade": "A",
+     "deviation_pct": 0.33003300330032304,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_15; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 30.39957233292131,
+    "reproduced_unrounded": 30.39957233292131,
+    "reproduced": 30.4,
+    "grade": "A",
+    "deviation_pct": 0.33003300330032304,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.671087393396033e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_15|range": {
+   "published_raw": "1.03",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.0291208070193105,
+     "reproduced_unrounded": 1.0291208070193105,
+     "reproduced": 1.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_15'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.0291207813434564,
+     "reproduced_unrounded": 1.0291207813434564,
+     "reproduced": 1.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_15; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0291207941813836,
+    "reproduced_unrounded": 1.0291207941813836,
+    "reproduced": 1.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.4928013698551576e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_15|sw": {
+   "published_raw": "0.906",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9063176836543856,
+     "reproduced_unrounded": 0.9063176836543856,
+     "reproduced": 0.906,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_15'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9063172413827347,
+     "reproduced_unrounded": 0.9063172413827347,
+     "reproduced": 0.906,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_15; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9063174625185602,
+    "reproduced_unrounded": 0.9063174625185602,
+    "reproduced": 0.906,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.881585550307524e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_30|mean": {
+   "published_raw": "0.55",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.5346609955339783,
+     "reproduced_unrounded": 0.5346609955339783,
+     "reproduced": 0.53,
+     "grade": "B",
+     "deviation_pct": 3.636363636363639,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_30'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.5346610085082236,
+     "reproduced_unrounded": 0.5346610085082236,
+     "reproduced": 0.53,
+     "grade": "B",
+     "deviation_pct": 3.636363636363639,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_30; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5346610020211009,
+    "reproduced_unrounded": 0.5346610020211009,
+    "reproduced": 0.53,
+    "grade": "B",
+    "deviation_pct": 3.636363636363639,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.3589536990442635e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "s_30|sd": {
+   "published_raw": "0.084",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.08373395110413373,
+     "reproduced_unrounded": 0.08373395110413373,
+     "reproduced": 0.084,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_30'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.08373395238259564,
+     "reproduced_unrounded": 0.08373395238259564,
+     "reproduced": 0.084,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_30; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.08373395174336468,
+    "reproduced_unrounded": 0.08373395174336468,
+    "reproduced": 0.084,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.521978459267672e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_30|cv": {
+   "published_raw": "15.7",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 15.66112953882239,
+     "reproduced_unrounded": 15.66112953882239,
+     "reproduced": 15.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_30'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 15.66112939790105,
+     "reproduced_unrounded": 15.66112939790105,
+     "reproduced": 15.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_30; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 15.66112946836172,
+    "reproduced_unrounded": 15.66112946836172,
+    "reproduced": 15.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.975881552527959e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_30|range": {
+   "published_raw": "0.34",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.33452324901131564,
+     "reproduced_unrounded": 0.33452324901131564,
+     "reproduced": 0.33,
+     "grade": "B",
+     "deviation_pct": 2.9411764705882377,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_30'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.3345232857955623,
+     "reproduced_unrounded": 0.3345232857955623,
+     "reproduced": 0.33,
+     "grade": "B",
+     "deviation_pct": 2.9411764705882377,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_30; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.33452326740343896,
+    "reproduced_unrounded": 0.33452326740343896,
+    "reproduced": 0.33,
+    "grade": "B",
+    "deviation_pct": 2.9411764705882377,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.0818896073134668e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "s_30|sw": {
+   "published_raw": "0.953",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9534771908225269,
+     "reproduced_unrounded": 0.9534771908225269,
+     "reproduced": 0.953,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_30'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9534772656344855,
+     "reproduced_unrounded": 0.9534772656344855,
+     "reproduced": 0.953,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_30; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9534772282285062,
+    "reproduced_unrounded": 0.9534772282285062,
+    "reproduced": 0.953,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.850153056455222e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_45|mean": {
+   "published_raw": "0.52",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.5230619327302632,
+     "reproduced_unrounded": 0.5230619327302632,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.5230618951557802,
+     "reproduced_unrounded": 0.5230618951557802,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5230619139430217,
+    "reproduced_unrounded": 0.5230619139430217,
+    "reproduced": 0.52,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.22586213086629e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_45|sd": {
+   "published_raw": "0.079",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.07844361528887084,
+     "reproduced_unrounded": 0.07844361528887084,
+     "reproduced": 0.078,
+     "grade": "A",
+     "deviation_pct": 1.2658227848101278,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.07844357589504755,
+     "reproduced_unrounded": 0.07844357589504755,
+     "reproduced": 0.078,
+     "grade": "A",
+     "deviation_pct": 1.2658227848101278,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0784435955919592,
+    "reproduced_unrounded": 0.0784435955919592,
+    "reproduced": 0.078,
+    "grade": "A",
+    "deviation_pct": 1.2658227848101278,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.986559909717818e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_45|cv": {
+   "published_raw": "15.1",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 14.997003295463152,
+     "reproduced_unrounded": 14.997003295463152,
+     "reproduced": 15.0,
+     "grade": "A",
+     "deviation_pct": 0.6622516556291367,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 14.996996841393925,
+     "reproduced_unrounded": 14.996996841393925,
+     "reproduced": 15.0,
+     "grade": "A",
+     "deviation_pct": 0.6622516556291367,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 14.997000068428537,
+    "reproduced_unrounded": 14.997000068428537,
+    "reproduced": 15.0,
+    "grade": "A",
+    "deviation_pct": 0.6622516556291367,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.2742180314580736e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_45|range": {
+   "published_raw": "0.30",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.29896852306726945,
+     "reproduced_unrounded": 0.29896852306726945,
+     "reproduced": 0.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.29896817919351065,
+     "reproduced_unrounded": 0.29896817919351065,
+     "reproduced": 0.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.29896835113039005,
+    "reproduced_unrounded": 0.29896835113039005,
+    "reproduced": 0.3,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00011462458626709804,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "s_45|sw": {
+   "published_raw": "0.946",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9459493358892063,
+     "reproduced_unrounded": 0.9459493358892063,
+     "reproduced": 0.946,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['s_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9459492729839102,
+     "reproduced_unrounded": 0.9459492729839102,
+     "reproduced": 0.946,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column s_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9459493044365582,
+    "reproduced_unrounded": 0.9459493044365582,
+    "reproduced": 0.946,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.649608465456183e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_15|mean": {
+   "published_raw": "0.9977",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9976999263638546,
+     "reproduced_unrounded": 0.9976999263638546,
+     "reproduced": 0.9977,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_15'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9976999263638252,
+     "reproduced_unrounded": 0.9976999263638252,
+     "reproduced": 0.9977,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_15; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.99769992636384,
+    "reproduced_unrounded": 0.99769992636384,
+    "reproduced": 0.9977,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.9488734241321685e-12,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_15|sd": {
+   "published_raw": "0.002",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.0016347106175540467,
+     "reproduced_unrounded": 0.0016347106175540467,
+     "reproduced": 0.002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_15'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0016347106176926782,
+     "reproduced_unrounded": 0.0016347106176926782,
+     "reproduced": 0.002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_15; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0016347106176233623,
+    "reproduced_unrounded": 0.0016347106176233623,
+    "reproduced": 0.002,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.931575539242951e-09,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_15|cv": {
+   "published_raw": "0.17",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.16384792404583964,
+     "reproduced_unrounded": 0.16384792404583964,
+     "reproduced": 0.16,
+     "grade": "B",
+     "deviation_pct": 5.8823529411764754,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_15'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.16384792405973958,
+     "reproduced_unrounded": 0.16384792405973958,
+     "reproduced": 0.16,
+     "grade": "B",
+     "deviation_pct": 5.8823529411764754,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_15; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.1638479240527896,
+    "reproduced_unrounded": 0.1638479240527896,
+    "reproduced": 0.16,
+    "grade": "B",
+    "deviation_pct": 5.8823529411764754,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.176433386562194e-09,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "r2_15|range": {
+   "published_raw": "0.009",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.009161462143081778,
+     "reproduced_unrounded": 0.009161462143081778,
+     "reproduced": 0.009,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_15'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.009161462143974508,
+     "reproduced_unrounded": 0.009161462143974508,
+     "reproduced": 0.009,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_15; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.009161462143528143,
+    "reproduced_unrounded": 0.009161462143528143,
+    "reproduced": 0.009,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 9.919225934456538e-09,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_15|sw": {
+   "published_raw": "0.659",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.652869929984569,
+     "reproduced_unrounded": 0.652869929984569,
+     "reproduced": 0.653,
+     "grade": "A",
+     "deviation_pct": 0.9104704097116851,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_15'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6528699299406432,
+     "reproduced_unrounded": 0.6528699299406432,
+     "reproduced": 0.653,
+     "grade": "A",
+     "deviation_pct": 0.9104704097116851,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_15; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6528699299626062,
+    "reproduced_unrounded": 0.6528699299626062,
+    "reproduced": 0.653,
+    "grade": "A",
+    "deviation_pct": 0.9104704097116851,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.665533072381161e-09,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_30|mean": {
+   "published_raw": "0.9988",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9988005852913856,
+     "reproduced_unrounded": 0.9988005852913856,
+     "reproduced": 0.9988,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_30'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9988005852913854,
+     "reproduced_unrounded": 0.9988005852913854,
+     "reproduced": 0.9988,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_30; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9988005852913855,
+    "reproduced_unrounded": 0.9988005852913855,
+    "reproduced": 0.9988,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.223113785793265e-14,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_30|sd": {
+   "published_raw": "0.001",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.0007332560079553251,
+     "reproduced_unrounded": 0.0007332560079553251,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_30'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.000733256007955446,
+     "reproduced_unrounded": 0.000733256007955446,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_30; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0007332560079553855,
+    "reproduced_unrounded": 0.0007332560079553855,
+    "reproduced": 0.001,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.2088854223213374e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_30|cv": {
+   "published_raw": "0.07",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.07341365421220777,
+     "reproduced_unrounded": 0.07341365421220777,
+     "reproduced": 0.07,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_30'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.07341365421221989,
+     "reproduced_unrounded": 0.07341365421221989,
+     "reproduced": 0.07,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_30; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.07341365421221382,
+    "reproduced_unrounded": 0.07341365421221382,
+    "reproduced": 0.07,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.7307583937460028e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_30|range": {
+   "published_raw": "0.004",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.0036214970700566562,
+     "reproduced_unrounded": 0.0036214970700566562,
+     "reproduced": 0.004,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_30'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0036214970700575444,
+     "reproduced_unrounded": 0.0036214970700575444,
+     "reproduced": 0.004,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_30; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0036214970700571003,
+    "reproduced_unrounded": 0.0036214970700571003,
+    "reproduced": 0.004,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.220446049250313e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_30|sw": {
+   "published_raw": "0.830",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.8302265647644234,
+     "reproduced_unrounded": 0.8302265647644234,
+     "reproduced": 0.83,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_30'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.8302265647644065,
+     "reproduced_unrounded": 0.8302265647644065,
+     "reproduced": 0.83,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_30; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.8302265647644149,
+    "reproduced_unrounded": 0.8302265647644149,
+    "reproduced": 0.83,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.0331795149761904e-12,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_45|mean": {
+   "published_raw": "0.9991",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9991060669174975,
+     "reproduced_unrounded": 0.9991060669174975,
+     "reproduced": 0.9991,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9991060669174974,
+     "reproduced_unrounded": 0.9991060669174974,
+     "reproduced": 0.9991,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9991060669174974,
+    "reproduced_unrounded": 0.9991060669174974,
+    "reproduced": 0.9991,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.1112231254380507e-14,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_45|sd": {
+   "published_raw": "0.001",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.000544455491995145,
+     "reproduced_unrounded": 0.000544455491995145,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.000544455491995312,
+     "reproduced_unrounded": 0.000544455491995312,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0005444554919952285,
+    "reproduced_unrounded": 0.0005444554919952285,
+    "reproduced": 0.001,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.6696713456276768e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_45|cv": {
+   "published_raw": "0.06",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.05449426342439618,
+     "reproduced_unrounded": 0.05449426342439618,
+     "reproduced": 0.05,
+     "grade": "B",
+     "deviation_pct": 16.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.054494263424412895,
+     "reproduced_unrounded": 0.054494263424412895,
+     "reproduced": 0.05,
+     "grade": "B",
+     "deviation_pct": 16.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.05449426342440454,
+    "reproduced_unrounded": 0.05449426342440454,
+    "reproduced": 0.05,
+    "grade": "B",
+    "deviation_pct": 16.66666666666666,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.7859659024187522e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "r2_45|range": {
+   "published_raw": "0.003",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.002634795212021035,
+     "reproduced_unrounded": 0.002634795212021035,
+     "reproduced": 0.003,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.002634795212022367,
+     "reproduced_unrounded": 0.002634795212022367,
+     "reproduced": 0.003,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.002634795212021701,
+    "reproduced_unrounded": 0.002634795212021701,
+    "reproduced": 0.003,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.440892098500626e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "r2_45|sw": {
+   "published_raw": "0.875",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.8840721954063822,
+     "reproduced_unrounded": 0.8840721954063822,
+     "reproduced": 0.884,
+     "grade": "A",
+     "deviation_pct": 1.0285714285714296,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['r2_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.8840721954062859,
+     "reproduced_unrounded": 0.8840721954062859,
+     "reproduced": 0.884,
+     "grade": "A",
+     "deviation_pct": 1.0285714285714296,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column r2_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.884072195406334,
+    "reproduced_unrounded": 0.884072195406334,
+    "reproduced": 0.884,
+    "grade": "A",
+    "deviation_pct": 1.0285714285714296,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.100072414114298e-11,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tdt_15_45|mean": {
+   "published_raw": "107.1",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 107.2144389323988,
+     "reproduced_unrounded": 107.2144389323988,
+     "reproduced": 107.2,
+     "grade": "A",
+     "deviation_pct": 0.09337068160598369,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['tdt_15_45'])['mean']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 107.21443982251635,
+     "reproduced_unrounded": 107.21443982251635,
+     "reproduced": 107.2,
+     "grade": "A",
+     "deviation_pct": 0.09337068160598369,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat mean over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 107.21443937745758,
+    "reproduced_unrounded": 107.21443937745758,
+    "reproduced": 107.2,
+    "grade": "A",
+    "deviation_pct": 0.09337068160598369,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.311088213533459e-07,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tdt_15_45|sd": {
+   "published_raw": "2.441",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.465921236456327,
+     "reproduced_unrounded": 2.465921236456327,
+     "reproduced": 2.466,
+     "grade": "A",
+     "deviation_pct": 1.0241704219582286,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['tdt_15_45'])['sd']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.4659231759233537,
+     "reproduced_unrounded": 2.4659231759233537,
+     "reproduced": 2.466,
+     "grade": "A",
+     "deviation_pct": 1.0241704219582286,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat sd over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.4659222061898403,
+    "reproduced_unrounded": 2.4659222061898403,
+    "reproduced": 2.466,
+    "grade": "A",
+    "deviation_pct": 1.0241704219582286,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.945379051761219e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tdt_15_45|cv": {
+   "published_raw": "2.3",
+   "metric_type": "CV",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.2999898717104212,
+     "reproduced_unrounded": 2.2999898717104212,
+     "reproduced": 2.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['tdt_15_45'])['cv']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.299991661576055,
+     "reproduced_unrounded": 2.299991661576055,
+     "reproduced": 2.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat cv over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.299990766643238,
+    "reproduced_unrounded": 2.299990766643238,
+    "reproduced": 2.3,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.782024495337781e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tdt_15_45|range": {
+   "published_raw": "10.5",
+   "metric_type": "range",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.506866223736807,
+     "reproduced_unrounded": 10.506866223736807,
+     "reproduced": 10.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['tdt_15_45'])['range']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.506893009184992,
+     "reproduced_unrounded": 10.506893009184992,
+     "reproduced": 10.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat range over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.5068796164609,
+    "reproduced_unrounded": 10.5068796164609,
+    "reproduced": 10.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0002550995065218688,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tdt_15_45|sw": {
+   "published_raw": "0.990",
+   "metric_type": "W",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9884569937728765,
+     "reproduced_unrounded": 0.9884569937728765,
+     "reproduced": 0.988,
+     "grade": "A",
+     "deviation_pct": 0.20202020202020218,
+     "sign_match": true,
+     "stars": "",
+     "source": "summary_stats(per_test_fits()['tdt_15_45'])['sw']"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9884572135235652,
+     "reproduced_unrounded": 0.9884572135235652,
+     "reproduced": 0.988,
+     "grade": "A",
+     "deviation_pct": 0.20202020202020218,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat sw over n=31"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9884571036482208,
+    "reproduced_unrounded": 0.9884571036482208,
+    "reproduced": 0.988,
+    "grade": "A",
+    "deviation_pct": 0.20202020202020218,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.2197039257159705e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "published_tokens": 59,
+ "answer_values": 0,
+ "unsearchable_cells": [],
+ "sandboxes": {
+  "r_opus": {
+   "inputs": [],
+   "data": [],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 0
+  },
+  "r_sonnet": {
+   "inputs": [],
+   "data": [],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 0
+  }
+ },
+ "pass": true
+}

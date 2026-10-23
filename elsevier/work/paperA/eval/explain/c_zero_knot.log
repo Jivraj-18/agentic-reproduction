@@ -1,0 +1,48 @@
+     subject sequence tech  run      t   kb   ka   ks   sp   mi
+135       16      CAB    C    1  309.0  0.0  0.0  0.0  0.0  2.0
+Smallest non-zero delta knot strength values: [0.09999999999999787, 0.09999999999999964, 0.10000000000000142, 0.3000000000000007, 0.40000000000000036] (data recorded to 0.1 mm)
+
+Knot strength (log scale), published: {'ks_io|eff': '0.827', 'ks_io|lo': '0.688', 'ks_io|hi': '0.994', 'ks_io|p': '0.043', 'ks_ic|eff': '0.966', 'ks_ic|lo': '0.805', 'ks_ic|hi': '1.159', 'ks_ic|p': '0.709', 'ks_oc|eff': '1.168', 'ks_oc|lo': '0.975', 'ks_oc|hi': '1.4', 'ks_oc|p': '0.092'}
+  zero->dropped        n=499 A=6/12  io: eff=0.828 lo=0.692 hi=0.989 p=0.0378 | ic: eff=0.945 lo=0.791 hi=1.129 p=0.5322 | oc: eff=1.142 lo=0.957 hi=1.362 p=0.1401
+  zero->0.5            n=500 A=9/12  io: eff=0.827 lo=0.691 hi=0.990 p=0.0388 | ic: eff=0.957 lo=0.800 hi=1.144 p=0.6287 | oc: eff=1.157 lo=0.969 hi=1.381 p=0.1074
+  zero->0.1            n=500 A=11/12  io: eff=0.827 lo=0.689 hi=0.993 p=0.0413 | ic: eff=0.965 lo=0.805 hi=1.158 p=0.7042 | oc: eff=1.168 lo=0.975 hi=1.398 p=0.0913
+  zero->0.05           n=500 A=10/12  io: eff=0.827 lo=0.687 hi=0.994 p=0.0428 | ic: eff=0.969 lo=0.807 hi=1.164 p=0.7373 | oc: eff=1.172 lo=0.978 hi=1.406 p=0.0859
+  zero->0.01           n=500 A=9/12  io: eff=0.826 lo=0.684 hi=0.998 p=0.0474 | ic: eff=0.978 lo=0.810 hi=1.180 p=0.8141 | oc: eff=1.184 lo=0.983 hi=1.426 p=0.0758
+  zero->dropped +pos   n=499 A=6/12  io: eff=0.828 lo=0.693 hi=0.991 p=0.0391 | ic: eff=0.946 lo=0.792 hi=1.131 p=0.5429 | oc: eff=1.142 lo=0.957 hi=1.363 p=0.1397
+  zero->0.5 +pos       n=500 A=9/12  io: eff=0.828 lo=0.691 hi=0.991 p=0.0398 | ic: eff=0.958 lo=0.800 hi=1.146 p=0.6364 | oc: eff=1.157 lo=0.969 hi=1.382 p=0.1074
+  zero->0.1 +pos       n=500 A=11/12  io: eff=0.827 lo=0.689 hi=0.993 p=0.0420 | ic: eff=0.966 lo=0.805 hi=1.159 p=0.7085 | oc: eff=1.168 lo=0.975 hi=1.399 p=0.0917
+  zero->0.05 +pos      n=500 A=10/12  io: eff=0.827 lo=0.687 hi=0.994 p=0.0434 | ic: eff=0.969 lo=0.807 hi=1.165 p=0.7401 | oc: eff=1.173 lo=0.978 hi=1.407 p=0.0863
+  zero->0.01 +pos      n=500 A=9/12  io: eff=0.826 lo=0.683 hi=0.998 p=0.0477 | ic: eff=0.978 lo=0.810 hi=1.180 p=0.8133 | oc: eff=1.184 lo=0.982 hi=1.426 p=0.0765
+  log(ks+1.0) +pos      io: eff=0.854 lo=0.750 hi=0.972 p=0.0171 | ic: eff=0.910 lo=0.800 hi=1.035 p=0.1510 | oc: eff=1.065 lo=0.938 hi=1.210 p=0.3316
+  log(ks+0.1) +pos      io: eff=0.830 lo=0.697 hi=0.987 p=0.0355 | ic: eff=0.951 lo=0.800 hi=1.130 p=0.5654 | oc: eff=1.145 lo=0.965 hi=1.359 p=0.1202
+
+Cell by cell, zero dropped (both runs) vs zero -> 0.1 mm, both with the position term; last column adds t-based p (df = n - p - (subjects-1)):
+  ks_io|eff  published= 0.827 opus=0.8276(A) sonnet=0.8276(A) alt=0.8269 -> A
+  ks_io|lo   published= 0.688 opus=0.6920(A) sonnet=0.6923(A) alt=0.6885 -> A
+  ks_io|hi   published= 0.994 opus=0.9898(A) sonnet=0.9894(A) alt=0.9932 -> A
+  ks_io|p    published= 0.043 opus=0.0383(B) sonnet=0.0378(B) alt=0.0420 -> B  t-based p=0.0426 (df=437)
+  ks_ic|eff  published= 0.966 opus=0.9449(B) sonnet=0.9449(B) alt=0.9658 -> A
+  ks_ic|lo   published= 0.805 opus=0.7907(A) sonnet=0.7911(A) alt=0.8050 -> A
+  ks_ic|hi   published= 1.159 opus=1.1292(B) sonnet=1.1287(B) alt=1.1589 -> A
+  ks_ic|p    published= 0.709 opus=0.5325(C) sonnet=0.5322(C) alt=0.7085 -> A  t-based p=0.7087 (df=437)
+  ks_oc|eff  published= 1.168 opus=1.1418(B) sonnet=1.1418(B) alt=1.1680 -> A
+  ks_oc|lo   published= 0.975 opus=0.9569(A) sonnet=0.9574(A) alt=0.9751 -> A
+  ks_oc|hi   published=   1.4 opus=1.3623(A) sonnet=1.3616(A) alt=1.3990 -> A
+  ks_oc|p    published= 0.092 opus=0.1408(D) sonnet=0.1401(D) alt=0.0917 -> A  t-based p=0.0924 (df=437)
+
+Knot-spread ability: zero spread kept (Sonnet) vs dropped (Opus), with and without position term
+  zero kept         n=500 A=11/12  io: eff=1.330 lo=0.786 hi=1.874 p=0.0000 | ic: eff=1.518 lo=0.977 hi=2.058 p=0.0000 | oc: eff=0.187 lo=-0.348 hi=0.723 p=0.4932
+  zero kept    +pos n=500 A=12/12  io: eff=1.328 lo=0.783 hi=1.873 p=0.0000 | ic: eff=1.519 lo=0.977 hi=2.061 p=0.0000 | oc: eff=0.191 lo=-0.346 hi=0.728 p=0.4854
+  zero dropped      n=499 A=5/12  io: eff=1.331 lo=0.794 hi=1.868 p=0.0000 | ic: eff=1.460 lo=0.926 hi=1.994 p=0.0000 | oc: eff=0.129 lo=-0.400 hi=0.659 p=0.6322
+     sp_ic|eff  published= 1.519 opus=1.4600(B) this re-run=1.4600
+     sp_ic|lo   published= 0.976 opus=0.9241(B) this re-run=0.9256
+     sp_ic|hi   published= 2.063 opus=1.9958(B) this re-run=1.9943
+     sp_oc|eff  published= 0.191 opus=0.1293(C) this re-run=0.1293
+     sp_oc|lo   published=-0.347 opus=-0.4015(B) this re-run=-0.4000
+     sp_oc|hi   published= 0.729 opus=0.6601(B) this re-run=0.6586
+     sp_oc|p    published= 0.486 opus=0.6324(C) this re-run=0.6322
+  zero dropped +pos n=499 A=5/12  io: eff=1.330 lo=0.793 hi=1.868 p=0.0000 | ic: eff=1.464 lo=0.929 hi=2.000 p=0.0000 | oc: eff=0.134 lo=-0.396 hi=0.664 p=0.6210
+
+Independent check from the paper's Table 2: closed technique (C), run 1, mean knot strength is printed 5.59.
+  zero kept as 0: 5.5842 | zero dropped: 5.6839 | zero set to 0.1: 5.5860
+  Only the 0.1 mm reading gives 5.59 (5.586).

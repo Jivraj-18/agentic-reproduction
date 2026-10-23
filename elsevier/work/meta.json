@@ -1,0 +1,129 @@
+{
+ "client": "Elsevier",
+ "repo": "agentic-reproduction-elsevier",
+ "papers": {
+  "A": {
+   "tab": "Paper A · Surgical training",
+   "title": "Intracorporeal vs. extracorporeal open and closed knot tying techniques in laparoscopy: A randomized, controlled study",
+   "authors": "Labrosse KB, et al.",
+   "journal": "Heliyon",
+   "year": "2024; 10: e25178",
+   "field": "Surgical education (randomised trial)",
+   "doi": "10.1016/j.heliyon.2024.e25178",
+   "data_doi": "10.5061/dryad.p2ngf1vvf",
+   "data_repo": "Dryad",
+   "licence": "CC BY 4.0",
+   "table": "Table 1. Comparison of different knot tying techniques by run time, knot strength and knot-spread ability.",
+   "why_table": "Twelve comparisons from mixed-effects models (log-linear, linear and logistic), with confidence intervals and p-values. The Methods name the models but not their exact form, so there are real analyst choices to make.",
+   "row_head": "Comparison",
+   "layout": [
+    {
+     "group": null,
+     "cols": [
+      {
+       "label": "Ratio or difference",
+       "fmt": "{eff}"
+      },
+      {
+       "label": "Averages compared",
+       "fmt": "{m1} : {m2}"
+      },
+      {
+       "label": "95% range",
+       "fmt": "{lo} to {hi}"
+      },
+      {
+       "label": "P value",
+       "fmt": "{p}"
+      }
+     ]
+    }
+   ],
+   "col_labels": {
+    "eff": "ratio or difference",
+    "m1": "average, first technique",
+    "m2": "average, second technique",
+    "lo": "95% range, low end",
+    "hi": "95% range, high end",
+    "p": "P value"
+   },
+   "glossary": [
+    [
+     "Ratio",
+     "for time and knot strength, how many times larger the first technique's typical value is; for mistakes, the odds ratio of making at least one mistake."
+    ],
+    [
+     "Difference",
+     "for knot-spread ability, the difference in millimetres."
+    ],
+    [
+     "95% range",
+     "the confidence interval around the ratio or difference."
+    ]
+   ]
+  },
+  "B": {
+   "tab": "Paper B · Toxicology",
+   "title": "Equations for estimating binary mixture toxicity: Methyl-2-chloroacetoacetate-containing combinations",
+   "authors": "Dawson DA, Schultz TW",
+   "journal": "Toxicology Reports",
+   "year": "2025; 14: 101939",
+   "field": "Toxicology (curve fitting)",
+   "doi": "10.1016/j.toxrep.2025.101939",
+   "data_doi": "osf.io/ysxrb",
+   "data_repo": "OSF",
+   "licence": "CC BY 4.0",
+   "table": "Table 2. Summary statistics for methyl-2-chloroacetoacetate (M2CA) tested alone (n = 31).",
+   "why_table": "Each of the 93 values behind it comes from fitting an asymmetric five-parameter dose-response curve to raw bioassay data, then summarising across 31 tests. A pure test of whether the curve-fitting method is written down well enough.",
+   "row_head": "Measure, minutes of exposure",
+   "layout": [
+    {
+     "group": null,
+     "cols": [
+      {
+       "label": "Average",
+       "fmt": "{mean}"
+      },
+      {
+       "label": "Spread (SD)",
+       "fmt": "{sd}"
+      },
+      {
+       "label": "Variation (CV %)",
+       "fmt": "{cv}"
+      },
+      {
+       "label": "Range",
+       "fmt": "{range}"
+      },
+      {
+       "label": "Normality (W)",
+       "fmt": "{sw}"
+      }
+     ]
+    }
+   ],
+   "col_labels": {
+    "mean": "average",
+    "sd": "spread (SD)",
+    "cv": "variation (CV %)",
+    "range": "range",
+    "sw": "normality (Shapiro-Wilk W)"
+   },
+   "glossary": [
+    [
+     "EC25 / EC50 / EC75",
+     "the concentration that cuts the bacteria's light by 25%, 50% or 75%."
+    ],
+    [
+     "Slope and s",
+     "the steepness and the lopsidedness of the fitted dose-response curve."
+    ],
+    [
+     "TDT",
+     "how much more toxic the chemical gets between 15 and 45 minutes."
+    ]
+   ]
+  }
+ }
+}

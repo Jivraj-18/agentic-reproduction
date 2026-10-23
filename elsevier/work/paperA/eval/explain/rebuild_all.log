@@ -1,0 +1,77 @@
+time_io|eff published=   1.33 rebuilt=    1.3334 A ( 0.0%)  runs: opus A / sonnet A
+time_io|m1  published=  386.6 rebuilt=  386.5791 A ( 0.0%)  runs: opus B / sonnet A
+time_io|m2  published=  279.5 rebuilt=  279.4785 A ( 0.0%)  runs: opus B / sonnet A
+time_io|lo  published=  1.244 rebuilt=    1.2443 A ( 0.0%)  runs: opus A / sonnet A
+time_io|hi  published=  1.429 rebuilt=    1.4288 A ( 0.0%)  runs: opus A / sonnet A
+time_io|p   published= <0.001 rebuilt=    0.0000 A ( 0.0%)  runs: opus A / sonnet A
+time_ic|eff published=  1.361 rebuilt=    1.3605 A ( 0.0%)  runs: opus A / sonnet A
+time_ic|m1  published=  386.6 rebuilt=  386.5791 A ( 0.0%)  runs: opus B / sonnet A
+time_ic|m2  published=  255.7 rebuilt=  255.7368 A ( 0.0%)  runs: opus B / sonnet A
+time_ic|lo  published=   1.27 rebuilt=    1.2702 A ( 0.0%)  runs: opus A / sonnet A
+time_ic|hi  published=  1.458 rebuilt=    1.4573 A ( 0.1%)  runs: opus A / sonnet A
+time_ic|p   published= <0.001 rebuilt=    0.0000 A ( 0.0%)  runs: opus A / sonnet A
+time_oc|eff published=   1.02 rebuilt=    1.0204 A ( 0.0%)  runs: opus A / sonnet A
+time_oc|m1  published=  279.5 rebuilt=  279.4785 A ( 0.0%)  runs: opus B / sonnet A
+time_oc|m2  published=  255.7 rebuilt=  255.7368 A ( 0.0%)  runs: opus B / sonnet A
+time_oc|lo  published=  0.953 rebuilt=    0.9530 A ( 0.0%)  runs: opus A / sonnet A
+time_oc|hi  published=  1.093 rebuilt=    1.0926 A ( 0.0%)  runs: opus A / sonnet A
+time_oc|p   published=  0.563 rebuilt=    0.5628 A ( 0.0%)  runs: opus B / sonnet B
+ks_io|eff   published=  0.827 rebuilt=    0.8269 A ( 0.0%)  runs: opus A / sonnet A
+ks_io|m1    published=   3.80 rebuilt=    3.7999 A ( 0.0%)  runs: opus C / sonnet A
+ks_io|m2    published=   4.92 rebuilt=    4.9201 A ( 0.0%)  runs: opus C / sonnet A
+ks_io|lo    published=  0.688 rebuilt=    0.6885 A ( 0.1%)  runs: opus A / sonnet A
+ks_io|hi    published=  0.994 rebuilt=    0.9932 A ( 0.1%)  runs: opus A / sonnet A
+ks_io|p     published=  0.043 rebuilt=    0.0420 B ( 2.3%)  runs: opus B / sonnet B   <-- not A
+ks_ic|eff   published=  0.966 rebuilt=    0.9658 A ( 0.0%)  runs: opus B / sonnet B
+ks_ic|m1    published=   3.80 rebuilt=    3.7999 A ( 0.0%)  runs: opus C / sonnet A
+ks_ic|m2    published=   4.96 rebuilt=    4.9614 A ( 0.0%)  runs: opus C / sonnet A
+ks_ic|lo    published=  0.805 rebuilt=    0.8050 A ( 0.0%)  runs: opus A / sonnet A
+ks_ic|hi    published=  1.159 rebuilt=    1.1589 A ( 0.0%)  runs: opus B / sonnet B
+ks_ic|p     published=  0.709 rebuilt=    0.7085 A ( 0.0%)  runs: opus C / sonnet C
+ks_oc|eff   published=  1.168 rebuilt=    1.1680 A ( 0.0%)  runs: opus B / sonnet B
+ks_oc|m1    published=   4.92 rebuilt=    4.9201 A ( 0.0%)  runs: opus C / sonnet A
+ks_oc|m2    published=   4.96 rebuilt=    4.9614 A ( 0.0%)  runs: opus C / sonnet A
+ks_oc|lo    published=  0.975 rebuilt=    0.9751 A ( 0.0%)  runs: opus A / sonnet A
+ks_oc|hi    published=    1.4 rebuilt=    1.3990 A ( 0.0%)  runs: opus A / sonnet A
+ks_oc|p     published=  0.092 rebuilt=    0.0917 A ( 0.0%)  runs: opus D / sonnet D
+sp_io|eff   published=  1.328 rebuilt=    1.3281 A ( 0.0%)  runs: opus A / sonnet A
+sp_io|m1    published=  11.72 rebuilt=   11.7658 A ( 0.4%)  runs: opus A / sonnet A
+sp_io|m2    published=  10.46 rebuilt=   10.4572 A ( 0.0%)  runs: opus A / sonnet A
+sp_io|lo    published=  0.782 rebuilt=    0.7830 A ( 0.1%)  runs: opus A / sonnet A
+sp_io|hi    published=  1.875 rebuilt=    1.8732 A ( 0.1%)  runs: opus A / sonnet A
+sp_io|p     published= <0.001 rebuilt=    0.0000 A ( 0.0%)  runs: opus A / sonnet A
+sp_ic|eff   published=  1.519 rebuilt=    1.5190 A ( 0.0%)  runs: opus B / sonnet A
+sp_ic|m1    published=  11.77 rebuilt=   11.7658 A ( 0.0%)  runs: opus A / sonnet A
+sp_ic|m2    published=  10.26 rebuilt=   10.2620 A ( 0.0%)  runs: opus A / sonnet A
+sp_ic|lo    published=  0.976 rebuilt=    0.9770 A ( 0.1%)  runs: opus B / sonnet A
+sp_ic|hi    published=  2.063 rebuilt=    2.0611 A ( 0.1%)  runs: opus B / sonnet A
+sp_ic|p     published= <0.001 rebuilt=    0.0000 A ( 0.0%)  runs: opus A / sonnet A
+sp_oc|eff   published=  0.191 rebuilt=    0.1910 A ( 0.0%)  runs: opus C / sonnet B
+sp_oc|m1    published=  10.46 rebuilt=   10.4572 A ( 0.0%)  runs: opus A / sonnet A
+sp_oc|m2    published=  10.26 rebuilt=   10.2620 A ( 0.0%)  runs: opus A / sonnet A
+sp_oc|lo    published= -0.347 rebuilt=   -0.3456 A ( 0.3%)  runs: opus B / sonnet A
+sp_oc|hi    published=  0.729 rebuilt=    0.7275 A ( 0.1%)  runs: opus B / sonnet A
+sp_oc|p     published=  0.486 rebuilt=    0.4854 A ( 0.2%)  runs: opus C / sonnet A
+mi_io|eff   published=  2.294 rebuilt=    2.2935 A ( 0.0%)  runs: opus B / sonnet B
+mi_io|m1    published=   0.36 rebuilt=    0.3556 A ( 0.0%)  runs: opus C / sonnet B
+mi_io|m2    published=   0.28 rebuilt=    0.2750 B ( 3.6%)  runs: opus D / sonnet A   <-- not A
+mi_io|lo    published=  1.261 rebuilt=    1.2613 A ( 0.0%)  runs: opus B / sonnet B
+mi_io|hi    published=   4.17 rebuilt=    4.1705 A ( 0.0%)  runs: opus B / sonnet B
+mi_io|p     published=  0.007 rebuilt=    0.0065 A ( 0.0%)  runs: opus E / sonnet E
+mi_ic|eff   published=  2.453 rebuilt=    2.4531 A ( 0.0%)  runs: opus B / sonnet B
+mi_ic|m1    published=   0.36 rebuilt=    0.3556 A ( 0.0%)  runs: opus C / sonnet B
+mi_ic|m2    published=   0.22 rebuilt=    0.2164 A ( 0.0%)  runs: opus C / sonnet A
+mi_ic|lo    published=  1.353 rebuilt=    1.3532 A ( 0.0%)  runs: opus B / sonnet B
+mi_ic|hi    published=  4.447 rebuilt=    4.4471 A ( 0.0%)  runs: opus B / sonnet B
+mi_ic|p     published=  0.003 rebuilt=    0.0031 A ( 0.0%)  runs: opus E / sonnet E
+mi_oc|eff   published=   1.07 rebuilt=    1.0696 A ( 0.0%)  runs: opus A / sonnet A
+mi_oc|m1    published=   0.28 rebuilt=    0.2750 B ( 3.6%)  runs: opus D / sonnet A   <-- not A
+mi_oc|m2    published=   0.22 rebuilt=    0.2164 A ( 0.0%)  runs: opus C / sonnet A
+mi_oc|lo    published=  0.578 rebuilt=    0.5776 A ( 0.0%)  runs: opus B / sonnet B
+mi_oc|hi    published=  1.981 rebuilt=    1.9806 A ( 0.0%)  runs: opus B / sonnet B
+mi_oc|p     published=  0.831 rebuilt=    0.8305 A ( 0.0%)  runs: opus B / sonnet B
+Grade counts, authors' reading: {'A': 69, 'B': 3, 'C': 0, 'D': 0, 'E': 0}
+Runs for comparison: opus {'A': 29, 'B': 25, 'C': 13, 'D': 3, 'E': 2} sonnet {'A': 51, 'B': 17, 'C': 1, 'D': 1, 'E': 2}
+Notes: mi B mean is exactly 11/40 = 0.275 (prints 0.28 in R; float summation here gives 0.27499...).
+       ks_io|p: Wald z gives 0.0420; a t reference with ~437 df (lmerTest-style) gives 0.0426 -> 0.043.
+       sp_io|m1 is printed 11.72 but the same mean is printed 11.77 two rows below and in the text; 11.766 rebuilt.

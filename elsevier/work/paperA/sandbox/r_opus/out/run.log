@@ -1,0 +1,32 @@
+failed-knot rows with all-zero measurements set to missing for ks/sp: 1
+valid runs for time: 502 (subjects 57)
+valid runs for ks: 499 (subjects 57)
+valid runs for sp: 499 (subjects 57)
+valid runs for mi: 500 (subjects 57)
+[time] LMM n=502 subjects=57 log=True REML; beta=[ 6.08591 -0.28261 -0.30032 -0.33786 -0.53274]; sigma2_u=0.03526 sigma2_e=0.11976; df=441; converged=True
+time_io: eff=1.3266 [1.2309, 1.4297] p=6.1359e-13  means (328.88, 247.92)
+time_ic: eff=1.3503 [1.2535, 1.4546] p=1.7905e-14  means (328.88, 243.56)
+time_oc: eff=1.0179 [0.94524, 1.0961] p=0.63846  means (247.92, 243.56)
+[ks] LMM n=499 subjects=57 log=True REML; beta=[ 1.21159  0.18921  0.05663 -0.22111 -0.13035]; sigma2_u=0.07344 sigma2_e=0.67950; df=438; converged=True
+ks_io: eff=0.82762 [0.69197, 0.98985] p=0.038343  means (2.9875, 3.6098)
+ks_ic: eff=0.94494 [0.79072, 1.1292] p=0.5325  means (2.9875, 3.1616)
+ks_oc: eff=1.1418 [0.95693, 1.3623] p=0.14081  means (3.6098, 3.1616)
+[sp] LMM n=499 subjects=57 log=False REML; beta=[12.01757 -1.33069 -1.45996 -0.29669 -0.41771]; sigma2_u=1.87489 sigma2_e=6.13591; df=438; converged=True
+sp_io: eff=1.3307 [0.79238, 1.869] p=1.6503e-06  means (11.779, 10.449)
+sp_ic: eff=1.46 [0.92414, 1.9958] p=1.3832e-07  means (11.779, 10.319)
+sp_oc: eff=0.12928 [-0.40151, 0.66006] p=0.6324  means (10.449, 10.319)
+[mi] GLMM logit nAGQ=1 n=500 subjects=57; beta=[-0.35232 -0.66566 -0.74369 -0.75308 -1.26805]; sd_u=0.78781; -2logLik=491.2142; converged=True
+mi_io: eff=1.9458 [1.1146, 3.3967] p=0.019197  means (0.26385, 0.15555)
+mi_ic: eff=2.1037 [1.2016, 3.6829] p=0.0092463  means (0.26385, 0.14558)
+mi_oc: eff=1.0812 [0.60324, 1.9377] p=0.79322  means (0.15555, 0.14558)
+
+Descriptive arithmetic means over valid runs (reference only, not in table):
+  time {'A': 382.3232, 'B': 279.6347, 'C': 255.7368}
+  ks {'A': 3.7981, 'B': 4.9212, 'C': 4.9906}
+  sp {'A': 11.7642, 'B': 10.4563, 'C': 10.3224}
+  mi {'A': 0.2901, 'B': 0.1916, 'C': 0.1813}
+  mistakes {'A': 0.3519, 'B': 0.2754, 'C': 0.2164}
+Descriptive geometric means (reference only):
+  time {'A': 324.9489, 'B': 247.6212, 'C': 243.5649}
+  ks {'A': 2.9571, 'B': 3.6105, 'C': 3.1546}
+wrote out\filled.json

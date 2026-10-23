@@ -1,0 +1,667 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. Comparison of different knot tying techniques by run time, knot strength and knot-spread ability.",
+ "rows": [
+  {
+   "id": "time_io",
+   "label": "Time (sec): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "time_ic",
+   "label": "Time (sec): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "time_oc",
+   "label": "Time (sec): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "ks_io",
+   "label": "Knot strength (mm): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "ks_ic",
+   "label": "Knot strength (mm): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "ks_oc",
+   "label": "Knot strength (mm): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "sp_io",
+   "label": "Knot-spread ability (mm): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "sp_ic",
+   "label": "Knot-spread ability (mm): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "sp_oc",
+   "label": "Knot-spread ability (mm): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "mi_io",
+   "label": "Mistakes: Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "mi_ic",
+   "label": "Mistakes: Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "mi_oc",
+   "label": "Mistakes: Extracorporeal, open : Extracorporeal, closed"
+  }
+ ],
+ "columns": [
+  {
+   "id": "eff",
+   "label": "Ratio (a): geometric mean ratio, difference of means or odds ratio",
+   "metric_type": "effect"
+  },
+  {
+   "id": "m1",
+   "label": "Mean, first technique of the contrast (in brackets)",
+   "metric_type": "mean"
+  },
+  {
+   "id": "m2",
+   "label": "Mean, second technique of the contrast (in brackets)",
+   "metric_type": "mean"
+  },
+  {
+   "id": "lo",
+   "label": "95% CI lower",
+   "metric_type": "CI"
+  },
+  {
+   "id": "hi",
+   "label": "95% CI upper",
+   "metric_type": "CI"
+  },
+  {
+   "id": "p",
+   "label": "p-value (b)",
+   "metric_type": "p"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "time_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.3265911224251445,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_io|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 328.8847855601932,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "time_io|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 247.9172218180972,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "time_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.2308939621592732,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.4297283601993065,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 6.135888344952858e-13,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.350296047202009,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_ic|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 328.8847855601932,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "time_ic|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 243.56494728817867,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "time_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.2534650906253062,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.454607255300421,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 1.7904834067713345e-14,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.0178690512669264,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_oc|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 247.9172218180972,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "time_oc|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 243.56494728817867,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "time_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.945235031507348,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.096084435079445,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "time_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6384570752348565,
+   "stars": "",
+   "source": "lmm_random_intercept(time, log=True) + contrast()"
+  },
+  "ks_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 0.8276165754684661,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_io|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 2.9875047607165217,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "ks_io|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 3.609769124096466,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "ks_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6919748642971604,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9898469313417257,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.03834273906203495,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9449397821973823,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_ic|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 2.9875047607165217,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "ks_ic|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 3.161582163224536,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "ks_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7907173868860048,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1292418843800691,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.532497258475845,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1417603395177365,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_oc|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 3.609769124096466,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "ks_oc|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 3.161582163224536,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "ks_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.956933065451144,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.3622861618655322,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "ks_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.14080919233901604,
+   "stars": "",
+   "source": "lmm_random_intercept(ks, log=True) + contrast()"
+  },
+  "sp_io|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.3306852299587588,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_io|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 11.779443499255967,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "sp_io|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.448758269297208,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "sp_io|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.7923821240435532,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_io|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.8689883358739645,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 1.650294617719503e-06,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_ic|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.4599611490616187,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_ic|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 11.779443499255967,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "sp_ic|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.319482350194349,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "sp_ic|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.9241393457596786,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_ic|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.9957829523635588,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 1.3831665112353032e-07,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_oc|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.12927591910285985,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_oc|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.448758269297208,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "sp_oc|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.319482350194349,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "sp_oc|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": -0.40150597874906946,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_oc|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.6600578169547892,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "sp_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6324004019055292,
+   "stars": "",
+   "source": "lmm_random_intercept(sp, log=False) + contrast()"
+  },
+  "mi_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.9457650661786072,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_io|m1": {
+   "metric_type": "mean",
+   "unit": "probability of >=1 mistake per run",
+   "link_to": null,
+   "value": 0.2638536888403061,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "mi_io|m2": {
+   "metric_type": "mean",
+   "unit": "probability of >=1 mistake per run",
+   "link_to": null,
+   "value": 0.15555379667852445,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "mi_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1146141323295875,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 3.3966927055268417,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.019197130650204383,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 2.1036813736310886,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_ic|m1": {
+   "metric_type": "mean",
+   "unit": "probability of >=1 mistake per run",
+   "link_to": null,
+   "value": 0.2638536888403061,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "mi_ic|m2": {
+   "metric_type": "mean",
+   "unit": "probability of >=1 mistake per run",
+   "link_to": null,
+   "value": 0.14557678050123804,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "mi_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.2016279679795792,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 3.6828997324383113,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.009246335203930266,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.081158979672002,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_oc|m1": {
+   "metric_type": "mean",
+   "unit": "probability of >=1 mistake per run",
+   "link_to": null,
+   "value": 0.15555379667852445,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "mi_oc|m2": {
+   "metric_type": "mean",
+   "unit": "probability of >=1 mistake per run",
+   "link_to": null,
+   "value": 0.14557678050123804,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + emm_L() estimated marginal mean, back-transformed"
+  },
+  "mi_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6032439503551542,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.9376982374000151,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  },
+  "mi_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7932228314610632,
+   "stars": "",
+   "source": "glmm_logit(mi, Laplace) + contrast()"
+  }
+ },
+ "instructions": "Fill `value` (a number; or a string such as '<x' for a bound) for every cell; set `stars` to '' (this table prints no significance markers). `unit` gives the unit the table uses for that cell."
+}

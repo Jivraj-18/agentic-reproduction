@@ -1,0 +1,93 @@
+Per technique x run arithmetic means (these are the bracketed values of the paper's Table 2):
+t 
+ run        1       2       3
+tech                        
+A     541.00  349.51  269.23
+B     373.91  253.38  211.14
+C     315.05  242.42  209.74
+ks 
+ run      1     2     3
+tech                  
+A     3.92  3.69  3.78
+B     5.91  4.73  4.12
+C     5.58  3.65  5.65
+sp 
+ run       1      2      3
+tech                     
+A     12.01  11.42  11.87
+B     10.31  10.60  10.46
+C     10.79  10.32   9.67
+mi 
+ run      1     2     3
+tech                  
+A     0.50  0.37  0.20
+B     0.41  0.20  0.21
+C     0.37  0.21  0.07
+mb 
+ run      1     2     3
+tech                  
+A     0.40  0.28  0.20
+B     0.27  0.16  0.14
+C     0.32  0.16  0.07
+
+Technique means three ways (pooled over valid runs | average of the three run means | per participant first):
+t   pooled {'A': 382.323, 'B': 279.635, 'C': 255.737} | run-means {'A': 386.579, 'B': 279.478, 'C': 255.737} | subject-first {'A': 388.251, 'B': 278.749, 'C': 255.737}
+ks  pooled {'A': 3.798, 'B': 4.921, 'C': 4.961} | run-means {'A': 3.8, 'B': 4.92, 'C': 4.961} | subject-first {'A': 3.928, 'B': 4.922, 'C': 4.961}
+sp  pooled {'A': 11.764, 'B': 10.456, 'C': 10.262} | run-means {'A': 11.766, 'B': 10.457, 'C': 10.262} | subject-first {'A': 11.691, 'B': 10.426, 'C': 10.262}
+mi  pooled {'A': 0.352, 'B': 0.275, 'C': 0.216} | run-means {'A': 0.356, 'B': 0.275, 'C': 0.216} | subject-first {'A': 0.354, 'B': 0.275, 'C': 0.216}
+mb  pooled {'A': 0.29, 'B': 0.192, 'C': 0.181} | run-means {'A': 0.293, 'B': 0.191, 'C': 0.181} | subject-first {'A': 0.292, 'B': 0.193, 'C': 0.181}
+(mb = share of runs with >=1 mistake; mi = mean mistake count)
+
+Alternative reading: average of the three per-run arithmetic means
+r_opus non-A mean cells: 18
+  time_io|m1 published= 386.6 run= 328.8848 (B)  alt= 386.5791 -> A (0.0%)
+  time_io|m2 published= 279.5 run= 247.9172 (B)  alt= 279.4785 -> A (0.0%)
+  time_ic|m1 published= 386.6 run= 328.8848 (B)  alt= 386.5791 -> A (0.0%)
+  time_ic|m2 published= 255.7 run= 243.5649 (B)  alt= 255.7368 -> A (0.0%)
+  time_oc|m1 published= 279.5 run= 247.9172 (B)  alt= 279.4785 -> A (0.0%)
+  time_oc|m2 published= 255.7 run= 243.5649 (B)  alt= 255.7368 -> A (0.0%)
+  ks_io|m1   published=  3.80 run=   2.9875 (C)  alt=   3.7999 -> A (0.0%)
+  ks_io|m2   published=  4.92 run=   3.6098 (C)  alt=   4.9201 -> A (0.0%)
+  ks_ic|m1   published=  3.80 run=   2.9875 (C)  alt=   3.7999 -> A (0.0%)
+  ks_ic|m2   published=  4.96 run=   3.1616 (C)  alt=   4.9614 -> A (0.0%)
+  ks_oc|m1   published=  4.92 run=   3.6098 (C)  alt=   4.9201 -> A (0.0%)
+  ks_oc|m2   published=  4.96 run=   3.1616 (C)  alt=   4.9614 -> A (0.0%)
+  mi_io|m1   published=  0.36 run=   0.2639 (C)  alt=   0.3556 -> A (0.0%)
+  mi_io|m2   published=  0.28 run=   0.1556 (D)  alt=   0.2750 -> B (3.6%)
+  mi_ic|m1   published=  0.36 run=   0.2639 (C)  alt=   0.3556 -> A (0.0%)
+  mi_ic|m2   published=  0.22 run=   0.1456 (C)  alt=   0.2164 -> A (0.0%)
+  mi_oc|m1   published=  0.28 run=   0.1556 (D)  alt=   0.2750 -> B (3.6%)
+  mi_oc|m2   published=  0.22 run=   0.1456 (C)  alt=   0.2164 -> A (0.0%)
+r_sonnet non-A mean cells: 2
+  mi_io|m1   published=  0.36 run=   0.3519 (B)  alt=   0.3556 -> A (0.0%)
+  mi_ic|m1   published=  0.36 run=   0.3519 (B)  alt=   0.3556 -> A (0.0%)
+
+All 24 mean cells under the alternative: {'A': 22, 'B': 2, 'C': 0, 'D': 0, 'E': 0}
+  time_io|m1 published= 386.6 alt= 386.579 A
+  time_io|m2 published= 279.5 alt= 279.478 A
+  time_ic|m1 published= 386.6 alt= 386.579 A
+  time_ic|m2 published= 255.7 alt= 255.737 A
+  time_oc|m1 published= 279.5 alt= 279.478 A
+  time_oc|m2 published= 255.7 alt= 255.737 A
+  ks_io|m1   published=  3.80 alt=   3.800 A
+  ks_io|m2   published=  4.92 alt=   4.920 A
+  ks_ic|m1   published=  3.80 alt=   3.800 A
+  ks_ic|m2   published=  4.96 alt=   4.961 A
+  ks_oc|m1   published=  4.92 alt=   4.920 A
+  ks_oc|m2   published=  4.96 alt=   4.961 A
+  sp_io|m1   published= 11.72 alt=  11.766 A
+  sp_io|m2   published= 10.46 alt=  10.457 A
+  sp_ic|m1   published= 11.77 alt=  11.766 A
+  sp_ic|m2   published= 10.26 alt=  10.262 A
+  sp_oc|m1   published= 10.46 alt=  10.457 A
+  sp_oc|m2   published= 10.26 alt=  10.262 A
+  mi_io|m1   published=  0.36 alt=   0.356 A
+  mi_io|m2   published=  0.28 alt=   0.275 B
+  mi_ic|m1   published=  0.36 alt=   0.356 A
+  mi_ic|m2   published=  0.22 alt=   0.216 A
+  mi_oc|m1   published=  0.28 alt=   0.275 B
+  mi_oc|m2   published=  0.22 alt=   0.216 A
+
+Exact mistake means (fractions): {'A': '1613/4536 = 0.355600', 'B': '11/40 = 0.275000', 'C': '37/171 = 0.216374'}
+Technique B is exactly 0.275; the float sum above gives 0.27499999..., which rounds down to 0.27,
+but the exact value (and R's round/sprintf on 0.275, stored as 0.27500000000000002) prints 0.28, the published value.

@@ -1,0 +1,874 @@
+{
+ "paper": "B",
+ "table_id": "Table 2",
+ "caption": "Table 2. Summary statistics for methyl-2-chloroacetoacetate (M2CA) tested alone (n = 31).",
+ "rows": [
+  {
+   "id": "ec25_15",
+   "label": "EC25 (µM), 15 min"
+  },
+  {
+   "id": "ec25_30",
+   "label": "EC25 (µM), 30 min"
+  },
+  {
+   "id": "ec25_45",
+   "label": "EC25 (µM), 45 min"
+  },
+  {
+   "id": "ec50_15",
+   "label": "EC50 (µM), 15 min"
+  },
+  {
+   "id": "ec50_30",
+   "label": "EC50 (µM), 30 min"
+  },
+  {
+   "id": "ec50_45",
+   "label": "EC50 (µM), 45 min"
+  },
+  {
+   "id": "ec75_15",
+   "label": "EC75 (µM), 15 min"
+  },
+  {
+   "id": "ec75_30",
+   "label": "EC75 (µM), 30 min"
+  },
+  {
+   "id": "ec75_45",
+   "label": "EC75 (µM), 45 min"
+  },
+  {
+   "id": "slope_15",
+   "label": "Slope, 15 min"
+  },
+  {
+   "id": "slope_30",
+   "label": "Slope, 30 min"
+  },
+  {
+   "id": "slope_45",
+   "label": "Slope, 45 min"
+  },
+  {
+   "id": "s_15",
+   "label": "s (asymmetry), 15 min"
+  },
+  {
+   "id": "s_30",
+   "label": "s (asymmetry), 30 min"
+  },
+  {
+   "id": "s_45",
+   "label": "s (asymmetry), 45 min"
+  },
+  {
+   "id": "r2_15",
+   "label": "r2, 15 min"
+  },
+  {
+   "id": "r2_30",
+   "label": "r2, 30 min"
+  },
+  {
+   "id": "r2_45",
+   "label": "r2, 45 min"
+  },
+  {
+   "id": "tdt_15_45",
+   "label": "TDT (%), 15-45 min"
+  }
+ ],
+ "columns": [
+  {
+   "id": "mean",
+   "label": "Mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "sd",
+   "label": "Std. dev.",
+   "metric_type": "SD"
+  },
+  {
+   "id": "cv",
+   "label": "CV (%)",
+   "metric_type": "CV"
+  },
+  {
+   "id": "range",
+   "label": "Range",
+   "metric_type": "range"
+  },
+  {
+   "id": "sw",
+   "label": "SW-W (Shapiro-Wilk W)",
+   "metric_type": "W"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "ec25_15|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 4.058959084959578,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_15; stat mean over n=31"
+  },
+  "ec25_15|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.8398677668565975,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_15; stat sd over n=31"
+  },
+  "ec25_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 20.691703199687748,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_15; stat cv over n=31"
+  },
+  "ec25_15|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 3.0162391884180124,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_15; stat range over n=31"
+  },
+  "ec25_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9425319956197314,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_15; stat sw over n=31"
+  },
+  "ec25_30|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.8300487319606495,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_30; stat mean over n=31"
+  },
+  "ec25_30|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.3358592504643365,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_30; stat sd over n=31"
+  },
+  "ec25_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 18.35247578923807,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_30; stat cv over n=31"
+  },
+  "ec25_30|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.168446475572862,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_30; stat range over n=31"
+  },
+  "ec25_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9559727698026669,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_30; stat sw over n=31"
+  },
+  "ec25_45|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.0958879057845987,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_45; stat mean over n=31"
+  },
+  "ec25_45|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.17951240237695915,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_45; stat sd over n=31"
+  },
+  "ec25_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 16.380544162355513,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_45; stat cv over n=31"
+  },
+  "ec25_45|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.6465891933854934,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_45; stat range over n=31"
+  },
+  "ec25_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9641981102255579,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec25_45; stat sw over n=31"
+  },
+  "ec50_15|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 9.639464798011913,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_15; stat mean over n=31"
+  },
+  "ec50_15|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.8891796355497545,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_15; stat sd over n=31"
+  },
+  "ec50_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 19.598387204436783,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_15; stat cv over n=31"
+  },
+  "ec50_15|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 6.6063831854297135,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_15; stat range over n=31"
+  },
+  "ec50_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9368795699493816,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_15; stat sw over n=31"
+  },
+  "ec50_30|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 4.4643293184109725,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_30; stat mean over n=31"
+  },
+  "ec50_30|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.779454242239043,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_30; stat sd over n=31"
+  },
+  "ec50_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 17.45960449253956,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_30; stat cv over n=31"
+  },
+  "ec50_30|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 2.6045116531341836,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_30; stat range over n=31"
+  },
+  "ec50_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9426118431816846,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_30; stat sw over n=31"
+  },
+  "ec50_45|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 2.7261134030938687,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_45; stat mean over n=31"
+  },
+  "ec50_45|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 0.4372777273257522,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_45; stat sd over n=31"
+  },
+  "ec50_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 16.04033518302963,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_45; stat cv over n=31"
+  },
+  "ec50_45|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.5526805684346487,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_45; stat range over n=31"
+  },
+  "ec50_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9583679022305853,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec50_45; stat sw over n=31"
+  },
+  "ec75_15|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 21.171365900318598,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_15; stat mean over n=31"
+  },
+  "ec75_15|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 4.588668486593264,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_15; stat sd over n=31"
+  },
+  "ec75_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 21.67393690231489,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_15; stat cv over n=31"
+  },
+  "ec75_15|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 16.617256360275004,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_15; stat range over n=31"
+  },
+  "ec75_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9321846612984266,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_15; stat sw over n=31"
+  },
+  "ec75_30|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 9.571342918625888,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_30; stat mean over n=31"
+  },
+  "ec75_30|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.801446980591208,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_30; stat sd over n=31"
+  },
+  "ec75_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 18.821256284586585,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_30; stat cv over n=31"
+  },
+  "ec75_30|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 5.952042118545694,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_30; stat range over n=31"
+  },
+  "ec75_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9326527717050229,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_30; stat sw over n=31"
+  },
+  "ec75_45|mean": {
+   "metric_type": "mean",
+   "unit": "µM",
+   "link_to": null,
+   "value": 5.9081139789148285,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_45; stat mean over n=31"
+  },
+  "ec75_45|sd": {
+   "metric_type": "SD",
+   "unit": "µM",
+   "link_to": null,
+   "value": 1.01817544552979,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_45; stat sd over n=31"
+  },
+  "ec75_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 17.23351054437178,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_45; stat cv over n=31"
+  },
+  "ec75_45|range": {
+   "metric_type": "range",
+   "unit": "µM",
+   "link_to": null,
+   "value": 3.376946402558369,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_45; stat range over n=31"
+  },
+  "ec75_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9338058445413295,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column ec75_45; stat sw over n=31"
+  },
+  "slope_15|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.5873505568520063,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_15; stat mean over n=31"
+  },
+  "slope_15|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.17185852266054402,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_15; stat sd over n=31"
+  },
+  "slope_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 10.826752913443991,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_15; stat cv over n=31"
+  },
+  "slope_15|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7330270727829755,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_15; stat range over n=31"
+  },
+  "slope_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9835798235351313,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_15; stat sw over n=31"
+  },
+  "slope_30|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.7519961725998843,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_30; stat mean over n=31"
+  },
+  "slope_30|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.14700700267524217,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_30; stat sd over n=31"
+  },
+  "slope_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 8.390828985493178,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_30; stat cv over n=31"
+  },
+  "slope_30|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6142014631375912,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_30; stat range over n=31"
+  },
+  "slope_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9810906984958078,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_30; stat sw over n=31"
+  },
+  "slope_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.740601071190572,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_45; stat mean over n=31"
+  },
+  "slope_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.15499388649231777,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_45; stat sd over n=31"
+  },
+  "slope_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 8.904618585940653,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_45; stat cv over n=31"
+  },
+  "slope_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7095239291237407,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_45; stat range over n=31"
+  },
+  "slope_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9698150717702028,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column slope_45; stat sw over n=31"
+  },
+  "s_15|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6922233797198847,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_15; stat mean over n=31"
+  },
+  "s_15|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.2104329379298098,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_15; stat sd over n=31"
+  },
+  "s_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 30.39957101925157,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_15; stat cv over n=31"
+  },
+  "s_15|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 1.0291207813434564,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_15; stat range over n=31"
+  },
+  "s_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9063172413827347,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_15; stat sw over n=31"
+  },
+  "s_30|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.5346610085082236,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_30; stat mean over n=31"
+  },
+  "s_30|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.08373395238259564,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_30; stat sd over n=31"
+  },
+  "s_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 15.66112939790105,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_30; stat cv over n=31"
+  },
+  "s_30|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.3345232857955623,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_30; stat range over n=31"
+  },
+  "s_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9534772656344855,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_30; stat sw over n=31"
+  },
+  "s_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.5230618951557802,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_45; stat mean over n=31"
+  },
+  "s_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.07844357589504755,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_45; stat sd over n=31"
+  },
+  "s_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 14.996996841393925,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_45; stat cv over n=31"
+  },
+  "s_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.29896817919351065,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_45; stat range over n=31"
+  },
+  "s_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9459492729839102,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column s_45; stat sw over n=31"
+  },
+  "r2_15|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9976999263638252,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_15; stat mean over n=31"
+  },
+  "r2_15|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0016347106176926782,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_15; stat sd over n=31"
+  },
+  "r2_15|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 0.16384792405973958,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_15; stat cv over n=31"
+  },
+  "r2_15|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.009161462143974508,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_15; stat range over n=31"
+  },
+  "r2_15|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6528699299406432,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_15; stat sw over n=31"
+  },
+  "r2_30|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9988005852913854,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_30; stat mean over n=31"
+  },
+  "r2_30|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.000733256007955446,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_30; stat sd over n=31"
+  },
+  "r2_30|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 0.07341365421221989,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_30; stat cv over n=31"
+  },
+  "r2_30|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0036214970700575444,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_30; stat range over n=31"
+  },
+  "r2_30|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.8302265647644065,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_30; stat sw over n=31"
+  },
+  "r2_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9991060669174974,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_45; stat mean over n=31"
+  },
+  "r2_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.000544455491995312,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_45; stat sd over n=31"
+  },
+  "r2_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 0.054494263424412895,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_45; stat cv over n=31"
+  },
+  "r2_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 0.002634795212022367,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_45; stat range over n=31"
+  },
+  "r2_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.8840721954062859,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column r2_45; stat sw over n=31"
+  },
+  "tdt_15_45|mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 107.21443982251635,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat mean over n=31"
+  },
+  "tdt_15_45|sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 2.4659231759233537,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat sd over n=31"
+  },
+  "tdt_15_45|cv": {
+   "metric_type": "CV",
+   "unit": null,
+   "link_to": null,
+   "value": 2.299991661576055,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat cv over n=31"
+  },
+  "tdt_15_45|range": {
+   "metric_type": "range",
+   "unit": null,
+   "link_to": null,
+   "value": 10.506893009184992,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat range over n=31"
+  },
+  "tdt_15_45|sw": {
+   "metric_type": "W",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9884572135235652,
+   "stars": "",
+   "source": "fit() 5PL-1P per test/time -> column tdt_15_45; stat sw over n=31"
+  }
+ },
+ "instructions": "Fill `value` (a number) for every cell and set `stars` to '' (the table prints none). `unit` gives the unit the table uses for that cell; concentrations are M2CA in µM."
+}

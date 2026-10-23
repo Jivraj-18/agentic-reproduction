@@ -1,0 +1,39 @@
+{
+ "paper": "A",
+ "files": [
+  {
+   "name": "DATA_Knot-tying_FINAL.xlsx",
+   "role": "sheet 'Knot-Tying_Data': one row per subject x technique x run (times as mm:ss, knot strength before/after 15 N and delta, knot-spread ability, mistakes); also a questionnaire sheet and a short-version sheet",
+   "given_to_reproducer": true
+  }
+ ],
+ "required_inputs": [
+  {
+   "input": "Total time per run",
+   "availability": "full",
+   "note": "Stored as mm:ss text."
+  },
+  {
+   "input": "Delta knot strength per run (mm)",
+   "availability": "full"
+  },
+  {
+   "input": "Knot-spread ability per run (mm)",
+   "availability": "full"
+  },
+  {
+   "input": "Mistakes per run",
+   "availability": "full"
+  }
+ ],
+ "withheld_from_sandbox": [
+  {
+   "name": "README.md",
+   "reason": "describes the authors' analysis beyond the Methods"
+  },
+  {
+   "name": "Questionnaire_before/after_exercise_ENG.docx",
+   "reason": "blank questionnaire forms, not needed for Table 1"
+  }
+ ]
+}

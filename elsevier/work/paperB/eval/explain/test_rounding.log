@@ -1,0 +1,26 @@
+R1: range from per-test values rounded to the range column's printed decimals
+  [run] rounded-first range within 2% in 18/18 rows; rows where either reading misses:
+   s_30: pub 0.34 plain 0.3345 (dev 2.9%)  rounded-first 0.3400 (dev 0.0%)
+  [authors] rounded-first range within 2% in 17/18 rows; rows where either reading misses:
+   ec50_45: pub 1.6 plain 1.5635 (dev 0.0%)  rounded-first 1.5000 (dev 6.3%)
+   s_30: pub 0.34 plain 0.3345 (dev 2.9%)  rounded-first 0.3400 (dev 0.0%)
+
+R2: r2 rows from per-test r2 rounded to 3 decimals
+  [run] r2_15 4dp-ish (as fitted)  mean=0.9977 sd=0.0016 cv=0.1638(pub 0.17, dev 5.9%) range=0.0092(pub 0.009) W=0.653(pub 0.659)
+  [run] r2_15 rounded 3dp          mean=0.9976 sd=0.0017 cv=0.1691(pub 0.17, dev 0.0%) range=0.0090(pub 0.009) W=0.651(pub 0.659)
+  [run] r2_15 rounded 4dp          mean=0.9977 sd=0.0016 cv=0.1641(pub 0.17, dev 5.9%) range=0.0092(pub 0.009) W=0.654(pub 0.659)
+  [run] r2_30 4dp-ish (as fitted)  mean=0.9988 sd=0.0007 cv=0.0734(pub 0.07, dev 0.0%) range=0.0036(pub 0.004) W=0.830(pub 0.830)
+  [run] r2_30 rounded 3dp          mean=0.9988 sd=0.0007 cv=0.0736(pub 0.07, dev 0.0%) range=0.0040(pub 0.004) W=0.679(pub 0.830)
+  [run] r2_30 rounded 4dp          mean=0.9988 sd=0.0007 cv=0.0729(pub 0.07, dev 0.0%) range=0.0036(pub 0.004) W=0.829(pub 0.830)
+  [run] r2_45 4dp-ish (as fitted)  mean=0.9991 sd=0.0005 cv=0.0545(pub 0.06, dev 16.7%) range=0.0026(pub 0.003) W=0.884(pub 0.875)
+  [run] r2_45 rounded 3dp          mean=0.9991 sd=0.0007 cv=0.0651(pub 0.06, dev 16.7%) range=0.0030(pub 0.003) W=0.731(pub 0.875)
+  [run] r2_45 rounded 4dp          mean=0.9991 sd=0.0006 cv=0.0551(pub 0.06, dev 0.0%) range=0.0027(pub 0.003) W=0.880(pub 0.875)
+  [authors] r2_15 4dp-ish (as fitted)  mean=0.9977 sd=0.0016 cv=0.1641(pub 0.17, dev 5.9%) range=0.0092(pub 0.009) W=0.654(pub 0.659)
+  [authors] r2_15 rounded 3dp          mean=0.9976 sd=0.0017 cv=0.1691(pub 0.17, dev 0.0%) range=0.0090(pub 0.009) W=0.651(pub 0.659)
+  [authors] r2_15 rounded 4dp          mean=0.9977 sd=0.0016 cv=0.1641(pub 0.17, dev 5.9%) range=0.0092(pub 0.009) W=0.654(pub 0.659)
+  [authors] r2_30 4dp-ish (as fitted)  mean=0.9988 sd=0.0007 cv=0.0729(pub 0.07, dev 0.0%) range=0.0036(pub 0.004) W=0.829(pub 0.830)
+  [authors] r2_30 rounded 3dp          mean=0.9988 sd=0.0007 cv=0.0736(pub 0.07, dev 0.0%) range=0.0040(pub 0.004) W=0.679(pub 0.830)
+  [authors] r2_30 rounded 4dp          mean=0.9988 sd=0.0007 cv=0.0729(pub 0.07, dev 0.0%) range=0.0036(pub 0.004) W=0.829(pub 0.830)
+  [authors] r2_45 4dp-ish (as fitted)  mean=0.9990 sd=0.0006 cv=0.0570(pub 0.06, dev 0.0%) range=0.0026(pub 0.003) W=0.882(pub 0.875)
+  [authors] r2_45 rounded 3dp          mean=0.9990 sd=0.0007 cv=0.0707(pub 0.06, dev 16.7%) range=0.0030(pub 0.003) W=0.807(pub 0.875)
+  [authors] r2_45 rounded 4dp          mean=0.9990 sd=0.0006 cv=0.0570(pub 0.06, dev 0.0%) range=0.0026(pub 0.003) W=0.882(pub 0.875)

@@ -1,0 +1,24 @@
+{
+ "reviewer": "pipeline operator (manual check of each flag, 2026-10-22)",
+ "paths": [
+  {
+   "match": "d:\\d\\d$",
+   "verdict": "benign",
+   "reason": "Part of a regular expression for parsing mm:ss time strings in a Bash command; no file outside the sandbox was read or written."
+  }
+ ],
+ "hardcoding": [
+  {
+   "run": "r_opus",
+   "line": 148,
+   "verdict": "benign",
+   "reason": "0.975 is the quantile for a two-sided 95% CI (stats.norm.ppf(0.975), stats.t.ppf(0.975, dof)); it equals the published lower CI bound for this cell only by chance. The reproduced value for ks_oc|lo is computed from the model."
+  },
+  {
+   "run": "r_opus",
+   "line": 150,
+   "verdict": "benign",
+   "reason": "0.975 is the quantile for a two-sided 95% CI (stats.norm.ppf(0.975), stats.t.ppf(0.975, dof)); it equals the published lower CI bound for this cell only by chance. The reproduced value for ks_oc|lo is computed from the model."
+  }
+ ]
+}

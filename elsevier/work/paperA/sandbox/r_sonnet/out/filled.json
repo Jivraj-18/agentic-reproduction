@@ -1,0 +1,667 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. Comparison of different knot tying techniques by run time, knot strength and knot-spread ability.",
+ "rows": [
+  {
+   "id": "time_io",
+   "label": "Time (sec): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "time_ic",
+   "label": "Time (sec): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "time_oc",
+   "label": "Time (sec): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "ks_io",
+   "label": "Knot strength (mm): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "ks_ic",
+   "label": "Knot strength (mm): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "ks_oc",
+   "label": "Knot strength (mm): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "sp_io",
+   "label": "Knot-spread ability (mm): Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "sp_ic",
+   "label": "Knot-spread ability (mm): Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "sp_oc",
+   "label": "Knot-spread ability (mm): Extracorporeal, open : Extracorporeal, closed"
+  },
+  {
+   "id": "mi_io",
+   "label": "Mistakes: Intracorporeal : Extracorporeal, open"
+  },
+  {
+   "id": "mi_ic",
+   "label": "Mistakes: Intracorporeal : Extracorporeal, closed"
+  },
+  {
+   "id": "mi_oc",
+   "label": "Mistakes: Extracorporeal, open : Extracorporeal, closed"
+  }
+ ],
+ "columns": [
+  {
+   "id": "eff",
+   "label": "Ratio (a): geometric mean ratio, difference of means or odds ratio",
+   "metric_type": "effect"
+  },
+  {
+   "id": "m1",
+   "label": "Mean, first technique of the contrast (in brackets)",
+   "metric_type": "mean"
+  },
+  {
+   "id": "m2",
+   "label": "Mean, second technique of the contrast (in brackets)",
+   "metric_type": "mean"
+  },
+  {
+   "id": "lo",
+   "label": "95% CI lower",
+   "metric_type": "CI"
+  },
+  {
+   "id": "hi",
+   "label": "95% CI upper",
+   "metric_type": "CI"
+  },
+  {
+   "id": "p",
+   "label": "p-value (b)",
+   "metric_type": "p"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "time_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.3265911224251383,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_io|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 382.3231707317073,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "time_io|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 279.63473053892216,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "time_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.2311452264579428,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.4294365670899234,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1848045514193182e-13,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.3502960472020031,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_ic|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 382.3231707317073,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "time_ic|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 255.73684210526315,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "time_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.2537193908669995,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.4543122076372021,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 2.1547449066389704e-15,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.0178690512669268,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_oc|m1": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 279.63473053892216,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "time_oc|m2": {
+   "metric_type": "mean",
+   "unit": "s",
+   "link_to": null,
+   "value": 255.73684210526315,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "time_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9454258215699645,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.0958632416095506,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "time_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6382246435713573,
+   "stars": "",
+   "source": "lmm_contrasts(lt) REML random intercept subject; Wald z"
+  },
+  "ks_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 0.8276165754684636,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_io|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 3.798148148148148,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "ks_io|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 4.921197604790419,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "ks_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6923149451582863,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9893606959958733,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.03776062507444516,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9449397821973793,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_ic|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 3.798148148148148,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "ks_ic|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 4.961403508771929,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "ks_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7911042160336832,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1286897148089687,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.532171984070528,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1417603395177365,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_oc|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 4.921197604790419,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "ks_oc|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 4.961403508771929,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "ks_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9573970374502728,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.3616259732403513,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "ks_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.14009071636516016,
+   "stars": "",
+   "source": "lmm_contrasts(lks) REML random intercept subject; Wald z"
+  },
+  "sp_io|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.330228455810776,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_io|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 11.764197530864198,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "sp_io|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.4562874251497,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "sp_io|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.7860920437607958,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_io|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.874364867860756,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 1.65511489378842e-06,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_ic|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": 1.517521584317673,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_ic|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 11.764197530864198,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "sp_ic|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.261988304093569,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "sp_ic|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.9767405059944372,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_ic|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 2.0583026626409087,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 3.7960658149903347e-08,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_oc|eff": {
+   "metric_type": "effect",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.18729312850689706,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_oc|m1": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.4562874251497,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "sp_oc|m2": {
+   "metric_type": "mean",
+   "unit": "mm",
+   "link_to": null,
+   "value": 10.261988304093569,
+   "stars": "",
+   "source": "arithmetic mean over valid runs"
+  },
+  "sp_oc|lo": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": -0.3483792201704675,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_oc|hi": {
+   "metric_type": "CI",
+   "unit": "mm",
+   "link_to": null,
+   "value": 0.7229654771842616,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "sp_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.4931566677848964,
+   "stars": "",
+   "source": "lmm_contrasts(sp) REML random intercept subject; Wald z"
+  },
+  "mi_io|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.9516619654015033,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_io|m1": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.35185185185185186,
+   "stars": "",
+   "source": "mean mistake count per run"
+  },
+  "mi_io|m2": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.2754491017964072,
+   "stars": "",
+   "source": "mean mistake count per run"
+  },
+  "mi_io|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.1168303302050662,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_io|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 3.4105309680258,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_io|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.018875156621935483,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_ic|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 2.1108695703362335,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_ic|m1": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.35185185185185186,
+   "stars": "",
+   "source": "mean mistake count per run"
+  },
+  "mi_ic|m2": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.21637426900584794,
+   "stars": "",
+   "source": "mean mistake count per run"
+  },
+  "mi_ic|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.204427168004208,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_ic|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 3.6994933868478697,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_ic|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.009061033811221694,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_oc|eff": {
+   "metric_type": "effect",
+   "unit": null,
+   "link_to": null,
+   "value": 1.081575399714252,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_oc|m1": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.2754491017964072,
+   "stars": "",
+   "source": "mean mistake count per run"
+  },
+  "mi_oc|m2": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 0.21637426900584794,
+   "stars": "",
+   "source": "mean mistake count per run"
+  },
+  "mi_oc|lo": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6026469920205163,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_oc|hi": {
+   "metric_type": "CI",
+   "unit": null,
+   "link_to": null,
+   "value": 1.9411120618805306,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  },
+  "mi_oc|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7926994040228701,
+   "stars": "",
+   "source": "glmm_contrasts: logit random-intercept GLMM, adaptive GH quadrature (15), Wald z"
+  }
+ },
+ "instructions": "Fill `value` (a number; or a string such as '<x' for a bound) for every cell; set `stars` to '' (this table prints no significance markers). `unit` gives the unit the table uses for that cell."
+}
