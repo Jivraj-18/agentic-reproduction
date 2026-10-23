@@ -41,6 +41,20 @@ Detail that used to be at the top (the full side-by-side table, the Methods chec
 - The session that built the pipeline, graded, and assembled the page started on Opus 5.5 and was switched to **Sonnet 5.5** part-way through (the last part of the work: the final page fixes, the notes, and the GitHub publishing). So the correct line is "Opus 5.5 for the agents that did the reproducing; Sonnet 5.5 only for part of the orchestration". It is not "sub-agents on Sonnet".
 - The agents ran in their own folders with only the Methods and data, checked afterwards by three audits. That is not an operating-system sandbox.
 
+## Added 23 Oct 2026: one Sonnet 5.5 run per paper, and corrected run costs
+
+For the Opus vs Sonnet comparison on the combined page (`../index.html`), each paper got one Claude Sonnet 5.5 run (`sandbox/r_sonnet`) from the same frozen inputs as the Opus runs (copied from `r1`; only the paths in TASK.md changed, plus a `tmp/` folder for scratch files). The Wiley page itself still shows the three Opus runs.
+
+| | Opus 5.5 runs r1 / r2 / r3 | Sonnet 5.5 |
+|---|---|---|
+| Paper A, within 2% / within 20% (of 55) | 44 / 52 each | 44 / 52 |
+| Paper B, within 2% / within 20% (of 52) | 51/51, 50/51, 49/50 | 52 / 52 |
+| Stars agree | A 14/14, B 8/8 | A 14/14, B 6/8 |
+| Rebuild cost per run, at least | A $0.41 / $0.38 / $0.37; B $0.46 / $0.55 / $0.47 | A $0.22; B $0.25 |
+
+- Grades for all four runs: `eval/grades_all.json` (`grades.json` stays the Opus-only file the page uses). Sonnet audits: `eval/audit_r_sonnet.json` (no path outside the sandbox; two fit bounds, 1e4 and -12, reviewed in `audit_review.json`). Leak check over all four sandboxes: `eval/leak_all.json`, pass.
+- Costs above are re-measured per run with `elsevier/scripts/agent_cost.py` (`eval/cost_*.json`). The earlier Cost section below undercounts output the same way (559 output tokens logged for three runs), so treat its figures as lower bounds too.
+
 ## Cost (estimates from token counts in the agents' records, at published prices)
 
 | | Estimated cost | Range |

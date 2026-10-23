@@ -1,0 +1,8 @@
+- M2 (hip flexion): included as its own row using "Hip flexion B/F (kg)" columns; no alternative needed.
+- M3 (FVC sitting/lying): used the sitting and lying columns as separate rows.
+- M4 (unable to perform velocity): used the values as deposited (0 for unable); no recoding.
+- M5 (chair rise 10000 s): used the deposited 10000 values everywhere for medians and the Wilcoxon test. Rejected: excluding them from medians. SRM for chair rise computed only on participants able at both visits (13), since a 10000 s placeholder would make the SD meaningless. Rejected: SRM on raw 10000 differences.
+- M6 (missing data): all columns (medians, P, SRM) use participants with paired values (both visits non-missing). Rejected: all available values per visit. Pairs found: FVC sit 17, FVC lie 16 (match footnotes), TUG/10mWR/stairs 22 (match), chair 22 (footnote says 17; cannot reconcile, 13 were able at both visits; kept 22 with the 10000 rule).
+- S2 (Wilcoxon): SPSS-like asymptotic test: scipy wilcoxon method="approx", zero differences dropped, no continuity correction, tie correction in the variance. Rejected: exact test.
+- S4 (SRM): follow-up minus baseline (matches the dataset's Delta definition), SD with n-1. Rejected: baseline minus follow-up; n denominator.
+- Stars: "a" if P < 0.05, else "" (P column only).

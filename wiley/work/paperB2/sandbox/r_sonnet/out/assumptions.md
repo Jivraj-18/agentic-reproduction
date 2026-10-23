@@ -1,0 +1,10 @@
+- M2b: 0.00 ug groups have 8 experiment columns, other groups 4; used all columns present in the data (no choice of which are 8 needed).
+- M3: excluded replicates cannot be identified in per-experiment CSVs; no exclusion applied.
+- M4: data already in fold; used as given, no re-normalisation. Rejected re-dividing by an Emin.
+- S2: one curve per group fitted to all points pooled (each experiment column as replicate y at each concentration), 4-parameter log(agonist)-response, least squares, bounded. Rejected per-experiment fit then average (unstable with 6 points).
+- S3: Emax = lower plateau (Bottom) for cAMP inhibition, upper plateau (Top) for betaarrestin2. pEC50 reported as -logEC50 (unitless); EC50 in nM computed from it.
+- S4: the +/- values are standard errors of the pooled curve-fit parameters (asymptotic), not SEM across experiments. Rejected SEM of per-experiment fits.
+- S6/F2: 0.50 ug cAMP curve refit with Hill slope constrained to -1 (negative for downward curve, Prism convention); its Hill SE is "N/A". Other curves use the free 4-parameter fit.
+- F3/S5: betaarrestin2 0.00 ug: no reliable asymptote (pooled 8 experiments, two populations); Emax = mean across experiments of the response at the highest concentration (-5), SEM across experiments; EC50 ">10000" nM, pEC50 "<5", Hill and SEs "N/A".
+- S7: stars from one-way ANOVA + Tukey on per-experiment fitted pEC50 and Emax (per-experiment fits, same constraints), each OX1 dose vs 0.00 ug; stars only on pEC50 and Emax cells; none reached p<0.01 so all stars are empty. Rejected ANOVA on summary mean/SEM.
+- Concentration range in data is -10 to -5 log M (6 points), used as is.

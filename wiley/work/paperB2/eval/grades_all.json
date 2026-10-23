@@ -1,0 +1,3722 @@
+{
+ "paper": "B",
+ "table": "Table 1",
+ "runs": [
+  "r1",
+  "r2",
+  "r3",
+  "r_sonnet"
+ ],
+ "summary": {
+  "n_cells_graded": 52,
+  "per_run": {
+   "r1": {
+    "distribution": {
+     "A": 51,
+     "B": 0,
+     "C": 0,
+     "D": 0,
+     "E": 1,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.923,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     21,
+     21
+    ],
+    "stars_agree": [
+     8,
+     8
+    ]
+   },
+   "r2": {
+    "distribution": {
+     "A": 50,
+     "B": 1,
+     "C": 0,
+     "D": 0,
+     "E": 1,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.904,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     21,
+     21
+    ],
+    "stars_agree": [
+     8,
+     8
+    ]
+   },
+   "r3": {
+    "distribution": {
+     "A": 49,
+     "B": 1,
+     "C": 0,
+     "D": 0,
+     "E": 2,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.827,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     21,
+     21
+    ],
+    "stars_agree": [
+     8,
+     8
+    ]
+   },
+   "r_sonnet": {
+    "distribution": {
+     "A": 52,
+     "B": 0,
+     "C": 0,
+     "D": 0,
+     "E": 0,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 5.0,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     21,
+     21
+    ],
+    "stars_agree": [
+     6,
+     8
+    ]
+   }
+  },
+  "median_cell_grades": {
+   "A": 49,
+   "B": 1,
+   "C": 0,
+   "D": 0,
+   "E": 2,
+   "F": 0
+  },
+  "consensus_cell_grades": {
+   "A": 49,
+   "B": 1,
+   "C": 0,
+   "D": 0,
+   "E": 2,
+   "F": 0
+  },
+  "table_grade_median_of_runs": 4.9135,
+  "sign_match": [
+   51,
+   52
+  ],
+  "within_1.96se_consensus": [
+   21,
+   21
+  ],
+  "runs_identical_cells": [
+   48,
+   52
+  ],
+  "runs_same_grade_cells": [
+   49,
+   52
+  ],
+  "within_20pct_consensus": [
+   50,
+   52
+  ],
+  "table_grade_median_letter": "A"
+ },
+ "cells": {
+  "ox_000|camp_pec50": {
+   "published_raw": "8.8",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 8.826950221318956,
+     "reproduced_unrounded": 8.826950221318956,
+     "reproduced": 8.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 8.826952375379486,
+     "reproduced_unrounded": 8.826952375379486,
+     "reproduced": 8.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 8.826932963506854,
+     "reproduced_unrounded": 8.826932963506854,
+     "reproduced": 8.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8.826935629332569,
+     "reproduced_unrounded": 8.826935629332569,
+     "reproduced": 8.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.826942925325763,
+    "reproduced_unrounded": 8.826942925325763,
+    "reproduced": 8.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.000220589461727175,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.45
+  },
+  "ox_000|camp_pec50_se": {
+   "published_raw": "0.45",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.4542987272234884,
+     "reproduced_unrounded": 0.4542987272234884,
+     "reproduced": 0.45,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.45424412771258643,
+     "reproduced_unrounded": 0.45424412771258643,
+     "reproduced": 0.45,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.45443301661639857,
+     "reproduced_unrounded": 0.45443301661639857,
+     "reproduced": 0.45,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.45426682330584867,
+     "reproduced_unrounded": 0.45426682330584867,
+     "reproduced": 0.45,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.45428277526466854,
+    "reproduced_unrounded": 0.45428277526466854,
+    "reproduced": 0.45,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.04197531195825209,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_000|camp_ec50": {
+   "published_raw": "1.5",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.4895317975384947,
+     "reproduced_unrounded": 1.4895317975384947,
+     "reproduced": 1.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 1.4895244096166358,
+     "reproduced_unrounded": 1.4895244096166358,
+     "reproduced": 1.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 1.4895909891048356,
+     "reproduced_unrounded": 1.4895909891048356,
+     "reproduced": 1.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.4895818455906045,
+     "reproduced_unrounded": 1.4895818455906045,
+     "reproduced": 1.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.4895568215645496,
+    "reproduced_unrounded": 1.4895568215645496,
+    "reproduced": 1.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.004438632546651297,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_000|camp_emax": {
+   "published_raw": "0.79",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.7936787522582792,
+     "reproduced_unrounded": 0.7936787522582792,
+     "reproduced": 0.79,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.7936788647672199,
+     "reproduced_unrounded": 0.7936788647672199,
+     "reproduced": 0.79,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) Bottom plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.7936777612593997,
+     "reproduced_unrounded": 0.7936777612593997,
+     "reproduced": 0.79,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (high-concentration plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.7936779140480877,
+     "reproduced_unrounded": 0.7936779140480877,
+     "reproduced": 0.79,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.7936783331531835,
+    "reproduced_unrounded": 0.7936783331531835,
+    "reproduced": 0.79,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0001396845342066592,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_000|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.03313059477296653,
+     "reproduced_unrounded": 0.03313059477296653,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.033130608768194715,
+     "reproduced_unrounded": 0.033130608768194715,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.033129657677710644,
+     "reproduced_unrounded": 0.033129657677710644,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.03313081801278233,
+     "reproduced_unrounded": 0.03313081801278233,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.03313060177058062,
+    "reproduced_unrounded": 0.03313060177058062,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.003867783572285751,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_000|camp_hill": {
+   "published_raw": "-1.7",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -1.7023320631355354,
+     "reproduced_unrounded": -1.7023320631355354,
+     "reproduced": -1.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": -1.7023561854054763,
+     "reproduced_unrounded": -1.7023561854054763,
+     "reproduced": -1.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": -1.7021085998048504,
+     "reproduced_unrounded": -1.7021085998048504,
+     "reproduced": -1.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -1.7021431681064172,
+     "reproduced_unrounded": -1.7021431681064172,
+     "reproduced": -1.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.7022376156209762,
+    "reproduced_unrounded": -1.7022376156209762,
+    "reproduced": -1.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.014563858860345707,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 3.6
+  },
+  "ox_000|camp_hill_se": {
+   "published_raw": "3.6",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 3.594749007220477,
+     "reproduced_unrounded": 3.594749007220477,
+     "reproduced": 3.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 3.5954079373287193,
+     "reproduced_unrounded": 3.5954079373287193,
+     "reproduced": 3.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 3.6004739853140153,
+     "reproduced_unrounded": 3.6004739853140153,
+     "reproduced": 3.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.5933845845394825,
+     "reproduced_unrounded": 3.5933845845394825,
+     "reproduced": 3.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.595078472274598,
+    "reproduced_unrounded": 3.595078472274598,
+    "reproduced": 3.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.19692779929257762,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_000|arr_pec50": {
+   "published_raw": "<5",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "<5",
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "analyse_arr:bound_no_asymptote"
+    },
+    "r2": {
+     "reproduced_raw": "<5.7437",
+     "reproduced_unrounded": 5.7437,
+     "reproduced": 6.0,
+     "grade": "B",
+     "deviation_pct": 14.873999999999993,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "N/A",
+     "source": "section_arr: bound from half-observed-max interpolation"
+    },
+    "r3": {
+     "reproduced_raw": "<5.5957",
+     "reproduced_unrounded": 5.5957,
+     "reproduced": 6.0,
+     "grade": "B",
+     "deviation_pct": 11.913999999999998,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "main/barr2: observed response at 10 uM (mean+/-SEM) [F3/S5]; EC50 bound ; bound = fitted pEC50 of unconstrained 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": "<5",
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit (Emax = mean observed at top conc; EC50 bound)"
+    }
+   },
+   "median": {
+    "reproduced_raw": "<5.5957",
+    "reproduced_unrounded": 5.5957,
+    "reproduced": 6.0,
+    "grade": "B",
+    "deviation_pct": 11.913999999999998,
+    "sign_match": true,
+    "bound_satisfied": false
+   },
+   "run_spread_pct": null,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "B",
+    "B",
+    "A"
+   ],
+   "median_grade": "B"
+  },
+  "ox_000|arr_pec50_se": {
+   "published_raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "analyse_arr:bound_no_asymptote"
+    },
+    "r2": {
+     "reproduced_raw": "N/A",
+     "stars": "N/A",
+     "source": "section_arr: bound, no SE"
+    },
+    "r3": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "main/barr2: observed response at 10 uM (mean+/-SEM) [F3/S5]; EC50 bound"
+    },
+    "r_sonnet": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   }
+  },
+  "ox_000|arr_ec50": {
+   "published_raw": ">10000",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": ">10000",
+     "reproduced_unrounded": 10000.0,
+     "reproduced": 10000.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "analyse_arr:bound_no_asymptote"
+    },
+    "r2": {
+     "reproduced_raw": ">1804.1680",
+     "reproduced_unrounded": 1804.168,
+     "reproduced": 1804.0,
+     "grade": "E",
+     "deviation_pct": 81.95832,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "N/A",
+     "source": "section_arr: bound from half-observed-max interpolation"
+    },
+    "r3": {
+     "reproduced_raw": ">2537",
+     "reproduced_unrounded": 2537.0,
+     "reproduced": 2537.0,
+     "grade": "E",
+     "deviation_pct": 74.63,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "main/barr2: observed response at 10 uM (mean+/-SEM) [F3/S5]; EC50 bound ; bound in nM"
+    },
+    "r_sonnet": {
+     "reproduced_raw": ">10000",
+     "reproduced_unrounded": 10000.0,
+     "reproduced": 10000.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit (Emax = mean observed at top conc; EC50 bound)"
+    }
+   },
+   "median": {
+    "reproduced_raw": ">2537",
+    "reproduced_unrounded": 2537.0,
+    "reproduced": 2537.0,
+    "grade": "E",
+    "deviation_pct": 74.63,
+    "sign_match": true,
+    "bound_satisfied": false
+   },
+   "run_spread_pct": null,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "E",
+    "E",
+    "A"
+   ],
+   "median_grade": "E"
+  },
+  "ox_000|arr_emax": {
+   "published_raw": "17",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 16.541502375,
+     "reproduced_unrounded": 16.541502375,
+     "reproduced": 17.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:observed_mean_at_10uM"
+    },
+    "r2": {
+     "reproduced_raw": 16.541502375,
+     "reproduced_unrounded": 16.541502375,
+     "reproduced": 17.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr: observed mean at 10 uM (F3/S5), reference group"
+    },
+    "r3": {
+     "reproduced_raw": 16.541502375,
+     "reproduced_unrounded": 16.541502375,
+     "reproduced": 17.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: observed response at 10 uM (mean+/-SEM) [F3/S5]; EC50 bound"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 16.541502375,
+     "reproduced_unrounded": 16.541502375,
+     "reproduced": 17.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit (Emax = mean observed at top conc; EC50 bound)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 16.541502375,
+    "reproduced_unrounded": 16.541502375,
+    "reproduced": 17.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 4.6
+  },
+  "ox_000|arr_emax_se": {
+   "published_raw": "4.6",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 4.618284118600585,
+     "reproduced_unrounded": 4.618284118600585,
+     "reproduced": 4.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:observed_mean_at_10uM"
+    },
+    "r2": {
+     "reproduced_raw": 4.618284118600585,
+     "reproduced_unrounded": 4.618284118600585,
+     "reproduced": 4.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr: SEM across experiments at 10 uM"
+    },
+    "r3": {
+     "reproduced_raw": 4.618284118600585,
+     "reproduced_unrounded": 4.618284118600585,
+     "reproduced": 4.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: observed response at 10 uM (mean+/-SEM) [F3/S5]; EC50 bound (SEM across experiments)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.618284118600585,
+     "reproduced_unrounded": 4.618284118600585,
+     "reproduced": 4.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit (Emax = mean observed at top conc; EC50 bound)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.618284118600585,
+    "reproduced_unrounded": 4.618284118600585,
+    "reproduced": 4.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_000|arr_hill": {
+   "published_raw": "n.d.",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.0895234929318276,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 1.0895233955698445,
+     "stars": "",
+     "source": "section_arr/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 1.0895233587948225,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (Hill from unconstrained fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   }
+  },
+  "ox_000|arr_hill_se": {
+   "published_raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 2.0107301666209003,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 2.010679651889909,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 2.0106502985009613,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   }
+  },
+  "ox_010|camp_pec50": {
+   "published_raw": "8.1",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 8.14409172463607,
+     "reproduced_unrounded": 8.14409172463607,
+     "reproduced": 8.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 8.144088455922425,
+     "reproduced_unrounded": 8.144088455922425,
+     "reproduced": 8.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 8.144088056481348,
+     "reproduced_unrounded": 8.144088056481348,
+     "reproduced": 8.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8.144091908381084,
+     "reproduced_unrounded": 8.144091908381084,
+     "reproduced": 8.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.144090090279247,
+    "reproduced_unrounded": 8.144090090279247,
+    "reproduced": 8.1,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.7554317729167804e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.24
+  },
+  "ox_010|camp_pec50_se": {
+   "published_raw": "0.24",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.24112315119141076,
+     "reproduced_unrounded": 0.24112315119141076,
+     "reproduced": 0.24,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.24112959605028836,
+     "reproduced_unrounded": 0.24112959605028836,
+     "reproduced": 0.24,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.24113135953112128,
+     "reproduced_unrounded": 0.24113135953112128,
+     "reproduced": 0.24,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.24112325180982602,
+     "reproduced_unrounded": 0.24112325180982602,
+     "reproduced": 0.24,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.24112642393005718,
+    "reproduced_unrounded": 0.24112642393005718,
+    "reproduced": 0.24,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.003420141546049693,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|camp_ec50": {
+   "published_raw": "7.2",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.176427064122275,
+     "reproduced_unrounded": 7.176427064122275,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 7.176481077641485,
+     "reproduced_unrounded": 7.176481077641485,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 7.17648767819197,
+     "reproduced_unrounded": 7.17648767819197,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.176424027858941,
+     "reproduced_unrounded": 7.176424027858941,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.17645407088188,
+    "reproduced_unrounded": 7.17645407088188,
+    "reproduced": 7.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0008840324031823678,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|camp_emax": {
+   "published_raw": "0.57",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "**",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.5722203695706665,
+     "reproduced_unrounded": 0.5722203695706665,
+     "reproduced": 0.57,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "**",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.5722204301300869,
+     "reproduced_unrounded": 0.5722204301300869,
+     "reproduced": 0.57,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "**",
+     "source": "section_camp/fit_curve (pooled 4P) Bottom plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.572220437781511,
+     "reproduced_unrounded": 0.572220437781511,
+     "reproduced": 0.57,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "**",
+     "source": "main/cAMP: fit_pooled 4PL (high-concentration plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.5722203671396228,
+     "reproduced_unrounded": 0.5722203671396228,
+     "reproduced": 0.57,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5722203998503768,
+    "reproduced_unrounded": 0.5722203998503768,
+    "reproduced": 0.57,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.2393313724196152e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_010|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.033034122306490825,
+     "reproduced_unrounded": 0.033034122306490825,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.033034375135319004,
+     "reproduced_unrounded": 0.033034375135319004,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.03303442481412319,
+     "reproduced_unrounded": 0.03303442481412319,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0330341249875815,
+     "reproduced_unrounded": 0.0330341249875815,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.03303425006145025,
+    "reproduced_unrounded": 0.03303425006145025,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0010083587745577753,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|camp_hill": {
+   "published_raw": "-1.2",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -1.2064954437699322,
+     "reproduced_unrounded": -1.2064954437699322,
+     "reproduced": -1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": -1.2065067729102485,
+     "reproduced_unrounded": -1.2065067729102485,
+     "reproduced": -1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": -1.2065081658034564,
+     "reproduced_unrounded": -1.2065081658034564,
+     "reproduced": -1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -1.2064948500561685,
+     "reproduced_unrounded": -1.2064948500561685,
+     "reproduced": -1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.2065011083400905,
+    "reproduced_unrounded": -1.2065011083400905,
+    "reproduced": -1.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0011096456073259968,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.9
+  },
+  "ox_010|camp_hill_se": {
+   "published_raw": "0.90",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.8949826081095325,
+     "reproduced_unrounded": 0.8949826081095325,
+     "reproduced": 0.89,
+     "grade": "A",
+     "deviation_pct": 1.111111111111112,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.8949026739098196,
+     "reproduced_unrounded": 0.8949026739098196,
+     "reproduced": 0.89,
+     "grade": "A",
+     "deviation_pct": 1.111111111111112,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.8948824070006385,
+     "reproduced_unrounded": 0.8948824070006385,
+     "reproduced": 0.89,
+     "grade": "A",
+     "deviation_pct": 1.111111111111112,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.8949814579972977,
+     "reproduced_unrounded": 0.8949814579972977,
+     "reproduced": 0.89,
+     "grade": "A",
+     "deviation_pct": 1.111111111111112,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.8949420659535586,
+    "reproduced_unrounded": 0.8949420659535586,
+    "reproduced": 0.89,
+    "grade": "A",
+    "deviation_pct": 1.111111111111112,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.011133456543774596,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|arr_pec50": {
+   "published_raw": "5.5",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 5.511726477800277,
+     "reproduced_unrounded": 5.511726477800277,
+     "reproduced": 5.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 5.511739871150632,
+     "reproduced_unrounded": 5.511739871150632,
+     "reproduced": 5.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve (pooled 4P); untested, reference is a bound"
+    },
+    "r3": {
+     "reproduced_raw": 5.511739613622456,
+     "reproduced_unrounded": 5.511739613622456,
+     "reproduced": 5.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.5117416346905586,
+     "reproduced_unrounded": 5.5117416346905586,
+     "reproduced": 5.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.511739742386544,
+    "reproduced_unrounded": 5.511739742386544,
+    "reproduced": 5.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00027557982330056967,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 1.4
+  },
+  "ox_010|arr_pec50_se": {
+   "published_raw": "1.4",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.3936255433397169,
+     "reproduced_unrounded": 1.3936255433397169,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 1.3935337156889196,
+     "reproduced_unrounded": 1.3935337156889196,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 1.3933464199362344,
+     "reproduced_unrounded": 1.3933464199362344,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.3935925578709787,
+     "reproduced_unrounded": 1.3935925578709787,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.393563136779949,
+    "reproduced_unrounded": 1.393563136779949,
+    "reproduced": 1.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.019937385963032996,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|arr_ec50": {
+   "published_raw": "3000",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 3078.0347757608442,
+     "reproduced_unrounded": 3078.0347757608442,
+     "reproduced": 3000.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 3077.9398526978025,
+     "reproduced_unrounded": 3077.9398526978025,
+     "reproduced": 3000.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 3077.9416778567747,
+     "reproduced_unrounded": 3077.9416778567747,
+     "reproduced": 3000.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3077.9273541305242,
+     "reproduced_unrounded": 3077.9273541305242,
+     "reproduced": 3000.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3077.940765277289,
+    "reproduced_unrounded": 3077.940765277289,
+    "reproduced": 3000.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0035807210106668205,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|arr_emax": {
+   "published_raw": "5.7",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 5.652863804654218,
+     "reproduced_unrounded": 5.652863804654218,
+     "reproduced": 5.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 5.652832589939682,
+     "reproduced_unrounded": 5.652832589939682,
+     "reproduced": 5.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr/fit_curve Top plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 5.652833920519618,
+     "reproduced_unrounded": 5.652833920519618,
+     "reproduced": 5.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (top plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.652828489120642,
+     "reproduced_unrounded": 5.652828489120642,
+     "reproduced": 5.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.65283325522965,
+    "reproduced_unrounded": 5.65283325522965,
+    "reproduced": 5.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0006195707644863047,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 3.2
+  },
+  "ox_010|arr_emax_se": {
+   "published_raw": "3.2",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 3.1526568221863243,
+     "reproduced_unrounded": 3.1526568221863243,
+     "reproduced": 3.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 3.152408152899039,
+     "reproduced_unrounded": 3.152408152899039,
+     "reproduced": 3.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 3.1518708447480828,
+     "reproduced_unrounded": 3.1518708447480828,
+     "reproduced": 3.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.152571113526391,
+     "reproduced_unrounded": 3.152571113526391,
+     "reproduced": 3.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.1524896332127152,
+    "reproduced_unrounded": 3.1524896332127152,
+    "reproduced": 3.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.024561794945046622,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|arr_hill": {
+   "published_raw": "0.41",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.4058759193359654,
+     "reproduced_unrounded": 0.4058759193359654,
+     "reproduced": 0.41,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.40587852350214204,
+     "reproduced_unrounded": 0.40587852350214204,
+     "reproduced": 0.41,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.40587808956399496,
+     "reproduced_unrounded": 0.40587808956399496,
+     "reproduced": 0.41,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.40587886146117874,
+     "reproduced_unrounded": 0.40587886146117874,
+     "reproduced": 0.41,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.4058783065330685,
+    "reproduced_unrounded": 0.4058783065330685,
+    "reproduced": 0.41,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0007175915154501147,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.23
+  },
+  "ox_010|arr_hill_se": {
+   "published_raw": "0.23",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.22647595706905166,
+     "reproduced_unrounded": 0.22647595706905166,
+     "reproduced": 0.23,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.2264753054640015,
+     "reproduced_unrounded": 0.2264753054640015,
+     "reproduced": 0.23,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.22647299972943657,
+     "reproduced_unrounded": 0.22647299972943657,
+     "reproduced": 0.23,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.22647587857263074,
+     "reproduced_unrounded": 0.22647587857263074,
+     "reproduced": 0.23,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.22647559201831613,
+    "reproduced_unrounded": 0.22647559201831613,
+    "reproduced": 0.23,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0012857998326451876,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_pec50": {
+   "published_raw": "7.9",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.905002910306641,
+     "reproduced_unrounded": 7.905002910306641,
+     "reproduced": 7.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 7.905003383934451,
+     "reproduced_unrounded": 7.905003383934451,
+     "reproduced": 7.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 7.904999663650802,
+     "reproduced_unrounded": 7.904999663650802,
+     "reproduced": 7.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.9050154193031394,
+     "reproduced_unrounded": 7.9050154193031394,
+     "reproduced": 7.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.905003147120546,
+    "reproduced_unrounded": 7.905003147120546,
+    "reproduced": 7.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0001994386371831393,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.16
+  },
+  "ox_025|camp_pec50_se": {
+   "published_raw": "0.16",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.1640646448532044,
+     "reproduced_unrounded": 0.1640646448532044,
+     "reproduced": 0.16,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.1640753779855904,
+     "reproduced_unrounded": 0.1640753779855904,
+     "reproduced": 0.16,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.1640800836212535,
+     "reproduced_unrounded": 0.1640800836212535,
+     "reproduced": 0.16,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.16407154570120128,
+     "reproduced_unrounded": 0.16407154570120128,
+     "reproduced": 0.16,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.16407346184339583,
+    "reproduced_unrounded": 0.16407346184339583,
+    "reproduced": 0.16,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.009649230030689404,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_ec50": {
+   "published_raw": "12",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 12.44506272022309,
+     "reproduced_unrounded": 12.44506272022309,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 12.445049148039166,
+     "reproduced_unrounded": 12.445049148039166,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 12.445155756142869,
+     "reproduced_unrounded": 12.445155756142869,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 12.444704269884586,
+     "reproduced_unrounded": 12.444704269884586,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 12.445055934131128,
+    "reproduced_unrounded": 12.445055934131128,
+    "reproduced": 12.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0037623854856949634,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_emax": {
+   "published_raw": "0.52",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "***",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.5152627562991616,
+     "reproduced_unrounded": 0.5152627562991616,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.5152626814621897,
+     "reproduced_unrounded": 0.5152626814621897,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "section_camp/fit_curve (pooled 4P) Bottom plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.5152632577566543,
+     "reproduced_unrounded": 0.5152632577566543,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "main/cAMP: fit_pooled 4PL (high-concentration plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.5152608287264294,
+     "reproduced_unrounded": 0.5152608287264294,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5152627188806757,
+    "reproduced_unrounded": 0.5152627188806757,
+    "reproduced": 0.52,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0004671211970862766,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_025|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.026363345829705724,
+     "reproduced_unrounded": 0.026363345829705724,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.026364536023514653,
+     "reproduced_unrounded": 0.026364536023514653,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.02636505818485409,
+     "reproduced_unrounded": 0.02636505818485409,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.026364110505697154,
+     "reproduced_unrounded": 0.026364110505697154,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0263643232646059,
+    "reproduced_unrounded": 0.0263643232646059,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0057078504945550414,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_hill": {
+   "published_raw": "-0.77",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.7727360609264096,
+     "reproduced_unrounded": -0.7727360609264096,
+     "reproduced": -0.77,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": -0.7727347531181682,
+     "reproduced_unrounded": -0.7727347531181682,
+     "reproduced": -0.77,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": -0.772744897647463,
+     "reproduced_unrounded": -0.772744897647463,
+     "reproduced": -0.77,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.7727020326370335,
+     "reproduced_unrounded": -0.7727020326370335,
+     "reproduced": -0.77,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.7727354070222889,
+    "reproduced_unrounded": -0.7727354070222889,
+    "reproduced": -0.77,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.005566884471362811,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.22
+  },
+  "ox_025|camp_hill_se": {
+   "published_raw": "0.22",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.22177731770555068,
+     "reproduced_unrounded": 0.22177731770555068,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.22176170090249697,
+     "reproduced_unrounded": 0.22176170090249697,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled 4P) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.2217548778173954,
+     "reproduced_unrounded": 0.2217548778173954,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.22176727653111492,
+     "reproduced_unrounded": 0.22176727653111492,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.22176448871680593,
+    "reproduced_unrounded": 0.22176448871680593,
+    "reproduced": 0.22,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.010199949161492966,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_pec50": {
+   "published_raw": "6.0",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.017105250098802,
+     "reproduced_unrounded": 6.017105250098802,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 6.017105953189919,
+     "reproduced_unrounded": 6.017105953189919,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve (pooled 4P); untested, reference is a bound"
+    },
+    "r3": {
+     "reproduced_raw": 6.017105454582866,
+     "reproduced_unrounded": 6.017105454582866,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.017105990608485,
+     "reproduced_unrounded": 6.017105990608485,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.017105703886393,
+    "reproduced_unrounded": 6.017105703886393,
+    "reproduced": 6.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.2341828048434422e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.26
+  },
+  "ox_025|arr_pec50_se": {
+   "published_raw": "0.26",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.26373866395595597,
+     "reproduced_unrounded": 0.26373866395595597,
+     "reproduced": 0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.2637360905467353,
+     "reproduced_unrounded": 0.2637360905467353,
+     "reproduced": 0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.2637330238958339,
+     "reproduced_unrounded": 0.2637330238958339,
+     "reproduced": 0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.26373820095644884,
+     "reproduced_unrounded": 0.26373820095644884,
+     "reproduced": 0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.2637371457515921,
+    "reproduced_unrounded": 0.2637371457515921,
+    "reproduced": 0.26,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0021692538930951654,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_ec50": {
+   "published_raw": "960",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 961.3792624726715,
+     "reproduced_unrounded": 961.3792624726715,
+     "reproduced": 960.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 961.3777060709662,
+     "reproduced_unrounded": 961.3777060709662,
+     "reproduced": 960.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 961.3788098150834,
+     "reproduced_unrounded": 961.3788098150834,
+     "reproduced": 960.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 961.3776232392123,
+     "reproduced_unrounded": 961.3776232392123,
+     "reproduced": 960.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 961.3782579430248,
+    "reproduced_unrounded": 961.3782579430248,
+    "reproduced": 960.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00017075348533050297,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_emax": {
+   "published_raw": "5.6",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 5.60369219775769,
+     "reproduced_unrounded": 5.60369219775769,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 5.603690341776002,
+     "reproduced_unrounded": 5.603690341776002,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr/fit_curve Top plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 5.603691645756177,
+     "reproduced_unrounded": 5.603691645756177,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (top plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.603690211499272,
+     "reproduced_unrounded": 5.603690211499272,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.603690993766089,
+    "reproduced_unrounded": 5.603690993766089,
+    "reproduced": 5.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.546890032473422e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.63
+  },
+  "ox_025|arr_emax_se": {
+   "published_raw": "0.63",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.6250003097072169,
+     "reproduced_unrounded": 0.6250003097072169,
+     "reproduced": 0.63,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.6249931393510224,
+     "reproduced_unrounded": 0.6249931393510224,
+     "reproduced": 0.62,
+     "grade": "A",
+     "deviation_pct": 1.5873015873015885,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.6249861133349174,
+     "reproduced_unrounded": 0.6249861133349174,
+     "reproduced": 0.62,
+     "grade": "A",
+     "deviation_pct": 1.5873015873015885,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6249991358793662,
+     "reproduced_unrounded": 0.6249991358793662,
+     "reproduced": 0.62,
+     "grade": "A",
+     "deviation_pct": 1.5873015873015885,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6249961376151942,
+    "reproduced_unrounded": 0.6249961376151942,
+    "reproduced": 0.62,
+    "grade": "A",
+    "deviation_pct": 1.5873015873015885,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0022533924284906174,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_hill": {
+   "published_raw": "0.46",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.4606514516010967,
+     "reproduced_unrounded": 0.4606514516010967,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.46065172238520763,
+     "reproduced_unrounded": 0.46065172238520763,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.460651535220357,
+     "reproduced_unrounded": 0.460651535220357,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.4606517491666155,
+     "reproduced_unrounded": 0.4606517491666155,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.4606516288027823,
+    "reproduced_unrounded": 0.4606516288027823,
+    "reproduced": 0.46,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.468815625671886e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.08
+  },
+  "ox_025|arr_hill_se": {
+   "published_raw": "0.08",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.0777624322513077,
+     "reproduced_unrounded": 0.0777624322513077,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.07776239412681851,
+     "reproduced_unrounded": 0.07776239412681851,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.07776249209848773,
+     "reproduced_unrounded": 0.07776249209848773,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.07776243758049789,
+     "reproduced_unrounded": 0.07776243758049789,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.07776243491590279,
+    "reproduced_unrounded": 0.07776243491590279,
+    "reproduced": 0.08,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0001224645865272045,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_pec50": {
+   "published_raw": "7.9",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.966982751257094,
+     "reproduced_unrounded": 7.966982751257094,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1"
+    },
+    "r2": {
+     "reproduced_raw": 7.967011728169666,
+     "reproduced_unrounded": 7.967011728169666,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 7.9670114188746375,
+     "reproduced_unrounded": 7.9670114188746375,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2]"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.967020274401694,
+     "reproduced_unrounded": 7.967020274401694,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.967011573522152,
+    "reproduced_unrounded": 7.967011573522152,
+    "reproduced": 8.0,
+    "grade": "A",
+    "deviation_pct": 1.265822784810122,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00047497651392874657,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.33
+  },
+  "ox_050|camp_pec50_se": {
+   "published_raw": "0.33",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.3328678729876396,
+     "reproduced_unrounded": 0.3328678729876396,
+     "reproduced": 0.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1"
+    },
+    "r2": {
+     "reproduced_raw": 0.3328709804558433,
+     "reproduced_unrounded": 0.3328709804558433,
+     "reproduced": 0.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.33287094575983445,
+     "reproduced_unrounded": 0.33287094575983445,
+     "reproduced": 0.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2] (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.33286884546932105,
+     "reproduced_unrounded": 0.33286884546932105,
+     "reproduced": 0.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.33286989561457775,
+    "reproduced_unrounded": 0.33286989561457775,
+    "reproduced": 0.33,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0009416570314243107,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_ec50": {
+   "published_raw": "11",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 10.789895752822508,
+     "reproduced_unrounded": 10.789895752822508,
+     "reproduced": 11.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 10.78917585549798,
+     "reproduced_unrounded": 10.78917585549798,
+     "reproduced": 11.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 10.78918353931572,
+     "reproduced_unrounded": 10.78918353931572,
+     "reproduced": 11.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2] (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.78896354358324,
+     "reproduced_unrounded": 10.78896354358324,
+     "reproduced": 11.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.789179697406851,
+    "reproduced_unrounded": 10.789179697406851,
+    "reproduced": 11.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.008474629447893537,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_emax": {
+   "published_raw": "0.69",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.6861241772367984,
+     "reproduced_unrounded": 0.6861241772367984,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1"
+    },
+    "r2": {
+     "reproduced_raw": 0.6861252934060726,
+     "reproduced_unrounded": 0.6861252934060726,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) Bottom plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.6861252818730068,
+     "reproduced_unrounded": 0.6861252818730068,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2] (high-concentration plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6861256229661737,
+     "reproduced_unrounded": 0.6861256229661737,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6861252876395397,
+    "reproduced_unrounded": 0.6861252876395397,
+    "reproduced": 0.69,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00020952599642416248,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_050|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.02953842352147404,
+     "reproduced_unrounded": 0.02953842352147404,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1"
+    },
+    "r2": {
+     "reproduced_raw": 0.029538970417781182,
+     "reproduced_unrounded": 0.029538970417781182,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.02953896472134296,
+     "reproduced_unrounded": 0.02953896472134296,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2] (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.029538594654413105,
+     "reproduced_unrounded": 0.029538594654413105,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.029538779687878033,
+    "reproduced_unrounded": 0.029538779687878033,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.001822987690478876,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_hill": {
+   "published_raw": "-1",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "E",
+     "deviation_pct": 200.0,
+     "sign_match": false,
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1"
+    },
+    "r2": {
+     "reproduced_raw": -1.0,
+     "reproduced_unrounded": -1.0,
+     "reproduced": -1.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) (fixed; not tested)"
+    },
+    "r3": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "E",
+     "deviation_pct": 200.0,
+     "sign_match": false,
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2] (constrained, |nH|=1; fitted as -1 for downward curve)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -1.0,
+     "reproduced_unrounded": -1.0,
+     "reproduced": -1.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0,
+    "reproduced_unrounded": 0.0,
+    "reproduced": 0.0,
+    "grade": "E",
+    "deviation_pct": 100.0,
+    "sign_match": false
+   },
+   "run_spread_pct": 200.0,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "A",
+    "E",
+    "A"
+   ],
+   "median_grade": "E"
+  },
+  "ox_050|camp_hill_se": {
+   "published_raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "analyse_camp:3PL_hill_fixed_1"
+    },
+    "r2": {
+     "reproduced_raw": "N/A",
+     "stars": "N/A",
+     "source": "section_camp/fit_curve (pooled, Hill constrained) (fixed parameter, no SE)"
+    },
+    "r3": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "main/cAMP: fit_pooled(hill_fixed=-1) [S6/F2] (constrained, no SE)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "analyse('crc_cAMP_fold.csv') pooled 4PL fit (Hill constrained to -1)"
+    }
+   }
+  },
+  "ox_050|arr_pec50": {
+   "published_raw": "6.4",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.399746994786179,
+     "reproduced_unrounded": 6.399746994786179,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 6.399746776080304,
+     "reproduced_unrounded": 6.399746776080304,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve (pooled 4P); untested, reference is a bound"
+    },
+    "r3": {
+     "reproduced_raw": 6.399746480646219,
+     "reproduced_unrounded": 6.399746480646219,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.399746996612112,
+     "reproduced_unrounded": 6.399746996612112,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.399746885433242,
+    "reproduced_unrounded": 6.399746885433242,
+    "reproduced": 6.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.061967080030819e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.068
+  },
+  "ox_050|arr_pec50_se": {
+   "published_raw": "0.068",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.06810941883884804,
+     "reproduced_unrounded": 0.06810941883884804,
+     "reproduced": 0.068,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.0681094314379358,
+     "reproduced_unrounded": 0.0681094314379358,
+     "reproduced": 0.068,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.06810978915053666,
+     "reproduced_unrounded": 0.06810978915053666,
+     "reproduced": 0.068,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.06810942156452165,
+     "reproduced_unrounded": 0.06810942156452165,
+     "reproduced": 0.068,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.06810942650122873,
+    "reproduced_unrounded": 0.06810942650122873,
+    "reproduced": 0.068,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0005445760126748473,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|arr_ec50": {
+   "published_raw": "400",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 398.33916183743133,
+     "reproduced_unrounded": 398.33916183743133,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled:10^-pEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 398.339362436657,
+     "reproduced_unrounded": 398.339362436657,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve 10^-pEC50 (nM)"
+    },
+    "r3": {
+     "reproduced_raw": 398.3396334119285,
+     "reproduced_unrounded": 398.3396334119285,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (10^-pEC50 in nM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 398.3391601626675,
+     "reproduced_unrounded": 398.3391601626675,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 398.33926213704416,
+    "reproduced_unrounded": 398.33926213704416,
+    "reproduced": 400.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00011831231525150088,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|arr_emax": {
+   "published_raw": "6.4",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.379073276859831,
+     "reproduced_unrounded": 6.379073276859831,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 6.379075125415023,
+     "reproduced_unrounded": 6.379075125415023,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr/fit_curve Top plateau + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 6.379075999149658,
+     "reproduced_unrounded": 6.379075999149658,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (top plateau)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.379073302761449,
+     "reproduced_unrounded": 6.379073302761449,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.379074214088236,
+    "reproduced_unrounded": 6.379074214088236,
+    "reproduced": 6.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.2535778552177383e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.21
+  },
+  "ox_050|arr_emax_se": {
+   "published_raw": "0.21",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.2080561865131903,
+     "reproduced_unrounded": 0.2080561865131903,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.20805607755849354,
+     "reproduced_unrounded": 0.20805607755849354,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.20805789346943562,
+     "reproduced_unrounded": 0.20805789346943562,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.20805619490037225,
+     "reproduced_unrounded": 0.20805619490037225,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.20805619070678127,
+    "reproduced_unrounded": 0.20805619070678127,
+    "reproduced": 0.21,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0008647194962323256,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|arr_hill": {
+   "published_raw": "0.70",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.6978894018385313,
+     "reproduced_unrounded": 0.6978894018385313,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.6978885069454855,
+     "reproduced_unrounded": 0.6978885069454855,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section_arr/fit_curve (pooled 4P) + tukey_from_summary"
+    },
+    "r3": {
+     "reproduced_raw": 0.6978882793696718,
+     "reproduced_unrounded": 0.6978882793696718,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.6978893842372467,
+     "reproduced_unrounded": 0.6978893842372467,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6978889455913662,
+    "reproduced_unrounded": 0.6978889455913662,
+    "reproduced": 0.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00016035269421811805,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.06
+  },
+  "ox_050|arr_hill_se": {
+   "published_raw": "0.06",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.06163670556419231,
+     "reproduced_unrounded": 0.06163670556419231,
+     "reproduced": 0.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse_arr:4PL_pooled"
+    },
+    "r2": {
+     "reproduced_raw": 0.061636677315619476,
+     "reproduced_unrounded": 0.061636677315619476,
+     "reproduced": 0.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "N/A",
+     "source": "section_arr/fit_curve asymptotic SE"
+    },
+    "r3": {
+     "reproduced_raw": 0.061636660210797514,
+     "reproduced_unrounded": 0.061636660210797514,
+     "reproduced": 0.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main/barr2: fit_pooled 4PL (SE of fit)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.06163670480285654,
+     "reproduced_unrounded": 0.06163670480285654,
+     "reproduced": 0.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse('crc_barr2_fold.csv') pooled 4PL fit"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.06163669105923801,
+    "reproduced_unrounded": 0.06163669105923801,
+    "reproduced": 0.06,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.558899132777594e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  }
+ }
+}

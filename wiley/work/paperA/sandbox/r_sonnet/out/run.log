@@ -1,0 +1,16 @@
+participants: 23
+fvc_sit    n_pair=17 n_B=17 n_F=18 medB=77 medF=65 p=0.00118 SRM=-1.289
+fvc_lie    n_pair=16 n_B=17 n_F=17 medB=70.5 medF=56 p=0.001751 SRM=-1.06
+hip_flex   n_pair=23 n_B=23 n_F=23 medB=7.7 medF=6.4 p=0.1401 SRM=-0.3469
+hip_add    n_pair=23 n_B=23 n_F=23 medB=6.1 medF=4.2 p=0.02079 SRM=-0.5934
+hip_abd    n_pair=23 n_B=23 n_F=23 medB=8.3 medF=7.2 p=0.7726 SRM=-0.01424
+knee_ext   n_pair=23 n_B=23 n_F=23 medB=11.1 medF=12 p=0.1618 SRM=-0.2615
+knee_flex  n_pair=23 n_B=23 n_F=23 medB=8.4 medF=4.8 p=0.2124 SRM=-0.1238
+ankle_df   n_pair=23 n_B=23 n_F=23 medB=14.7 medF=13.9 p=0.07033 SRM=-0.4167
+smwt       n_pair=23 n_B=23 n_F=23 medB=391 medF=286 p=0.001136 SRM=-0.8456
+tug        n_pair=22 n_B=22 n_F=23 medB=0.48 medF=0.34 p=0.01237 SRM=-0.4881
+tmwr       n_pair=22 n_B=22 n_F=23 medB=1.205 medF=0.75 p=0.0003339 SRM=-1.157
+stair_up   n_pair=22 n_B=22 n_F=23 medB=0.685 medF=0.43 p=0.001471 SRM=-0.4746
+stair_down n_pair=22 n_B=22 n_F=23 medB=1.17 medF=0.52 p=0.007066 SRM=-0.4851
+chair      n_pair=22 n_B=22 n_F=23 medB=2.65 medF=7.8 p=0.0005089 SRM=0.5851
+wrote filled.json

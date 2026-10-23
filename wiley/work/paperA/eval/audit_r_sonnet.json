@@ -1,0 +1,19 @@
+{
+ "r_sonnet": {
+  "path_audit": {
+   "tool_calls": 12,
+   "accesses": 14,
+   "counts": {
+    "allowed": 14
+   },
+   "flagged": [],
+   "unreviewed": 0
+  },
+  "hardcoding": {
+   "numeric_literals": 16,
+   "matches": [],
+   "flagged": [],
+   "unreviewed": 0
+  }
+ }
+}

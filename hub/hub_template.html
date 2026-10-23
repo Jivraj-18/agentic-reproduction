@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reproducibility Check</title>
+<style>
+:root {
+  --paper: #f7f8f9; --sheet: #ffffff; --ink: #1b2329; --ink-2: #4a5761; --ink-3: #74828c;
+  --rule: #d9dfe3; --rule-2: #eceff1; --accent: #1d5a73; --accent-soft: #e3eef3;
+  --gap: #a35d00; --gap-soft: #fdf3e2;
+  --g-a: #cfe9d4; --g-a-ink: #154d24; --g-b: #e6f3d6; --g-b-ink: #3a5a12;
+  --opus: #1d5a73; --sonnet: #8a4b9c;
+  --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+    --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+    --gap: #f0b45c; --gap-soft: #33280f;
+    --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+    --opus: #7cc0d8; --sonnet: #d2a3e0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+  --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+  --gap: #f0b45c; --gap-soft: #33280f;
+  --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+  --opus: #7cc0d8; --sonnet: #d2a3e0; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); border-bottom: 1px solid var(--rule); position: sticky; top: 0; z-index: 5; }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding-block: 10px; }
+.brand { font: 600 15px/1.2 var(--serif); }
+.brand span { color: var(--ink-3); font: 400 13px var(--sans); margin-left: 8px; }
+nav.jump { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.jump a { font: 500 14px var(--sans); color: var(--ink-2); text-decoration: none; border-radius: 6px; padding: 6px 12px; }
+nav.jump a:hover { background: var(--rule-2); }
+main { padding-block: 28px 64px; }
+section.band { margin-top: 44px; scroll-margin-top: 64px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(24px, 2.8vw, 32px); line-height: 1.2; }
+h2 { font-size: 22px; line-height: 1.3; }
+h3 { font-size: 16px; line-height: 1.35; }
+.eyebrow { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.prose { max-width: 72ch; }
+.prose p { margin: .6em 0; }
+.muted { color: var(--ink-3); }
+.small { font-size: 13px; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 18px; }
+.steps > div { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
+.steps b { display: block; font-family: var(--serif); margin-bottom: 4px; }
+.pub { margin-top: 26px; }
+.pub > .eyebrow { margin-bottom: 10px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; }
+.cards > * { min-width: 0; }
+a.card { display: flex; flex-direction: column; gap: 10px; color: inherit; text-decoration: none; background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 18px 20px; transition: border-color .15s, box-shadow .15s; }
+a.card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+a.card h3 { color: var(--ink); }
+.card .cite { color: var(--ink-2); font-size: 13px; }
+.card .tbl { color: var(--ink-3); font-size: 13px; }
+.card .go { margin-top: auto; color: var(--accent); font-weight: 600; font-size: 14px; }
+.res { display: grid; grid-template-columns: 92px 1fr auto; gap: 6px 10px; align-items: center; font-size: 13px; }
+.res .who { font-weight: 600; }
+.res .who.o { color: var(--opus); } .res .who.s { color: var(--sonnet); }
+.bar { height: 10px; border-radius: 5px; background: var(--rule-2); overflow: hidden; display: flex; }
+.bar i { display: block; height: 100%; }
+.bar .ba { background: var(--g-a-ink); opacity: .85; }
+.bar .bb { background: var(--g-a-ink); opacity: .35; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-3); margin-top: 10px; }
+.legend i { display: inline-block; width: 12px; height: 10px; border-radius: 3px; background: var(--g-a-ink); vertical-align: -1px; margin-right: 5px; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule-2); }
+thead th { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); border-bottom: 1px solid var(--rule); white-space: nowrap; }
+td.r, th.r { text-align: right; }
+th.o, td.o { color: var(--opus); } th.s, td.s { color: var(--sonnet); }
+tfoot td { font-weight: 600; border-top: 1px solid var(--rule); border-bottom: 0; }
+tr.grp td { background: var(--rule-2); font-weight: 600; font-family: var(--serif); }
+tr.grp td a { font-family: var(--sans); font-weight: 500; font-size: 13px; margin-left: 8px; }
+tr.diff td:first-child { box-shadow: inset 3px 0 0 var(--gap); }
+tr.diff td.o, tr.diff td.s { background: var(--gap-soft); }
+.chip { display: inline-block; font: 600 11px var(--sans); border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: 1px; }
+.chip.diff { background: var(--gap-soft); color: var(--gap); border: 1px solid var(--gap); }
+.chip.same { background: var(--rule-2); color: var(--ink-3); }
+.ctl { display: flex; gap: 8px 16px; align-items: center; flex-wrap: wrap; margin: 16px 0 12px; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: 500 13px var(--sans); background: var(--sheet); color: var(--ink-2); border: 0; padding: 6px 12px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 18px 0; }
+.kpi { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
+.kpi .v { font: 600 26px/1.2 var(--serif); }
+.kpi .l { font-size: 13px; color: var(--ink-2); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 12px 16px; border-radius: 0 6px 6px 0; }
+.choices td { min-width: 150px; }
+.choices td:first-child { min-width: 200px; }
+.choices .eff { color: var(--ink-3); font-size: 13px; }
+ul.notes { padding-left: 20px; margin: 8px 0; }
+ul.notes li { margin: 4px 0; }
+@media (max-width: 600px) { .res { grid-template-columns: 78px 1fr; } .res .num.t { grid-column: 2; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">Reproducibility Check<span>Agentic reproduction of published results tables</span></div>
+  <nav class="jump"><a href="#papers">Papers</a><a href="#models">Opus vs Sonnet</a><a href="#cost">Cost</a></nav>
+</div></header>
+<main class="wrap">
+  <div class="prose">
+    <div class="eyebrow">Six papers · three publishers</div>
+    <h1>Can an AI rebuild a paper's results table from its Methods and its data alone?</h1>
+    <p>The AI gets only a paper's Methods and the original data the authors deposited, never their code or their results. It rebuilds one results table, and a fixed script grades every number against the published one. Where a number misses, we find out why: usually the Methods left a choice unsaid.</p>
+  </div>
+  <div class="steps">
+    <div><b>1. Read the Methods</b>The Methods are turned into a list of steps, each quoting the paper's own sentence, with the places the paper leaves open marked.</div>
+    <div><b>2. Rebuild blind</b>An AI model works in a closed folder with that list, a blank copy of the table and the authors' data. It writes code, runs it and records every choice it had to make.</div>
+    <div><b>3. Grade every cell</b>A fixed script compares each number with the published one: within 2%, within 20%, or further off.</div>
+    <div><b>4. Explain the misses</b>A second pass tests each miss against the data and names the cause, and the sentence the Methods would need.</div>
+  </div>
+
+  <section class="band" id="papers">
+    <h2>The papers</h2>
+    <p class="muted small" style="margin:.3em 0 0">Two papers per publisher, chosen because the authors deposited their data openly. Click a paper for its full check: the rebuilt table, every graded number and why each miss happened.</p>
+    <div id="pubs"></div>
+  </section>
+
+  <section class="band" id="models">
+    <h2>Claude Opus 5.5 vs Claude Sonnet 5.5</h2>
+    <div class="prose"><p>Each paper was rebuilt by both models from exactly the same inputs. Below: how close each got, then every open choice the Methods left and what each model decided.</p></div>
+    <div class="kpis" id="kpis"></div>
+    <div class="scroll sheet" style="padding:8px 12px"><table id="sum"></table></div>
+    <p class="muted small" id="sumnote"></p>
+
+    <h3 style="margin-top:32px">Every choice the models had to make</h3>
+    <div class="prose"><p class="small muted" style="margin:.3em 0 0">Each row is a point where the Methods left something open. The models wrote down each choice as they worked; the authors' column comes from the follow-up analysis of the misses. Highlighted rows are where the two models chose differently.</p></div>
+    <div class="ctl">
+      <div class="seg" id="fdiff"><button data-v="all" aria-pressed="true">All choices</button><button data-v="diff" aria-pressed="false">Only where they differ</button></div>
+      <span class="small muted" id="ccount"></span>
+    </div>
+    <div class="scroll sheet" style="padding:8px 12px"><table class="choices" id="choices"></table></div>
+  </section>
+
+  <section class="band" id="cost">
+    <h2>Cost</h2>
+    <div class="prose" id="costtext"></div>
+  </section>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const P = DATA.papers;
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const usd = v => "$" + v.toFixed(2);
+const pct = (a, n) => Math.round(100 * a / n) + "%";
+const name = p => `${p.publisher} ${p.pid}`;
+// Wiley's Opus figures come from three runs; show each run when they differ.
+const opusA = p => { const v = [...new Set(p.opus.map(r => r.a))]; return v.length === 1 ? String(v[0]) : p.opus.map(r => r.a).join(" / "); };
+const opusAB = p => { const v = [...new Set(p.opus.map(r => r.ab))]; return v.length === 1 ? String(v[0]) : p.opus.map(r => r.ab).join(" / "); };
+const mean = a => a.reduce((x, y) => x + y, 0) / a.length;
+
+function bar(a, ab, n) {
+  return `<div class="bar" role="img" aria-label="${a} within 2%, ${ab} within 20%, of ${n}"><i class="ba" style="width:${100 * a / n}%"></i><i class="bb" style="width:${100 * (ab - a) / n}%"></i></div>`;
+}
+
+function renderPapers() {
+  const pubs = [...new Set(P.map(p => p.publisher))];
+  document.getElementById("pubs").innerHTML = pubs.map(pub => `
+    <div class="pub"><div class="eyebrow">${esc(pub)}</div><div class="cards">${P.filter(p => p.publisher === pub).map(p => {
+      const oa = mean(p.opus.map(r => r.a)), oab = mean(p.opus.map(r => r.ab));
+      return `<a class="card" href="${esc(p.href)}">
+        <div class="eyebrow">Paper ${p.pid} · ${esc(p.field)}</div>
+        <h3>${esc(p.title)}</h3>
+        <div class="cite">${esc(p.authors)} <i>${esc(p.journal)}</i> ${esc(p.year)}</div>
+        <div class="tbl">Rebuilt: ${esc(p.table)} <span class="num">${p.n}</span> numbers graded.</div>
+        <div class="res">
+          <span class="who o">Opus 5.5</span>${bar(oa, oab, p.n)}<span class="num t">${opusA(p)} within 2%</span>
+          <span class="who s">Sonnet 5.5</span>${bar(p.sonnet.a, p.sonnet.ab, p.n)}<span class="num t">${p.sonnet.a} within 2%</span>
+        </div>
+        ${p.opus.length > 1 ? `<div class="small muted">Opus ran three times on this paper (first demo); figures are per run.</div>` : ""}
+        <span class="go">Open the full check →</span>
+      </a>`; }).join("")}</div></div>`).join("") +
+    `<div class="legend"><span><i style="opacity:.85"></i>within 2% of the published number</span><span><i style="opacity:.35"></i>within 20%</span></div>`;
+}
+
+function renderSummary() {
+  const tot = k => P.reduce((s, p) => s + k(p), 0);
+  const n = tot(p => p.n), oa = tot(p => mean(p.opus.map(r => r.a))), sa = tot(p => p.sonnet.a);
+  const oab = tot(p => mean(p.opus.map(r => r.ab))), sab = tot(p => p.sonnet.ab);
+  const oc = tot(p => p.cost.opus), sc = tot(p => p.cost.sonnet);
+  const nd = P.reduce((s, p) => s + p.choices.filter(c => !c.same).length, 0), nc = P.reduce((s, p) => s + p.choices.length, 0);
+  document.getElementById("kpis").innerHTML = `
+    <div class="kpi"><div class="v num">${pct(oa, n)} <span class="muted">vs</span> ${pct(sa, n)}</div><div class="l">of ${n} numbers within 2%, Opus vs Sonnet</div></div>
+    <div class="kpi"><div class="v num">${pct(oab, n)} <span class="muted">vs</span> ${pct(sab, n)}</div><div class="l">within 20%, Opus vs Sonnet</div></div>
+    <div class="kpi"><div class="v num">${usd(oc)} <span class="muted">vs</span> ${usd(sc)}</div><div class="l">to rebuild all six tables once, Opus vs Sonnet (at least)</div></div>
+    <div class="kpi"><div class="v num">${nd} <span class="muted">of</span> ${nc}</div><div class="l">open choices where the two models decided differently</div></div>`;
+  const row = p => `<tr><td><a href="${esc(p.href)}">${esc(name(p))}</a> <span class="muted small">${esc(p.journal)}</span></td>
+    <td class="r num">${p.n}</td>
+    <td class="r num o">${opusA(p)}</td><td class="r num s">${p.sonnet.a}</td>
+    <td class="r num o">${opusAB(p)}</td><td class="r num s">${p.sonnet.ab}</td>
+    <td class="r num o">${usd(p.cost.opus)}${p.opus.length > 1 ? "*" : ""}</td><td class="r num s">${usd(p.cost.sonnet)}</td></tr>`;
+  document.getElementById("sum").innerHTML = `
+    <thead><tr><th>Paper</th><th class="r">Numbers</th><th class="r o">Opus<br>within 2%</th><th class="r s">Sonnet<br>within 2%</th><th class="r o">Opus<br>within 20%</th><th class="r s">Sonnet<br>within 20%</th><th class="r o">Opus<br>cost</th><th class="r s">Sonnet<br>cost</th></tr></thead>
+    <tbody>${P.map(row).join("")}</tbody>
+    <tfoot><tr><td>All six</td><td class="r num">${n}</td><td class="r num o">${Math.round(oa)}</td><td class="r num s">${sa}</td><td class="r num o">${Math.round(oab)}</td><td class="r num s">${sab}</td><td class="r num o">${usd(oc)}</td><td class="r num s">${usd(sc)}</td></tr></tfoot>`;
+  document.getElementById("sumnote").textContent = "One run per model per paper, except Wiley, where Opus ran three times in the first demo: its counts are shown per run, and the total and cost (*) use the average of the three. Costs are per rebuild run and are lower bounds; see Cost.";
+}
+
+let onlyDiff = false;
+function renderChoices() {
+  let shown = 0, total = 0;
+  const body = P.map(p => {
+    const cs = p.choices.filter(c => !onlyDiff || !c.same);
+    total += p.choices.length; shown += cs.length;
+    if (!cs.length) return `<tr class="grp"><td colspan="4">${esc(name(p))}: ${esc(p.journal)}<a href="${esc(p.href)}">open</a></td></tr><tr><td colspan="4" class="muted small">The two models made the same choice at every open point.</td></tr>`;
+    return `<tr class="grp"><td colspan="4">${esc(name(p))}: ${esc(p.journal)}<a href="${esc(p.href)}">open</a></td></tr>` + cs.map(c => `
+      <tr class="${c.same ? "" : "diff"}"><td><b>${esc(c.topic)}</b>${c.same ? `<span class="chip same">same</span>` : `<span class="chip diff">differ</span>`}${c.matters ? `<div class="eff">${esc(c.matters)}</div>` : ""}</td>
+      <td class="o">${esc(c.opus)}</td><td class="s">${esc(c.sonnet)}</td><td>${esc(c.authors)}</td></tr>`).join("");
+  }).join("");
+  document.getElementById("choices").innerHTML = `<thead><tr><th>Open choice</th><th class="o">Opus 5.5</th><th class="s">Sonnet 5.5</th><th>What the authors did</th></tr></thead><tbody>${body}</tbody>`;
+  document.getElementById("ccount").textContent = onlyDiff ? `${shown} of ${total} choices` : `${total} choices across six papers`;
+}
+document.querySelectorAll("#fdiff button").forEach(b => b.addEventListener("click", () => {
+  onlyDiff = b.dataset.v === "diff";
+  document.querySelectorAll("#fdiff button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderChoices();
+}));
+
+function renderCost() {
+  const oc = P.reduce((s, p) => s + p.cost.opus, 0), sc = P.reduce((s, p) => s + p.cost.sonnet, 0);
+  const lo = Math.min(...P.map(p => p.cost.sonnet / p.cost.opus)), hi = Math.max(...P.map(p => p.cost.sonnet / p.cost.opus));
+  document.getElementById("costtext").innerHTML = `
+    <p>One rebuild of all six tables cost at least <b class="num">${usd(oc)}</b> with Opus 5.5 and <b class="num">${usd(sc)}</b> with Sonnet 5.5. Per paper, a Sonnet run cost ${Math.round(100 * lo)}% to ${Math.round(100 * hi)}% of an Opus run.</p>
+    <ul class="notes small">
+      <li>Measured from each run's own record of tokens used, at list prices: Opus 5.5 $4 in / $20 out per million tokens, Sonnet 5.5 $2 / $10, cache reads $0.20, cache writes 1.25 times the input price.</li>
+      <li><b>These are lower bounds.</b> The run records count reading and writing exactly but undercount the model's output; we add the output we can see (code and text). The model's hidden reasoning is not included.</li>
+      <li>Per rebuild run only. Not included: turning the Methods into steps, the follow-up analysis of the misses (about $0.70 to $1.50 per paper with Opus) and building these pages.</li>
+      <li>Each rebuild took 1 to 4 minutes.</li>
+    </ul>`;
+}
+
+renderPapers(); renderSummary(); renderChoices(); renderCost();
+</script>
+</body>
+</html>

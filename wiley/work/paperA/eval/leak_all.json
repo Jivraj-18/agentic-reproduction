@@ -1,0 +1,1300 @@
+{
+ "published_tokens": 50,
+ "answer_values": 0,
+ "unsearchable_cells": [],
+ "sandboxes": {
+  "r1": {
+   "inputs": [],
+   "data": [
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "77",
+     "cells": [
+      "fvc_sit|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "64",
+     "cells": [
+      "fvc_sit|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "70",
+     "cells": [
+      "fvc_lie|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "54",
+     "cells": [
+      "fvc_lie|med_f"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.06",
+     "cells": [
+      "fvc_lie|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.7",
+     "cells": [
+      "hip_flex|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.4",
+     "cells": [
+      "hip_flex|med_f"
+     ],
+     "hits": 11
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.13",
+     "cells": [
+      "hip_flex|p"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.35",
+     "cells": [
+      "hip_flex|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.1",
+     "cells": [
+      "hip_add|med_b"
+     ],
+     "hits": 15
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.2",
+     "cells": [
+      "hip_add|med_f"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.59",
+     "cells": [
+      "hip_add|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.3",
+     "cells": [
+      "hip_abd|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.2",
+     "cells": [
+      "hip_abd|med_f"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.01",
+     "cells": [
+      "hip_abd|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "11.1",
+     "cells": [
+      "knee_ext|med_b"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "12",
+     "cells": [
+      "knee_ext|med_f"
+     ],
+     "hits": 36
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.15",
+     "cells": [
+      "knee_ext|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.26",
+     "cells": [
+      "knee_ext|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.4",
+     "cells": [
+      "knee_flex|med_b"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.8",
+     "cells": [
+      "knee_flex|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.21",
+     "cells": [
+      "knee_flex|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.12",
+     "cells": [
+      "knee_flex|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "14.7",
+     "cells": [
+      "ankle_df|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "13.9",
+     "cells": [
+      "ankle_df|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.42",
+     "cells": [
+      "ankle_df|srm"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "391",
+     "cells": [
+      "smwt|med_b"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "286",
+     "cells": [
+      "smwt|med_f"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.85",
+     "cells": [
+      "smwt|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.5",
+     "cells": [
+      "tug|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.3",
+     "cells": [
+      "tug|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.2",
+     "cells": [
+      "tmwr|med_b",
+      "stair_down|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.8",
+     "cells": [
+      "tmwr|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.7",
+     "cells": [
+      "stair_up|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.4",
+     "cells": [
+      "stair_up|med_f",
+      "stair_down|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.46",
+     "cells": [
+      "stair_up|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.47",
+     "cells": [
+      "stair_down|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "2.6",
+     "cells": [
+      "chair|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "9.8",
+     "cells": [
+      "chair|med_f"
+     ],
+     "hits": 5
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 226
+  },
+  "r2": {
+   "inputs": [],
+   "data": [
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "77",
+     "cells": [
+      "fvc_sit|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "64",
+     "cells": [
+      "fvc_sit|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "70",
+     "cells": [
+      "fvc_lie|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "54",
+     "cells": [
+      "fvc_lie|med_f"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.06",
+     "cells": [
+      "fvc_lie|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.7",
+     "cells": [
+      "hip_flex|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.4",
+     "cells": [
+      "hip_flex|med_f"
+     ],
+     "hits": 11
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.13",
+     "cells": [
+      "hip_flex|p"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.35",
+     "cells": [
+      "hip_flex|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.1",
+     "cells": [
+      "hip_add|med_b"
+     ],
+     "hits": 15
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.2",
+     "cells": [
+      "hip_add|med_f"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.59",
+     "cells": [
+      "hip_add|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.3",
+     "cells": [
+      "hip_abd|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.2",
+     "cells": [
+      "hip_abd|med_f"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.01",
+     "cells": [
+      "hip_abd|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "11.1",
+     "cells": [
+      "knee_ext|med_b"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "12",
+     "cells": [
+      "knee_ext|med_f"
+     ],
+     "hits": 36
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.15",
+     "cells": [
+      "knee_ext|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.26",
+     "cells": [
+      "knee_ext|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.4",
+     "cells": [
+      "knee_flex|med_b"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.8",
+     "cells": [
+      "knee_flex|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.21",
+     "cells": [
+      "knee_flex|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.12",
+     "cells": [
+      "knee_flex|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "14.7",
+     "cells": [
+      "ankle_df|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "13.9",
+     "cells": [
+      "ankle_df|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.42",
+     "cells": [
+      "ankle_df|srm"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "391",
+     "cells": [
+      "smwt|med_b"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "286",
+     "cells": [
+      "smwt|med_f"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.85",
+     "cells": [
+      "smwt|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.5",
+     "cells": [
+      "tug|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.3",
+     "cells": [
+      "tug|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.2",
+     "cells": [
+      "tmwr|med_b",
+      "stair_down|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.8",
+     "cells": [
+      "tmwr|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.7",
+     "cells": [
+      "stair_up|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.4",
+     "cells": [
+      "stair_up|med_f",
+      "stair_down|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.46",
+     "cells": [
+      "stair_up|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.47",
+     "cells": [
+      "stair_down|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "2.6",
+     "cells": [
+      "chair|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "9.8",
+     "cells": [
+      "chair|med_f"
+     ],
+     "hits": 5
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 226
+  },
+  "r3": {
+   "inputs": [],
+   "data": [
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "77",
+     "cells": [
+      "fvc_sit|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "64",
+     "cells": [
+      "fvc_sit|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "70",
+     "cells": [
+      "fvc_lie|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "54",
+     "cells": [
+      "fvc_lie|med_f"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.06",
+     "cells": [
+      "fvc_lie|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.7",
+     "cells": [
+      "hip_flex|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.4",
+     "cells": [
+      "hip_flex|med_f"
+     ],
+     "hits": 11
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.13",
+     "cells": [
+      "hip_flex|p"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.35",
+     "cells": [
+      "hip_flex|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.1",
+     "cells": [
+      "hip_add|med_b"
+     ],
+     "hits": 15
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.2",
+     "cells": [
+      "hip_add|med_f"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.59",
+     "cells": [
+      "hip_add|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.3",
+     "cells": [
+      "hip_abd|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.2",
+     "cells": [
+      "hip_abd|med_f"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.01",
+     "cells": [
+      "hip_abd|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "11.1",
+     "cells": [
+      "knee_ext|med_b"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "12",
+     "cells": [
+      "knee_ext|med_f"
+     ],
+     "hits": 36
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.15",
+     "cells": [
+      "knee_ext|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.26",
+     "cells": [
+      "knee_ext|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.4",
+     "cells": [
+      "knee_flex|med_b"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.8",
+     "cells": [
+      "knee_flex|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.21",
+     "cells": [
+      "knee_flex|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.12",
+     "cells": [
+      "knee_flex|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "14.7",
+     "cells": [
+      "ankle_df|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "13.9",
+     "cells": [
+      "ankle_df|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.42",
+     "cells": [
+      "ankle_df|srm"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "391",
+     "cells": [
+      "smwt|med_b"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "286",
+     "cells": [
+      "smwt|med_f"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.85",
+     "cells": [
+      "smwt|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.5",
+     "cells": [
+      "tug|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.3",
+     "cells": [
+      "tug|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.2",
+     "cells": [
+      "tmwr|med_b",
+      "stair_down|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.8",
+     "cells": [
+      "tmwr|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.7",
+     "cells": [
+      "stair_up|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.4",
+     "cells": [
+      "stair_up|med_f",
+      "stair_down|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.46",
+     "cells": [
+      "stair_up|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.47",
+     "cells": [
+      "stair_down|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "2.6",
+     "cells": [
+      "chair|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "9.8",
+     "cells": [
+      "chair|med_f"
+     ],
+     "hits": 5
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 226
+  },
+  "r_sonnet": {
+   "inputs": [],
+   "data": [
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "77",
+     "cells": [
+      "fvc_sit|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "64",
+     "cells": [
+      "fvc_sit|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "70",
+     "cells": [
+      "fvc_lie|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "54",
+     "cells": [
+      "fvc_lie|med_f"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.06",
+     "cells": [
+      "fvc_lie|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.7",
+     "cells": [
+      "hip_flex|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.4",
+     "cells": [
+      "hip_flex|med_f"
+     ],
+     "hits": 11
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.13",
+     "cells": [
+      "hip_flex|p"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.35",
+     "cells": [
+      "hip_flex|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "6.1",
+     "cells": [
+      "hip_add|med_b"
+     ],
+     "hits": 15
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.2",
+     "cells": [
+      "hip_add|med_f"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.59",
+     "cells": [
+      "hip_add|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.3",
+     "cells": [
+      "hip_abd|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "7.2",
+     "cells": [
+      "hip_abd|med_f"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.01",
+     "cells": [
+      "hip_abd|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "11.1",
+     "cells": [
+      "knee_ext|med_b"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "12",
+     "cells": [
+      "knee_ext|med_f"
+     ],
+     "hits": 36
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.15",
+     "cells": [
+      "knee_ext|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.26",
+     "cells": [
+      "knee_ext|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "8.4",
+     "cells": [
+      "knee_flex|med_b"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "4.8",
+     "cells": [
+      "knee_flex|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.21",
+     "cells": [
+      "knee_flex|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.12",
+     "cells": [
+      "knee_flex|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "14.7",
+     "cells": [
+      "ankle_df|med_b"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "13.9",
+     "cells": [
+      "ankle_df|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.42",
+     "cells": [
+      "ankle_df|srm"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "391",
+     "cells": [
+      "smwt|med_b"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "286",
+     "cells": [
+      "smwt|med_f"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.85",
+     "cells": [
+      "smwt|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.5",
+     "cells": [
+      "tug|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.3",
+     "cells": [
+      "tug|med_f"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "1.2",
+     "cells": [
+      "tmwr|med_b",
+      "stair_down|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.8",
+     "cells": [
+      "tmwr|med_f"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.7",
+     "cells": [
+      "stair_up|med_b"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.4",
+     "cells": [
+      "stair_up|med_f",
+      "stair_down|med_f"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.46",
+     "cells": [
+      "stair_up|srm"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "0.47",
+     "cells": [
+      "stair_down|srm"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "2.6",
+     "cells": [
+      "chair|med_b"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx",
+     "token": "9.8",
+     "cells": [
+      "chair|med_f"
+     ],
+     "hits": 5
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 0,
+   "answers_hits": 0,
+   "data_hits": 226
+  }
+ },
+ "pass": true
+}

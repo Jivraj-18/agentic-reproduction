@@ -35,6 +35,18 @@
    "line": 90,
    "verdict": "benign",
    "reason": "Starting value for the curve-fit optimiser (log EC50 = -5.5), not a result."
+  },
+  {
+   "run": "r_sonnet",
+   "line": 41,
+   "verdict": "benign",
+   "reason": "Upper fit bounds [1e3 Emax, 1e4 nM EC50, ...]; 1e4 is a search limit, not the published '>10000' (which the run derived from a curve with no plateau)."
+  },
+  {
+   "run": "r_sonnet",
+   "line": 40,
+   "verdict": "benign",
+   "reason": "Lower fit bound -12 on log10 EC50 (1 pM); not the published EC50 of 12 nM."
   }
  ]
 }

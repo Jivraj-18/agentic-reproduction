@@ -1,0 +1,3807 @@
+{
+ "paper": "A",
+ "table": "Table 1",
+ "runs": [
+  "r1",
+  "r2",
+  "r3",
+  "r_sonnet"
+ ],
+ "summary": {
+  "n_cells_graded": 55,
+  "per_run": {
+   "r1": {
+    "distribution": {
+     "A": 44,
+     "B": 8,
+     "C": 2,
+     "D": 0,
+     "E": 1,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.709,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     14,
+     14
+    ]
+   },
+   "r2": {
+    "distribution": {
+     "A": 44,
+     "B": 8,
+     "C": 2,
+     "D": 0,
+     "E": 1,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.709,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     14,
+     14
+    ]
+   },
+   "r3": {
+    "distribution": {
+     "A": 44,
+     "B": 8,
+     "C": 2,
+     "D": 0,
+     "E": 1,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.709,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     14,
+     14
+    ]
+   },
+   "r_sonnet": {
+    "distribution": {
+     "A": 44,
+     "B": 8,
+     "C": 2,
+     "D": 0,
+     "E": 1,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.709,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     14,
+     14
+    ]
+   }
+  },
+  "median_cell_grades": {
+   "A": 44,
+   "B": 8,
+   "C": 2,
+   "D": 0,
+   "E": 1,
+   "F": 0
+  },
+  "consensus_cell_grades": {
+   "A": 44,
+   "B": 8,
+   "C": 2,
+   "D": 0,
+   "E": 1,
+   "F": 0
+  },
+  "table_grade_median_of_runs": 4.709,
+  "sign_match": [
+   55,
+   55
+  ],
+  "within_1.96se_consensus": [
+   0,
+   0
+  ],
+  "runs_identical_cells": [
+   55,
+   55
+  ],
+  "runs_same_grade_cells": [
+   55,
+   55
+  ],
+  "within_20pct_consensus": [
+   52,
+   55
+  ],
+  "table_grade_median_letter": "A"
+ },
+ "cells": {
+  "fvc_sit|med_b": {
+   "published_raw": "77",
+   "metric_type": "median",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 77.0,
+     "reproduced_unrounded": 77.0,
+     "reproduced": 77.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 77.0,
+     "reproduced_unrounded": 77.0,
+     "reproduced": 77.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 77.0,
+     "reproduced_unrounded": 77.0,
+     "reproduced": 77.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 77.0,
+     "reproduced_unrounded": 77.0,
+     "reproduced": 77.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 77.0,
+    "reproduced_unrounded": 77.0,
+    "reproduced": 77.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fvc_sit|med_f": {
+   "published_raw": "64",
+   "metric_type": "median",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 65.0,
+     "reproduced_unrounded": 65.0,
+     "reproduced": 65.0,
+     "grade": "A",
+     "deviation_pct": 1.5625,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 65.0,
+     "reproduced_unrounded": 65.0,
+     "reproduced": 65.0,
+     "grade": "A",
+     "deviation_pct": 1.5625,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 65.0,
+     "reproduced_unrounded": 65.0,
+     "reproduced": 65.0,
+     "grade": "A",
+     "deviation_pct": 1.5625,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 65.0,
+     "reproduced_unrounded": 65.0,
+     "reproduced": 65.0,
+     "grade": "A",
+     "deviation_pct": 1.5625,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 65.0,
+    "reproduced_unrounded": 65.0,
+    "reproduced": 65.0,
+    "grade": "A",
+    "deviation_pct": 1.5625,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fvc_sit|p": {
+   "published_raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.00118,
+     "reproduced_unrounded": 0.00118,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.001180422124524836,
+     "reproduced_unrounded": 0.001180422124524836,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.001180422124524836,
+     "reproduced_unrounded": 0.001180422124524836,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.001180422124524836,
+     "reproduced_unrounded": 0.001180422124524836,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.001180422124524836,
+    "reproduced_unrounded": 0.001180422124524836,
+    "reproduced": 0.001,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.042212452483589465,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fvc_sit|srm": {
+   "published_raw": "-1.29",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -1.289114,
+     "reproduced_unrounded": -1.289114,
+     "reproduced": -1.29,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -1.289113790148519,
+     "reproduced_unrounded": -1.289113790148519,
+     "reproduced": -1.29,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -1.289113790148519,
+     "reproduced_unrounded": -1.289113790148519,
+     "reproduced": -1.29,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -1.289113790148519,
+     "reproduced_unrounded": -1.289113790148519,
+     "reproduced": -1.29,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.289113790148519,
+    "reproduced_unrounded": -1.289113790148519,
+    "reproduced": -1.29,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.6267556672953683e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fvc_lie|med_b": {
+   "published_raw": "70",
+   "metric_type": "median",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 70.5,
+     "reproduced_unrounded": 70.5,
+     "reproduced": 70.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 70.5,
+     "reproduced_unrounded": 70.5,
+     "reproduced": 70.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 70.5,
+     "reproduced_unrounded": 70.5,
+     "reproduced": 70.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 70.5,
+     "reproduced_unrounded": 70.5,
+     "reproduced": 70.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 70.5,
+    "reproduced_unrounded": 70.5,
+    "reproduced": 70.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fvc_lie|med_f": {
+   "published_raw": "54",
+   "metric_type": "median",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 56.0,
+     "reproduced_unrounded": 56.0,
+     "reproduced": 56.0,
+     "grade": "B",
+     "deviation_pct": 3.7037037037037033,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 56.0,
+     "reproduced_unrounded": 56.0,
+     "reproduced": 56.0,
+     "grade": "B",
+     "deviation_pct": 3.7037037037037033,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 56.0,
+     "reproduced_unrounded": 56.0,
+     "reproduced": 56.0,
+     "grade": "B",
+     "deviation_pct": 3.7037037037037033,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 56.0,
+     "reproduced_unrounded": 56.0,
+     "reproduced": 56.0,
+     "grade": "B",
+     "deviation_pct": 3.7037037037037033,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 56.0,
+    "reproduced_unrounded": 56.0,
+    "reproduced": 56.0,
+    "grade": "B",
+    "deviation_pct": 3.7037037037037033,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "fvc_lie|p": {
+   "published_raw": "0.002",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.001751,
+     "reproduced_unrounded": 0.001751,
+     "reproduced": 0.002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.0017514780606625016,
+     "reproduced_unrounded": 0.0017514780606625016,
+     "reproduced": 0.002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.0017514780606625016,
+     "reproduced_unrounded": 0.0017514780606625016,
+     "reproduced": 0.002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0017514780606625016,
+     "reproduced_unrounded": 0.0017514780606625016,
+     "reproduced": 0.002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0017514780606625016,
+    "reproduced_unrounded": 0.0017514780606625016,
+    "reproduced": 0.002,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.02390303312508257,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fvc_lie|srm": {
+   "published_raw": "-1.06",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -1.06014,
+     "reproduced_unrounded": -1.06014,
+     "reproduced": -1.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -1.0601397860684056,
+     "reproduced_unrounded": -1.0601397860684056,
+     "reproduced": -1.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -1.0601397860684056,
+     "reproduced_unrounded": -1.0601397860684056,
+     "reproduced": -1.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -1.0601397860684056,
+     "reproduced_unrounded": -1.0601397860684056,
+     "reproduced": -1.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.0601397860684056,
+    "reproduced_unrounded": -1.0601397860684056,
+    "reproduced": -1.06,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.018222589050822e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_flex|med_b": {
+   "published_raw": "7.7",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.7,
+     "reproduced_unrounded": 7.7,
+     "reproduced": 7.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 7.7,
+     "reproduced_unrounded": 7.7,
+     "reproduced": 7.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 7.7,
+     "reproduced_unrounded": 7.7,
+     "reproduced": 7.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.7,
+     "reproduced_unrounded": 7.7,
+     "reproduced": 7.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.7,
+    "reproduced_unrounded": 7.7,
+    "reproduced": 7.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_flex|med_f": {
+   "published_raw": "6.4",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.4,
+     "reproduced_unrounded": 6.4,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 6.4,
+     "reproduced_unrounded": 6.4,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 6.4,
+     "reproduced_unrounded": 6.4,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.4,
+     "reproduced_unrounded": 6.4,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.4,
+    "reproduced_unrounded": 6.4,
+    "reproduced": 6.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_flex|p": {
+   "published_raw": "0.13",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.14011,
+     "reproduced_unrounded": 0.14011,
+     "reproduced": 0.14,
+     "grade": "B",
+     "deviation_pct": 7.692307692307699,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.1401100976792903,
+     "reproduced_unrounded": 0.1401100976792903,
+     "reproduced": 0.14,
+     "grade": "B",
+     "deviation_pct": 7.692307692307699,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.1401100976792903,
+     "reproduced_unrounded": 0.1401100976792903,
+     "reproduced": 0.14,
+     "grade": "B",
+     "deviation_pct": 7.692307692307699,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.1401100976792903,
+     "reproduced_unrounded": 0.1401100976792903,
+     "reproduced": 0.14,
+     "grade": "B",
+     "deviation_pct": 7.692307692307699,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.1401100976792903,
+    "reproduced_unrounded": 0.1401100976792903,
+    "reproduced": 0.14,
+    "grade": "B",
+    "deviation_pct": 7.692307692307699,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.513791561164496e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "hip_flex|srm": {
+   "published_raw": "-0.35",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.346944,
+     "reproduced_unrounded": -0.346944,
+     "reproduced": -0.35,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.34694352427021946,
+     "reproduced_unrounded": -0.34694352427021946,
+     "reproduced": -0.35,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.34694352427021946,
+     "reproduced_unrounded": -0.34694352427021946,
+     "reproduced": -0.35,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.34694352427021946,
+     "reproduced_unrounded": -0.34694352427021946,
+     "reproduced": -0.35,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.34694352427021946,
+    "reproduced_unrounded": -0.34694352427021946,
+    "reproduced": -0.35,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00013592279443245102,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_add|med_b": {
+   "published_raw": "6.1",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.1,
+     "reproduced_unrounded": 6.1,
+     "reproduced": 6.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 6.1,
+     "reproduced_unrounded": 6.1,
+     "reproduced": 6.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 6.1,
+     "reproduced_unrounded": 6.1,
+     "reproduced": 6.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.1,
+     "reproduced_unrounded": 6.1,
+     "reproduced": 6.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.1,
+    "reproduced_unrounded": 6.1,
+    "reproduced": 6.1,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_add|med_f": {
+   "published_raw": "4.2",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 4.2,
+     "reproduced_unrounded": 4.2,
+     "reproduced": 4.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 4.2,
+     "reproduced_unrounded": 4.2,
+     "reproduced": 4.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 4.2,
+     "reproduced_unrounded": 4.2,
+     "reproduced": 4.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.2,
+     "reproduced_unrounded": 4.2,
+     "reproduced": 4.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.2,
+    "reproduced_unrounded": 4.2,
+    "reproduced": 4.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_add|p": {
+   "published_raw": "0.02",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.020788,
+     "reproduced_unrounded": 0.020788,
+     "reproduced": 0.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.020788498828754904,
+     "reproduced_unrounded": 0.020788498828754904,
+     "reproduced": 0.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.020788498828754904,
+     "reproduced_unrounded": 0.020788498828754904,
+     "reproduced": 0.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.020788498828754904,
+     "reproduced_unrounded": 0.020788498828754904,
+     "reproduced": 0.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.020788498828754904,
+    "reproduced_unrounded": 0.020788498828754904,
+    "reproduced": 0.02,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.002494143774515317,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_add|srm": {
+   "published_raw": "-0.59",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.593383,
+     "reproduced_unrounded": -0.593383,
+     "reproduced": -0.59,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.5933827052640558,
+     "reproduced_unrounded": -0.5933827052640558,
+     "reproduced": -0.59,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.5933827052640558,
+     "reproduced_unrounded": -0.5933827052640558,
+     "reproduced": -0.59,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.5933827052640558,
+     "reproduced_unrounded": -0.5933827052640558,
+     "reproduced": -0.59,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.5933827052640558,
+    "reproduced_unrounded": -0.5933827052640558,
+    "reproduced": -0.59,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.9955244780721895e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_abd|med_b": {
+   "published_raw": "8.3",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 8.3,
+     "reproduced_unrounded": 8.3,
+     "reproduced": 8.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 8.3,
+     "reproduced_unrounded": 8.3,
+     "reproduced": 8.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 8.3,
+     "reproduced_unrounded": 8.3,
+     "reproduced": 8.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8.3,
+     "reproduced_unrounded": 8.3,
+     "reproduced": 8.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.3,
+    "reproduced_unrounded": 8.3,
+    "reproduced": 8.3,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_abd|med_f": {
+   "published_raw": "7.2",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.2,
+     "reproduced_unrounded": 7.2,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 7.2,
+     "reproduced_unrounded": 7.2,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 7.2,
+     "reproduced_unrounded": 7.2,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.2,
+     "reproduced_unrounded": 7.2,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.2,
+    "reproduced_unrounded": 7.2,
+    "reproduced": 7.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_abd|p": {
+   "published_raw": "0.76",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.772613,
+     "reproduced_unrounded": 0.772613,
+     "reproduced": 0.77,
+     "grade": "A",
+     "deviation_pct": 1.3157894736842117,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.772612934473893,
+     "reproduced_unrounded": 0.772612934473893,
+     "reproduced": 0.77,
+     "grade": "A",
+     "deviation_pct": 1.3157894736842117,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.772612934473893,
+     "reproduced_unrounded": 0.772612934473893,
+     "reproduced": 0.77,
+     "grade": "A",
+     "deviation_pct": 1.3157894736842117,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.772612934473893,
+     "reproduced_unrounded": 0.772612934473893,
+     "reproduced": 0.77,
+     "grade": "A",
+     "deviation_pct": 1.3157894736842117,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.772612934473893,
+    "reproduced_unrounded": 0.772612934473893,
+    "reproduced": 0.77,
+    "grade": "A",
+    "deviation_pct": 1.3157894736842117,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.621856182216822e-06,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "hip_abd|srm": {
+   "published_raw": "-0.01",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.014236,
+     "reproduced_unrounded": -0.014236,
+     "reproduced": -0.01,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.01423551647407345,
+     "reproduced_unrounded": -0.01423551647407345,
+     "reproduced": -0.01,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.01423551647407345,
+     "reproduced_unrounded": -0.01423551647407345,
+     "reproduced": -0.01,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.01423551647407345,
+     "reproduced_unrounded": -0.01423551647407345,
+     "reproduced": -0.01,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.01423551647407345,
+    "reproduced_unrounded": -0.01423551647407345,
+    "reproduced": -0.01,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0048352592654961335,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_ext|med_b": {
+   "published_raw": "11.1",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 11.1,
+     "reproduced_unrounded": 11.1,
+     "reproduced": 11.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 11.1,
+     "reproduced_unrounded": 11.1,
+     "reproduced": 11.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 11.1,
+     "reproduced_unrounded": 11.1,
+     "reproduced": 11.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 11.1,
+     "reproduced_unrounded": 11.1,
+     "reproduced": 11.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 11.1,
+    "reproduced_unrounded": 11.1,
+    "reproduced": 11.1,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_ext|med_f": {
+   "published_raw": "12.0",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 12.0,
+     "reproduced_unrounded": 12.0,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 12.0,
+     "reproduced_unrounded": 12.0,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 12.0,
+     "reproduced_unrounded": 12.0,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 12.0,
+     "reproduced_unrounded": 12.0,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 12.0,
+    "reproduced_unrounded": 12.0,
+    "reproduced": 12.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_ext|p": {
+   "published_raw": "0.15",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.161762,
+     "reproduced_unrounded": 0.161762,
+     "reproduced": 0.16,
+     "grade": "B",
+     "deviation_pct": 6.666666666666673,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.16176238626872796,
+     "reproduced_unrounded": 0.16176238626872796,
+     "reproduced": 0.16,
+     "grade": "B",
+     "deviation_pct": 6.666666666666673,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.16176238626872796,
+     "reproduced_unrounded": 0.16176238626872796,
+     "reproduced": 0.16,
+     "grade": "B",
+     "deviation_pct": 6.666666666666673,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.16176238626872796,
+     "reproduced_unrounded": 0.16176238626872796,
+     "reproduced": 0.16,
+     "grade": "B",
+     "deviation_pct": 6.666666666666673,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.16176238626872796,
+    "reproduced_unrounded": 0.16176238626872796,
+    "reproduced": 0.16,
+    "grade": "B",
+    "deviation_pct": 6.666666666666673,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0002575124853169501,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "knee_ext|srm": {
+   "published_raw": "-0.26",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.261475,
+     "reproduced_unrounded": -0.261475,
+     "reproduced": -0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.261475038437685,
+     "reproduced_unrounded": -0.261475038437685,
+     "reproduced": -0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.261475038437685,
+     "reproduced_unrounded": -0.261475038437685,
+     "reproduced": -0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.261475038437685,
+     "reproduced_unrounded": -0.261475038437685,
+     "reproduced": -0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.261475038437685,
+    "reproduced_unrounded": -0.261475038437685,
+    "reproduced": -0.26,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.4783724992058958e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_flex|med_b": {
+   "published_raw": "8.4",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 8.4,
+     "reproduced_unrounded": 8.4,
+     "reproduced": 8.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 8.4,
+     "reproduced_unrounded": 8.4,
+     "reproduced": 8.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 8.4,
+     "reproduced_unrounded": 8.4,
+     "reproduced": 8.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8.4,
+     "reproduced_unrounded": 8.4,
+     "reproduced": 8.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.4,
+    "reproduced_unrounded": 8.4,
+    "reproduced": 8.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_flex|med_f": {
+   "published_raw": "4.8",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 4.8,
+     "reproduced_unrounded": 4.8,
+     "reproduced": 4.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 4.8,
+     "reproduced_unrounded": 4.8,
+     "reproduced": 4.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 4.8,
+     "reproduced_unrounded": 4.8,
+     "reproduced": 4.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.8,
+     "reproduced_unrounded": 4.8,
+     "reproduced": 4.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.8,
+    "reproduced_unrounded": 4.8,
+    "reproduced": 4.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_flex|p": {
+   "published_raw": "0.21",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.212366,
+     "reproduced_unrounded": 0.212366,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.21236626373382772,
+     "reproduced_unrounded": 0.21236626373382772,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.21236626373382772,
+     "reproduced_unrounded": 0.21236626373382772,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.21236626373382772,
+     "reproduced_unrounded": 0.21236626373382772,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.21236626373382772,
+    "reproduced_unrounded": 0.21236626373382772,
+    "reproduced": 0.21,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00012558753701007505,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "knee_flex|srm": {
+   "published_raw": "-0.12",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.123795,
+     "reproduced_unrounded": -0.123795,
+     "reproduced": -0.12,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.12379495774245768,
+     "reproduced_unrounded": -0.12379495774245768,
+     "reproduced": -0.12,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.12379495774245768,
+     "reproduced_unrounded": -0.12379495774245768,
+     "reproduced": -0.12,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.12379495774245768,
+     "reproduced_unrounded": -0.12379495774245768,
+     "reproduced": -0.12,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.12379495774245768,
+    "reproduced_unrounded": -0.12379495774245768,
+    "reproduced": -0.12,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.5214618605376266e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ankle_df|med_b": {
+   "published_raw": "14.7",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 14.7,
+     "reproduced_unrounded": 14.7,
+     "reproduced": 14.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 14.7,
+     "reproduced_unrounded": 14.7,
+     "reproduced": 14.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 14.7,
+     "reproduced_unrounded": 14.7,
+     "reproduced": 14.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 14.7,
+     "reproduced_unrounded": 14.7,
+     "reproduced": 14.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 14.7,
+    "reproduced_unrounded": 14.7,
+    "reproduced": 14.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ankle_df|med_f": {
+   "published_raw": "13.9",
+   "metric_type": "median",
+   "unit": "kg",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 13.9,
+     "reproduced_unrounded": 13.9,
+     "reproduced": 13.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 13.9,
+     "reproduced_unrounded": 13.9,
+     "reproduced": 13.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 13.9,
+     "reproduced_unrounded": 13.9,
+     "reproduced": 13.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 13.9,
+     "reproduced_unrounded": 13.9,
+     "reproduced": 13.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 13.9,
+    "reproduced_unrounded": 13.9,
+    "reproduced": 13.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ankle_df|p": {
+   "published_raw": "0.07",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.070328,
+     "reproduced_unrounded": 0.070328,
+     "reproduced": 0.07,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.07032768335153002,
+     "reproduced_unrounded": 0.07032768335153002,
+     "reproduced": 0.07,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.07032768335153002,
+     "reproduced_unrounded": 0.07032768335153002,
+     "reproduced": 0.07,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.07032768335153002,
+     "reproduced_unrounded": 0.07032768335153002,
+     "reproduced": 0.07,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.07032768335153002,
+    "reproduced_unrounded": 0.07032768335153002,
+    "reproduced": 0.07,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0004523549571232101,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ankle_df|srm": {
+   "published_raw": "-0.42",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.416701,
+     "reproduced_unrounded": -0.416701,
+     "reproduced": -0.42,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.4167011271292501,
+     "reproduced_unrounded": -0.4167011271292501,
+     "reproduced": -0.42,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.4167011271292501,
+     "reproduced_unrounded": -0.4167011271292501,
+     "reproduced": -0.42,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.4167011271292501,
+     "reproduced_unrounded": -0.4167011271292501,
+     "reproduced": -0.42,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.4167011271292501,
+    "reproduced_unrounded": -0.4167011271292501,
+    "reproduced": -0.42,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 3.026886907786519e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "smwt|med_b": {
+   "published_raw": "391",
+   "metric_type": "median",
+   "unit": "m",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 391.0,
+     "reproduced_unrounded": 391.0,
+     "reproduced": 391.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 391.0,
+     "reproduced_unrounded": 391.0,
+     "reproduced": 391.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 391.0,
+     "reproduced_unrounded": 391.0,
+     "reproduced": 391.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 391.0,
+     "reproduced_unrounded": 391.0,
+     "reproduced": 391.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 391.0,
+    "reproduced_unrounded": 391.0,
+    "reproduced": 391.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "smwt|med_f": {
+   "published_raw": "286",
+   "metric_type": "median",
+   "unit": "m",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 286.0,
+     "reproduced_unrounded": 286.0,
+     "reproduced": 286.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 286.0,
+     "reproduced_unrounded": 286.0,
+     "reproduced": 286.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 286.0,
+     "reproduced_unrounded": 286.0,
+     "reproduced": 286.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 286.0,
+     "reproduced_unrounded": 286.0,
+     "reproduced": 286.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 286.0,
+    "reproduced_unrounded": 286.0,
+    "reproduced": 286.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "smwt|p": {
+   "published_raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.001136,
+     "reproduced_unrounded": 0.001136,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.0011363215962114429,
+     "reproduced_unrounded": 0.0011363215962114429,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.0011363215962114429,
+     "reproduced_unrounded": 0.0011363215962114429,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0011363215962114429,
+     "reproduced_unrounded": 0.0011363215962114429,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0011363215962114429,
+    "reproduced_unrounded": 0.0011363215962114429,
+    "reproduced": 0.001,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.03215962114428046,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "smwt|srm": {
+   "published_raw": "-0.85",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.845635,
+     "reproduced_unrounded": -0.845635,
+     "reproduced": -0.85,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.8456353623239639,
+     "reproduced_unrounded": -0.8456353623239639,
+     "reproduced": -0.85,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.8456353623239639,
+     "reproduced_unrounded": -0.8456353623239639,
+     "reproduced": -0.85,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.8456353623239639,
+     "reproduced_unrounded": -0.8456353623239639,
+     "reproduced": -0.85,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.8456353623239639,
+    "reproduced_unrounded": -0.8456353623239639,
+    "reproduced": -0.85,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 4.26263486860864e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tug|med_b": {
+   "published_raw": "0.5",
+   "metric_type": "median",
+   "unit": "m/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.48,
+     "reproduced_unrounded": 0.48,
+     "reproduced": 0.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 0.48,
+     "reproduced_unrounded": 0.48,
+     "reproduced": 0.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 0.48,
+     "reproduced_unrounded": 0.48,
+     "reproduced": 0.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.48,
+     "reproduced_unrounded": 0.48,
+     "reproduced": 0.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.48,
+    "reproduced_unrounded": 0.48,
+    "reproduced": 0.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tug|med_f": {
+   "published_raw": "0.3",
+   "metric_type": "median",
+   "unit": "m/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.34,
+     "reproduced_unrounded": 0.34,
+     "reproduced": 0.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 0.33999999999999997,
+     "reproduced_unrounded": 0.33999999999999997,
+     "reproduced": 0.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 0.33999999999999997,
+     "reproduced_unrounded": 0.33999999999999997,
+     "reproduced": 0.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.33999999999999997,
+     "reproduced_unrounded": 0.33999999999999997,
+     "reproduced": 0.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.33999999999999997,
+    "reproduced_unrounded": 0.33999999999999997,
+    "reproduced": 0.3,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.8503717077085944e-14,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tug|p": {
+   "published_raw": "0.007",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.012367,
+     "reproduced_unrounded": 0.012367,
+     "reproduced": 0.012,
+     "grade": "E",
+     "deviation_pct": 71.42857142857143,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.012366607551013901,
+     "reproduced_unrounded": 0.012366607551013901,
+     "reproduced": 0.012,
+     "grade": "E",
+     "deviation_pct": 71.42857142857143,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.012366607551013901,
+     "reproduced_unrounded": 0.012366607551013901,
+     "reproduced": 0.012,
+     "grade": "E",
+     "deviation_pct": 71.42857142857143,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.012366607551013901,
+     "reproduced_unrounded": 0.012366607551013901,
+     "reproduced": 0.012,
+     "grade": "E",
+     "deviation_pct": 71.42857142857143,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.012366607551013901,
+    "reproduced_unrounded": 0.012366607551013901,
+    "reproduced": 0.012,
+    "grade": "E",
+    "deviation_pct": 71.42857142857143,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.005606414087120013,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "tug|srm": {
+   "published_raw": "-0.48",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.488078,
+     "reproduced_unrounded": -0.488078,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 2.0833333333333353,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.4880776832449791,
+     "reproduced_unrounded": -0.4880776832449791,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 2.0833333333333353,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.4880776832449791,
+     "reproduced_unrounded": -0.4880776832449791,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 2.0833333333333353,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.4880776832449791,
+     "reproduced_unrounded": -0.4880776832449791,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 2.0833333333333353,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.4880776832449791,
+    "reproduced_unrounded": -0.4880776832449791,
+    "reproduced": -0.49,
+    "grade": "B",
+    "deviation_pct": 2.0833333333333353,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.59906293614306e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "tmwr|med_b": {
+   "published_raw": "1.2",
+   "metric_type": "median",
+   "unit": "m/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.205,
+     "reproduced_unrounded": 1.205,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 1.205,
+     "reproduced_unrounded": 1.205,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 1.205,
+     "reproduced_unrounded": 1.205,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.205,
+     "reproduced_unrounded": 1.205,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.205,
+    "reproduced_unrounded": 1.205,
+    "reproduced": 1.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tmwr|med_f": {
+   "published_raw": "0.8",
+   "metric_type": "median",
+   "unit": "m/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.75,
+     "reproduced_unrounded": 0.75,
+     "reproduced": 0.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 0.75,
+     "reproduced_unrounded": 0.75,
+     "reproduced": 0.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 0.75,
+     "reproduced_unrounded": 0.75,
+     "reproduced": 0.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.75,
+     "reproduced_unrounded": 0.75,
+     "reproduced": 0.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.75,
+    "reproduced_unrounded": 0.75,
+    "reproduced": 0.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tmwr|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.000334,
+     "reproduced_unrounded": 0.000334,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.0003339221696229232,
+     "reproduced_unrounded": 0.0003339221696229232,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.0003339221696229232,
+     "reproduced_unrounded": 0.0003339221696229232,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0003339221696229232,
+     "reproduced_unrounded": 0.0003339221696229232,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0003339221696229232,
+    "reproduced_unrounded": 0.0003339221696229232,
+    "reproduced": 0.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true,
+    "bound_satisfied": true
+   },
+   "run_spread_pct": 0.007783037707679782,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "tmwr|srm": {
+   "published_raw": "-1.02",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -1.157163,
+     "reproduced_unrounded": -1.157163,
+     "reproduced": -1.16,
+     "grade": "B",
+     "deviation_pct": 13.725490196078422,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -1.1571631687324777,
+     "reproduced_unrounded": -1.1571631687324777,
+     "reproduced": -1.16,
+     "grade": "B",
+     "deviation_pct": 13.725490196078422,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -1.1571631687324777,
+     "reproduced_unrounded": -1.1571631687324777,
+     "reproduced": -1.16,
+     "grade": "B",
+     "deviation_pct": 13.725490196078422,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -1.1571631687324777,
+     "reproduced_unrounded": -1.1571631687324777,
+     "reproduced": -1.16,
+     "grade": "B",
+     "deviation_pct": 13.725490196078422,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.1571631687324777,
+    "reproduced_unrounded": -1.1571631687324777,
+    "reproduced": -1.16,
+    "grade": "B",
+    "deviation_pct": 13.725490196078422,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.6542399781148925e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "stair_up|med_b": {
+   "published_raw": "0.7",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.685,
+     "reproduced_unrounded": 0.685,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 0.685,
+     "reproduced_unrounded": 0.685,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 0.685,
+     "reproduced_unrounded": 0.685,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.685,
+     "reproduced_unrounded": 0.685,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.685,
+    "reproduced_unrounded": 0.685,
+    "reproduced": 0.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "stair_up|med_f": {
+   "published_raw": "0.4",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.43,
+     "reproduced_unrounded": 0.43,
+     "reproduced": 0.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 0.43,
+     "reproduced_unrounded": 0.43,
+     "reproduced": 0.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 0.43,
+     "reproduced_unrounded": 0.43,
+     "reproduced": 0.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.43,
+     "reproduced_unrounded": 0.43,
+     "reproduced": 0.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.43,
+    "reproduced_unrounded": 0.43,
+    "reproduced": 0.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "stair_up|p": {
+   "published_raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.001471,
+     "reproduced_unrounded": 0.001471,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.0014710997703089304,
+     "reproduced_unrounded": 0.0014710997703089304,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.0014710997703089304,
+     "reproduced_unrounded": 0.0014710997703089304,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0014710997703089304,
+     "reproduced_unrounded": 0.0014710997703089304,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0014710997703089304,
+    "reproduced_unrounded": 0.0014710997703089304,
+    "reproduced": 0.001,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.00997703089302901,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "stair_up|srm": {
+   "published_raw": "-0.46",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.474551,
+     "reproduced_unrounded": -0.474551,
+     "reproduced": -0.47,
+     "grade": "B",
+     "deviation_pct": 2.1739130434782505,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.47455123971894464,
+     "reproduced_unrounded": -0.47455123971894464,
+     "reproduced": -0.47,
+     "grade": "B",
+     "deviation_pct": 2.1739130434782505,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.47455123971894464,
+     "reproduced_unrounded": -0.47455123971894464,
+     "reproduced": -0.47,
+     "grade": "B",
+     "deviation_pct": 2.1739130434782505,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.47455123971894464,
+     "reproduced_unrounded": -0.47455123971894464,
+     "reproduced": -0.47,
+     "grade": "B",
+     "deviation_pct": 2.1739130434782505,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.47455123971894464,
+    "reproduced_unrounded": -0.47455123971894464,
+    "reproduced": -0.47,
+    "grade": "B",
+    "deviation_pct": 2.1739130434782505,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.211281405196381e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "stair_down|med_b": {
+   "published_raw": "1.2",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.17,
+     "reproduced_unrounded": 1.17,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 1.17,
+     "reproduced_unrounded": 1.17,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 1.17,
+     "reproduced_unrounded": 1.17,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.17,
+     "reproduced_unrounded": 1.17,
+     "reproduced": 1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.17,
+    "reproduced_unrounded": 1.17,
+    "reproduced": 1.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "stair_down|med_f": {
+   "published_raw": "0.4",
+   "metric_type": "median",
+   "unit": "steps/s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.52,
+     "reproduced_unrounded": 0.52,
+     "reproduced": 0.5,
+     "grade": "C",
+     "deviation_pct": 24.999999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 0.52,
+     "reproduced_unrounded": 0.52,
+     "reproduced": 0.5,
+     "grade": "C",
+     "deviation_pct": 24.999999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 0.52,
+     "reproduced_unrounded": 0.52,
+     "reproduced": 0.5,
+     "grade": "C",
+     "deviation_pct": 24.999999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.52,
+     "reproduced_unrounded": 0.52,
+     "reproduced": 0.5,
+     "grade": "C",
+     "deviation_pct": 24.999999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.52,
+    "reproduced_unrounded": 0.52,
+    "reproduced": 0.5,
+    "grade": "C",
+    "deviation_pct": 24.999999999999993,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C",
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "stair_down|p": {
+   "published_raw": "0.008",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.007066,
+     "reproduced_unrounded": 0.007066,
+     "reproduced": 0.007,
+     "grade": "B",
+     "deviation_pct": 12.5,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.007065994730893274,
+     "reproduced_unrounded": 0.007065994730893274,
+     "reproduced": 0.007,
+     "grade": "B",
+     "deviation_pct": 12.5,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.007065994730893274,
+     "reproduced_unrounded": 0.007065994730893274,
+     "reproduced": 0.007,
+     "grade": "B",
+     "deviation_pct": 12.5,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.007065994730893274,
+     "reproduced_unrounded": 0.007065994730893274,
+     "reproduced": 0.007,
+     "grade": "B",
+     "deviation_pct": 12.5,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.007065994730893274,
+    "reproduced_unrounded": 0.007065994730893274,
+    "reproduced": 0.007,
+    "grade": "B",
+    "deviation_pct": 12.5,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.586383408070315e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "stair_down|srm": {
+   "published_raw": "-0.47",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.485112,
+     "reproduced_unrounded": -0.485112,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 4.255319148936175,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1)"
+    },
+    "r2": {
+     "reproduced_raw": -0.48511158706912255,
+     "reproduced_unrounded": -0.48511158706912255,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 4.255319148936175,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": -0.48511158706912255,
+     "reproduced_unrounded": -0.48511158706912255,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 4.255319148936175,
+     "sign_match": true,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": -0.48511158706912255,
+     "reproduced_unrounded": -0.48511158706912255,
+     "reproduced": -0.49,
+     "grade": "B",
+     "deviation_pct": 4.255319148936175,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.48511158706912255,
+    "reproduced_unrounded": -0.48511158706912255,
+    "reproduced": -0.49,
+    "grade": "B",
+    "deviation_pct": 4.255319148936175,
+    "sign_match": true
+   },
+   "run_spread_pct": 8.78576334969957e-05,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "chair|med_b": {
+   "published_raw": "2.6",
+   "metric_type": "median",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 2.65,
+     "reproduced_unrounded": 2.65,
+     "reproduced": 2.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of baseline over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 2.6500000000000004,
+     "reproduced_unrounded": 2.6500000000000004,
+     "reproduced": 2.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (baseline)"
+    },
+    "r3": {
+     "reproduced_raw": 2.6500000000000004,
+     "reproduced_unrounded": 2.6500000000000004,
+     "reproduced": 2.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants (unable = 10000 s)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.6500000000000004,
+     "reproduced_unrounded": 2.6500000000000004,
+     "reproduced": 2.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.6500000000000004,
+    "reproduced_unrounded": 2.6500000000000004,
+    "reproduced": 2.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.7080354225002408e-14,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "chair|med_f": {
+   "published_raw": "9.8",
+   "metric_type": "median",
+   "unit": "s",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.8,
+     "reproduced_unrounded": 7.8,
+     "reproduced": 7.8,
+     "grade": "C",
+     "deviation_pct": 20.408163265306133,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute_row: np.median of follow-up over paired cases"
+    },
+    "r2": {
+     "reproduced_raw": 7.800000000000001,
+     "reproduced_unrounded": 7.800000000000001,
+     "reproduced": 7.8,
+     "grade": "C",
+     "deviation_pct": 20.408163265306133,
+     "sign_match": true,
+     "stars": "",
+     "source": "main: np.median over paired cases (follow-up)"
+    },
+    "r3": {
+     "reproduced_raw": 7.800000000000001,
+     "reproduced_unrounded": 7.800000000000001,
+     "reproduced": 7.8,
+     "grade": "C",
+     "deviation_pct": 20.408163265306133,
+     "sign_match": true,
+     "stars": "",
+     "source": "compute(): np.median over paired participants (unable = 10000 s)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.800000000000001,
+     "reproduced_unrounded": 7.800000000000001,
+     "reproduced": 7.8,
+     "grade": "C",
+     "deviation_pct": 20.408163265306133,
+     "sign_match": true,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.800000000000001,
+    "reproduced_unrounded": 7.800000000000001,
+    "reproduced": 7.8,
+    "grade": "C",
+    "deviation_pct": 20.408163265306133,
+    "sign_match": true
+   },
+   "run_spread_pct": 9.063045098980868e-15,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C",
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "chair|p": {
+   "published_raw": "0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": "a",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.000509,
+     "reproduced_unrounded": 0.000509,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_p: scipy.stats.wilcoxon approx, zero_method=wilcox, no continuity correction"
+    },
+    "r2": {
+     "reproduced_raw": 0.0005089001620433079,
+     "reproduced_unrounded": 0.0005089001620433079,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss (scipy.stats.wilcoxon approx, no continuity corr.)"
+    },
+    "r3": {
+     "reproduced_raw": 0.0005089001620433079,
+     "reproduced_unrounded": 0.0005089001620433079,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction (unable = 10000 s)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.0005089001620433079,
+     "reproduced_unrounded": 0.0005089001620433079,
+     "reproduced": 0.001,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "a",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0005089001620433079,
+    "reproduced_unrounded": 0.0005089001620433079,
+    "reproduced": 0.001,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.009983795669213976,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "chair|srm": {
+   "published_raw": "N/A",
+   "metric_type": "SRM",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.585058,
+     "stars": "",
+     "source": "srm: mean(F-B)/sd(F-B, ddof=1) on pairs where both chair-rise times are finite (10,000 s excluded)"
+    },
+    "r2": {
+     "reproduced_raw": 0.7387722059474988,
+     "stars": "",
+     "source": "srm: mean(F-B)/SD(F-B, ddof=1)"
+    },
+    "r3": {
+     "reproduced_raw": 0.5850581328022784,
+     "stars": "",
+     "source": "srm(): mean(F-B)/SD(F-B, ddof=1) over pairs with both chair-rise times observed"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.5850581328022784,
+     "stars": "",
+     "source": "section: paired-row loop (median/wilcoxon/SRM)"
+    }
+   }
+  }
+ }
+}

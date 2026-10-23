@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reproducibility Check</title>
+<style>
+:root {
+  --paper: #f7f8f9; --sheet: #ffffff; --ink: #1b2329; --ink-2: #4a5761; --ink-3: #74828c;
+  --rule: #d9dfe3; --rule-2: #eceff1; --accent: #1d5a73; --accent-soft: #e3eef3;
+  --gap: #a35d00; --gap-soft: #fdf3e2;
+  --g-a: #cfe9d4; --g-a-ink: #154d24; --g-b: #e6f3d6; --g-b-ink: #3a5a12;
+  --opus: #1d5a73; --sonnet: #8a4b9c;
+  --serif: "Iowan Old Style", "Charter", "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+    --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+    --gap: #f0b45c; --gap-soft: #33280f;
+    --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+    --opus: #7cc0d8; --sonnet: #d2a3e0; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12171b; --sheet: #192026; --ink: #e4e9ec; --ink-2: #b2bec6; --ink-3: #8996a0;
+  --rule: #2f3a42; --rule-2: #232c33; --accent: #7cc0d8; --accent-soft: #1d323c;
+  --gap: #f0b45c; --gap-soft: #33280f;
+  --g-a: #1e4a2a; --g-a-ink: #bfe8c9; --g-b: #2e4319; --g-b-ink: #d5ebb6;
+  --opus: #7cc0d8; --sonnet: #d2a3e0; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--sans); margin: 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { background: var(--sheet); border-bottom: 1px solid var(--rule); position: sticky; top: 0; z-index: 5; }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding-block: 10px; }
+.brand { font: 600 15px/1.2 var(--serif); }
+.brand span { color: var(--ink-3); font: 400 13px var(--sans); margin-left: 8px; }
+nav.jump { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.jump a { font: 500 14px var(--sans); color: var(--ink-2); text-decoration: none; border-radius: 6px; padding: 6px 12px; }
+nav.jump a:hover { background: var(--rule-2); }
+main { padding-block: 28px 64px; }
+section.band { margin-top: 44px; scroll-margin-top: 64px; }
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(24px, 2.8vw, 32px); line-height: 1.2; }
+h2 { font-size: 22px; line-height: 1.3; }
+h3 { font-size: 16px; line-height: 1.35; }
+.eyebrow { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); }
+.prose { max-width: 72ch; }
+.prose p { margin: .6em 0; }
+.muted { color: var(--ink-3); }
+.small { font-size: 13px; }
+.num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.sheet { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 20px; }
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 18px; }
+.steps > div { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
+.steps b { display: block; font-family: var(--serif); margin-bottom: 4px; }
+.pub { margin-top: 26px; }
+.pub > .eyebrow { margin-bottom: 10px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; }
+.cards > * { min-width: 0; }
+a.card { display: flex; flex-direction: column; gap: 10px; color: inherit; text-decoration: none; background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 18px 20px; transition: border-color .15s, box-shadow .15s; }
+a.card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(0,0,0,.06); }
+a.card h3 { color: var(--ink); }
+.card .cite { color: var(--ink-2); font-size: 13px; }
+.card .tbl { color: var(--ink-3); font-size: 13px; }
+.card .go { margin-top: auto; color: var(--accent); font-weight: 600; font-size: 14px; }
+.res { display: grid; grid-template-columns: 92px 1fr auto; gap: 6px 10px; align-items: center; font-size: 13px; }
+.res .who { font-weight: 600; }
+.res .who.o { color: var(--opus); } .res .who.s { color: var(--sonnet); }
+.bar { height: 10px; border-radius: 5px; background: var(--rule-2); overflow: hidden; display: flex; }
+.bar i { display: block; height: 100%; }
+.bar .ba { background: var(--g-a-ink); opacity: .85; }
+.bar .bb { background: var(--g-a-ink); opacity: .35; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--ink-3); margin-top: 10px; }
+.legend i { display: inline-block; width: 12px; height: 10px; border-radius: 3px; background: var(--g-a-ink); vertical-align: -1px; margin-right: 5px; }
+.scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--rule-2); }
+thead th { font: 600 12px var(--sans); text-transform: uppercase; letter-spacing: .05em; color: var(--ink-3); border-bottom: 1px solid var(--rule); white-space: nowrap; }
+td.r, th.r { text-align: right; }
+th.o, td.o { color: var(--opus); } th.s, td.s { color: var(--sonnet); }
+tfoot td { font-weight: 600; border-top: 1px solid var(--rule); border-bottom: 0; }
+tr.grp td { background: var(--rule-2); font-weight: 600; font-family: var(--serif); }
+tr.grp td a { font-family: var(--sans); font-weight: 500; font-size: 13px; margin-left: 8px; }
+tr.diff td:first-child { box-shadow: inset 3px 0 0 var(--gap); }
+tr.diff td.o, tr.diff td.s { background: var(--gap-soft); }
+.chip { display: inline-block; font: 600 11px var(--sans); border-radius: 4px; padding: 1px 6px; margin-left: 6px; vertical-align: 1px; }
+.chip.diff { background: var(--gap-soft); color: var(--gap); border: 1px solid var(--gap); }
+.chip.same { background: var(--rule-2); color: var(--ink-3); }
+.ctl { display: flex; gap: 8px 16px; align-items: center; flex-wrap: wrap; margin: 16px 0 12px; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: 500 13px var(--sans); background: var(--sheet); color: var(--ink-2); border: 0; padding: 6px 12px; cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 18px 0; }
+.kpi { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; }
+.kpi .v { font: 600 26px/1.2 var(--serif); }
+.kpi .l { font-size: 13px; color: var(--ink-2); }
+.callout { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 12px 16px; border-radius: 0 6px 6px 0; }
+.choices td { min-width: 150px; }
+.choices td:first-child { min-width: 200px; }
+.choices .eff { color: var(--ink-3); font-size: 13px; }
+ul.notes { padding-left: 20px; margin: 8px 0; }
+ul.notes li { margin: 4px 0; }
+@media (max-width: 600px) { .res { grid-template-columns: 78px 1fr; } .res .num.t { grid-column: 2; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">Reproducibility Check<span>Agentic reproduction of published results tables</span></div>
+  <nav class="jump"><a href="#papers">Papers</a><a href="#models">Opus vs Sonnet</a><a href="#cost">Cost</a></nav>
+</div></header>
+<main class="wrap">
+  <div class="prose">
+    <div class="eyebrow">Six papers · three publishers</div>
+    <h1>Can an AI rebuild a paper's results table from its Methods and its data alone?</h1>
+    <p>The AI gets only a paper's Methods and the original data the authors deposited, never their code or their results. It rebuilds one results table, and a fixed script grades every number against the published one. Where a number misses, we find out why: usually the Methods left a choice unsaid.</p>
+  </div>
+  <div class="steps">
+    <div><b>1. Read the Methods</b>The Methods are turned into a list of steps, each quoting the paper's own sentence, with the places the paper leaves open marked.</div>
+    <div><b>2. Rebuild blind</b>An AI model works in a closed folder with that list, a blank copy of the table and the authors' data. It writes code, runs it and records every choice it had to make.</div>
+    <div><b>3. Grade every cell</b>A fixed script compares each number with the published one: within 2%, within 20%, or further off.</div>
+    <div><b>4. Explain the misses</b>A second pass tests each miss against the data and names the cause, and the sentence the Methods would need.</div>
+  </div>
+
+  <section class="band" id="papers">
+    <h2>The papers</h2>
+    <p class="muted small" style="margin:.3em 0 0">Two papers per publisher, chosen because the authors deposited their data openly. Click a paper for its full check: the rebuilt table, every graded number and why each miss happened.</p>
+    <div id="pubs"></div>
+  </section>
+
+  <section class="band" id="models">
+    <h2>Claude Opus 5.5 vs Claude Sonnet 5.5</h2>
+    <div class="prose"><p>Each paper was rebuilt by both models from exactly the same inputs. Below: how close each got, then every open choice the Methods left and what each model decided.</p></div>
+    <div class="kpis" id="kpis"></div>
+    <div class="scroll sheet" style="padding:8px 12px"><table id="sum"></table></div>
+    <p class="muted small" id="sumnote"></p>
+
+    <h3 style="margin-top:32px">Every choice the models had to make</h3>
+    <div class="prose"><p class="small muted" style="margin:.3em 0 0">Each row is a point where the Methods left something open. The models wrote down each choice as they worked; the authors' column comes from the follow-up analysis of the misses. Highlighted rows are where the two models chose differently.</p></div>
+    <div class="ctl">
+      <div class="seg" id="fdiff"><button data-v="all" aria-pressed="true">All choices</button><button data-v="diff" aria-pressed="false">Only where they differ</button></div>
+      <span class="small muted" id="ccount"></span>
+    </div>
+    <div class="scroll sheet" style="padding:8px 12px"><table class="choices" id="choices"></table></div>
+  </section>
+
+  <section class="band" id="cost">
+    <h2>Cost</h2>
+    <div class="prose" id="costtext"></div>
+  </section>
+</main>
+<script>
+const DATA = {"papers": [{"publisher": "Elsevier", "pid": "A", "href": "elsevier/docs/index.html#A", "title": "Intracorporeal vs. extracorporeal open and closed knot tying techniques in laparoscopy: A randomized, controlled study", "authors": "Labrosse KB, et al.", "journal": "Heliyon", "year": "2024; 10: e25178", "field": "Surgical education (randomised trial)", "doi": "10.1016/j.heliyon.2024.e25178", "table": "Table 1. Comparison of different knot tying techniques by run time, knot strength and knot-spread ability.", "n": 72, "opus": [{"a": 29, "ab": 54, "dist": {"A": 29, "B": 25, "C": 13, "D": 3, "E": 2, "F": 0}, "stars": [0, 0]}], "sonnet": {"a": 51, "ab": 68, "dist": {"A": 51, "B": 17, "C": 1, "D": 1, "E": 2, "F": 0}, "stars": [0, 0]}, "cost": {"opus": 0.6456, "opus_runs": [0.6456], "sonnet": 0.1988}, "choices": [{"topic": "Which average is printed in brackets next to each effect?", "methods_item": "S1", "opus": "Model-based averages (geometric means; for mistakes, predicted chance of any mistake), 5% to 45% below printed values.", "sonnet": "Plain average over all valid knots; mistakes as average count per knot. Matches nearly all printed values.", "authors": "Plain average per run first, then average of the three runs; for mistakes the average count, not the share.", "same": false, "matters": "Opus: 18 cells (time, knot strength and mistake averages). Sonnet: 2 cells (mistake averages).", "evidence": "eval/story.json (cause c3); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Drop a recorded zero knot-spread value?", "methods_item": "M3", "opus": "Treated the 0 mm spread as a failed knot and set it to missing (499 values instead of 500).", "sonnet": "Kept it (500 spread values) in the spread model.", "authors": "Kept the zero spread value in the spread model.", "same": false, "matters": "Opus: 7 spread cells (effects, ranges, one p-value). Sonnet: none from this choice.", "evidence": "eval/story.json (cause c4); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How are confidence ranges and p-values worked out?", "methods_item": "S7", "opus": "Linear models: t reference with about 440 degrees of freedom. Mistakes model: normal-curve (Wald z) ranges.", "sonnet": "Normal-curve (Wald z, 1.96) ranges and p-values for the linear models and the mistakes model.", "authors": "Not known; a t reference of about 437 degrees of freedom closes one knot-strength p-value gap.", "same": false, "matters": "Not established as a cause of any missed cell for either model.", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md; eval/story.json (cause c2 evidence)"}, {"topic": "Estimation method for the mistakes (yes/no) model?", "methods_item": "S6", "opus": "Laplace approximation (the R glmer default), random intercept per participant.", "sonnet": "15-point adaptive quadrature, own implementation because the usual R package was unavailable.", "authors": "Laplace method (R glmer default); their numbers match it exactly.", "same": false, "matters": "No cells attributed. Story notes 15 points gives odds ratio 2.312 instead of 2.294 (Sonnet).", "evidence": "eval/story.json (notes); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Adjust for the order in which techniques were done?", "methods_item": "S2, S3, S4", "opus": "No order term: technique plus run, with a random intercept per participant, for all four outcomes.", "sonnet": "Same: technique plus run, random intercept per participant, no order term.", "authors": "Added each technique's position in the sequence (first, second, third) as an extra factor in every mixed model.", "same": true, "matters": "Opus: 12 cells, Sonnet: 13 cells, mainly mistake odds ratios and ranges, plus one time p-value.", "evidence": "eval/story.json (cause c1); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Handle the one knot-strength value of exactly zero?", "methods_item": "S5", "opus": "Dropped it from the knot-strength model, since the log of zero is undefined.", "sonnet": "Dropped it from the knot-strength model only.", "authors": "Replaced the 0 with 0.1 mm (the measuring step) and kept the knot.", "same": true, "matters": "Both models: 6 knot-strength cells (effects, one upper limit, p-values).", "evidence": "eval/story.json (cause c2); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How are runs with missing measurements handled?", "methods_item": "M3", "opus": "Each outcome uses its own available runs; participants stay in the model with the runs they have.", "sonnet": "Same: each outcome on its own available runs; participants with missing runs stay in.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Include a technique-by-run interaction in Table 1 model?", "methods_item": "S2, S3, S4", "opus": "No interaction: technique plus run with random intercept per participant, since the Methods add it only within runs.", "sonnet": "Same: no interaction, random intercept per subject.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Which log base for the log-transformed outcomes?", "methods_item": "S5", "opus": "Natural log; ratios and p-values do not depend on the base.", "sonnet": "Natural log, back-transformed with exp.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}]}, {"publisher": "Elsevier", "pid": "B", "href": "elsevier/docs/index.html#B", "title": "Equations for estimating binary mixture toxicity: Methyl-2-chloroacetoacetate-containing combinations", "authors": "Dawson DA, Schultz TW", "journal": "Toxicology Reports", "year": "2025; 14: 101939", "field": "Toxicology (curve fitting)", "doi": "10.1016/j.toxrep.2025.101939", "table": "Table 2. Summary statistics for methyl-2-chloroacetoacetate (M2CA) tested alone (n = 31).", "n": 95, "opus": [{"a": 91, "ab": 95, "dist": {"A": 91, "B": 4, "C": 0, "D": 0, "E": 0, "F": 0}, "stars": [0, 0]}], "sonnet": {"a": 91, "ab": 95, "dist": {"A": 91, "B": 4, "C": 0, "D": 0, "E": 0, "F": 0}, "stars": [0, 0]}, "cost": {"opus": 0.3633, "opus_runs": [0.3633], "sonnet": 0.1839}, "choices": [{"topic": "Round each test's values before summarising?", "methods_item": "S6", "opus": "No: summaries taken from unrounded fitted values.", "sonnet": "No: summaries taken from unrounded fitted values.", "authors": "Evidently used per-test values rounded to the printed precision before summarising.", "same": true, "matters": "Both models: 2 cells (range of s at 30 min, CV of r2 at 45 min), last digit flips.", "evidence": "eval/story.json (cause c3)"}, {"topic": "Which 31st test counts as M2CA alone?", "methods_item": "M3", "opus": "Test 1 (A alone) of all 30 combinations plus the sham's B-alone test; rejected the sham's mixture test.", "sonnet": "Same 31 tests; rejected using the sham's mixture test or dropping to 30.", "authors": "Same 31 tests; the authors' supplement confirms it.", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md; eval/story.json (notes)"}, {"topic": "Fit duplicate readings separately or averaged first?", "methods_item": "S1", "opus": "Both duplicates fitted as separate points, unweighted least squares (14 points per curve).", "sonnet": "Both duplicates fitted as separate points, unweighted least squares.", "authors": "Not known; model fits matched authors' deposited values to 4 decimals except two 45-minute curves.", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md; eval/story.json (notes)"}, {"topic": "Which exact curve equation was fitted?", "methods_item": "S2", "opus": "Extractor's reading: five-parameter logistic, maximum 100, parameterised by EC50; EC25 and EC75 solved from the curve.", "sonnet": "Same equation as given (maximum fixed at 100); EC values solved from the fitted curve.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md; extract/methods.json"}, {"topic": "Starting values and limits for the curve fits?", "methods_item": "S1", "opus": "Automatic starts with a multistart grid; Hill slope limited to 0.001 to 50 for stability only.", "sonnet": "Grid of starting values, best fit kept; own limits on EC50, s and Hill slope (0.05 to 50).", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "What does 'slope' and r2 mean?", "methods_item": "S4", "opus": "Slope is the Hill slope parameter; r2 = 1 - residual/total squares over all replicate points.", "sonnet": "Slope is the Hill slope; r2 over all raw replicate points around their mean.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Spread measures: SD denominator and meaning of range?", "methods_item": "S6", "opus": "SD with n - 1; CV = SD/mean x 100; range as one number, maximum minus minimum.", "sonnet": "Same: SD with n - 1, range as maximum minus minimum.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}]}, {"publisher": "Springer Nature", "pid": "A", "href": "springer-nature/docs/index.html#A", "title": "Comparison between high-flow nasal cannula (HFNC) therapy and noninvasive ventilation (NIV) in children with acute respiratory failure by bronchiolitis: a randomized controlled trial", "authors": "Santos ACEZ, Caiado CM, Lopes AGD, et al.", "journal": "BMC Pediatrics", "year": "2024; 24: 595", "field": "Paediatric intensive care (randomised trial)", "doi": "10.1186/s12887-024-05058-6", "table": "Table 1. Demographic and clinical characteristics", "n": 101, "opus": [{"a": 75, "ab": 88, "dist": {"A": 75, "B": 13, "C": 9, "D": 1, "E": 3, "F": 0}, "stars": [0, 0]}], "sonnet": {"a": 74, "ab": 87, "dist": {"A": 74, "B": 13, "C": 10, "D": 1, "E": 3, "F": 0}, "stars": [0, 0]}, "cost": {"opus": 0.2852, "opus_runs": [0.2852], "sonnet": 0.1244}, "choices": [{"topic": "Chi-square for antibiotics: how are missing answers treated?", "methods_item": "M2", "opus": "Left out patients with no recorded value from the test: p = 0.156.", "sonnet": "Counted missing as 'no' in the test: p = 0.128.", "authors": "Not known; the printed p<0.001 cannot be produced by standard tests.", "same": false, "matters": "Both models miss the antibiotic p-value (1 cell each); the printed value looks wrong.", "evidence": "eval/story.json (cause c2); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How to read a duration typed as '17h'?", "methods_item": "", "opus": "Read it as 17 hours, keeping all 126 non-invasive ventilation babies.", "sonnet": "Treated it as unreadable and dropped that baby (125 babies).", "authors": "Kept the value as 17 hours, judging by the published p-value.", "same": false, "matters": "Sonnet: duration p-value (0.0004 vs 0.0003 published). Opus: none.", "evidence": "eval/story.json (cause c5, model_note); sandbox/r_opus/out/assumptions.md"}, {"topic": "How are babies with several viruses counted?", "methods_item": "M3", "opus": "A baby counts for every virus named in its result; blank results count as not positive.", "sonnet": "Same: any mention counts, co-infections count in each virus; blank counts as negative.", "authors": "Not known; printed counts cannot be produced from the deposited virus results by any rule.", "same": true, "matters": "Both models: 12 virus count cells each; the table disagrees with the deposited data.", "evidence": "eval/story.json (cause c3); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Round figures normally, or cut extra digits off?", "methods_item": "", "opus": "Reported exact values, which round up (38.9, 1.75, 0.495, 3.75).", "sonnet": "Same: normal rounding (38.9, 1.75, 0.495, 3.75).", "authors": "Cut the extra digits off: 38.9 became 38, 1.75 became 1.7, 0.495 became 0.49, 3.75 became 3.7.", "same": true, "matters": "Both models: 4 cells (antibiotic percent, PIM 2 SD and p-value, ventilation days lower quartile).", "evidence": "eval/story.json (cause c4)"}, {"topic": "Chi-square test with or without Yates' correction?", "methods_item": "S1", "opus": "With Yates' correction (R default for 2x2 tables).", "sonnet": "With Yates' correction (R default for 2x2 tables).", "authors": "Plain chi-square test without Yates' correction.", "same": true, "matters": "Both models: 3 p-values (female, previous wheezing, previous respiratory hospitalisation).", "evidence": "eval/story.json (cause c1); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How is the 'initial' breathing score defined?", "methods_item": "M3", "opus": "Initial FiO2, WDF and SpO2 are the 0 hour readings.", "sonnet": "Initial values are the 0 hour columns.", "authors": "Not known", "same": true, "matters": "Both models miss 3 initial WDF cells (two SDs, p-value); cause unknown.", "evidence": "eval/story.json (cause c7); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How are quartiles (IQR) calculated?", "methods_item": "S2", "opus": "R default (type 7, linear interpolation).", "sonnet": "R default (type 7, linear interpolation); SD with n - 1.", "authors": "Not known", "same": true, "matters": "Both models miss 3 duration cells; cause unknown, no quartile method tried fits.", "evidence": "eval/story.json (cause c6); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Which version of the Wilcoxon/Mann-Whitney test?", "methods_item": "S1", "opus": "Normal approximation with continuity correction (R default with ties); mean (SD) rows tested the same way.", "sonnet": "Same: asymptotic with continuity correction; mean (SD) rows use Wilcoxon.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Percentages: whole group or patients with a value?", "methods_item": "M2", "opus": "Whole randomised group (126) as denominator.", "sonnet": "Whole group (126) as denominator.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How is 'sedated' defined?", "methods_item": "M3", "opus": "Sedated when the sedation-days field holds a number; 'nc' (empty) means not sedated.", "sonnet": "Sedated when sedation days has a numeric value; 'nc' means not sedated.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Duration rows: include patients who never had it?", "methods_item": "M3", "opus": "Summarised only patients with a numeric value; 'nc' and missing excluded, not coded as 0 days.", "sonnet": "Same: numeric values only; rejected treating 'nc' as 0.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}]}, {"publisher": "Springer Nature", "pid": "B", "href": "springer-nature/docs/index.html#B", "title": "Varied effects of tobacco smoke and e-cigarette vapor suggest that nicotine does not affect endothelium-dependent relaxation", "authors": "Wölkart G, Kollau A, Russwurm M, et al.", "journal": "Scientific Reports", "year": "2023; 13: 15833", "field": "Vascular pharmacology (curve fitting)", "doi": "10.1038/s41598-023-42750-6", "table": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO.", "n": 120, "opus": [{"a": 63, "ab": 112, "dist": {"A": 63, "B": 49, "C": 5, "D": 1, "E": 2, "F": 0}, "stars": [24, 24]}], "sonnet": {"a": 67, "ab": 110, "dist": {"A": 67, "B": 43, "C": 3, "D": 0, "E": 7, "F": 0}, "stars": [22, 24]}, "cost": {"opus": 0.3853, "opus_runs": [0.3853], "sonnet": 0.1252}, "choices": [{"topic": "Fit flat curves with no plateau (CSE 1:3 ACh)?", "methods_item": "S1", "opus": "Refitted the two runaway curves with slope fixed at 1: Emax 16%, EC50 599 nM.", "sonnet": "Capped Emax at 100%; one curve still ran to the cap: Emax 36%, EC50 3003 nM.", "authors": "4-parameter fit for 4 of 5 experiments; experiment 2 used an unstated limit or starting value.", "same": false, "matters": "Both models: 5 CSE 1:3 acetylcholine cells. Opus graded B to D, Sonnet worse.", "evidence": "eval/story.json (cause c3, model_note); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Fix Emax when a fitted curve tops 100%?", "methods_item": "S1", "opus": "Refitted those curves with the slope fixed at 1, which shifted their EC50 and Emax.", "sonnet": "Capped Emax at 100% during the fit, close to what the authors did.", "authors": "Kept the free fit and reported Emax as 100%.", "same": false, "matters": "Opus: 4 DEA/NO cells (EC50, SEM, limits for two heated tobacco rows). Sonnet: none.", "evidence": "eval/story.json (cause c2); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Which test gives the significance stars?", "methods_item": "S4", "opus": "ANOVA then Dunnett vs each series' control, on Emax and log EC50; stars on Emax and EC50 cells.", "sonnet": "ANOVA/Dunnett on per-experiment Emax only; EC50 not tested, stars on Emax only.", "authors": "Not known beyond the caption (ANOVA with Dunnett vs control); Dunnett on their Emax rows gives the published stars.", "same": false, "matters": "Sonnet missed 2 stars (CSE 1:3, CSE 1:20) as its runaway fit widened spread. Opus matched all 24.", "evidence": "eval/story.json (model_note, notes); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Hill curve with baseline fixed at zero or free?", "methods_item": "S1", "opus": "3-parameter Hill curve, baseline fixed at 0% relaxation; rejected free baseline.", "sonnet": "3-parameter Hill curve, baseline fixed at 0%, slope free; rejected free baseline.", "authors": "4-parameter Hill curve per experiment: free baseline, top, EC50 and slope; EC50 kept to 2 significant figures.", "same": true, "matters": "Both models: 38 cells each (most Emax, EC50, SEM and limit cells).", "evidence": "eval/story.json (cause c1); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "Round each EC50 before averaging?", "methods_item": "S3", "opus": "No: averaged unrounded fits from the zero-baseline model.", "sonnet": "No: averaged unrounded fits from the zero-baseline model.", "authors": "Averaged EC50s rounded to 2 significant figures per experiment, so edge cases flip.", "same": true, "matters": "Both models: 6 cells on a rounding edge.", "evidence": "eval/story.json (cause c5)"}, {"topic": "Fit deposited worksheet curves as they are?", "methods_item": "", "opus": "Fitted the deposited curves as given: heated tobacco undiluted DEA/NO EC50 56.6 nM.", "sonnet": "Same: EC50 56.6 nM (29.5 to 108.6).", "authors": "Averaged values in which two experiments carry wrong worksheet entries, giving EC50 87 nM.", "same": true, "matters": "Both models: 4 cells in the heated tobacco undiluted DEA/NO row.", "evidence": "eval/story.json (cause c4)"}, {"topic": "Fit each experiment or the mean curve?", "methods_item": "S1", "opus": "Each experiment fitted separately; mean, SEM and CI taken over the 5 fitted values.", "sonnet": "Each experiment fitted separately (5 fits per cell); rejected fitting the pooled mean curve.", "authors": "Fitted a curve per experiment (4-parameter Hill, per experiment).", "same": true, "matters": "", "evidence": "eval/story.json (cause c1); sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}, {"topic": "How are the 95% limits for EC50 calculated?", "methods_item": "S3", "opus": "Geometric mean; limits from a t quantile (4 degrees of freedom) on log10 EC50.", "sonnet": "Same: t(0.975, 4) on log10 EC50, back-transformed; rejected normal quantile.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r_opus/out/assumptions.md; sandbox/r_sonnet/out/assumptions.md"}]}, {"publisher": "Wiley", "pid": "A", "href": "wiley/docs/index.html#A", "title": "Natural history of limb girdle muscular dystrophy R9 over 6 years: searching for trial endpoints", "authors": "Murphy AP, Morrow J, Dahlqvist JR, et al.", "journal": "Annals of Clinical and Translational Neurology", "year": "2019; 6(6): 1033–1045", "field": "Clinical neurology", "doi": "10.1002/acn3.774", "table": "Table 1. The median change in functional assessments over the follow-up of 6 years.", "n": 55, "opus": [{"a": 44, "ab": 52, "dist": {"A": 44, "B": 8, "C": 2, "D": 0, "E": 1, "F": 0}, "stars": [14, 14]}, {"a": 44, "ab": 52, "dist": {"A": 44, "B": 8, "C": 2, "D": 0, "E": 1, "F": 0}, "stars": [14, 14]}, {"a": 44, "ab": 52, "dist": {"A": 44, "B": 8, "C": 2, "D": 0, "E": 1, "F": 0}, "stars": [14, 14]}], "sonnet": {"a": 44, "ab": 52, "dist": {"A": 44, "B": 8, "C": 2, "D": 0, "E": 1, "F": 0}, "stars": [14, 14]}, "cost": {"opus": 0.3885, "opus_runs": [0.4122, 0.3841, 0.3692], "sonnet": 0.221}, "choices": [{"topic": "Missing starting measurement in the change scores?", "methods_item": "M4, M6", "opus": "All 3 runs: left the person with no baseline out of the four walking and stair change scores (22 people).", "sonnet": "Same: used only the 22 people with both visits.", "authors": "Included that person with a starting value of 0 (23 people); reproduces all four published scores.", "same": true, "matters": "All runs: 4 change-score (SRM) cells (timed up and go, 6-minute walk, stair up, stair down).", "evidence": "eval/attribution.json (rc3); wiley/work/plain_language.json; sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Which Wilcoxon test settings?", "methods_item": "S2", "opus": "All 3 runs: SPSS-style normal approximation, zero differences dropped, no continuity correction.", "sonnet": "Same SPSS-style normal approximation without continuity correction; rejected exact test.", "authors": "Not known; the exact settings are unknown and four p-values stay unexplained.", "same": true, "matters": "All runs: 4 p-values (hip flexion, knee extension, timed up and go, stair descent) off; no setting fixes them.", "evidence": "eval/attribution.json (rc4); wiley/work/plain_language.json; sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Medians: everyone with a value, or only paired people?", "methods_item": "M6", "opus": "All 3 runs: only people with both visits, matching the footnote counts.", "sonnet": "Same: paired people only for medians, tests and change scores.", "authors": "Used everyone measured at each visit, which adds people measured at 6 years only.", "same": true, "matters": "All runs: 3 six-year median cells (FVC lying, stair descent, chair rise).", "evidence": "eval/attribution.json (rc1); wiley/work/plain_language.json; sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Chair-rise change score: keep the 10,000 s 'unable' code?", "methods_item": "M5", "opus": "Runs 1, 3: only the 13 pairs with real times at both visits. Run 2: kept 10,000 s (0.74).", "sonnet": "Used only the 13 people able at both visits.", "authors": "Not known; the published table shows N/A for this cell.", "same": true, "matters": "", "evidence": "eval/grades_all.json; sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Keep the 10,000 s 'unable' code in chair-rise medians?", "methods_item": "M5", "opus": "All 3 runs: kept it; a median only needs ranks, so it ranks last.", "sonnet": "Kept it in medians and the Wilcoxon test; rejected dropping it.", "authors": "Kept it: the published 9.8 s is reproduced only with the code kept.", "same": true, "matters": "", "evidence": "eval/attribution.json (chair|med_f); sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Chair-rise count: footnote says 17, data give 22?", "methods_item": "M6", "opus": "All 3 runs: used all 22 pairs; no rule in the Methods gives 17.", "sonnet": "Used 22 pairs; could not reconcile with the footnote's 17.", "authors": "Not known", "same": true, "matters": "", "evidence": "wiley/work/plain_language.json (notes); sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Direction and spread used in change scores (SRM)?", "methods_item": "S4", "opus": "All 3 runs: follow-up minus baseline, standard deviation with n - 1.", "sonnet": "Same: follow-up minus baseline, n - 1.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Score for people unable to do a walking test?", "methods_item": "M4", "opus": "All 3 runs: used the deposited velocities, which already hold 0 for unable.", "sonnet": "Used the deposited values (0 for unable), no recoding.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Include the hip flexion row not listed in Methods?", "methods_item": "M2", "opus": "All 3 runs: computed it from the deposited hip flexion columns like other strength rows.", "sonnet": "Included it as its own row from the deposited columns.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Report FVC sitting and lying separately?", "methods_item": "M3", "opus": "All 3 runs: separate sitting and lying rows, both already in percent of predicted.", "sonnet": "Used sitting and lying columns as separate rows.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}]}, {"publisher": "Wiley", "pid": "B", "href": "wiley/docs/index.html#B", "title": "In Vitro Signaling Properties of Cannabinoid and Orexin Receptors: How Orexin Receptors Influence Cannabinoid Receptor-Mediated Signaling", "authors": "Mohamed KA, Laprairie RB", "journal": "Pharmacology Research & Perspectives", "year": "2025; 13: e70078", "field": "Pharmacology (curve fitting)", "doi": "10.1002/prp2.70078", "table": "Table 1. CB₁-dependent inhibition of cAMP and recruitment of βarrestin2 in CB₁-OX₁ cells.", "n": 52, "opus": [{"a": 51, "ab": 51, "dist": {"A": 51, "B": 0, "C": 0, "D": 0, "E": 1, "F": 0}, "stars": [8, 8]}, {"a": 50, "ab": 51, "dist": {"A": 50, "B": 1, "C": 0, "D": 0, "E": 1, "F": 0}, "stars": [8, 8]}, {"a": 49, "ab": 50, "dist": {"A": 49, "B": 1, "C": 0, "D": 0, "E": 2, "F": 0}, "stars": [8, 8]}], "sonnet": {"a": 52, "ab": 52, "dist": {"A": 52, "B": 0, "C": 0, "D": 0, "E": 0, "F": 0}, "stars": [6, 8]}, "cost": {"opus": 0.4902, "opus_runs": [0.4554, 0.5457, 0.4695], "sonnet": 0.2535}, "choices": [{"topic": "How to print the control curve's EC50 limit?", "methods_item": "F3, S5", "opus": "Run 1: top tested dose, '>10000 nM'. Run 2: '>1804 nM'. Run 3: '>2537 nM' (fitted value).", "sonnet": "'>10000 nM' (top tested dose).", "authors": "Printed '>10000 nM' (footnote b), though their own fit gives about 2,500 nM.", "same": false, "matters": "Opus runs 2 and 3: 2 cells (potency limit and EC50 limit). Run 1 and Sonnet matched.", "evidence": "eval/attribution.json (rc1); eval/grades_all.json; sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Sign printed for the fixed slope of 1?", "methods_item": "S6, F2", "opus": "Run 1: +1. Run 2: -1. Run 3: fitted -1 but printed +1.", "sonnet": "-1, the falling-curve sign.", "authors": "Fitted +1 in their software, then printed -1.", "same": false, "matters": "Opus runs 1 and 3: 1 cell (0.50 microgram cAMP slope), graded E. Run 2 and Sonnet matched.", "evidence": "eval/attribution.json (rc2); eval/grades_all.json; sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Which values go into the significance test?", "methods_item": "S7", "opus": "All 3 runs: ANOVA with Tukey from the summary values (fitted value, error, number of experiments).", "sonnet": "ANOVA with Tukey on per-experiment fitted values; all stars left empty.", "authors": "Not known", "same": false, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Slope reported for the control arrestin curve?", "methods_item": "F3, S3", "opus": "All 3 runs: reported the pooled 4-parameter slope estimate, which is poorly determined.", "sonnet": "Reported 'N/A' for slope and errors.", "authors": "Table prints 'n.d.' (not determined).", "same": false, "matters": "", "evidence": "eval/grades_all.json (ox_000|arr_hill); sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Fit one pooled curve or one per experiment?", "methods_item": "S2", "opus": "All 3 runs: one curve per condition on pooled points; per-experiment fits were unstable.", "sonnet": "One curve per group on pooled points; rejected per-experiment fits.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Which experiments count for the 4 to 8 range?", "methods_item": "M2b", "opus": "All 3 runs: used all 8 columns for the 0.00 control and 4 for others.", "sonnet": "Used every column present (8 for controls, 4 otherwise).", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Which excluded experiment was removed?", "methods_item": "M3", "opus": "All 3 runs: excluded nothing more; assumed the deposit already omits it.", "sonnet": "No exclusion applied; the excluded replicates cannot be identified.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "Normalise the data again by the minimum response?", "methods_item": "M4", "opus": "All 3 runs: no; the data are already in fold, so used as deposited.", "sonnet": "No re-normalisation; used data as given.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "What is Emax for the inhibition curve?", "methods_item": "S3", "opus": "All 3 runs: the fitted lower plateau (fold left at maximal inhibition), not the span.", "sonnet": "Lower plateau for cAMP, upper plateau for arrestin.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "What does the plus-minus value stand for?", "methods_item": "S4", "opus": "All 3 runs: standard error of the pooled curve-fit parameter; SEM across experiments for observed Emax.", "sonnet": "Standard error of the pooled curve-fit parameters, not SEM across experiments.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "When is the slope fixed at 1?", "methods_item": "S6, F2", "opus": "All 3 runs: only for the 0.50 microgram cAMP curve, as the footnote says.", "sonnet": "Only the 0.50 microgram cAMP curve; others use the free 4-parameter fit.", "authors": "Fixed on the 0.50 microgram cAMP curve (footnote a).", "same": true, "matters": "", "evidence": "eval/attribution.json (rc2); sandbox/r1,r2,r3,r_sonnet assumptions.md"}, {"topic": "What is 'observed' Emax for the control arrestin curve?", "methods_item": "F3", "opus": "All 3 runs: mean and SEM of the responses at the highest dose (10 micromolar), 16.54.", "sonnet": "Mean and SEM across experiments of the response at the highest dose.", "authors": "Not known", "same": true, "matters": "", "evidence": "sandbox/r1,r2,r3,r_sonnet assumptions.md"}]}]};
+const P = DATA.papers;
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const usd = v => "$" + v.toFixed(2);
+const pct = (a, n) => Math.round(100 * a / n) + "%";
+const name = p => `${p.publisher} ${p.pid}`;
+// Wiley's Opus figures come from three runs; show each run when they differ.
+const opusA = p => { const v = [...new Set(p.opus.map(r => r.a))]; return v.length === 1 ? String(v[0]) : p.opus.map(r => r.a).join(" / "); };
+const opusAB = p => { const v = [...new Set(p.opus.map(r => r.ab))]; return v.length === 1 ? String(v[0]) : p.opus.map(r => r.ab).join(" / "); };
+const mean = a => a.reduce((x, y) => x + y, 0) / a.length;
+
+function bar(a, ab, n) {
+  return `<div class="bar" role="img" aria-label="${a} within 2%, ${ab} within 20%, of ${n}"><i class="ba" style="width:${100 * a / n}%"></i><i class="bb" style="width:${100 * (ab - a) / n}%"></i></div>`;
+}
+
+function renderPapers() {
+  const pubs = [...new Set(P.map(p => p.publisher))];
+  document.getElementById("pubs").innerHTML = pubs.map(pub => `
+    <div class="pub"><div class="eyebrow">${esc(pub)}</div><div class="cards">${P.filter(p => p.publisher === pub).map(p => {
+      const oa = mean(p.opus.map(r => r.a)), oab = mean(p.opus.map(r => r.ab));
+      return `<a class="card" href="${esc(p.href)}">
+        <div class="eyebrow">Paper ${p.pid} · ${esc(p.field)}</div>
+        <h3>${esc(p.title)}</h3>
+        <div class="cite">${esc(p.authors)} <i>${esc(p.journal)}</i> ${esc(p.year)}</div>
+        <div class="tbl">Rebuilt: ${esc(p.table)} <span class="num">${p.n}</span> numbers graded.</div>
+        <div class="res">
+          <span class="who o">Opus 5.5</span>${bar(oa, oab, p.n)}<span class="num t">${opusA(p)} within 2%</span>
+          <span class="who s">Sonnet 5.5</span>${bar(p.sonnet.a, p.sonnet.ab, p.n)}<span class="num t">${p.sonnet.a} within 2%</span>
+        </div>
+        ${p.opus.length > 1 ? `<div class="small muted">Opus ran three times on this paper (first demo); figures are per run.</div>` : ""}
+        <span class="go">Open the full check →</span>
+      </a>`; }).join("")}</div></div>`).join("") +
+    `<div class="legend"><span><i style="opacity:.85"></i>within 2% of the published number</span><span><i style="opacity:.35"></i>within 20%</span></div>`;
+}
+
+function renderSummary() {
+  const tot = k => P.reduce((s, p) => s + k(p), 0);
+  const n = tot(p => p.n), oa = tot(p => mean(p.opus.map(r => r.a))), sa = tot(p => p.sonnet.a);
+  const oab = tot(p => mean(p.opus.map(r => r.ab))), sab = tot(p => p.sonnet.ab);
+  const oc = tot(p => p.cost.opus), sc = tot(p => p.cost.sonnet);
+  const nd = P.reduce((s, p) => s + p.choices.filter(c => !c.same).length, 0), nc = P.reduce((s, p) => s + p.choices.length, 0);
+  document.getElementById("kpis").innerHTML = `
+    <div class="kpi"><div class="v num">${pct(oa, n)} <span class="muted">vs</span> ${pct(sa, n)}</div><div class="l">of ${n} numbers within 2%, Opus vs Sonnet</div></div>
+    <div class="kpi"><div class="v num">${pct(oab, n)} <span class="muted">vs</span> ${pct(sab, n)}</div><div class="l">within 20%, Opus vs Sonnet</div></div>
+    <div class="kpi"><div class="v num">${usd(oc)} <span class="muted">vs</span> ${usd(sc)}</div><div class="l">to rebuild all six tables once, Opus vs Sonnet (at least)</div></div>
+    <div class="kpi"><div class="v num">${nd} <span class="muted">of</span> ${nc}</div><div class="l">open choices where the two models decided differently</div></div>`;
+  const row = p => `<tr><td><a href="${esc(p.href)}">${esc(name(p))}</a> <span class="muted small">${esc(p.journal)}</span></td>
+    <td class="r num">${p.n}</td>
+    <td class="r num o">${opusA(p)}</td><td class="r num s">${p.sonnet.a}</td>
+    <td class="r num o">${opusAB(p)}</td><td class="r num s">${p.sonnet.ab}</td>
+    <td class="r num o">${usd(p.cost.opus)}${p.opus.length > 1 ? "*" : ""}</td><td class="r num s">${usd(p.cost.sonnet)}</td></tr>`;
+  document.getElementById("sum").innerHTML = `
+    <thead><tr><th>Paper</th><th class="r">Numbers</th><th class="r o">Opus<br>within 2%</th><th class="r s">Sonnet<br>within 2%</th><th class="r o">Opus<br>within 20%</th><th class="r s">Sonnet<br>within 20%</th><th class="r o">Opus<br>cost</th><th class="r s">Sonnet<br>cost</th></tr></thead>
+    <tbody>${P.map(row).join("")}</tbody>
+    <tfoot><tr><td>All six</td><td class="r num">${n}</td><td class="r num o">${Math.round(oa)}</td><td class="r num s">${sa}</td><td class="r num o">${Math.round(oab)}</td><td class="r num s">${sab}</td><td class="r num o">${usd(oc)}</td><td class="r num s">${usd(sc)}</td></tr></tfoot>`;
+  document.getElementById("sumnote").textContent = "One run per model per paper, except Wiley, where Opus ran three times in the first demo: its counts are shown per run, and the total and cost (*) use the average of the three. Costs are per rebuild run and are lower bounds; see Cost.";
+}
+
+let onlyDiff = false;
+function renderChoices() {
+  let shown = 0, total = 0;
+  const body = P.map(p => {
+    const cs = p.choices.filter(c => !onlyDiff || !c.same);
+    total += p.choices.length; shown += cs.length;
+    if (!cs.length) return `<tr class="grp"><td colspan="4">${esc(name(p))}: ${esc(p.journal)}<a href="${esc(p.href)}">open</a></td></tr><tr><td colspan="4" class="muted small">The two models made the same choice at every open point.</td></tr>`;
+    return `<tr class="grp"><td colspan="4">${esc(name(p))}: ${esc(p.journal)}<a href="${esc(p.href)}">open</a></td></tr>` + cs.map(c => `
+      <tr class="${c.same ? "" : "diff"}"><td><b>${esc(c.topic)}</b>${c.same ? `<span class="chip same">same</span>` : `<span class="chip diff">differ</span>`}${c.matters ? `<div class="eff">${esc(c.matters)}</div>` : ""}</td>
+      <td class="o">${esc(c.opus)}</td><td class="s">${esc(c.sonnet)}</td><td>${esc(c.authors)}</td></tr>`).join("");
+  }).join("");
+  document.getElementById("choices").innerHTML = `<thead><tr><th>Open choice</th><th class="o">Opus 5.5</th><th class="s">Sonnet 5.5</th><th>What the authors did</th></tr></thead><tbody>${body}</tbody>`;
+  document.getElementById("ccount").textContent = onlyDiff ? `${shown} of ${total} choices` : `${total} choices across six papers`;
+}
+document.querySelectorAll("#fdiff button").forEach(b => b.addEventListener("click", () => {
+  onlyDiff = b.dataset.v === "diff";
+  document.querySelectorAll("#fdiff button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderChoices();
+}));
+
+function renderCost() {
+  const oc = P.reduce((s, p) => s + p.cost.opus, 0), sc = P.reduce((s, p) => s + p.cost.sonnet, 0);
+  const lo = Math.min(...P.map(p => p.cost.sonnet / p.cost.opus)), hi = Math.max(...P.map(p => p.cost.sonnet / p.cost.opus));
+  document.getElementById("costtext").innerHTML = `
+    <p>One rebuild of all six tables cost at least <b class="num">${usd(oc)}</b> with Opus 5.5 and <b class="num">${usd(sc)}</b> with Sonnet 5.5. Per paper, a Sonnet run cost ${Math.round(100 * lo)}% to ${Math.round(100 * hi)}% of an Opus run.</p>
+    <ul class="notes small">
+      <li>Measured from each run's own record of tokens used, at list prices: Opus 5.5 $4 in / $20 out per million tokens, Sonnet 5.5 $2 / $10, cache reads $0.20, cache writes 1.25 times the input price.</li>
+      <li><b>These are lower bounds.</b> The run records count reading and writing exactly but undercount the model's output; we add the output we can see (code and text). The model's hidden reasoning is not included.</li>
+      <li>Per rebuild run only. Not included: turning the Methods into steps, the follow-up analysis of the misses (about $0.70 to $1.50 per paper with Opus) and building these pages.</li>
+      <li>Each rebuild took 1 to 4 minutes.</li>
+    </ul>`;
+}
+
+renderPapers(); renderSummary(); renderChoices(); renderCost();
+</script>
+</body>
+</html>
