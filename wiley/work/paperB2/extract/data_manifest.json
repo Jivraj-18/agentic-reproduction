@@ -1,0 +1,46 @@
+{
+ "paper": "B",
+ "files": [
+  {
+   "name": "crc_cAMP_fold.csv",
+   "role": "tab 'cAMP Fig 2B 3B 4B 5B': cAMP fold data per experiment, by log[CP55,940]",
+   "given_to_reproducer": true
+  },
+  {
+   "name": "crc_barr2_fold.csv",
+   "role": "tab 'barr2 Fig 2D 3D 4D 5D': βarrestin2 fold data per experiment, by log[CP55,940]",
+   "given_to_reproducer": true
+  }
+ ],
+ "required_inputs": [
+  {
+   "input": "CB1-OX1 cAMP concentration-response, per experiment",
+   "availability": "partial",
+   "note": "Only the fold-transformed values (Y/K) are deposited, averaged over technical triplicates. Raw luminescence for the curves is not deposited, so the normalisation step (M4) cannot be re-done or checked."
+  },
+  {
+   "input": "CB1-OX1 βarrestin2 concentration-response, per experiment",
+   "availability": "partial",
+   "note": "As above."
+  },
+  {
+   "input": "Identity of the excluded experiment (M3)",
+   "availability": "missing"
+  }
+ ],
+ "withheld_from_sandbox": [
+  {
+   "name": "README.md",
+   "reason": "describes the authors' analysis choices beyond the paper"
+  },
+  {
+   "name": "workbook tabs 'Fig. 2B Table 1' ... 'Fig. 5D Table 4'",
+   "reason": "authors' Prism fit outputs and ANOVA: contain the published values"
+  },
+  {
+   "name": "workbook tabs 'Fig. 1', 'cAMP Fig 2A..', 'barr2 Fig 2C..'",
+   "reason": "not needed for Table 1"
+  }
+ ],
+ "extraction_version": "v2"
+}

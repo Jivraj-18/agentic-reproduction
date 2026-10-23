@@ -1,0 +1,68 @@
+{
+  "models": "Claude Opus 5.5",
+  "minutes_per_paper": 10,
+  "papers": {
+    "A": {
+      "short": "Muscular dystrophy, 6-year follow-up",
+      "what": "Table 1 shows how 14 strength, walking and breathing measures changed over six years in 23 people with a rare muscle disease (limb girdle muscular dystrophy R9).",
+      "verdict": "Mostly yes. The AI rebuilt {p20}% of the numbers to within 20% of the published values, and {pex}% almost exactly. All {n} point the same way as the published ones.",
+      "verdict_note": "The differences come from details the Methods leave unsaid. Two short sentences would close most of the gap.",
+      "implication": "A reader can rebuild this paper's main results from its Methods and data. With two extra sentences in the Methods, {fixed_exact} of {n} numbers would match exactly. Four test results stay unexplained.",
+      "notes": [
+        "One table footnote says 17 people did the chair-rise test. The shared data show 22."
+      ],
+      "causes": {
+        "rc1": {
+          "title": "Who counts in an average",
+          "left_unsaid": "The footnotes say how many people had both a start and a 6-year measurement. The Methods do not say whether averages use only those people.",
+          "ai_did": "Used only people measured at both visits. That is the natural reading of the footnotes.",
+          "authors_did": "Used everyone measured at each visit. This adds people who were measured only at the 6-year visit.",
+          "fix": "Medians at each visit were computed over all participants with a value at that visit, whereas the statistical tests used only participants measured at both visits."
+        },
+        "rc3": {
+          "title": "What to do when a starting measurement is missing",
+          "left_unsaid": "One person has no starting measurement for the walking and stair tests. The Methods say nothing about missing data.",
+          "ai_did": "Left that person out of the 'size of change' scores, as the footnote about 22 people suggests.",
+          "authors_did": "Included that person, with a starting value of 0 (23 people). This reproduces all four published scores.",
+          "fix": "Where a participant had no baseline velocity, the baseline was entered as 0 and the participant was included in the change scores."
+        },
+        "rc4": {
+          "title": "Four test results we could not explain",
+          "left_unsaid": "The Methods name the test (Wilcoxon, in SPSS) but not the exact settings.",
+          "ai_did": "Tried every sensible setting. No single setting reproduces all four values.",
+          "authors_did": "Unknown. The shared data are less detailed than the authors' own measurements, which may be part of the reason.",
+          "fix": null
+        }
+      }
+    },
+    "B": {
+      "short": "Cannabinoid and orexin receptors in cells",
+      "what": "Table 1 gives curve measurements (how strongly, and how much, a drug acts) for cells carrying the CB1 cannabinoid receptor, with 0 to 0.50 µg of orexin receptor added.",
+      "verdict": "Yes, once the Methods were read carefully. The AI rebuilt {p20}% of the numbers to within 20% of the published values, and {pex}% almost exactly.",
+      "verdict_note": "Our first attempt reached only {v1p20}%. That was our mistake in summarising the Methods, not the paper's. We fixed the summary and ran again.",
+      "implication": "The data were enough to rebuild the table. A publisher would ask the authors for two small clarifications: when a result is shown as a limit rather than a measured value, and the sign of a fixed slope.",
+      "notes": [],
+      "causes": {
+        "rc1": {
+          "title": "A measured value shown as a limit",
+          "left_unsaid": "For one control curve the table prints 'less than 5' for potency and 'more than 10,000 nM' for the dose that gives half the effect. The Methods do not say when a fitted value should be shown as a limit.",
+          "ai_did": "Reported the value the data give. Two runs gave a limit near 2,000 nM. One matched the printed limit.",
+          "authors_did": "Their own fit gives a potency of 5.6 and a dose of about 2,500 nM, then they printed a limit. This is a reporting choice, not something the data show.",
+          "fix": "For the curve that did not reach a clear maximum, the fitted EC50 (about 2.5 µM) was judged unreliable and is reported as a lower limit of 10,000 nM, with no slope given."
+        },
+        "rc2": {
+          "title": "A slope printed with the wrong sign",
+          "left_unsaid": "The footnote says the slope was 'constrained to 1'. The table prints −1.",
+          "ai_did": "Fitted the curve. Two runs printed +1 and one printed −1. The curves are identical either way.",
+          "authors_did": "Fitted +1 in their software and printed −1.",
+          "fix": "For the 0.50 µg curve the slope was fixed at a size of 1 and, like the other cAMP slopes, is reported with the negative sign of the falling curve (−1)."
+        }
+      },
+      "v1_mistakes": [
+        "We passed on a footnote about fixing a curve's slope as a general rule. It applies to one curve only, so the AI wrongly fixed the slope on others (10 numbers).",
+        "We kept 'at least 4 experiments' but left out 'between 4 and 8'. Two runs used only half of the control data (3 numbers).",
+        "One of our notes wrongly said a reporting rule was missing from the table. The table's own footnote states it (2 numbers)."
+      ]
+    }
+  }
+}

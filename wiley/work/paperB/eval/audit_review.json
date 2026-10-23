@@ -1,0 +1,12 @@
+{
+ "reviewer": "pipeline operator (manual check of each flag, 2026-10-20)",
+ "paths": [
+  {"match": "tool-results", "verdict": "benign", "reason": "Claude Code saved the agent's own oversized tool output (its sandbox listing and methods.json) to an overflow file outside the sandbox; the agent read that file back. Contents checked: only the agent's own sandbox files."},
+  {"match": "../data", "verdict": "benign", "reason": "Relative path ../data from the run's out/ folder; resolves inside the sandbox."}
+ ],
+ "hardcoding": [
+  {"run": "r1", "line": 26, "verdict": "benign", "reason": "Fit search bound for log EC50 (-11 to -4), not a result."},
+  {"run": "r2", "line": 30, "verdict": "benign", "reason": "Column index of a data block (column 17), not a result."},
+  {"run": "r2", "line": 90, "verdict": "benign", "reason": "Starting value for the curve-fit optimiser (log EC50 = -5.5), not a result."}
+ ]
+}

@@ -1,0 +1,34 @@
+C:\Users\user\code\reverify_research\work\paperB2\sandbox\r3\out\repro_table.py:78: RuntimeWarning: overflow encountered in power
+  return bottom + (top - bottom) / (1.0 + 10.0 ** ((logec50 - x) * hill))
+C:\Users\user\code\reverify_research\work\paperB2\sandbox\r3\out\repro_table.py:107: OptimizeWarning: Covariance of the parameters could not be estimated
+  popt, pcov = curve_fit(f, xx, yy, p0=pp, maxfev=200000)
+cAMP experiments per group: {'0.00': 8, '0.10': 4, '0.25': 4, '0.50': 4}
+barr2 experiments per group: {'0.00': 8, '0.10': 4, '0.25': 4, '0.50': 4}
+cAMP 0.00 4PL: pEC50=8.8269+/-0.4544 Emax(high plateau)=0.7937+/-0.0331 Hill=-1.7021+/-3.6005 rss=1.1263
+cAMP 0.10 4PL: pEC50=8.1441+/-0.2411 Emax(high plateau)=0.5722+/-0.0330 Hill=-1.2065+/-0.8949 rss=0.1995
+cAMP 0.25 4PL: pEC50=7.9050+/-0.1641 Emax(high plateau)=0.5153+/-0.0264 Hill=-0.7727+/-0.2218 rss=0.0681
+cAMP 0.50 4PL: pEC50=7.9897+/-inf Emax(high plateau)=0.6933+/-inf Hill=-12.1398+/-inf rss=0.1669
+cAMP 0.50 nH=-1: pEC50=7.9670+/-0.3329 Emax=0.6861+/-0.0295 rss=0.1748
+barr2 0.00 4PL: pEC50=5.5957+/-1.3712 Emax=20.0075+/-21.7176 Hill=1.0895+/-2.0107
+   observed response at 10 uM: 16.5415 +/- 4.6183
+barr2 0.10 4PL: pEC50=5.5117+/-1.3933 Emax=5.6528+/-3.1519 Hill=0.4059+/-0.2265
+   observed response at 10 uM: 3.7781 +/- 0.3787
+barr2 0.25 4PL: pEC50=6.0171+/-0.2637 Emax=5.6037+/-0.6250 Hill=0.4607+/-0.0778
+   observed response at 10 uM: 4.3703 +/- 0.1694
+barr2 0.50 4PL: pEC50=6.3997+/-0.0681 Emax=6.3791+/-0.2081 Hill=0.6979+/-0.0616
+   observed response at 10 uM: 5.8695 +/- 0.1594
+[sensitivity] cAMP 0.00 first-4-columns only: pEC50=8.9896 Emax=0.7208 Hill=-10.2374; obs@10uM=0.8005
+[sensitivity] barr2 0.00 first-4-columns only: pEC50=6.1796 Emax=5.1478 Hill=0.5593; obs@10uM=4.3729
+ANOVA camp pec50: F=1.289 p=0.3122; Tukey p vs 0.00: 0.10:0.6381, 0.25:0.3987, 0.50:0.4571
+ANOVA camp emax: F=14.699 p=7.363e-05; Tukey p vs 0.00: 0.10:0.001159, 0.25:0.0001085, 0.50:0.1398
+ANOVA camp hill: F=0.021 p=0.979; Tukey p vs 0.00: 0.10:0.9936, 0.25:0.9779
+ANOVA arr pec50: skipped (reference or groups not estimable)
+ANOVA arr emax: F=2.213 p=0.1262; Tukey p vs 0.00: 0.10:0.2441, 0.25:0.2408, 0.50:0.2969
+ANOVA arr hill: skipped (reference or groups not estimable)
+
+Filled table:
+ox_000 {'camp_pec50': (np.float64(8.826932963506854), ''), 'camp_pec50_se': (0.45443301661639857, ''), 'camp_ec50': (np.float64(1.4895909891048356), ''), 'camp_emax': (np.float64(0.7936777612593997), ''), 'camp_emax_se': (0.033129657677710644, ''), 'camp_hill': (np.float64(-1.7021085998048504), ''), 'camp_hill_se': (3.6004739853140153, ''), 'arr_pec50': ('<5.5957', ''), 'arr_pec50_se': ('N/A', ''), 'arr_ec50': ('>2537', ''), 'arr_emax': (16.541502375, ''), 'arr_emax_se': (4.618284118600585, ''), 'arr_hill': (np.float64(1.0895233587948225), ''), 'arr_hill_se': (2.0106502985009613, '')}
+ox_010 {'camp_pec50': (np.float64(8.144088056481348), ''), 'camp_pec50_se': (0.24113135953112128, ''), 'camp_ec50': (np.float64(7.17648767819197), ''), 'camp_emax': (np.float64(0.572220437781511), '**'), 'camp_emax_se': (0.03303442481412319, ''), 'camp_hill': (np.float64(-1.2065081658034564), ''), 'camp_hill_se': (0.8948824070006385, ''), 'arr_pec50': (np.float64(5.511739613622456), ''), 'arr_pec50_se': (1.3933464199362344, ''), 'arr_ec50': (np.float64(3077.9416778567747), ''), 'arr_emax': (np.float64(5.652833920519618), ''), 'arr_emax_se': (3.1518708447480828, ''), 'arr_hill': (np.float64(0.40587808956399496), ''), 'arr_hill_se': (0.22647299972943657, '')}
+ox_025 {'camp_pec50': (np.float64(7.904999663650802), ''), 'camp_pec50_se': (0.1640800836212535, ''), 'camp_ec50': (np.float64(12.445155756142869), ''), 'camp_emax': (np.float64(0.5152632577566543), '***'), 'camp_emax_se': (0.02636505818485409, ''), 'camp_hill': (np.float64(-0.772744897647463), ''), 'camp_hill_se': (0.2217548778173954, ''), 'arr_pec50': (np.float64(6.017105454582866), ''), 'arr_pec50_se': (0.2637330238958339, ''), 'arr_ec50': (np.float64(961.3788098150834), ''), 'arr_emax': (np.float64(5.603691645756177), ''), 'arr_emax_se': (0.6249861133349174, ''), 'arr_hill': (np.float64(0.460651535220357), ''), 'arr_hill_se': (0.07776249209848773, '')}
+ox_050 {'camp_pec50': (np.float64(7.9670114188746375), ''), 'camp_pec50_se': (0.33287094575983445, ''), 'camp_ec50': (np.float64(10.78918353931572), ''), 'camp_emax': (np.float64(0.6861252818730068), ''), 'camp_emax_se': (0.02953896472134296, ''), 'camp_hill': (1.0, ''), 'camp_hill_se': ('N/A', ''), 'arr_pec50': (np.float64(6.399746480646219), ''), 'arr_pec50_se': (0.06810978915053666, ''), 'arr_ec50': (np.float64(398.3396334119285), ''), 'arr_emax': (np.float64(6.379075999149658), ''), 'arr_emax_se': (0.20805789346943562, ''), 'arr_hill': (np.float64(0.6978882793696718), ''), 'arr_hill_se': (0.061636660210797514, '')}
+wrote out\filled.json

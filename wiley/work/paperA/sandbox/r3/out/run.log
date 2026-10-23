@@ -1,0 +1,30 @@
+participants: 23
+fvc_sit    n=17 med_b=  77.0000 med_f=  65.0000 z=-3.2436 p=0.00118 SRM=-1.2891 (n_srm=17)
+           scipy approx p=0.00118; exact/auto p=0.00118
+fvc_lie    n=16 med_b=  70.5000 med_f=  56.0000 z=-3.1294 p=0.00175 SRM=-1.0601 (n_srm=16)
+           scipy approx p=0.00175; exact/auto p=0.00175
+hip_flex   n=23 med_b=   7.7000 med_f=   6.4000 z=-1.4754 p=0.14011 SRM=-0.3469 (n_srm=23)
+           scipy approx p=0.14011; exact/auto p=0.14011
+hip_add    n=23 med_b=   6.1000 med_f=   4.2000 z=-2.3118 p=0.02079 SRM=-0.5934 (n_srm=23)
+           scipy approx p=0.02079; exact/auto p=0.02079
+hip_abd    n=23 med_b=   8.3000 med_f=   7.2000 z=-0.2890 p=0.77261 SRM=-0.0142 (n_srm=23)
+           scipy approx p=0.77261; exact/auto p=0.77261
+knee_ext   n=23 med_b=  11.1000 med_f=  12.0000 z=-1.3992 p=0.16176 SRM=-0.2615 (n_srm=23)
+           scipy approx p=0.16176; exact/auto p=0.16176
+knee_flex  n=23 med_b=   8.4000 med_f=   4.8000 z=-1.2471 p=0.21237 SRM=-0.1238 (n_srm=23)
+           scipy approx p=0.21237; exact/auto p=0.21237
+ankle_df   n=23 med_b=  14.7000 med_f=  13.9000 z=-1.8098 p=0.07033 SRM=-0.4167 (n_srm=23)
+           scipy approx p=0.07033; exact/auto p=0.07033
+smwt       n=23 med_b= 391.0000 med_f= 286.0000 z=-3.2544 p=0.00114 SRM=-0.8456 (n_srm=23)
+           scipy approx p=0.00114; exact/auto p=0.00055
+tug        n=22 med_b=   0.4800 med_f=   0.3400 z=-2.5015 p=0.01237 SRM=-0.4881 (n_srm=22)
+           scipy approx p=0.01237; exact/auto p=0.01237
+tmwr       n=22 med_b=   1.2050 med_f=   0.7500 z=-3.5875 p=0.00033 SRM=-1.1572 (n_srm=22)
+           scipy approx p=0.00033; exact/auto p=0.00008
+stair_up   n=22 med_b=   0.6850 med_f=   0.4300 z=-3.1803 p=0.00147 SRM=-0.4746 (n_srm=22)
+           scipy approx p=0.00147; exact/auto p=0.00147
+stair_down n=22 med_b=   1.1700 med_f=   0.5200 z=-2.6937 p=0.00707 SRM=-0.4851 (n_srm=22)
+           scipy approx p=0.00707; exact/auto p=0.00707
+chair      n=22 med_b=   2.6500 med_f=   7.8000 z= 3.4760 p=0.00051 SRM= 0.5851 (n_srm=13)
+           scipy approx p=0.00051; exact/auto p=0.00051
+wrote out\filled.json

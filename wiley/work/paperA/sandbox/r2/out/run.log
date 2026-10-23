@@ -1,0 +1,31 @@
+Loaded data\LGMD+R9+Murphy+Annals+Clin+Trans+Neurol+2019+public+200319.xlsx: 23 participants
+fvc_sit    n=17 medB=77 medF=65 z=-3.2436 p=0.0011804 SRM=-1.2891
+fvc_lie    n=16 medB=70.5 medF=56 z=-3.1294 p=0.0017515 SRM=-1.0601
+hip_flex   n=23 medB=7.7 medF=6.4 z=-1.4754 p=0.14011 SRM=-0.3469
+hip_add    n=23 medB=6.1 medF=4.2 z=-2.3118 p=0.020788 SRM=-0.5934
+hip_abd    n=23 medB=8.3 medF=7.2 z=-0.2890 p=0.77261 SRM=-0.0142
+knee_ext   n=23 medB=11.1 medF=12 z=-1.3992 p=0.16176 SRM=-0.2615
+knee_flex  n=23 medB=8.4 medF=4.8 z=-1.2471 p=0.21237 SRM=-0.1238
+ankle_df   n=23 medB=14.7 medF=13.9 z=-1.8098 p=0.070328 SRM=-0.4167
+smwt       n=23 medB=391 medF=286 z=-3.2544 p=0.0011363 SRM=-0.8456
+tug        n=22 medB=0.48 medF=0.34 z=-2.5015 p=0.012367 SRM=-0.4881
+tmwr       n=22 medB=1.205 medF=0.75 z=-3.5875 p=0.00033392 SRM=-1.1572
+stair_up   n=22 medB=0.685 medF=0.43 z=-3.1803 p=0.0014711 SRM=-0.4746
+stair_down n=22 medB=1.17 medF=0.52 z=-2.6937 p=0.007066 SRM=-0.4851
+chair      n=22 medB=2.65 medF=7.8 z=-3.4760 p=0.0005089 SRM=0.7388 unable(B,F)=(1, 9)
+[sensitivity] chair restricted to FVC-sitting-paired n=17: medB=5.3 medF=9.8 p=0.0016092 SRM=0.8119
+[sensitivity] exact-ish Wilcoxon p fvc_sit: 0.00038147
+[sensitivity] exact-ish Wilcoxon p fvc_lie: 0.00076294
+[sensitivity] exact-ish Wilcoxon p hip_flex: 0.15107
+[sensitivity] exact-ish Wilcoxon p hip_add: 0.019557
+[sensitivity] exact-ish Wilcoxon p hip_abd: 0.79977
+[sensitivity] exact-ish Wilcoxon p knee_ext: 0.16952
+[sensitivity] exact-ish Wilcoxon p knee_flex: 0.22262
+[sensitivity] exact-ish Wilcoxon p ankle_df: 0.074869
+[sensitivity] exact-ish Wilcoxon p smwt: 0.0005517
+[sensitivity] exact-ish Wilcoxon p tug: 0.010689
+[sensitivity] exact-ish Wilcoxon p tmwr: 8.0585e-05
+[sensitivity] exact-ish Wilcoxon p stair_up: 0.00072098
+[sensitivity] exact-ish Wilcoxon p stair_down: 0.0055418
+[sensitivity] exact-ish Wilcoxon p chair: 0.00016117
+Wrote out\filled.json

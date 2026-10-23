@@ -1,0 +1,539 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. The median change in functional assessments over the follow-up of 6 years.",
+ "rows": [
+  {
+   "id": "fvc_sit",
+   "label": "Forced vital capacity sitting (%)"
+  },
+  {
+   "id": "fvc_lie",
+   "label": "Forced vital capacity lying (%)"
+  },
+  {
+   "id": "hip_flex",
+   "label": "Hip flexion (kg)"
+  },
+  {
+   "id": "hip_add",
+   "label": "Hip adduction (kg)"
+  },
+  {
+   "id": "hip_abd",
+   "label": "Hip abduction (kg)"
+  },
+  {
+   "id": "knee_ext",
+   "label": "Knee extension (kg)"
+  },
+  {
+   "id": "knee_flex",
+   "label": "Knee flexion (kg)"
+  },
+  {
+   "id": "ankle_df",
+   "label": "Ankle dorsiflexion (kg)"
+  },
+  {
+   "id": "smwt",
+   "label": "Six-minute walk (meters)"
+  },
+  {
+   "id": "tug",
+   "label": "Timed up and go velocity (msec-1)"
+  },
+  {
+   "id": "tmwr",
+   "label": "Ten-meter walk or run velocity (msec-1)"
+  },
+  {
+   "id": "stair_up",
+   "label": "Stair ascent velocity (steps/sec)"
+  },
+  {
+   "id": "stair_down",
+   "label": "Stair descent velocity (steps/sec)"
+  },
+  {
+   "id": "chair",
+   "label": "Chair rise (sec)"
+  }
+ ],
+ "columns": [
+  {
+   "id": "med_b",
+   "label": "Median baseline",
+   "metric_type": "median"
+  },
+  {
+   "id": "med_f",
+   "label": "Median 6 years",
+   "metric_type": "median"
+  },
+  {
+   "id": "p",
+   "label": "P value",
+   "metric_type": "p"
+  },
+  {
+   "id": "srm",
+   "label": "SRM",
+   "metric_type": "SRM"
+  }
+ ],
+ "star_legend": {
+  "a": "P < 0.05"
+ },
+ "cells": {
+  "fvc_sit|med_b": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": 77.0,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "fvc_sit|med_f": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": 65.0,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "fvc_sit|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.001180422124524836,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "fvc_sit|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -1.289113790148519,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "fvc_lie|med_b": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": 70.5,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "fvc_lie|med_f": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": 56.0,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "fvc_lie|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0017514780606625016,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "fvc_lie|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -1.0601397860684056,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "hip_flex|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 7.7,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "hip_flex|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 6.4,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "hip_flex|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.1401100976792903,
+   "stars": "",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "hip_flex|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.34694352427021946,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "hip_add|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 6.1,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "hip_add|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 4.2,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "hip_add|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.020788498828754904,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "hip_add|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.5933827052640558,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "hip_abd|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 8.3,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "hip_abd|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 7.2,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "hip_abd|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.772612934473893,
+   "stars": "",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "hip_abd|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.01423551647407345,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "knee_ext|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 11.1,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "knee_ext|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 12.0,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "knee_ext|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.16176238626872796,
+   "stars": "",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "knee_ext|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.261475038437685,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "knee_flex|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 8.4,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "knee_flex|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 4.8,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "knee_flex|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.21236626373382772,
+   "stars": "",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "knee_flex|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.12379495774245768,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "ankle_df|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 14.7,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "ankle_df|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": 13.9,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "ankle_df|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.07032768335153002,
+   "stars": "",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "ankle_df|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.4167011271292501,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "smwt|med_b": {
+   "metric_type": "median",
+   "unit": "m",
+   "link_to": null,
+   "value": 391.0,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "smwt|med_f": {
+   "metric_type": "median",
+   "unit": "m",
+   "link_to": null,
+   "value": 286.0,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "smwt|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0011363215962114429,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "smwt|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.8456353623239639,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "tug|med_b": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": 0.48,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "tug|med_f": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": 0.33999999999999997,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "tug|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.012366607551013901,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "tug|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.4880776832449791,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "tmwr|med_b": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": 1.205,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "tmwr|med_f": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": 0.75,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "tmwr|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0003339221696229232,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "tmwr|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -1.1571631687324777,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "stair_up|med_b": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": 0.685,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "stair_up|med_f": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": 0.43,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "stair_up|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0014710997703089304,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "stair_up|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.47455123971894464,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "stair_down|med_b": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": 1.17,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "stair_down|med_f": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": 0.52,
+   "stars": "",
+   "source": "compute(): np.median over paired participants"
+  },
+  "stair_down|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.007065994730893274,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction"
+  },
+  "stair_down|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": -0.48511158706912255,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1)"
+  },
+  "chair|med_b": {
+   "metric_type": "median",
+   "unit": "s",
+   "link_to": null,
+   "value": 2.6500000000000004,
+   "stars": "",
+   "source": "compute(): np.median over paired participants (unable = 10000 s)"
+  },
+  "chair|med_f": {
+   "metric_type": "median",
+   "unit": "s",
+   "link_to": null,
+   "value": 7.800000000000001,
+   "stars": "",
+   "source": "compute(): np.median over paired participants (unable = 10000 s)"
+  },
+  "chair|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.0005089001620433079,
+   "stars": "a",
+   "source": "wilcoxon_spss(): asymptotic Wilcoxon signed-rank, zeros dropped, tie-corrected, no continuity correction (unable = 10000 s)"
+  },
+  "chair|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": 0.5850581328022784,
+   "stars": "",
+   "source": "srm(): mean(F-B)/SD(F-B, ddof=1) over pairs with both chair-rise times observed"
+  }
+ },
+ "instructions": "Fill `value` (a number; or a string such as '<x' or '>x' for a bound, 'n.d.' or 'N/A' if a number cannot be estimated) and `stars` (significance marker you would print, or '') for every cell. `unit` gives the unit the table uses for that cell."
+}

@@ -1,0 +1,81 @@
+{
+ "paper": "B",
+ "extraction": "v2",
+ "cells": [
+  {
+   "cell": "ox_000|arr_pec50",
+   "median_grade": "B",
+   "published": "<5",
+   "reproduced": "<5 (r1: <5, r2: <5.7437, r3: <5.5957)",
+   "category": "Extractor error",
+   "methods_item": "F3",
+   "source_sentence": "The CRC for CP55,940 in CHO-K1 CB1 βarrestin2 cells that were not transfected did not reach a clear asymptote, and so the reported Emax is based on the observed result rather than the nonlinear regression (Figure 2D).",
+   "agent_code": "sandbox/r1/out/repro_table.py l.282-287 (bound placed at the top tested concentration: xmax = max(x) = -5, giving '<5' and '>10000'); sandbox/r2/out/repro_table.py analyse_arr l.130-140 (half-observed-max crossing interpolated on the mean curve) + output l.183-185; sandbox/r3/out/repro_table.py l.296-304 (pec_bound = fitted pEC50 of the unconstrained pooled 4PL)",
+   "explanation": "v2 told the agents (F3, S5) that the βarrestin2 0.00 µg EC50 is 'reported as a bound' but not which bound. The paper says which bound: Table 1 footnote b reads 'for this reason EC50 is reported as >10000nM', and the Table 2 note gives the criterion '(i.e., <0.1nM or >10000nM)'. The extractor took F3's source sentence from the Results paragraph, which has no number, and S5's source sentence elides the criterion as '(i.e., …)'. Left to choose, r1 used the top tested concentration (10 µM) and matched; r2 used the half-observed-max crossing (1804 nM) and r3 used the fitted EC50 (2537 nM), both explicitly rejecting '>10 µM' because the fitted midpoint lies inside the tested range. That objection is real (v1 rc4: the authors' own Prism fit gives EC50 2.5 µM, and the Table 2 criterion '>10000 nM' is not met), but for Table 1 footnote b states the convention outright, so the miss comes from the extraction, not from a gap in the paper.",
+   "evidence": "Top tested concentration log[M] = -5 gives '<5' and '>10000' exactly (r1). Free pooled 4PL on all 8 mock columns: pEC50 5.596 ± 1.371, EC50 2537 nM (= r3's bound). Half-observed-max crossing at log[M] = -5.7437, EC50 1804 nM (= r2's bound). Script eval/sensitivity/table1_v2_readings.py (output eval/sensitivity/table1_v2_readings.json), which reuses the fit code of paperB/eval/sensitivity/table1_readings.py. Paper: Table 1 footnote b (source/paper.txt l.298-299) and Table 2 note (l.395). Authors' Prism tab 'Fig. 2D Table 1' (withheld from the agents): LogEC50 -5.596, EC50 2.537e-06 M, cell F32 '*Listed in table 1 as pEC50 < 5'.",
+   "alternative_value": "<5",
+   "suggested_wording": null,
+   "root_cause": "rc1",
+   "operator_note": "Operator note: the '>10000' bound is itself a published cell value (Table 1, footnote b). The blinding rule says the spec may contain no published numbers, so the extractor elided it on purpose. The category follows the paper's definition (the spec omits something the PDF says), but part of this miss is the cost of blinding, not carelessness. The fix is to state the bound-reporting convention without the number, e.g. 'EC50 is reported as a lower bound equal to the highest concentration tested'."
+  },
+  {
+   "cell": "ox_000|arr_ec50",
+   "median_grade": "E",
+   "published": ">10000",
+   "reproduced": ">10000 (r1: >10000, r2: >1804, r3: >2537)",
+   "category": "Extractor error",
+   "methods_item": "F3",
+   "source_sentence": "The CRC for CP55,940 in CHO-K1 CB1 βarrestin2 cells that were not transfected did not reach a clear asymptote, and so the reported Emax is based on the observed result rather than the nonlinear regression (Figure 2D).",
+   "agent_code": "sandbox/r1/out/repro_table.py l.282-287 (bound placed at the top tested concentration: xmax = max(x) = -5, giving '<5' and '>10000'); sandbox/r2/out/repro_table.py analyse_arr l.130-140 (half-observed-max crossing interpolated on the mean curve) + output l.183-185; sandbox/r3/out/repro_table.py l.296-304 (pec_bound = fitted pEC50 of the unconstrained pooled 4PL)",
+   "explanation": "Same cause as ox_000|arr_pec50; the EC50 bound is 10^-(pEC50 bound). The median value matches (r1), but the cell grades E because two of three runs printed data-driven bounds of 1804 and 2537 nM. The paper says which bound: Table 1 footnote b reads 'for this reason EC50 is reported as >10000nM', and the Table 2 note gives the criterion '(i.e., <0.1nM or >10000nM)'. The extractor took F3's source sentence from the Results paragraph, which has no number, and S5's source sentence elides the criterion as '(i.e., …)'. Left to choose, r1 used the top tested concentration (10 µM) and matched; r2 used the half-observed-max crossing (1804 nM) and r3 used the fitted EC50 (2537 nM), both explicitly rejecting '>10 µM' because the fitted midpoint lies inside the tested range. That objection is real (v1 rc4: the authors' own Prism fit gives EC50 2.5 µM, and the Table 2 criterion '>10000 nM' is not met), but for Table 1 footnote b states the convention outright, so the miss comes from the extraction, not from a gap in the paper.",
+   "evidence": "Top tested concentration log[M] = -5 gives '<5' and '>10000' exactly (r1). Free pooled 4PL on all 8 mock columns: pEC50 5.596 ± 1.371, EC50 2537 nM (= r3's bound). Half-observed-max crossing at log[M] = -5.7437, EC50 1804 nM (= r2's bound). Script eval/sensitivity/table1_v2_readings.py (output eval/sensitivity/table1_v2_readings.json), which reuses the fit code of paperB/eval/sensitivity/table1_readings.py. Paper: Table 1 footnote b (source/paper.txt l.298-299) and Table 2 note (l.395). Authors' Prism tab 'Fig. 2D Table 1' (withheld from the agents): LogEC50 -5.596, EC50 2.537e-06 M, cell F32 '*Listed in table 1 as pEC50 < 5'.",
+   "alternative_value": ">10000",
+   "suggested_wording": null,
+   "root_cause": "rc1",
+   "operator_note": "Operator note: the '>10000' bound is itself a published cell value (Table 1, footnote b). The blinding rule says the spec may contain no published numbers, so the extractor elided it on purpose. The category follows the paper's definition (the spec omits something the PDF says), but part of this miss is the cost of blinding, not carelessness. The fix is to state the bound-reporting convention without the number, e.g. 'EC50 is reported as a lower bound equal to the highest concentration tested'."
+  },
+  {
+   "cell": "ox_050|camp_hill",
+   "median_grade": "E",
+   "published": "-1",
+   "reproduced": "+1 (r1: +1, r2: -1, r3: +1)",
+   "category": "Original: inconsistent",
+   "methods_item": "S6",
+   "source_sentence": "When fit to a 4-parameter model, pEC50 and Hill Slope could not be accurately estimated, data in table are for a Hill Slope constrained to 1.",
+   "agent_code": "sandbox/r1/out/repro_table.py l.116-124 (Prism 'log(agonist) vs. response' 3PL with Hill fixed at +1, threepl() l.59-61; reports hill=1.0); sandbox/r2/out/repro_table.py l.116 (fit_curve(hill=1.0)) + l.67-69 (relabels to Bottom<Top and flips the sign, giving -1) + output l.176; sandbox/r3/out/repro_table.py l.197 (fit_pooled(hill_fixed=-1.0)) but output l.289 writes 1.0 ('|nH|=1')",
+   "explanation": "All three runs fitted the same constrained curve (pEC50 7.967, plateau at high concentration 0.686, identical SSE); they differ only in the printed sign. The paper contradicts itself: footnote a says 'Hill Slope constrained to 1' and the table prints '-1'. The authors' Prism output used 'log(agonist) vs. response (three parameters)', which fixes HillSlope at +1 and gives Bottom 0.9716 > Top 0.6861 on this falling curve; the table then prints -1, the sign of the free cAMP slopes in the same column (-1.7, -1.2, -0.77). r1 and r3 followed the footnote text and printed +1 (r3 even fitted -1 and then printed |nH|); r2 followed the column's sign convention and printed -1. v2 S6 already flags the sign as ambiguous (gap:true), and r2 shows that the 'sign of the falling curve' reading gives the published value, so 'Original: underspecified' would also fit. I classify it as inconsistent because the footnote and the table give different values for the same number, and the authors' own fit used +1.",
+   "evidence": "Hill fixed +1: Bottom 0.9716, Top 0.6861, pEC50 7.967 ± 0.333, SSE 0.17483. Hill fixed -1: Bottom 0.6861, Top 0.9716, pEC50 7.967 ± 0.333, SSE 0.17483 (the same curve). Free 4PL Hill for 0.00/0.10/0.25 µg: -1.703, -1.206, -0.773. Script eval/sensitivity/table1_v2_readings.py (output eval/sensitivity/table1_v2_readings.json), which reuses the fit code of paperB/eval/sensitivity/table1_readings.py. Paper: Table 1 footnote a (source/paper.txt l.297) vs row 0.50 '-1a' (l.289). Authors' Prism tab 'Fig. 2B Table 1' G2:H24: 'log(agonist) vs. response (three parameters)', Bottom 0.9716, Top 0.6861, LogEC50 -7.967, Span -0.2855.",
+   "alternative_value": -1,
+   "suggested_wording": "For the 0.50 µg OX1 cAMP curve the Hill slope was fixed at magnitude 1 (Prism three-parameter model) and, like the other cAMP slopes, is reported with the negative sign of the falling curve (-1).",
+   "root_cause": "rc2"
+  }
+ ],
+ "root_causes": [
+  {
+   "id": "rc1",
+   "title": "βarrestin2 control potency bound: the paper's '>10000 nM' was dropped from the extraction",
+   "category": "Extractor error",
+   "cells": [
+    "ox_000|arr_pec50",
+    "ox_000|arr_ec50"
+   ],
+   "summary": "v2 fixed v1's omission of Table 1 footnote b but took its wording from the Results sentence, which says the Emax is observed and does not say the EC50 is reported as >10000 nM; S5 also elides the criterion '(i.e., <0.1nM or >10000nM)'. The agents knew to print a bound but not which one. r1 chose the top tested concentration and matched; r2 (1804 nM) and r3 (2537 nM, the fitted EC50) chose data-driven bounds, which the script reproduces exactly. The tension noted in v1 rc4 remains: the authors' own fit puts the EC50 at 2.5 µM, inside the tested range, so '>10000 nM' is a reporting convention, not a property of the data.",
+   "suggested_wording": null,
+   "operator_note": "Operator note: the '>10000' bound is itself a published cell value (Table 1, footnote b). The blinding rule says the spec may contain no published numbers, so the extractor elided it on purpose. The category follows the paper's definition (the spec omits something the PDF says), but part of this miss is the cost of blinding, not carelessness. The fix is to state the bound-reporting convention without the number, e.g. 'EC50 is reported as a lower bound equal to the highest concentration tested'."
+  },
+  {
+   "id": "rc2",
+   "title": "Sign of the constrained Hill slope: footnote says 1, table prints -1, Prism fit used +1",
+   "category": "Original: inconsistent",
+   "cells": [
+    "ox_050|camp_hill"
+   ],
+   "summary": "The three runs fitted an identical curve; Hill +1 and Hill -1 are the same curve with the plateau labels swapped. The paper's footnote says 'constrained to 1', the authors' Prism model fixed +1, and the table prints -1 to match the negative free slopes in the column. Two runs followed the footnote and one followed the column convention, so the median is +1 and the cell grades E on a sign flip that says nothing about the fit.",
+   "suggested_wording": "For the 0.50 µg OX1 cAMP curve the Hill slope was fixed at magnitude 1 (Prism three-parameter model) and, like the other cAMP slopes, is reported with the negative sign of the falling curve (-1)."
+  }
+ ],
+ "best_example": {
+  "root_cause": "rc2",
+  "why": "It is the only E-grade cell whose cause lies in the paper, and the evidence is complete: the script shows Hill +1 and -1 give the identical curve, the paper's footnote ('constrained to 1') and table ('-1') disagree, and the authors' Prism tab shows they fitted +1 and printed -1. The agents split 2-1 on a pure labelling choice that one sentence of Methods would settle."
+ }
+}

@@ -1,0 +1,574 @@
+{
+ "paper": "B",
+ "table_id": "Table 1",
+ "caption": "TABLE 1 | CB1-dependent inhibition of cAMP and recruitment of βarrestin2 in CB1-OX1 cells.",
+ "rows": [
+  {
+   "id": "ox_000",
+   "label": "[OX1] 0.00 µg"
+  },
+  {
+   "id": "ox_010",
+   "label": "[OX1] 0.10 µg"
+  },
+  {
+   "id": "ox_025",
+   "label": "[OX1] 0.25 µg"
+  },
+  {
+   "id": "ox_050",
+   "label": "[OX1] 0.50 µg"
+  }
+ ],
+ "columns": [
+  {
+   "id": "camp_pec50",
+   "label": "cAMP pEC50",
+   "metric_type": "pEC50"
+  },
+  {
+   "id": "camp_pec50_se",
+   "label": "cAMP pEC50 ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "camp_ec50",
+   "label": "cAMP EC50 (nM), in parentheses",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "camp_emax",
+   "label": "cAMP Emax (Fold)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "camp_emax_se",
+   "label": "cAMP Emax ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "camp_hill",
+   "label": "cAMP Hill slope",
+   "metric_type": "Hill"
+  },
+  {
+   "id": "camp_hill_se",
+   "label": "cAMP Hill slope ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "arr_pec50",
+   "label": "βarrestin2 pEC50",
+   "metric_type": "pEC50"
+  },
+  {
+   "id": "arr_pec50_se",
+   "label": "βarrestin2 pEC50 ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "arr_ec50",
+   "label": "βarrestin2 EC50 (nM), in parentheses",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "arr_emax",
+   "label": "βarrestin2 Emax (Fold)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "arr_emax_se",
+   "label": "βarrestin2 Emax ±",
+   "metric_type": "pm"
+  },
+  {
+   "id": "arr_hill",
+   "label": "βarrestin2 Hill slope",
+   "metric_type": "Hill"
+  },
+  {
+   "id": "arr_hill_se",
+   "label": "βarrestin2 Hill slope ±",
+   "metric_type": "pm"
+  }
+ ],
+ "star_legend": {
+  "**": "p < 0.01",
+  "***": "p < 0.001"
+ },
+ "cells": {
+  "ox_000|camp_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 8.37308537404625,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_000|camp_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_000|camp_pec50",
+   "value": 0.03776713862291229,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_000|camp_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 4.235596940741083,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_000|camp_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 0.8602615093842644,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_000|camp_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_000|camp_emax",
+   "value": 0.03276953143351776,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_000|camp_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": -1.0,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_000|camp_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_000|camp_hill",
+   "value": 0.0,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_000|arr_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 6.174552414869369,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_000|arr_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_000|arr_pec50",
+   "value": 0.10448474309676441,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_000|arr_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 669.0330697747132,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_000|arr_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 5.2189571877955085,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_000|arr_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_000|arr_emax",
+   "value": 0.5247710077673092,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_000|arr_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": 0.5681758167966449,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_000|arr_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_000|arr_hill",
+   "value": 0.036403368738990666,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_010|camp_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 8.261055244458287,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_010|camp_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_010|camp_pec50",
+   "value": 0.19663460816682032,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_010|camp_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 5.482072257489595,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_010|camp_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 0.5633430060935603,
+   "stars": "***",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_010|camp_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_010|camp_emax",
+   "value": 0.04584045675148213,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_010|camp_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": -0.8300947667338299,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_010|camp_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_010|camp_hill",
+   "value": 0.06491163028771299,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_010|arr_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 5.9880354632758905,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_010|arr_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_010|arr_pec50",
+   "value": 0.1740625773514183,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_010|arr_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 1027.9323566105697,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_010|arr_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 4.596713440952485,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_010|arr_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_010|arr_emax",
+   "value": 0.8832402976203412,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_010|arr_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": 0.7441256862608707,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_010|arr_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_010|arr_hill",
+   "value": 0.15124270968786785,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_025|camp_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 7.975774895138526,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_025|camp_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_025|camp_pec50",
+   "value": 0.1400148376562568,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_025|camp_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 10.573654241256772,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_025|camp_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 0.5110995296971446,
+   "stars": "***",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_025|camp_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_025|camp_emax",
+   "value": 0.02162710992033129,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_025|camp_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": -0.724660353527858,
+   "stars": "*",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_025|camp_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_025|camp_hill",
+   "value": 0.07430467749955728,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_025|arr_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 6.007401279502665,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_025|arr_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_025|arr_pec50",
+   "value": 0.07701519008831685,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_025|arr_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 983.102318897075,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_025|arr_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 5.644781037847356,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_025|arr_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_025|arr_emax",
+   "value": 0.3560572205369012,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_025|arr_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": 0.4633163089805904,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_025|arr_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_025|arr_hill",
+   "value": 0.019623875744104586,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_050|camp_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 8.136830288512293,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_050|camp_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_050|camp_pec50",
+   "value": 0.3094588466308538,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_050|camp_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 7.297426198197428,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_050|camp_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 0.6867416440763946,
+   "stars": "**",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_050|camp_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_050|camp_emax",
+   "value": 0.017750807402387943,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_050|camp_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": -1.0604237526784757,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_050|camp_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_050|camp_hill",
+   "value": 0.041284229908908,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_050|arr_pec50": {
+   "metric_type": "pEC50",
+   "unit": null,
+   "link_to": null,
+   "value": 6.3973576803192165,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_050|arr_pec50_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_050|arr_pec50",
+   "value": 0.03222809978536884,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_050|arr_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 400.53670397596494,
+   "stars": "",
+   "source": "10**(-mean pEC50)*1e9 in main()"
+  },
+  "ox_050|arr_emax": {
+   "metric_type": "Emax",
+   "unit": "fold",
+   "link_to": null,
+   "value": 6.388674756708865,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_050|arr_emax_se": {
+   "metric_type": "pm",
+   "unit": "fold",
+   "link_to": "ox_050|arr_emax",
+   "value": 0.20577959391076764,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  },
+  "ox_050|arr_hill": {
+   "metric_type": "Hill",
+   "unit": null,
+   "link_to": null,
+   "value": 0.6997709021663703,
+   "stars": "",
+   "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug",
+   "n": 4
+  },
+  "ox_050|arr_hill_se": {
+   "metric_type": "pm",
+   "unit": null,
+   "link_to": "ox_050|arr_hill",
+   "value": 0.01899952681947739,
+   "stars": "",
+   "source": "mean_sem(): SEM across experiments"
+  }
+ },
+ "instructions": "Fill `value` (a number; or a string such as '<x' or '>x' for a bound, 'n.d.' or 'N/A' if a number cannot be estimated) and `stars` (significance marker you would print, or '') for every cell. `unit` gives the unit the table uses for that cell."
+}

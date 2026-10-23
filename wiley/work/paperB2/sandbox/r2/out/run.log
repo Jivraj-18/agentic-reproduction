@@ -1,0 +1,17 @@
+cAMP 0.00 ug n=8 4P fit: pEC50=8.8270+-0.4542 Bottom=0.7937+-0.03313 Top=1.0166 Hill=-1.7024+-3.595
+cAMP 0.10 ug n=4 4P fit: pEC50=8.1441+-0.2411 Bottom=0.5722+-0.03303 Top=0.9773 Hill=-1.2065+-0.8949
+cAMP 0.25 ug n=4 4P fit: pEC50=7.9050+-0.1641 Bottom=0.5153+-0.02636 Top=1.0143 Hill=-0.7727+-0.2218
+cAMP 0.50 ug n=4 4P fit: pEC50=7.9907+-inf Bottom=0.6933+-inf Top=0.9579 Hill=-13.5322+-inf
+   0.50 refit, Hill constrained: pEC50=7.9670+-0.3329 Bottom=0.6861+-0.02954 Hill=-1.0
+barr2 0.00 ug n=8 4P fit: pEC50=5.5957+-1.371 Top=20.0075+-21.72 Hill=1.0895+-2.011
+   0.00 observed Emax (mean at 10 uM) = 16.5415+-4.618; half-observed-max crossing log[M]=-5.7437 -> pEC50 < 5.7437
+barr2 0.10 ug n=4 4P fit: pEC50=5.5117+-1.394 Top=5.6528+-3.152 Hill=0.4059+-0.2265
+barr2 0.25 ug n=4 4P fit: pEC50=6.0171+-0.2637 Top=5.6037+-0.625 Hill=0.4607+-0.07776
+barr2 0.50 ug n=4 4P fit: pEC50=6.3997+-0.06811 Top=6.3791+-0.2081 Hill=0.6979+-0.06164
+ANOVA cAMP pEC50: groups ['0.00', '0.10', '0.25', '0.50'] F=1.2899 p=0.3119; Tukey p vs 0.00: 0.10:0.6379, 0.25:0.3984, 0.50:0.4568
+ANOVA cAMP Emax: groups ['0.00', '0.10', '0.25', '0.50'] F=14.6983 p=7.364e-05; Tukey p vs 0.00: 0.10:0.001159, 0.25:0.0001085, 0.50:0.1398
+ANOVA cAMP Hill: groups ['0.00', '0.10', '0.25'] F=0.0213 p=0.9789; Tukey p vs 0.00: 0.10:0.9936, 0.25:0.9778
+ANOVA barr2 Emax: groups ['0.00', '0.10', '0.25', '0.50'] F=2.2131 p=0.1262; Tukey p vs 0.00: 0.10:0.2441, 0.25:0.2408, 0.50:0.2969
+ANOVA barr2 Hill: groups ['0.00', '0.10', '0.25', '0.50'] F=0.0409 p=0.9886; Tukey p vs 0.00: 0.10:0.9906, 0.25:0.9926, 0.50:0.9982
+unfilled cells: []
+wrote out\filled.json

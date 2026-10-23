@@ -1,0 +1,214 @@
+{
+ "paper": "A",
+ "cells": [
+  {
+   "cell": "fvc_lie|med_f",
+   "median_grade": "B",
+   "published": "54",
+   "reproduced": "56",
+   "category": "Original: underspecified",
+   "methods_item": "M6",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: compute_row() lines 66-69 - x0, x1 = paired(df, b, f); res['med_f'] = float(np.median(x1)) (same in r2 main() line 69, r3 compute() line 78)",
+   "explanation": "All three agents took the follow-up median only over the 16 participants with both a baseline and a follow-up FVC lying value. Participant 15 has a follow-up value (54%) but no baseline value. If the median is taken over every follow-up value available (n = 17), it is exactly 54.",
+   "evidence": "Median over all 17 available follow-up values = 54.0 (agent paired n=16: 56.0; published 54). The same reading reproduces every median cell in Table 1 (28/28). Scripts: eval/sensitivity/sens_all.py section 1; eval/sensitivity/best_reading.py",
+   "alternative_value": 54.0,
+   "suggested_wording": "Medians at each visit were computed over all participants with a value at that visit (FVC lying: n = 17 at baseline and n = 17 at 6 years), not only over the 16 participants with paired values.",
+   "root_cause": "rc1"
+  },
+  {
+   "cell": "stair_down|med_f",
+   "median_grade": "C",
+   "published": "0.4",
+   "reproduced": "0.5",
+   "category": "Original: underspecified",
+   "methods_item": "M6",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: compute_row() lines 66-69 - x0, x1 = paired(df, b, f); res['med_f'] = float(np.median(x1)) (same in r2 main() line 69, r3 compute() line 78)",
+   "explanation": "The agents dropped participant 20, who has no baseline stair-descent value but does have a follow-up value (0 steps/s, unable). The paired-only follow-up median of 22 values is 0.52. Including participant 20's follow-up value gives 23 values with a median of 0.42, which matches the published 0.4.",
+   "evidence": "Median over all 23 available follow-up values = 0.42 -> 0.4 (agent paired n=22: 0.52 -> 0.5; published 0.4). Scripts: eval/sensitivity/sens_all.py section 1; eval/sensitivity/best_reading.py",
+   "alternative_value": 0.42,
+   "suggested_wording": "Medians at each visit were computed over all participants with a value at that visit (timed tests: n = 22 at baseline and n = 23 at 6 years), whereas the Wilcoxon tests used only the 22 participants with paired values.",
+   "root_cause": "rc1"
+  },
+  {
+   "cell": "chair|med_f",
+   "median_grade": "C",
+   "published": "9.8",
+   "reproduced": "7.8",
+   "category": "Original: underspecified",
+   "methods_item": "M6 (with M5)",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: compute_row() lines 66-69 - x0, x1 = paired(df, b, f); res['med_f'] = float(np.median(x1))  # median_paired (10,000 s kept for chair rise) (same in r2 main() line 69, r3 compute() line 78)",
+   "explanation": "The agents kept the 10,000 s 'unable' code in the median (correct) but used only the 22 participants with paired values, so the median is the average of 5.8 and 9.8 = 7.8 s. Participant 20 has no baseline chair-rise time but was unable at follow-up (10,000 s). With all 23 follow-up values the median is the 12th value, 9.8 s, exactly as published.",
+   "evidence": "Median over all 23 available follow-up values, 10,000 s kept = 9.8 (agent paired n=22: 7.8; published 9.8). Dropping 'unable' from the median instead gives 1.9 (further away). No reading tried gives the footnoted n = 17 for chair rise except borrowing the FVC-sitting subset, which gives baseline 5.3 (published 2.6). Scripts: eval/sensitivity/sens_all.py sections 1 and 3",
+   "alternative_value": 9.8,
+   "suggested_wording": "Chair-rise medians were computed over all participants with a value at each visit (n = 22 at baseline, n = 23 at 6 years), with participants unable to rise coded as 10,000 s in the medians as well as in the Wilcoxon test.",
+   "root_cause": "rc1"
+  },
+  {
+   "cell": "tug|srm",
+   "median_grade": "B",
+   "published": "-0.48",
+   "reproduced": "-0.49",
+   "category": "Original: underspecified",
+   "methods_item": "M6",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: srm() lines 59-61 - d = x1 - x0; np.mean(d) / np.std(d, ddof=1), called on paired() output (n=22) (r2 srm() line 57, r3 srm() line 62)",
+   "explanation": "The Methods state no rule for a participant who has a follow-up value but no baseline value. The agents followed the footnote and used the 22 paired participants, giving -0.49. Including the one participant with no baseline (entered as 0, n = 23) gives -0.48, which matches the published -0.48.",
+   "evidence": "Paired only (n = 22): -0.49. All 23 participants, missing baseline as 0: -0.48. Published: -0.48. Script: eval/sensitivity/sens_all.py.",
+   "alternative_value": -0.4753,
+   "suggested_wording": "SRMs for the velocity tests were calculated over all 23 participants, with a missing baseline velocity entered as 0, whereas medians and Wilcoxon tests used the 22 participants with paired values.",
+   "root_cause": "rc3"
+  },
+  {
+   "cell": "tmwr|srm",
+   "median_grade": "B",
+   "published": "-1.02",
+   "reproduced": "-1.16",
+   "category": "Original: underspecified",
+   "methods_item": "M6",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: srm() lines 59-61 - d = x1 - x0; np.mean(d) / np.std(d, ddof=1), called on paired() output (n=22) (r2 srm() line 57, r3 srm() line 62)",
+   "explanation": "The Methods state no rule for a participant who has a follow-up value but no baseline value. The agents followed the footnote and used the 22 paired participants, giving -1.16. Including the one participant with no baseline (entered as 0, n = 23) gives -1.02, which matches the published -1.02.",
+   "evidence": "Paired only (n = 22): -1.16. All 23 participants, missing baseline as 0: -1.02. Published: -1.02. Script: eval/sensitivity/sens_all.py.",
+   "alternative_value": -1.0244,
+   "suggested_wording": "SRMs for the velocity tests were calculated over all 23 participants, with a missing baseline velocity entered as 0, whereas medians and Wilcoxon tests used the 22 participants with paired values.",
+   "root_cause": "rc3"
+  },
+  {
+   "cell": "stair_up|srm",
+   "median_grade": "B",
+   "published": "-0.46",
+   "reproduced": "-0.47",
+   "category": "Original: underspecified",
+   "methods_item": "M6",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: srm() lines 59-61 - d = x1 - x0; np.mean(d) / np.std(d, ddof=1), called on paired() output (n=22) (r2 srm() line 57, r3 srm() line 62)",
+   "explanation": "The Methods state no rule for a participant who has a follow-up value but no baseline value. The agents followed the footnote and used the 22 paired participants, giving -0.47. Including the one participant with no baseline (entered as 0, n = 23) gives -0.46, which matches the published -0.46.",
+   "evidence": "Paired only (n = 22): -0.47. All 23 participants, missing baseline as 0: -0.46. Published: -0.46. Script: eval/sensitivity/sens_all.py.",
+   "alternative_value": -0.4622,
+   "suggested_wording": "SRMs for the velocity tests were calculated over all 23 participants, with a missing baseline velocity entered as 0, whereas medians and Wilcoxon tests used the 22 participants with paired values.",
+   "root_cause": "rc3"
+  },
+  {
+   "cell": "stair_down|srm",
+   "median_grade": "B",
+   "published": "-0.47",
+   "reproduced": "-0.49",
+   "category": "Original: underspecified",
+   "methods_item": "M6",
+   "source_sentence": "Paired values available in 17 participants.",
+   "agent_code": "sandbox/r1/out/repro_table.py: srm() lines 59-61 - d = x1 - x0; np.mean(d) / np.std(d, ddof=1), called on paired() output (n=22) (r2 srm() line 57, r3 srm() line 62)",
+   "explanation": "The Methods state no rule for a participant who has a follow-up value but no baseline value. The agents followed the footnote and used the 22 paired participants, giving -0.49. Including the one participant with no baseline (entered as 0, n = 23) gives -0.47, which matches the published -0.47.",
+   "evidence": "Paired only (n = 22): -0.49. All 23 participants, missing baseline as 0: -0.47. Published: -0.47. Script: eval/sensitivity/sens_all.py.",
+   "alternative_value": -0.4724,
+   "suggested_wording": "SRMs for the velocity tests were calculated over all 23 participants, with a missing baseline velocity entered as 0, whereas medians and Wilcoxon tests used the 22 participants with paired values.",
+   "root_cause": "rc3"
+  },
+  {
+   "cell": "hip_flex|p",
+   "median_grade": "B",
+   "published": "0.13",
+   "reproduced": "0.14",
+   "category": "Unknown",
+   "methods_item": "S2",
+   "source_sentence": "Statistical significance was calculated using the Wilcoxon test for nonparametric data.",
+   "agent_code": "sandbox/r1/out/repro_table.py: wilcoxon_p() line 55 - stats.wilcoxon(x1, x0, zero_method='wilcox', correction=False, method='approx') (r2 wilcoxon_spss() line 52, r3 wilcoxon_spss() line 45)",
+   "explanation": "The data are complete (n=23, no zero differences), so the analysis set is not the issue. Every Wilcoxon variant named in the S2 gap moves the P value away from 0.13, not toward it. Dropping participant 20 gives 0.131, but the same exclusion breaks knee extension, so it is not a coherent reading.",
+   "evidence": "Asymptotic, no correction = 0.1401; with continuity correction = 0.1442; exact = 0.1511; Pratt/zsplit = 0.1401 (published 0.13). Excluding participant 20 = 0.1311, but for knee extension that gives 0.1997 (published 0.15). Jittering myometry by +/-0.05 kg puts 0.13 within reach in 16% of draws (1st-99th percentile 0.121-0.162). Scripts: eval/sensitivity/sens_all.py section 4; sens_extra.py sections B and D; best_reading.py",
+   "alternative_value": null,
+   "suggested_wording": null,
+   "root_cause": "rc4"
+  },
+  {
+   "cell": "knee_ext|p",
+   "median_grade": "B",
+   "published": "0.15",
+   "reproduced": "0.16",
+   "category": "Unknown",
+   "methods_item": "S2",
+   "source_sentence": "Statistical significance was calculated using the Wilcoxon test for nonparametric data.",
+   "agent_code": "sandbox/r1/out/repro_table.py: wilcoxon_p() line 55 - stats.wilcoxon(x1, x0, zero_method='wilcox', correction=False, method='approx') (r2 wilcoxon_spss() line 52, r3 wilcoxon_spss() line 45)",
+   "explanation": "The data are complete (n=23, no zero differences). All S2 variants give larger P values (0.162-0.170), moving away from 0.15. Only dropping participant 6 hits 0.15, and nothing in the paper supports that exclusion.",
+   "evidence": "Asymptotic, no correction = 0.1618; continuity correction = 0.1664; exact = 0.1695 (published 0.15). Leave-one-out: only excluding participant 6 gives 0.1485. Jitter of +/-0.05 kg reaches 0.15 in 26% of draws, which is only plausible if the original strength values had more precision than the deposit. Scripts: eval/sensitivity/sens_all.py section 4; sens_extra.py section B; best_reading.py",
+   "alternative_value": null,
+   "suggested_wording": null,
+   "root_cause": "rc4"
+  },
+  {
+   "cell": "tug|p",
+   "median_grade": "E",
+   "published": "0.007",
+   "reproduced": "0.012",
+   "category": "Unknown",
+   "methods_item": "S2 (with M4/F1)",
+   "source_sentence": "Statistical significance was calculated using the Wilcoxon test for nonparametric data.",
+   "agent_code": "sandbox/r1/out/repro_table.py: wilcoxon_p() line 55 - stats.wilcoxon(x1, x0, zero_method='wilcox', correction=False, method='approx') on 22 pairs, 2 zero differences dropped (r2 wilcoxon_spss() line 52, r3 wilcoxon_spss() line 45)",
+   "explanation": "The agents' SPSS-style test gives 0.012. Keeping zero differences (Pratt), with participant 20 counted as 0 -> 0, gives 0.0073, which matches the published 0.007. That combination is not SPSS's default, though. Applied to every row, it pushes stair-descent P further from its published value (0.0059 vs 0.008) and chair-rise P below 0.001 (published 0.001), so it cannot be shown to be what the authors did.",
+   "evidence": "Asymptotic wilcox = 0.0124; continuity correction = 0.0130; exact = 0.0107; Pratt n=22 = 0.0085; Pratt with participant 20 as 0 (n=23) = 0.0073 (published 0.007). Converting velocities back to times (6/v, unable = 10,000 s) = 0.0025. Perturbing the deposited values by +/-0.005 never reaches 0.007 (range 0.0100-0.0137). Scripts: eval/sensitivity/sens_all.py sections 4-5; sens_extra.py sections A and C",
+   "alternative_value": 0.0073,
+   "suggested_wording": null,
+   "root_cause": "rc4"
+  },
+  {
+   "cell": "stair_down|p",
+   "median_grade": "B",
+   "published": "0.008",
+   "reproduced": "0.007",
+   "category": "Unknown",
+   "methods_item": "S2",
+   "source_sentence": "Statistical significance was calculated using the Wilcoxon test for nonparametric data.",
+   "agent_code": "sandbox/r1/out/repro_table.py: wilcoxon_p() line 55 - stats.wilcoxon(x1, x0, zero_method='wilcox', correction=False, method='approx') (r2 wilcoxon_spss() line 52, r3 wilcoxon_spss() line 45)",
+   "explanation": "No Wilcoxon variant reaches 0.008. Continuity correction gives 0.0074 (still 0.007), and Pratt or exact moves it the other way. The most likely cause is that the deposited velocities are given to only 2 decimals, which creates ties the authors' original values did not have. That cannot be confirmed because the raw times are not deposited, and the data manifest marks velocities as 'full', so 'Data missing' does not strictly apply.",
+   "evidence": "Asymptotic = 0.0071; continuity correction = 0.0074; Pratt = 0.0064; exact = 0.0055 (published 0.008). Jittering non-zero velocities by +/-0.005 gives a median P of 0.0078, and 51% of draws give 0.008. Scripts: eval/sensitivity/sens_all.py section 4; sens_extra.py section C",
+   "alternative_value": 0.0078,
+   "suggested_wording": null,
+   "root_cause": "rc4"
+  }
+ ],
+ "root_causes": [
+  {
+   "id": "rc1",
+   "title": "Medians over all available values, not paired-only",
+   "category": "Original: underspecified",
+   "cells": [
+    "fvc_lie|med_f",
+    "stair_down|med_f",
+    "chair|med_f"
+   ],
+   "summary": "The table footnotes give paired-value counts (16, 17, 22), so all three agents computed medians only over participants with both visits. The published medians are instead taken over every value available at each visit, which adds participant 15 (FVC lying, follow-up only) and participant 20 (timed tests and chair rise, follow-up only). This one reading reproduces all 28 median cells: 56 -> 54, 0.52 -> 0.42 (0.4) and 7.8 -> 9.8, and it also fixes FVC sitting at 6 years (65 -> 63.5, published 64).",
+   "suggested_wording": "Medians at each visit were computed over all participants with a value at that visit (so n can exceed the number of paired values given in the footnotes), whereas Wilcoxon tests used only participants with paired values."
+  },
+  {
+   "id": "rc3",
+   "title": "Missing-baseline handling in the velocity SRMs",
+   "category": "Original: underspecified",
+   "cells": [
+    "tug|srm",
+    "tmwr|srm",
+    "stair_up|srm",
+    "stair_down|srm"
+   ],
+   "summary": "The Methods give no missing-data rule. Read as paired participants only (22, as the footnote says), the four velocity SRMs come out at -0.49, -1.16, -0.47 and -0.49. Counting the one participant with no baseline value as 0 (n = 23) gives -0.48, -1.02, -0.46 and -0.47, the published values. This single reading moves all four cells onto the published numbers.",
+   "suggested_wording": "SRMs for the velocity tests were calculated over all 23 participants, with a missing baseline velocity entered as 0, whereas medians and Wilcoxon tests used the 22 participants with paired values."
+  },
+  {
+   "id": "rc4",
+   "title": "Small Wilcoxon P residuals with no reproducing reading",
+   "category": "Unknown",
+   "cells": [
+    "hip_flex|p",
+    "knee_ext|p",
+    "tug|p",
+    "stair_down|p"
+   ],
+   "summary": "We tried asymptotic vs exact, continuity correction, wilcox/pratt/zsplit zero handling, participant-20 handling, re-expressing velocities as times, leave-one-out, and small perturbations of the deposited values. None of them reproduces these four P values together without breaking others. Strength P values (0.14 vs 0.13, 0.16 vs 0.15) move away from the published values under every variant, and TUG matches only under a Pratt plus n=23 combination that worsens two other rows. Stair-descent P is consistent with the deposited velocities being given to only 2 decimals, but that cannot be confirmed.",
+   "suggested_wording": "Wilcoxon signed-rank P values were computed in SPSS v24 (asymptotic, zero differences excluded, no continuity correction) on the original measurements; the deposited velocities are given to 2 decimals and may give slightly different P values."
+  }
+ ],
+ "best_example": {
+  "root_cause": "rc1",
+  "why": "One unstated choice, whether medians use every value at a visit or only paired participants, accounts for three missed cells (including chair rise at 6 years, 7.8 s vs 9.8 s), and a single sentence of Methods would have let all 28 median cells be reproduced exactly."
+ }
+}

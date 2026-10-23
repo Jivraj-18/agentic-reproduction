@@ -1,0 +1,483 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. The median change in functional assessments over the follow-up of 6 years.",
+ "rows": [
+  {
+   "id": "fvc_sit",
+   "label": "Forced vital capacity sitting (%)"
+  },
+  {
+   "id": "fvc_lie",
+   "label": "Forced vital capacity lying (%)"
+  },
+  {
+   "id": "hip_flex",
+   "label": "Hip flexion (kg)"
+  },
+  {
+   "id": "hip_add",
+   "label": "Hip adduction (kg)"
+  },
+  {
+   "id": "hip_abd",
+   "label": "Hip abduction (kg)"
+  },
+  {
+   "id": "knee_ext",
+   "label": "Knee extension (kg)"
+  },
+  {
+   "id": "knee_flex",
+   "label": "Knee flexion (kg)"
+  },
+  {
+   "id": "ankle_df",
+   "label": "Ankle dorsiflexion (kg)"
+  },
+  {
+   "id": "smwt",
+   "label": "Six-minute walk (meters)"
+  },
+  {
+   "id": "tug",
+   "label": "Timed up and go velocity (msec-1)"
+  },
+  {
+   "id": "tmwr",
+   "label": "Ten-meter walk or run velocity (msec-1)"
+  },
+  {
+   "id": "stair_up",
+   "label": "Stair ascent velocity (steps/sec)"
+  },
+  {
+   "id": "stair_down",
+   "label": "Stair descent velocity (steps/sec)"
+  },
+  {
+   "id": "chair",
+   "label": "Chair rise (sec)"
+  }
+ ],
+ "columns": [
+  {
+   "id": "med_b",
+   "label": "Median baseline",
+   "metric_type": "median"
+  },
+  {
+   "id": "med_f",
+   "label": "Median 6 years",
+   "metric_type": "median"
+  },
+  {
+   "id": "p",
+   "label": "P value",
+   "metric_type": "p"
+  },
+  {
+   "id": "srm",
+   "label": "SRM",
+   "metric_type": "SRM"
+  }
+ ],
+ "star_legend": {
+  "a": "P < 0.05"
+ },
+ "cells": {
+  "fvc_sit|med_b": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_sit|med_f": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_sit|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_sit|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_lie|med_b": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_lie|med_f": {
+   "metric_type": "median",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_lie|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fvc_lie|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_flex|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_flex|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_flex|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_flex|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_add|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_add|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_add|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_add|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_abd|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_abd|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_abd|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hip_abd|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_ext|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_ext|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_ext|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_ext|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_flex|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_flex|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_flex|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "knee_flex|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ankle_df|med_b": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ankle_df|med_f": {
+   "metric_type": "median",
+   "unit": "kg",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ankle_df|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ankle_df|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "smwt|med_b": {
+   "metric_type": "median",
+   "unit": "m",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "smwt|med_f": {
+   "metric_type": "median",
+   "unit": "m",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "smwt|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "smwt|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tug|med_b": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tug|med_f": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tug|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tug|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tmwr|med_b": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tmwr|med_f": {
+   "metric_type": "median",
+   "unit": "m/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tmwr|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "tmwr|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_up|med_b": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_up|med_f": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_up|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_up|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_down|med_b": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_down|med_f": {
+   "metric_type": "median",
+   "unit": "steps/s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_down|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "stair_down|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "chair|med_b": {
+   "metric_type": "median",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "chair|med_f": {
+   "metric_type": "median",
+   "unit": "s",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "chair|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "chair|srm": {
+   "metric_type": "SRM",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  }
+ },
+ "instructions": "Fill `value` (a number; or a string such as '<x' or '>x' for a bound, 'n.d.' or 'N/A' if a number cannot be estimated) and `stars` (significance marker you would print, or '') for every cell. `unit` gives the unit the table uses for that cell."
+}

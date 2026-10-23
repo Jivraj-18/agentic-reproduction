@@ -1,0 +1,3101 @@
+{
+ "paper": "B",
+ "table": "Table 1",
+ "runs": [
+  "r1",
+  "r2",
+  "r3"
+ ],
+ "summary": {
+  "n_cells_graded": 52,
+  "per_run": {
+   "r1": {
+    "distribution": {
+     "A": 36,
+     "B": 4,
+     "C": 3,
+     "D": 0,
+     "E": 7,
+     "F": 2
+    },
+    "table_grade": {
+     "mean_points": 4.077,
+     "letter": "B"
+    },
+    "within_1.96se": [
+     20,
+     21
+    ],
+    "stars_agree": [
+     6,
+     8
+    ]
+   },
+   "r2": {
+    "distribution": {
+     "A": 34,
+     "B": 3,
+     "C": 3,
+     "D": 2,
+     "E": 8,
+     "F": 2
+    },
+    "table_grade": {
+     "mean_points": 3.904,
+     "letter": "B"
+    },
+    "within_1.96se": [
+     18,
+     21
+    ],
+    "stars_agree": [
+     6,
+     8
+    ]
+   },
+   "r3": {
+    "distribution": {
+     "A": 14,
+     "B": 12,
+     "C": 7,
+     "D": 3,
+     "E": 16,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 3.096,
+     "letter": "C"
+    },
+    "within_1.96se": [
+     19,
+     21
+    ],
+    "stars_agree": [
+     6,
+     8
+    ]
+   }
+  },
+  "median_cell_grades": {
+   "A": 35,
+   "B": 3,
+   "C": 2,
+   "D": 2,
+   "E": 8,
+   "F": 2
+  },
+  "consensus_cell_grades": {
+   "A": 35,
+   "B": 3,
+   "C": 4,
+   "D": 1,
+   "E": 9,
+   "F": 0
+  },
+  "table_grade_median_of_runs": 3.904,
+  "sign_match": [
+   51,
+   52
+  ],
+  "within_1.96se_consensus": [
+   18,
+   21
+  ],
+  "runs_identical_cells": [
+   12,
+   52
+  ],
+  "runs_same_grade_cells": [
+   18,
+   52
+  ],
+  "within_20pct_consensus": [
+   38,
+   52
+  ],
+  "table_grade_median_letter": "B"
+ },
+ "cells": {
+  "ox_000|camp_pec50": {
+   "published_raw": "8.8",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 8.85717161934007,
+     "reproduced_unrounded": 8.85717161934007,
+     "reproduced": 8.9,
+     "grade": "A",
+     "deviation_pct": 1.1363636363636322,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 8.36197,
+     "reproduced_unrounded": 8.36197,
+     "reproduced": 8.4,
+     "grade": "B",
+     "deviation_pct": 4.545454545454549,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 8.37308537404625,
+     "reproduced_unrounded": 8.37308537404625,
+     "reproduced": 8.4,
+     "grade": "B",
+     "deviation_pct": 4.545454545454549,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.37308537404625,
+    "reproduced_unrounded": 8.37308537404625,
+    "reproduced": 8.4,
+    "grade": "B",
+    "deviation_pct": 4.545454545454549,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.627291128864438,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "B",
+    "B"
+   ],
+   "median_grade": "B",
+   "published_error": 0.45
+  },
+  "ox_000|camp_pec50_se": {
+   "published_raw": "0.45",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.5508284903076385,
+     "reproduced_unrounded": 0.5508284903076385,
+     "reproduced": 0.55,
+     "grade": "C",
+     "deviation_pct": 22.22222222222223,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.672887,
+     "reproduced_unrounded": 0.672887,
+     "reproduced": 0.67,
+     "grade": "D",
+     "deviation_pct": 48.88888888888889,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.03776713862291229,
+     "reproduced_unrounded": 0.03776713862291229,
+     "reproduced": 0.04,
+     "grade": "E",
+     "deviation_pct": 91.11111111111111,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.5508284903076385,
+    "reproduced_unrounded": 0.5508284903076385,
+    "reproduced": 0.55,
+    "grade": "C",
+    "deviation_pct": 22.22222222222223,
+    "sign_match": true
+   },
+   "run_spread_pct": 141.13774697268616,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "D",
+    "E"
+   ],
+   "median_grade": "D"
+  },
+  "ox_000|camp_ec50": {
+   "published_raw": "1.5",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.389403474737285,
+     "reproduced_unrounded": 1.389403474737285,
+     "reproduced": 1.4,
+     "grade": "B",
+     "deviation_pct": 6.666666666666672,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6) ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 4.34544,
+     "reproduced_unrounded": 4.34544,
+     "reproduced": 4.3,
+     "grade": "E",
+     "deviation_pct": 186.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 4.235596940741083,
+     "reproduced_unrounded": 4.235596940741083,
+     "reproduced": 4.2,
+     "grade": "E",
+     "deviation_pct": 180.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.235596940741083,
+    "reproduced_unrounded": 4.235596940741083,
+    "reproduced": 4.2,
+    "grade": "E",
+    "deviation_pct": 180.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 197.06910168418102,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "ox_000|camp_emax": {
+   "published_raw": "0.79",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.7889719687533437,
+     "reproduced_unrounded": 0.7889719687533437,
+     "reproduced": 0.79,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.859955,
+     "reproduced_unrounded": 0.859955,
+     "reproduced": 0.86,
+     "grade": "B",
+     "deviation_pct": 8.86075949367088,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.8602615093842644,
+     "reproduced_unrounded": 0.8602615093842644,
+     "reproduced": 0.86,
+     "grade": "B",
+     "deviation_pct": 8.86075949367088,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.859955,
+    "reproduced_unrounded": 0.859955,
+    "reproduced": 0.86,
+    "grade": "B",
+    "deviation_pct": 8.86075949367088,
+    "sign_match": true
+   },
+   "run_spread_pct": 9.023992484926662,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "B",
+    "B"
+   ],
+   "median_grade": "B",
+   "published_error": 0.03
+  },
+  "ox_000|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.03110813392829895,
+     "reproduced_unrounded": 0.03110813392829895,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.0241765,
+     "reproduced_unrounded": 0.0241765,
+     "reproduced": 0.02,
+     "grade": "C",
+     "deviation_pct": 33.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.03276953143351776,
+     "reproduced_unrounded": 0.03276953143351776,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.03110813392829895,
+    "reproduced_unrounded": 0.03110813392829895,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 28.64343811172587,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "C",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_000|camp_hill": {
+   "published_raw": "-1.7",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "E",
+     "deviation_pct": 158.82352941176472,
+     "sign_match": false,
+     "stars": "",
+     "source": "rule S6: Hill slope constrained to 1"
+    },
+    "r2": {
+     "reproduced_raw": -1.0,
+     "reproduced_unrounded": -1.0,
+     "reproduced": -1.0,
+     "grade": "D",
+     "deviation_pct": 41.17647058823529,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": -1.0,
+     "reproduced_unrounded": -1.0,
+     "reproduced": -1.0,
+     "grade": "D",
+     "deviation_pct": 41.17647058823529,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.0,
+    "reproduced_unrounded": -1.0,
+    "reproduced": -1.0,
+    "grade": "D",
+    "deviation_pct": 41.17647058823529,
+    "sign_match": true
+   },
+   "run_spread_pct": 117.64705882352942,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "D",
+    "D"
+   ],
+   "median_grade": "D",
+   "published_error": 3.6
+  },
+  "ox_000|camp_hill_se": {
+   "published_raw": "3.6",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "N/A",
+     "grade": "F",
+     "deviation_pct": null,
+     "sign_match": null,
+     "reproduced": null,
+     "stars": "",
+     "source": "rule S6: constrained, no SE"
+    },
+    "r2": {
+     "reproduced_raw": "N/A",
+     "grade": "F",
+     "deviation_pct": null,
+     "sign_match": null,
+     "reproduced": null,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.0,
+     "reproduced_unrounded": 0.0,
+     "reproduced": 0.0,
+     "grade": "E",
+     "deviation_pct": 100.0,
+     "sign_match": false,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0,
+    "reproduced_unrounded": 0.0,
+    "reproduced": 0.0,
+    "grade": "E",
+    "deviation_pct": 100.0,
+    "sign_match": false
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": false,
+   "run_grades": [
+    "F",
+    "F",
+    "E"
+   ],
+   "median_grade": "F"
+  },
+  "ox_000|arr_pec50": {
+   "published_raw": "<5",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 5.52611144999095,
+     "reproduced_unrounded": 5.52611144999095,
+     "reproduced": 6.0,
+     "grade": "B",
+     "deviation_pct": 10.522229000000003,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 6.17964,
+     "reproduced_unrounded": 6.17964,
+     "reproduced": 6.0,
+     "grade": "C",
+     "deviation_pct": 23.5928,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 6.174552414869369,
+     "reproduced_unrounded": 6.174552414869369,
+     "reproduced": 6.0,
+     "grade": "C",
+     "deviation_pct": 23.4910483,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.174552414869369,
+    "reproduced_unrounded": 6.174552414869369,
+    "reproduced": 6.0,
+    "grade": "C",
+    "deviation_pct": 23.4910483,
+    "sign_match": true,
+    "bound_satisfied": false
+   },
+   "run_spread_pct": 13.070571000181008,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "ox_000|arr_pec50_se": {
+   "published_raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.3497846906762337,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.245884,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.10448474309676441,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   }
+  },
+  "ox_000|arr_ec50": {
+   "published_raw": ">10000",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 2977.7521714134014,
+     "reproduced_unrounded": 2977.7521714134014,
+     "reproduced": 2978.0,
+     "grade": "E",
+     "deviation_pct": 70.22247828587001,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6) ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 661.237,
+     "reproduced_unrounded": 661.237,
+     "reproduced": 661.0,
+     "grade": "E",
+     "deviation_pct": 93.38763000000002,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 669.0330697747132,
+     "reproduced_unrounded": 669.0330697747132,
+     "reproduced": 669.0,
+     "grade": "E",
+     "deviation_pct": 93.30966930225001,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 669.0330697747132,
+    "reproduced_unrounded": 669.0330697747132,
+    "reproduced": 669.0,
+    "grade": "E",
+    "deviation_pct": 93.30966930225001,
+    "sign_match": true,
+    "bound_satisfied": false
+   },
+   "run_spread_pct": 23.165151714134012,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "ox_000|arr_emax": {
+   "published_raw": "17",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 21.15295353348287,
+     "reproduced_unrounded": 21.15295353348287,
+     "reproduced": 21.0,
+     "grade": "C",
+     "deviation_pct": 23.52941176470588,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 5.14785,
+     "reproduced_unrounded": 5.14785,
+     "reproduced": 5.0,
+     "grade": "E",
+     "deviation_pct": 70.58823529411765,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 5.2189571877955085,
+     "reproduced_unrounded": 5.2189571877955085,
+     "reproduced": 5.0,
+     "grade": "E",
+     "deviation_pct": 70.58823529411765,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.2189571877955085,
+    "reproduced_unrounded": 5.2189571877955085,
+    "reproduced": 5.0,
+    "grade": "E",
+    "deviation_pct": 70.58823529411765,
+    "sign_match": true
+   },
+   "run_spread_pct": 94.14766784401687,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "E",
+    "E"
+   ],
+   "median_grade": "E",
+   "published_error": 4.6
+  },
+  "ox_000|arr_emax_se": {
+   "published_raw": "4.6",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 4.914167220491077,
+     "reproduced_unrounded": 4.914167220491077,
+     "reproduced": 4.9,
+     "grade": "B",
+     "deviation_pct": 6.521739130434799,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.568755,
+     "reproduced_unrounded": 0.568755,
+     "reproduced": 0.6,
+     "grade": "E",
+     "deviation_pct": 86.95652173913044,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.5247710077673092,
+     "reproduced_unrounded": 0.5247710077673092,
+     "reproduced": 0.5,
+     "grade": "E",
+     "deviation_pct": 89.13043478260869,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.568755,
+    "reproduced_unrounded": 0.568755,
+    "reproduced": 0.6,
+    "grade": "E",
+    "deviation_pct": 86.95652173913044,
+    "sign_match": true
+   },
+   "run_spread_pct": 95.4216567983428,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "ox_000|arr_hill": {
+   "published_raw": "n.d.",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.0,
+     "stars": "",
+     "source": "rule S6: Hill slope constrained to 1"
+    },
+    "r2": {
+     "reproduced_raw": 0.559304,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.5681758167966449,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   }
+  },
+  "ox_000|arr_hill_se": {
+   "published_raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "rule S6: constrained, no SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.123308,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.036403368738990666,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   }
+  },
+  "ox_010|camp_pec50": {
+   "published_raw": "8.1",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 8.144086624981998,
+     "reproduced_unrounded": 8.144086624981998,
+     "reproduced": 8.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 8.14409,
+     "reproduced_unrounded": 8.14409,
+     "reproduced": 8.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 8.261055244458287,
+     "reproduced_unrounded": 8.261055244458287,
+     "reproduced": 8.3,
+     "grade": "B",
+     "deviation_pct": 2.469135802469149,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.14409,
+    "reproduced_unrounded": 8.14409,
+    "reproduced": 8.1,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.444057030571468,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A",
+   "published_error": 0.24
+  },
+  "ox_010|camp_pec50_se": {
+   "published_raw": "0.24",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.2411374470383097,
+     "reproduced_unrounded": 0.2411374470383097,
+     "reproduced": 0.24,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.241121,
+     "reproduced_unrounded": 0.241121,
+     "reproduced": 0.24,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.19663460816682032,
+     "reproduced_unrounded": 0.19663460816682032,
+     "reproduced": 0.2,
+     "grade": "B",
+     "deviation_pct": 16.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.241121,
+    "reproduced_unrounded": 0.241121,
+    "reproduced": 0.24,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 18.54284952978724,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|camp_ec50": {
+   "published_raw": "7.2",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.176511333004085,
+     "reproduced_unrounded": 7.176511333004085,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 7.17648,
+     "reproduced_unrounded": 7.17648,
+     "reproduced": 7.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 5.482072257489595,
+     "reproduced_unrounded": 5.482072257489595,
+     "reproduced": 5.5,
+     "grade": "C",
+     "deviation_pct": 23.611111111111114,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.17648,
+    "reproduced_unrounded": 7.17648,
+    "reproduced": 7.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 23.53387604881237,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "C"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|camp_emax": {
+   "published_raw": "0.57",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "**",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.5722204487509989,
+     "reproduced_unrounded": 0.5722204487509989,
+     "reproduced": 0.57,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.57222,
+     "reproduced_unrounded": 0.57222,
+     "reproduced": 0.57,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.5633430060935603,
+     "reproduced_unrounded": 0.5633430060935603,
+     "reproduced": 0.56,
+     "grade": "A",
+     "deviation_pct": 1.7543859649122628,
+     "sign_match": true,
+     "stars": "***",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.57222,
+    "reproduced_unrounded": 0.57222,
+    "reproduced": 0.57,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.557446080252389,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_010|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.033034690807033744,
+     "reproduced_unrounded": 0.033034690807033744,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.0330341,
+     "reproduced_unrounded": 0.0330341,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.04584045675148213,
+     "reproduced_unrounded": 0.04584045675148213,
+     "reproduced": 0.05,
+     "grade": "E",
+     "deviation_pct": 66.66666666666669,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.033034690807033744,
+    "reproduced_unrounded": 0.033034690807033744,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 42.68785583827378,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "E"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|camp_hill": {
+   "published_raw": "-1.2",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -1.2065123860786329,
+     "reproduced_unrounded": -1.2065123860786329,
+     "reproduced": -1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": -1.20651,
+     "reproduced_unrounded": -1.20651,
+     "reproduced": -1.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": -0.8300947667338299,
+     "reproduced_unrounded": -0.8300947667338299,
+     "reproduced": -0.8,
+     "grade": "C",
+     "deviation_pct": 33.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.20651,
+    "reproduced_unrounded": -1.20651,
+    "reproduced": -1.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 31.36813494540025,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "C"
+   ],
+   "median_grade": "A",
+   "published_error": 0.9
+  },
+  "ox_010|camp_hill_se": {
+   "published_raw": "0.90",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.8948050450246035,
+     "reproduced_unrounded": 0.8948050450246035,
+     "reproduced": 0.89,
+     "grade": "A",
+     "deviation_pct": 1.111111111111112,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.895003,
+     "reproduced_unrounded": 0.895003,
+     "reproduced": 0.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.06491163028771299,
+     "reproduced_unrounded": 0.06491163028771299,
+     "reproduced": 0.06,
+     "grade": "E",
+     "deviation_pct": 93.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.8948050450246035,
+    "reproduced_unrounded": 0.8948050450246035,
+    "reproduced": 0.89,
+    "grade": "A",
+    "deviation_pct": 1.111111111111112,
+    "sign_match": true
+   },
+   "run_spread_pct": 92.23237441247633,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "E"
+   ],
+   "median_grade": "A"
+  },
+  "ox_010|arr_pec50": {
+   "published_raw": "5.5",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.263741998862985,
+     "reproduced_unrounded": 6.263741998862985,
+     "reproduced": 6.3,
+     "grade": "B",
+     "deviation_pct": 14.545454545454541,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 6.26364,
+     "reproduced_unrounded": 6.26364,
+     "reproduced": 6.3,
+     "grade": "B",
+     "deviation_pct": 14.545454545454541,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 5.9880354632758905,
+     "reproduced_unrounded": 5.9880354632758905,
+     "reproduced": 6.0,
+     "grade": "B",
+     "deviation_pct": 9.090909090909092,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.26364,
+    "reproduced_unrounded": 6.26364,
+    "reproduced": 6.3,
+    "grade": "B",
+    "deviation_pct": 14.545454545454541,
+    "sign_match": true
+   },
+   "run_spread_pct": 5.0128461015835315,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B",
+    "B"
+   ],
+   "median_grade": "B",
+   "published_error": 1.4
+  },
+  "ox_010|arr_pec50_se": {
+   "published_raw": "1.4",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.17877623592407652,
+     "reproduced_unrounded": 0.17877623592407652,
+     "reproduced": 0.2,
+     "grade": "E",
+     "deviation_pct": 85.71428571428572,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.178766,
+     "reproduced_unrounded": 0.178766,
+     "reproduced": 0.2,
+     "grade": "E",
+     "deviation_pct": 85.71428571428572,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.1740625773514183,
+     "reproduced_unrounded": 0.1740625773514183,
+     "reproduced": 0.2,
+     "grade": "E",
+     "deviation_pct": 85.71428571428572,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.178766,
+    "reproduced_unrounded": 0.178766,
+    "reproduced": 0.2,
+    "grade": "E",
+    "deviation_pct": 85.71428571428572,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.3366898980470149,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "ox_010|arr_ec50": {
+   "published_raw": "3000",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 544.8262214019862,
+     "reproduced_unrounded": 544.8262214019862,
+     "reproduced": 1000.0,
+     "grade": "E",
+     "deviation_pct": 66.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6) ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 544.958,
+     "reproduced_unrounded": 544.958,
+     "reproduced": 1000.0,
+     "grade": "E",
+     "deviation_pct": 66.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 1027.9323566105697,
+     "reproduced_unrounded": 1027.9323566105697,
+     "reproduced": 1000.0,
+     "grade": "E",
+     "deviation_pct": 66.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 544.958,
+    "reproduced_unrounded": 544.958,
+    "reproduced": 1000.0,
+    "grade": "E",
+    "deviation_pct": 66.66666666666666,
+    "sign_match": true
+   },
+   "run_spread_pct": 16.103537840286116,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "ox_010|arr_emax": {
+   "published_raw": "5.7",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 3.8253282092045815,
+     "reproduced_unrounded": 3.8253282092045815,
+     "reproduced": 3.8,
+     "grade": "C",
+     "deviation_pct": 33.333333333333336,
+     "sign_match": true,
+     "stars": "*",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 3.82543,
+     "reproduced_unrounded": 3.82543,
+     "reproduced": 3.8,
+     "grade": "C",
+     "deviation_pct": 33.333333333333336,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 4.596713440952485,
+     "reproduced_unrounded": 4.596713440952485,
+     "reproduced": 4.6,
+     "grade": "B",
+     "deviation_pct": 19.298245614035096,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.82543,
+    "reproduced_unrounded": 3.82543,
+    "reproduced": 3.8,
+    "grade": "C",
+    "deviation_pct": 33.333333333333336,
+    "sign_match": true
+   },
+   "run_spread_pct": 13.533074241191281,
+   "runs_agree": false,
+   "run_grades": [
+    "C",
+    "C",
+    "B"
+   ],
+   "median_grade": "C",
+   "published_error": 3.2
+  },
+  "ox_010|arr_emax_se": {
+   "published_raw": "3.2",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.25053580759681526,
+     "reproduced_unrounded": 0.25053580759681526,
+     "reproduced": 0.3,
+     "grade": "E",
+     "deviation_pct": 90.62500000000001,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.250559,
+     "reproduced_unrounded": 0.250559,
+     "reproduced": 0.3,
+     "grade": "E",
+     "deviation_pct": 90.62500000000001,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.8832402976203412,
+     "reproduced_unrounded": 0.8832402976203412,
+     "reproduced": 0.9,
+     "grade": "E",
+     "deviation_pct": 71.875,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.250559,
+    "reproduced_unrounded": 0.250559,
+    "reproduced": 0.3,
+    "grade": "E",
+    "deviation_pct": 90.62500000000001,
+    "sign_match": true
+   },
+   "run_spread_pct": 19.772015313235183,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "ox_010|arr_hill": {
+   "published_raw": "0.41",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "E",
+     "deviation_pct": 143.90243902439028,
+     "sign_match": true,
+     "stars": "",
+     "source": "rule S6: Hill slope constrained to 1"
+    },
+    "r2": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "E",
+     "deviation_pct": 143.90243902439028,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.7441256862608707,
+     "reproduced_unrounded": 0.7441256862608707,
+     "reproduced": 0.74,
+     "grade": "E",
+     "deviation_pct": 80.48780487804879,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0,
+    "reproduced_unrounded": 1.0,
+    "reproduced": 1.0,
+    "grade": "E",
+    "deviation_pct": 143.90243902439028,
+    "sign_match": true
+   },
+   "run_spread_pct": 62.40836920466568,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "E",
+    "E"
+   ],
+   "median_grade": "E",
+   "published_error": 0.23
+  },
+  "ox_010|arr_hill_se": {
+   "published_raw": "0.23",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "N/A",
+     "grade": "F",
+     "deviation_pct": null,
+     "sign_match": null,
+     "reproduced": null,
+     "stars": "",
+     "source": "rule S6: constrained, no SE"
+    },
+    "r2": {
+     "reproduced_raw": "N/A",
+     "grade": "F",
+     "deviation_pct": null,
+     "sign_match": null,
+     "reproduced": null,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.15124270968786785,
+     "reproduced_unrounded": 0.15124270968786785,
+     "reproduced": 0.15,
+     "grade": "C",
+     "deviation_pct": 34.78260869565218,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.15124270968786785,
+    "reproduced_unrounded": 0.15124270968786785,
+    "reproduced": 0.15,
+    "grade": "C",
+    "deviation_pct": 34.78260869565218,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": false,
+   "run_grades": [
+    "F",
+    "F",
+    "C"
+   ],
+   "median_grade": "F"
+  },
+  "ox_025|camp_pec50": {
+   "published_raw": "7.9",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.905002911585891,
+     "reproduced_unrounded": 7.905002911585891,
+     "reproduced": 7.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 7.90501,
+     "reproduced_unrounded": 7.90501,
+     "reproduced": 7.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 7.975774895138526,
+     "reproduced_unrounded": 7.975774895138526,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.90501,
+    "reproduced_unrounded": 7.90501,
+    "reproduced": 7.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.895847893071335,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.16
+  },
+  "ox_025|camp_pec50_se": {
+   "published_raw": "0.16",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.16407598363463116,
+     "reproduced_unrounded": 0.16407598363463116,
+     "reproduced": 0.16,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.164071,
+     "reproduced_unrounded": 0.164071,
+     "reproduced": 0.16,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.1400148376562568,
+     "reproduced_unrounded": 0.1400148376562568,
+     "reproduced": 0.14,
+     "grade": "B",
+     "deviation_pct": 12.499999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.164071,
+    "reproduced_unrounded": 0.164071,
+    "reproduced": 0.16,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 15.038216236483976,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_ec50": {
+   "published_raw": "12",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 12.445062683565151,
+     "reproduced_unrounded": 12.445062683565151,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 12.4447,
+     "reproduced_unrounded": 12.4447,
+     "reproduced": 12.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 10.573654241256772,
+     "reproduced_unrounded": 10.573654241256772,
+     "reproduced": 11.0,
+     "grade": "B",
+     "deviation_pct": 8.333333333333332,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 12.4447,
+    "reproduced_unrounded": 12.4447,
+    "reproduced": 12.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 15.595070352569826,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_emax": {
+   "published_raw": "0.52",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "***",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.5152627550457124,
+     "reproduced_unrounded": 0.5152627550457124,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.515261,
+     "reproduced_unrounded": 0.515261,
+     "reproduced": 0.52,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "***",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.5110995296971446,
+     "reproduced_unrounded": 0.5110995296971446,
+     "reproduced": 0.51,
+     "grade": "A",
+     "deviation_pct": 1.9230769230769247,
+     "sign_match": true,
+     "stars": "***",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.515261,
+    "reproduced_unrounded": 0.515261,
+    "reproduced": 0.52,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.800620259339968,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_025|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.0263646043669082,
+     "reproduced_unrounded": 0.0263646043669082,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.026364,
+     "reproduced_unrounded": 0.026364,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.02162710992033129,
+     "reproduced_unrounded": 0.02162710992033129,
+     "reproduced": 0.02,
+     "grade": "C",
+     "deviation_pct": 33.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.026364,
+    "reproduced_unrounded": 0.026364,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 15.791648155256377,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "C"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|camp_hill": {
+   "published_raw": "-0.77",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": -0.7727360413830678,
+     "reproduced_unrounded": -0.7727360413830678,
+     "reproduced": -0.77,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": -0.772706,
+     "reproduced_unrounded": -0.772706,
+     "reproduced": -0.77,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": -0.724660353527858,
+     "reproduced_unrounded": -0.724660353527858,
+     "reproduced": -0.72,
+     "grade": "B",
+     "deviation_pct": 6.493506493506499,
+     "sign_match": true,
+     "stars": "*",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": -0.772706,
+    "reproduced_unrounded": -0.772706,
+    "reproduced": -0.77,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 6.243595825351933,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A",
+   "published_error": 0.22
+  },
+  "ox_025|camp_hill_se": {
+   "published_raw": "0.22",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.22176085552579747,
+     "reproduced_unrounded": 0.22176085552579747,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.221768,
+     "reproduced_unrounded": 0.221768,
+     "reproduced": 0.22,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.07430467749955728,
+     "reproduced_unrounded": 0.07430467749955728,
+     "reproduced": 0.07,
+     "grade": "E",
+     "deviation_pct": 68.18181818181817,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.22176085552579747,
+    "reproduced_unrounded": 0.22176085552579747,
+    "reproduced": 0.22,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 67.02878295474667,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "E"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_pec50": {
+   "published_raw": "6.0",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.017104732047786,
+     "reproduced_unrounded": 6.017104732047786,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 6.01711,
+     "reproduced_unrounded": 6.01711,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 6.007401279502665,
+     "reproduced_unrounded": 6.007401279502665,
+     "reproduced": 6.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.017104732047786,
+    "reproduced_unrounded": 6.017104732047786,
+    "reproduced": 6.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.16181200828890852,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.26
+  },
+  "ox_025|arr_pec50_se": {
+   "published_raw": "0.26",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.2637227408274187,
+     "reproduced_unrounded": 0.2637227408274187,
+     "reproduced": 0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.263738,
+     "reproduced_unrounded": 0.263738,
+     "reproduced": 0.26,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.07701519008831685,
+     "reproduced_unrounded": 0.07701519008831685,
+     "reproduced": 0.08,
+     "grade": "E",
+     "deviation_pct": 69.23076923076923,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.2637227408274187,
+    "reproduced_unrounded": 0.2637227408274187,
+    "reproduced": 0.26,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 71.81646535064735,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "E"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_ec50": {
+   "published_raw": "960",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 961.3804092609033,
+     "reproduced_unrounded": 961.3804092609033,
+     "reproduced": 960.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 961.379,
+     "reproduced_unrounded": 961.379,
+     "reproduced": 960.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 983.102318897075,
+     "reproduced_unrounded": 983.102318897075,
+     "reproduced": 980.0,
+     "grade": "B",
+     "deviation_pct": 2.083333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 961.3804092609033,
+    "reproduced_unrounded": 961.3804092609033,
+    "reproduced": 960.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.2628457184453055,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_emax": {
+   "published_raw": "5.6",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 5.6036936357903455,
+     "reproduced_unrounded": 5.6036936357903455,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 5.60369,
+     "reproduced_unrounded": 5.60369,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 5.644781037847356,
+     "reproduced_unrounded": 5.644781037847356,
+     "reproduced": 5.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.6036936357903455,
+    "reproduced_unrounded": 5.6036936357903455,
+    "reproduced": 5.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.7337685329885023,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.63
+  },
+  "ox_025|arr_emax_se": {
+   "published_raw": "0.63",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.6249601454007253,
+     "reproduced_unrounded": 0.6249601454007253,
+     "reproduced": 0.62,
+     "grade": "A",
+     "deviation_pct": 1.5873015873015885,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.625,
+     "reproduced_unrounded": 0.625,
+     "reproduced": 0.62,
+     "grade": "A",
+     "deviation_pct": 1.5873015873015885,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.3560572205369012,
+     "reproduced_unrounded": 0.3560572205369012,
+     "reproduced": 0.36,
+     "grade": "D",
+     "deviation_pct": 42.85714285714286,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6249601454007253,
+    "reproduced_unrounded": 0.6249601454007253,
+    "reproduced": 0.62,
+    "grade": "A",
+    "deviation_pct": 1.5873015873015885,
+    "sign_match": true
+   },
+   "run_spread_pct": 42.68933007350775,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "D"
+   ],
+   "median_grade": "A"
+  },
+  "ox_025|arr_hill": {
+   "published_raw": "0.46",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.4606512242870423,
+     "reproduced_unrounded": 0.4606512242870423,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.460652,
+     "reproduced_unrounded": 0.460652,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.4633163089805904,
+     "reproduced_unrounded": 0.4633163089805904,
+     "reproduced": 0.46,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.460652,
+    "reproduced_unrounded": 0.460652,
+    "reproduced": 0.46,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.5793662377278461,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.08
+  },
+  "ox_025|arr_hill_se": {
+   "published_raw": "0.08",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.07776254587459877,
+     "reproduced_unrounded": 0.07776254587459877,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.0777624,
+     "reproduced_unrounded": 0.0777624,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.019623875744104586,
+     "reproduced_unrounded": 0.019623875744104586,
+     "reproduced": 0.02,
+     "grade": "E",
+     "deviation_pct": 75.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0777624,
+    "reproduced_unrounded": 0.0777624,
+    "reproduced": 0.08,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 72.67333766311774,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "E"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_pec50": {
+   "published_raw": "7.9",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 7.967021407285439,
+     "reproduced_unrounded": 7.967021407285439,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 7.96699,
+     "reproduced_unrounded": 7.96699,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 1.265822784810122,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 8.136830288512293,
+     "reproduced_unrounded": 8.136830288512293,
+     "reproduced": 8.1,
+     "grade": "B",
+     "deviation_pct": 2.531645569620244,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.967021407285439,
+    "reproduced_unrounded": 7.967021407285439,
+    "reproduced": 8.0,
+    "grade": "A",
+    "deviation_pct": 1.265822784810122,
+    "sign_match": true
+   },
+   "run_spread_pct": 2.14987706977586,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A",
+   "published_error": 0.33
+  },
+  "ox_050|camp_pec50_se": {
+   "published_raw": "0.33",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.3328720238115105,
+     "reproduced_unrounded": 0.3328720238115105,
+     "reproduced": 0.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.33287,
+     "reproduced_unrounded": 0.33287,
+     "reproduced": 0.33,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.3094588466308538,
+     "reproduced_unrounded": 0.3094588466308538,
+     "reproduced": 0.31,
+     "grade": "B",
+     "deviation_pct": 6.060606060606066,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.33287,
+    "reproduced_unrounded": 0.33287,
+    "reproduced": 0.33,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 7.094902175956565,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "B"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_ec50": {
+   "published_raw": "11",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 10.788935399948006,
+     "reproduced_unrounded": 10.788935399948006,
+     "reproduced": 11.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6) ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 10.7898,
+     "reproduced_unrounded": 10.7898,
+     "reproduced": 11.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 7.297426198197428,
+     "reproduced_unrounded": 7.297426198197428,
+     "reproduced": 7.0,
+     "grade": "C",
+     "deviation_pct": 36.36363636363637,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.788935399948006,
+    "reproduced_unrounded": 10.788935399948006,
+    "reproduced": 11.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 31.748852743659743,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "C"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_emax": {
+   "published_raw": "0.69",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.6861256666287102,
+     "reproduced_unrounded": 0.6861256666287102,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.686124,
+     "reproduced_unrounded": 0.686124,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "**",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.6867416440763946,
+     "reproduced_unrounded": 0.6867416440763946,
+     "reproduced": 0.69,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "**",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.6861256666287102,
+    "reproduced_unrounded": 0.6861256666287102,
+    "reproduced": 0.69,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.08951363426009293,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.03
+  },
+  "ox_050|camp_emax_se": {
+   "published_raw": "0.03",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.02953915326420039,
+     "reproduced_unrounded": 0.02953915326420039,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; Hill constrained to 1 (rule S6)"
+    },
+    "r2": {
+     "reproduced_raw": 0.0295388,
+     "reproduced_unrounded": 0.0295388,
+     "reproduced": 0.03,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.017750807402387943,
+     "reproduced_unrounded": 0.017750807402387943,
+     "reproduced": 0.02,
+     "grade": "C",
+     "deviation_pct": 33.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0295388,
+    "reproduced_unrounded": 0.0295388,
+    "reproduced": 0.03,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 39.29448620604149,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "C"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_hill": {
+   "published_raw": "-1",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "E",
+     "deviation_pct": 200.0,
+     "sign_match": false,
+     "stars": "",
+     "source": "rule S6: Hill slope constrained to 1"
+    },
+    "r2": {
+     "reproduced_raw": -1.0,
+     "reproduced_unrounded": -1.0,
+     "reproduced": -1.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": -1.0604237526784757,
+     "reproduced_unrounded": -1.0604237526784757,
+     "reproduced": -1.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": -1.0,
+    "reproduced_unrounded": -1.0,
+    "reproduced": -1.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 206.04237526784758,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|camp_hill_se": {
+   "published_raw": null,
+   "metric_type": "pm",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "rule S6: constrained, no SE"
+    },
+    "r2": {
+     "reproduced_raw": "N/A",
+     "stars": "",
+     "source": "fit_group_global[Hill=1] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.041284229908908,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   }
+  },
+  "ox_050|arr_pec50": {
+   "published_raw": "6.4",
+   "metric_type": "pEC50",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.399746411809904,
+     "reproduced_unrounded": 6.399746411809904,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 6.39975,
+     "reproduced_unrounded": 6.39975,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 6.3973576803192165,
+     "reproduced_unrounded": 6.3973576803192165,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.399746411809904,
+    "reproduced_unrounded": 6.399746411809904,
+    "reproduced": 6.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.03737999501224332,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.068
+  },
+  "ox_050|arr_pec50_se": {
+   "published_raw": "0.068",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.0681084797739258,
+     "reproduced_unrounded": 0.0681084797739258,
+     "reproduced": 0.068,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.0681096,
+     "reproduced_unrounded": 0.0681096,
+     "reproduced": 0.068,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.03222809978536884,
+     "reproduced_unrounded": 0.03222809978536884,
+     "reproduced": 0.032,
+     "grade": "D",
+     "deviation_pct": 52.94117647058824,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0681084797739258,
+    "reproduced_unrounded": 0.0681084797739258,
+    "reproduced": 0.068,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 52.76691208033994,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "D"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|arr_ec50": {
+   "published_raw": "400",
+   "metric_type": "EC50",
+   "unit": "nM",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 398.33969654935237,
+     "reproduced_unrounded": 398.33969654935237,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE ; EC50 = 10^logEC50 in nM"
+    },
+    "r2": {
+     "reproduced_raw": 398.34,
+     "reproduced_unrounded": 398.34,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 400.53670397596494,
+     "reproduced_unrounded": 400.53670397596494,
+     "reproduced": 400.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "10**(-mean pEC50)*1e9 in main()"
+    }
+   },
+   "median": {
+    "reproduced_raw": 398.34,
+    "reproduced_unrounded": 398.34,
+    "reproduced": 400.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.549251856653143,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|arr_emax": {
+   "published_raw": "6.4",
+   "metric_type": "Emax",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": "",
+   "runs": {
+    "r1": {
+     "reproduced_raw": 6.379077395748919,
+     "reproduced_unrounded": 6.379077395748919,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 6.37908,
+     "reproduced_unrounded": 6.37908,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 6.388674756708865,
+     "reproduced_unrounded": 6.388674756708865,
+     "reproduced": 6.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.37908,
+    "reproduced_unrounded": 6.37908,
+    "reproduced": 6.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.14995876499916683,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.21
+  },
+  "ox_050|arr_emax_se": {
+   "published_raw": "0.21",
+   "metric_type": "pm",
+   "unit": "fold",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.20805290206479515,
+     "reproduced_unrounded": 0.20805290206479515,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.208057,
+     "reproduced_unrounded": 0.208057,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.20577959391076764,
+     "reproduced_unrounded": 0.20577959391076764,
+     "reproduced": 0.21,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.20805290206479515,
+    "reproduced_unrounded": 0.20805290206479515,
+    "reproduced": 0.21,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.0844790901106445,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ox_050|arr_hill": {
+   "published_raw": "0.70",
+   "metric_type": "Hill",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.6978875052221867,
+     "reproduced_unrounded": 0.6978875052221867,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.697888,
+     "reproduced_unrounded": 0.697888,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.6997709021663703,
+     "reproduced_unrounded": 0.6997709021663703,
+     "reproduced": 0.7,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "analyse()->fit_curve() per experiment, mean_sem() across experiments; stars_vs_control(): one-way ANOVA + Tukey HSD vs 0.00 ug"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.697888,
+    "reproduced_unrounded": 0.697888,
+    "reproduced": 0.7,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.2690567063119431,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A",
+    "A"
+   ],
+   "median_grade": "A",
+   "published_error": 0.06
+  },
+  "ox_050|arr_hill_se": {
+   "published_raw": "0.06",
+   "metric_type": "pm",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r1": {
+     "reproduced_raw": 0.06163697304227528,
+     "reproduced_unrounded": 0.06163697304227528,
+     "reproduced": 0.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "pooled_group_fit (4PL on all experiment values, Prism-style) ; +- = fit SE"
+    },
+    "r2": {
+     "reproduced_raw": 0.0616366,
+     "reproduced_unrounded": 0.0616366,
+     "reproduced": 0.06,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "fit_group_global[4PL] (global fit, n=4 expts) -> summarise(); stars: summary_anova() Tukey vs 0.00 ug"
+    },
+    "r3": {
+     "reproduced_raw": 0.01899952681947739,
+     "reproduced_unrounded": 0.01899952681947739,
+     "reproduced": 0.02,
+     "grade": "E",
+     "deviation_pct": 66.66666666666666,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sem(): SEM across experiments"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.0616366,
+    "reproduced_unrounded": 0.0616366,
+    "reproduced": 0.06,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 71.0624103713298,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "A",
+    "E"
+   ],
+   "median_grade": "A"
+  }
+ }
+}
