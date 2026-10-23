@@ -1,0 +1,5 @@
+# Local only
+_old_git/
+PLAN.md
+.venv/
+__pycache__/
