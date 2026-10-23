@@ -393,7 +393,7 @@ function tipHTML(pid, key) {
   for (const m of MODELS) {
     const x = c.runs[m.id];
     const val = x.u != null ? likePub(x.u, c.pub) : roundText(x.raw ?? "—");
-    rows += `<tr><td>${esc(m.short)}${m.id === SEL[pid] ? " (shown)" : ""}</td><td>${esc(String(val))}</td><td>${c.graded && x.g ? `<span class="g g${x.g}">${x.g}</span> ${fmtDev(x.d)}` : ""}</td></tr>`;
+    rows += `<tr><td>${esc(m.short)}</td><td>${esc(String(val))}</td><td>${c.graded && x.g ? `<span class="g g${x.g}">${x.g}</span> ${fmtDev(x.d)}` : ""}</td></tr>`;
   }
   if (!c.graded) rows += `<tr><td colspan="3">Not graded: ${esc(c.why_not || "the paper prints no number here")}.</td></tr>`;
   return `<h4>${esc(cellLabel(p, key))}</h4><table>${rows}</table>`;
