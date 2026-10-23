@@ -1,0 +1,18 @@
+3p free nH (baseline 0)      |dEmax| median 0.29 pts, 90th pct 1.55, max 229.3; |log10 EC50 ratio| median 0.011 (x1.03), 90th 0.046, max 3.62
+3p, Emax<=100 (Sonnet)       |dEmax| median 0.27 pts, 90th pct 1.37, max 77.7; |log10 EC50 ratio| median 0.011 (x1.03), 90th 0.046, max 2.30
+4p free baseline             |dEmax| median 0.04 pts, 90th pct 0.11, max 233.1; |log10 EC50 ratio| median 0.003 (x1.01), 90th 0.014, max 3.62
+nH fixed 1                   |dEmax| median 2.33 pts, 90th pct 5.40, max 14.2; |log10 EC50 ratio| median 0.046 (x1.11), 90th 0.101, max 0.76
+observed max response        |dEmax| median 0.87, 90th 3.61, max 11.6
+response at 10 uM            |dEmax| median 1.05, 90th 3.61, max 11.6
+
+Largest per-experiment disagreements (3p free nH vs authors):
+  cse_3     ach exp2: fit Emax 251.6 EC50 10000000 nM nH 0.37 | authors Emax 22.3 EC50 2400 nM | relax at 0.1/0.3/1/3/10 uM: 4/5/7/12/18
+  hte_undil dea exp5: fit Emax 89.3 EC50 72 nM nH 2.06 | authors Emax 98.3 EC50 540 nM | relax at 0.1/0.3/1/3/10 uM: 62/77/87/92/95
+  cse_3     ach exp1: fit Emax 38.7 EC50 10308 nM nH 0.49 | authors Emax 24.8 EC50 2300 nM | relax at 0.1/0.3/1/3/10 uM: 4/5/7/16/18
+  eve_20    dea exp1: fit Emax 94.2 EC50 47 nM nH 0.75 | authors Emax 97.5 EC50 35 nM | relax at 0.1/0.3/1/3/10 uM: 61/75/84/91/94
+  cse_20    ach exp5: fit Emax 43.5 EC50 106 nM nH 0.57 | authors Emax 39.7 EC50 140 nM | relax at 0.1/0.3/1/3/10 uM: 20/28/37/38/38
+  hte_undil dea exp4: fit Emax 98.3 EC50 53 nM nH 1.24 | authors Emax 96.8 EC50 67 nM | relax at 0.1/0.3/1/3/10 uM: 72/84/95/99/100
+  cse_200   ach exp3: fit Emax 62.0 EC50 1014 nM nH 0.63 | authors Emax 55.5 EC50 810 nM | relax at 0.1/0.3/1/3/10 uM: 13/17/30/44/49
+  eve_2     dea exp1: fit Emax 78.7 EC50 86 nM nH 0.99 | authors Emax 81.2 EC50 71 nM | relax at 0.1/0.3/1/3/10 uM: 45/58/68/77/82
+  eve_2     dea exp2: fit Emax 97.1 EC50 20 nM nH 1.18 | authors Emax 98.0 EC50 17 nM | relax at 0.1/0.3/1/3/10 uM: 82/92/97/98/98
+  hte_ctrl  ach exp4: fit Emax 60.8 EC50 43 nM nH 1.01 | authors Emax 61.8 EC50 37 nM | relax at 0.1/0.3/1/3/10 uM: 43/51/57/60/63

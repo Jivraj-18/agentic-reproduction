@@ -1,0 +1,76 @@
+3p free nH (baseline 0): {'A': 63, 'B': 47, 'C': 3, 'D': 0, 'E': 7}
+3p free nH (baseline 0) + EC50 to 2 s.f., Emax to 0.1: {'A': 58, 'B': 52, 'C': 2, 'D': 1, 'E': 7}
+4p free baseline: {'A': 96, 'B': 14, 'C': 4, 'D': 0, 'E': 6}
+4p free baseline + EC50 to 2 s.f., Emax to 0.1: {'A': 100, 'B': 10, 'C': 4, 'D': 0, 'E': 6}
+
+Per run non-A cell -> grade under 4p free-baseline fit (rounded like the authors' sheet):
+
+r_opus: 57 non-A, 38 become A under 4p; still non-A:
+   cse_3|ach_emax       pub 17  run 16.05 (B)  4p 63.6 (E)
+   cse_3|ach_sem        pub 3.8  run 3.129 (B)  4p 48.08 (E)
+   cse_3|ach_ec50       pub 806  run 599.5 (C)  4p 4230 (E)
+   cse_3|ach_lo         pub 233  run 250.7 (B)  4p 17.7 (E)
+   cse_3|ach_hi         pub 2790  run 1434 (D)  4p 1.011e+06 (E)
+   cse_3|dea_sem        pub 1.7  run 1.507 (B)  4p 2.2 (C)
+   cse_200|ach_lo       pub 144  run 129.1 (B)  4p 138.1 (B)
+   eve_ctrl|ach_lo      pub 89  run 90.81 (B)  4p 87.24 (B)
+   eve_undil|dea_sem    pub 0.9  run 0.7983 (B)  4p 0.7756 (B)
+   eve_undil|dea_ec50   pub 44  run 44.6 (B)  4p 43.49 (B)
+   eve_20|ach_sem       pub 4.6  run 4.441 (B)  4p 4.539 (B)
+   hte_ctrl|ach_hi      pub 238  run 218.9 (B)  4p 232.1 (B)
+   hte_undil|dea_sem    pub 1.4  run 1.899 (C)  4p 1.881 (C)
+   hte_undil|dea_ec50   pub 87  run 56.58 (C)  4p 55.6 (C)
+   hte_undil|dea_lo     pub 21  run 29.48 (C)  4p 28.66 (C)
+   hte_undil|dea_hi     pub 362  run 108.6 (E)  4p 107.8 (E)
+   hte_2|dea_sem        pub 1.6  run 1.413 (B)  4p 1.702 (B)
+   hte_2|dea_lo         pub 41  run 41.96 (B)  4p 40.26 (B)
+   hte_20|dea_sem       pub 1.9  run 1.509 (C)  4p 1.981 (B)
+
+r_sonnet: 53 non-A, 36 become A under 4p; still non-A:
+   cse_3|ach_emax       pub 17  run 35.77 (E)  4p 63.6 (E)
+   cse_3|ach_sem        pub 3.8  run 17 (E)  4p 48.08 (E)
+   cse_3|ach_ec50       pub 806  run 3003 (E)  4p 4230 (E)
+   cse_3|ach_lo         pub 233  run 57.06 (E)  4p 17.7 (E)
+   cse_3|ach_hi         pub 2790  run 1.581e+05 (E)  4p 1.011e+06 (E)
+   cse_3|dea_sem        pub 1.7  run 1.639 (B)  4p 2.2 (C)
+   cse_200|ach_lo       pub 144  run 129.1 (B)  4p 138.1 (B)
+   eve_ctrl|ach_lo      pub 89  run 90.81 (B)  4p 87.24 (B)
+   eve_undil|dea_sem    pub 0.9  run 0.7983 (B)  4p 0.7756 (B)
+   eve_undil|dea_ec50   pub 44  run 44.6 (B)  4p 43.49 (B)
+   eve_20|ach_sem       pub 4.6  run 4.441 (B)  4p 4.539 (B)
+   hte_ctrl|ach_hi      pub 238  run 218.9 (B)  4p 232.1 (B)
+   hte_undil|dea_sem    pub 1.4  run 1.899 (C)  4p 1.881 (C)
+   hte_undil|dea_ec50   pub 87  run 56.58 (C)  4p 55.6 (C)
+   hte_undil|dea_lo     pub 21  run 29.48 (C)  4p 28.66 (C)
+   hte_undil|dea_hi     pub 362  run 108.6 (E)  4p 107.8 (E)
+   hte_2|dea_sem        pub 1.6  run 1.682 (B)  4p 1.702 (B)
+
+All cells non-A under 4p (rounded):
+   cse_3|ach_emax       pub 17  4p 63.6 (E)
+   cse_3|ach_sem        pub 3.8  4p 48.08 (E)
+   cse_3|ach_ec50       pub 806  4p 4230 (E)
+   cse_3|ach_lo         pub 233  4p 17.7 (E)
+   cse_3|ach_hi         pub 2790  4p 1.011e+06 (E)
+   cse_200|ach_lo       pub 144  4p 138.1 (B)
+   cse_3|dea_sem        pub 1.7  4p 2.2 (C)
+   eve_ctrl|ach_lo      pub 89  4p 87.24 (B)
+   eve_2|ach_sem        pub 8.1  4p 8.994 (B)
+   eve_20|ach_sem       pub 4.6  4p 4.539 (B)
+   eve_undil|dea_sem    pub 0.9  4p 0.7756 (B)
+   eve_undil|dea_ec50   pub 44  4p 43.49 (B)
+   hte_ctrl|ach_hi      pub 238  4p 232.1 (B)
+   hte_undil|dea_sem    pub 1.4  4p 1.881 (C)
+   hte_undil|dea_ec50   pub 87  4p 55.6 (C)
+   hte_undil|dea_lo     pub 21  4p 28.66 (C)
+   hte_undil|dea_hi     pub 362  4p 107.8 (E)
+   hte_2|dea_sem        pub 1.6  4p 1.702 (B)
+   hte_2|dea_lo         pub 41  4p 40.26 (B)
+   hte_20|dea_sem       pub 1.9  4p 1.981 (B)
+
+Examples:
+   cse_ctrl|ach_sem     pub 3.8  opus 3.604  sonnet 3.604  4p 3.845 (A)
+   cse_ctrl|ach_lo      pub 94  opus 91.13  sonnet 91.13  4p 93.67 (A)
+   eve_20|dea_sem       pub 0.5  opus 0.9585  sonnet 0.9585  4p 0.4729 (A)
+   eve_2|dea_ec50       pub 53  opus 56.78  sonnet 56.78  4p 52.82 (A)
+   hte_ctrl|ach_lo      pub 50  opus 55.94  sonnet 55.94  4p 50.11 (A)
+   cse_200|ach_hi       pub 777  opus 886.3  sonnet 886.3  4p 789.2 (A)

@@ -1,0 +1,833 @@
+=== page 1
+RESEARCH Open Access
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you 
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the 
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation 
+or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://
+creativecommons.org/licenses/by-nc-nd/4.0/.
+Santos et al. BMC Pediatrics (2024) 24:595 
+https://doi.org/10.1186/s12887-024-05058-6
+BMC Pediatrics
+*Correspondence:
+Ana Carolina Etrusco Zaroni Santos
+anazaroni@gmail.com
+Full list of author information is available at the end of the article
+Abstract
+Background The objective of this study was to compare HFNC therapy to noninvasive ventilation (NIV/BiPAP) in 
+children with bronchiolitis who developed respiratory failure. We hypothesized that HFNC therapy would not be 
+inferior to NIV.
+Methods This was a noninferiority open-label randomized single-center clinical trial conducted at a tertiary Brazilian 
+hospital. Children under 2 years of age with no chronic conditions admitted for bronchiolitis that progressed to mild 
+to moderate respiratory distress (Wood-Downes-Férres score<8) were randomized to either the HFNC group or NIV 
+(BiPAP) group through sealed envelopes. Vital signs, FiO2, Wood-Downes-Férres score and HFNC/NIV parameters 
+were recorded up to 96 h after therapy initiation. Children who developed respiratory failure despite receiving 
+initial therapy were intubated. Crossover was not allowed. The primary outcome analyzed was invasive mechanical 
+ventilation requirement. The secondary outcomes were sedation usage, invasive mechanical ventilation duration, the 
+PICU LOS, the hospital LOS, and mortality rate.
+Results A total of 126 patients were allocated to the NIV group (132 randomized and 6 excluded), and 126 were 
+allocated to the HFNC group (136 randomized and 10 excluded). The median age was 2.5 (1–6) months in the NIV 
+group and 3 (2–7) months in the HFNC group (p=0,07). RSV was the most common virus isolated in both groups 
+(72% vs. 71.4%, NIV and HFNC, respectively). Thirty-seven patients were intubated in the NIV group and 29 were 
+intubated in the HFNC group (29% vs. 23%, p=0.25). According to the Farrington-Manning test, with a noninferiority 
+margin of 15%, the difference was 6.3% in favor of HFNC therapy (95% confidence interval: -4.5 to 17.1%, p<0.0001). 
+“Comparison between high-flow 
+nasal cannula (HFNC) therapy 
+and noninvasive ventilation (NIV) in children 
+with acute respiratory failure by bronchiolitis: 
+a randomized controlled trial”
+Ana Carolina Etrusco Zaroni Santos1*, Carolina Marques Caiado1
+, Alessandra Geisler Daud Lopes1
+, Gabriela 
+Cunha de França1
+, Ana Karolina Antunes Eisen2
+, Danielle Bruna Leal Oliveira2,3, Orlei Ribeiro de Araujo4
+ and Werther 
+Brunow de Carvalho5
+=== page 2
+Santos et al. BMC Pediatrics (2024) 24:595 Page 2 of 12
+Introduction
+High-flow nasal cannula (HFNC) therapy is an easy￾to-apply supplemental oxygen therapy that provides a 
+heated and humidified gas mixture through a nonoc￾clusive interface. In addition to enabling the delivery of 
+a high fraction of inspired oxygen (FiO2), this therapy 
+provides a flow of oxygen that is greater than the patient’s 
+peak inspiratory flow, potentially leading to low levels of 
+positive alveolar opening pressure, decreasing inspiratory 
+resistance, and reducing respiratory work by flushing the 
+nasopharyngeal dead space [1–5]. 
+HFNC therapy has been increasingly applied in the 
+last two decades in both pediatric and adult popula￾tions, and it is currently a well-established therapy in the 
+literature for patients who develop respiratory failure. 
+However, there are still questions about the correct time 
+to initiate HFNC therapy and how to escalate treatment 
+in cases of therapy failure. In children, HFNC therapy 
+was first introduced to treat preterm infants as an alter￾native to continuous positive airway pressure (CPAP) 
+therapy. Over the years, the application of HFNC therapy 
+has been widespread mainly in patients hospitalized for 
+bronchiolitis [6–9]. 
+Acute viral bronchiolitis is the most common lower 
+respiratory disease and the primary reason for hospi￾talization among infants. According to a survey carried 
+out in the United States (US) between 2010 and 2019, 
+approximately 20% of hospitalized patients required 
+intensive care, 4.9% required noninvasive mechanical 
+ventilation (NIV), and 3.3% required invasive mechani￾cal ventilation [10]. In a cross-sectional analysis of chil￾dren admitted for bronchiolitis also performed in the US 
+from 2000 to 2016, an increase in the hospitalization cost 
+was observed—from $449 million to $734 million—after 
+adjustment for inflation [11]. 
+Among the few options for evidence-based support￾ive care available for patients with bronchiolitis, HFNC 
+therapy has gained relevance mainly due to its easy appli￾cation outside the pediatric intensive care unit (PICU), 
+comfort, low sedation requirements, and tolerability. 
+Recent studies have demonstrated that HFNC therapy is 
+superior to low-flow oxygen therapy. However, to date, 
+few randomized clinical trials evaluating the effectiveness 
+of HFNC therapy versus NIV (CPAP and BiPAP – bilevel 
+positive airway pressure), especially related to treatment 
+failure and the need for invasive mechanical ventilation, 
+have been published. Furthermore, most of these studies 
+have some methodological limitations, such as the failure 
+criteria not being well described, the lack of an estab￾lished HFNC weaning protocol, the use of a small sam￾ple, the lack of clinical reassessment scores, the restricted 
+populations analyzed, the inclusion of a small number 
+of intubated patients, and the use of a short assessment 
+period. All these biases could interfere with external vali￾dation of the use of HFNC therapy in the pediatric popu￾lation [12–18]. 
+Therefore, new studies are necessary to compare 
+HFNC therapy to NIV (CPAP/BiPAP) for bronchiolitis, 
+especially regarding treatment failure and the need for 
+mechanical ventilation [6, 18]. 
+The objective of this study was to compare HFNC 
+therapy to NIV (BiPAP) in children with bronchiolitis 
+who experienced mild to moderate respiratory distress 
+and who required noninvasive respiratory support. We 
+hypothesized that HFNC therapy would not be inferior 
+to NIV (BiPAP).
+Materials and methods
+This noninferiority randomized single-center clinical trial 
+was carried out between February 9, 2021, and May 3, 
+2023, in the emergency department and PICU of Hospi￾tal Municipal Infantil Menino Jesus (HMIMJ), São Paulo, 
+Brazil. This 92-bed tertiary pediatric hospital comprises 
+a 20-bed PICU with a monthly average admission rate of 
+approximately 70 patients.
+This study was approved by the Institutional Review 
+Board (IRB) of the hospital (Hospital Municipal Infan￾til Menino Jesus Research Ethics Committee; approval 
+number 39509820.0.0000.5639, 11/24/2020; trial reg￾istration number: U1111-1262-1740; RBR-104z966s, 
+03/01/2023). Although the clinical trial was submit￾ted before patient randomization, its registration was 
+approved later because some formatting and data adjust￾ments were required. All methods were performed in 
+accordance with the ethical standards as laid down in 
+the Declaration of Helsinki and its later amendments or 
+comparable ethical standards. Written informed consent 
+was obtained from a parent and/or legal guardian before 
+There was no significant difference in the PICU LOS or sedation duration. Sedation requirement, hospital LOS and 
+invasive mechanical ventilation duration were lower in the HFNC group.
+Conclusion HFNC therapy is noninferior to NIV in infants admitted with mild to moderate respiratory distress caused 
+by bronchiolitis that progresses to respiratory failure.
+Trial registration numbers U1111-1262-1740; RBR-104z966s. Registered 03/01/2023 (retrospectively registered). 
+ReBEC: https://ensaiosclinicos.gov.br/rg/RBR-104z966s.
+Keywords Respiratory failure, Bronchiolitis, High-flow nasal cannula, Noninvasive ventilation
+=== page 3
+Santos et al. BMC Pediatrics (2024) 24:595 Page 3 of 12
+the data were collected by the physician responsible for 
+starting the protocol.
+Patients admitted with a diagnosis of mild to moder￾ate acute respiratory distress (Wood-Downes-Férres 
+score<8 points) caused by bronchiolitis were randomized 
+into two groups using sealed envelopes (the HFNC or 
+NIV groups) [19, 20]. Clinical physician and physiothera￾pist teams were responsible for identifying potentially 
+eligible study participants. Patients who were admitted 
+to the pediatric ward without respiratory distress but 
+who later met these inclusion criteria were included in 
+the study. Randomization could occur at admission or at 
+any time during the hospital stay after respiratory failure 
+was diagnosed. Each randomized patient received a kit 
+of printed documents to be filled out: a form with vital 
+signs, a form with ventilation scores and parameters, 
+scales for bedside assessment and a consent form. After 
+the protocol was completed, all records were gathered, 
+and the data were transferred to a digital dataset. Each 
+patient receiving NIV or HFNC therapy was transferred 
+to the PICU depending on bed availability.
+Local training for device usage and protocol applica￾tion was carried out with physicians and physiotherapists 
+before and during the research. Training efficacy evalua￾tion was not performed.
+The HFNC system used was an Airvo 2 (Fisher & 
+Paykel), and the initial flow was 2  L/kg/min. The NIV 
+system used was DX 3010/3020 (Dixtal). The initial 
+inspiratory positive airway pressure (IPAP) and expira￾tory positive airway pressure (EPAP) values were defined 
+according to the institutional protocol (BiPAP – bilevel 
+positive air pressure: EPAP 4 to 6 cmH2O, IPAP 8 to 12 
+cmH2O) and adjustment through clinical evaluation. Fre￾quency of rescue breathing, and asynchronies was not 
+registered. In both groups, a binasal prong was used. FiO2
+was titrated to maintain a peripheral oxygen saturation 
+between 94 and 99%. All eligible patients who developed 
+mild to moderate respiratory distress were connected 
+to a nonrebreathing mask until randomization was per￾formed and the device was properly installed.
+The inclusion criteria were children under 2 years of 
+age admitted for bronchiolitis that progressed to mild 
+to moderate respiratory distress (WDF score<8 points) 
+during hospitalization. Bronchiolitis was clinically 
+defined by upper respiratory tract (runny nose, sneezing) 
+and lower respiratory tract (tachypnea, wheezing, cough￾ing, crackling and use of accessory muscles) symptoms 
+[21]. Blood laboratory investigations were not mandatory 
+for this trial.
+The exclusion criteria were severe respiratory distress 
+(WDF score ≥ 8 points), gestational age less than 35 
+weeks, bronchopulmonary dysplasia, cyanotic congenital 
+heart disease or hemodynamic repercussion, liver dis￾ease, neuromuscular disease, or tracheostomy. Infants 
+with a positive viral panel result for SARS-CoV-2, those 
+whose parents refused to participate in this study and 
+those with missing fulfilled forms were also excluded.
+Vital signs, WDF score, peripheral oxygen saturation 
+(SpO2), and FiO2 were recorded at 0 h, 2 h, 6 h, 12 h, 24 h, 
+48 h, 72 h and 96 h after HFNC therapy or NIV therapy 
+initiation. The variables assessed included age, weight, 
+sex, comorbidities, previous respiratory hospitaliza￾tion, the Pediatric Index of Mortality – version 2 (PIM 2) 
+score, viral panel results, the need for antibiotics, nasal 
+septum injury status, sedative usage, HFNC/NIV dura￾tion, invasive mechanical ventilation duration, PICU 
+length of stay (LOS), the hospital LOS, and the mortality 
+rate [22–24]. 
+The Comfort behavior scale (Comfort-B) and Rich￾mond Agitation-Sedation Scale (RASS) were stan￾dardized scales for sedative adjustments. The drugs 
+administered for this purpose were dexmedetomidine, 
+ketamine, lorazepam, methadone, and clonidine [25, 26]. 
+The Fischer scale was applied daily to evaluate nasal sep￾tum injuries [27]. 
+Early enteral feeding initiation was recommended and 
+depended on the clinician’s judgment. Oral food (liq￾uid or solid) intake was permitted in the HFNC group, 
+particularly during treatment weaning, and its initiation 
+was allowed depending on respiratory distress status. For 
+patients on NIV, an enteral diet was mandatorily pro￾vided through nasogastric or orogastric tubes.
+Viral panel analysis was carried out through quanti￾tative reverse transcription polymerase chain reaction 
+(RT‒qPCR) in partnership with the Institute of Biomedi￾cal Sciences II at the University of São Paulo. The samples 
+were collected during emergency department or PICU 
+admission, and the following viruses were detected: 
+respiratory syncytial virus, human metapneumovirus, 
+influenza virus (IA and IB), parainfluenza virus 1, 2, 3 and 
+4, seasonal coronaviruses (types OC43, HKU1, NL63 and 
+229E), human adenovirus, human enterovirus, human 
+rhinovirus, SARS-CoV-2 and human bocavirus.
+The criteria for indicating HFNC/NIV therapy fail￾ure and the need for mechanical ventilation were signs 
+of severe respiratory distress (WDF score of 8 to 14 
+points), a respiratory rate>60  bpm (in children up to 1 
+year old) or >40 bpm (in children aged 1 to 2 years), or 
+a heart rate>160 bpm. For this study, crossover was not 
+allowed, and patients who experienced therapy failure 
+were intubated. Although the intervention could not be 
+masked, all the investigators remained unaware of the 
+partial results. For patients who experienced respiratory 
+improvement, an HFNC weaning protocol was adminis￾tered according to the institutional protocol. NIV wean￾ing was carried out according to daily reassessments and 
+clinical judgment.
+=== page 4
+Santos et al. BMC Pediatrics (2024) 24:595 Page 4 of 12
+The primary outcome was the need for invasive 
+mechanical ventilation. The secondary outcomes ana￾lyzed were sedation usage, invasive mechanical ventila￾tion duration, the PICU LOS, the hospital LOS, and the 
+mortality rate.
+The hospital’s epidemiological data and the reasons 
+for hospitalization classified by the International Clas￾sification of Diseases (ICD-10 J21 – acute bronchiolitis) 
+recorded at admission were retrospectively collected 
+from the patients’ electronic medical records. The pur￾pose was to determine the fraction of study participants, 
+the primary reason for intensive care and the need for 
+invasive mechanical ventilation. Data on the enteral 
+feeding duration and antibiotic administration were also 
+obtained retrospectively.
+Statistical analysis
+This was an open-label and randomized study. Ran￾domization was carried out using sealed envelopes. The 
+sample size was calculated based on a pilot study carried 
+out in Brazil. Considering the success rate, 252 patients 
+(126 in each group) were needed to exclude a difference 
+of more than 15% with a certainty of 80% in favor of the 
+CPAP group [28]. To determine noninferiority, the Far￾rington-Manning test was applied to calculate the differ￾ence in success rates with a 95% confidence interval for 
+the primary outcome. The Farrington-Manning method 
+for rate differences tests the null hypothesis of H0: p1−p2
+=δ. The rejection of the null hypothesis allows the con￾clusion that the rate of success in group one is at least the 
+rate of success in group two plus the delta value [29]. We 
+established a delta value of 15%, which is arbitrary but 
+has been used in the literature [12]. To compare distri￾butions between groups, the Wilcoxon/Mann‒Whitney 
+test was used, and the chi‒square test was used to com￾pare frequencies between groups. The cumulative prob￾abilities of “surviving” without the need for intubation 
+over the time of observation were compared using the log 
+rank test. To compare repeated measurements, we used 
+the Friedman test, with post hoc analysis by the Wil￾coxon paired test (signed rank), with Bonferroni correc￾tion. The magnitude of the effect of HFNC therapy and 
+NIV on vital parameters was assessed using Cohen’s “d” 
+test (Cohen’s d). The interpretation of Cohen’s d is as fol￾lows: small effect (d: 0.2 - <0.5), moderate effect (d=0.5 - 
+<0.8) and large effect (d≥0.8) [30]. The statistical analyses 
+were performed using R: A language and environment 
+for statistical computing (R Foundation for Statistical 
+Computing, Vienna, Austria) [31]. 
+The interrater reliability of the WDF score was not 
+evaluated. The standard method was applied for miss￾ing data, which is the analysis of complete cases not 
+using any replacement or imputation technique [32]. 
+The percentages of missing data for each period were as 
+follows: 0 h (0), 2 h (0.5%), 6 h (0.4%), 12 h (1.2%), 24 h 
+(0.9%), 48 h (0.4%), 72 h (0.8%) and 96 h (0). Missing data 
+occurred as a result of incomplete forms. The CONSORT 
+guidelines for reporting randomized trials in journals and 
+abstracts were applied for text structuring [33, 34]. 
+Results
+A total of 132 patients were randomized to the NIV 
+group, and 136 patients were randomized to the HFNC 
+group. Of these, six patients were excluded from the NIV 
+group, and 10 were excluded from the HFNC group, 
+totaling 126 patients in the NIV group and 126 patients 
+in the HFNC group. The reasons for exclusion were fail￾ure to fully comply with the protocol, a diagnosis of heart 
+disease with hemodynamic repercussions during hospi￾talization, external transfer, a lack of written informed 
+consent, and a positive viral panel result for SARS￾CoV-2. Figure 1 shows the study flowchart for the period 
+between February 2021 and May 2023.
+During this period, 1007 patients were admitted to 
+the hospital for bronchiolitis. Of these patients, 649 
+(64%) were transferred to the PICU, and 146 (22%) 
+required invasive mechanical ventilation. For the ana￾lyzed patients, nine (7%) patients in the HFNC group and 
+three (2%) patients in the NIV group were weaned from 
+respiratory support in the emergency room and were 
+not transferred to the PICU. One patient from the NIV 
+group and three patients from the HFNC group were 
+transferred to another hospital after protocol finalization 
+(respiratory failure and invasive mechanical ventilation 
+requirement). Their collected data were used only for the 
+primary outcome analysis.
+The demographic data and other relevant characteris￾tics are described in Table 1.
+Thirty-seven patients in the NIV group were intu￾bated (29%), and 29 patients in the HFNC group were 
+intubated (23%, p=0.25). According to the Farrington￾Manning test, within the noninferiority margin of 15%, 
+the difference was 6.3% in favor of HFNC therapy (95% 
+confidence interval: -4.5 to 17.1%, p<0.0001). Most of the 
+intubations occurred within the first 24  h after starting 
+NIV or HFNC therapy: 62% in the NIV group and 72% 
+in the HFNC group. According to the log rank test, the 
+cumulative probabilities of intubation were similar dur￾ing the observation period (p=0.33). The device settings 
+along the time points are shown in Fig. 2.
+Both NIV and HFNC therapy promoted a reduction 
+in heart and respiratory rates and, consequently, in the 
+WDF score. For the consecutive heart rate measurements 
+in the NIV group, the Friedman p value was <0.0001. The 
+most pronounced effect on the reduction in the heart 
+rate was observed when comparing the 12-h measure￾ment with the measurement at the beginning of therapy: 
+Cohen’s d was estimated to be -1,1 (95% CI -1.38 to -0.82; 
+=== page 5
+Santos et al. BMC Pediatrics (2024) 24:595 Page 5 of 12
+large effect). The p value obtained by the Wilcoxon paired 
+test was <0.0001. In the HFNC group, a greater effect 
+was also observed when comparing the heart rate at 12-h 
+with the initial heart rate: Cohen’s d was −0.86 (95% CI 
+-1.14 to -0.58 - large effect; p<0.0001).
+The reduction in the respiratory rate in the NIV group 
+was also significant (p<0.0001). A larger effect was esti￾mated when comparing the 24-h measurement and the 
+initial measurement. Cohen’s d was −1.04 (95% CI -1.36 
+to -0.73 - large effect; p<0.0001). In the HFNC group, 
+the most pronounced effect was observed when compar￾ing the 72-h measurement with the initial measurement: 
+Cohen’s d was −1.1 (95% CI -1.44 to -0.75 - large effect; 
+p<0.0001).
+The WDF score decreased markedly in the NIV group 
+during the first two hours of therapy: Cohen’s d was 
+−0.84 (95% CI -1.1 to -0.57 – large effect; p<0.0001). 
+Comparing the 48-h measurements with the initial mea￾surements, Cohen’s d was −2.27 (95% CI -2.7 to -1.8 – 
+large effect, p<0.0001). In the HFNC group, Cohen’s d 
+was estimated to be -0.72 for the first two hours (-0.99 
+to – 0.47 – medium effect; p<0.0001). A larger effect was 
+observed when comparing the 72-h and initial measure￾ments (Cohen’s d -2.15, 95% CI -2.6 to -1.74, p<0.0001).
+The pulse oximetry saturation/fraction of inspired oxy￾gen ratio (SpO2/FiO2) increased slowly in both groups. 
+The Friedman p value was <0.0001 for all measure￾ments. The effect in the first two hours was negligible for 
+the NIV and HFNC groups. In the NIV group, a greater 
+effect was observed when comparing the 72-h measure￾ment and the initial measurement (Cohen’s d 1.7; 95% 
+CI 1.15–2.2 – large effect, p<0.0001). In the HFNC 
+group, the most pronounced effect was also observed 
+when comparing the initial and 72-hour measurements; 
+Cohen’s d was estimated to be 1.54 (95% CI 1.17–1.91, 
+large effect, p<0.0001). These measurements and effects 
+are illustrated in Fig. 3.
+There were no patients with nasal pressure injuries 
+in the HFNC group. In the NIV group, 11 patients pre￾sented with nasal trauma (Fischer stage 1 or 2).
+Discussion
+In our study, we analyzed young and eutrophic infants 
+who were admitted for bronchiolitis, the vast majority 
+of whom were admitted during their first wheezing epi￾sode and had respiratory syncytial virus isolated from a 
+viral panel. This population portrays classic bronchiolitis 
+Fig. 1 Study flowchart
+=== page 6
+Santos et al. BMC Pediatrics (2024) 24:595 Page 6 of 12
+without risk factors, such as prematurity and cardiopa￾thies [10, 11, 35]. 
+Although the therapy duration was significantly longer 
+in the HFNC group [77.5 (46.5–108) versus 48 (24–78) 
+hours, p=0,0003], this finding does not seem to have 
+influenced the PICU LOS or hospital LOS. We could not 
+assess if the establishment of a HFNC weaning protocol 
+directly impacted the longer duration of therapy.
+In our study, although the sedation duration was simi￾lar between the groups, the percentage of patients who 
+required pharmacological measures was significantly 
+greater in the NIV group [121 (96%) versus 54 (42,8%) 
+patients, p<0.001]. Moreover, children receiving NIV 
+had a greater incidence of nasal injury. There are few 
+studies comparing HFNC therapy and NIV that have 
+used the need for sedation as an outcome. In a review 
+published in 2015 by Hutchings et al., despite not finding 
+an objective difference in patient comfort, nasal injury 
+was significantly greater in the NIV group. Furthermore, 
+for parents, HFNC therapy seems to increase the pos￾sibility of parent contact and interactions with children 
+during treatment. In a study evaluating clinical practices 
+related to HFNC therapy, only 6.5% of Brazilian pediat￾ric intensivists affirmed that they frequently use sedatives 
+for patients receiving HFNC therapy. Comfort and syn￾chrony play a role in the NIV success rate, especially in 
+the pediatric population, considering the particularities 
+in children’s airway anatomy. At our institution, neurally 
+adjusted ventilatory assistance (NAVA) was not avail￾able for this purpose. Furthermore, bronchiolitis, a lower 
+respiratory tract disease characterized by a mixed pattern 
+of restriction and obstruction, adequate air entry, may 
+be further impaired in nonsedated and asynchronous 
+patients [9, 36–38]. 
+The enteral feeding duration was longer in the HFNC 
+group than in the NIV group [3 (2–4) versus 4 (2–5) days, 
+p=0,012]. Although both groups demonstrated clinical 
+improvement over time (considering vital signs and WDF 
+score), this assessment was only carried out in the first 
+96 h of protocol initiation. After this period, we cannot 
+assume whether the longer time in HFNC therapy may 
+have impacted the longer time of enteral tube use. In 
+addition, there were no well-defined protocol for starting 
+or discontinuing enteral feeding.
+Table 1 Demographic and clinical characteristics
+NIV HFNC p
+Age (months, IQR) 2.5 (1–6) 3 (2–7) 0.07
+Weight z score for age (mean, SD) -0.18 (1.18) -0.18 (1.11) 0.95
+Female (N, %) 52 (41%) 41 (32.5%) 0.15
+Previous wheezing (N, %) 39 (31%) 32 (25.3%) 0.3
+Previous respiratory hospitalization (N, %) 30 (23.8%) 22 (17.4%) 0.2
+NIV/HFNC duration (hours, median, IQR) 48 (24–78) 77.5 (46.5–108) 0.0003
+Initial FiO2 (mean, SD) 40.8 (10.8) 36.2 (10.6) 0.0002
+Initial WDF (mean, SD) 5.9 (0.9) 5.9 (1.1) 0.9
+Initial SpO2 (mean, SD) 97.6 (1.9) 97.4 (1.9) 0.25
+Sedation (N, %) 121 (96%) 54 (42.8%) <0.001
+Sedation (days, median, IQR)
+Nasogastric tube (days, median, IQR)
+3 (2–4)
+3 (2–4)
+2 (1–4)
+4 (2–5)
+0.08
+0.012
+PICU LOS (days, median, IQR) 5 (3–10) 5 (4–7) 0.3
+Hospital LOS (days, median, IQR) 9 (6–14) 8 (6–10) 0.006
+Invasive mechanical ventilation duration (days, median, IQR)
+Antibiotic use (n, %)
+Ventilator-associated pneumonia
+5 (3.7–7)
+62 (49%)
+1 (2%)
+4 (2.5–4.5)
+49 (38%)
+1 (3,4%)
+0.02
+<0.001
+-
+PIM 2 score (mean, SD) 1.8 (1.7) 1.5 (1.4) 0.49
+Virus isolated (RT‒qPCR)
+Respiratory syncytial virus 91 (72.2%) 90 (71.4%) -
+Bocavirus 4 (3.2%) 11 (8.7%) -
+Adenovirus 6 (4.8%) 9 (7.1%) -
+Seasonal coronavirus 4 (3.2%) 8 (6.3%) -
+Parainfluenza 3/4 7 (5.6%) 5 (4%) -
+Human metapneumovirus 5 (4%) 4 (3.2%) -
+Rhinovirus/enterovirus 2 (1.6%) 2 (1.6%) -
+SD: standard deviation
+IQR: interquartile range 0.25–0.75
+RT‒qPCR: quantitative reverse transcription polymerase chain reaction
+p values were calculated by chi-square or Wilcoxon tests, as appropriate
+=== page 7
+Santos et al. BMC Pediatrics (2024) 24:595 Page 7 of 12
+The need for antibiotics was greater in the NIV group 
+than in the HFNC group [62 (49%) versus 49 (38%) 
+patients, p<0.001]. Although these data alone are not 
+objective, previous studies have demonstrated that bac￾terial coinfection and antibiotic therapy use are related 
+to PICU admission and the need for mechanical ventila￾tion in children with severe bronchiolitis. There are few 
+publications evaluating the use of antibiotics and clini￾cal outcomes in patients admitted for bronchiolitis who 
+receive HFNC therapy. In these patients, antibiotic ther￾apy does not seem to increase the need for mechanical 
+ventilation. However, the analyses were heterogeneous 
+and had many limitations. New studies with high-quality 
+evidence are needed to evaluate this association. Patients 
+on mechanical ventilation are prone to ventilator-associ￾ated pneumonia (VAP), one of the most common health￾care-associated infections in the PICU. Nevertheless, in 
+our results ventilator-associated pneumonia (VAP) does 
+not appear to be an influencing factor in this higher ATB 
+requirement since the VAP incidence in both groups was 
+similar [7, 39–42]. 
+Another interesting finding was the persistently higher 
+FiO2 demand in the NIV group to maintain an SpO2
+between 94 and 99%. In our hospital, the use of nasal 
+prongs in infants is the standard interface applied. One 
+possibility for this occurrence is air leak pressure due to 
+the use of prongs instead of masks, which can lead to 
+alveolar opening impairment. Furthermore, agitation and 
+NIV asynchrony could contribute to higher FiO2 values. 
+We cannot assume that lower target SpO2 levels could 
+influence this difference. Currently, lower SpO2 thresh￾olds are considered safe for some specific populations. 
+However, for critical bronchiolitis patients who progress 
+to respiratory failure, a well-established SpO2 threshold 
+has not yet been defined [6, 21, 43, 44]. 
+All four clinical markers evaluated (heart rate, respira￾tory rate, WDF score and SpO2/FiO2) demonstrated sig￾nificant variations in both groups throughout the period 
+analyzed. Among these markers, the WDF score showed 
+the earliest variation (2  h after protocol initiation), fol￾lowed by the heart rate and respiratory rate. The SpO2/
+FiO2 ratio exhibited the slowest variation. The WDF score 
+was developed in the 1970s to evaluate asthma status and 
+began to be applied in cases of bronchiolitis. Accord￾ing to our analysis, WDF score improvement seemed to 
+occur earlier than did the other variables analyzed. This 
+may have been because the isolated analyses of the heart 
+rate, the respiratory rate and SpO2/FiO2 are nonspecific 
+and can suffer some interference from a series of factors, 
+such as fever, the use of sedatives (such as dexmedeto￾midine), crying and sepsis [19, 20]. Respiratory failure is 
+classically classified into hypoxemic (tipe 1) or hypercap￾nic failure (tipe 2). For this definition, arterial blood gas 
+sample may be required and could be a challenge, con￾sidering children’s anatomy and the risk of respiratory 
+deterioration in case of agitation during the procedure. 
+Thence, in pediatric clinical practice, the standardiza￾tion of non-invasive scores with high predictive value 
+Fig. 2 The mean values of the devices used for NIV and HFNC therapy. The p values refer to observed differences between FiO2 utilized in the NIV and 
+HFNC groups at the time points (hours). IPAP: Inspiratory positive airway pressure; EPAP: Expiratory positive airway pressure. FiO2: Fraction of inspired 
+oxygen
+=== page 8
+Santos et al. BMC Pediatrics (2024) 24:595 Page 8 of 12
+Fig. 3 Boxplots showing variations in the heart rate, respiratory rate, WDF score and SpO2/FiO2. The means are represented by dots. The brackets mark 
+the time intervals where the largest effect sizes were observed
+=== page 9
+Santos et al. BMC Pediatrics (2024) 24:595 Page 9 of 12
+for respiratory failure has been encouraged by current 
+guidelines to make continuous patient assessment more 
+objective. There are several scores published in the litera￾ture that are applied to this aim. However, few of these 
+methods have been widely validated. In a systematic 
+review that evaluated 32 scales for assessing bronchiolitis 
+severity, WDF score was among the 6 considered the best 
+available instrument. For this classification the follow￾ing criteria were accounted: instrument’s items origin, 
+assessment by the instrument’s items of endorsement fre￾quency, reliability, validity, usability, and responsiveness. 
+In a recent prospective observational study comparing 9 
+severity scales for bronchiolitis, WDF was one of them 
+applied. The authors did not find a significant accuracy 
+difference between them for access bronchiolitis severity 
+respiratory status. Furthermore, in our research, we also 
+pondered the fact that this scale was familiar to some 
+professionals prior to protocol initiation [7, 45–47]. 
+The PICU LOS was similar between the groups. How￾ever, the hospital LOS and duration of mechanical ven￾tilation were shorter in the HFNC group. Some factors 
+may have contributed to a longer hospital stay in the NIV 
+group: absence of a specific weaning protocol, greater 
+use of sedation and consequently increased risk of with￾drawal and delirium syndrome and, although not sig￾nificant, the mean duration of mechanical ventilation in 
+patients who failed NIV was slightly higher, which may 
+have contributed to a longer hospital stay. The degree 
+of respiratory distress at the beginning of the protocol 
+was similar between groups and does not appear to have 
+influenced the outcome.
+According to our protocol, all patients who received 
+HFNC therapy or NIV were transferred to the PICU. 
+Only a small percentage of patients completed the pro￾tocol in the emergency room while a PICU bed was 
+not available. In some centers, HFNC therapy has been 
+administered in emergency and pediatric wards. None￾theless, in our study, PICU requirements could not be 
+compared.
+Another important question concerns the cost of hos￾pitalization. Since our internal electronic system did not 
+allow the individualization of all expenses per patient, 
+it was not possible to carry out this analysis between 
+groups. However, because we observed a shorter hospi￾tal LOS, less sedative administration, a lower rate of nasal 
+injury, and a shorter duration of mechanical ventilation 
+in the HFNC group, we may infer that these findings 
+could contribute to reducing patient-related costs.
+Finally, in our analysis, we were able to conclude that 
+HFNC therapy is no less effective than NIV in mild or 
+moderate bronchiolitis. To our knowledge, most of the 
+published observational studies, clinical trials and meta￾analyses of HFNC therapy and NIV (CPAP/BiPAP) have 
+compared the superiority of one therapy over the other; 
+the results are divergent or inconclusive, and the stud￾ies have several limitations [14–16, 18, 48, 49]. However, 
+it is worth noting that the nonsignificance in traditional 
+testing does not support the nondifference conclu￾sion. For this purpose, noninferiority studies and, more 
+specifically, equivalence trials should be performed. 
+Nonetheless, to carry out equivalence studies, the nec￾essary sample size is generally large, which can limit and 
+extend the research. In this way, noninferiority trials have 
+gained relevance by contributing to the understanding 
+of comparative analysis. Furthermore, it is important to 
+highlight that once noninferiority is significantly demon￾strated, the secondary outcomes and benefits of HFNC 
+therapy, such as better tolerability, less sedative usage, 
+and easier handling and application outside the PICU 
+ward, gain more relevance [50]. 
+In a recent review published about HFNC therapy for 
+bronchiolitis, the authors concluded that more stud￾ies comparing HFNC therapy and NIV are necessary. 
+The Pediatric Acute Lung Injury Consensus Conference 
+(PALICC-2) also recommends further studies to elucidate 
+the importance of HFNC therapy in the management of 
+respiratory distress syndrome in children. It is notable 
+to reinforce that our results were found in patients with 
+mild to moderate respiratory distress. Those patients 
+who presented with severe bronchiolitis and evidence of 
+acute respiratory distress syndrome (ARDS) could ini￾tially benefit from end-expiratory pressure (EPAP) and 
+were excluded from randomization. Despite that consid￾eration, we assume that our results can contribute to the 
+understanding of therapy adjustment in cases of bronchi￾olitis that progress to respiratory failure [6, 18]. 
+This study has several limitations: it was carried out 
+in a single center and had a small sample size. It was not 
+possible to blind patients or researchers. The hospital is 
+primarily a teaching institution with 24-h resident cover￾age led by staff in the emergency department and PICU. 
+The initiation of HFNC/NIV therapy was determined by 
+clinicians, and children who were admitted for severe 
+respiratory distress were not randomized. Only failure 
+criteria were established. There was no specific protocol 
+for NIV weaning, only for HFNC weaning. NIV asyn￾chrony was not evaluated and might have influenced 
+sedation requirement as well as the respiratory failure 
+rate. Furthermore, crossover was not allowed, and no 
+other ventilatory therapy support was provided (e.g., NIV 
+in the case of HFNC therapy failure) before intubation. 
+Extubation failure was not evaluated. Several risk factors 
+for intubation and ICU admission (blood gas analysis, 
+radiological changes, vasoactive drugs, bacterial coinfec￾tion, and fluid overload) were not evaluated. In addition, 
+this research was initiated during the coronavirus disease 
+2019 pandemic, a period in which viral circulation and 
+clinical presentation changed. Therefore, it is not possible 
+=== page 10
+Santos et al. BMC Pediatrics (2024) 24:595 Page 10 of 12
+to say thus far whether these findings will be only isolated 
+points or trends. We cannot assess the cost-effectiveness 
+of both modalities of respiratory support. Usually, HFNC 
+therapy itself is more expensive than NIV, which may 
+impair its application, especially in low-income countries 
+[38, 51, 52]. 
+Nevertheless, the population analyzed reflects the 
+majority of patients treated in clinical practice—infants 
+under 2 years old admitted to emergency and PICU 
+departments with no comorbidities and a positive panel 
+result for respiratory syncytial virus—which makes its 
+external validation possible. In addition, the rate of ther￾apy failure and need for invasive mechanical ventilation 
+were similar to those in previous publications. Consider￾ing state-of-the-art HFNC therapy for bronchiolitis, our 
+study can clarify its clinical applicability in the pediatric 
+population [48]. 
+Conclusion
+HFNC therapy is noninferior to NIV in infants admitted 
+for bronchiolitis in mild to moderate respiratory distress. 
+This therapy could also contribute to a shorter duration 
+of mechanical ventilation, a shorter hospital LOS, and a 
+reduced need for sedatives.
+Abbreviations
+BiPAP Bilevel positive airway pressure
+CI Confidence interval
+Comfort-B Comfort behavior scale
+CPAP Continuous positive airway pressure
+EPAP Expiratory positive airway pressure
+FiO2 Fraction of inspired oxygen
+HFNC High-flow nasal cannula
+HMIMJ Hospital Municipal Infantil Menino Jesus
+ICD International classification of diseases
+IPAP Inspiratory positive airway pressure
+IRB Institutional review board
+LOS Length of stay
+MV Mechanical ventilation
+NAVA Neurally adjusted ventilatory assistance
+NIV Noninvasive mechanical ventilation
+PALICC Pediatric Acute Lung Injury Consensus Conference
+PICU Pediatric intensive care unit
+PIM Pediatric index of mortality
+RASS Richmond agitation-sedation scale
+ROX Respiratory oxygenation
+RT-qPCR Quantitative reverse transcription polymerase chain reaction
+SARS-CoV-2 Severe acute respiratory syndrome coronavirus 2
+SpO2 Peripheral oxygen saturation
+US United States
+VAP Ventilator-associated pneumonia
+WDF Wood-Downes-Férres score
+Author contributions
+ACEZS was the principal and corresponding author and contributed to the 
+design, analysis, interpretation of data and drafted the submitted version. 
+CMC, AGDL, GCF, AKAE, and DBLO contributed to the acquisition data. ORA 
+contributed to the analysis and interpretation of data. WBC contributed to the 
+design, analysis, and interpretation of data. All authors reviewed and approved 
+the final manuscript.
+Funding
+Fisher & Paykel provided the materials and equipment. The funders had no 
+role in the study design, data collection and analysis, decision to publish, or 
+preparation of the manuscript.
+Data availability
+Santos, ACEZ (Forthcoming 2024). “Comparison between high-flow nasal 
+cannula (HFNC) therapy and noninvasive ventilation (NIV) in children 
+with acute respiratory failure by bronchiolitis: Dataset from a randomized 
+controlled trial” [Dataset]. Dryad. https://doi.org/10.5061/dryad.4xgxd25jh [53] 
+Declarations
+Ethics approval and consent to participate
+All methods were performed in accordance with the ethical standards as laid 
+down in the Declaration of Helsinki and its later amendments or comparable 
+ethical standards. Written informed consent was obtained from a parent and/
+or legal guardian. This study was approved by the Institutional Review Board 
+(IRB) of the hospital (Hospital Municipal Infantil Menino Jesus Research Ethics 
+Committee; approval number 39509820.0.0000.5639, 11/24/2020).
+Consent for publication
+Written informed consent was obtained from a parent and/or legal guardian 
+before the data were collected by the physician responsible for starting the 
+protocol.
+Competing interests
+The authors declare no competing interests.
+Author details
+1
+Pediatric Intensive Care Unit, Hospital Municipal Infantil Menino Jesus, 
+São Paulo, São Paulo, Brazil
+2
+Microbiology Department, Universidade de São Paulo, São Paulo, São 
+Paulo, Brazil
+3
+Hospital Israelita Albert Einstein, São Paulo, São Paulo, Brazil
+4
+Pediatric Intensive Care Unit, GRAAC, Universidade Federal de São Paulo, 
+São Paulo, São Paulo, Brazil
+5
+Pediatric Intensive Care Unit, Instituto da Criança, Universidade de São 
+Paulo, São Paulo, São Paulo, Brazil
+Received: 15 June 2024 / Accepted: 5 September 2024
+References
+1. Slain KN, Shein SL, Rotta AT. The use of high-flow nasal cannula in the pediat￾ric emergency department. J Pediatr (Rio J). 2017. https://doi.org/10.1016/j.
+jped.2017.06.006.
+2. Hough JL, Pham TM, Schibler A. Physiologic effect of high-flow nasal can￾nula in infants with bronchiolitis. Pediatr Crit Care Med. 2014. https://doi.
+org/10.1097/PCC.0000000000000112.
+3. Pham TM, O’Malley L, Mayfield S, Martin S, Schibler A. The effect of high flow 
+nasal cannula therapy on the work of breathing in infants with bronchiolitis. 
+Pediatr Pulmonol. 2015. https://doi.org/10.1002/ppul.23060.
+4. Guglielmo RD, Hotz JC, Ross PA, Deakers TW, Diep JEL, Newth CJL, et al. 
+High-flow nasal cannula reduces effort of breathing but not consistently 
+via positive end-expiratory pressure. Chest. 2022. https://doi.org/10.1016/j.
+chest.2022.03.008.
+5. Rotta AT, Rehder KJ. Toward elucidating the mechanism of action of high￾flow nasal cannula support in children. Chest. 2022. https://doi.org/10.1016/j.
+chest.2022.04.010.
+6. Carroll CL, Napolitano N, Pons-Òdena M, Iyer NP, Korang SK, Essouri S et al. 
+Noninvasive respiratory support for pediatric acute respiratory distress syn￾drome: from the Second Pediatric Acute Lung Injury Consensus Conference. 
+Pediatr Crit Care Med. 2023; https://doi.org/10.1097/PCC.0000000000003165
+7. Milési C, Baudin F, Durand P, Emeriaud G, Essouri S, Pouyau R, et al. Clinical 
+practice guidelines: management of severe bronchiolitis in infants under 
+12 months old admitted to a pediatric critical care unit. Intensive Care Med. 
+2023. https://doi.org/10.1007/s00134-022-06918-4.
+=== page 11
+Santos et al. BMC Pediatrics (2024) 24:595 Page 11 of 12
+8. National Institute for Health and Care Excellence. Bronchiolitis in children: 
+diagnosis and management. 2021. https://www.nice.org.uk/guidance/ng9/
+chapter/1-Recommendations. Accessed 25 Mar 2024.
+9. Mikalsen IB, Davis P, Øymar K. High flow nasal cannula in children: a literature 
+review. Scand J Trauma Resusc Emerg Med. 2016. https://doi.org/10.1186/
+s13049-016-0278-4.
+10. Pelletier JH, Au AK, Fuhrman D, Clark RSB, Horvat C. Trends in bronchiolitis ICU 
+admissions and ventilation practices: 2010–2019. Pediatrics. 2021. https://doi.
+org/10.1542/peds.2020-039115.
+11. Fujiogi M, Goto T, Yasunaga H, Fujishiro J, Mansbach JM, Camargo CA, et 
+al. Trends in bronchiolitis hospitalizations in the United States: 2000–2016. 
+Pediatrics. 2019. https://doi.org/10.1542/peds.2019-2614.
+12. Milési C, Essouri S, Pouyau R, Liet JM, Afanetti M, Portefaix A, et al. High flow 
+nasal cannula (HFNC) versus nasal continuous positive airway pressure 
+(nCPAP) for the initial respiratory management of acute viral bronchiolitis 
+in young infants: a multicenter randomized controlled trial (TRAMONTANE 
+study). Intensive Care Med. 2017. https://doi.org/10.1007/s00134-016-4617-8.
+13. Franklin D, Babl FE, Schlapbach LJ, Oakley E, Craig S, Neutze J, et al. A random￾ized trial of high-flow oxygen therapy in infants with bronchiolitis. N Engl J 
+Med. 2018. https://doi.org/10.1056/NEJMoa1714855.
+14. Zhong Z, Zhao L, Zhao Y, Xia S. Comparison of high flow nasal cannula and 
+non-invasive positive pressure ventilation in children with bronchiolitis: a 
+meta-analysis of randomized controlled trials. Front Pediatr. 2022. https://doi.
+org/10.3389/fped.2022.947667.
+15. Lin J, Zhang Y, Xiong L, Liu S, Gong C, Dai J. High-flow nasal cannula therapy 
+for children with bronchiolitis: a systematic review and meta-analysis. Arch 
+Dis Child. 2019. https://doi.org/10.1136/archdischild-2018-315846.
+16. Vahlkvist S, Jürgensen L, la Cour A, Markoew S, Petersen TH, Kofoed PE. High 
+flow nasal cannula and continuous positive airway pressure therapy in 
+treatment of viral bronchiolitis: a randomized clinical trial. Eur J Pediatr. 2020. 
+https://doi.org/10.1007/s00431-019-03533-2.
+17. Dafydd C, Saunders BJ, Kotecha SJ, Edwards MO. Efficacy and safety of 
+high flow nasal oxygen for children with bronchiolitis: systematic review 
+and meta-analysis. BMJ Open Respir Res. 2021. https://doi.org/10.1136/
+bmjresp-2020-000844.
+18. Armarego M, Forde H, Wills K, Beggs SA. High-flow nasal cannula therapy 
+for infants with bronchiolitis. Cochrane Database Syst Rev. 2024. https://doi.
+org/10.1002/14651858.CD009609.pub3.
+19. Wood DW, Downes JJ, Lecks HI. A clinical scoring system for the diagnosis of 
+respiratory failure. Preliminary report on childhood status asthmaticus. Am J 
+Dis Child. 1972. https://doi.org/10.1001/archpedi.1972.02110090097011.
+20. Rivas-Juesas C, Rius Peris JM, García AL, Madramany AA, Peris MG, Álvarez LV, 
+et al. A comparison of two clinical scores for bronchiolitis. A multicentre and 
+prospective study conducted in hospitalised infants. Allergol Immunopathol 
+(Madr). 2018. https://doi.org/10.1016/j.aller.2017.01.012.
+21. Ralston SL, Lieberthal AS, Meissner HC, Alverson BK, Baley JE, Gadomski AM, 
+et al. Clinical practice guideline: the diagnosis, management, and prevention 
+of bronchiolitis. Pediatrics. 2014. https://doi.org/10.1542/peds.2014-2742.
+22. Roca O, Messika J, Caralt B, García-de-Acilu M, Sztrymf B, Ricard JD, et al. 
+Predicting success of high-flow nasal cannula in pneumonia patients with 
+hypoxemic respiratory failure: the utility of the ROX index. J Crit Care. 2016. 
+https://doi.org/10.1016/j.jcrc.2016.05.022.
+23. Roca O, Caralt B, Messika J, Samper M, Sztrymf B, Hernández G, et al. An index 
+combining respiratory rate and oxygenation to predict outcome of nasal 
+high-flow therapy. Am J Respir Crit Care Med. 2019. https://doi.org/10.1164/
+rccm.201803-0589OC.
+24. Slater A, Shann F, Pearson G, Group PIoMPS. PIM2: a revised version of 
+the Paediatric Index of Mortality. Intensive Care Med. 2003. https://doi.
+org/10.1007/s00134-002-1601-2.
+25. Ista E, van Dijk M, Tibboel D, de Hoog M. Assessment of sedation levels in 
+pediatric intensive care patients can be improved by using the COMFORT 
+behavior scale. Pediatr Crit Care Med. 2005. https://doi.org/10.1097/01.
+PCC.0000149318.40279.1A.
+26. Kerson AG, DeMaria R, Mauer E, Joyce C, Gerber LM, Greenwald BM, et al. 
+Validity of the Richmond agitation-sedation scale (RASS) in critically ill chil￾dren. J Intensive Care. 2016. https://doi.org/10.1186/s40560-016-0189-5.
+27. Fischer C, Bertelle V, Hohlfeld J, Forcada-Guex M, Stadelmann-Diaw C, Tolsa JF. 
+Nasal trauma due to continuous positive airway pressure in neonates. Arch 
+Dis Child Fetal Neonatal Ed. 2010. https://doi.org/10.1136/adc.2009.179416.
+28. Cesar RG, Bispo BRP, Felix PHCA, Modolo MCC, Souza AAF, Horigoshi NK, et al. 
+High-flow nasal cannula versus continuous positive airway pressure in critical 
+bronchiolitis: a Randomized Controlled Pilot. J Pediatr Intensive Care. 2020. 
+https://doi.org/10.1055/s-0040-1709656.
+29. Farrington CP, Manning G. Test statistics and sample size formulae for 
+comparative binomial trials with null hypothesis of non-zero risk differ￾ence or non-unity relative risk. Stat Med. 1990. https://doi.org/10.1002/
+sim.4780091208.
+30. Tomczak ATE. The need to report effect size estimates revisited. An 
+overview of some recommended measures of effect size. Trends Sport Sci. 
+2014;1:19–25.
+31. R Foundation for Statistical Computing. 2020. https://www.r-project.org/
+about.html. Accessed 20 Jul 2020.
+32. Karahalios A, Baglietto L, Carlin JB, English DR, Simpson JA. A review of the 
+reporting and handling of missing data in cohort studies with repeated 
+assessment of exposure measures. BMC Med Res Methodol. 2012. https://doi.
+org/10.1186/1471-2288-12-96.
+33. Hopewell S, Clarke M, Moher D, Wager E, Middleton P, Altman DG, et al. 
+CONSORT for reporting randomised trials in journal and conference abstracts. 
+Lancet. 2008. https://doi.org/10.1016/S0140-6736(07)61835-2.
+34. Schulz KF, Altman DG, Moher D, Group C. CONSORT 2010 statement: updated 
+guidelines for reporting parallel group randomised trials. PLoS Med. 2010. 
+https://doi.org/10.1136/bmj.c332.
+35. Sociedade Brasileira de Pediatria. Diretrizes para o manejo da infecção 
+causada pelo vírus sincicial respiratório (VRS). 2017. http://www.sbp.com.br/
+fileadmin/user_upload/Diretrizes_manejo_infeccao_causada_VSR2017.pdf. 
+Accessed 18 Nov 2020.
+36. Cammarota G, Simonte R, De Robertis E. Comfort during non-invasive ventila￾tion. Front Med (Lausanne). 2022. https://doi.org/10.3389/fmed.2022.874250.
+37. Colleti Júnior J, Kawaguchi A, Araujo OR, Garros D. Clinical practices related 
+to high-flow nasal cannulas in pediatric critical care in Brazil compared to 
+other countries: a Brazilian survey. Rev Bras Ter Intensiva. 2021. https://doi.
+org/10.5935/0103-507X.20210055.
+38. De Luca D, Pezza L, Vivalda L, Di Nardo M, Lepainteur M, Baraldi E, et al. Critical 
+care of severe bronchiolitis during shortage of ICU resources. EClinicalMedi￾cine. 2024. https://doi.org/10.1016/j.eclinm.2024.102450.
+39. Marlow RK, Brouillette S, Williams V, Lenihan A, Nemec N, Lukowski JD, et al. 
+Risk factors associated with mechanical ventilation in critical bronchiolitis. 
+Child (Basel). 2021. https://doi.org/10.3390/children8111035.
+40. Guitart C, Alejandre C, Bobillo-Perez S, Girona-Alarcon M, Sole-Ribalta A, 
+Cambra FJ, et al. Risk factors and incidence of invasive bacterial infection in 
+severe bronchiolitis: the RICOIB prospective study. BMC Pediatr. 2022. https://
+doi.org/10.1186/s12887-022-03206-4.
+41. Lewis L, Fernandes R, Kapitein B, Davies J, Holden J, Messahel S, et al. Predict￾ing failure of high flow nasal cannula in bronchiolitis: a systematic review. Eur 
+Respir J. 2019. https://doi.org/10.1183/13993003.congress-2019.PA1005.
+42. Antalová N, Klučka J, Říhová M, Poláčková S, Pokorná A, Štourač P. Ventilator￾associated pneumonia prevention in pediatric patients: narrative review. 
+Child (Basel). 2022. https://doi.org/10.3390/children9101540.
+43. Shein SL, Karsies T. Conservative versus liberal oxygenation targets 
+for children admitted to PICU. Lancet. 2024. https://doi.org/10.1016/
+S0140-6736(23)02301-2.
+44. Peters MJ, Gould DW, Ray S, Thomas K, Chang I, Orzol M, et al. Conservative 
+versus liberal oxygenation targets in critically ill children (Oxy-PICU): a UK 
+Multicentre, open, parallel-group, randomised clinical trial. Lancet. 2024. 
+https://doi.org/10.1016/S0140-6736(23)01968-2.
+45. Caballero MT, Polack FP, Stein RT. Viral bronchiolitis in young infants: new 
+perspectives for management and treatment. J Pediatr (Rio J). 2017. https://
+doi.org/10.1016/j.jped.2017.07.003.
+46. Granda E, Urbano M, Andrés P, Corchete M, Cano A, Velasco R. Comparison 
+of severity scales for acute bronchiolitis in real clinical practice. Eur J Pediatr. 
+2023. https://doi.org/10.1007/s00431-023-04840-5.
+47. Rodriguez-Martinez CE, Sossa-Briceño MP, Nino G. Systematic review of 
+instruments aimed at evaluating the severity of bronchiolitis. Paediatr Respir 
+Rev. 2018. https://doi.org/10.1016/j.prrv.2016.12.006.
+48. Clayton JA, McKee B, Slain KN, Rotta AT, Shein SL. Outcomes of children with 
+bronchiolitis treated with high-flow nasal cannula or noninvasive positive 
+pressure ventilation. Pediatr Crit Care Med. 2019. https://doi.org/10.1097/
+PCC.0000000000001798.
+49. Borgi A, Louati A, Ghali N, Hajji A, Ayari A, Bouziri A, et al. High flow nasal 
+cannula therapy versus continuous positive airway pressure and nasal 
+positive pressure ventilation in infants with severe bronchiolitis: a ran￾domized controlled trial. Pan Afr Med J. 2021. https://doi.org/10.11604/
+pamj.2021.40.133.30350.
+=== page 12
+Santos et al. BMC Pediatrics (2024) 24:595 Page 12 of 12
+50. Pinto VF. Non-inferiority clinical trials: concepts and issues. J Vasc Bras. 
+2010;9:145–51.
+51. Rodríguez-Fernández R, González-Martínez F, Perez-Moreno J, González￾Sánchez MI, de la Mata Navazo S, Del Toledo B, et al. Clinical phenotype 
+of respiratory syncytial virus bronchiolitis before and during the corona￾virus disease 2019 pandemic. Am J Perinatol. 2024. https://doi.org/10.105
+5/s-0042-1759602.
+52. Bottau P, Liotti L, Laderchi E, Palpacelli A, Calamelli E, Colombo C, et al. Some￾thing is changing in viral infant bronchiolitis approach. Front Pediatr. 2022. 
+https://doi.org/10.3389/fped.2022.865977.
+53. Santos ACEZ. Forthcoming (2024). Comparison between high-flow nasal can￾nula (HFNC) therapy and noninvasive ventilation (NIV) in children with acute 
+respiratory failure by bronchiolitis: Dataset from a randomized controlled trial 
+[Dataset]. Dryad. https://doi.org/10.5061/dryad.4xgxd25jh
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in 
+published maps and institutional affiliations. 

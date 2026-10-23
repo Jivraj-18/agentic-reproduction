@@ -1,0 +1,866 @@
+{
+ "published_tokens": 73,
+ "answer_values": 0,
+ "unsearchable_cells": [
+  "age|hfnc_med",
+  "age|hfnc_q1",
+  "age|hfnc_q3",
+  "age|niv_q1",
+  "age|niv_q3",
+  "hosp|hfnc_med",
+  "hosp|hfnc_q1",
+  "hosp|niv_med",
+  "hosp|niv_q1",
+  "imv_d|hfnc_med",
+  "imv_d|niv_med",
+  "imv_d|niv_q3",
+  "ngt_d|hfnc_med",
+  "ngt_d|hfnc_q1",
+  "ngt_d|hfnc_q3",
+  "ngt_d|niv_med",
+  "ngt_d|niv_q1",
+  "ngt_d|niv_q3",
+  "picu|hfnc_med",
+  "picu|hfnc_q1",
+  "picu|hfnc_q3",
+  "picu|niv_med",
+  "picu|niv_q1",
+  "sed_d|hfnc_med",
+  "sed_d|hfnc_q1",
+  "sed_d|hfnc_q3",
+  "sed_d|niv_med",
+  "sed_d|niv_q1",
+  "sed_d|niv_q3",
+  "v_ad|hfnc_n",
+  "v_ad|niv_n",
+  "v_bo|niv_n",
+  "v_me|hfnc_n",
+  "v_me|niv_n",
+  "v_me|niv_pct",
+  "v_pa|hfnc_n",
+  "v_pa|hfnc_pct",
+  "v_pa|niv_n",
+  "v_re|hfnc_n",
+  "v_re|niv_n",
+  "v_sc|hfnc_n",
+  "v_sc|niv_n",
+  "vap|hfnc_n",
+  "vap|niv_n",
+  "vap|niv_pct"
+ ],
+ "sandboxes": {
+  "r_opus": {
+   "inputs": [
+    {
+     "file": "methods.json",
+     "token": "31",
+     "cells": [
+      "pw|niv_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "32",
+     "cells": [
+      "pw|hfnc_n"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "22",
+     "cells": [
+      "prh|hfnc_n"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "48",
+     "cells": [
+      "dur|niv_med"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "24",
+     "cells": [
+      "dur|niv_q1"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "methods.json",
+     "token": "96",
+     "cells": [
+      "sed|niv_pct"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "methods.json",
+     "token": "10",
+     "cells": [
+      "picu|niv_q3",
+      "hosp|hfnc_q3"
+     ],
+     "hits": 1
+    }
+   ],
+   "data": [
+    {
+     "file": "data\\README.md",
+     "token": "48",
+     "cells": [
+      "dur|niv_med"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\README.md",
+     "token": "24",
+     "cells": [
+      "dur|niv_q1"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\README.md",
+     "token": "96",
+     "cells": [
+      "sed|niv_pct"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\README.md",
+     "token": "10",
+     "cells": [
+      "picu|niv_q3",
+      "hosp|hfnc_q3"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "2.5",
+     "cells": [
+      "age|niv_med",
+      "imv_d|hfnc_q1"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "52",
+     "cells": [
+      "female|niv_n"
+     ],
+     "hits": 47
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "41",
+     "cells": [
+      "female|niv_pct",
+      "female|hfnc_n"
+     ],
+     "hits": 39
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "39",
+     "cells": [
+      "pw|niv_n"
+     ],
+     "hits": 38
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "31",
+     "cells": [
+      "pw|niv_pct"
+     ],
+     "hits": 31
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "32",
+     "cells": [
+      "pw|hfnc_n"
+     ],
+     "hits": 91
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "0.3",
+     "cells": [
+      "pw|p",
+      "picu|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "30",
+     "cells": [
+      "prh|niv_n"
+     ],
+     "hits": 391
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "22",
+     "cells": [
+      "prh|hfnc_n"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "48",
+     "cells": [
+      "dur|niv_med"
+     ],
+     "hits": 87
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "24",
+     "cells": [
+      "dur|niv_q1"
+     ],
+     "hits": 20
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "78",
+     "cells": [
+      "dur|niv_q3"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "108",
+     "cells": [
+      "dur|hfnc_q3"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "0.9",
+     "cells": [
+      "wdf|niv_sd",
+      "wdf|p"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.1",
+     "cells": [
+      "wdf|hfnc_sd"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.9",
+     "cells": [
+      "spo2|niv_sd",
+      "spo2|hfnc_sd"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "121",
+     "cells": [
+      "sed|niv_n"
+     ],
+     "hits": 14
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "96",
+     "cells": [
+      "sed|niv_pct"
+     ],
+     "hits": 200
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "54",
+     "cells": [
+      "sed|hfnc_n"
+     ],
+     "hits": 22
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "10",
+     "cells": [
+      "picu|niv_q3",
+      "hosp|hfnc_q3"
+     ],
+     "hits": 584
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "14",
+     "cells": [
+      "hosp|niv_q3"
+     ],
+     "hits": 305
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "3.7",
+     "cells": [
+      "imv_d|niv_q1"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "62",
+     "cells": [
+      "atb|niv_n"
+     ],
+     "hits": 19
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "49",
+     "cells": [
+      "atb|niv_pct",
+      "atb|hfnc_n"
+     ],
+     "hits": 42
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "38",
+     "cells": [
+      "atb|hfnc_pct"
+     ],
+     "hits": 66
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "3.4",
+     "cells": [
+      "vap|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.8",
+     "cells": [
+      "pim|niv_mean"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.7",
+     "cells": [
+      "pim|niv_sd"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.5",
+     "cells": [
+      "pim|hfnc_mean"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.4",
+     "cells": [
+      "pim|hfnc_sd"
+     ],
+     "hits": 13
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "91",
+     "cells": [
+      "v_rsv|niv_n"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "90",
+     "cells": [
+      "v_rsv|hfnc_n"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "3.2",
+     "cells": [
+      "v_bo|niv_pct",
+      "v_sc|niv_pct",
+      "v_me|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "11",
+     "cells": [
+      "v_bo|hfnc_n"
+     ],
+     "hits": 135
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "8.7",
+     "cells": [
+      "v_bo|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "7.1",
+     "cells": [
+      "v_ad|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.6",
+     "cells": [
+      "v_re|niv_pct",
+      "v_re|hfnc_pct"
+     ],
+     "hits": 6
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 9,
+   "answers_hits": 0,
+   "data_hits": 2253
+  },
+  "r_sonnet": {
+   "inputs": [
+    {
+     "file": "methods.json",
+     "token": "31",
+     "cells": [
+      "pw|niv_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "32",
+     "cells": [
+      "pw|hfnc_n"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "22",
+     "cells": [
+      "prh|hfnc_n"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "48",
+     "cells": [
+      "dur|niv_med"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "24",
+     "cells": [
+      "dur|niv_q1"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "methods.json",
+     "token": "96",
+     "cells": [
+      "sed|niv_pct"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "methods.json",
+     "token": "10",
+     "cells": [
+      "picu|niv_q3",
+      "hosp|hfnc_q3"
+     ],
+     "hits": 1
+    }
+   ],
+   "data": [
+    {
+     "file": "data\\README.md",
+     "token": "48",
+     "cells": [
+      "dur|niv_med"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\README.md",
+     "token": "24",
+     "cells": [
+      "dur|niv_q1"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\README.md",
+     "token": "96",
+     "cells": [
+      "sed|niv_pct"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\README.md",
+     "token": "10",
+     "cells": [
+      "picu|niv_q3",
+      "hosp|hfnc_q3"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "2.5",
+     "cells": [
+      "age|niv_med",
+      "imv_d|hfnc_q1"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "52",
+     "cells": [
+      "female|niv_n"
+     ],
+     "hits": 47
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "41",
+     "cells": [
+      "female|niv_pct",
+      "female|hfnc_n"
+     ],
+     "hits": 39
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "39",
+     "cells": [
+      "pw|niv_n"
+     ],
+     "hits": 38
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "31",
+     "cells": [
+      "pw|niv_pct"
+     ],
+     "hits": 31
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "32",
+     "cells": [
+      "pw|hfnc_n"
+     ],
+     "hits": 91
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "0.3",
+     "cells": [
+      "pw|p",
+      "picu|p"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "30",
+     "cells": [
+      "prh|niv_n"
+     ],
+     "hits": 391
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "22",
+     "cells": [
+      "prh|hfnc_n"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "48",
+     "cells": [
+      "dur|niv_med"
+     ],
+     "hits": 87
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "24",
+     "cells": [
+      "dur|niv_q1"
+     ],
+     "hits": 20
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "78",
+     "cells": [
+      "dur|niv_q3"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "108",
+     "cells": [
+      "dur|hfnc_q3"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "0.9",
+     "cells": [
+      "wdf|niv_sd",
+      "wdf|p"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.1",
+     "cells": [
+      "wdf|hfnc_sd"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.9",
+     "cells": [
+      "spo2|niv_sd",
+      "spo2|hfnc_sd"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "121",
+     "cells": [
+      "sed|niv_n"
+     ],
+     "hits": 14
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "96",
+     "cells": [
+      "sed|niv_pct"
+     ],
+     "hits": 200
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "54",
+     "cells": [
+      "sed|hfnc_n"
+     ],
+     "hits": 22
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "10",
+     "cells": [
+      "picu|niv_q3",
+      "hosp|hfnc_q3"
+     ],
+     "hits": 584
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "14",
+     "cells": [
+      "hosp|niv_q3"
+     ],
+     "hits": 305
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "3.7",
+     "cells": [
+      "imv_d|niv_q1"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "62",
+     "cells": [
+      "atb|niv_n"
+     ],
+     "hits": 19
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "49",
+     "cells": [
+      "atb|niv_pct",
+      "atb|hfnc_n"
+     ],
+     "hits": 42
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "38",
+     "cells": [
+      "atb|hfnc_pct"
+     ],
+     "hits": 66
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "3.4",
+     "cells": [
+      "vap|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.8",
+     "cells": [
+      "pim|niv_mean"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.7",
+     "cells": [
+      "pim|niv_sd"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.5",
+     "cells": [
+      "pim|hfnc_mean"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.4",
+     "cells": [
+      "pim|hfnc_sd"
+     ],
+     "hits": 13
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "91",
+     "cells": [
+      "v_rsv|niv_n"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "90",
+     "cells": [
+      "v_rsv|hfnc_n"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "3.2",
+     "cells": [
+      "v_bo|niv_pct",
+      "v_sc|niv_pct",
+      "v_me|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "11",
+     "cells": [
+      "v_bo|hfnc_n"
+     ],
+     "hits": 135
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "8.7",
+     "cells": [
+      "v_bo|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "7.1",
+     "cells": [
+      "v_ad|hfnc_pct"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "data\\repository_HFNC_x_NIV.xlsx",
+     "token": "1.6",
+     "cells": [
+      "v_re|niv_pct",
+      "v_re|hfnc_pct"
+     ],
+     "hits": 6
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 9,
+   "answers_hits": 0,
+   "data_hits": 2253
+  }
+ },
+ "pass": false
+}

@@ -1,0 +1,16 @@
+Rule: any mention (both runs)
+  NIV   {'RSV': 91, 'Bo': 10, 'Ad': 8, 'SC': 5, 'Pa': 9, 'Me': 6, 'RE': 2}  mismatches: {'Bo': '10 vs 4', 'Ad': '8 vs 6', 'SC': '5 vs 4', 'Pa': '9 vs 7', 'Me': '6 vs 5'}
+  HFNC  {'RSV': 90, 'Bo': 10, 'Ad': 9, 'SC': 8, 'Pa': 5, 'Me': 4, 'RE': 2}  mismatches: {'Bo': '10 vs 11'}
+Rule: first-listed virus only
+  NIV   {'RSV': 91, 'Bo': 3, 'Ad': 4, 'SC': 0, 'Pa': 4, 'Me': 5, 'RE': 1}  mismatches: {'Bo': '3 vs 4', 'Ad': '4 vs 6', 'SC': '0 vs 4', 'Pa': '4 vs 7', 'RE': '1 vs 2'}
+  HFNC  {'RSV': 88, 'Bo': 4, 'Ad': 6, 'SC': 2, 'Pa': 2, 'Me': 4, 'RE': 1}  mismatches: {'RSV': '88 vs 90', 'Bo': '4 vs 11', 'Ad': '6 vs 9', 'SC': '2 vs 8', 'Pa': '2 vs 5', 'RE': '1 vs 2'}
+Rule: single-virus infections only
+  NIV   {'RSV': 77, 'Bo': 0, 'Ad': 2, 'SC': 0, 'Pa': 4, 'Me': 5, 'RE': 1}  mismatches: {'RSV': '77 vs 91', 'Bo': '0 vs 4', 'Ad': '2 vs 6', 'SC': '0 vs 4', 'Pa': '4 vs 7', 'RE': '1 vs 2'}
+  HFNC  {'RSV': 76, 'Bo': 2, 'Ad': 3, 'SC': 2, 'Pa': 0, 'Me': 4, 'RE': 1}  mismatches: {'RSV': '76 vs 90', 'Bo': '2 vs 11', 'Ad': '3 vs 9', 'SC': '2 vs 8', 'Pa': '0 vs 5', 'RE': '1 vs 2'}
+Rule: RSV co-infections count as RSV only
+  NIV   {'RSV': 91, 'Bo': 3, 'Ad': 6, 'SC': 1, 'Pa': 6, 'Me': 6, 'RE': 1}  mismatches: {'Bo': '3 vs 4', 'SC': '1 vs 4', 'Pa': '6 vs 7', 'Me': '6 vs 5', 'RE': '1 vs 2'}
+  HFNC  {'RSV': 90, 'Bo': 3, 'Ad': 5, 'SC': 5, 'Pa': 4, 'Me': 4, 'RE': 1}  mismatches: {'Bo': '3 vs 11', 'Ad': '5 vs 9', 'SC': '5 vs 8', 'Pa': '4 vs 5', 'RE': '1 vs 2'}
+
+Upper bound: HFNC rows that mention Bo at all = 10 (published 11, so no counting rule can reach it)
+NIV rows with Bo = 10 ; of these without RSV = 3 ; reaching 4 while RSV stays at 91 needs dropping Bo from RSV co-infections, which also breaks NIV Ad/Pa.
+Printed % equal count/126 (4/126 = 3.2%, 11/126 = 8.7%), so the % cells simply follow the counts.

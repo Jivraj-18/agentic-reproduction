@@ -1,0 +1,31 @@
+{
+ "paper": "A",
+ "files": [
+  {
+   "name": "repository_HFNC_x_NIV.xlsx",
+   "role": "one row per analysed patient (252)",
+   "given_to_reproducer": true
+  },
+  {
+   "name": "README.md",
+   "role": "column dictionary and coding (md, nc, pf); no results",
+   "given_to_reproducer": true
+  }
+ ],
+ "required_inputs": [
+  {
+   "input": "Group, sex, history, viral panel, device duration, 0 h vital signs, sedation and enteral tube days, ventilation days, antibiotics, PIM 2",
+   "availability": "full"
+  },
+  {
+   "input": "Age, weight, PICU and hospital length of stay",
+   "availability": "partial",
+   "note": "De-identified into ranges (e.g. 6-8), so medians, IQRs, z scores and tests on them cannot be recomputed. Those rows are not graded."
+  },
+  {
+   "input": "Ventilator-associated pneumonia",
+   "availability": "missing"
+  }
+ ],
+ "withheld_from_sandbox": []
+}

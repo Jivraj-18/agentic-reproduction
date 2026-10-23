@@ -1,0 +1,976 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. Demographic and clinical characteristics",
+ "rows": [
+  {
+   "id": "female",
+   "label": "Female, N (%)"
+  },
+  {
+   "id": "pw",
+   "label": "Previous wheezing, N (%)"
+  },
+  {
+   "id": "prh",
+   "label": "Previous respiratory hospitalization, N (%)"
+  },
+  {
+   "id": "dur",
+   "label": "NIV/HFNC duration (hours), median (IQR)"
+  },
+  {
+   "id": "fio2",
+   "label": "Initial FiO2, mean (SD)"
+  },
+  {
+   "id": "wdf",
+   "label": "Initial WDF, mean (SD)"
+  },
+  {
+   "id": "spo2",
+   "label": "Initial SpO2, mean (SD)"
+  },
+  {
+   "id": "sed",
+   "label": "Sedation, N (%)"
+  },
+  {
+   "id": "sed_d",
+   "label": "Sedation (days), median (IQR)"
+  },
+  {
+   "id": "ngt_d",
+   "label": "Nasogastric tube (days), median (IQR)"
+  },
+  {
+   "id": "imv_d",
+   "label": "Invasive mechanical ventilation duration (days), median (IQR)"
+  },
+  {
+   "id": "atb",
+   "label": "Antibiotic use, n (%)"
+  },
+  {
+   "id": "pim",
+   "label": "PIM 2 score, mean (SD)"
+  },
+  {
+   "id": "v_rsv",
+   "label": "Virus: Respiratory syncytial virus, n (%)"
+  },
+  {
+   "id": "v_bo",
+   "label": "Virus: Bocavirus, n (%)"
+  },
+  {
+   "id": "v_ad",
+   "label": "Virus: Adenovirus, n (%)"
+  },
+  {
+   "id": "v_sc",
+   "label": "Virus: Seasonal coronavirus, n (%)"
+  },
+  {
+   "id": "v_pa",
+   "label": "Virus: Parainfluenza 3/4, n (%)"
+  },
+  {
+   "id": "v_me",
+   "label": "Virus: Human metapneumovirus, n (%)"
+  },
+  {
+   "id": "v_re",
+   "label": "Virus: Rhinovirus/enterovirus, n (%)"
+  }
+ ],
+ "columns": [
+  {
+   "id": "niv_n",
+   "label": "NIV N",
+   "metric_type": "n"
+  },
+  {
+   "id": "niv_pct",
+   "label": "NIV %",
+   "metric_type": "pct"
+  },
+  {
+   "id": "niv_mean",
+   "label": "NIV mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "niv_sd",
+   "label": "NIV SD",
+   "metric_type": "sd"
+  },
+  {
+   "id": "niv_med",
+   "label": "NIV median",
+   "metric_type": "med"
+  },
+  {
+   "id": "niv_q1",
+   "label": "NIV Q1 (25th pct)",
+   "metric_type": "q1"
+  },
+  {
+   "id": "niv_q3",
+   "label": "NIV Q3 (75th pct)",
+   "metric_type": "q3"
+  },
+  {
+   "id": "hfnc_n",
+   "label": "HFNC N",
+   "metric_type": "n"
+  },
+  {
+   "id": "hfnc_pct",
+   "label": "HFNC %",
+   "metric_type": "pct"
+  },
+  {
+   "id": "hfnc_mean",
+   "label": "HFNC mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "hfnc_sd",
+   "label": "HFNC SD",
+   "metric_type": "sd"
+  },
+  {
+   "id": "hfnc_med",
+   "label": "HFNC median",
+   "metric_type": "med"
+  },
+  {
+   "id": "hfnc_q1",
+   "label": "HFNC Q1 (25th pct)",
+   "metric_type": "q1"
+  },
+  {
+   "id": "hfnc_q3",
+   "label": "HFNC Q3 (75th pct)",
+   "metric_type": "q3"
+  },
+  {
+   "id": "p",
+   "label": "p",
+   "metric_type": "p"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "female|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 52,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "female|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 41.26984126984127,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "female|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 41,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "female|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 32.53968253968254,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "female|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.1917396710367218,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pw|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 39,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pw|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 30.952380952380953,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pw|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 32,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pw|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 25.396825396825395,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pw|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.4007958443616779,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "prh|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 30,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "prh|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 23.80952380952381,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "prh|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 22,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "prh|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 17.46031746031746,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "prh|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.27587330008018673,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 48.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 24.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 81.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 77.5,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 46.5,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 107.25,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "dur|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.000380195331446539,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "fio2|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 40.80952380952381,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "fio2|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 10.891989192586843,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "fio2|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 36.23809523809524,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "fio2|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 10.580305153579323,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "fio2|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.000180696549425995,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "wdf|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 5.920634920634921,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "wdf|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.9927994730310818,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "wdf|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 5.944444444444445,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "wdf|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 0.879140994885854,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "wdf|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.978913854414833,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "spo2|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 97.5952380952381,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "spo2|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 1.919077159172383,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "spo2|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 97.36507936507937,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "spo2|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 1.9124985735029438,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "spo2|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.2534899492677075,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 121,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.03174603174604,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 54,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 42.857142857142854,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 1.7858659669373597e-19,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 3.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 2.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 4.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 2.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 1.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 4.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "sed_d|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.08079455267660951,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 3.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 2.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 4.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 4.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 2.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 5.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "ngt_d|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.011294250353481885,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 5.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 3.75,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 7.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": 4.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": 2.5,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": 5.0,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "imv_d|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.022365777233547948,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "atb|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 62,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "atb|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 49.20634920634921,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "atb|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 49,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "atb|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 38.888888888888886,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "atb|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.12783718041659836,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pim|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.791452991452991,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pim|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 1.7503976222942077,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pim|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": 1.480612244897959,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pim|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": 1.441624095824896,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "pim|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": 0.4951267610388729,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_rsv|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 91,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_rsv|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 72.22222222222223,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_rsv|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 90,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_rsv|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 71.42857142857143,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_bo|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 10,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_bo|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 7.936507936507937,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_bo|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 10,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_bo|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 7.936507936507937,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_ad|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 8,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_ad|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 6.349206349206349,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_ad|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 9,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_ad|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 7.142857142857143,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_sc|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 5,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_sc|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.9682539682539684,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_sc|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 8,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_sc|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 6.349206349206349,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_pa|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 9,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_pa|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 7.142857142857143,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_pa|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 5,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_pa|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.9682539682539684,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_me|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 6,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_me|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.761904761904762,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_me|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 4,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_me|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.1746031746031744,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_re|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 2,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_re|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.5873015873015872,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_re|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": 2,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  },
+  "v_re|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.5873015873015872,
+   "stars": "",
+   "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+  }
+ },
+ "instructions": "Fill `value` (a number, or a string such as '<x' for a bound) for every cell listed and set `stars` to ''. Cell keys are '<row>|<group>_<statistic>' (group niv or hfnc; statistic n, pct, mean, sd, med, q1, q3) or '<row>|p'. `unit` '%' means a percentage of the group."
+}

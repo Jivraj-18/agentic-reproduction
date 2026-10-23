@@ -1,0 +1,10 @@
+Graded non-A cells:
+  atb|hfnc_pct   exact=38.8889  rounded=39.0  truncated=38.0  published=38
+  pim|niv_sd     exact=1.7504  rounded=1.8  truncated=1.7  published=1.7
+  pim|p          exact=0.4951  rounded=0.5  truncated=0.49  published=0.49
+  imv_d|niv_q1   exact=3.7500  rounded=3.8  truncated=3.7  published=3.7
+Same habit in cells that graded A anyway:
+  pw|hfnc_pct    exact=25.3968  rounded=25.4  truncated=25.3  published=25.3
+  prh|hfnc_pct   exact=17.4603  rounded=17.5  truncated=17.4  published=17.4
+  sed|hfnc_pct   exact=42.8571  rounded=42.9  truncated=42.8  published=42.8
+Counter-examples (rounded, not truncated): v_me|hfnc_pct 3.17->3.2, v_pa|hfnc_pct 3.97->4; the habit is not uniform.

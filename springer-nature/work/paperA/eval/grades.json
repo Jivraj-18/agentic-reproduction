@@ -1,0 +1,5117 @@
+{
+ "paper": "A",
+ "table": "Table 1",
+ "runs": [
+  "r_opus",
+  "r_sonnet"
+ ],
+ "summary": {
+  "n_cells_graded": 101,
+  "per_run": {
+   "r_opus": {
+    "distribution": {
+     "A": 75,
+     "B": 13,
+     "C": 9,
+     "D": 1,
+     "E": 3,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.545,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     0,
+     0
+    ]
+   },
+   "r_sonnet": {
+    "distribution": {
+     "A": 74,
+     "B": 13,
+     "C": 10,
+     "D": 1,
+     "E": 3,
+     "F": 0
+    },
+    "table_grade": {
+     "mean_points": 4.525,
+     "letter": "A"
+    },
+    "within_1.96se": [
+     0,
+     0
+    ],
+    "stars_agree": [
+     0,
+     0
+    ]
+   }
+  },
+  "median_cell_grades": {
+   "A": 74,
+   "B": 13,
+   "C": 10,
+   "D": 1,
+   "E": 3,
+   "F": 0
+  },
+  "consensus_cell_grades": {
+   "A": 75,
+   "B": 13,
+   "C": 9,
+   "D": 1,
+   "E": 3,
+   "F": 0
+  },
+  "table_grade_median_of_runs": 4.535,
+  "sign_match": [
+   101,
+   101
+  ],
+  "within_1.96se_consensus": [
+   0,
+   0
+  ],
+  "runs_identical_cells": [
+   98,
+   101
+  ],
+  "runs_same_grade_cells": [
+   100,
+   101
+  ],
+  "within_20pct_consensus": [
+   88,
+   101
+  ],
+  "table_grade_median_letter": "A"
+ },
+ "cells": {
+  "age|niv_med": {
+   "published_raw": "2.5",
+   "metric_type": "median",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "age|niv_q1": {
+   "published_raw": "1",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "age|niv_q3": {
+   "published_raw": "6",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "age|hfnc_med": {
+   "published_raw": "3",
+   "metric_type": "median",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "age|hfnc_q1": {
+   "published_raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "age|hfnc_q3": {
+   "published_raw": "7",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "age|p": {
+   "published_raw": "0.07",
+   "metric_type": "p",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "wz|niv_mean": {
+   "published_raw": "-0.18",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "wz|niv_sd": {
+   "published_raw": "1.18",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "wz|hfnc_mean": {
+   "published_raw": "-0.18",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "wz|hfnc_sd": {
+   "published_raw": "1.11",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "wz|p": {
+   "published_raw": "0.95",
+   "metric_type": "p",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "female|niv_n": {
+   "published_raw": "52",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 52,
+     "reproduced_unrounded": 52.0,
+     "reproduced": 52.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(Gn==1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 52,
+     "reproduced_unrounded": 52.0,
+     "reproduced": 52.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 52.0,
+    "reproduced_unrounded": 52.0,
+    "reproduced": 52.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "female|niv_pct": {
+   "published_raw": "41",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 41.26984126984127,
+     "reproduced_unrounded": 41.26984126984127,
+     "reproduced": 41.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(Gn==1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 41.26984126984127,
+     "reproduced_unrounded": 41.26984126984127,
+     "reproduced": 41.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 41.26984126984127,
+    "reproduced_unrounded": 41.26984126984127,
+    "reproduced": 41.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "female|hfnc_n": {
+   "published_raw": "41",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 41,
+     "reproduced_unrounded": 41.0,
+     "reproduced": 41.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(Gn==1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 41,
+     "reproduced_unrounded": 41.0,
+     "reproduced": 41.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 41.0,
+    "reproduced_unrounded": 41.0,
+    "reproduced": 41.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "female|hfnc_pct": {
+   "published_raw": "32.5",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 32.53968253968254,
+     "reproduced_unrounded": 32.53968253968254,
+     "reproduced": 32.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(Gn==1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 32.53968253968254,
+     "reproduced_unrounded": 32.53968253968254,
+     "reproduced": 32.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 32.53968253968254,
+    "reproduced_unrounded": 32.53968253968254,
+    "reproduced": 32.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "female|p": {
+   "published_raw": "0.15",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.1917396710367218,
+     "reproduced_unrounded": 0.1917396710367218,
+     "reproduced": 0.19,
+     "grade": "C",
+     "deviation_pct": 26.66666666666667,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(Gn==1)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.1917396710367218,
+     "reproduced_unrounded": 0.1917396710367218,
+     "reproduced": 0.19,
+     "grade": "C",
+     "deviation_pct": 26.66666666666667,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.1917396710367218,
+    "reproduced_unrounded": 0.1917396710367218,
+    "reproduced": 0.19,
+    "grade": "C",
+    "deviation_pct": 26.66666666666667,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "pw|niv_n": {
+   "published_raw": "39",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 39,
+     "reproduced_unrounded": 39.0,
+     "reproduced": 39.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PW=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 39,
+     "reproduced_unrounded": 39.0,
+     "reproduced": 39.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 39.0,
+    "reproduced_unrounded": 39.0,
+    "reproduced": 39.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pw|niv_pct": {
+   "published_raw": "31",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 30.952380952380953,
+     "reproduced_unrounded": 30.952380952380953,
+     "reproduced": 31.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PW=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 30.952380952380953,
+     "reproduced_unrounded": 30.952380952380953,
+     "reproduced": 31.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 30.952380952380953,
+    "reproduced_unrounded": 30.952380952380953,
+    "reproduced": 31.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pw|hfnc_n": {
+   "published_raw": "32",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 32,
+     "reproduced_unrounded": 32.0,
+     "reproduced": 32.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PW=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 32,
+     "reproduced_unrounded": 32.0,
+     "reproduced": 32.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 32.0,
+    "reproduced_unrounded": 32.0,
+    "reproduced": 32.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pw|hfnc_pct": {
+   "published_raw": "25.3",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 25.396825396825395,
+     "reproduced_unrounded": 25.396825396825395,
+     "reproduced": 25.4,
+     "grade": "A",
+     "deviation_pct": 0.395256916996039,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PW=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 25.396825396825395,
+     "reproduced_unrounded": 25.396825396825395,
+     "reproduced": 25.4,
+     "grade": "A",
+     "deviation_pct": 0.395256916996039,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 25.396825396825395,
+    "reproduced_unrounded": 25.396825396825395,
+    "reproduced": 25.4,
+    "grade": "A",
+    "deviation_pct": 0.395256916996039,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pw|p": {
+   "published_raw": "0.3",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.4007958443616779,
+     "reproduced_unrounded": 0.4007958443616779,
+     "reproduced": 0.4,
+     "grade": "C",
+     "deviation_pct": 33.33333333333335,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PW=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.4007958443616779,
+     "reproduced_unrounded": 0.4007958443616779,
+     "reproduced": 0.4,
+     "grade": "C",
+     "deviation_pct": 33.33333333333335,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.4007958443616779,
+    "reproduced_unrounded": 0.4007958443616779,
+    "reproduced": 0.4,
+    "grade": "C",
+    "deviation_pct": 33.33333333333335,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "prh|niv_n": {
+   "published_raw": "30",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 30,
+     "reproduced_unrounded": 30.0,
+     "reproduced": 30.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PRH=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 30,
+     "reproduced_unrounded": 30.0,
+     "reproduced": 30.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 30.0,
+    "reproduced_unrounded": 30.0,
+    "reproduced": 30.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "prh|niv_pct": {
+   "published_raw": "23.8",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 23.80952380952381,
+     "reproduced_unrounded": 23.80952380952381,
+     "reproduced": 23.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PRH=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 23.80952380952381,
+     "reproduced_unrounded": 23.80952380952381,
+     "reproduced": 23.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 23.80952380952381,
+    "reproduced_unrounded": 23.80952380952381,
+    "reproduced": 23.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "prh|hfnc_n": {
+   "published_raw": "22",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 22,
+     "reproduced_unrounded": 22.0,
+     "reproduced": 22.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PRH=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 22,
+     "reproduced_unrounded": 22.0,
+     "reproduced": 22.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 22.0,
+    "reproduced_unrounded": 22.0,
+    "reproduced": 22.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "prh|hfnc_pct": {
+   "published_raw": "17.4",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 17.46031746031746,
+     "reproduced_unrounded": 17.46031746031746,
+     "reproduced": 17.5,
+     "grade": "A",
+     "deviation_pct": 0.5747126436781691,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PRH=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 17.46031746031746,
+     "reproduced_unrounded": 17.46031746031746,
+     "reproduced": 17.5,
+     "grade": "A",
+     "deviation_pct": 0.5747126436781691,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 17.46031746031746,
+    "reproduced_unrounded": 17.46031746031746,
+    "reproduced": 17.5,
+    "grade": "A",
+    "deviation_pct": 0.5747126436781691,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "prh|p": {
+   "published_raw": "0.2",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.27587330008018673,
+     "reproduced_unrounded": 0.27587330008018673,
+     "reproduced": 0.3,
+     "grade": "D",
+     "deviation_pct": 49.999999999999986,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(PRH=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.27587330008018673,
+     "reproduced_unrounded": 0.27587330008018673,
+     "reproduced": 0.3,
+     "grade": "D",
+     "deviation_pct": 49.999999999999986,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.27587330008018673,
+    "reproduced_unrounded": 0.27587330008018673,
+    "reproduced": 0.3,
+    "grade": "D",
+    "deviation_pct": 49.999999999999986,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "D",
+    "D"
+   ],
+   "median_grade": "D"
+  },
+  "dur|niv_med": {
+   "published_raw": "48",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 47.5,
+     "reproduced_unrounded": 47.5,
+     "reproduced": 48.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 48.0,
+     "reproduced_unrounded": 48.0,
+     "reproduced": 48.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 47.75,
+    "reproduced_unrounded": 47.75,
+    "reproduced": 48.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.0416666666666665,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "dur|niv_q1": {
+   "published_raw": "24",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 24.0,
+     "reproduced_unrounded": 24.0,
+     "reproduced": 24.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 24.0,
+     "reproduced_unrounded": 24.0,
+     "reproduced": 24.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 24.0,
+    "reproduced_unrounded": 24.0,
+    "reproduced": 24.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "dur|niv_q3": {
+   "published_raw": "78",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 80.0,
+     "reproduced_unrounded": 80.0,
+     "reproduced": 80.0,
+     "grade": "B",
+     "deviation_pct": 2.564102564102564,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 81.0,
+     "reproduced_unrounded": 81.0,
+     "reproduced": 81.0,
+     "grade": "B",
+     "deviation_pct": 3.8461538461538463,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 80.5,
+    "reproduced_unrounded": 80.5,
+    "reproduced": 80.0,
+    "grade": "B",
+    "deviation_pct": 2.564102564102564,
+    "sign_match": true
+   },
+   "run_spread_pct": 1.282051282051282,
+   "runs_agree": false,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "dur|hfnc_med": {
+   "published_raw": "77.5",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 77.5,
+     "reproduced_unrounded": 77.5,
+     "reproduced": 77.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 77.5,
+     "reproduced_unrounded": 77.5,
+     "reproduced": 77.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 77.5,
+    "reproduced_unrounded": 77.5,
+    "reproduced": 77.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "dur|hfnc_q1": {
+   "published_raw": "46.5",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 46.5,
+     "reproduced_unrounded": 46.5,
+     "reproduced": 46.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 46.5,
+     "reproduced_unrounded": 46.5,
+     "reproduced": 46.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 46.5,
+    "reproduced_unrounded": 46.5,
+    "reproduced": 46.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "dur|hfnc_q3": {
+   "published_raw": "108",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 107.25,
+     "reproduced_unrounded": 107.25,
+     "reproduced": 107.0,
+     "grade": "A",
+     "deviation_pct": 0.9259259259259258,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 107.25,
+     "reproduced_unrounded": 107.25,
+     "reproduced": 107.0,
+     "grade": "A",
+     "deviation_pct": 0.9259259259259258,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 107.25,
+    "reproduced_unrounded": 107.25,
+    "reproduced": 107.0,
+    "grade": "A",
+    "deviation_pct": 0.9259259259259258,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "dur|p": {
+   "published_raw": "0.0003",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.00030707102565036607,
+     "reproduced_unrounded": 0.00030707102565036607,
+     "reproduced": 0.0003,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(TD)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.000380195331446539,
+     "reproduced_unrounded": 0.000380195331446539,
+     "reproduced": 0.0004,
+     "grade": "C",
+     "deviation_pct": 33.33333333333336,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.00034363317854845253,
+    "reproduced_unrounded": 0.00034363317854845253,
+    "reproduced": 0.0003,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 24.374768598724312,
+   "runs_agree": false,
+   "run_grades": [
+    "A",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "fio2|niv_mean": {
+   "published_raw": "40.8",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 40.80952380952381,
+     "reproduced_unrounded": 40.80952380952381,
+     "reproduced": 40.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(FiO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 40.80952380952381,
+     "reproduced_unrounded": 40.80952380952381,
+     "reproduced": 40.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 40.80952380952381,
+    "reproduced_unrounded": 40.80952380952381,
+    "reproduced": 40.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fio2|niv_sd": {
+   "published_raw": "10.8",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.891989192586843,
+     "reproduced_unrounded": 10.891989192586843,
+     "reproduced": 10.9,
+     "grade": "A",
+     "deviation_pct": 0.9259259259259226,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(FiO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.891989192586843,
+     "reproduced_unrounded": 10.891989192586843,
+     "reproduced": 10.9,
+     "grade": "A",
+     "deviation_pct": 0.9259259259259226,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.891989192586843,
+    "reproduced_unrounded": 10.891989192586843,
+    "reproduced": 10.9,
+    "grade": "A",
+    "deviation_pct": 0.9259259259259226,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fio2|hfnc_mean": {
+   "published_raw": "36.2",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 36.23809523809524,
+     "reproduced_unrounded": 36.23809523809524,
+     "reproduced": 36.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(FiO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 36.23809523809524,
+     "reproduced_unrounded": 36.23809523809524,
+     "reproduced": 36.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 36.23809523809524,
+    "reproduced_unrounded": 36.23809523809524,
+    "reproduced": 36.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fio2|hfnc_sd": {
+   "published_raw": "10.6",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10.580305153579323,
+     "reproduced_unrounded": 10.580305153579323,
+     "reproduced": 10.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(FiO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10.580305153579323,
+     "reproduced_unrounded": 10.580305153579323,
+     "reproduced": 10.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.580305153579323,
+    "reproduced_unrounded": 10.580305153579323,
+    "reproduced": 10.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "fio2|p": {
+   "published_raw": "0.0002",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.000180696549425995,
+     "reproduced_unrounded": 0.000180696549425995,
+     "reproduced": 0.0002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(FiO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.000180696549425995,
+     "reproduced_unrounded": 0.000180696549425995,
+     "reproduced": 0.0002,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.000180696549425995,
+    "reproduced_unrounded": 0.000180696549425995,
+    "reproduced": 0.0002,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "wdf|niv_mean": {
+   "published_raw": "5.9",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.920634920634921,
+     "reproduced_unrounded": 5.920634920634921,
+     "reproduced": 5.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(WD_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.920634920634921,
+     "reproduced_unrounded": 5.920634920634921,
+     "reproduced": 5.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.920634920634921,
+    "reproduced_unrounded": 5.920634920634921,
+    "reproduced": 5.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "wdf|niv_sd": {
+   "published_raw": "0.9",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.9927994730310818,
+     "reproduced_unrounded": 0.9927994730310818,
+     "reproduced": 1.0,
+     "grade": "B",
+     "deviation_pct": 11.111111111111107,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(WD_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.9927994730310818,
+     "reproduced_unrounded": 0.9927994730310818,
+     "reproduced": 1.0,
+     "grade": "B",
+     "deviation_pct": 11.111111111111107,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.9927994730310818,
+    "reproduced_unrounded": 0.9927994730310818,
+    "reproduced": 1.0,
+    "grade": "B",
+    "deviation_pct": 11.111111111111107,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "wdf|hfnc_mean": {
+   "published_raw": "5.9",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.944444444444445,
+     "reproduced_unrounded": 5.944444444444445,
+     "reproduced": 5.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(WD_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.944444444444445,
+     "reproduced_unrounded": 5.944444444444445,
+     "reproduced": 5.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.944444444444445,
+    "reproduced_unrounded": 5.944444444444445,
+    "reproduced": 5.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "wdf|hfnc_sd": {
+   "published_raw": "1.1",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.879140994885854,
+     "reproduced_unrounded": 0.879140994885854,
+     "reproduced": 0.9,
+     "grade": "B",
+     "deviation_pct": 18.181818181818183,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(WD_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.879140994885854,
+     "reproduced_unrounded": 0.879140994885854,
+     "reproduced": 0.9,
+     "grade": "B",
+     "deviation_pct": 18.181818181818183,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.879140994885854,
+    "reproduced_unrounded": 0.879140994885854,
+    "reproduced": 0.9,
+    "grade": "B",
+    "deviation_pct": 18.181818181818183,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "wdf|p": {
+   "published_raw": "0.9",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.978913854414833,
+     "reproduced_unrounded": 0.978913854414833,
+     "reproduced": 1.0,
+     "grade": "B",
+     "deviation_pct": 11.111111111111107,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(WD_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.978913854414833,
+     "reproduced_unrounded": 0.978913854414833,
+     "reproduced": 1.0,
+     "grade": "B",
+     "deviation_pct": 11.111111111111107,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.978913854414833,
+    "reproduced_unrounded": 0.978913854414833,
+    "reproduced": 1.0,
+    "grade": "B",
+    "deviation_pct": 11.111111111111107,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "spo2|niv_mean": {
+   "published_raw": "97.6",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 97.5952380952381,
+     "reproduced_unrounded": 97.5952380952381,
+     "reproduced": 97.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(SpO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 97.5952380952381,
+     "reproduced_unrounded": 97.5952380952381,
+     "reproduced": 97.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 97.5952380952381,
+    "reproduced_unrounded": 97.5952380952381,
+    "reproduced": 97.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "spo2|niv_sd": {
+   "published_raw": "1.9",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.919077159172383,
+     "reproduced_unrounded": 1.919077159172383,
+     "reproduced": 1.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(SpO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.919077159172383,
+     "reproduced_unrounded": 1.919077159172383,
+     "reproduced": 1.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.919077159172383,
+    "reproduced_unrounded": 1.919077159172383,
+    "reproduced": 1.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "spo2|hfnc_mean": {
+   "published_raw": "97.4",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 97.36507936507937,
+     "reproduced_unrounded": 97.36507936507937,
+     "reproduced": 97.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(SpO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 97.36507936507937,
+     "reproduced_unrounded": 97.36507936507937,
+     "reproduced": 97.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 97.36507936507937,
+    "reproduced_unrounded": 97.36507936507937,
+    "reproduced": 97.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "spo2|hfnc_sd": {
+   "published_raw": "1.9",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.9124985735029438,
+     "reproduced_unrounded": 1.9124985735029438,
+     "reproduced": 1.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(SpO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.9124985735029438,
+     "reproduced_unrounded": 1.9124985735029438,
+     "reproduced": 1.9,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.9124985735029438,
+    "reproduced_unrounded": 1.9124985735029438,
+    "reproduced": 1.9,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "spo2|p": {
+   "published_raw": "0.25",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.2534899492677075,
+     "reproduced_unrounded": 0.2534899492677075,
+     "reproduced": 0.25,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(SpO2_0)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.2534899492677075,
+     "reproduced_unrounded": 0.2534899492677075,
+     "reproduced": 0.25,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.2534899492677075,
+    "reproduced_unrounded": 0.2534899492677075,
+    "reproduced": 0.25,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed|niv_n": {
+   "published_raw": "121",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 121,
+     "reproduced_unrounded": 121.0,
+     "reproduced": 121.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(SDu recorded, i.e. not 'nc')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 121,
+     "reproduced_unrounded": 121.0,
+     "reproduced": 121.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 121.0,
+    "reproduced_unrounded": 121.0,
+    "reproduced": 121.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed|niv_pct": {
+   "published_raw": "96",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 96.03174603174604,
+     "reproduced_unrounded": 96.03174603174604,
+     "reproduced": 96.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(SDu recorded, i.e. not 'nc')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 96.03174603174604,
+     "reproduced_unrounded": 96.03174603174604,
+     "reproduced": 96.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 96.03174603174604,
+    "reproduced_unrounded": 96.03174603174604,
+    "reproduced": 96.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed|hfnc_n": {
+   "published_raw": "54",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 54,
+     "reproduced_unrounded": 54.0,
+     "reproduced": 54.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(SDu recorded, i.e. not 'nc')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 54,
+     "reproduced_unrounded": 54.0,
+     "reproduced": 54.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 54.0,
+    "reproduced_unrounded": 54.0,
+    "reproduced": 54.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed|hfnc_pct": {
+   "published_raw": "42.8",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 42.857142857142854,
+     "reproduced_unrounded": 42.857142857142854,
+     "reproduced": 42.9,
+     "grade": "A",
+     "deviation_pct": 0.23364485981308744,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(SDu recorded, i.e. not 'nc')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 42.857142857142854,
+     "reproduced_unrounded": 42.857142857142854,
+     "reproduced": 42.9,
+     "grade": "A",
+     "deviation_pct": 0.23364485981308744,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 42.857142857142854,
+    "reproduced_unrounded": 42.857142857142854,
+    "reproduced": 42.9,
+    "grade": "A",
+    "deviation_pct": 0.23364485981308744,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.7858659669373474e-19,
+     "reproduced_unrounded": 1.7858659669373474e-19,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "binary_summary(SDu recorded, i.e. not 'nc')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.7858659669373597e-19,
+     "reproduced_unrounded": 1.7858659669373597e-19,
+     "reproduced": 0.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "bound_satisfied": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.7858659669373534e-19,
+    "reproduced_unrounded": 1.7858659669373534e-19,
+    "reproduced": 0.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true,
+    "bound_satisfied": true
+   },
+   "run_spread_pct": 1.2277803395468629e-28,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|niv_med": {
+   "published_raw": "3",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.0,
+     "reproduced_unrounded": 3.0,
+     "reproduced": 3.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.0,
+     "reproduced_unrounded": 3.0,
+     "reproduced": 3.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.0,
+    "reproduced_unrounded": 3.0,
+    "reproduced": 3.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|niv_q1": {
+   "published_raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0,
+    "reproduced_unrounded": 2.0,
+    "reproduced": 2.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|niv_q3": {
+   "published_raw": "4",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.0,
+    "reproduced_unrounded": 4.0,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|hfnc_med": {
+   "published_raw": "2",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0,
+    "reproduced_unrounded": 2.0,
+    "reproduced": 2.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|hfnc_q1": {
+   "published_raw": "1",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.0,
+     "reproduced_unrounded": 1.0,
+     "reproduced": 1.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.0,
+    "reproduced_unrounded": 1.0,
+    "reproduced": 1.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|hfnc_q3": {
+   "published_raw": "4",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.0,
+    "reproduced_unrounded": 4.0,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "sed_d|p": {
+   "published_raw": "0.08",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.08079455267660951,
+     "reproduced_unrounded": 0.08079455267660951,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(SDu, sedated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.08079455267660951,
+     "reproduced_unrounded": 0.08079455267660951,
+     "reproduced": 0.08,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.08079455267660951,
+    "reproduced_unrounded": 0.08079455267660951,
+    "reproduced": 0.08,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|niv_med": {
+   "published_raw": "3",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.0,
+     "reproduced_unrounded": 3.0,
+     "reproduced": 3.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.0,
+     "reproduced_unrounded": 3.0,
+     "reproduced": 3.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.0,
+    "reproduced_unrounded": 3.0,
+    "reproduced": 3.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|niv_q1": {
+   "published_raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0,
+    "reproduced_unrounded": 2.0,
+    "reproduced": 2.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|niv_q3": {
+   "published_raw": "4",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.0,
+    "reproduced_unrounded": 4.0,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|hfnc_med": {
+   "published_raw": "4",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.0,
+    "reproduced_unrounded": 4.0,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|hfnc_q1": {
+   "published_raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.0,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0,
+    "reproduced_unrounded": 2.0,
+    "reproduced": 2.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|hfnc_q3": {
+   "published_raw": "5",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.0,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.0,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.0,
+    "reproduced_unrounded": 5.0,
+    "reproduced": 5.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "ngt_d|p": {
+   "published_raw": "0.012",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.011294250353481885,
+     "reproduced_unrounded": 0.011294250353481885,
+     "reproduced": 0.011,
+     "grade": "B",
+     "deviation_pct": 8.333333333333341,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(ETu, tube users only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.011294250353481885,
+     "reproduced_unrounded": 0.011294250353481885,
+     "reproduced": 0.011,
+     "grade": "B",
+     "deviation_pct": 8.333333333333341,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.011294250353481885,
+    "reproduced_unrounded": 0.011294250353481885,
+    "reproduced": 0.011,
+    "grade": "B",
+    "deviation_pct": 8.333333333333341,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "picu|niv_med": {
+   "published_raw": "5",
+   "metric_type": "median",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "picu|niv_q1": {
+   "published_raw": "3",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "picu|niv_q3": {
+   "published_raw": "10",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "picu|hfnc_med": {
+   "published_raw": "5",
+   "metric_type": "median",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "picu|hfnc_q1": {
+   "published_raw": "4",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "picu|hfnc_q3": {
+   "published_raw": "7",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "picu|p": {
+   "published_raw": "0.3",
+   "metric_type": "p",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|niv_med": {
+   "published_raw": "9",
+   "metric_type": "median",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|niv_q1": {
+   "published_raw": "6",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|niv_q3": {
+   "published_raw": "14",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|hfnc_med": {
+   "published_raw": "8",
+   "metric_type": "median",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|hfnc_q1": {
+   "published_raw": "6",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|hfnc_q3": {
+   "published_raw": "10",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "hosp|p": {
+   "published_raw": "0.006",
+   "metric_type": "p",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "imv_d|niv_med": {
+   "published_raw": "5",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.0,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.0,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.0,
+    "reproduced_unrounded": 5.0,
+    "reproduced": 5.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "imv_d|niv_q1": {
+   "published_raw": "3.7",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.75,
+     "reproduced_unrounded": 3.75,
+     "reproduced": 3.8,
+     "grade": "B",
+     "deviation_pct": 2.7027027027026933,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.75,
+     "reproduced_unrounded": 3.75,
+     "reproduced": 3.8,
+     "grade": "B",
+     "deviation_pct": 2.7027027027026933,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.75,
+    "reproduced_unrounded": 3.75,
+    "reproduced": 3.8,
+    "grade": "B",
+    "deviation_pct": 2.7027027027026933,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "imv_d|niv_q3": {
+   "published_raw": "7",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 7.0,
+     "reproduced_unrounded": 7.0,
+     "reproduced": 7.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.0,
+     "reproduced_unrounded": 7.0,
+     "reproduced": 7.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.0,
+    "reproduced_unrounded": 7.0,
+    "reproduced": 7.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "imv_d|hfnc_med": {
+   "published_raw": "4",
+   "metric_type": "median",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.0,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.0,
+    "reproduced_unrounded": 4.0,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "imv_d|hfnc_q1": {
+   "published_raw": "2.5",
+   "metric_type": "Q1",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2.5,
+     "reproduced_unrounded": 2.5,
+     "reproduced": 2.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2.5,
+     "reproduced_unrounded": 2.5,
+     "reproduced": 2.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.5,
+    "reproduced_unrounded": 2.5,
+    "reproduced": 2.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "imv_d|hfnc_q3": {
+   "published_raw": "4.5",
+   "metric_type": "Q3",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5.0,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "B",
+     "deviation_pct": 11.11111111111111,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5.0,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "B",
+     "deviation_pct": 11.11111111111111,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.0,
+    "reproduced_unrounded": 5.0,
+    "reproduced": 5.0,
+    "grade": "B",
+    "deviation_pct": 11.11111111111111,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "imv_d|p": {
+   "published_raw": "0.02",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.022365777233547948,
+     "reproduced_unrounded": 0.022365777233547948,
+     "reproduced": 0.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "median_iqr_summary(MV, ventilated only)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.022365777233547948,
+     "reproduced_unrounded": 0.022365777233547948,
+     "reproduced": 0.02,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.022365777233547948,
+    "reproduced_unrounded": 0.022365777233547948,
+    "reproduced": 0.02,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "atb|niv_n": {
+   "published_raw": "62",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 62,
+     "reproduced_unrounded": 62.0,
+     "reproduced": 62.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(ATB=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 62,
+     "reproduced_unrounded": 62.0,
+     "reproduced": 62.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 62.0,
+    "reproduced_unrounded": 62.0,
+    "reproduced": 62.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "atb|niv_pct": {
+   "published_raw": "49",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 49.20634920634921,
+     "reproduced_unrounded": 49.20634920634921,
+     "reproduced": 49.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(ATB=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 49.20634920634921,
+     "reproduced_unrounded": 49.20634920634921,
+     "reproduced": 49.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 49.20634920634921,
+    "reproduced_unrounded": 49.20634920634921,
+    "reproduced": 49.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "atb|hfnc_n": {
+   "published_raw": "49",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 49,
+     "reproduced_unrounded": 49.0,
+     "reproduced": 49.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(ATB=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 49,
+     "reproduced_unrounded": 49.0,
+     "reproduced": 49.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 49.0,
+    "reproduced_unrounded": 49.0,
+    "reproduced": 49.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "atb|hfnc_pct": {
+   "published_raw": "38",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 38.888888888888886,
+     "reproduced_unrounded": 38.888888888888886,
+     "reproduced": 39.0,
+     "grade": "B",
+     "deviation_pct": 2.631578947368421,
+     "sign_match": true,
+     "stars": "",
+     "source": "binary_summary(ATB=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 38.888888888888886,
+     "reproduced_unrounded": 38.888888888888886,
+     "reproduced": 39.0,
+     "grade": "B",
+     "deviation_pct": 2.631578947368421,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 38.888888888888886,
+    "reproduced_unrounded": 38.888888888888886,
+    "reproduced": 39.0,
+    "grade": "B",
+    "deviation_pct": 2.631578947368421,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "atb|p": {
+   "published_raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.1561390877008264,
+     "reproduced_unrounded": 0.1561390877008264,
+     "reproduced": 0.156,
+     "grade": "E",
+     "deviation_pct": 15513.908800000001,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "binary_summary(ATB=='y')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.12783718041659836,
+     "reproduced_unrounded": 0.12783718041659836,
+     "reproduced": 0.128,
+     "grade": "E",
+     "deviation_pct": 12683.717999999999,
+     "sign_match": true,
+     "bound_satisfied": false,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.14198813405871238,
+    "reproduced_unrounded": 0.14198813405871238,
+    "reproduced": 0.142,
+    "grade": "E",
+    "deviation_pct": 14098.813399999997,
+    "sign_match": true,
+    "bound_satisfied": false
+   },
+   "run_spread_pct": 2830.1907284228046,
+   "runs_agree": false,
+   "run_grades": [
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "vap|niv_n": {
+   "published_raw": "1",
+   "metric_type": "count",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "vap|niv_pct": {
+   "published_raw": "2",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "vap|hfnc_n": {
+   "published_raw": "1",
+   "metric_type": "count",
+   "unit": null,
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "vap|hfnc_pct": {
+   "published_raw": "3.4",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": false,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    },
+    "r_sonnet": {
+     "reproduced_raw": null,
+     "stars": null,
+     "source": null
+    }
+   }
+  },
+  "pim|niv_mean": {
+   "published_raw": "1.8",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.791452991452991,
+     "reproduced_unrounded": 1.791452991452991,
+     "reproduced": 1.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(PIM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.791452991452991,
+     "reproduced_unrounded": 1.791452991452991,
+     "reproduced": 1.8,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.791452991452991,
+    "reproduced_unrounded": 1.791452991452991,
+    "reproduced": 1.8,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pim|niv_sd": {
+   "published_raw": "1.7",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.7503976222942077,
+     "reproduced_unrounded": 1.7503976222942077,
+     "reproduced": 1.8,
+     "grade": "B",
+     "deviation_pct": 5.882352941176476,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(PIM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.7503976222942077,
+     "reproduced_unrounded": 1.7503976222942077,
+     "reproduced": 1.8,
+     "grade": "B",
+     "deviation_pct": 5.882352941176476,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.7503976222942077,
+    "reproduced_unrounded": 1.7503976222942077,
+    "reproduced": 1.8,
+    "grade": "B",
+    "deviation_pct": 5.882352941176476,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "pim|hfnc_mean": {
+   "published_raw": "1.5",
+   "metric_type": "mean",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.480612244897959,
+     "reproduced_unrounded": 1.480612244897959,
+     "reproduced": 1.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(PIM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.480612244897959,
+     "reproduced_unrounded": 1.480612244897959,
+     "reproduced": 1.5,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.480612244897959,
+    "reproduced_unrounded": 1.480612244897959,
+    "reproduced": 1.5,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pim|hfnc_sd": {
+   "published_raw": "1.4",
+   "metric_type": "SD",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.441624095824896,
+     "reproduced_unrounded": 1.441624095824896,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(PIM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.441624095824896,
+     "reproduced_unrounded": 1.441624095824896,
+     "reproduced": 1.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.441624095824896,
+    "reproduced_unrounded": 1.441624095824896,
+    "reproduced": 1.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "pim|p": {
+   "published_raw": "0.49",
+   "metric_type": "p",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 0.4951267610388729,
+     "reproduced_unrounded": 0.4951267610388729,
+     "reproduced": 0.5,
+     "grade": "B",
+     "deviation_pct": 2.040816326530614,
+     "sign_match": true,
+     "stars": "",
+     "source": "mean_sd_summary(PIM)"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 0.4951267610388729,
+     "reproduced_unrounded": 0.4951267610388729,
+     "reproduced": 0.5,
+     "grade": "B",
+     "deviation_pct": 2.040816326530614,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 0.4951267610388729,
+    "reproduced_unrounded": 0.4951267610388729,
+    "reproduced": 0.5,
+    "grade": "B",
+    "deviation_pct": 2.040816326530614,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "v_rsv|niv_n": {
+   "published_raw": "91",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 91,
+     "reproduced_unrounded": 91.0,
+     "reproduced": 91.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RSV')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 91,
+     "reproduced_unrounded": 91.0,
+     "reproduced": 91.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 91.0,
+    "reproduced_unrounded": 91.0,
+    "reproduced": 91.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_rsv|niv_pct": {
+   "published_raw": "72.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 72.22222222222223,
+     "reproduced_unrounded": 72.22222222222223,
+     "reproduced": 72.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RSV')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 72.22222222222223,
+     "reproduced_unrounded": 72.22222222222223,
+     "reproduced": 72.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 72.22222222222223,
+    "reproduced_unrounded": 72.22222222222223,
+    "reproduced": 72.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_rsv|hfnc_n": {
+   "published_raw": "90",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 90,
+     "reproduced_unrounded": 90.0,
+     "reproduced": 90.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RSV')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 90,
+     "reproduced_unrounded": 90.0,
+     "reproduced": 90.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 90.0,
+    "reproduced_unrounded": 90.0,
+    "reproduced": 90.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_rsv|hfnc_pct": {
+   "published_raw": "71.4",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 71.42857142857143,
+     "reproduced_unrounded": 71.42857142857143,
+     "reproduced": 71.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RSV')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 71.42857142857143,
+     "reproduced_unrounded": 71.42857142857143,
+     "reproduced": 71.4,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 71.42857142857143,
+    "reproduced_unrounded": 71.42857142857143,
+    "reproduced": 71.4,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_bo|niv_n": {
+   "published_raw": "4",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10,
+     "reproduced_unrounded": 10.0,
+     "reproduced": 10.0,
+     "grade": "E",
+     "deviation_pct": 150.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Bo')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10,
+     "reproduced_unrounded": 10.0,
+     "reproduced": 10.0,
+     "grade": "E",
+     "deviation_pct": 150.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.0,
+    "reproduced_unrounded": 10.0,
+    "reproduced": 10.0,
+    "grade": "E",
+    "deviation_pct": 150.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "v_bo|niv_pct": {
+   "published_raw": "3.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 7.936507936507937,
+     "reproduced_unrounded": 7.936507936507937,
+     "reproduced": 7.9,
+     "grade": "E",
+     "deviation_pct": 146.875,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Bo')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.936507936507937,
+     "reproduced_unrounded": 7.936507936507937,
+     "reproduced": 7.9,
+     "grade": "E",
+     "deviation_pct": 146.875,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.936507936507937,
+    "reproduced_unrounded": 7.936507936507937,
+    "reproduced": 7.9,
+    "grade": "E",
+    "deviation_pct": 146.875,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "E",
+    "E"
+   ],
+   "median_grade": "E"
+  },
+  "v_bo|hfnc_n": {
+   "published_raw": "11",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 10,
+     "reproduced_unrounded": 10.0,
+     "reproduced": 10.0,
+     "grade": "B",
+     "deviation_pct": 9.090909090909092,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Bo')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 10,
+     "reproduced_unrounded": 10.0,
+     "reproduced": 10.0,
+     "grade": "B",
+     "deviation_pct": 9.090909090909092,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 10.0,
+    "reproduced_unrounded": 10.0,
+    "reproduced": 10.0,
+    "grade": "B",
+    "deviation_pct": 9.090909090909092,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "v_bo|hfnc_pct": {
+   "published_raw": "8.7",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 7.936507936507937,
+     "reproduced_unrounded": 7.936507936507937,
+     "reproduced": 7.9,
+     "grade": "B",
+     "deviation_pct": 9.195402298850563,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Bo')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.936507936507937,
+     "reproduced_unrounded": 7.936507936507937,
+     "reproduced": 7.9,
+     "grade": "B",
+     "deviation_pct": 9.195402298850563,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.936507936507937,
+    "reproduced_unrounded": 7.936507936507937,
+    "reproduced": 7.9,
+    "grade": "B",
+    "deviation_pct": 9.195402298850563,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "v_ad|niv_n": {
+   "published_raw": "6",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 8,
+     "reproduced_unrounded": 8.0,
+     "reproduced": 8.0,
+     "grade": "C",
+     "deviation_pct": 33.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Ad')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8,
+     "reproduced_unrounded": 8.0,
+     "reproduced": 8.0,
+     "grade": "C",
+     "deviation_pct": 33.33333333333333,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.0,
+    "reproduced_unrounded": 8.0,
+    "reproduced": 8.0,
+    "grade": "C",
+    "deviation_pct": 33.33333333333333,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_ad|niv_pct": {
+   "published_raw": "4.8",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 6.349206349206349,
+     "reproduced_unrounded": 6.349206349206349,
+     "reproduced": 6.3,
+     "grade": "C",
+     "deviation_pct": 31.25,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Ad')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.349206349206349,
+     "reproduced_unrounded": 6.349206349206349,
+     "reproduced": 6.3,
+     "grade": "C",
+     "deviation_pct": 31.25,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.349206349206349,
+    "reproduced_unrounded": 6.349206349206349,
+    "reproduced": 6.3,
+    "grade": "C",
+    "deviation_pct": 31.25,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_ad|hfnc_n": {
+   "published_raw": "9",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 9,
+     "reproduced_unrounded": 9.0,
+     "reproduced": 9.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Ad')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 9,
+     "reproduced_unrounded": 9.0,
+     "reproduced": 9.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 9.0,
+    "reproduced_unrounded": 9.0,
+    "reproduced": 9.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_ad|hfnc_pct": {
+   "published_raw": "7.1",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 7.142857142857143,
+     "reproduced_unrounded": 7.142857142857143,
+     "reproduced": 7.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Ad')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.142857142857143,
+     "reproduced_unrounded": 7.142857142857143,
+     "reproduced": 7.1,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.142857142857143,
+    "reproduced_unrounded": 7.142857142857143,
+    "reproduced": 7.1,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_sc|niv_n": {
+   "published_raw": "4",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "C",
+     "deviation_pct": 25.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'SC')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "C",
+     "deviation_pct": 25.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.0,
+    "reproduced_unrounded": 5.0,
+    "reproduced": 5.0,
+    "grade": "C",
+    "deviation_pct": 25.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_sc|niv_pct": {
+   "published_raw": "3.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.9682539682539684,
+     "reproduced_unrounded": 3.9682539682539684,
+     "reproduced": 4.0,
+     "grade": "C",
+     "deviation_pct": 24.999999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'SC')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.9682539682539684,
+     "reproduced_unrounded": 3.9682539682539684,
+     "reproduced": 4.0,
+     "grade": "C",
+     "deviation_pct": 24.999999999999993,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.9682539682539684,
+    "reproduced_unrounded": 3.9682539682539684,
+    "reproduced": 4.0,
+    "grade": "C",
+    "deviation_pct": 24.999999999999993,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_sc|hfnc_n": {
+   "published_raw": "8",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 8,
+     "reproduced_unrounded": 8.0,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'SC')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 8,
+     "reproduced_unrounded": 8.0,
+     "reproduced": 8.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 8.0,
+    "reproduced_unrounded": 8.0,
+    "reproduced": 8.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_sc|hfnc_pct": {
+   "published_raw": "6.3",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 6.349206349206349,
+     "reproduced_unrounded": 6.349206349206349,
+     "reproduced": 6.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'SC')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6.349206349206349,
+     "reproduced_unrounded": 6.349206349206349,
+     "reproduced": 6.3,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.349206349206349,
+    "reproduced_unrounded": 6.349206349206349,
+    "reproduced": 6.3,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_pa|niv_n": {
+   "published_raw": "7",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 9,
+     "reproduced_unrounded": 9.0,
+     "reproduced": 9.0,
+     "grade": "C",
+     "deviation_pct": 28.57142857142857,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Pa')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 9,
+     "reproduced_unrounded": 9.0,
+     "reproduced": 9.0,
+     "grade": "C",
+     "deviation_pct": 28.57142857142857,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 9.0,
+    "reproduced_unrounded": 9.0,
+    "reproduced": 9.0,
+    "grade": "C",
+    "deviation_pct": 28.57142857142857,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_pa|niv_pct": {
+   "published_raw": "5.6",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 7.142857142857143,
+     "reproduced_unrounded": 7.142857142857143,
+     "reproduced": 7.1,
+     "grade": "C",
+     "deviation_pct": 26.785714285714285,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Pa')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 7.142857142857143,
+     "reproduced_unrounded": 7.142857142857143,
+     "reproduced": 7.1,
+     "grade": "C",
+     "deviation_pct": 26.785714285714285,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 7.142857142857143,
+    "reproduced_unrounded": 7.142857142857143,
+    "reproduced": 7.1,
+    "grade": "C",
+    "deviation_pct": 26.785714285714285,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_pa|hfnc_n": {
+   "published_raw": "5",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 5,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Pa')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 5,
+     "reproduced_unrounded": 5.0,
+     "reproduced": 5.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 5.0,
+    "reproduced_unrounded": 5.0,
+    "reproduced": 5.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_pa|hfnc_pct": {
+   "published_raw": "4",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.9682539682539684,
+     "reproduced_unrounded": 3.9682539682539684,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Pa')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.9682539682539684,
+     "reproduced_unrounded": 3.9682539682539684,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.9682539682539684,
+    "reproduced_unrounded": 3.9682539682539684,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_me|niv_n": {
+   "published_raw": "5",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 6,
+     "reproduced_unrounded": 6.0,
+     "reproduced": 6.0,
+     "grade": "B",
+     "deviation_pct": 20.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Me')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 6,
+     "reproduced_unrounded": 6.0,
+     "reproduced": 6.0,
+     "grade": "B",
+     "deviation_pct": 20.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 6.0,
+    "reproduced_unrounded": 6.0,
+    "reproduced": 6.0,
+    "grade": "B",
+    "deviation_pct": 20.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "B",
+    "B"
+   ],
+   "median_grade": "B"
+  },
+  "v_me|niv_pct": {
+   "published_raw": "4",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4.761904761904762,
+     "reproduced_unrounded": 4.761904761904762,
+     "reproduced": 5.0,
+     "grade": "C",
+     "deviation_pct": 25.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Me')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4.761904761904762,
+     "reproduced_unrounded": 4.761904761904762,
+     "reproduced": 5.0,
+     "grade": "C",
+     "deviation_pct": 25.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.761904761904762,
+    "reproduced_unrounded": 4.761904761904762,
+    "reproduced": 5.0,
+    "grade": "C",
+    "deviation_pct": 25.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "C",
+    "C"
+   ],
+   "median_grade": "C"
+  },
+  "v_me|hfnc_n": {
+   "published_raw": "4",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 4,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Me')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 4,
+     "reproduced_unrounded": 4.0,
+     "reproduced": 4.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 4.0,
+    "reproduced_unrounded": 4.0,
+    "reproduced": 4.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_me|hfnc_pct": {
+   "published_raw": "3.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 3.1746031746031744,
+     "reproduced_unrounded": 3.1746031746031744,
+     "reproduced": 3.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'Me')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 3.1746031746031744,
+     "reproduced_unrounded": 3.1746031746031744,
+     "reproduced": 3.2,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 3.1746031746031744,
+    "reproduced_unrounded": 3.1746031746031744,
+    "reproduced": 3.2,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_re|niv_n": {
+   "published_raw": "2",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RE')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0,
+    "reproduced_unrounded": 2.0,
+    "reproduced": 2.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_re|niv_pct": {
+   "published_raw": "1.6",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.5873015873015872,
+     "reproduced_unrounded": 1.5873015873015872,
+     "reproduced": 1.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RE')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.5873015873015872,
+     "reproduced_unrounded": 1.5873015873015872,
+     "reproduced": 1.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.5873015873015872,
+    "reproduced_unrounded": 1.5873015873015872,
+    "reproduced": 1.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_re|hfnc_n": {
+   "published_raw": "2",
+   "metric_type": "count",
+   "unit": null,
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 2,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RE')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 2,
+     "reproduced_unrounded": 2.0,
+     "reproduced": 2.0,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 2.0,
+    "reproduced_unrounded": 2.0,
+    "reproduced": 2.0,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  },
+  "v_re|hfnc_pct": {
+   "published_raw": "1.6",
+   "metric_type": "percent",
+   "unit": "%",
+   "graded": true,
+   "published_stars": null,
+   "runs": {
+    "r_opus": {
+     "reproduced_raw": 1.5873015873015872,
+     "reproduced_unrounded": 1.5873015873015872,
+     "reproduced": 1.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "virus_summary(VP contains 'RE')"
+    },
+    "r_sonnet": {
+     "reproduced_raw": 1.5873015873015872,
+     "reproduced_unrounded": 1.5873015873015872,
+     "reproduced": 1.6,
+     "grade": "A",
+     "deviation_pct": 0.0,
+     "sign_match": true,
+     "stars": "",
+     "source": "chi2_contingency(Yates) / mannwhitneyu(asymptotic, cc) / group summaries in repro_table.py"
+    }
+   },
+   "median": {
+    "reproduced_raw": 1.5873015873015872,
+    "reproduced_unrounded": 1.5873015873015872,
+    "reproduced": 1.6,
+    "grade": "A",
+    "deviation_pct": 0.0,
+    "sign_match": true
+   },
+   "run_spread_pct": 0.0,
+   "runs_agree": true,
+   "run_grades": [
+    "A",
+    "A"
+   ],
+   "median_grade": "A"
+  }
+ }
+}

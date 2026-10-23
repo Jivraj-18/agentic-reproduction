@@ -1,0 +1,42 @@
+{
+ "reviewer": "pipeline operator (manual check of each flag, 2026-10-22)",
+ "paths": [],
+ "hardcoding": [
+  {
+   "run": "r_opus",
+   "line": 66,
+   "verdict": "benign",
+   "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."
+  },
+  {
+   "run": "r_opus",
+   "line": 66,
+   "verdict": "benign",
+   "reason": "0.25 is the first-quartile probability in np.quantile; the p cells are computed by tests."
+  },
+  {
+   "run": "r_sonnet",
+   "line": 38,
+   "verdict": "benign",
+   "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+  },
+  {
+   "run": "r_sonnet",
+   "line": 36,
+   "verdict": "benign",
+   "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+  },
+  {
+   "run": "r_sonnet",
+   "line": 38,
+   "verdict": "benign",
+   "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+  },
+  {
+   "run": "r_sonnet",
+   "line": 36,
+   "verdict": "benign",
+   "reason": "0.25 is the first-quartile probability in Series.quantile; the p cells are computed by tests."
+  }
+ ]
+}

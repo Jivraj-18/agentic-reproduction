@@ -1,0 +1,76 @@
+{
+  "paper": "A",
+  "research_question": {
+    "id": "RQ",
+    "text": "Is high-flow nasal cannula (HFNC) therapy non-inferior to noninvasive ventilation (NIV) for children under 2 with bronchiolitis and mild to moderate respiratory distress? Table 1 compares the two randomised groups.",
+    "source_sentence": "The primary outcome analyzed was invasive mechanical ventilation requirement.",
+    "gap": false
+  },
+  "setting": {
+    "id": "SET",
+    "population": "Children under 2 years admitted for bronchiolitis with mild to moderate respiratory distress (Wood-Downes-Férres score < 8), randomised to HFNC or NIV; 126 analysed per group.",
+    "period": "February 2021 to May 2023.",
+    "site": "Single tertiary centre, Brazil.",
+    "source_sentence": "The inclusion criteria were children under 2 years of age admitted for bronchiolitis that progressed to mild to moderate respiratory distress (WDF score<8 points) during hospitalization.",
+    "gap": false
+  },
+  "data_sources": [
+    {
+      "id": "D1",
+      "name": "Dryad dataset deposited by the authors",
+      "summary": "One row per analysed patient (252): group, sex, history, viral panel, device duration, vital signs and settings at 0-96 h, sedation and enteral tube days, length of stay, ventilation days, antibiotics, PIM 2. Age, weight and lengths of stay are given only as ranges.",
+      "source_sentence": "Vital signs, WDF score, peripheral oxygen saturation (SpO2), and FiO2 were recorded at 0 h, 2 h, 6 h, 12 h, 24 h, 48 h, 72 h and 96 h after HFNC therapy or NIV therapy initiation.",
+      "gap": false
+    }
+  ],
+  "general_manipulations": [
+    {
+      "id": "M1",
+      "description": "Analysed groups: 126 NIV and 126 HFNC after exclusions; every deposited row is an analysed patient.",
+      "source_sentence": "Of these, six patients were excluded from the NIV group, and 10 were excluded from the HFNC group, totaling 126 patients in the NIV group and 126 patients in the HFNC group.",
+      "gap": false
+    },
+    {
+      "id": "M2",
+      "description": "Missing data: complete-case analysis, no imputation.",
+      "source_sentence": "The standard method was applied for missing data, which is the analysis of complete cases not using any replacement or imputation technique [32].",
+      "gap": true,
+      "gap_note": "Percentages could use the whole group (126) or only patients with a recorded value as denominator; the paper does not say which."
+    },
+    {
+      "id": "M3",
+      "description": "Variables recorded per patient include sex, previous respiratory hospitalization, PIM 2, viral panel, antibiotics, sedative usage, HFNC/NIV duration, invasive ventilation duration and lengths of stay.",
+      "source_sentence": "The variables assessed included age, weight, sex, comorbidities, previous respiratory hospitalization, the Pediatric Index of Mortality – version 2 (PIM 2) score, viral panel results, the need for antibiotics, nasal septum injury status, sedative usage, HFNC/NIV duration, invasive mechanical ventilation duration, PICU length of stay (LOS), the hospital LOS, and the mortality rate [22–24].",
+      "gap": true,
+      "gap_note": "How 'sedation (N, %)' is derived is not stated (the deposit has sedation duration in days, not a yes/no flag). 'Initial' values are taken to be the 0 h readings."
+    }
+  ],
+  "tables": [
+    {
+      "id": "T1",
+      "name": "Table 1",
+      "caption": "Demographic and clinical characteristics",
+      "row_labels": [],
+      "column_labels": [],
+      "table_specific_filters": [],
+      "specification": [
+        {
+          "id": "S1",
+          "description": "Distributions compared with the Wilcoxon/Mann-Whitney test.",
+          "source_sentence": "To compare distri­butions between groups, the Wilcoxon/Mann‒Whitney test was used, and the chi‒square test was used to com­pare frequencies between groups.",
+          "software": "R",
+          "gap": true,
+          "gap_note": "Exact or normal-approximation Mann-Whitney, continuity correction, and whether chi-square uses Yates' correction (R's chisq.test default for 2x2 tables) are not stated. The table footnote says p values come from chi-square or Wilcoxon 'as appropriate', so mean (SD) rows also use one of these."
+        },
+        {
+          "id": "S2",
+          "description": "Summaries per row as printed in the table: N (%), mean (SD), or median (IQR, 25th-75th percentile).",
+          "source_sentence": "The statistical analyses were performed using R: A language and environment for statistical computing (R Foundation for Statistical Computing, Vienna, Austria) [31].",
+          "software": "R",
+          "gap": true,
+          "gap_note": "The quantile method for the IQR is not stated (R's default is type 7)."
+        }
+      ]
+    }
+  ]
+}

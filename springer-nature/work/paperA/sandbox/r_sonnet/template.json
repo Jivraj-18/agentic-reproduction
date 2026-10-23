@@ -1,0 +1,875 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. Demographic and clinical characteristics",
+ "rows": [
+  {
+   "id": "female",
+   "label": "Female, N (%)"
+  },
+  {
+   "id": "pw",
+   "label": "Previous wheezing, N (%)"
+  },
+  {
+   "id": "prh",
+   "label": "Previous respiratory hospitalization, N (%)"
+  },
+  {
+   "id": "dur",
+   "label": "NIV/HFNC duration (hours), median (IQR)"
+  },
+  {
+   "id": "fio2",
+   "label": "Initial FiO2, mean (SD)"
+  },
+  {
+   "id": "wdf",
+   "label": "Initial WDF, mean (SD)"
+  },
+  {
+   "id": "spo2",
+   "label": "Initial SpO2, mean (SD)"
+  },
+  {
+   "id": "sed",
+   "label": "Sedation, N (%)"
+  },
+  {
+   "id": "sed_d",
+   "label": "Sedation (days), median (IQR)"
+  },
+  {
+   "id": "ngt_d",
+   "label": "Nasogastric tube (days), median (IQR)"
+  },
+  {
+   "id": "imv_d",
+   "label": "Invasive mechanical ventilation duration (days), median (IQR)"
+  },
+  {
+   "id": "atb",
+   "label": "Antibiotic use, n (%)"
+  },
+  {
+   "id": "pim",
+   "label": "PIM 2 score, mean (SD)"
+  },
+  {
+   "id": "v_rsv",
+   "label": "Virus: Respiratory syncytial virus, n (%)"
+  },
+  {
+   "id": "v_bo",
+   "label": "Virus: Bocavirus, n (%)"
+  },
+  {
+   "id": "v_ad",
+   "label": "Virus: Adenovirus, n (%)"
+  },
+  {
+   "id": "v_sc",
+   "label": "Virus: Seasonal coronavirus, n (%)"
+  },
+  {
+   "id": "v_pa",
+   "label": "Virus: Parainfluenza 3/4, n (%)"
+  },
+  {
+   "id": "v_me",
+   "label": "Virus: Human metapneumovirus, n (%)"
+  },
+  {
+   "id": "v_re",
+   "label": "Virus: Rhinovirus/enterovirus, n (%)"
+  }
+ ],
+ "columns": [
+  {
+   "id": "niv_n",
+   "label": "NIV N",
+   "metric_type": "n"
+  },
+  {
+   "id": "niv_pct",
+   "label": "NIV %",
+   "metric_type": "pct"
+  },
+  {
+   "id": "niv_mean",
+   "label": "NIV mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "niv_sd",
+   "label": "NIV SD",
+   "metric_type": "sd"
+  },
+  {
+   "id": "niv_med",
+   "label": "NIV median",
+   "metric_type": "med"
+  },
+  {
+   "id": "niv_q1",
+   "label": "NIV Q1 (25th pct)",
+   "metric_type": "q1"
+  },
+  {
+   "id": "niv_q3",
+   "label": "NIV Q3 (75th pct)",
+   "metric_type": "q3"
+  },
+  {
+   "id": "hfnc_n",
+   "label": "HFNC N",
+   "metric_type": "n"
+  },
+  {
+   "id": "hfnc_pct",
+   "label": "HFNC %",
+   "metric_type": "pct"
+  },
+  {
+   "id": "hfnc_mean",
+   "label": "HFNC mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "hfnc_sd",
+   "label": "HFNC SD",
+   "metric_type": "sd"
+  },
+  {
+   "id": "hfnc_med",
+   "label": "HFNC median",
+   "metric_type": "med"
+  },
+  {
+   "id": "hfnc_q1",
+   "label": "HFNC Q1 (25th pct)",
+   "metric_type": "q1"
+  },
+  {
+   "id": "hfnc_q3",
+   "label": "HFNC Q3 (75th pct)",
+   "metric_type": "q3"
+  },
+  {
+   "id": "p",
+   "label": "p",
+   "metric_type": "p"
+  }
+ ],
+ "star_legend": null,
+ "cells": {
+  "female|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "female|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "female|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "female|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "female|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pw|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pw|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pw|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pw|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pw|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "prh|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "prh|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "prh|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "prh|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "prh|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "dur|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fio2|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fio2|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fio2|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fio2|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "fio2|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "wdf|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "wdf|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "wdf|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "wdf|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "wdf|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "spo2|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "spo2|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "spo2|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "spo2|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "spo2|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "sed_d|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "ngt_d|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|niv_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|niv_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|niv_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|hfnc_med": {
+   "metric_type": "median",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|hfnc_q1": {
+   "metric_type": "Q1",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|hfnc_q3": {
+   "metric_type": "Q3",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "imv_d|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "atb|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "atb|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "atb|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "atb|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "atb|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pim|niv_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pim|niv_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pim|hfnc_mean": {
+   "metric_type": "mean",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pim|hfnc_sd": {
+   "metric_type": "SD",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "pim|p": {
+   "metric_type": "p",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_rsv|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_rsv|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_rsv|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_rsv|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_bo|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_bo|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_bo|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_bo|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_ad|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_ad|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_ad|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_ad|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_sc|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_sc|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_sc|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_sc|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_pa|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_pa|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_pa|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_pa|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_me|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_me|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_me|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_me|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_re|niv_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_re|niv_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_re|hfnc_n": {
+   "metric_type": "count",
+   "unit": null,
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "v_re|hfnc_pct": {
+   "metric_type": "percent",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  }
+ },
+ "instructions": "Fill `value` (a number, or a string such as '<x' for a bound) for every cell listed and set `stars` to ''. Cell keys are '<row>|<group>_<statistic>' (group niv or hfnc; statistic n, pct, mean, sd, med, q1, q3) or '<row>|p'. `unit` '%' means a percentage of the group."
+}

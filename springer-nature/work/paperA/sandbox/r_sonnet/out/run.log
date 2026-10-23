@@ -1,0 +1,117 @@
+dur niv n_valid 125
+dur hfnc n_valid 126
+fio2 niv n_valid 126
+fio2 hfnc n_valid 126
+wdf niv n_valid 126
+wdf hfnc n_valid 126
+spo2 niv n_valid 126
+spo2 hfnc n_valid 126
+sed_d niv n_valid 121
+sed_d hfnc n_valid 54
+ngt_d niv n_valid 114
+ngt_d hfnc n_valid 89
+imv_d niv n_valid 36
+imv_d hfnc n_valid 27
+pim niv n_valid 117
+pim hfnc n_valid 98
+female|niv_n 52
+female|niv_pct 41.26984126984127
+female|hfnc_n 41
+female|hfnc_pct 32.53968253968254
+female|p 0.1917396710367218
+pw|niv_n 39
+pw|niv_pct 30.952380952380953
+pw|hfnc_n 32
+pw|hfnc_pct 25.396825396825395
+pw|p 0.4007958443616779
+prh|niv_n 30
+prh|niv_pct 23.80952380952381
+prh|hfnc_n 22
+prh|hfnc_pct 17.46031746031746
+prh|p 0.27587330008018673
+dur|niv_med 48.0
+dur|niv_q1 24.0
+dur|niv_q3 81.0
+dur|hfnc_med 77.5
+dur|hfnc_q1 46.5
+dur|hfnc_q3 107.25
+dur|p 0.000380195331446539
+fio2|niv_mean 40.80952380952381
+fio2|niv_sd 10.891989192586843
+fio2|hfnc_mean 36.23809523809524
+fio2|hfnc_sd 10.580305153579323
+fio2|p 0.000180696549425995
+wdf|niv_mean 5.920634920634921
+wdf|niv_sd 0.9927994730310818
+wdf|hfnc_mean 5.944444444444445
+wdf|hfnc_sd 0.879140994885854
+wdf|p 0.978913854414833
+spo2|niv_mean 97.5952380952381
+spo2|niv_sd 1.919077159172383
+spo2|hfnc_mean 97.36507936507937
+spo2|hfnc_sd 1.9124985735029438
+spo2|p 0.2534899492677075
+sed|niv_n 121
+sed|niv_pct 96.03174603174604
+sed|hfnc_n 54
+sed|hfnc_pct 42.857142857142854
+sed|p 1.7858659669373597e-19
+sed_d|niv_med 3.0
+sed_d|niv_q1 2.0
+sed_d|niv_q3 4.0
+sed_d|hfnc_med 2.0
+sed_d|hfnc_q1 1.0
+sed_d|hfnc_q3 4.0
+sed_d|p 0.08079455267660951
+ngt_d|niv_med 3.0
+ngt_d|niv_q1 2.0
+ngt_d|niv_q3 4.0
+ngt_d|hfnc_med 4.0
+ngt_d|hfnc_q1 2.0
+ngt_d|hfnc_q3 5.0
+ngt_d|p 0.011294250353481885
+imv_d|niv_med 5.0
+imv_d|niv_q1 3.75
+imv_d|niv_q3 7.0
+imv_d|hfnc_med 4.0
+imv_d|hfnc_q1 2.5
+imv_d|hfnc_q3 5.0
+imv_d|p 0.022365777233547948
+atb|niv_n 62
+atb|niv_pct 49.20634920634921
+atb|hfnc_n 49
+atb|hfnc_pct 38.888888888888886
+atb|p 0.12783718041659836
+pim|niv_mean 1.791452991452991
+pim|niv_sd 1.7503976222942077
+pim|hfnc_mean 1.480612244897959
+pim|hfnc_sd 1.441624095824896
+pim|p 0.4951267610388729
+v_rsv|niv_n 91
+v_rsv|niv_pct 72.22222222222223
+v_rsv|hfnc_n 90
+v_rsv|hfnc_pct 71.42857142857143
+v_bo|niv_n 10
+v_bo|niv_pct 7.936507936507937
+v_bo|hfnc_n 10
+v_bo|hfnc_pct 7.936507936507937
+v_ad|niv_n 8
+v_ad|niv_pct 6.349206349206349
+v_ad|hfnc_n 9
+v_ad|hfnc_pct 7.142857142857143
+v_sc|niv_n 5
+v_sc|niv_pct 3.9682539682539684
+v_sc|hfnc_n 8
+v_sc|hfnc_pct 6.349206349206349
+v_pa|niv_n 9
+v_pa|niv_pct 7.142857142857143
+v_pa|hfnc_n 5
+v_pa|hfnc_pct 3.9682539682539684
+v_me|niv_n 6
+v_me|niv_pct 4.761904761904762
+v_me|hfnc_n 4
+v_me|hfnc_pct 3.1746031746031744
+v_re|niv_n 2
+v_re|niv_pct 1.5873015873015872
+v_re|hfnc_n 2
+v_re|hfnc_pct 1.5873015873015872

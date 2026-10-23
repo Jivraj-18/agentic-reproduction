@@ -1,0 +1,1664 @@
+{
+ "paper": "A",
+ "table_id": "Table 1",
+ "caption": "Table 1. Demographic and clinical characteristics",
+ "rows": [
+  {
+   "id": "age",
+   "label": "Age (months), median (IQR)"
+  },
+  {
+   "id": "wz",
+   "label": "Weight z score for age, mean (SD)"
+  },
+  {
+   "id": "female",
+   "label": "Female, N (%)"
+  },
+  {
+   "id": "pw",
+   "label": "Previous wheezing, N (%)"
+  },
+  {
+   "id": "prh",
+   "label": "Previous respiratory hospitalization, N (%)"
+  },
+  {
+   "id": "dur",
+   "label": "NIV/HFNC duration (hours), median (IQR)"
+  },
+  {
+   "id": "fio2",
+   "label": "Initial FiO2, mean (SD)"
+  },
+  {
+   "id": "wdf",
+   "label": "Initial WDF, mean (SD)"
+  },
+  {
+   "id": "spo2",
+   "label": "Initial SpO2, mean (SD)"
+  },
+  {
+   "id": "sed",
+   "label": "Sedation, N (%)"
+  },
+  {
+   "id": "sed_d",
+   "label": "Sedation (days), median (IQR)"
+  },
+  {
+   "id": "ngt_d",
+   "label": "Nasogastric tube (days), median (IQR)"
+  },
+  {
+   "id": "picu",
+   "label": "PICU LOS (days), median (IQR)"
+  },
+  {
+   "id": "hosp",
+   "label": "Hospital LOS (days), median (IQR)"
+  },
+  {
+   "id": "imv_d",
+   "label": "Invasive mechanical ventilation duration (days), median (IQR)"
+  },
+  {
+   "id": "atb",
+   "label": "Antibiotic use, n (%)"
+  },
+  {
+   "id": "vap",
+   "label": "Ventilator-associated pneumonia, n (%)"
+  },
+  {
+   "id": "pim",
+   "label": "PIM 2 score, mean (SD)"
+  },
+  {
+   "id": "v_rsv",
+   "label": "Virus: Respiratory syncytial virus, n (%)"
+  },
+  {
+   "id": "v_bo",
+   "label": "Virus: Bocavirus, n (%)"
+  },
+  {
+   "id": "v_ad",
+   "label": "Virus: Adenovirus, n (%)"
+  },
+  {
+   "id": "v_sc",
+   "label": "Virus: Seasonal coronavirus, n (%)"
+  },
+  {
+   "id": "v_pa",
+   "label": "Virus: Parainfluenza 3/4, n (%)"
+  },
+  {
+   "id": "v_me",
+   "label": "Virus: Human metapneumovirus, n (%)"
+  },
+  {
+   "id": "v_re",
+   "label": "Virus: Rhinovirus/enterovirus, n (%)"
+  }
+ ],
+ "columns": [
+  {
+   "id": "niv_n",
+   "label": "NIV N",
+   "metric_type": "n"
+  },
+  {
+   "id": "niv_pct",
+   "label": "NIV %",
+   "metric_type": "pct"
+  },
+  {
+   "id": "niv_mean",
+   "label": "NIV mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "niv_sd",
+   "label": "NIV SD",
+   "metric_type": "sd"
+  },
+  {
+   "id": "niv_med",
+   "label": "NIV median",
+   "metric_type": "med"
+  },
+  {
+   "id": "niv_q1",
+   "label": "NIV Q1 (25th pct)",
+   "metric_type": "q1"
+  },
+  {
+   "id": "niv_q3",
+   "label": "NIV Q3 (75th pct)",
+   "metric_type": "q3"
+  },
+  {
+   "id": "hfnc_n",
+   "label": "HFNC N",
+   "metric_type": "n"
+  },
+  {
+   "id": "hfnc_pct",
+   "label": "HFNC %",
+   "metric_type": "pct"
+  },
+  {
+   "id": "hfnc_mean",
+   "label": "HFNC mean",
+   "metric_type": "mean"
+  },
+  {
+   "id": "hfnc_sd",
+   "label": "HFNC SD",
+   "metric_type": "sd"
+  },
+  {
+   "id": "hfnc_med",
+   "label": "HFNC median",
+   "metric_type": "med"
+  },
+  {
+   "id": "hfnc_q1",
+   "label": "HFNC Q1 (25th pct)",
+   "metric_type": "q1"
+  },
+  {
+   "id": "hfnc_q3",
+   "label": "HFNC Q3 (75th pct)",
+   "metric_type": "q3"
+  },
+  {
+   "id": "p",
+   "label": "p",
+   "metric_type": "p"
+  }
+ ],
+ "excluded_columns": [],
+ "footnotes": [
+  "SD: standard deviation",
+  "IQR: interquartile range 0.25–0.75",
+  "p values were calculated by chi-square or Wilcoxon tests, as appropriate"
+ ],
+ "star_legend": null,
+ "cells": {
+  "age|niv_med": {
+   "raw": "2.5",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.5,
+   "decimals": 1,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "age|niv_q1": {
+   "raw": "1",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "age|niv_q3": {
+   "raw": "6",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "age|hfnc_med": {
+   "raw": "3",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "age|hfnc_q1": {
+   "raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "age|hfnc_q3": {
+   "raw": "7",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "age|p": {
+   "raw": "0.07",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.07,
+   "decimals": 2,
+   "graded": false,
+   "not_graded_reason": "age deposited only as ranges"
+  },
+  "wz|niv_mean": {
+   "raw": "-0.18",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.18,
+   "decimals": 2,
+   "graded": false,
+   "not_graded_reason": "weight deposited only as ranges"
+  },
+  "wz|niv_sd": {
+   "raw": "1.18",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.18,
+   "decimals": 2,
+   "graded": false,
+   "not_graded_reason": "weight deposited only as ranges"
+  },
+  "wz|hfnc_mean": {
+   "raw": "-0.18",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": -0.18,
+   "decimals": 2,
+   "graded": false,
+   "not_graded_reason": "weight deposited only as ranges"
+  },
+  "wz|hfnc_sd": {
+   "raw": "1.11",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.11,
+   "decimals": 2,
+   "graded": false,
+   "not_graded_reason": "weight deposited only as ranges"
+  },
+  "wz|p": {
+   "raw": "0.95",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.95,
+   "decimals": 2,
+   "graded": false,
+   "not_graded_reason": "weight deposited only as ranges"
+  },
+  "female|niv_n": {
+   "raw": "52",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 52.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "female|niv_pct": {
+   "raw": "41",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 41.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "female|hfnc_n": {
+   "raw": "41",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 41.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "female|hfnc_pct": {
+   "raw": "32.5",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 32.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "female|p": {
+   "raw": "0.15",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.15,
+   "decimals": 2,
+   "graded": true
+  },
+  "pw|niv_n": {
+   "raw": "39",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 39.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "pw|niv_pct": {
+   "raw": "31",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 31.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "pw|hfnc_n": {
+   "raw": "32",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 32.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "pw|hfnc_pct": {
+   "raw": "25.3",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 25.3,
+   "decimals": 1,
+   "graded": true
+  },
+  "pw|p": {
+   "raw": "0.3",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.3,
+   "decimals": 1,
+   "graded": true
+  },
+  "prh|niv_n": {
+   "raw": "30",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 30.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "prh|niv_pct": {
+   "raw": "23.8",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 23.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "prh|hfnc_n": {
+   "raw": "22",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 22.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "prh|hfnc_pct": {
+   "raw": "17.4",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 17.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "prh|p": {
+   "raw": "0.2",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "dur|niv_med": {
+   "raw": "48",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 48.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "dur|niv_q1": {
+   "raw": "24",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 24.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "dur|niv_q3": {
+   "raw": "78",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 78.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "dur|hfnc_med": {
+   "raw": "77.5",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 77.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "dur|hfnc_q1": {
+   "raw": "46.5",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 46.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "dur|hfnc_q3": {
+   "raw": "108",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 108.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "dur|p": {
+   "raw": "0.0003",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.0003,
+   "decimals": 4,
+   "graded": true
+  },
+  "fio2|niv_mean": {
+   "raw": "40.8",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 40.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "fio2|niv_sd": {
+   "raw": "10.8",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 10.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "fio2|hfnc_mean": {
+   "raw": "36.2",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 36.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "fio2|hfnc_sd": {
+   "raw": "10.6",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 10.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "fio2|p": {
+   "raw": "0.0002",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.0002,
+   "decimals": 4,
+   "graded": true
+  },
+  "wdf|niv_mean": {
+   "raw": "5.9",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "wdf|niv_sd": {
+   "raw": "0.9",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "wdf|hfnc_mean": {
+   "raw": "5.9",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "wdf|hfnc_sd": {
+   "raw": "1.1",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.1,
+   "decimals": 1,
+   "graded": true
+  },
+  "wdf|p": {
+   "raw": "0.9",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "spo2|niv_mean": {
+   "raw": "97.6",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 97.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "spo2|niv_sd": {
+   "raw": "1.9",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "spo2|hfnc_mean": {
+   "raw": "97.4",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 97.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "spo2|hfnc_sd": {
+   "raw": "1.9",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.9,
+   "decimals": 1,
+   "graded": true
+  },
+  "spo2|p": {
+   "raw": "0.25",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.25,
+   "decimals": 2,
+   "graded": true
+  },
+  "sed|niv_n": {
+   "raw": "121",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 121.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed|niv_pct": {
+   "raw": "96",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 96.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed|hfnc_n": {
+   "raw": "54",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 54.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed|hfnc_pct": {
+   "raw": "42.8",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 42.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "sed|p": {
+   "raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": "<",
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "sed_d|niv_med": {
+   "raw": "3",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed_d|niv_q1": {
+   "raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed_d|niv_q3": {
+   "raw": "4",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed_d|hfnc_med": {
+   "raw": "2",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed_d|hfnc_q1": {
+   "raw": "1",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed_d|hfnc_q3": {
+   "raw": "4",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "sed_d|p": {
+   "raw": "0.08",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.08,
+   "decimals": 2,
+   "graded": true
+  },
+  "ngt_d|niv_med": {
+   "raw": "3",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "ngt_d|niv_q1": {
+   "raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "ngt_d|niv_q3": {
+   "raw": "4",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "ngt_d|hfnc_med": {
+   "raw": "4",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "ngt_d|hfnc_q1": {
+   "raw": "2",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "ngt_d|hfnc_q3": {
+   "raw": "5",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "ngt_d|p": {
+   "raw": "0.012",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.012,
+   "decimals": 3,
+   "graded": true
+  },
+  "picu|niv_med": {
+   "raw": "5",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "picu|niv_q1": {
+   "raw": "3",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "picu|niv_q3": {
+   "raw": "10",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 10.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "picu|hfnc_med": {
+   "raw": "5",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "picu|hfnc_q1": {
+   "raw": "4",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "picu|hfnc_q3": {
+   "raw": "7",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "picu|p": {
+   "raw": "0.3",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.3,
+   "decimals": 1,
+   "graded": false,
+   "not_graded_reason": "PICU LOS deposited only as ranges"
+  },
+  "hosp|niv_med": {
+   "raw": "9",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 9.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "hosp|niv_q1": {
+   "raw": "6",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "hosp|niv_q3": {
+   "raw": "14",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 14.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "hosp|hfnc_med": {
+   "raw": "8",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "hosp|hfnc_q1": {
+   "raw": "6",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "hosp|hfnc_q3": {
+   "raw": "10",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 10.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "hosp|p": {
+   "raw": "0.006",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.006,
+   "decimals": 3,
+   "graded": false,
+   "not_graded_reason": "hospital LOS deposited only as ranges"
+  },
+  "imv_d|niv_med": {
+   "raw": "5",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "imv_d|niv_q1": {
+   "raw": "3.7",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "imv_d|niv_q3": {
+   "raw": "7",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "imv_d|hfnc_med": {
+   "raw": "4",
+   "metric_type": "median",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "imv_d|hfnc_q1": {
+   "raw": "2.5",
+   "metric_type": "Q1",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "imv_d|hfnc_q3": {
+   "raw": "4.5",
+   "metric_type": "Q3",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "imv_d|p": {
+   "raw": "0.02",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.02,
+   "decimals": 2,
+   "graded": true
+  },
+  "atb|niv_n": {
+   "raw": "62",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 62.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "atb|niv_pct": {
+   "raw": "49",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 49.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "atb|hfnc_n": {
+   "raw": "49",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 49.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "atb|hfnc_pct": {
+   "raw": "38",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 38.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "atb|p": {
+   "raw": "<0.001",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": "<",
+   "value": 0.001,
+   "decimals": 3,
+   "graded": true
+  },
+  "vap|niv_n": {
+   "raw": "1",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "no ventilator-associated pneumonia column in the deposit"
+  },
+  "vap|niv_pct": {
+   "raw": "2",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "no ventilator-associated pneumonia column in the deposit"
+  },
+  "vap|hfnc_n": {
+   "raw": "1",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.0,
+   "decimals": 0,
+   "graded": false,
+   "not_graded_reason": "no ventilator-associated pneumonia column in the deposit"
+  },
+  "vap|hfnc_pct": {
+   "raw": "3.4",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.4,
+   "decimals": 1,
+   "graded": false,
+   "not_graded_reason": "no ventilator-associated pneumonia column in the deposit"
+  },
+  "pim|niv_mean": {
+   "raw": "1.8",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "pim|niv_sd": {
+   "raw": "1.7",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "pim|hfnc_mean": {
+   "raw": "1.5",
+   "metric_type": "mean",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.5,
+   "decimals": 1,
+   "graded": true
+  },
+  "pim|hfnc_sd": {
+   "raw": "1.4",
+   "metric_type": "SD",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "pim|p": {
+   "raw": "0.49",
+   "metric_type": "p",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 0.49,
+   "decimals": 2,
+   "graded": true
+  },
+  "v_rsv|niv_n": {
+   "raw": "91",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 91.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_rsv|niv_pct": {
+   "raw": "72.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 72.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_rsv|hfnc_n": {
+   "raw": "90",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 90.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_rsv|hfnc_pct": {
+   "raw": "71.4",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 71.4,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_bo|niv_n": {
+   "raw": "4",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_bo|niv_pct": {
+   "raw": "3.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_bo|hfnc_n": {
+   "raw": "11",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 11.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_bo|hfnc_pct": {
+   "raw": "8.7",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.7,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_ad|niv_n": {
+   "raw": "6",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_ad|niv_pct": {
+   "raw": "4.8",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.8,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_ad|hfnc_n": {
+   "raw": "9",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 9.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_ad|hfnc_pct": {
+   "raw": "7.1",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.1,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_sc|niv_n": {
+   "raw": "4",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_sc|niv_pct": {
+   "raw": "3.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_sc|hfnc_n": {
+   "raw": "8",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 8.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_sc|hfnc_pct": {
+   "raw": "6.3",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 6.3,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_pa|niv_n": {
+   "raw": "7",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 7.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_pa|niv_pct": {
+   "raw": "5.6",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_pa|hfnc_n": {
+   "raw": "5",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_pa|hfnc_pct": {
+   "raw": "4",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_me|niv_n": {
+   "raw": "5",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 5.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_me|niv_pct": {
+   "raw": "4",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_me|hfnc_n": {
+   "raw": "4",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 4.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_me|hfnc_pct": {
+   "raw": "3.2",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 3.2,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_re|niv_n": {
+   "raw": "2",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_re|niv_pct": {
+   "raw": "1.6",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.6,
+   "decimals": 1,
+   "graded": true
+  },
+  "v_re|hfnc_n": {
+   "raw": "2",
+   "metric_type": "count",
+   "unit": null,
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 2.0,
+   "decimals": 0,
+   "graded": true
+  },
+  "v_re|hfnc_pct": {
+   "raw": "1.6",
+   "metric_type": "percent",
+   "unit": "%",
+   "stars": null,
+   "link_to": null,
+   "comparator": null,
+   "value": 1.6,
+   "decimals": 1,
+   "graded": true
+  }
+ }
+}

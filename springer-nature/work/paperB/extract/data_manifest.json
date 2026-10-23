@@ -1,0 +1,30 @@
+{
+ "paper": "B",
+ "files": [
+  {
+   "name": "aorta_crc.csv",
+   "role": "raw concentration-response rows of 'Data Fig 1+Tab 2.xlsx' (sheets CSE, EVE, HTE): % of precontraction remaining per experiment",
+   "given_to_reproducer": true
+  }
+ ],
+ "required_inputs": [
+  {
+   "input": "Rat aorta relaxation to acetylcholine and DEA/NO, 5 experiments per treatment, 9 concentrations",
+   "availability": "full"
+  }
+ ],
+ "withheld_from_sandbox": [
+  {
+   "name": "rows 'EC50 (mol/l)', 'Emax (%)', 'CI', 'logEC50', 'MW' under each block",
+   "reason": "authors' fitted EC50/Emax per experiment, their means and CIs: the published values"
+  },
+  {
+   "name": "columns 'Mittel' and 'SEM'",
+   "reason": "authors' summaries of the curves"
+  },
+  {
+   "name": "Data Fig 2+Tab 2.xlsx, Data Fig 3-7 workbooks",
+   "reason": "other figures and Table 3, not needed for Table 2"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+# Environment and scratch
+.venv/
+__pycache__/
+work/_img/
+
+# Data: original downloads and every copy of the deposited data
+inputs/
+*.zip
+work/*/source/data/
+work/*/sandbox/*/data/
+
+# Agent session transcripts (contain local paths and account details); the audit results derived from them are kept
+work/*/eval/transcripts/
+
+# Explainer intermediates that copy the deposited data
+work/*/eval/explain/*.pkl
+work/*/eval/explain/xlsx_dump.txt

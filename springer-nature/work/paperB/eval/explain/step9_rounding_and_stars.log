@@ -1,0 +1,21 @@
+(a) Per-experiment EC50s that sit on a 2-significant-figure rounding edge (4p fit vs authors' sheet):
+   ('cse_200', 'ach'): fit 134.67, 216.04, 810.77, 472.40, 358.48 nM | sheet 140, 220, 810, 470, 360
+   ('eve_ctrl', 'ach'): fit 193.36, 73.89, 134.77, 185.29, 199.09 nM | sheet 190, 74, 140, 190, 200
+   ('hte_ctrl', 'ach'): fit 105.96, 136.79, 164.90, 36.99, 161.68 nM | sheet 110, 140, 170, 37, 160
+
+   Same cells from the authors' own (rounded) rows:
+   cse_200|ach_lo       authors' rows 144.4 -> grade A (published 144)
+   eve_ctrl|ach_lo      authors' rows 89.01 -> grade A (published 89)
+   hte_ctrl|ach_hi      authors' rows 237.9 -> grade A (published 238)
+   eve_undil|dea_sem    authors' rows 0.8922 -> grade A (published 0.9)
+   eve_20|ach_sem       authors' rows 4.549 -> grade B (published 4.6)
+   eve_undil|dea_ec50   authors' rows 43.49 -> grade B (published 44)
+   eve_20|ach_sem: 4.549 printed as 4.6 (4.549 -> 4.55 -> 4.6); eve_undil|dea_ec50: 43.49 printed as 44 (-> 43.5 -> 44): the printed value rounds an already rounded number.
+
+(b) Dunnett vs control on the authors' Emax rows (relaxation %):
+   cse ach: cse_3 p=7.69e-07, cse_20 p=0.000343, cse_200 p=0.824
+   cse dea: cse_3 p=0.965, cse_20 p=0.605, cse_200 p=0.926
+   eve ach: eve_undil p=0.757, eve_2 p=0.746, eve_20 p=0.96
+   eve dea: eve_undil p=0.911, eve_2 p=0.881, eve_20 p=0.599
+   hte ach: hte_undil p=0.00831, hte_2 p=0.171, hte_20 p=0.998
+   hte dea: hte_undil p=0.603, hte_2 p=0.564, hte_20 p=0.961

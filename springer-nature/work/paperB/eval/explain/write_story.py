@@ -1,0 +1,86 @@
+"""Writes eval/story.json from the cause attribution (step8) and the evidence in the step*.log files,
+then checks that every non-A cell of each run is listed in exactly one cause."""
+import json, os
+here = os.path.dirname(os.path.abspath(__file__))
+A = json.load(open(os.path.join(here, "attribution.json")))
+
+
+def cells(c):
+    return {r: A[r].get(c, []) for r in ("r_opus", "r_sonnet")}
+
+
+story = {
+ "short": "Smoke extracts and blood-vessel relaxation",
+ "what": "The table shows how well rings of rat aorta relax to two drugs after a day in tobacco smoke, e-cigarette vapour or heated-tobacco extract. For each treatment it gives the largest relaxation (Emax) and the drug concentration that gives half of it (EC50), averaged over 5 animals.",
+ "verdict": "Mostly, but not fully: both runs got about half the cells within 2% and nearly all the rest within 20%, yet no reading of the Methods rebuilds every cell, because one row rests on mistyped entries in the authors' own worksheet.",
+ "verdict_note": "Most misses come from one unstated choice: the authors fitted each curve with a Hill model whose starting level was left free, while both runs fixed it at zero. The rest come from a flat curve with no clear top, how an Emax above 100% was handled, rounding, and one row (heated tobacco undiluted, DEA/NO) whose published EC50 rests on wrong worksheet entries.",
+ "implication": "One sentence in the Methods, such as 'each curve was fitted to a four-parameter Hill equation with free bottom, top, EC50 and slope, and Emax above 100% was set to 100%', would have prevented about 40 of the 53-57 misses per run. The journal could also ask authors to check summary worksheets against the raw curves: one published EC50 is about 1.6 times too high and its upper limit more than 3 times too high.",
+ "model_note": "Both runs used the same zero-baseline model and gave the same value in 103 of 120 cells. They differed on curves that do not level off: Opus refitted them with a fixed slope, which was close for the flat CSE 1:3 acetylcholine curves (grades B to D) but cost it 4 cells where Emax went above 100%; Sonnet capped Emax at 100%, which matched the authors there but left the CSE 1:3 curves at grade E and cost it two significance stars. With one run per model, this difference may be chance.",
+ "headline_cause": "c1",
+ "causes": [
+  {"id": "c1", "title": "Hill curve fitted with a free baseline, not one fixed at zero",
+   "category": "Original: underspecified", "cells": cells("c1_baseline"),
+   "left_unsaid": "The Methods say only 'a Hill-type model' fitted in Kaleidagraph. They do not say whether the curve's starting level (the response before any drug) is fixed at zero or fitted, or whether the slope is free.",
+   "ai_did": {"r_opus": "Fitted each experiment with a 3-parameter Hill curve (Emax, EC50, slope), starting level fixed at 0% relaxation.",
+              "r_sonnet": "The same 3-parameter Hill curve with the starting level fixed at 0%, and Emax capped at 100%."},
+   "authors_did": "A 4-parameter Hill curve (free starting level, top, EC50 and slope) per experiment, each EC50 kept to 2 significant figures. This is corroborated by the authors' fitted rows in the deposited workbook: refitting this way matches their per-experiment values with a median gap of 0.04 points in Emax and 1% in EC50, against 0.29 points and 3% for the zero-baseline model.",
+   "fix": "Add: 'Each experiment's curve was fitted to a four-parameter Hill equation with free bottom, top (Emax), EC50 and slope.'",
+   "evidence": "Re-running all 120 cells with the 4-parameter fit (Emax cut at 100%, EC50 to 2 significant figures) gives 103 grade-A cells, against 64 for the runs' zero-baseline model. All 38 cells listed here for each run move to grade A. For example, the EVE 1:20 DEA/NO SEM goes from 0.96 to 0.47 (published 0.5), and the CSE 1:200 acetylcholine upper limit from 886 to 789 nM (published 777).",
+   "example": {"cell": "eve_20|dea_sem", "published": "0.5", "ai": {"r_opus": "0.96", "r_sonnet": "0.96"}, "alternative": "0.47"},
+   "script": "eval/explain/step8_attribution.py"},
+  {"id": "c2", "title": "What to do when a fitted Emax goes above 100%",
+   "category": "Original: underspecified", "cells": cells("c2_emax_over_100"),
+   "left_unsaid": "Some DEA/NO curves relax almost fully, so the fitted Emax lands slightly above 100%. The Methods do not say how such fits were handled.",
+   "ai_did": {"r_opus": "Refitted those curves with the slope fixed at 1, which shifted their EC50 and Emax.",
+              "r_sonnet": "Capped Emax at 100% during the fit, close to what the authors did, so it lost no cells here."},
+   "authors_did": "Kept the free fit and reported Emax as 100%. In the deposited workbook these curves show a remaining-tension Emax of exactly 0, while their EC50s match the free fit.",
+   "fix": "Add: 'Fitted Emax values above 100% were set to 100%; the EC50 from the same fit was kept.'",
+   "evidence": "Re-running Opus's own pipeline (which reproduces its table exactly) but cutting Emax at 100% instead of refitting moves these 4 cells to grade A: HTE 1:20 DEA/NO SEM 1.51 to 1.94 (published 1.9) and EC50 73.7 to 76.0 nM (published 76); HTE 1:2 DEA/NO limits 42.0 and 190 to 40.9 and 204 nM (published 41 and 201).",
+   "example": {"cell": "hte_20|dea_sem", "published": "1.9", "ai": {"r_opus": "1.51", "r_sonnet": "1.94"}, "alternative": "1.94"},
+   "script": "eval/explain/step8_attribution.py"},
+  {"id": "c3", "title": "Flat CSE 1:3 acetylcholine curves with no plateau",
+   "category": "Original: underspecified", "cells": cells("c3_flat_curve"),
+   "left_unsaid": "Strong smoke extract almost abolished relaxation (6-23% at the highest dose), so the curves never level off and a free fit can run off to a huge Emax and EC50. The Methods do not say how such curves were fitted or limited.",
+   "ai_did": {"r_opus": "Refitted the two runaway curves with the slope fixed at 1: Emax 16 +- 3.1%, EC50 599 nM (251-1434).",
+              "r_sonnet": "Capped Emax at 100%; one curve still ran to the cap with an EC50 of 483 uM: Emax 36 +- 17%, EC50 3003 nM (57-158052)."},
+   "authors_did": "The 4-parameter fit for 4 of the 5 experiments (matches their workbook rows). For experiment 2 they report Emax 22.3% and EC50 2.4 uM, which is not the best least-squares fit (squared error 5.4 against 2.9), so some unstated limit or starting value was used. Seen in the authors' rows in the deposit.",
+   "fix": "Add: 'For curves without a clear plateau, the fit was constrained so that the EC50 stayed within the tested range (state the limit).'",
+   "evidence": "The 4-parameter fit reproduces the authors' values for experiments 1, 3, 4 and 5. Adding a limit of EC50 at most 3 uM for experiment 2 gives Emax 17.3 +- 3.9% and EC50 835 nM (226-3086), against the published 17 +- 3.8 and 806 (233-2790): Emax within 2%, the other four cells within 3-11%. With no limit the same fit gives an EC50 of 4230 nM.",
+   "example": {"cell": "cse_3|ach_ec50", "published": "806", "ai": {"r_opus": "599", "r_sonnet": "3003"}, "alternative": "835"},
+   "script": "eval/explain/step7_cse3_ach.py"},
+  {"id": "c4", "title": "Wrong worksheet entries behind the HTE undiluted DEA/NO row",
+   "category": "Original: inconsistent", "cells": cells("c4_hte_undil_rows"),
+   "left_unsaid": "The published EC50 of 87 nM (21-362) and SEM of 1.4 do not follow from the deposited curves. In the authors' worksheet, experiment 4's values (Emax 96.8%, EC50 67 nM) are identical to CSE 1:3 experiment 4, and experiment 5's EC50 of 540 nM is impossible for a ring that already relaxed 62% at 100 nM.",
+   "ai_did": {"r_opus": "Fitted the deposited curves as they are: EC50 56.6 nM (29.5-108.6), SEM 1.90.",
+              "r_sonnet": "The same: EC50 56.6 nM (29.5-108.6), SEM 1.90."},
+   "authors_did": "Averaged per-experiment values in which two experiments carry wrong entries (one apparently copied from another block, one about 10 times too high). Seen in the authors' rows in the deposit.",
+   "fix": "Correct the row: refitting the deposited curves gives an EC50 of about 56 nM (29-108) and Emax 95 +- 1.9%.",
+   "evidence": "The authors' rows as deposited give exactly 87.1 (20.9-362.4) and SEM 1.35. Refitting experiments 4 and 5 gives EC50s of 54 and 71 nM and moves the row to 55.6 (28.7-107.8), SEM 1.88, which are the runs' values. Changing only the 540 nM entry to 54 nM gives 55.0 (28.5-105.8).",
+   "example": {"cell": "hte_undil|dea_hi", "published": "362", "ai": {"r_opus": "108.6", "r_sonnet": "108.6"}, "alternative": "107.8 (refit of the deposited curves; 362 comes only from the wrong 540 nM entry)"},
+   "script": "eval/explain/step6_hte_undil_rows.py"},
+  {"id": "c5", "title": "Small rounding and fitting differences",
+   "category": "Original: underspecified", "cells": cells("c5_residual"),
+   "left_unsaid": "The authors rounded each experiment's EC50 to 2 significant figures before averaging, and in two cells rounded an already rounded number for print (4.549 to 4.55 to 4.6; 43.49 to 43.5 to 44). Neither step is stated.",
+   "ai_did": {"r_opus": "Averaged unrounded fits from the zero-baseline model.", "r_sonnet": "Averaged unrounded fits from the zero-baseline model."},
+   "authors_did": "Averaged EC50s rounded to 2 significant figures. Several sit on a rounding edge (e.g. a fit of 134.7 nM kept as 140), so tiny fit differences flip the rounding. Seen in the authors' rows in the deposit.",
+   "fix": "Add: 'Means and confidence limits were computed from unrounded per-experiment estimates' (or state the rounding used).",
+   "evidence": "Using the authors' rounded per-experiment rows moves 4 of these 6 cells to grade A (e.g. CSE 1:200 acetylcholine lower limit 144.4, published 144; runs 129.1). The other two stay about 1% off only because of the double rounding in print. All six are within 1-10% under the 4-parameter reconstruction.",
+   "example": {"cell": "cse_200|ach_lo", "published": "144", "ai": {"r_opus": "129.1", "r_sonnet": "129.1"}, "alternative": "144.4"},
+   "script": "eval/explain/step9_rounding_and_stars.py"}
+ ],
+ "notes": [
+  "The authors' 'Emax (%)' row in the workbook is the tension remaining, not the relaxation; the relaxation Emax is 100 minus it. Rebuilding the table from these rows gives 115 of 120 cells at grade A, and the other 5 are double-rounding cases (step1_authors_rows.log).",
+  "Significance stars: Dunnett tests on the authors' Emax rows give stars for CSE 1:3, CSE 1:20 and HTE undiluted acetylcholine, as published. Opus matched all 24 stars; Sonnet missed the CSE 1:3 and CSE 1:20 stars because its runaway CSE 1:3 fit (SEM 17) widened the spread.",
+  "The CSE 1:20 acetylcholine Emax is 34.5% in the authors' rows and printed as 34, so that value was rounded down.",
+  "The HTE undiluted DEA/NO error does not change the paper's conclusion (no star either way), but the printed EC50 and its interval are wrong."
+ ]
+}
+json.dump(story, open(os.path.join(here, "..", "story.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+
+G = json.load(open(os.path.join(here, "..", "grades.json"), encoding="utf-8"))["cells"]
+for r in ("r_opus", "r_sonnet"):
+    bad = sorted(k for k, c in G.items() if c["runs"][r]["grade"] != "A")
+    listed = [k for c in story["causes"] for k in c["cells"][r]]
+    print(r, "non-A", len(bad), "listed", len(listed), "unique", len(set(listed)), "exact match", bad == sorted(listed))
+    for c in story["causes"]:
+        print("   ", c["id"], len(c["cells"][r]))

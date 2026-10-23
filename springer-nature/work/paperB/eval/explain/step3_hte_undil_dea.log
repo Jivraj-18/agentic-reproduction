@@ -1,0 +1,15 @@
+Relaxation (%) of each experiment at 30/100/300 nM:
+  exp1: 46/69/86   authors' EC50 = 33 nM
+  exp2: 41/78/84   authors' EC50 = 35 nM
+  exp3: 11/50/70   authors' EC50 = 120 nM
+  exp4: 29/72/84   authors' EC50 = 67 nM
+  exp5: 10/62/77   authors' EC50 = 540 nM
+Own 3p Hill fit EC50 (nM): 35, 36, 122, 53, 72
+Published: 87 (21-362)
+authors' row as deposited (exp5 = 540 nM)               EC50 87.1 (20.9-362.4) nM
+authors' row with exp5 = 54 nM (one decimal-place slip) EC50 55.0 (28.5-105.8) nM
+authors' row with exp5 = own fit (2 s.f.)               EC50 58.2 (29.7-113.9) nM
+own fits, all five                                      EC50 56.6 (29.5-108.6) nM
+r_opus: 56.6 (29.5-108.6)
+r_sonnet: 56.6 (29.5-108.6)
+Paper: Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO.

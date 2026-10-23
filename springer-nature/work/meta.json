@@ -1,0 +1,166 @@
+{
+ "client": "Springer Nature",
+ "repo": "agentic-reproduction-springer-nature",
+ "papers": {
+  "A": {
+   "tab": "Paper A · Paediatrics",
+   "title": "Comparison between high-flow nasal cannula (HFNC) therapy and noninvasive ventilation (NIV) in children with acute respiratory failure by bronchiolitis: a randomized controlled trial",
+   "authors": "Santos ACEZ, Caiado CM, Lopes AGD, et al.",
+   "journal": "BMC Pediatrics",
+   "year": "2024; 24: 595",
+   "field": "Paediatric intensive care (randomised trial)",
+   "doi": "10.1186/s12887-024-05058-6",
+   "data_doi": "10.5061/dryad.4xgxd25jh",
+   "data_repo": "Dryad",
+   "licence": "CC BY 4.0",
+   "table": "Table 1. Demographic and clinical characteristics",
+   "why_table": "The trial's main comparison table: counts, means, medians and p-values for two groups of 126 children. Simple statistics, but the Methods leave open how missing values, sedation and percentages are counted, and some rows were shared only as ranges.",
+   "row_head": "Characteristic",
+   "layout": [
+    {
+     "group": "Non-invasive ventilation (NIV)",
+     "cols": [
+      {
+       "label": "N (%)",
+       "fmt": "{niv_n} ({niv_pct}%)"
+      },
+      {
+       "label": "Mean (SD)",
+       "fmt": "{niv_mean} ({niv_sd})"
+      },
+      {
+       "label": "Median (IQR)",
+       "fmt": "{niv_med} ({niv_q1}–{niv_q3})"
+      }
+     ]
+    },
+    {
+     "group": "High-flow nasal cannula (HFNC)",
+     "cols": [
+      {
+       "label": "N (%)",
+       "fmt": "{hfnc_n} ({hfnc_pct}%)"
+      },
+      {
+       "label": "Mean (SD)",
+       "fmt": "{hfnc_mean} ({hfnc_sd})"
+      },
+      {
+       "label": "Median (IQR)",
+       "fmt": "{hfnc_med} ({hfnc_q1}–{hfnc_q3})"
+      }
+     ]
+    },
+    {
+     "group": null,
+     "cols": [
+      {
+       "label": "P value",
+       "fmt": "{p}"
+      }
+     ]
+    }
+   ],
+   "col_labels": {
+    "niv_n": "NIV count",
+    "niv_pct": "NIV %",
+    "niv_mean": "NIV average",
+    "niv_sd": "NIV spread (SD)",
+    "niv_med": "NIV middle value",
+    "niv_q1": "NIV lower quartile",
+    "niv_q3": "NIV upper quartile",
+    "hfnc_n": "HFNC count",
+    "hfnc_pct": "HFNC %",
+    "hfnc_mean": "HFNC average",
+    "hfnc_sd": "HFNC spread (SD)",
+    "hfnc_med": "HFNC middle value",
+    "hfnc_q1": "HFNC lower quartile",
+    "hfnc_q3": "HFNC upper quartile",
+    "p": "P value"
+   },
+   "glossary": [
+    [
+     "IQR",
+     "the middle half of the values: from the lower to the upper quartile."
+    ],
+    [
+     "P value",
+     "how likely a difference this large is by chance between the two groups."
+    ],
+    [
+     "Not graded",
+     "age, weight and lengths of stay were shared only as ranges (such as 6-8 days), so those rows cannot be rebuilt."
+    ]
+   ]
+  },
+  "B": {
+   "tab": "Paper B · Vascular pharmacology",
+   "title": "Varied effects of tobacco smoke and e-cigarette vapor suggest that nicotine does not affect endothelium-dependent relaxation",
+   "authors": "Wölkart G, Kollau A, Russwurm M, et al.",
+   "journal": "Scientific Reports",
+   "year": "2023; 13: 15833",
+   "field": "Vascular pharmacology (curve fitting)",
+   "doi": "10.1038/s41598-023-42750-6",
+   "data_doi": "10.5281/zenodo.7963137",
+   "data_repo": "Zenodo",
+   "licence": "CC BY 4.0",
+   "table": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO.",
+   "why_table": "Maximal relaxation and EC50 for 12 treatments, from Hill-curve fits to each experiment, with geometric means and confidence limits. The fitting choices are exactly what Methods sections tend to leave out.",
+   "row_head": "Treatment",
+   "layout": [
+    {
+     "group": "Acetylcholine (needs a healthy vessel lining)",
+     "cols": [
+      {
+       "label": "Biggest relaxation, Emax %",
+       "fmt": "{ach_emax} ± {ach_sem}"
+      },
+      {
+       "label": "Dose for half the effect, EC50 nM (95% range)",
+       "fmt": "{ach_ec50} ({ach_lo}–{ach_hi})"
+      }
+     ]
+    },
+    {
+     "group": "DEA/NO (works without the lining)",
+     "cols": [
+      {
+       "label": "Biggest relaxation, Emax %",
+       "fmt": "{dea_emax} ± {dea_sem}"
+      },
+      {
+       "label": "Dose for half the effect, EC50 nM (95% range)",
+       "fmt": "{dea_ec50} ({dea_lo}–{dea_hi})"
+      }
+     ]
+    }
+   ],
+   "col_labels": {
+    "ach_emax": "acetylcholine biggest relaxation",
+    "ach_sem": "acetylcholine biggest relaxation, uncertainty",
+    "ach_ec50": "acetylcholine dose for half the effect",
+    "ach_lo": "acetylcholine EC50, low end",
+    "ach_hi": "acetylcholine EC50, high end",
+    "dea_emax": "DEA/NO biggest relaxation",
+    "dea_sem": "DEA/NO biggest relaxation, uncertainty",
+    "dea_ec50": "DEA/NO dose for half the effect",
+    "dea_lo": "DEA/NO EC50, low end",
+    "dea_hi": "DEA/NO EC50, high end"
+   },
+   "glossary": [
+    [
+     "Emax",
+     "the largest relaxation seen, as a percentage of the pre-contraction; ± is its uncertainty (SEM)."
+    ],
+    [
+     "EC50",
+     "the drug concentration that gives half of the biggest relaxation; lower means more potent."
+    ],
+    [
+     "*",
+     "different from the series' untreated control (p < 0.05)."
+    ]
+   ]
+  }
+ }
+}

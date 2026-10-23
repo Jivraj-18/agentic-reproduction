@@ -1,0 +1,7 @@
+- M2: percentages for categorical rows use the full group size (126) as denominator; rejected: only patients with a recorded value (affects ATB 4 'md', viral panel 2 blank).
+- M2: continuous rows (days, PIM, duration) summarised on numeric values only (complete cases); 'nc' (not calculated/not applicable) and 'md' are excluded, so sedation/NGT/IMV days describe only patients who had them. Rejected: treating 'nc' as 0.
+- M3: Sedation N(%) = SDu has a numeric value (nc = not sedated). Rejected: other flags.
+- M3: 'Initial' FiO2/WDF/SpO2 = the _0 columns.
+- S1: Mann-Whitney via scipy asymptotic with continuity correction (R wilcox.test default with ties); chi-square 2x2 with Yates correction (R chisq.test default). Rejected: exact tests, uncorrected chi-square. Mean(SD) rows use Wilcoxon.
+- S2: quantiles type 7 (linear); SD with n-1.
+- Virus: any mention in VP list (co-infections count in each virus); blank VP counted as negative; no p reported (template has none). Female = Gn==1, previous wheezing PW=='y', etc.

@@ -1,0 +1,1073 @@
+{
+ "paper": "B",
+ "table_id": "Table 2",
+ "caption": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO. Data shown are mean values\u00c2\u00b1SEM (Emax) or mean values with 95% confidence interval (EC50) from 5 experiments. *p<0.05 vs. control as determined by ANOVA and Dunnett\u00e2\u20ac\u2122s post hoc test.",
+ "rows": [
+  {
+   "id": "cse_ctrl",
+   "label": "CSE series: Control"
+  },
+  {
+   "id": "cse_3",
+   "label": "CSE 1:3"
+  },
+  {
+   "id": "cse_20",
+   "label": "CSE 1:20"
+  },
+  {
+   "id": "cse_200",
+   "label": "CSE 1:200"
+  },
+  {
+   "id": "eve_ctrl",
+   "label": "EVE series: Control"
+  },
+  {
+   "id": "eve_undil",
+   "label": "EVE undiluted"
+  },
+  {
+   "id": "eve_2",
+   "label": "EVE 1:2"
+  },
+  {
+   "id": "eve_20",
+   "label": "EVE 1:20"
+  },
+  {
+   "id": "hte_ctrl",
+   "label": "HTE series: Control"
+  },
+  {
+   "id": "hte_undil",
+   "label": "HTE (THP) undiluted"
+  },
+  {
+   "id": "hte_2",
+   "label": "HTE (THP) 1:2"
+  },
+  {
+   "id": "hte_20",
+   "label": "HTE (THP) 1:20"
+  }
+ ],
+ "columns": [
+  {
+   "id": "ach_emax",
+   "label": "Acetylcholine Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "ach_sem",
+   "label": "Acetylcholine Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "ach_ec50",
+   "label": "Acetylcholine EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "ach_lo",
+   "label": "Acetylcholine EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "ach_hi",
+   "label": "Acetylcholine EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_emax",
+   "label": "DEA/NO Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "dea_sem",
+   "label": "DEA/NO Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "dea_ec50",
+   "label": "DEA/NO EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "dea_lo",
+   "label": "DEA/NO EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_hi",
+   "label": "DEA/NO EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  }
+ ],
+ "star_legend": {
+  "*": "p<0.05 vs. control of the same series (ANOVA and Dunnett's post hoc test)"
+ },
+ "cells": {
+  "cse_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 59.09028478350505,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.603627891342268,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 167.41771578205933,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 91.13030433354967,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 307.56718923151465,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 95.49296364496863,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 2.1052821044264936,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 60.93517646582585,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 38.7414850165707,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 95.84288597437998,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 35.77036324446344,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "cse_3|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 16.995973708622184,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 3003.087482655064,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 57.0606539023529,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 158051.71885889734,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.54236732201453,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "cse_3|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.6386924693487719,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 95.12525862263024,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 49.47115169745637,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_3|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 182.91093935635115,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 35.202769547833576,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "cse_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.6187188889004536,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 182.01392491252622,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 85.93048455529758,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 385.5333649462161,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 97.75162928733386,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "cse_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.165738563603667,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 70.08792920234818,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 29.410576862821763,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 167.02555148053165,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 57.527135914677686,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "cse_200|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 2.703426724092909,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 338.30004633822654,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 129.1341292945976,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 886.2639333042235,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.73314041130509,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "cse_200|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 0.8727906699836283,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 81.15721283115896,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 42.58970618048612,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "cse_200|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 154.6498857402273,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 56.99868349088748,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 5.764234653404678,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 149.84647501910334,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 90.80832962367049,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 247.26769194747757,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 95.78571712322461,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.9538377966344977,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 63.63034828933617,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 28.951952084852458,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 139.8462256208469,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 50.23015090599999,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "eve_undil|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.143236948942384,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 190.58252423033008,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 66.60723310484816,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 545.311625312966,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.97404860614718,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "eve_undil|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 0.7982727374704055,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 44.60465804215822,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 26.329561569827092,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_undil|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 75.56432391710865,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 63.750889922314784,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "eve_2|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 7.954013340866478,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 170.2042992497773,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 137.53658541690027,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 210.6312541880803,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 93.82862830062905,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "eve_2|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 3.792482921366533,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 56.78200949401669,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 23.491557848463138,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_2|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 137.2491608677853,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 60.50235676083024,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "eve_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.440980500219131,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 175.5744321340129,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 84.34399131403521,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 365.4840225002663,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 97.89374509846513,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "eve_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 0.9584790935333741,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 64.09825898468932,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 39.63349367504699,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "eve_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 103.66451261032898,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 63.101800832111145,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.918559341935188,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 110.66186373817021,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 55.94025892130737,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 218.91296755047526,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 93.4448299738585,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.622494953055904,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 47.30742344724042,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 19.540868551401466,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 114.52880445562405,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 36.771246963874695,
+   "stars": "*",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "hte_undil|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 5.634984080330183,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 285.89842294445964,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 91.34229963190393,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 894.8527524654064,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 94.61015522733544,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "hte_undil|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.8994829093873076,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 56.583662260137515,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 29.482926331200364,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_undil|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 108.59542227262197,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 48.995774023321,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "hte_2|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 6.1246676592382565,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 144.5361935734958,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 61.30352571231475,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 340.77503716101074,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 96.27989792212034,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "hte_2|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.6818185748910186,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 91.16104150695857,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 41.0055647456755,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_2|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 202.66360285916662,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 63.97276593079211,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "hte_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 4.700773237662175,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 170.65033183134673,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 56.556037716021464,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 514.9147099090193,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": 94.75941145307878,
+   "stars": "",
+   "source": "scipy.stats.dunnett on per-experiment Emax"
+  },
+  "hte_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": 1.9436065074397788,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": 75.86618501381251,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 37.91526921822741,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  },
+  "hte_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": 151.80369669597493,
+   "stars": "",
+   "source": "fit_group/hill_fit (per-experiment Hill fit) + summary"
+  }
+ },
+ "instructions": "Fill `value` (a number) for every cell. On the two Emax columns set `stars` to '*' where the treatment differs from its series' control at p<0.05 (ANOVA and Dunnett), else ''; elsewhere set `stars` to ''. `unit` gives the unit the table uses (EC50 in nM, Emax as % relaxation)."
+}

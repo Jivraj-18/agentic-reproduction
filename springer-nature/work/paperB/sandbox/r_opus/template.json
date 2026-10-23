@@ -1,0 +1,953 @@
+{
+ "paper": "B",
+ "table_id": "Table 2",
+ "caption": "Table 2. Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO. Data shown are mean values±SEM (Emax) or mean values with 95% confidence interval (EC50) from 5 experiments. *p<0.05 vs. control as determined by ANOVA and Dunnett’s post hoc test.",
+ "rows": [
+  {
+   "id": "cse_ctrl",
+   "label": "CSE series: Control"
+  },
+  {
+   "id": "cse_3",
+   "label": "CSE 1:3"
+  },
+  {
+   "id": "cse_20",
+   "label": "CSE 1:20"
+  },
+  {
+   "id": "cse_200",
+   "label": "CSE 1:200"
+  },
+  {
+   "id": "eve_ctrl",
+   "label": "EVE series: Control"
+  },
+  {
+   "id": "eve_undil",
+   "label": "EVE undiluted"
+  },
+  {
+   "id": "eve_2",
+   "label": "EVE 1:2"
+  },
+  {
+   "id": "eve_20",
+   "label": "EVE 1:20"
+  },
+  {
+   "id": "hte_ctrl",
+   "label": "HTE series: Control"
+  },
+  {
+   "id": "hte_undil",
+   "label": "HTE (THP) undiluted"
+  },
+  {
+   "id": "hte_2",
+   "label": "HTE (THP) 1:2"
+  },
+  {
+   "id": "hte_20",
+   "label": "HTE (THP) 1:20"
+  }
+ ],
+ "columns": [
+  {
+   "id": "ach_emax",
+   "label": "Acetylcholine Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "ach_sem",
+   "label": "Acetylcholine Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "ach_ec50",
+   "label": "Acetylcholine EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "ach_lo",
+   "label": "Acetylcholine EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "ach_hi",
+   "label": "Acetylcholine EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_emax",
+   "label": "DEA/NO Emax (%)",
+   "metric_type": "Emax"
+  },
+  {
+   "id": "dea_sem",
+   "label": "DEA/NO Emax SEM",
+   "metric_type": "SEM"
+  },
+  {
+   "id": "dea_ec50",
+   "label": "DEA/NO EC50 (nM)",
+   "metric_type": "EC50"
+  },
+  {
+   "id": "dea_lo",
+   "label": "DEA/NO EC50 95% CI lower (nM)",
+   "metric_type": "CI"
+  },
+  {
+   "id": "dea_hi",
+   "label": "DEA/NO EC50 95% CI upper (nM)",
+   "metric_type": "CI"
+  }
+ ],
+ "star_legend": {
+  "*": "p<0.05 vs. control of the same series (ANOVA and Dunnett's post hoc test)"
+ },
+ "cells": {
+  "cse_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_3|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "cse_200|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_undil|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_2|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "eve_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_ctrl|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_undil|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_2|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|ach_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|ach_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|ach_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|ach_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|ach_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|dea_emax": {
+   "metric_type": "Emax",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|dea_sem": {
+   "metric_type": "SEM",
+   "unit": "%",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|dea_ec50": {
+   "metric_type": "EC50",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|dea_lo": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  },
+  "hte_20|dea_hi": {
+   "metric_type": "CI",
+   "unit": "nM",
+   "link_to": null,
+   "value": null,
+   "stars": null
+  }
+ },
+ "instructions": "Fill `value` (a number) for every cell. On the two Emax columns set `stars` to '*' where the treatment differs from its series' control at p<0.05 (ANOVA and Dunnett), else ''; elsewhere set `stars` to ''. `unit` gives the unit the table uses (EC50 in nM, Emax as % relaxation)."
+}

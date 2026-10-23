@@ -1,0 +1,6 @@
+- S1 (Hill model): R = Emax*c^h/(EC50^h + c^h), baseline fixed at 0 % relaxation, Hill slope free, Emax bounded to [0,100] % (relaxation cannot exceed full reversal; bound stops runaway Emax for flat curves, e.g. CSE 1:3 ACh). Rejected: free baseline; fixed slope 1; fitting the mean curve.
+- S1 (fit unit): each experiment's curve fitted separately (5 fits per cell) so SEM/geometric CI can be computed over n=5; rejected fitting the pooled mean curve. Fit by least squares on relax % (M1: 100 - tension %), multi-start, EC50 optimised as log10.
+- S2: Emax = arithmetic mean +/- SEM (sd/sqrt5) of per-experiment fitted Emax.
+- S3: EC50 = geometric mean (mean of log10 EC50) with 95% CI = mean(log) +/- t(0.975, 4)*SEM(log), back-transformed. Rejected normal quantile.
+- S4: one-way ANOVA/Dunnett (scipy.stats.dunnett) on per-experiment fitted Emax, each treatment vs its own series' DMEM control, separately per agonist and series; * if p<0.05. Stars only on Emax columns; EC50 not tested (caption/instructions).
+- Treatment labels in the deposit mapped: "unv." = undiluted, "Verd." = dilution (German).

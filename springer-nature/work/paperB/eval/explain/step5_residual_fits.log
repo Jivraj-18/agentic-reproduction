@@ -1,0 +1,77 @@
+
+('cse_3', 'ach'):
+  exp1: authors Emax   24.8 EC50    2300 | 4p Emax   24.5 EC50    2202 nH 0.79 | 3p Emax   38.7 EC50   10308 | relax 0.03-10uM 3/4/5/7/16/18
+  exp2: authors Emax   22.3 EC50    2400 | 4p Emax  255.4 EC50 10000000 nH 0.38 | 3p Emax  251.6 EC50 10000000 | relax 0.03-10uM 3/4/5/7/12/18  <-- differs
+  exp3: authors Emax   22.1 EC50     380 | 4p Emax   22.1 EC50     379 nH 2.97 | 3p Emax   22.6 EC50     331 | relax 0.03-10uM 2/5/8/22/23/21
+  exp4: authors Emax   10.1 EC50     300 | 4p Emax   10.1 EC50     296 nH 2.34 | 3p Emax   11.4 EC50     301 | relax 0.03-10uM 3/1/6/9/10/11
+  exp5: authors Emax    6.0 EC50     540 | 4p Emax    5.9 EC50     538 nH 1.22 | 3p Emax    6.2 EC50     492 | relax 0.03-10uM 0/1/3/4/6/6
+
+('cse_3', 'dea'):
+  exp1: authors Emax  100.0 EC50      76 | 4p Emax  103.3 EC50      76 nH 0.82 | 3p Emax  102.3 EC50      82 | relax 0.03-10uM 32/51/80/94/98/100  <-- differs
+  exp2: authors Emax  100.0 EC50      61 | 4p Emax  101.0 EC50      61 nH 0.83 | 3p Emax  100.4 EC50      64 | relax 0.03-10uM 36/56/84/89/98/99  <-- differs
+  exp3: authors Emax   94.4 EC50     110 | 4p Emax   94.4 EC50     106 nH 1.48 | 3p Emax   94.3 EC50     107 | relax 0.03-10uM 8/48/74/91/95/95
+  exp4: authors Emax   96.8 EC50      67 | 4p Emax   96.8 EC50      67 nH 1.29 | 3p Emax   96.8 EC50      67 | relax 0.03-10uM 26/62/84/91/97/98
+  exp5: authors Emax   91.1 EC50     230 | 4p Emax   91.1 EC50     228 nH 0.90 | 3p Emax   91.6 EC50     226 | relax 0.03-10uM 14/29/55/70/82/90
+
+('cse_200', 'ach'):
+  exp1: authors Emax   54.6 EC50     140 | 4p Emax   54.6 EC50     135 nH 1.02 | 3p Emax   54.4 EC50     136 | relax 0.03-10uM 10/22/39/47/53/54
+  exp2: authors Emax   47.7 EC50     220 | 4p Emax   47.7 EC50     216 nH 1.08 | 3p Emax   49.7 EC50     202 | relax 0.03-10uM 7/16/30/40/45/47
+  exp3: authors Emax   55.5 EC50     810 | 4p Emax   55.2 EC50     811 nH 0.85 | 3p Emax   62.0 EC50    1014 | relax 0.03-10uM 5/13/17/30/44/49
+  exp4: authors Emax   64.9 EC50     470 | 4p Emax   64.9 EC50     472 nH 0.67 | 3p Emax   64.9 EC50     472 | relax 0.03-10uM 8/18/26/39/53/56
+  exp5: authors Emax   54.9 EC50     360 | 4p Emax   54.9 EC50     358 nH 1.52 | 3p Emax   56.6 EC50     336 | relax 0.03-10uM 7/8/27/45/53/55
+
+('eve_ctrl', 'ach'):
+  exp1: authors Emax   72.1 EC50     190 | 4p Emax   72.1 EC50     193 nH 0.74 | 3p Emax   71.8 EC50     194 | relax 0.03-10uM 14/27/43/54/64/69
+  exp2: authors Emax   44.3 EC50      74 | 4p Emax   44.3 EC50      74 nH 1.14 | 3p Emax   43.9 EC50      78 | relax 0.03-10uM 9/28/35/40/43/47
+  exp3: authors Emax   68.9 EC50     140 | 4p Emax   68.9 EC50     135 nH 1.53 | 3p Emax   69.0 EC50     133 | relax 0.03-10uM 6/28/53/66/68/70
+  exp4: authors Emax   54.4 EC50     190 | 4p Emax   54.4 EC50     185 nH 1.50 | 3p Emax   54.3 EC50     186 | relax 0.03-10uM 4/15/36/52/52/55
+  exp5: authors Emax   46.1 EC50     200 | 4p Emax   46.1 EC50     199 nH 1.09 | 3p Emax   46.0 EC50     202 | relax 0.03-10uM 5/15/27/40/44/45
+
+('eve_2', 'ach'):
+  exp1: authors Emax   83.8 EC50     150 | 4p Emax   90.7 EC50     152 nH 0.46 | 3p Emax   83.3 EC50     165 | relax 0.03-10uM 25/35/50/61/71/78  <-- differs
+  exp2: authors Emax   76.5 EC50     160 | 4p Emax   76.4 EC50     156 nH 0.88 | 3p Emax   75.4 EC50     163 | relax 0.03-10uM 8/35/48/59/73/76
+  exp3: authors Emax   66.3 EC50     210 | 4p Emax   66.3 EC50     209 nH 1.26 | 3p Emax   66.5 EC50     206 | relax 0.03-10uM 5/20/41/58/63/66
+  exp4: authors Emax   55.7 EC50     130 | 4p Emax   55.7 EC50     134 nH 1.37 | 3p Emax   55.8 EC50     133 | relax 0.03-10uM 5/22/43/49/56/57
+  exp5: authors Emax   37.8 EC50     190 | 4p Emax   37.8 EC50     193 nH 1.04 | 3p Emax   37.8 EC50     194 | relax 0.03-10uM 4/13/22/33/37/36
+
+('eve_20', 'ach'):
+  exp1: authors Emax   73.9 EC50     370 | 4p Emax   73.9 EC50     368 nH 0.55 | 3p Emax   73.6 EC50     366 | relax 0.03-10uM 16/24/33/47/58/62
+  exp2: authors Emax   62.1 EC50     170 | 4p Emax   62.0 EC50     165 nH 1.07 | 3p Emax   61.7 EC50     169 | relax 0.03-10uM 6/24/40/54/58/63
+  exp3: authors Emax   65.1 EC50     120 | 4p Emax   65.1 EC50     120 nH 1.27 | 3p Emax   65.5 EC50     115 | relax 0.03-10uM 12/28/51/61/64/65
+  exp4: authors Emax   52.8 EC50      92 | 4p Emax   52.9 EC50      92 nH 0.99 | 3p Emax   53.4 EC50      87 | relax 0.03-10uM 15/27/42/48/51/52
+  exp5: authors Emax   48.2 EC50     270 | 4p Emax   48.2 EC50     271 nH 1.23 | 3p Emax   48.3 EC50     268 | relax 0.03-10uM 3/11/27/39/47/47
+
+('eve_undil', 'dea'):
+  exp1: authors Emax   94.3 EC50      25 | 4p Emax   94.3 EC50      25 nH 1.37 | 3p Emax   94.1 EC50      26 | relax 0.03-10uM 58/77/87/94/97/97
+  exp2: authors Emax   97.9 EC50      40 | 4p Emax   97.9 EC50      40 nH 1.22 | 3p Emax   97.8 EC50      40 | relax 0.03-10uM 37/77/88/95/98/98
+  exp3: authors Emax   97.5 EC50      40 | 4p Emax   97.5 EC50      40 nH 1.31 | 3p Emax   97.0 EC50      43 | relax 0.03-10uM 40/74/87/95/99/100
+  exp4: authors Emax   99.4 EC50      81 | 4p Emax   97.6 EC50      81 nH 1.23 | 3p Emax   97.1 EC50      84 | relax 0.03-10uM 17/60/76/92/97/99  <-- differs
+  exp5: authors Emax   98.9 EC50      48 | 4p Emax   98.9 EC50      48 nH 1.29 | 3p Emax   98.9 EC50      48 | relax 0.03-10uM 33/73/90/97/99/98
+
+('hte_ctrl', 'ach'):
+  exp1: authors Emax   76.7 EC50     110 | 4p Emax   76.7 EC50     106 nH 0.95 | 3p Emax   75.8 EC50     111 | relax 0.03-10uM 13/40/55/64/74/78
+  exp2: authors Emax   71.5 EC50     140 | 4p Emax   71.5 EC50     137 nH 1.09 | 3p Emax   72.5 EC50     127 | relax 0.03-10uM 14/30/51/67/69/70
+  exp3: authors Emax   48.5 EC50     170 | 4p Emax   48.6 EC50     165 nH 0.98 | 3p Emax   49.0 EC50     160 | relax 0.03-10uM 7/20/31/41/45/48
+  exp4: authors Emax   61.8 EC50      37 | 4p Emax   61.7 EC50      37 nH 0.86 | 3p Emax   60.8 EC50      43 | relax 0.03-10uM 25/43/51/57/60/63
+  exp5: authors Emax   57.7 EC50     160 | 4p Emax   57.7 EC50     162 nH 1.48 | 3p Emax   57.4 EC50     169 | relax 0.03-10uM 0/20/39/55/55/59
+
+('hte_undil', 'dea'):
+  exp1: authors Emax   93.1 EC50      33 | 4p Emax   93.0 EC50      33 nH 1.12 | 3p Emax   92.6 EC50      35 | relax 0.03-10uM 46/69/86/92/91/94
+  exp2: authors Emax   93.3 EC50      35 | 4p Emax   93.3 EC50      35 nH 1.42 | 3p Emax   93.2 EC50      36 | relax 0.03-10uM 41/78/84/92/95/96
+  exp3: authors Emax   99.9 EC50     120 | 4p Emax   99.9 EC50     119 nH 1.17 | 3p Emax   99.6 EC50     122 | relax 0.03-10uM 11/50/70/93/99/99
+  exp4: authors Emax   96.8 EC50      67 | 4p Emax   98.3 EC50      54 nH 1.25 | 3p Emax   98.3 EC50      53 | relax 0.03-10uM 29/72/84/95/99/100  <-- differs
+  exp5: authors Emax   98.3 EC50     540 | 4p Emax   89.6 EC50      71 nH 1.95 | 3p Emax   89.3 EC50      72 | relax 0.03-10uM 10/62/77/87/92/95  <-- differs
+
+('hte_2', 'dea'):
+  exp1: authors Emax   98.0 EC50      65 | 4p Emax   98.1 EC50      64 nH 1.74 | 3p Emax   98.1 EC50      64 | relax 0.03-10uM 19/70/87/97/99/100
+  exp2: authors Emax   91.7 EC50      40 | 4p Emax   91.6 EC50      40 nH 2.11 | 3p Emax   91.7 EC50      40 | relax 0.03-10uM 32/81/87/91/93/93
+  exp3: authors Emax   93.5 EC50     100 | 4p Emax   93.4 EC50     103 nH 1.02 | 3p Emax   92.8 EC50     107 | relax 0.03-10uM 17/48/69/82/92/94
+  exp4: authors Emax   98.9 EC50     100 | 4p Emax   98.9 EC50     103 nH 1.15 | 3p Emax   98.8 EC50     104 | relax 0.03-10uM 16/50/76/91/97/99
+  exp5: authors Emax  100.0 EC50     230 | 4p Emax  100.5 EC50     225 nH 0.83 | 3p Emax  100.4 EC50     226 | relax 0.03-10uM 19/34/48/85/91/93
+
+('hte_20', 'dea'):
+  exp1: authors Emax  100.0 EC50     110 | 4p Emax  100.6 EC50     107 nH 0.79 | 3p Emax  100.2 EC50     109 | relax 0.03-10uM 29/50/64/90/94/96
+  exp2: authors Emax   88.8 EC50      47 | 4p Emax   88.9 EC50      47 nH 1.61 | 3p Emax   88.8 EC50      48 | relax 0.03-10uM 27/71/79/87/91/92
+  exp3: authors Emax   93.0 EC50     120 | 4p Emax   93.0 EC50     117 nH 1.54 | 3p Emax   92.9 EC50     118 | relax 0.03-10uM 7/42/76/84/93/97
+  exp4: authors Emax   94.6 EC50      35 | 4p Emax   94.5 EC50      35 nH 1.40 | 3p Emax   94.4 EC50      36 | relax 0.03-10uM 41/78/86/93/96/96
+  exp5: authors Emax   97.4 EC50     120 | 4p Emax   97.4 EC50     117 nH 1.69 | 3p Emax   97.7 EC50     114 | relax 0.03-10uM 7/45/81/93/97/99

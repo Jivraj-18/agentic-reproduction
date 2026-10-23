@@ -1,0 +1,862 @@
+{
+ "published_tokens": 96,
+ "answer_values": 0,
+ "unsearchable_cells": [],
+ "sandboxes": {
+  "r_opus": {
+   "inputs": [
+    {
+     "file": "methods.json",
+     "token": "95",
+     "cells": [
+      "cse_3|dea_ec50",
+      "eve_2|dea_emax",
+      "hte_20|dea_emax"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "methods.json",
+     "token": "50",
+     "cells": [
+      "eve_undil|ach_emax",
+      "hte_ctrl|ach_lo"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "methods.json",
+     "token": "100",
+     "cells": [
+      "eve_20|dea_hi"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "37",
+     "cells": [
+      "hte_undil|ach_emax",
+      "hte_20|dea_lo"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "90",
+     "cells": [
+      "hte_2|dea_ec50"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "template.json",
+     "token": "95",
+     "cells": [
+      "cse_3|dea_ec50",
+      "eve_2|dea_emax",
+      "hte_20|dea_emax"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "template.json",
+     "token": "50",
+     "cells": [
+      "eve_undil|ach_emax",
+      "hte_ctrl|ach_lo"
+     ],
+     "hits": 60
+    }
+   ],
+   "data": [
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "59",
+     "cells": [
+      "cse_ctrl|ach_emax"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "94",
+     "cells": [
+      "cse_ctrl|ach_lo",
+      "cse_ctrl|dea_hi",
+      "hte_ctrl|dea_emax"
+     ],
+     "hits": 20
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "96",
+     "cells": [
+      "cse_ctrl|dea_emax",
+      "eve_ctrl|dea_emax",
+      "hte_undil|dea_emax",
+      "hte_2|dea_emax"
+     ],
+     "hits": 31
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "60",
+     "cells": [
+      "cse_ctrl|dea_ec50",
+      "eve_20|ach_emax"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "38",
+     "cells": [
+      "cse_ctrl|dea_lo"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "17",
+     "cells": [
+      "cse_3|ach_emax"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "97",
+     "cells": [
+      "cse_3|dea_emax",
+      "cse_200|dea_emax"
+     ],
+     "hits": 37
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "95",
+     "cells": [
+      "cse_3|dea_ec50",
+      "eve_2|dea_emax",
+      "hte_20|dea_emax"
+     ],
+     "hits": 24
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "49",
+     "cells": [
+      "cse_3|dea_lo",
+      "hte_2|ach_emax"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "34",
+     "cells": [
+      "cse_20|ach_emax",
+      "eve_20|dea_lo"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "93",
+     "cells": [
+      "cse_20|ach_lo"
+     ],
+     "hits": 22
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "98",
+     "cells": [
+      "cse_20|dea_emax",
+      "eve_undil|dea_emax"
+     ],
+     "hits": 58
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "69",
+     "cells": [
+      "cse_20|dea_ec50"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "29",
+     "cells": [
+      "cse_20|dea_lo"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "56",
+     "cells": [
+      "cse_200|ach_emax"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "80",
+     "cells": [
+      "cse_200|dea_ec50"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "43",
+     "cells": [
+      "cse_200|dea_lo"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "57",
+     "cells": [
+      "eve_ctrl|ach_emax"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "89",
+     "cells": [
+      "eve_ctrl|ach_lo",
+      "eve_20|ach_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "63",
+     "cells": [
+      "eve_ctrl|dea_ec50",
+      "hte_ctrl|ach_emax"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "28",
+     "cells": [
+      "eve_ctrl|dea_lo"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "50",
+     "cells": [
+      "eve_undil|ach_emax",
+      "hte_ctrl|ach_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "67",
+     "cells": [
+      "eve_undil|ach_lo"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "44",
+     "cells": [
+      "eve_undil|dea_ec50"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "26",
+     "cells": [
+      "eve_undil|dea_lo"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "74",
+     "cells": [
+      "eve_undil|dea_hi"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "64",
+     "cells": [
+      "eve_2|ach_emax",
+      "hte_20|ach_emax"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "53",
+     "cells": [
+      "eve_2|dea_ec50"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "21",
+     "cells": [
+      "eve_2|dea_lo",
+      "hte_undil|dea_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "99",
+     "cells": [
+      "eve_20|dea_emax"
+     ],
+     "hits": 105
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "58",
+     "cells": [
+      "eve_20|dea_ec50"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "100",
+     "cells": [
+      "eve_20|dea_hi"
+     ],
+     "hits": 63
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "46",
+     "cells": [
+      "hte_ctrl|dea_ec50"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "19",
+     "cells": [
+      "hte_ctrl|dea_lo"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "37",
+     "cells": [
+      "hte_undil|ach_emax",
+      "hte_20|dea_lo"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "84",
+     "cells": [
+      "hte_undil|ach_lo"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "87",
+     "cells": [
+      "hte_undil|dea_ec50"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "62",
+     "cells": [
+      "hte_2|ach_lo"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "90",
+     "cells": [
+      "hte_2|dea_ec50"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "41",
+     "cells": [
+      "hte_2|dea_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "54",
+     "cells": [
+      "hte_20|ach_lo"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "76",
+     "cells": [
+      "hte_20|dea_ec50"
+     ],
+     "hits": 4
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 78,
+   "answers_hits": 0,
+   "data_hits": 570
+  },
+  "r_sonnet": {
+   "inputs": [
+    {
+     "file": "methods.json",
+     "token": "95",
+     "cells": [
+      "cse_3|dea_ec50",
+      "eve_2|dea_emax",
+      "hte_20|dea_emax"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "methods.json",
+     "token": "50",
+     "cells": [
+      "eve_undil|ach_emax",
+      "hte_ctrl|ach_lo"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "methods.json",
+     "token": "100",
+     "cells": [
+      "eve_20|dea_hi"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "37",
+     "cells": [
+      "hte_undil|ach_emax",
+      "hte_20|dea_lo"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "methods.json",
+     "token": "90",
+     "cells": [
+      "hte_2|dea_ec50"
+     ],
+     "hits": 1
+    },
+    {
+     "file": "template.json",
+     "token": "95",
+     "cells": [
+      "cse_3|dea_ec50",
+      "eve_2|dea_emax",
+      "hte_20|dea_emax"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "template.json",
+     "token": "50",
+     "cells": [
+      "eve_undil|ach_emax",
+      "hte_ctrl|ach_lo"
+     ],
+     "hits": 60
+    }
+   ],
+   "data": [
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "59",
+     "cells": [
+      "cse_ctrl|ach_emax"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "94",
+     "cells": [
+      "cse_ctrl|ach_lo",
+      "cse_ctrl|dea_hi",
+      "hte_ctrl|dea_emax"
+     ],
+     "hits": 20
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "96",
+     "cells": [
+      "cse_ctrl|dea_emax",
+      "eve_ctrl|dea_emax",
+      "hte_undil|dea_emax",
+      "hte_2|dea_emax"
+     ],
+     "hits": 31
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "60",
+     "cells": [
+      "cse_ctrl|dea_ec50",
+      "eve_20|ach_emax"
+     ],
+     "hits": 12
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "38",
+     "cells": [
+      "cse_ctrl|dea_lo"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "17",
+     "cells": [
+      "cse_3|ach_emax"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "97",
+     "cells": [
+      "cse_3|dea_emax",
+      "cse_200|dea_emax"
+     ],
+     "hits": 37
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "95",
+     "cells": [
+      "cse_3|dea_ec50",
+      "eve_2|dea_emax",
+      "hte_20|dea_emax"
+     ],
+     "hits": 24
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "49",
+     "cells": [
+      "cse_3|dea_lo",
+      "hte_2|ach_emax"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "34",
+     "cells": [
+      "cse_20|ach_emax",
+      "eve_20|dea_lo"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "93",
+     "cells": [
+      "cse_20|ach_lo"
+     ],
+     "hits": 22
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "98",
+     "cells": [
+      "cse_20|dea_emax",
+      "eve_undil|dea_emax"
+     ],
+     "hits": 58
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "69",
+     "cells": [
+      "cse_20|dea_ec50"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "29",
+     "cells": [
+      "cse_20|dea_lo"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "56",
+     "cells": [
+      "cse_200|ach_emax"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "80",
+     "cells": [
+      "cse_200|dea_ec50"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "43",
+     "cells": [
+      "cse_200|dea_lo"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "57",
+     "cells": [
+      "eve_ctrl|ach_emax"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "89",
+     "cells": [
+      "eve_ctrl|ach_lo",
+      "eve_20|ach_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "63",
+     "cells": [
+      "eve_ctrl|dea_ec50",
+      "hte_ctrl|ach_emax"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "28",
+     "cells": [
+      "eve_ctrl|dea_lo"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "50",
+     "cells": [
+      "eve_undil|ach_emax",
+      "hte_ctrl|ach_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "67",
+     "cells": [
+      "eve_undil|ach_lo"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "44",
+     "cells": [
+      "eve_undil|dea_ec50"
+     ],
+     "hits": 3
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "26",
+     "cells": [
+      "eve_undil|dea_lo"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "74",
+     "cells": [
+      "eve_undil|dea_hi"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "64",
+     "cells": [
+      "eve_2|ach_emax",
+      "hte_20|ach_emax"
+     ],
+     "hits": 4
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "53",
+     "cells": [
+      "eve_2|dea_ec50"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "21",
+     "cells": [
+      "eve_2|dea_lo",
+      "hte_undil|dea_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "99",
+     "cells": [
+      "eve_20|dea_emax"
+     ],
+     "hits": 105
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "58",
+     "cells": [
+      "eve_20|dea_ec50"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "100",
+     "cells": [
+      "eve_20|dea_hi"
+     ],
+     "hits": 63
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "46",
+     "cells": [
+      "hte_ctrl|dea_ec50"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "19",
+     "cells": [
+      "hte_ctrl|dea_lo"
+     ],
+     "hits": 2
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "37",
+     "cells": [
+      "hte_undil|ach_emax",
+      "hte_20|dea_lo"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "84",
+     "cells": [
+      "hte_undil|ach_lo"
+     ],
+     "hits": 6
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "87",
+     "cells": [
+      "hte_undil|dea_ec50"
+     ],
+     "hits": 10
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "62",
+     "cells": [
+      "hte_2|ach_lo"
+     ],
+     "hits": 7
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "90",
+     "cells": [
+      "hte_2|dea_ec50"
+     ],
+     "hits": 9
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "41",
+     "cells": [
+      "hte_2|dea_lo"
+     ],
+     "hits": 8
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "54",
+     "cells": [
+      "hte_20|ach_lo"
+     ],
+     "hits": 5
+    },
+    {
+     "file": "data\\aorta_crc.csv",
+     "token": "76",
+     "cells": [
+      "hte_20|dea_ec50"
+     ],
+     "hits": 4
+    }
+   ],
+   "answers": [],
+   "inputs_hits": 78,
+   "answers_hits": 0,
+   "data_hits": 570
+  }
+ },
+ "pass": false
+}

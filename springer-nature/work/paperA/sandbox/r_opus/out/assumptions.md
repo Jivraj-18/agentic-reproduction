@@ -1,0 +1,12 @@
+# Assumptions
+
+- **M2 (missing data, % denominator)**: Percentages use the whole randomised group (126) as denominator; chi-square p values use complete cases only (rows coded `md`, e.g. 4 for ATB, are dropped). Why: tables of baseline characteristics normally report n/N with N = group size, and the paper's complete-case statement concerns the analysis. Rejected: dividing by the number with a recorded value (only changes ATB and the viral rows, where NIV has 2 samples not available).
+- **M3 (sedation N, %)**: A patient counts as sedated when `SDu` holds a number of days; `nc` (not calculated / empty) means no sedation. Why: `SDu` is the only sedation field, and `nc` is the code for an empty cell. Rejected: treating `nc` as missing (which would make every recorded patient "sedated" = 100%).
+- **M3 (duration rows)**: Sedation days, nasogastric/enteral tube days (`ETu`) and IMV days (`MV`) are summarised among patients with a numeric value only (`nc` = did not receive it, `md` = missing, both excluded). Why: a duration median is only meaningful among those exposed, and this matches complete-case analysis. Rejected: coding `nc` as 0 days. One non-intubated patient has MV = 2 and is kept as recorded.
+- **M3 ("initial" values)**: Initial FiO2, WDF and SpO2 are the 0 h readings (`FiO2_0`, `WD_0`, `SpO2_0`); FiO2 kept in percent as in the deposit. Rejected: none plausible.
+- **M3 (NIV/HFNC duration)**: `TD` in hours; one value written `17h` is parsed as 17.
+- **PIM 2**: `md` and `nc` values excluded (complete case); mean (SD) with n-1 SD.
+- **S1 (tests)**: Mann-Whitney uses R `wilcox.test` defaults for tied data: normal approximation, tie-corrected variance, continuity correction (scipy `mannwhitneyu(method="asymptotic", use_continuity=True)`); mean (SD) rows also use Mann-Whitney (the paper names only Wilcoxon and chi-square). Chi-square for 2x2 tables uses Yates' correction (R `chisq.test` default). Rejected: exact Mann-Whitney (R cannot compute it with ties), t-test for mean rows, uncorrected chi-square.
+- **S2 (IQR quantiles)**: R default type 7 (linear interpolation, numpy `method="linear"`). Rejected: type 6 / other definitions.
+- **Viral panel rows**: A patient counts for a virus if its code appears anywhere in the comma-separated `VP` list (co-infections count for each virus); `Pa` = parainfluenza 3/4. Rows with `VP` blank (sample not available, 2 NIV) count as not positive, denominator 126. The template has no p for viral rows, so none computed.
+- **Stars**: The table has no star legend; `stars` set to "" for every cell.

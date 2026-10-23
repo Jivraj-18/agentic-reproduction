@@ -1,0 +1,80 @@
+{
+  "paper": "B",
+  "research_question": {
+    "id": "RQ",
+    "text": "Do aqueous extracts of tobacco smoke (CSE), e-cigarette vapour (EVE) and heated tobacco aerosol (HTE) impair endothelium-dependent relaxation? Table 2: rat aorta relaxation to acetylcholine (endothelium-dependent) and DEA/NO (NO donor) after 24 h incubation with each extract.",
+    "source_sentence": "Rings with intact endothelium obtained from one vessel were preincubated in DMEM alone or different CSE, EVE, or HTE dilutions for 24 h at 37 °C and 5% CO2.",
+    "gap": false
+  },
+  "setting": {
+    "id": "SET",
+    "population": "Rat aortic rings, 5 experiments per treatment; three extract series (CSE, EVE, HTE), each with its own DMEM control.",
+    "period": "Not relevant.",
+    "site": "Isometric tension, organ baths.",
+    "source_sentence": "Rings were randomly assigned to the different incubation protocols to avoid any systematic effects due to the repeated use of similar vessel segments.",
+    "gap": false
+  },
+  "data_sources": [
+    {
+      "id": "D1",
+      "name": "Zenodo deposit by the authors",
+      "summary": "Per experiment: tension remaining (% of precontraction) at 9 concentrations of acetylcholine and of DEA/NO, for every treatment of the CSE, EVE and HTE series.",
+      "source_sentence": "Cumulative concentration–response curves to acetylcholine (1 nM–10 µM) or DEA/NO (1 nM–10 µM) were performed with rings that had been pre-contracted with 9,11-dideoxy-9α,11α-epoxy-methanoprostaglandin F2α (U-46619;~90% of maximal contraction).",
+      "gap": false
+    }
+  ],
+  "general_manipulations": [
+    {
+      "id": "M1",
+      "description": "Relaxation is expressed as percent reversal of the U-46619 precontraction (relaxation % = 100 − tension remaining as % of precontraction).",
+      "source_sentence": "Relaxation responses are expressed as percent reversal of U-46619 or K+-induced precontraction.",
+      "gap": false
+    },
+    {
+      "id": "M2",
+      "description": "Curves from different rings of one animal are averaged and counted as one experiment (the deposit already holds one curve per experiment).",
+      "source_sentence": "Concentration–response curves of dif­ferent ring segments from a single animal were averaged and counted as an individual experiment.",
+      "gap": false
+    }
+  ],
+  "tables": [
+    {
+      "id": "T2",
+      "name": "Table 2",
+      "caption": "Effects of CSE, EVE, and HTE on relaxation of rat aortas to acetylcholine and DEA/NO. Data shown are mean values±SEM (Emax) or mean values with 95% confidence interval (EC50) from 5 experiments. *p<0.05 vs. control as determined by ANOVA and Dunnett’s post hoc test.",
+      "row_labels": [],
+      "column_labels": [],
+      "table_specific_filters": [],
+      "specification": [
+        {
+          "id": "S1",
+          "description": "Emax (maximal relaxation, %) and EC50 are obtained by fitting each concentration-response curve to a Hill-type model.",
+          "source_sentence": "Maximal effects (Emax and vmax) and half-maximal effective concentrations (EC50 values) were obtained by fitting concentration–response curves to a Hill-type model using Kaleidagraph (Synergy Software, version 4.5).",
+          "software": "Kaleidagraph 4.5",
+          "gap": true,
+          "gap_note": "The exact Hill-type equation (whether the baseline is fixed at 0 % relaxation, whether the Hill slope is free), and whether each experiment's curve is fitted separately or the mean curve is fitted, are not stated."
+        },
+        {
+          "id": "S2",
+          "description": "Emax: mean ± SEM over the 5 experiments.",
+          "source_sentence": "Results are presented as mean values±SEM of n experiments.",
+          "gap": false
+        },
+        {
+          "id": "S3",
+          "description": "EC50: geometric mean over the 5 experiments with its 95% confidence limits.",
+          "source_sentence": "EC50 values are reported as geometric means with 95% confidence limits.",
+          "gap": true,
+          "gap_note": "How the 95% limits are computed (t or normal quantile on the log EC50s, which log base) is not stated."
+        },
+        {
+          "id": "S4",
+          "description": "Each treatment is compared with its series' control by one-way ANOVA with Dunnett's post hoc test; * marks p < 0.05.",
+          "source_sentence": "Paired Student’s t-test or analysis of variance (ANOVA) with Dunnett’s post hoc test was used to compare groups using Kaleidagraph software.",
+          "gap": true,
+          "gap_note": "Which test applies to which comparison is not stated beyond the table caption (ANOVA and Dunnett vs control)."
+        }
+      ]
+    }
+  ]
+}
